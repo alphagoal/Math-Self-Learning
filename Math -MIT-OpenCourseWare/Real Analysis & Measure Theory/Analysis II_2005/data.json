@@ -1,0 +1,23 @@
+{
+  "course_title":"Analysis II",
+  "course_description":"This course continues from Analysis I (18.100B), in the direction of manifolds and global analysis. The first half of the course covers multivariable calculus. The rest of the course covers the theory of differential forms in n-dimensional vector spaces and manifolds.\n",
+  "course_description_html":"This course continues from Analysis I (18.100B), in the direction of manifolds and global analysis. The first half of the course covers multivariable calculus. The rest of the course covers the theory of differential forms in n-dimensional vector spaces and manifolds.",
+  "site_uid":"42a169b4-65e1-4c3e-a7bf-5d3b24293db1",
+  "legacy_uid":"114ebe16-b348-3f29-64a6-740ab51249ec","instructors": [{
+    "first_name":"Victor",
+    "last_name":"Guillemin",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Victor Guillemin"}],"department_numbers":["18"],
+  "learning_resource_types":["Lecture Notes"],
+  "topics":[["Mathematics","Topology and Geometry"],["Mathematics","Calculus"],["Mathematics","Mathematical Analysis"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"18.101",
+  "extra_course_numbers":"",
+  "term":"Fall",
+  "year":"2005",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/d6cb407b899efae9c3d1f5d19af09815_18-101f05.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"There exists a sequence of rectangles, Ri, i = 0; : : : ; N + 1 such that R0 = Q0, RN+1 = Q and Int Ri \\ Int Ri+1 is non-empty. (Figure by Prof. Victor Guillemin.)","draft":false,"file":"/courses/18-101-analysis-ii-fall-2005/d6cb407b899efae9c3d1f5d19af09815_18-101f05.jpg","file_size":51855,"file_type":"image/jpeg","image_metadata":{"caption":"There exists a sequence of rectangles, Rᵢ, i = 0, …, n + 1 such that R₀ = Q₀, Rₙ₊₁ = Q and Int Rᵢ -intersect- Int Rᵢ₊₁ is non-empty. (Figure by Prof. Victor Guillemin.)","credit":"","image-alt":"Image of a sequence of rectangles."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"18-101f05.jpg","uid":"d6cb407b-899e-fae9-c3d1-f5d19af09815","video_files":{"video_captions_file":"","video_thumbnail_file":"","video_transcript_file":""},"video_metadata":{"video_speakers":"","video_tags":"","youtube_description":"","youtube_id":""}}}
+

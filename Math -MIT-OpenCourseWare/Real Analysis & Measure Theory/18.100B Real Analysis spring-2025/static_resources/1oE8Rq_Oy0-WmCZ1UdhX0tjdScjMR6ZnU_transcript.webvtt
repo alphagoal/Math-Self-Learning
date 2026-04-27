@@ -1,0 +1,4022 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.490 align:middle line:90%
+[SQUEAKING]
+
+00:00:02.490 --> 00:00:04.482 align:middle line:90%
+[RUSTLING]
+
+00:00:04.482 --> 00:00:06.972 align:middle line:90%
+[CLICKING]
+
+00:00:06.972 --> 00:00:13.460 align:middle line:90%
+
+
+00:00:13.460 --> 00:00:19.230 align:middle line:84%
+TOBIAS COLDING: So last time,
+we looked at power series.
+
+00:00:19.230 --> 00:00:23.210 align:middle line:90%
+
+
+00:00:23.210 --> 00:00:27.620 align:middle line:90%
+So you have a sequence a n--
+
+00:00:27.620 --> 00:00:28.495 align:middle line:90%
+is a sequence.
+
+00:00:28.495 --> 00:00:31.100 align:middle line:90%
+
+
+00:00:31.100 --> 00:00:39.170 align:middle line:84%
+And then for each x, you
+form the new series--
+
+00:00:39.170 --> 00:00:40.210 align:middle line:90%
+you form the series.
+
+00:00:40.210 --> 00:00:46.910 align:middle line:90%
+
+
+00:00:46.910 --> 00:00:51.600 align:middle line:84%
+And the series is with an
+a n times x to the power n.
+
+00:00:51.600 --> 00:00:55.230 align:middle line:84%
+And then you're summing-- you
+decide somewhere to start,
+
+00:00:55.230 --> 00:00:59.280 align:middle line:84%
+and then you're summing
+to infinity like that.
+
+00:00:59.280 --> 00:01:02.370 align:middle line:84%
+So something like this--
+that's a power series.
+
+00:01:02.370 --> 00:01:06.630 align:middle line:84%
+And we looked at a
+particular case where
+
+00:01:06.630 --> 00:01:13.530 align:middle line:84%
+the a n's-- so example here is
+where a n is equal to 1 over n
+
+00:01:13.530 --> 00:01:15.480 align:middle line:90%
+factorial.
+
+00:01:15.480 --> 00:01:20.380 align:middle line:84%
+And so we got the
+function E of x,
+
+00:01:20.380 --> 00:01:26.970 align:middle line:84%
+which is the sum from n equal to
+0 to infinity of x to the power
+
+00:01:26.970 --> 00:01:31.500 align:middle line:90%
+n divided by n factorial.
+
+00:01:31.500 --> 00:01:40.330 align:middle line:90%
+And then we used this to--
+
+00:01:40.330 --> 00:01:46.860 align:middle line:84%
+we observed that E is
+bigger or equal to 0
+
+00:01:46.860 --> 00:01:51.570 align:middle line:90%
+for x bigger or equal to 0.
+
+00:01:51.570 --> 00:02:00.770 align:middle line:84%
+And we also observed that
+E of 0 is equal to 1.
+
+00:02:00.770 --> 00:02:08.570 align:middle line:84%
+And we defined literally to
+be e this function E of 1.
+
+00:02:08.570 --> 00:02:16.550 align:middle line:84%
+And then we defined another
+function E to the q,
+
+00:02:16.550 --> 00:02:23.130 align:middle line:84%
+where q here is now
+a rational number.
+
+00:02:23.130 --> 00:02:25.590 align:middle line:90%
+And it was defined--
+
+00:02:25.590 --> 00:02:30.740 align:middle line:84%
+in particular, E of 0 was
+defined to be equal to 1.
+
+00:02:30.740 --> 00:02:39.170 align:middle line:84%
+E of 1 was just defined
+to be [INAUDIBLE].
+
+00:02:39.170 --> 00:02:43.310 align:middle line:84%
+Then we also-- we assumed,
+which we will prove today,
+
+00:02:43.310 --> 00:02:55.580 align:middle line:84%
+that capital E of x plus y is
+equal to E of x times E of 1.
+
+00:02:55.580 --> 00:02:56.990 align:middle line:90%
+So we assume that.
+
+00:02:56.990 --> 00:03:04.230 align:middle line:90%
+
+
+00:03:04.230 --> 00:03:05.860 align:middle line:90%
+And then we defined--
+
+00:03:05.860 --> 00:03:10.950 align:middle line:84%
+so this function based
+on the little e--
+
+00:03:10.950 --> 00:03:16.530 align:middle line:84%
+in particular, e to some
+power m if m is an integer--
+
+00:03:16.530 --> 00:03:20.735 align:middle line:90%
+is just e times itself m times.
+
+00:03:20.735 --> 00:03:25.620 align:middle line:90%
+
+
+00:03:25.620 --> 00:03:38.550 align:middle line:84%
+And then we defined e to a power
+1/n here to be the positive
+
+00:03:38.550 --> 00:03:55.360 align:middle line:84%
+number, as it was defined to be
+a positive number so that alpha
+
+00:03:55.360 --> 00:03:59.608 align:middle line:84%
+raised to the power
+n is equal to e.
+
+00:03:59.608 --> 00:04:02.890 align:middle line:90%
+
+
+00:04:02.890 --> 00:04:09.820 align:middle line:84%
+And we also defined e
+to a negative integer.
+
+00:04:09.820 --> 00:04:12.310 align:middle line:84%
+And this was just
+to be defined to 1
+
+00:04:12.310 --> 00:04:19.810 align:middle line:84%
+over-- so we defined e to
+minus m to 1 over e to the n.
+
+00:04:19.810 --> 00:04:23.650 align:middle line:90%
+So this way, we defined--
+
+00:04:23.650 --> 00:04:29.230 align:middle line:84%
+this function here-- the power
+series was defined for all x.
+
+00:04:29.230 --> 00:04:33.880 align:middle line:84%
+And we defined another
+function little e of q
+
+00:04:33.880 --> 00:04:37.030 align:middle line:90%
+on all rational numbers q.
+
+00:04:37.030 --> 00:04:40.090 align:middle line:90%
+And then we saw--
+
+00:04:40.090 --> 00:04:41.710 align:middle line:90%
+we assumed this here.
+
+00:04:41.710 --> 00:04:45.980 align:middle line:84%
+We saw that these
+two functions--
+
+00:04:45.980 --> 00:04:51.910 align:middle line:90%
+so E of x is equal to e.
+
+00:04:51.910 --> 00:04:55.100 align:middle line:84%
+This function here is only
+defined on rational numbers,
+
+00:04:55.100 --> 00:05:01.550 align:middle line:84%
+so they're equal for
+rational numbers.
+
+00:05:01.550 --> 00:05:04.090 align:middle line:90%
+So we saw that.
+
+00:05:04.090 --> 00:05:08.800 align:middle line:90%
+And then in the psets--
+
+00:05:08.800 --> 00:05:12.610 align:middle line:84%
+pset 5-- I think it's
+for both of them--
+
+00:05:12.610 --> 00:05:13.940 align:middle line:90%
+you will show--
+
+00:05:13.940 --> 00:05:16.250 align:middle line:84%
+Or maybe it's one
+for 4 and one for 5
+
+00:05:16.250 --> 00:05:18.086 align:middle line:90%
+to show that E is continuous.
+
+00:05:18.086 --> 00:05:23.950 align:middle line:90%
+
+
+00:05:23.950 --> 00:05:30.230 align:middle line:84%
+And you will also
+show that E is the--
+
+00:05:30.230 --> 00:05:32.350 align:middle line:84%
+so it would also
+show the following--
+
+00:05:32.350 --> 00:05:37.703 align:middle line:90%
+
+
+00:05:37.703 --> 00:05:40.180 align:middle line:90%
+that if you have--
+
+00:05:40.180 --> 00:05:45.816 align:middle line:84%
+if f and g are two
+continuous function--
+
+00:05:45.816 --> 00:05:54.580 align:middle line:90%
+
+
+00:05:54.580 --> 00:05:57.220 align:middle line:90%
+and so they are defined--
+
+00:05:57.220 --> 00:06:03.340 align:middle line:84%
+both of them-- both f and g are
+defined on the real numbers.
+
+00:06:03.340 --> 00:06:08.530 align:middle line:84%
+And you assume that
+if you restrict them
+
+00:06:08.530 --> 00:06:14.020 align:middle line:84%
+to the rational numbers, then
+the two functions are equal.
+
+00:06:14.020 --> 00:06:17.410 align:middle line:84%
+So if they're both
+continuous and they
+
+00:06:17.410 --> 00:06:20.440 align:middle line:84%
+agree on the rational
+numbers, then actually,
+
+00:06:20.440 --> 00:06:22.150 align:middle line:90%
+they must agree everywhere--
+
+00:06:22.150 --> 00:06:28.016 align:middle line:90%
+
+
+00:06:28.016 --> 00:06:39.610 align:middle line:84%
+on all of R. So in other
+words, this one here--
+
+00:06:39.610 --> 00:06:41.560 align:middle line:90%
+this is a function--
+
+00:06:41.560 --> 00:06:46.490 align:middle line:84%
+by pset 5, it's a function
+that's continuous on all of R.
+
+00:06:46.490 --> 00:06:49.270 align:middle line:90%
+It agrees with this function.
+
+00:06:49.270 --> 00:06:54.230 align:middle line:84%
+And so this is
+the only extension
+
+00:06:54.230 --> 00:06:58.370 align:middle line:84%
+of this function to be
+continuous and defined
+
+00:06:58.370 --> 00:07:01.430 align:middle line:90%
+on all of R.
+
+00:07:01.430 --> 00:07:05.270 align:middle line:84%
+So now-- but we still
+needed to prove--
+
+00:07:05.270 --> 00:07:08.810 align:middle line:84%
+we still needed to prove
+this relationship here
+
+00:07:08.810 --> 00:07:10.490 align:middle line:90%
+that we assumed.
+
+00:07:10.490 --> 00:07:12.810 align:middle line:84%
+So let's try to
+prove this one here.
+
+00:07:12.810 --> 00:07:17.270 align:middle line:84%
+And I will just do
+the main case of it.
+
+00:07:17.270 --> 00:07:19.960 align:middle line:84%
+And so we're going to
+prove-- so theorem--
+
+00:07:19.960 --> 00:07:22.640 align:middle line:90%
+
+
+00:07:22.640 --> 00:07:30.080 align:middle line:84%
+to prove that E of x times
+y is equal to E of x times E
+
+00:07:30.080 --> 00:07:31.670 align:middle line:90%
+to the y.
+
+00:07:31.670 --> 00:07:43.670 align:middle line:84%
+And I am going to show
+this proof in the case
+
+00:07:43.670 --> 00:07:50.610 align:middle line:84%
+where these are non-negative
+numbers, both of them.
+
+00:07:50.610 --> 00:07:52.420 align:middle line:90%
+The general case is--
+
+00:07:52.420 --> 00:07:55.090 align:middle line:84%
+once you have this, the general
+case is not very difficult,
+
+00:07:55.090 --> 00:07:59.040 align:middle line:90%
+but I won't do the general case.
+
+00:07:59.040 --> 00:08:02.200 align:middle line:84%
+Now, how are we
+going to prove that?
+
+00:08:02.200 --> 00:08:08.320 align:middle line:84%
+So to prove that, we're
+going to use another theorem.
+
+00:08:08.320 --> 00:08:10.630 align:middle line:90%
+So the other theorem is that--
+
+00:08:10.630 --> 00:08:12.125 align:middle line:90%
+so we take two--
+
+00:08:12.125 --> 00:08:15.600 align:middle line:90%
+
+
+00:08:15.600 --> 00:08:19.450 align:middle line:90%
+suppose you take two series.
+
+00:08:19.450 --> 00:08:24.720 align:middle line:84%
+Each of them are of
+non-negative numbers.
+
+00:08:24.720 --> 00:08:28.680 align:middle line:90%
+So the setup is--
+
+00:08:28.680 --> 00:08:31.500 align:middle line:84%
+so again, this is going
+to go into the proof
+
+00:08:31.500 --> 00:08:33.570 align:middle line:90%
+of that theorem over there.
+
+00:08:33.570 --> 00:08:39.090 align:middle line:84%
+But the setup for this
+theorem is more general.
+
+00:08:39.090 --> 00:08:48.355 align:middle line:84%
+I take a series a n, and
+I take another serious bn.
+
+00:08:48.355 --> 00:08:51.500 align:middle line:90%
+
+
+00:08:51.500 --> 00:08:58.640 align:middle line:84%
+And I'm assuming that
+both a n and bn for all n
+
+00:08:58.640 --> 00:09:05.060 align:middle line:90%
+are non-negative, so for all n.
+
+00:09:05.060 --> 00:09:08.250 align:middle line:84%
+So these are series of
+non-negative numbers.
+
+00:09:08.250 --> 00:09:12.260 align:middle line:90%
+And then I form another series.
+
+00:09:12.260 --> 00:09:22.670 align:middle line:84%
+We will form a third series,
+and that third series
+
+00:09:22.670 --> 00:09:27.880 align:middle line:84%
+is going to be defined from
+the two previous series.
+
+00:09:27.880 --> 00:09:29.820 align:middle line:90%
+And the third series--
+
+00:09:29.820 --> 00:09:34.140 align:middle line:90%
+let's call it cn like this.
+
+00:09:34.140 --> 00:09:46.590 align:middle line:84%
+And now cn here is going to
+be the sum of a i b n minus i,
+
+00:09:46.590 --> 00:09:49.860 align:middle line:90%
+i equal to 0 through n.
+
+00:09:49.860 --> 00:09:54.600 align:middle line:84%
+So this has the
+effect that the index
+
+00:09:54.600 --> 00:10:00.180 align:middle line:84%
+of this plus the index of
+that is always adding up to n.
+
+00:10:00.180 --> 00:10:05.325 align:middle line:84%
+So the sum of the two
+indices is exactly n.
+
+00:10:05.325 --> 00:10:08.160 align:middle line:90%
+
+
+00:10:08.160 --> 00:10:19.390 align:middle line:84%
+So that's-- so obviously-- so
+note that the cn's here are,
+
+00:10:19.390 --> 00:10:20.910 align:middle line:90%
+of course, also non-negative.
+
+00:10:20.910 --> 00:10:22.850 align:middle line:84%
+They're just sums of
+non-negative numbers.
+
+00:10:22.850 --> 00:10:26.032 align:middle line:90%
+
+
+00:10:26.032 --> 00:10:31.650 align:middle line:84%
+So this is a new series
+of non-negative numbers.
+
+00:10:31.650 --> 00:10:45.520 align:middle line:84%
+And then the theorem is
+that if this series here--
+
+00:10:45.520 --> 00:11:01.510 align:middle line:84%
+if this one here and this
+one here are convergent,
+
+00:11:01.510 --> 00:11:09.710 align:middle line:84%
+then this series here
+is also convergent.
+
+00:11:09.710 --> 00:11:15.860 align:middle line:90%
+
+
+00:11:15.860 --> 00:11:20.215 align:middle line:84%
+And we also have
+that this sum here--
+
+00:11:20.215 --> 00:11:23.699 align:middle line:90%
+
+
+00:11:23.699 --> 00:11:28.880 align:middle line:84%
+that this sum is just the
+product of the two sums.
+
+00:11:28.880 --> 00:11:43.242 align:middle line:84%
+So it's the product of
+the sum here, like that.
+
+00:11:43.242 --> 00:11:46.230 align:middle line:90%
+
+
+00:11:46.230 --> 00:11:50.290 align:middle line:84%
+So again, we have these two
+series of non-negative numbers.
+
+00:11:50.290 --> 00:11:53.620 align:middle line:84%
+From those two series,
+you form a third series.
+
+00:11:53.620 --> 00:11:55.540 align:middle line:90%
+And the third series--
+
+00:11:55.540 --> 00:11:58.440 align:middle line:84%
+the idea is that the
+third series is kind
+
+00:11:58.440 --> 00:12:00.780 align:middle line:90%
+of a product of the other two.
+
+00:12:00.780 --> 00:12:05.070 align:middle line:84%
+And the cn's in
+the third series is
+
+00:12:05.070 --> 00:12:09.195 align:middle line:84%
+given where you take
+the sum of the products
+
+00:12:09.195 --> 00:12:15.690 align:middle line:84%
+of the elements in the other
+two, so that the index is at n.
+
+00:12:15.690 --> 00:12:20.890 align:middle line:84%
+And then if the two series you
+started with are convergent,
+
+00:12:20.890 --> 00:12:26.010 align:middle line:84%
+then this product series
+is also convergent,
+
+00:12:26.010 --> 00:12:28.950 align:middle line:84%
+and the sum of
+the product series
+
+00:12:28.950 --> 00:12:34.852 align:middle line:84%
+is really the product of the
+sum of the other two series.
+
+00:12:34.852 --> 00:12:37.360 align:middle line:84%
+Now-- so that's why
+we want to prove.
+
+00:12:37.360 --> 00:12:39.750 align:middle line:84%
+And then once we
+have this we're going
+
+00:12:39.750 --> 00:12:43.840 align:middle line:84%
+to use it to prove
+this theorem here.
+
+00:12:43.840 --> 00:12:50.000 align:middle line:84%
+And so now, to prove it, let
+me just first observe that--
+
+00:12:50.000 --> 00:12:52.323 align:middle line:84%
+so let me observe
+over here that--
+
+00:12:52.323 --> 00:12:59.500 align:middle line:90%
+
+
+00:12:59.500 --> 00:13:02.750 align:middle line:84%
+so let me make a
+couple of definitions,
+
+00:13:02.750 --> 00:13:05.110 align:middle line:90%
+and then making an observation.
+
+00:13:05.110 --> 00:13:13.900 align:middle line:84%
+Let me start with making
+some definitions that
+
+00:13:13.900 --> 00:13:15.030 align:middle line:90%
+is useful in the proof.
+
+00:13:15.030 --> 00:13:20.200 align:middle line:90%
+
+
+00:13:20.200 --> 00:13:30.520 align:middle line:84%
+So I'm going to just find
+S n a just like we usually
+
+00:13:30.520 --> 00:13:39.470 align:middle line:84%
+do where we're summing here
+from i equal to 0 up to n a i.
+
+00:13:39.470 --> 00:13:46.010 align:middle line:84%
+The superscript comes
+from the a series.
+
+00:13:46.010 --> 00:13:55.940 align:middle line:84%
+And then likewise, I define S
+n b to be the sum here of the b
+
+00:13:55.940 --> 00:13:56.720 align:middle line:90%
+i's.
+
+00:13:56.720 --> 00:14:09.590 align:middle line:84%
+And then I'm defining S n c to
+be the sum of the ci's up to n,
+
+00:14:09.590 --> 00:14:11.600 align:middle line:90%
+like that.
+
+00:14:11.600 --> 00:14:14.270 align:middle line:84%
+And so of course,
+you have that-- we
+
+00:14:14.270 --> 00:14:22.680 align:middle line:84%
+know that a i, b i, and ci
+are all non-negative numbers.
+
+00:14:22.680 --> 00:14:25.590 align:middle line:90%
+So this means that convergence--
+
+00:14:25.590 --> 00:14:33.130 align:middle line:84%
+so convergence of
+any of these series--
+
+00:14:33.130 --> 00:14:41.515 align:middle line:90%
+
+
+00:14:41.515 --> 00:14:43.990 align:middle line:84%
+so convergence, say,
+of this one is the same
+
+00:14:43.990 --> 00:14:46.910 align:middle line:84%
+as saying that these
+numbers here are bounded
+
+00:14:46.910 --> 00:14:48.680 align:middle line:90%
+That's by monotone convergence.
+
+00:14:48.680 --> 00:14:50.650 align:middle line:84%
+So convergence of
+any of these series
+
+00:14:50.650 --> 00:15:07.600 align:middle line:84%
+is equivalent to that the
+corresponding S n a, b, or c
+
+00:15:07.600 --> 00:15:09.645 align:middle line:90%
+is bounded.
+
+00:15:09.645 --> 00:15:14.980 align:middle line:90%
+
+
+00:15:14.980 --> 00:15:17.480 align:middle line:90%
+So that's just an observation.
+
+00:15:17.480 --> 00:15:20.680 align:middle line:84%
+And again, this is the
+monotone convergence theorem.
+
+00:15:20.680 --> 00:15:23.660 align:middle line:90%
+This is by monotone convergence.
+
+00:15:23.660 --> 00:15:37.015 align:middle line:90%
+
+
+00:15:37.015 --> 00:15:40.280 align:middle line:84%
+So that's the monotone
+convergence theorem.
+
+00:15:40.280 --> 00:15:45.860 align:middle line:84%
+The other thing-- see, I
+thought of something else
+
+00:15:45.860 --> 00:15:47.635 align:middle line:90%
+I wanted to note.
+
+00:15:47.635 --> 00:15:52.370 align:middle line:90%
+
+
+00:15:52.370 --> 00:15:56.600 align:middle line:90%
+So let's try to prove that.
+
+00:15:56.600 --> 00:16:05.810 align:middle line:84%
+So to prove it, let me just try
+to think about it for a second
+
+00:16:05.810 --> 00:16:06.540 align:middle line:90%
+here.
+
+00:16:06.540 --> 00:16:10.130 align:middle line:90%
+So if I'm looking at a1--
+
+00:16:10.130 --> 00:16:16.490 align:middle line:90%
+say, a2, plus, up to a n.
+
+00:16:16.490 --> 00:16:20.330 align:middle line:84%
+Suppose I'm looking
+at this here.
+
+00:16:20.330 --> 00:16:27.230 align:middle line:90%
+This is like S n a.
+
+00:16:27.230 --> 00:16:30.980 align:middle line:84%
+And I have that S
+n a, and suppose
+
+00:16:30.980 --> 00:16:33.855 align:middle line:90%
+I'm now looking at the S n b.
+
+00:16:33.855 --> 00:16:39.300 align:middle line:90%
+
+
+00:16:39.300 --> 00:16:42.561 align:middle line:90%
+This here is the S n b.
+
+00:16:42.561 --> 00:16:45.510 align:middle line:90%
+
+
+00:16:45.510 --> 00:16:51.400 align:middle line:84%
+Now, if you just multiply
+out the product of these two,
+
+00:16:51.400 --> 00:16:52.830 align:middle line:90%
+then you would get--
+
+00:16:52.830 --> 00:16:54.940 align:middle line:90%
+and I should have started at 0.
+
+00:16:54.940 --> 00:16:56.190 align:middle line:90%
+Sorry.
+
+00:16:56.190 --> 00:17:02.700 align:middle line:84%
+Let's start at 0 because that's
+what we do up there, like that.
+
+00:17:02.700 --> 00:17:11.190 align:middle line:84%
+So now I multiply out, and you
+see that you're getting a0, b0.
+
+00:17:11.190 --> 00:17:14.670 align:middle line:84%
+And you're getting-- then you
+can kind of-- if you try to do
+
+00:17:14.670 --> 00:17:15.390 align:middle line:90%
+it--
+
+00:17:15.390 --> 00:17:18.579 align:middle line:84%
+so let's try to
+multiply this out,
+
+00:17:18.579 --> 00:17:21.609 align:middle line:84%
+but let's do it
+in an ordered way
+
+00:17:21.609 --> 00:17:23.700 align:middle line:84%
+And when I'm talking
+about "ordered way,"
+
+00:17:23.700 --> 00:17:28.023 align:middle line:84%
+I'm not talking about just
+multiplying this one on that.
+
+00:17:28.023 --> 00:17:29.440 align:middle line:84%
+You could say
+that's very ordered,
+
+00:17:29.440 --> 00:17:36.870 align:middle line:84%
+but it's not related
+to the c series.
+
+00:17:36.870 --> 00:17:41.960 align:middle line:84%
+So I want to just group
+things so that they remind us
+
+00:17:41.960 --> 00:17:43.440 align:middle line:90%
+of the c series.
+
+00:17:43.440 --> 00:17:44.790 align:middle line:90%
+But if I do that--
+
+00:17:44.790 --> 00:17:48.710 align:middle line:90%
+so we're starting with this--
+
+00:17:48.710 --> 00:17:52.200 align:middle line:90%
+is this multiplied by this.
+
+00:17:52.200 --> 00:17:58.572 align:middle line:84%
+Then I take this one here,
+multiplied by that, so a0 b1.
+
+00:17:58.572 --> 00:18:01.550 align:middle line:90%
+
+
+00:18:01.550 --> 00:18:06.035 align:middle line:84%
+This here is the only
+one where the index--
+
+00:18:06.035 --> 00:18:09.180 align:middle line:84%
+the subscripts are
+non-negative integers.
+
+00:18:09.180 --> 00:18:14.330 align:middle line:84%
+This is the only one where the
+sum of the two subscripts is 0.
+
+00:18:14.330 --> 00:18:16.250 align:middle line:90%
+If I'm looking at where the sum
+
+00:18:16.250 --> 00:18:18.150 align:middle line:90%
+Of the two subscripts is 1--
+
+00:18:18.150 --> 00:18:21.180 align:middle line:84%
+this is one of them, but
+there is another one,
+
+00:18:21.180 --> 00:18:25.080 align:middle line:84%
+and that's where I take
+this multiplied by that.
+
+00:18:25.080 --> 00:18:30.440 align:middle line:84%
+So I group those
+together, so a1 b0.
+
+00:18:30.440 --> 00:18:33.820 align:middle line:84%
+And now I want to
+collect the ones--
+
+00:18:33.820 --> 00:18:38.140 align:middle line:84%
+so those are the only two where
+the sum of the subscripts is 1.
+
+00:18:38.140 --> 00:18:42.720 align:middle line:84%
+Then if I'm looking at,
+when I'm multiplying out,
+
+00:18:42.720 --> 00:18:46.410 align:middle line:84%
+where the sum of
+the subscript is 2,
+
+00:18:46.410 --> 00:18:51.300 align:middle line:84%
+well, I could start with this
+one, but then I have to pick b2.
+
+00:18:51.300 --> 00:18:55.650 align:middle line:90%
+So I take plus a0 b2.
+
+00:18:55.650 --> 00:18:59.190 align:middle line:90%
+Then I could take a1 b1.
+
+00:18:59.190 --> 00:19:03.330 align:middle line:84%
+That has also sum
+of subscripts 2.
+
+00:19:03.330 --> 00:19:05.920 align:middle line:90%
+And the last one is--
+
+00:19:05.920 --> 00:19:10.660 align:middle line:84%
+If I take a2, but then the b
+have to be the 0 subscript.
+
+00:19:10.660 --> 00:19:13.680 align:middle line:90%
+
+
+00:19:13.680 --> 00:19:17.550 align:middle line:84%
+And now I proceed like this,
+so I'm grouping it like this.
+
+00:19:17.550 --> 00:19:20.380 align:middle line:90%
+
+
+00:19:20.380 --> 00:19:24.070 align:middle line:84%
+Now, of course, there's going
+to be a little bit of an issue.
+
+00:19:24.070 --> 00:19:28.620 align:middle line:84%
+So for a while, everything is--
+you see that this thing here--
+
+00:19:28.620 --> 00:19:34.060 align:middle line:84%
+this here is what we
+call c0, this here is c1,
+
+00:19:34.060 --> 00:19:38.050 align:middle line:90%
+and this here is c2.
+
+00:19:38.050 --> 00:19:41.770 align:middle line:84%
+And then we presumably
+also get c3.
+
+00:19:41.770 --> 00:19:50.980 align:middle line:84%
+But then there is a point
+where we run into trouble if we
+
+00:19:50.980 --> 00:19:54.565 align:middle line:90%
+want to really do it like this.
+
+00:19:54.565 --> 00:19:57.020 align:middle line:90%
+So what we get is that--
+
+00:19:57.020 --> 00:19:59.740 align:middle line:84%
+so when you do this
+multiplication, what
+
+00:19:59.740 --> 00:20:01.790 align:middle line:90%
+you will see is that--
+
+00:20:01.790 --> 00:20:09.550 align:middle line:84%
+so you see like this--
+a0 plus a1, a n--
+
+00:20:09.550 --> 00:20:17.230 align:middle line:84%
+what you will see--
+times b0, b1, up to bn.
+
+00:20:17.230 --> 00:20:19.900 align:middle line:84%
+What you will see--
+that this pattern here
+
+00:20:19.900 --> 00:20:22.570 align:middle line:84%
+is continuing for
+a while, and you're
+
+00:20:22.570 --> 00:20:29.960 align:middle line:84%
+getting that this is equal
+to c0, c1, plus c2, up to cn.
+
+00:20:29.960 --> 00:20:32.930 align:middle line:90%
+
+
+00:20:32.930 --> 00:20:38.900 align:middle line:84%
+In the cn, this is, again,
+where the sum of these indices
+
+00:20:38.900 --> 00:20:41.490 align:middle line:84%
+could be this one here
+multiplied by that.
+
+00:20:41.490 --> 00:20:46.790 align:middle line:84%
+The sum of the
+subscripts will be n.
+
+00:20:46.790 --> 00:20:50.180 align:middle line:84%
+But if you're now looking at
+the next one, the one that
+
+00:20:50.180 --> 00:20:53.180 align:middle line:84%
+corresponds to c
+n plus 1, you're
+
+00:20:53.180 --> 00:20:58.460 align:middle line:84%
+not getting all of the c n plus
+1 because one of the c n plus 1
+
+00:20:58.460 --> 00:21:03.570 align:middle line:84%
+would be like a to
+the n plus 1 times b0.
+
+00:21:03.570 --> 00:21:06.610 align:middle line:84%
+But you don't have
+that one here.
+
+00:21:06.610 --> 00:21:10.280 align:middle line:84%
+So what you get is that
+you're getting all of these,
+
+00:21:10.280 --> 00:21:12.256 align:middle line:90%
+plus something additional.
+
+00:21:12.256 --> 00:21:18.815 align:middle line:90%
+
+
+00:21:18.815 --> 00:21:22.950 align:middle line:84%
+And the additional is-- because
+everything is non-negative,
+
+00:21:22.950 --> 00:21:27.710 align:middle line:84%
+the additional thing is
+a non-negative number.
+
+00:21:27.710 --> 00:21:30.680 align:middle line:84%
+So what we have established
+here is that we have--
+
+00:21:30.680 --> 00:21:37.850 align:middle line:90%
+so this has shown that S n c--
+
+00:21:37.850 --> 00:21:40.040 align:middle line:84%
+this here is-- let me
+just write it like this--
+
+00:21:40.040 --> 00:21:42.640 align:middle line:90%
+this here is S n c.
+
+00:21:42.640 --> 00:21:57.340 align:middle line:84%
+So you see that this
+thing here was S n a,
+
+00:21:57.340 --> 00:22:00.280 align:middle line:90%
+and this here was S n b.
+
+00:22:00.280 --> 00:22:03.070 align:middle line:84%
+So what you have is--
+so this inequality
+
+00:22:03.070 --> 00:22:08.350 align:middle line:84%
+just tells you
+that S n a times S
+
+00:22:08.350 --> 00:22:13.630 align:middle line:84%
+n b is equal to S
+n c plus something
+
+00:22:13.630 --> 00:22:15.140 align:middle line:90%
+positive-- non-negative.
+
+00:22:15.140 --> 00:22:20.230 align:middle line:90%
+
+
+00:22:20.230 --> 00:22:24.100 align:middle line:84%
+So in other words,
+this number here
+
+00:22:24.100 --> 00:22:27.950 align:middle line:84%
+is less than or equal to
+the product of these two.
+
+00:22:27.950 --> 00:22:35.390 align:middle line:84%
+So this implies that S n c is
+less than or equal to this here.
+
+00:22:35.390 --> 00:22:39.920 align:middle line:84%
+But now you see you already have
+something, because these here
+
+00:22:39.920 --> 00:22:42.630 align:middle line:90%
+were increasing--
+
+00:22:42.630 --> 00:22:46.290 align:middle line:84%
+they were increasing because
+the a n was all non-negative.
+
+00:22:46.290 --> 00:22:49.010 align:middle line:84%
+So these here are
+increasing, and they
+
+00:22:49.010 --> 00:22:52.340 align:middle line:90%
+are less than or equal to--
+
+00:22:52.340 --> 00:22:55.230 align:middle line:84%
+the series was supposed
+to be convergent,
+
+00:22:55.230 --> 00:22:57.080 align:middle line:90%
+so you have that-- sorry.
+
+00:22:57.080 --> 00:23:05.000 align:middle line:84%
+So here I'm using that the S
+n a is monotone increasing up
+
+00:23:05.000 --> 00:23:06.010 align:middle line:90%
+to the limit here.
+
+00:23:06.010 --> 00:23:12.260 align:middle line:90%
+
+
+00:23:12.260 --> 00:23:17.120 align:middle line:84%
+And likewise, the S n b here
+were monotone increasing up
+
+00:23:17.120 --> 00:23:17.770 align:middle line:90%
+to the limit.
+
+00:23:17.770 --> 00:23:21.920 align:middle line:90%
+
+
+00:23:21.920 --> 00:23:23.500 align:middle line:90%
+So this thing here--
+
+00:23:23.500 --> 00:23:25.810 align:middle line:84%
+so this is smaller
+than the limit.
+
+00:23:25.810 --> 00:23:28.360 align:middle line:84%
+This is smaller than
+the limit of that.
+
+00:23:28.360 --> 00:23:36.830 align:middle line:84%
+So this thing here is less
+than or equal to the product
+
+00:23:36.830 --> 00:23:37.865 align:middle line:90%
+of these guys.
+
+00:23:37.865 --> 00:23:47.160 align:middle line:90%
+
+
+00:23:47.160 --> 00:23:49.920 align:middle line:84%
+And so you see--
+and that's supposed
+
+00:23:49.920 --> 00:23:51.850 align:middle line:84%
+to be just a real
+number, this here.
+
+00:23:51.850 --> 00:23:55.710 align:middle line:84%
+So you see that these
+guys here are now bounded.
+
+00:23:55.710 --> 00:23:57.210 align:middle line:90%
+So this means that--
+
+00:23:57.210 --> 00:23:58.500 align:middle line:90%
+because they're monotone.
+
+00:23:58.500 --> 00:24:01.750 align:middle line:84%
+It means that that series
+is also convergent.
+
+00:24:01.750 --> 00:24:05.850 align:middle line:90%
+
+
+00:24:05.850 --> 00:24:16.680 align:middle line:84%
+So what we have concluded
+here is that this series here
+
+00:24:16.680 --> 00:24:17.846 align:middle line:90%
+is convergent.
+
+00:24:17.846 --> 00:24:21.530 align:middle line:90%
+
+
+00:24:21.530 --> 00:24:26.960 align:middle line:84%
+And we have that this
+infinite sum here
+
+00:24:26.960 --> 00:24:32.000 align:middle line:84%
+is less than or equal to the
+product of the other ones.
+
+00:24:32.000 --> 00:24:34.210 align:middle line:90%
+This is what this here gave us.
+
+00:24:34.210 --> 00:24:39.650 align:middle line:90%
+
+
+00:24:39.650 --> 00:24:41.840 align:middle line:90%
+So this is what we have so far.
+
+00:24:41.840 --> 00:24:54.000 align:middle line:84%
+Now, we want to get the
+reverse inequality holds.
+
+00:24:54.000 --> 00:24:56.120 align:middle line:84%
+So we want the
+reverse inequality
+
+00:24:56.120 --> 00:24:59.420 align:middle line:84%
+of what is over there so that
+we can say that those two
+
+00:24:59.420 --> 00:25:02.155 align:middle line:90%
+things here are actually equal.
+
+00:25:02.155 --> 00:25:04.550 align:middle line:84%
+Now, let's try to
+see how do we prove
+
+00:25:04.550 --> 00:25:06.450 align:middle line:90%
+the reverse of this inequality.
+
+00:25:06.450 --> 00:25:12.140 align:middle line:84%
+The reverse, we are proving
+by examining more closely what
+
+00:25:12.140 --> 00:25:13.165 align:middle line:90%
+that product was.
+
+00:25:13.165 --> 00:25:19.700 align:middle line:90%
+
+
+00:25:19.700 --> 00:25:24.390 align:middle line:84%
+So you see-- so what is
+this additional thing here?
+
+00:25:24.390 --> 00:25:29.900 align:middle line:84%
+So again-- so we have-- we're
+looking at this thing here.
+
+00:25:29.900 --> 00:25:41.820 align:middle line:90%
+
+
+00:25:41.820 --> 00:25:44.220 align:middle line:84%
+And what we got is
+that this here was
+
+00:25:44.220 --> 00:25:51.690 align:middle line:90%
+equal to the sum here of cn.
+
+00:25:51.690 --> 00:25:55.182 align:middle line:84%
+But then we have some
+additional terms.
+
+00:25:55.182 --> 00:25:57.660 align:middle line:90%
+And the additional terms is--
+
+00:25:57.660 --> 00:25:59.970 align:middle line:84%
+the thing is that
+if you start looking
+
+00:25:59.970 --> 00:26:01.810 align:middle line:90%
+at the additional terms--
+
+00:26:01.810 --> 00:26:05.220 align:middle line:84%
+so what are the
+additional terms?
+
+00:26:05.220 --> 00:26:11.170 align:middle line:90%
+You're getting a1 bn--
+
+00:26:11.170 --> 00:26:15.780 align:middle line:84%
+that's one where the
+sum here is n plus 1.
+
+00:26:15.780 --> 00:26:19.540 align:middle line:84%
+And then you also get-- so
+this is coming from this--
+
+00:26:19.540 --> 00:26:22.030 align:middle line:84%
+sorry, that one here
+multiplied by this.
+
+00:26:22.030 --> 00:26:30.340 align:middle line:84%
+You would also get
+a2 b n minus 2.
+
+00:26:30.340 --> 00:26:37.180 align:middle line:84%
+You get an a3 b-- sorry,
+not n minus 2, n minus 1--
+
+00:26:37.180 --> 00:26:40.620 align:middle line:90%
+b3 n minus 2, et cetera.
+
+00:26:40.620 --> 00:26:43.430 align:middle line:90%
+
+
+00:26:43.430 --> 00:26:51.175 align:middle line:84%
+But all of these here--
+and then-- so you get that,
+
+00:26:51.175 --> 00:26:52.900 align:middle line:90%
+but you don't get--
+
+00:26:52.900 --> 00:26:55.605 align:middle line:84%
+again, you don't get the
+one that is missing here--
+
+00:26:55.605 --> 00:27:00.160 align:middle line:90%
+
+
+00:27:00.160 --> 00:27:04.100 align:middle line:90%
+is a0 b n plus 1.
+
+00:27:04.100 --> 00:27:06.050 align:middle line:90%
+This one is missing.
+
+00:27:06.050 --> 00:27:11.080 align:middle line:84%
+And the other one that is
+missing is this one here.
+
+00:27:11.080 --> 00:27:14.170 align:middle line:84%
+But otherwise, you get
+all of the ones that
+
+00:27:14.170 --> 00:27:19.510 align:middle line:84%
+was in the c n plus 1, and
+you don't get anything more
+
+00:27:19.510 --> 00:27:22.200 align:middle line:90%
+And so this pattern continues.
+
+00:27:22.200 --> 00:27:26.610 align:middle line:90%
+So the next term would be a2--
+
+00:27:26.610 --> 00:27:28.020 align:middle line:90%
+sorry-- yeah.
+
+00:27:28.020 --> 00:27:30.870 align:middle line:84%
+And then you would also
+get something where
+
+00:27:30.870 --> 00:27:33.250 align:middle line:90%
+the sum of the indices was 2.
+
+00:27:33.250 --> 00:27:37.960 align:middle line:90%
+That's like a2 bn.
+
+00:27:37.960 --> 00:27:40.510 align:middle line:84%
+But here, you would
+be missing more.
+
+00:27:40.510 --> 00:27:45.340 align:middle line:84%
+You would be missing
+a0 b n plus 2.
+
+00:27:45.340 --> 00:27:48.970 align:middle line:90%
+You're missing a1 b n plus 1.
+
+00:27:48.970 --> 00:27:51.820 align:middle line:90%
+But you don't get anything more.
+
+00:27:51.820 --> 00:27:55.570 align:middle line:84%
+And so the thing is, like
+when you continue like this,
+
+00:27:55.570 --> 00:28:00.040 align:middle line:84%
+the last one you get is when
+you're multiplying that by that.
+
+00:28:00.040 --> 00:28:03.480 align:middle line:90%
+And that's a n times bn.
+
+00:28:03.480 --> 00:28:08.936 align:middle line:84%
+Those here are the sum
+of the indices is 2--
+
+00:28:08.936 --> 00:28:10.720 align:middle line:90%
+2n, sorry-- it's 2n.
+
+00:28:10.720 --> 00:28:13.270 align:middle line:90%
+But you're missing a lot now.
+
+00:28:13.270 --> 00:28:17.006 align:middle line:84%
+You only have one
+of many, many terms.
+
+00:28:17.006 --> 00:28:19.630 align:middle line:84%
+But it is a term
+that all appear,
+
+00:28:19.630 --> 00:28:22.100 align:middle line:84%
+and this one would
+appear in c 2n.
+
+00:28:22.100 --> 00:28:27.370 align:middle line:84%
+And so in this way, what you
+have is that this here is less
+
+00:28:27.370 --> 00:28:32.980 align:middle line:90%
+than S to the power 2n c.
+
+00:28:32.980 --> 00:28:36.980 align:middle line:84%
+They are all in there, but
+you will be missing terms,
+
+00:28:36.980 --> 00:28:39.730 align:middle line:84%
+but all terms are
+non-negative So this means
+
+00:28:39.730 --> 00:28:41.740 align:middle line:90%
+that you have that inequality.
+
+00:28:41.740 --> 00:28:44.500 align:middle line:90%
+So you see that now we have--
+
+00:28:44.500 --> 00:28:50.800 align:middle line:84%
+now what we have here
+is that we have--
+
+00:28:50.800 --> 00:28:57.730 align:middle line:84%
+what we established
+before was the inequality
+
+00:28:57.730 --> 00:29:08.080 align:middle line:84%
+that S n c was less
+than S n a times S n b.
+
+00:29:08.080 --> 00:29:11.360 align:middle line:84%
+But what we have now here
+is that this thing here,
+
+00:29:11.360 --> 00:29:15.836 align:middle line:84%
+this product, is
+less than S 2n c.
+
+00:29:15.836 --> 00:29:19.880 align:middle line:90%
+
+
+00:29:19.880 --> 00:29:25.130 align:middle line:84%
+This one here is squeezed
+between this one here and that
+
+00:29:25.130 --> 00:29:28.850 align:middle line:84%
+one here, but both these
+here converge to the same.
+
+00:29:28.850 --> 00:29:33.175 align:middle line:84%
+They both converge
+to this infinite sum.
+
+00:29:33.175 --> 00:29:36.190 align:middle line:90%
+
+
+00:29:36.190 --> 00:29:38.310 align:middle line:90%
+So these converge to the same.
+
+00:29:38.310 --> 00:29:43.310 align:middle line:84%
+This means that the limit of
+this here must also be the same.
+
+00:29:43.310 --> 00:29:50.840 align:middle line:84%
+And so this shows that this
+here is the reverse inequality.
+
+00:29:50.840 --> 00:29:54.840 align:middle line:90%
+So proof-- proof over there.
+
+00:29:54.840 --> 00:30:03.608 align:middle line:90%
+
+
+00:30:03.608 --> 00:30:07.250 align:middle line:84%
+So this is that if
+you take two series
+
+00:30:07.250 --> 00:30:12.570 align:middle line:84%
+and you form the
+product, then that also
+
+00:30:12.570 --> 00:30:16.020 align:middle line:84%
+converges if the two series
+is non-negative numbers.
+
+00:30:16.020 --> 00:30:23.170 align:middle line:84%
+So let me just make a corollary
+of this, that, of course,
+
+00:30:23.170 --> 00:30:26.760 align:middle line:90%
+if you take a series here--
+
+00:30:26.760 --> 00:30:31.000 align:middle line:84%
+and so I'll just do
+a trivial corollary,
+
+00:30:31.000 --> 00:30:34.710 align:middle line:84%
+but you can see how
+you can use this.
+
+00:30:34.710 --> 00:30:37.960 align:middle line:84%
+And this is used in
+proving the general case.
+
+00:30:37.960 --> 00:30:39.370 align:middle line:90%
+So we will only--
+
+00:30:39.370 --> 00:30:42.990 align:middle line:90%
+yeah, [INAUDIBLE].
+
+00:30:42.990 --> 00:30:45.280 align:middle line:84%
+So suppose I take
+two series here.
+
+00:30:45.280 --> 00:30:48.390 align:middle line:90%
+
+
+00:30:48.390 --> 00:30:52.000 align:middle line:84%
+So this is a trivial
+corollary of it.
+
+00:30:52.000 --> 00:30:56.820 align:middle line:84%
+Suppose I take two series here,
+and I know that this one here--
+
+00:30:56.820 --> 00:31:00.130 align:middle line:84%
+that they are both
+absolutely convergent.
+
+00:31:00.130 --> 00:31:08.640 align:middle line:90%
+
+
+00:31:08.640 --> 00:31:12.410 align:middle line:84%
+If they are both
+absolutely convergent,
+
+00:31:12.410 --> 00:31:17.570 align:middle line:84%
+then if you take
+this series here--
+
+00:31:17.570 --> 00:31:20.730 align:middle line:90%
+cn-- sorry, ci--
+
+00:31:20.730 --> 00:31:23.990 align:middle line:90%
+
+
+00:31:23.990 --> 00:31:28.590 align:middle line:84%
+well, this one here I claim
+is also absolutely convergent.
+
+00:31:28.590 --> 00:31:41.120 align:middle line:90%
+
+
+00:31:41.120 --> 00:31:45.518 align:middle line:84%
+And again, this
+trivial corollary
+
+00:31:45.518 --> 00:31:50.720 align:middle line:84%
+is the key ingredient in proving
+a more general statement that
+
+00:31:50.720 --> 00:31:54.750 align:middle line:84%
+would be used, say, to
+prove this inequality here
+
+00:31:54.750 --> 00:31:59.580 align:middle line:84%
+when x and y are not--
+assumed to be non-negative.
+
+00:31:59.580 --> 00:32:00.870 align:middle line:90%
+But I won't get into that.
+
+00:32:00.870 --> 00:32:05.035 align:middle line:84%
+But I'll just make this
+observation, and get this form.
+
+00:32:05.035 --> 00:32:08.360 align:middle line:90%
+
+
+00:32:08.360 --> 00:32:12.750 align:middle line:84%
+So I claim that this thing here
+is also absolutely convergent.
+
+00:32:12.750 --> 00:32:16.270 align:middle line:84%
+So again, I'm not assuming
+now a sign on these,
+
+00:32:16.270 --> 00:32:19.140 align:middle line:84%
+but I am assuming that
+they're absolutely convergent.
+
+00:32:19.140 --> 00:32:22.020 align:middle line:90%
+
+
+00:32:22.020 --> 00:32:26.670 align:middle line:84%
+And so if they're absolutely
+convergent of proof,
+
+00:32:26.670 --> 00:32:31.740 align:middle line:90%
+so absolutely convergent--
+
+00:32:31.740 --> 00:32:34.530 align:middle line:90%
+
+
+00:32:34.530 --> 00:32:40.980 align:middle line:84%
+this just means that the
+series here, this one here,
+
+00:32:40.980 --> 00:32:47.620 align:middle line:84%
+and this one here
+are convergent.
+
+00:32:47.620 --> 00:32:51.300 align:middle line:90%
+
+
+00:32:51.300 --> 00:32:55.020 align:middle line:84%
+That's what absolute
+convergence means.
+
+00:32:55.020 --> 00:33:01.740 align:middle line:84%
+But now if you're looking
+at ci, the ci series--
+
+00:33:01.740 --> 00:33:09.100 align:middle line:84%
+this here is the sum here,
+i equal to 0 to n of a i--
+
+00:33:09.100 --> 00:33:16.000 align:middle line:90%
+sorry-- a i b n minus 1.
+
+00:33:16.000 --> 00:33:19.270 align:middle line:90%
+[INAUDIBLE]
+
+00:33:19.270 --> 00:33:24.970 align:middle line:84%
+But this means that
+ci absolute value here
+
+00:33:24.970 --> 00:33:36.070 align:middle line:84%
+is less than this thing here,
+absolute value, like that.
+
+00:33:36.070 --> 00:33:38.590 align:middle line:84%
+You can take the
+absolute value sign
+
+00:33:38.590 --> 00:33:40.490 align:middle line:90%
+in under the summation sign.
+
+00:33:40.490 --> 00:33:46.420 align:middle line:84%
+So this is less than the sum
+here from i equal to 0 to n,
+
+00:33:46.420 --> 00:33:52.210 align:middle line:84%
+and then a i times b
+n minus i, like that.
+
+00:33:52.210 --> 00:33:55.930 align:middle line:90%
+
+
+00:33:55.930 --> 00:34:04.616 align:middle line:84%
+But now you see that this
+here is the corresponding c
+
+00:34:04.616 --> 00:34:11.010 align:middle line:90%
+so you could now define--
+
+00:34:11.010 --> 00:34:15.030 align:middle line:84%
+so you start with
+this sequence a i,
+
+00:34:15.030 --> 00:34:22.270 align:middle line:84%
+and I now define a
+new sequence b i bar.
+
+00:34:22.270 --> 00:34:26.679 align:middle line:84%
+And I do it by just taking
+the absolute value like that.
+
+00:34:26.679 --> 00:34:29.860 align:middle line:84%
+So I know that this new
+series is convergent.
+
+00:34:29.860 --> 00:34:40.380 align:middle line:84%
+Likewise, I defined b i bar
+to be the b i absolute value.
+
+00:34:40.380 --> 00:34:43.500 align:middle line:84%
+And I know that
+this is convergent.
+
+00:34:43.500 --> 00:34:51.100 align:middle line:84%
+And then I defined a
+sequence here, ci bar,
+
+00:34:51.100 --> 00:34:54.463 align:middle line:84%
+which is just the absolute
+value of the ci's.
+
+00:34:54.463 --> 00:34:57.930 align:middle line:90%
+
+
+00:34:57.930 --> 00:35:00.790 align:middle line:90%
+And I know that this one here--
+
+00:35:00.790 --> 00:35:06.430 align:middle line:84%
+so I know that this
+here is convergent.
+
+00:35:06.430 --> 00:35:09.670 align:middle line:90%
+That's by assumption.
+
+00:35:09.670 --> 00:35:13.900 align:middle line:84%
+This one here is
+convergent by assumption.
+
+00:35:13.900 --> 00:35:19.780 align:middle line:84%
+And this inequality here
+proves that this here--
+
+00:35:19.780 --> 00:35:23.440 align:middle line:84%
+that the c i bar
+is also convergent,
+
+00:35:23.440 --> 00:35:26.980 align:middle line:84%
+because this one
+here is the one where
+
+00:35:26.980 --> 00:35:30.560 align:middle line:84%
+you form the products of these
+two convergent sequences.
+
+00:35:30.560 --> 00:35:33.140 align:middle line:84%
+So this one here
+is also convergent.
+
+00:35:33.140 --> 00:35:42.495 align:middle line:84%
+So this here is also
+convergent by this theorem.
+
+00:35:42.495 --> 00:35:47.290 align:middle line:90%
+
+
+00:35:47.290 --> 00:35:49.870 align:middle line:84%
+Anyway, that was
+just an observation
+
+00:35:49.870 --> 00:35:53.630 align:middle line:84%
+that we were getting
+this statement out of it.
+
+00:35:53.630 --> 00:35:56.300 align:middle line:90%
+
+
+00:35:56.300 --> 00:35:58.550 align:middle line:90%
+Now, this is also related.
+
+00:35:58.550 --> 00:36:02.060 align:middle line:84%
+So why do we have
+non-negative here,
+
+00:36:02.060 --> 00:36:05.180 align:middle line:84%
+or why do we talk about
+absolute convergence?
+
+00:36:05.180 --> 00:36:10.740 align:middle line:84%
+So this is a simple fact
+that if you take a series,
+
+00:36:10.740 --> 00:36:13.600 align:middle line:84%
+if you're trying to
+sum infinite numbers--
+
+00:36:13.600 --> 00:36:15.350 align:middle line:84%
+we now know how to sum
+an infinite number.
+
+00:36:15.350 --> 00:36:18.140 align:middle line:90%
+But if you're trying to do it--
+
+00:36:18.140 --> 00:36:20.930 align:middle line:84%
+if the numbers
+that you're summing
+
+00:36:20.930 --> 00:36:23.840 align:middle line:84%
+are all non-negative,
+then actually,
+
+00:36:23.840 --> 00:36:26.990 align:middle line:90%
+the ordering doesn't matter.
+
+00:36:26.990 --> 00:36:29.810 align:middle line:84%
+You can check the fifth
+element first and then
+
+00:36:29.810 --> 00:36:34.290 align:middle line:84%
+the seventh and then the 119
+and then come back and take 1.
+
+00:36:34.290 --> 00:36:37.490 align:middle line:84%
+It doesn't matter what
+order you do it in.
+
+00:36:37.490 --> 00:36:42.560 align:middle line:84%
+But if the numbers
+are not non-negative
+
+00:36:42.560 --> 00:36:46.070 align:middle line:84%
+and the series is not
+absolutely convergent, now
+
+00:36:46.070 --> 00:36:49.190 align:middle line:84%
+it certainly matters
+because you could end up
+
+00:36:49.190 --> 00:36:51.990 align:middle line:84%
+taking all the
+negative numbers first,
+
+00:36:51.990 --> 00:36:58.680 align:middle line:84%
+and then you get really, really
+far down towards minus infinity.
+
+00:36:58.680 --> 00:37:02.120 align:middle line:84%
+Then you take a few of
+the positive elements,
+
+00:37:02.120 --> 00:37:04.100 align:middle line:84%
+and then you take
+more of the negative.
+
+00:37:04.100 --> 00:37:08.230 align:middle line:84%
+And so then you would
+actually stay very far down
+
+00:37:08.230 --> 00:37:12.190 align:middle line:84%
+toward minus infinity,
+and you would never
+
+00:37:12.190 --> 00:37:14.660 align:middle line:90%
+be able to come up again.
+
+00:37:14.660 --> 00:37:20.950 align:middle line:84%
+So this is a basic fact, that if
+you take a series and the series
+
+00:37:20.950 --> 00:37:24.010 align:middle line:84%
+are of non-negative
+numbers, then actually--
+
+00:37:24.010 --> 00:37:27.940 align:middle line:84%
+and it's converging, then you
+can rearrange the ordering,
+
+00:37:27.940 --> 00:37:30.220 align:middle line:84%
+and it will still
+converge, and it will still
+
+00:37:30.220 --> 00:37:32.290 align:middle line:90%
+converge to the same number.
+
+00:37:32.290 --> 00:37:35.770 align:middle line:84%
+If you're trying to
+sum infinite numbers
+
+00:37:35.770 --> 00:37:42.070 align:middle line:84%
+and they are not
+non-negative and they
+
+00:37:42.070 --> 00:37:47.025 align:middle line:84%
+don't converge absolutely,
+then the ordering does matter.
+
+00:37:47.025 --> 00:37:51.370 align:middle line:84%
+And this is related to why we
+are assuming that all of these
+
+00:37:51.370 --> 00:37:54.110 align:middle line:84%
+a i, b i's are
+non-negative numbers--
+
+00:37:54.110 --> 00:37:55.490 align:middle line:90%
+[INAUDIBLE]
+
+00:37:55.490 --> 00:37:57.320 align:middle line:90%
+But we won't get into this.
+
+00:37:57.320 --> 00:37:58.280 align:middle line:90%
+You can read about it.
+
+00:37:58.280 --> 00:37:59.700 align:middle line:90%
+It's a sort of standard fact.
+
+00:37:59.700 --> 00:38:03.410 align:middle line:84%
+It's certainly somewhere in
+the book, but it's not fun.
+
+00:38:03.410 --> 00:38:04.880 align:middle line:84%
+AUDIENCE: How do
+we reconcile that
+
+00:38:04.880 --> 00:38:08.720 align:middle line:84%
+with our typical properties,
+like the addition operator?
+
+00:38:08.720 --> 00:38:13.820 align:middle line:84%
+TOBIAS COLDING: Yeah,
+so it's related to--
+
+00:38:13.820 --> 00:38:18.020 align:middle line:90%
+
+
+00:38:18.020 --> 00:38:20.460 align:middle line:84%
+again, this is not
+part of the syllabus,
+
+00:38:20.460 --> 00:38:24.335 align:middle line:84%
+but I think it's a useful thing
+to keep in mind because it also
+
+00:38:24.335 --> 00:38:27.440 align:middle line:84%
+explains why we're doing
+it in a certain way.
+
+00:38:27.440 --> 00:38:34.140 align:middle line:84%
+Suppose you take the
+alternating harmonic series,
+
+00:38:34.140 --> 00:38:36.230 align:middle line:90%
+Remember that this thing here--
+
+00:38:36.230 --> 00:38:39.470 align:middle line:90%
+that's the harmonic series.
+
+00:38:39.470 --> 00:38:41.790 align:middle line:90%
+This here is divergent.
+
+00:38:41.790 --> 00:38:45.580 align:middle line:90%
+
+
+00:38:45.580 --> 00:38:46.860 align:middle line:90%
+I actually proved--
+
+00:38:46.860 --> 00:38:51.500 align:middle line:84%
+I proved, or at least I outlined
+in class, why this series here
+
+00:38:51.500 --> 00:38:53.150 align:middle line:90%
+is convergent.
+
+00:38:53.150 --> 00:38:57.110 align:middle line:90%
+And this is-- and it's just--
+
+00:38:57.110 --> 00:39:00.300 align:middle line:84%
+again, the idea
+here is that if you
+
+00:39:00.300 --> 00:39:02.700 align:middle line:84%
+take-- so you have
+something which is called
+
+00:39:02.700 --> 00:39:05.460 align:middle line:90%
+the alternating series test.
+
+00:39:05.460 --> 00:39:06.885 align:middle line:90%
+So this is a--
+
+00:39:06.885 --> 00:39:08.260 align:middle line:84%
+I'm coming back
+to your question.
+
+00:39:08.260 --> 00:39:10.952 align:middle line:90%
+Just a second.
+
+00:39:10.952 --> 00:39:13.120 align:middle line:84%
+And this is closely
+related to that.
+
+00:39:13.120 --> 00:39:20.160 align:middle line:84%
+So the alternating series test
+is that if you take a sequence
+
+00:39:20.160 --> 00:39:29.400 align:middle line:84%
+a n of non-negative numbers
+and a n converges to 0--
+
+00:39:29.400 --> 00:39:34.440 align:middle line:84%
+let's say that a n converges
+to 0 in a monotone way.
+
+00:39:34.440 --> 00:39:37.090 align:middle line:90%
+
+
+00:39:37.090 --> 00:39:40.210 align:middle line:84%
+So an example here of
+this would, of course,
+
+00:39:40.210 --> 00:39:44.010 align:middle line:90%
+be where a n is 1/n.
+
+00:39:44.010 --> 00:39:47.140 align:middle line:90%
+That's a monotone sequence.
+
+00:39:47.140 --> 00:39:50.190 align:middle line:84%
+So if you take a monotone
+sequence like this-- but
+
+00:39:50.190 --> 00:39:54.370 align:middle line:84%
+it doesn't need to
+go very fast to 0.
+
+00:39:54.370 --> 00:39:57.710 align:middle line:84%
+This one does not
+converge to 0 very fast.
+
+00:39:57.710 --> 00:40:00.020 align:middle line:84%
+But if you have
+that and you're now
+
+00:40:00.020 --> 00:40:06.320 align:middle line:84%
+looking at the alternating
+series based on it,
+
+00:40:06.320 --> 00:40:08.960 align:middle line:90%
+this one here is convergent.
+
+00:40:08.960 --> 00:40:10.500 align:middle line:90%
+This one here is convergent.
+
+00:40:10.500 --> 00:40:13.850 align:middle line:90%
+
+
+00:40:13.850 --> 00:40:16.280 align:middle line:90%
+And why is it convergent?
+
+00:40:16.280 --> 00:40:20.000 align:middle line:84%
+It's convergent because
+of the following thing.
+
+00:40:20.000 --> 00:40:23.360 align:middle line:84%
+And this is exactly
+what I did when
+
+00:40:23.360 --> 00:40:27.560 align:middle line:84%
+I tried to explain why
+this here is convergent--
+
+00:40:27.560 --> 00:40:31.800 align:middle line:84%
+that you're starting somewhere,
+let's say starting at 0.
+
+00:40:31.800 --> 00:40:35.420 align:middle line:84%
+Then you're looking
+at the first element.
+
+00:40:35.420 --> 00:40:37.500 align:middle line:90%
+If you're summing here--
+
+00:40:37.500 --> 00:40:41.300 align:middle line:84%
+let's say you're summing
+from 1 to infinity.
+
+00:40:41.300 --> 00:40:44.610 align:middle line:84%
+If you're summing from 1--
+then the first element here--
+
+00:40:44.610 --> 00:40:46.110 align:middle line:90%
+this is minus 1.
+
+00:40:46.110 --> 00:40:48.630 align:middle line:84%
+This is non-negative, so
+this is a negative number.
+
+00:40:48.630 --> 00:40:50.030 align:middle line:90%
+So you're going down.
+
+00:40:50.030 --> 00:40:51.260 align:middle line:90%
+You're starting at 0.
+
+00:40:51.260 --> 00:40:53.720 align:middle line:90%
+You're going down
+
+00:40:53.720 --> 00:40:59.440 align:middle line:84%
+The next element-- that will be
+positive because it's 2 here.
+
+00:40:59.440 --> 00:41:02.920 align:middle line:84%
+So it's positive--
+it would go up.
+
+00:41:02.920 --> 00:41:06.420 align:middle line:84%
+But it's monotone, so
+you don't go as much
+
+00:41:06.420 --> 00:41:08.220 align:middle line:90%
+up as you're going down.
+
+00:41:08.220 --> 00:41:10.900 align:middle line:84%
+So you're first-- first
+you're going down,
+
+00:41:10.900 --> 00:41:12.070 align:middle line:90%
+then you're going up.
+
+00:41:12.070 --> 00:41:15.240 align:middle line:84%
+But you're going less up,e
+then you're going less down,
+
+00:41:15.240 --> 00:41:17.880 align:middle line:84%
+then you're going
+less up, et cetera.
+
+00:41:17.880 --> 00:41:20.585 align:middle line:84%
+And that actually is
+forcing it to converge.
+
+00:41:20.585 --> 00:41:23.454 align:middle line:90%
+
+
+00:41:23.454 --> 00:41:26.205 align:middle line:84%
+And so now why is this related
+to your question about,
+
+00:41:26.205 --> 00:41:28.030 align:middle line:84%
+well, how do you
+reconcile these?
+
+00:41:28.030 --> 00:41:30.990 align:middle line:84%
+So you see, if you're looking
+at something like this
+
+00:41:30.990 --> 00:41:34.910 align:middle line:90%
+and you now took all of the--
+
+00:41:34.910 --> 00:41:40.890 align:middle line:84%
+if you first took many, many of
+the positive elements and then
+
+00:41:40.890 --> 00:41:43.920 align:middle line:84%
+one or two of the
+negative and then many
+
+00:41:43.920 --> 00:41:48.630 align:middle line:84%
+of the positive elements again,
+then actually, you could--
+
+00:41:48.630 --> 00:41:50.970 align:middle line:84%
+for this series,
+if you rearrange
+
+00:41:50.970 --> 00:41:52.710 align:middle line:84%
+the order of the
+things you're summing,
+
+00:41:52.710 --> 00:41:56.390 align:middle line:84%
+and then you could
+either get it to diverge,
+
+00:41:56.390 --> 00:41:59.260 align:middle line:84%
+or you could get it to converge
+to pretty much anything you
+
+00:41:59.260 --> 00:41:59.760 align:middle line:90%
+want.
+
+00:41:59.760 --> 00:42:02.590 align:middle line:90%
+
+
+00:42:02.590 --> 00:42:05.980 align:middle line:84%
+So this hopefully
+explains why when
+
+00:42:05.980 --> 00:42:11.500 align:middle line:84%
+the series is not non-negative
+numbers, why the ordering really
+
+00:42:11.500 --> 00:42:12.140 align:middle line:90%
+matters.
+
+00:42:12.140 --> 00:42:16.780 align:middle line:84%
+And again, this is very
+closely related to this
+
+00:42:16.780 --> 00:42:18.350 align:middle line:90%
+with the product of things.
+
+00:42:18.350 --> 00:42:19.880 align:middle line:90%
+Why it's related?
+
+00:42:19.880 --> 00:42:25.090 align:middle line:84%
+Because we're getting
+this remainder term.
+
+00:42:25.090 --> 00:42:28.570 align:middle line:84%
+We've got something that
+was like the remainder,
+
+00:42:28.570 --> 00:42:30.910 align:middle line:84%
+and it's the remainder
+that you want
+
+00:42:30.910 --> 00:42:34.330 align:middle line:84%
+to be small in order to say
+that things are converging
+
+00:42:34.330 --> 00:42:35.540 align:middle line:90%
+to the same thing.
+
+00:42:35.540 --> 00:42:41.110 align:middle line:84%
+And you wouldn't have that
+necessarily in general
+
+00:42:41.110 --> 00:42:45.010 align:middle line:84%
+unless you're assuming that
+the terms were non-negative.
+
+00:42:45.010 --> 00:42:49.600 align:middle line:84%
+So let's come back to-- that was
+just a little bit of [? side, ?]
+
+00:42:49.600 --> 00:42:53.300 align:middle line:84%
+but I hope it makes
+things a bit more clear.
+
+00:42:53.300 --> 00:42:55.920 align:middle line:84%
+Let's come back to
+this theorem here.
+
+00:42:55.920 --> 00:42:57.750 align:middle line:90%
+How do we prove this?
+
+00:42:57.750 --> 00:43:00.260 align:middle line:84%
+So we're going to prove
+it from the theorem
+
+00:43:00.260 --> 00:43:04.520 align:middle line:90%
+that we did with that if you--
+
+00:43:04.520 --> 00:43:09.860 align:middle line:84%
+so we're going to use this
+theorem we just proved,
+
+00:43:09.860 --> 00:43:11.070 align:middle line:90%
+which is this theorem here.
+
+00:43:11.070 --> 00:43:12.695 align:middle line:84%
+So we're going to
+use this theorem here
+
+00:43:12.695 --> 00:43:16.730 align:middle line:90%
+to prove that theorem up there.
+
+00:43:16.730 --> 00:43:21.333 align:middle line:84%
+So now it's just a matter of
+identifying the right series.
+
+00:43:21.333 --> 00:43:26.540 align:middle line:90%
+
+
+00:43:26.540 --> 00:43:35.750 align:middle line:84%
+So this is what
+we want to prove,
+
+00:43:35.750 --> 00:43:39.510 align:middle line:84%
+this is what we want to
+show, and this one here--
+
+00:43:39.510 --> 00:43:47.210 align:middle line:84%
+this is the infinite sum i
+equal to 0 to infinity x plus y
+
+00:43:47.210 --> 00:43:48.740 align:middle line:90%
+to the power n--
+
+00:43:48.740 --> 00:43:53.110 align:middle line:90%
+sorry, over-- i--
+
+00:43:53.110 --> 00:43:57.280 align:middle line:90%
+
+
+00:43:57.280 --> 00:44:03.790 align:middle line:84%
+let's call it the sum
+from n, like that.
+
+00:44:03.790 --> 00:44:06.090 align:middle line:90%
+That's what that series is.
+
+00:44:06.090 --> 00:44:08.710 align:middle line:90%
+
+
+00:44:08.710 --> 00:44:11.140 align:middle line:90%
+And this one here--
+
+00:44:11.140 --> 00:44:17.230 align:middle line:84%
+that's the sum x n, n
+factorial, and this one here
+
+00:44:17.230 --> 00:44:25.450 align:middle line:90%
+is sum y n, n factorial.
+
+00:44:25.450 --> 00:44:33.860 align:middle line:90%
+Now, so if I want cn--
+
+00:44:33.860 --> 00:44:39.640 align:middle line:84%
+so the idea is that if
+I'm writing cn as x plus y
+
+00:44:39.640 --> 00:44:43.150 align:middle line:84%
+to the power n
+over n factorial--
+
+00:44:43.150 --> 00:44:46.390 align:middle line:84%
+suppose I write cn
+like this, and I
+
+00:44:46.390 --> 00:44:53.150 align:middle line:84%
+write a n x n over
+n factorial, and I
+
+00:44:53.150 --> 00:44:59.600 align:middle line:90%
+write bn y n over n factorial.
+
+00:44:59.600 --> 00:45:03.390 align:middle line:90%
+Suppose I define them like this.
+
+00:45:03.390 --> 00:45:06.180 align:middle line:84%
+I already know that
+this here is convergent
+
+00:45:06.180 --> 00:45:08.310 align:middle line:90%
+and that here is convergent.
+
+00:45:08.310 --> 00:45:09.800 align:middle line:84%
+By the way, of
+course, I also know
+
+00:45:09.800 --> 00:45:12.780 align:middle line:90%
+that this here is convergent.
+
+00:45:12.780 --> 00:45:16.970 align:middle line:90%
+But I now have that--
+
+00:45:16.970 --> 00:45:19.250 align:middle line:90%
+but I don't have--
+
+00:45:19.250 --> 00:45:23.660 align:middle line:84%
+I haven't proved--
+but I claim now
+
+00:45:23.660 --> 00:45:29.470 align:middle line:84%
+that this cn is really
+formed in this way.
+
+00:45:29.470 --> 00:45:30.420 align:middle line:90%
+So let's see.
+
+00:45:30.420 --> 00:45:38.240 align:middle line:84%
+So cn here-- if I define
+cn to be this thing here,
+
+00:45:38.240 --> 00:45:40.590 align:middle line:90%
+by the binomial formula--
+
+00:45:40.590 --> 00:45:43.220 align:middle line:90%
+so x plus y--
+
+00:45:43.220 --> 00:45:46.130 align:middle line:84%
+if you take this
+here to the power n,
+
+00:45:46.130 --> 00:45:55.980 align:middle line:84%
+this thing here is the sum
+here of x i times y n minus i.
+
+00:45:55.980 --> 00:45:58.830 align:middle line:90%
+And then the coefficient is--
+
+00:45:58.830 --> 00:46:07.770 align:middle line:84%
+sorry-- x i times y to the n
+minus y, i equal to 0 through n.
+
+00:46:07.770 --> 00:46:11.770 align:middle line:84%
+And the coefficient
+is n choose i.
+
+00:46:11.770 --> 00:46:13.280 align:middle line:90%
+That's the binomial formula.
+
+00:46:13.280 --> 00:46:29.916 align:middle line:90%
+
+
+00:46:29.916 --> 00:46:35.670 align:middle line:90%
+Now, what is n choose i?
+
+00:46:35.670 --> 00:46:40.740 align:middle line:90%
+Well, n choose i--
+
+00:46:40.740 --> 00:46:53.550 align:middle line:84%
+this is just n times n minus
+1 down to n minus i plus 1.
+
+00:46:53.550 --> 00:46:58.790 align:middle line:84%
+This gives you n elements, and
+then divided by i factorial.
+
+00:46:58.790 --> 00:47:02.900 align:middle line:90%
+
+
+00:47:02.900 --> 00:47:07.230 align:middle line:84%
+But you can write this
+thing here as n factorial.
+
+00:47:07.230 --> 00:47:10.770 align:middle line:84%
+If you do that, then
+you included too many,
+
+00:47:10.770 --> 00:47:17.100 align:middle line:84%
+so you have to divide
+by n minus i factorial.
+
+00:47:17.100 --> 00:47:20.930 align:middle line:84%
+And then, of course, you
+still have the i factorial
+
+00:47:20.930 --> 00:47:25.790 align:middle line:84%
+in the denominator, so
+you can write it like that
+
+00:47:25.790 --> 00:47:29.450 align:middle line:90%
+So this means that the cn here--
+
+00:47:29.450 --> 00:47:36.830 align:middle line:84%
+our cn is-- so we defined cn
+like this-- x to the power
+
+00:47:36.830 --> 00:47:41.261 align:middle line:84%
+plus y to the power
+n over n factorial.
+
+00:47:41.261 --> 00:47:45.180 align:middle line:90%
+
+
+00:47:45.180 --> 00:47:48.750 align:middle line:84%
+And if we use the
+binomial formula,
+
+00:47:48.750 --> 00:47:50.680 align:middle line:90%
+then it was equal to that.
+
+00:47:50.680 --> 00:47:57.480 align:middle line:84%
+So this here was equal to 1 over
+n factorial sum i equal to 0
+
+00:47:57.480 --> 00:48:07.770 align:middle line:84%
+to n x i y n minus i, and
+then n choose i-- like that.
+
+00:48:07.770 --> 00:48:13.800 align:middle line:84%
+Now I write in this
+little equation here.
+
+00:48:13.800 --> 00:48:19.800 align:middle line:84%
+And so I get that 1 over
+n factorial summing from i
+
+00:48:19.800 --> 00:48:28.140 align:middle line:84%
+equal to 0 through n, and
+then n factorial, n minus i
+
+00:48:28.140 --> 00:48:35.040 align:middle line:84%
+factorial times i
+factorial, x to the i times
+
+00:48:35.040 --> 00:48:37.920 align:middle line:90%
+y to the n minus i.
+
+00:48:37.920 --> 00:48:42.220 align:middle line:84%
+And now you see that
+the n factorials here
+
+00:48:42.220 --> 00:48:44.410 align:middle line:90%
+cancel with the n factorials.
+
+00:48:44.410 --> 00:48:50.770 align:middle line:84%
+So you're left with i
+equal to 0 through n.
+
+00:48:50.770 --> 00:48:52.970 align:middle line:90%
+And now I can group it.
+
+00:48:52.970 --> 00:48:54.080 align:middle line:90%
+I can group it.
+
+00:48:54.080 --> 00:49:04.270 align:middle line:84%
+I can write it as x i divided
+by i factorial times y
+
+00:49:04.270 --> 00:49:09.290 align:middle line:90%
+over n minus i factorial.
+
+00:49:09.290 --> 00:49:14.530 align:middle line:84%
+And this is to the power
+n minus i, like that.
+
+00:49:14.530 --> 00:49:23.130 align:middle line:84%
+But now you see that this here
+is exactly when we defined
+
+00:49:23.130 --> 00:49:25.970 align:middle line:90%
+a n like this and bn like this.
+
+00:49:25.970 --> 00:49:31.030 align:middle line:84%
+This here is exactly the
+sum from i equal to 0
+
+00:49:31.030 --> 00:49:36.600 align:middle line:90%
+through n of a i b n minus i.
+
+00:49:36.600 --> 00:49:39.270 align:middle line:90%
+
+
+00:49:39.270 --> 00:49:45.870 align:middle line:84%
+And so you see that what we
+have is that this thing here--
+
+00:49:45.870 --> 00:49:49.560 align:middle line:90%
+so E of x plus y--
+
+00:49:49.560 --> 00:49:52.740 align:middle line:84%
+with our definition
+of the c's, this
+
+00:49:52.740 --> 00:49:56.345 align:middle line:84%
+was just defined to be
+equal to this limit.
+
+00:49:56.345 --> 00:49:58.890 align:middle line:90%
+
+
+00:49:58.890 --> 00:50:04.620 align:middle line:84%
+But the cn's is also given
+by the product of these two
+
+00:50:04.620 --> 00:50:06.180 align:middle line:90%
+other series.
+
+00:50:06.180 --> 00:50:12.030 align:middle line:84%
+But this means that it must
+be the product of the two,
+
+00:50:12.030 --> 00:50:14.670 align:middle line:90%
+like that.
+
+00:50:14.670 --> 00:50:21.970 align:middle line:84%
+It's the product of the two
+sums, infinite sums, like that.
+
+00:50:21.970 --> 00:50:27.520 align:middle line:84%
+But this thing here is,
+of course, just E x,
+
+00:50:27.520 --> 00:50:31.270 align:middle line:90%
+and this is just E y.
+
+00:50:31.270 --> 00:50:32.370 align:middle line:90%
+So this proved it.
+
+00:50:32.370 --> 00:50:37.041 align:middle line:90%
+
+
+00:50:37.041 --> 00:50:41.500 align:middle line:84%
+And again, this here was just
+assuming that the x and y
+
+00:50:41.500 --> 00:50:42.770 align:middle line:90%
+are non-negative.
+
+00:50:42.770 --> 00:50:45.070 align:middle line:84%
+But given what I
+said-- also, this
+
+00:50:45.070 --> 00:50:48.040 align:middle line:84%
+corollary-- it's not
+very hard to prove
+
+00:50:48.040 --> 00:50:49.520 align:middle line:90%
+the general case from that.
+
+00:50:49.520 --> 00:50:52.490 align:middle line:90%
+
+
+00:50:52.490 --> 00:50:56.530 align:middle line:90%
+So now-- but I won't do that.
+
+00:50:56.530 --> 00:51:05.180 align:middle line:84%
+So let's just talk a little bit
+more about continuous functions.
+
+00:51:05.180 --> 00:51:08.210 align:middle line:84%
+So let me one more time
+just remind you about it,
+
+00:51:08.210 --> 00:51:18.105 align:middle line:84%
+and then let me give you a
+wild example of a function.
+
+00:51:18.105 --> 00:51:22.225 align:middle line:90%
+
+
+00:51:22.225 --> 00:51:27.100 align:middle line:84%
+So first let me remind
+you with continuous.
+
+00:51:27.100 --> 00:51:30.250 align:middle line:84%
+So continuous [INAUDIBLE] is a
+really important concept, also,
+
+00:51:30.250 --> 00:51:32.320 align:middle line:90%
+in this class.
+
+00:51:32.320 --> 00:51:37.160 align:middle line:84%
+So I have a function, and it
+doesn't need to be defined.
+
+00:51:37.160 --> 00:51:43.370 align:middle line:84%
+It's defined, say A on
+some subset of R into R.
+
+00:51:43.370 --> 00:51:45.810 align:middle line:90%
+And then we say that--
+
+00:51:45.810 --> 00:51:50.490 align:middle line:84%
+and then we have some
+point x0 in the domain.
+
+00:51:50.490 --> 00:52:12.783 align:middle line:84%
+And we say that f here
+is continuous at x0
+
+00:52:12.783 --> 00:52:13.700 align:middle line:90%
+if the following hold.
+
+00:52:13.700 --> 00:52:17.210 align:middle line:90%
+That's for all epsilon.
+
+00:52:17.210 --> 00:52:27.020 align:middle line:84%
+For all epsilon greater than
+0, there exists delta greater
+
+00:52:27.020 --> 00:52:38.320 align:middle line:84%
+than 0 such that if x is in
+the domain and x minus x0
+
+00:52:38.320 --> 00:52:47.140 align:middle line:84%
+is less than delta,
+then the images
+
+00:52:47.140 --> 00:52:50.730 align:middle line:90%
+deviate at most by epsilon.
+
+00:52:50.730 --> 00:52:54.500 align:middle line:84%
+So this is, again, what
+it says to be continuous.
+
+00:52:54.500 --> 00:52:57.370 align:middle line:84%
+And here, unlike
+the previous couple
+
+00:52:57.370 --> 00:53:01.250 align:middle line:84%
+of times when I defined it,
+here it's really defined.
+
+00:53:01.250 --> 00:53:05.150 align:middle line:84%
+You see it makes total
+sense on any subset of R.
+
+00:53:05.150 --> 00:53:09.250 align:middle line:84%
+It doesn't need to
+be an interval, even.
+
+00:53:09.250 --> 00:53:11.150 align:middle line:84%
+So it doesn't need
+to be all of R,
+
+00:53:11.150 --> 00:53:12.720 align:middle line:84%
+but it does need
+to be an interval.
+
+00:53:12.720 --> 00:53:17.830 align:middle line:90%
+
+
+00:53:17.830 --> 00:53:23.720 align:middle line:84%
+Now, so this is what it means
+for a function to be continuous.
+
+00:53:23.720 --> 00:53:27.045 align:middle line:84%
+Let me give you an example of a
+sort of somewhat wild function.
+
+00:53:27.045 --> 00:53:30.550 align:middle line:90%
+
+
+00:53:30.550 --> 00:53:35.730 align:middle line:84%
+And so continuous is
+a very nice property.
+
+00:53:35.730 --> 00:53:40.340 align:middle line:84%
+It's continuous if it's
+continuous at all points.
+
+00:53:40.340 --> 00:53:44.690 align:middle line:84%
+Usually, continuous is
+a nice property to have.
+
+00:53:44.690 --> 00:53:48.090 align:middle line:90%
+Often, it's the bare minimum.
+
+00:53:48.090 --> 00:53:49.850 align:middle line:90%
+It's often not enough.
+
+00:53:49.850 --> 00:53:52.940 align:middle line:84%
+You want something
+more than continuous.
+
+00:53:52.940 --> 00:54:01.850 align:middle line:84%
+But of course, other times,
+you may have much less.
+
+00:54:01.850 --> 00:54:03.093 align:middle line:90%
+So here's an example.
+
+00:54:03.093 --> 00:54:07.970 align:middle line:90%
+
+
+00:54:07.970 --> 00:54:10.620 align:middle line:90%
+So this is an example.
+
+00:54:10.620 --> 00:54:14.600 align:middle line:84%
+So it's a function
+defined on all of R--
+
+00:54:14.600 --> 00:54:27.590 align:middle line:84%
+example of a function
+defined on all of R
+
+00:54:27.590 --> 00:54:32.236 align:middle line:90%
+that is nowhere continuous.
+
+00:54:32.236 --> 00:54:42.540 align:middle line:90%
+
+
+00:54:42.540 --> 00:54:46.140 align:middle line:84%
+By "nowhere continuous," I mean
+that there's not a single point
+
+00:54:46.140 --> 00:54:49.375 align:middle line:90%
+where it's continuous.
+
+00:54:49.375 --> 00:54:52.920 align:middle line:84%
+And so this is the
+function f of x.
+
+00:54:52.920 --> 00:54:55.680 align:middle line:90%
+And the function is--
+
+00:54:55.680 --> 00:55:05.880 align:middle line:84%
+if x here is a rational
+point, then f of x is 0.
+
+00:55:05.880 --> 00:55:15.420 align:middle line:84%
+And if x here is an irrational
+point, then [? I'm ?] setting it
+
+00:55:15.420 --> 00:55:16.730 align:middle line:90%
+equal to 1.
+
+00:55:16.730 --> 00:55:19.410 align:middle line:90%
+
+
+00:55:19.410 --> 00:55:21.420 align:middle line:84%
+So it's a pretty
+simple function.
+
+00:55:21.420 --> 00:55:26.820 align:middle line:84%
+And so I claim that this is
+not continuous at any point.
+
+00:55:26.820 --> 00:55:28.865 align:middle line:90%
+And so the thing is that--
+
+00:55:28.865 --> 00:55:35.694 align:middle line:90%
+
+
+00:55:35.694 --> 00:55:38.290 align:middle line:84%
+you see, if you take
+any points-- let's just
+
+00:55:38.290 --> 00:55:40.230 align:middle line:90%
+take a rational point first.
+
+00:55:40.230 --> 00:55:44.530 align:middle line:90%
+
+
+00:55:44.530 --> 00:55:49.690 align:middle line:84%
+So suppose you take a
+rational point here.
+
+00:55:49.690 --> 00:55:52.515 align:middle line:90%
+This here is-- x0 is rational.
+
+00:55:52.515 --> 00:56:00.280 align:middle line:90%
+
+
+00:56:00.280 --> 00:56:03.080 align:middle line:90%
+Then you have that--
+
+00:56:03.080 --> 00:56:07.430 align:middle line:84%
+if you are looking
+at square root of 2,
+
+00:56:07.430 --> 00:56:11.240 align:middle line:84%
+we know that this
+here is not rational.
+
+00:56:11.240 --> 00:56:12.105 align:middle line:90%
+We proved that.
+
+00:56:12.105 --> 00:56:17.920 align:middle line:90%
+
+
+00:56:17.920 --> 00:56:20.690 align:middle line:84%
+We showed that this
+is not rational.
+
+00:56:20.690 --> 00:56:27.070 align:middle line:84%
+And so in fact, if
+you take 1 over--
+
+00:56:27.070 --> 00:56:30.340 align:middle line:84%
+sorry, square root
+of 2 divided by n,
+
+00:56:30.340 --> 00:56:33.850 align:middle line:84%
+where n here is
+sufficiently large,
+
+00:56:33.850 --> 00:56:37.190 align:middle line:84%
+then you can make this
+thing here very close to 0.
+
+00:56:37.190 --> 00:56:39.820 align:middle line:90%
+
+
+00:56:39.820 --> 00:56:42.220 align:middle line:84%
+And then you could
+add this thing here.
+
+00:56:42.220 --> 00:56:49.530 align:middle line:84%
+So you could look at x0, and you
+could look at square root of 2
+
+00:56:49.530 --> 00:56:53.880 align:middle line:90%
+over n for n really large.
+
+00:56:53.880 --> 00:56:56.980 align:middle line:84%
+If n is really large, you
+can make this thing here,
+
+00:56:56.980 --> 00:57:01.810 align:middle line:84%
+so this is square
+root of 2 plus x0.
+
+00:57:01.810 --> 00:57:05.880 align:middle line:84%
+So you could make this
+really, really close to x0.
+
+00:57:05.880 --> 00:57:09.210 align:middle line:84%
+This thing here
+would be irrational,
+
+00:57:09.210 --> 00:57:13.350 align:middle line:84%
+and so the value of the
+function here would be 1.
+
+00:57:13.350 --> 00:57:15.533 align:middle line:84%
+Let's make this a
+little bit more precise.
+
+00:57:15.533 --> 00:57:19.980 align:middle line:90%
+
+
+00:57:19.980 --> 00:57:23.430 align:middle line:84%
+And so-- let me
+maybe say it just
+
+00:57:23.430 --> 00:57:25.030 align:middle line:90%
+before I make it more precise.
+
+00:57:25.030 --> 00:57:28.060 align:middle line:84%
+So let's just draw
+the graph here.
+
+00:57:28.060 --> 00:57:31.960 align:middle line:90%
+So we have here x0.
+
+00:57:31.960 --> 00:57:33.800 align:middle line:90%
+We have here this--
+
+00:57:33.800 --> 00:57:36.610 align:middle line:84%
+this here is this
+irrational number,
+
+00:57:36.610 --> 00:57:38.530 align:middle line:84%
+which you could
+think about, but it
+
+00:57:38.530 --> 00:57:39.920 align:middle line:90%
+doesn't need to be this number.
+
+00:57:39.920 --> 00:57:42.470 align:middle line:84%
+It could be anything
+that is irrational.
+
+00:57:42.470 --> 00:57:44.510 align:middle line:90%
+This one here is irrational.
+
+00:57:44.510 --> 00:57:48.940 align:middle line:84%
+And by making n super
+large, this here super close
+
+00:57:48.940 --> 00:57:54.010 align:middle line:84%
+to x0, the value of
+the function here is 0.
+
+00:57:54.010 --> 00:57:58.170 align:middle line:84%
+The value of the
+function here is 1.
+
+00:57:58.170 --> 00:58:01.480 align:middle line:90%
+
+
+00:58:01.480 --> 00:58:05.050 align:middle line:84%
+And so you see that you
+have these points as
+
+00:58:05.050 --> 00:58:08.210 align:middle line:84%
+close to this point
+here as you want,
+
+00:58:08.210 --> 00:58:11.580 align:middle line:84%
+but the value of the
+function is very different
+
+00:58:11.580 --> 00:58:22.210 align:middle line:84%
+So again, just to spell
+it out, given an epsilon--
+
+00:58:22.210 --> 00:58:27.940 align:middle line:90%
+
+
+00:58:27.940 --> 00:58:37.730 align:middle line:84%
+so you see that if epsilon
+here was smaller than 1,
+
+00:58:37.730 --> 00:58:45.180 align:middle line:84%
+then you would have that
+f of x minus f of x0--
+
+00:58:45.180 --> 00:58:48.780 align:middle line:90%
+this here is a rational point.
+
+00:58:48.780 --> 00:58:51.960 align:middle line:90%
+So this here is--
+
+00:58:51.960 --> 00:58:57.140 align:middle line:84%
+this is 0, so this
+is just f of x.
+
+00:58:57.140 --> 00:59:04.670 align:middle line:84%
+And if this here is irrational--
+so if x here is irrational,
+
+00:59:04.670 --> 00:59:07.580 align:middle line:90%
+then this here is 1.
+
+00:59:07.580 --> 00:59:14.720 align:middle line:84%
+So you would have that you can
+choose this irrational point.
+
+00:59:14.720 --> 00:59:35.500 align:middle line:84%
+So for any delta, we can
+choose x, which is irrational,
+
+00:59:35.500 --> 00:59:42.040 align:middle line:84%
+and so that x minus x0 is
+smaller than delta, but we have
+
+00:59:42.040 --> 00:59:49.100 align:middle line:84%
+that f of x here is
+actually equal to 1.
+
+00:59:49.100 --> 00:59:50.980 align:middle line:84%
+But this difference
+here was supposed
+
+00:59:50.980 --> 00:59:53.755 align:middle line:90%
+to be smaller than delta.
+
+00:59:53.755 --> 00:59:55.360 align:middle line:90%
+That is not the case.
+
+00:59:55.360 --> 00:59:58.100 align:middle line:90%
+
+
+00:59:58.100 --> 01:00:02.030 align:middle line:84%
+If epsilon is smaller than
+1, it's definitely not.
+
+01:00:02.030 --> 01:00:02.980 align:middle line:90%
+It's 1.
+
+01:00:02.980 --> 01:00:08.590 align:middle line:90%
+
+
+01:00:08.590 --> 01:00:13.460 align:middle line:84%
+And so similarly, if you
+take-- so this was proving--
+
+01:00:13.460 --> 01:00:37.340 align:middle line:84%
+so this showed-- so this proof
+proved that f is discontinuous
+
+01:00:37.340 --> 01:00:40.380 align:middle line:90%
+at all rational points.
+
+01:00:40.380 --> 01:00:45.920 align:middle line:90%
+
+
+01:00:45.920 --> 01:00:48.140 align:middle line:84%
+Now let's prove that
+it's discontinuous
+
+01:00:48.140 --> 01:00:51.095 align:middle line:90%
+at all irrational points.
+
+01:00:51.095 --> 01:01:00.860 align:middle line:84%
+So if x [INAUDIBLE]
+0 is irrational,
+
+01:01:00.860 --> 01:01:07.610 align:middle line:84%
+then we have, of course,
+that f of x0 is equal to 1.
+
+01:01:07.610 --> 01:01:11.880 align:middle line:84%
+But we also know that
+arbitrary close--
+
+01:01:11.880 --> 01:01:26.040 align:middle line:84%
+so for any delta
+greater than 0, there
+
+01:01:26.040 --> 01:01:39.540 align:middle line:84%
+exists a rational point,
+a rational number x,
+
+01:01:39.540 --> 01:01:45.750 align:middle line:84%
+so that x minus x0 is
+smaller than delta.
+
+01:01:45.750 --> 01:01:52.530 align:middle line:84%
+But now, again, we have
+that f of x minus f of x0--
+
+01:01:52.530 --> 01:01:56.610 align:middle line:84%
+this thing here is 1,
+this thing here is 0,
+
+01:01:56.610 --> 01:02:00.900 align:middle line:90%
+so this difference here is 1.
+
+01:02:00.900 --> 01:02:04.750 align:middle line:84%
+And so you couldn't make
+it strictly less than 1
+
+01:02:04.750 --> 01:02:07.365 align:middle line:84%
+by having this delta
+sufficiently small.
+
+01:02:07.365 --> 01:02:09.910 align:middle line:84%
+So this proof is
+sort of same thing.
+
+01:02:09.910 --> 01:02:16.830 align:middle line:84%
+It proves that the function
+is also discontinuous
+
+01:02:16.830 --> 01:02:19.295 align:middle line:90%
+at all irrational points.
+
+01:02:19.295 --> 01:02:21.800 align:middle line:90%
+
+
+01:02:21.800 --> 01:02:26.713 align:middle line:84%
+Now, let's talk a
+little bit more--
+
+01:02:26.713 --> 01:02:29.970 align:middle line:90%
+
+
+01:02:29.970 --> 01:02:32.060 align:middle line:84%
+so let's talk a little
+bit more about some
+
+01:02:32.060 --> 01:02:38.450 align:middle line:84%
+of the algebraic rules that
+we discussed last time.
+
+01:02:38.450 --> 01:02:40.945 align:middle line:84%
+And I wanted to single
+out two of them.
+
+01:02:40.945 --> 01:02:50.130 align:middle line:90%
+
+
+01:02:50.130 --> 01:02:52.590 align:middle line:90%
+So we had the following.
+
+01:02:52.590 --> 01:03:09.900 align:middle line:84%
+If f and g are continuous
+functions and c is a constant--
+
+01:03:09.900 --> 01:03:12.740 align:middle line:90%
+
+
+01:03:12.740 --> 01:03:16.700 align:middle line:84%
+then last time, we talked
+about the following.
+
+01:03:16.700 --> 01:03:22.290 align:middle line:84%
+We talked about that f plus g,
+the sum of these two functions,
+
+01:03:22.290 --> 01:03:23.626 align:middle line:90%
+is also continuous.
+
+01:03:23.626 --> 01:03:30.450 align:middle line:90%
+
+
+01:03:30.450 --> 01:03:34.380 align:middle line:84%
+We talked about that
+if you take a function
+
+01:03:34.380 --> 01:03:36.580 align:middle line:84%
+and you multiply
+it by a constant,
+
+01:03:36.580 --> 01:03:39.690 align:middle line:90%
+this is also continuous.
+
+01:03:39.690 --> 01:03:43.980 align:middle line:84%
+We talked about that
+if you're looking
+
+01:03:43.980 --> 01:03:47.040 align:middle line:84%
+at the product of
+these functions, that's
+
+01:03:47.040 --> 01:03:48.870 align:middle line:90%
+also continuous.
+
+01:03:48.870 --> 01:03:52.620 align:middle line:84%
+The ones we mentioned,
+but we didn't actually--
+
+01:03:52.620 --> 01:03:57.600 align:middle line:84%
+this here was so elementary,
+this one here I outlined,
+
+01:03:57.600 --> 01:04:00.730 align:middle line:84%
+and let's talk about
+the last two properties.
+
+01:04:00.730 --> 01:04:05.230 align:middle line:84%
+One is close to what
+we had for sequences.
+
+01:04:05.230 --> 01:04:09.640 align:middle line:84%
+And that was that if f
+here does not vanish,
+
+01:04:09.640 --> 01:04:18.130 align:middle line:84%
+it's nowhere vanishing, then
+1/f here is also continuous.
+
+01:04:18.130 --> 01:04:21.340 align:middle line:84%
+And the last one, which is
+sort of different from anything
+
+01:04:21.340 --> 01:04:29.320 align:middle line:84%
+we had for our
+sequences, is that if you
+
+01:04:29.320 --> 01:04:33.070 align:middle line:90%
+have now a function--
+
+01:04:33.070 --> 01:04:36.040 align:middle line:84%
+so you have these two
+functions, f and g.
+
+01:04:36.040 --> 01:04:38.710 align:middle line:84%
+But now I'm thinking
+about f here
+
+01:04:38.710 --> 01:04:46.930 align:middle line:84%
+as going from, say,
+some subset of R into R,
+
+01:04:46.930 --> 01:04:50.120 align:middle line:84%
+but it may not [INAUDIBLE]
+into some set B.
+
+01:04:50.120 --> 01:04:54.850 align:middle line:84%
+This is a subset of R. This
+is another subset of R.
+
+01:04:54.850 --> 01:05:03.380 align:middle line:84%
+And then I have g here
+goes from this set into R.
+
+01:05:03.380 --> 01:05:06.080 align:middle line:90%
+It needs to be--
+
+01:05:06.080 --> 01:05:11.420 align:middle line:84%
+so you need this here to be
+defined on the images of f.
+
+01:05:11.420 --> 01:05:18.650 align:middle line:84%
+If you have that, and these two
+functions are continuous, then
+
+01:05:18.650 --> 01:05:21.660 align:middle line:90%
+if you form the composition--
+
+01:05:21.660 --> 01:05:24.680 align:middle line:90%
+so this is g of f of x--
+
+01:05:24.680 --> 01:05:29.426 align:middle line:84%
+this new function h
+here is also continuous.
+
+01:05:29.426 --> 01:05:38.690 align:middle line:90%
+
+
+01:05:38.690 --> 01:05:43.520 align:middle line:90%
+And so I want to--
+
+01:05:43.520 --> 01:05:46.580 align:middle line:84%
+in the few remaining
+minutes, I want
+
+01:05:46.580 --> 01:05:49.140 align:middle line:84%
+to talk about these
+two properties.
+
+01:05:49.140 --> 01:05:52.490 align:middle line:90%
+
+
+01:05:52.490 --> 01:05:54.860 align:middle line:84%
+And I will start
+with the last one,
+
+01:05:54.860 --> 01:05:59.090 align:middle line:84%
+because that's somewhat
+different from stuff
+
+01:05:59.090 --> 01:06:01.880 align:middle line:90%
+we talked about last time--
+
+01:06:01.880 --> 01:06:05.400 align:middle line:90%
+I mean for sequences.
+
+01:06:05.400 --> 01:06:11.840 align:middle line:90%
+
+
+01:06:11.840 --> 01:06:19.990 align:middle line:84%
+So let's try to prove that this
+composition here is continuous,
+
+01:06:19.990 --> 01:06:21.810 align:middle line:90%
+so proof of 5.
+
+01:06:21.810 --> 01:06:30.490 align:middle line:90%
+
+
+01:06:30.490 --> 01:06:41.290 align:middle line:84%
+So given epsilon, well, we
+know that the function--
+
+01:06:41.290 --> 01:06:43.310 align:middle line:90%
+you sort of to start backwards.
+
+01:06:43.310 --> 01:06:45.560 align:middle line:90%
+Given epsilon, you know--
+
+01:06:45.560 --> 01:06:46.060 align:middle line:90%
+sorry.
+
+01:06:46.060 --> 01:06:50.020 align:middle line:90%
+
+
+01:06:50.020 --> 01:06:52.400 align:middle line:84%
+Let me just say that
+I want to prove it.
+
+01:06:52.400 --> 01:07:01.900 align:middle line:84%
+Let's show that h, which
+is the composition,
+
+01:07:01.900 --> 01:07:09.040 align:middle line:90%
+is continuous at x0.
+
+01:07:09.040 --> 01:07:12.980 align:middle line:90%
+
+
+01:07:12.980 --> 01:07:15.630 align:middle line:90%
+And so I want to prove that.
+
+01:07:15.630 --> 01:07:19.190 align:middle line:84%
+And for convenience,
+I'm just going
+
+01:07:19.190 --> 01:07:25.060 align:middle line:84%
+to call the image of x0 under
+f, and we'll call that y.
+
+01:07:25.060 --> 01:07:29.180 align:middle line:90%
+
+
+01:07:29.180 --> 01:07:43.015 align:middle line:84%
+So now, given epsilon
+bigger than 0,
+
+01:07:43.015 --> 01:07:53.100 align:middle line:90%
+since g is continuous at y0--
+
+01:07:53.100 --> 01:07:57.170 align:middle line:90%
+note that this is y0.
+
+01:07:57.170 --> 01:08:09.680 align:middle line:84%
+So since g is continuous at
+y0, there exists a delta--
+
+01:08:09.680 --> 01:08:12.210 align:middle line:90%
+let's call it delta g--
+
+01:08:12.210 --> 01:08:17.250 align:middle line:90%
+so that if y minus y0--
+
+01:08:17.250 --> 01:08:20.430 align:middle line:90%
+if this is less than delta g--
+
+01:08:20.430 --> 01:08:32.729 align:middle line:84%
+then the images-- sorry, under
+g not under f, but under g.
+
+01:08:32.729 --> 01:08:41.220 align:middle line:84%
+So then the images g
+of y minus g of y0--
+
+01:08:41.220 --> 01:08:45.319 align:middle line:84%
+the images under g is
+smaller than epsilon.
+
+01:08:45.319 --> 01:08:51.782 align:middle line:90%
+
+
+01:08:51.782 --> 01:08:54.930 align:middle line:84%
+So this is just because
+g is continuous,
+
+01:08:54.930 --> 01:08:57.663 align:middle line:84%
+and I'm using that
+it's continuous at y0.
+
+01:08:57.663 --> 01:09:00.330 align:middle line:90%
+
+
+01:09:00.330 --> 01:09:04.926 align:middle line:84%
+Now I need to use
+that f is continuous.
+
+01:09:04.926 --> 01:09:10.399 align:middle line:90%
+
+
+01:09:10.399 --> 01:09:14.810 align:middle line:84%
+So now I'm thinking
+about this delta g
+
+01:09:14.810 --> 01:09:18.720 align:middle line:90%
+as my epsilon [INAUDIBLE] in f.
+
+01:09:18.720 --> 01:09:51.800 align:middle line:84%
+So from delta g and
+the continuity of f,
+
+01:09:51.800 --> 01:10:06.320 align:middle line:84%
+there exists delta of f
+such that, if x minus x0
+
+01:10:06.320 --> 01:10:12.390 align:middle line:84%
+is less than delta
+of f, then the images
+
+01:10:12.390 --> 01:10:17.640 align:middle line:90%
+f of x minus f of x0--
+
+01:10:17.640 --> 01:10:20.041 align:middle line:90%
+the images is less than delta g.
+
+01:10:20.041 --> 01:10:23.610 align:middle line:90%
+
+
+01:10:23.610 --> 01:10:27.270 align:middle line:90%
+But now you see-- now I have--
+
+01:10:27.270 --> 01:10:30.130 align:middle line:90%
+this thing here-- f of x--
+
+01:10:30.130 --> 01:10:33.005 align:middle line:84%
+this thing here--
+this is f of x.
+
+01:10:33.005 --> 01:10:35.670 align:middle line:90%
+
+
+01:10:35.670 --> 01:10:42.550 align:middle line:84%
+And this thing here,
+f of x0, was y0.
+
+01:10:42.550 --> 01:10:44.385 align:middle line:90%
+So this is the same as this.
+
+01:10:44.385 --> 01:10:47.310 align:middle line:90%
+
+
+01:10:47.310 --> 01:10:49.510 align:middle line:90%
+But now you see that--
+
+01:10:49.510 --> 01:10:52.900 align:middle line:84%
+so I have these two
+points that they are--
+
+01:10:52.900 --> 01:10:57.100 align:middle line:84%
+and where one of them is y0, and
+then I have this other point,
+
+01:10:57.100 --> 01:11:03.600 align:middle line:84%
+and their difference
+is bounded by delta g.
+
+01:11:03.600 --> 01:11:05.770 align:middle line:90%
+So I'm in iteration.
+
+01:11:05.770 --> 01:11:08.710 align:middle line:84%
+So this means that the
+images of these two--
+
+01:11:08.710 --> 01:11:13.780 align:middle line:84%
+so this implies that the images
+of this thing here under g
+
+01:11:13.780 --> 01:11:23.950 align:middle line:84%
+and this here on g-- so g
+of f of x minus g of f--
+
+01:11:23.950 --> 01:11:27.730 align:middle line:90%
+sorry, g of y0--
+
+01:11:27.730 --> 01:11:30.625 align:middle line:84%
+this thing here is
+less than epsilon.
+
+01:11:30.625 --> 01:11:34.930 align:middle line:90%
+
+
+01:11:34.930 --> 01:11:39.370 align:middle line:84%
+This is just because that
+was how delta g was chosen.
+
+01:11:39.370 --> 01:11:43.390 align:middle line:84%
+And you see that one of
+them-- one of these two points
+
+01:11:43.390 --> 01:11:49.090 align:middle line:84%
+have to be y0, but that's
+exactly what it is over there.
+
+01:11:49.090 --> 01:11:51.010 align:middle line:90%
+So I have this--
+
+01:11:51.010 --> 01:11:54.910 align:middle line:90%
+but you see, this thing here--
+
+01:11:54.910 --> 01:11:56.610 align:middle line:90%
+but this thing here is just--
+
+01:11:56.610 --> 01:12:04.470 align:middle line:90%
+
+
+01:12:04.470 --> 01:12:09.720 align:middle line:90%
+but you see that g of f of x--
+
+01:12:09.720 --> 01:12:11.950 align:middle line:90%
+this is just the composition.
+
+01:12:11.950 --> 01:12:16.320 align:middle line:90%
+So this is what we call h of x.
+
+01:12:16.320 --> 01:12:27.660 align:middle line:84%
+g of y0, where y0 was
+defined to be f of x0--
+
+01:12:27.660 --> 01:12:34.680 align:middle line:84%
+so this thing here
+is g of f of x0.
+
+01:12:34.680 --> 01:12:39.330 align:middle line:84%
+But that's just the
+composition at x0.
+
+01:12:39.330 --> 01:12:42.550 align:middle line:84%
+So you see, what
+we have now is--
+
+01:12:42.550 --> 01:12:50.610 align:middle line:84%
+So therefore, we have
+that if x minus x0--
+
+01:12:50.610 --> 01:12:55.890 align:middle line:84%
+if this thing here is
+less than this delta f,
+
+01:12:55.890 --> 01:13:00.520 align:middle line:90%
+then we have this thing here.
+
+01:13:00.520 --> 01:13:09.580 align:middle line:84%
+But this thing here is
+h of x minus h of x0
+
+01:13:09.580 --> 01:13:11.860 align:middle line:90%
+is less than epsilon.
+
+01:13:11.860 --> 01:13:15.490 align:middle line:84%
+And so this proves that the
+composition of these two
+
+01:13:15.490 --> 01:13:18.280 align:middle line:90%
+functions is continuous.
+
+01:13:18.280 --> 01:13:22.420 align:middle line:84%
+And so again, when
+you have two functions
+
+01:13:22.420 --> 01:13:24.910 align:middle line:84%
+and you look at the
+composition, it's
+
+01:13:24.910 --> 01:13:30.770 align:middle line:84%
+really important to first check
+that the second one is defined.
+
+01:13:30.770 --> 01:13:35.230 align:middle line:84%
+So the second one
+should be defined where
+
+01:13:35.230 --> 01:13:37.945 align:middle line:90%
+you end up under the first map.
+
+01:13:37.945 --> 01:13:50.590 align:middle line:90%
+
+
+01:13:50.590 --> 01:13:52.720 align:middle line:84%
+So now let me just
+say a few words
+
+01:13:52.720 --> 01:13:57.700 align:middle line:90%
+about the other one, number 4.
+
+01:13:57.700 --> 01:14:10.280 align:middle line:84%
+But the number 4 is closer to
+things we had for sequences.
+
+01:14:10.280 --> 01:14:12.415 align:middle line:90%
+So we have now proven [? 4. ?]
+
+01:14:12.415 --> 01:14:17.780 align:middle line:90%
+
+
+01:14:17.780 --> 01:14:23.420 align:middle line:84%
+So what we have is we have
+this function, it's never 0,
+
+01:14:23.420 --> 01:14:29.270 align:middle line:84%
+and we have some
+x0 in the domain,
+
+01:14:29.270 --> 01:14:32.016 align:middle line:84%
+and we know that f
+here is continuous.
+
+01:14:32.016 --> 01:14:37.730 align:middle line:90%
+
+
+01:14:37.730 --> 01:14:40.890 align:middle line:84%
+We only need it to
+be continuous at x0.
+
+01:14:40.890 --> 01:15:00.580 align:middle line:84%
+And then I want to show that
+1/f of x is continuous at x0.
+
+01:15:00.580 --> 01:15:03.250 align:middle line:90%
+And so I'm looking at--
+
+01:15:03.250 --> 01:15:06.825 align:middle line:84%
+so I want to estimate
+this difference here.
+
+01:15:06.825 --> 01:15:10.720 align:middle line:90%
+
+
+01:15:10.720 --> 01:15:15.400 align:middle line:84%
+And I want to say that if
+I pick an epsilon, then
+
+01:15:15.400 --> 01:15:17.660 align:middle line:90%
+I can pick x as close--
+
+01:15:17.660 --> 01:15:22.720 align:middle line:84%
+if I pick x to be within delta,
+where delta is sufficiently
+
+01:15:22.720 --> 01:15:25.960 align:middle line:84%
+small, of x0, then
+this difference here
+
+01:15:25.960 --> 01:15:28.450 align:middle line:90%
+can be smaller than epsilon.
+
+01:15:28.450 --> 01:15:34.270 align:middle line:84%
+So now, let me just
+estimate this thing here.
+
+01:15:34.270 --> 01:15:37.610 align:middle line:90%
+And so this thing here is just--
+
+01:15:37.610 --> 01:15:40.310 align:middle line:84%
+so now I just put it on
+the common denominator.
+
+01:15:40.310 --> 01:15:46.030 align:middle line:84%
+So I have f of x0
+minus f of x divided
+
+01:15:46.030 --> 01:15:56.410 align:middle line:90%
+by f of x0 f of x [INAUDIBLE].
+
+01:15:56.410 --> 01:15:59.790 align:middle line:84%
+And now it's sort of
+the usual problem,
+
+01:15:59.790 --> 01:16:02.090 align:middle line:84%
+but now we're maybe
+not so worried
+
+01:16:02.090 --> 01:16:04.610 align:middle line:90%
+about that usual problem.
+
+01:16:04.610 --> 01:16:08.370 align:middle line:84%
+The usual problem
+is this x0 is fixed,
+
+01:16:08.370 --> 01:16:10.140 align:middle line:90%
+so this is just some number.
+
+01:16:10.140 --> 01:16:12.270 align:middle line:84%
+So that doesn't really
+matter too much.
+
+01:16:12.270 --> 01:16:17.340 align:middle line:84%
+This one here is not fixed,
+so that's the usual problem.
+
+01:16:17.340 --> 01:16:19.790 align:middle line:84%
+This is a problem
+we've seen before.
+
+01:16:19.790 --> 01:16:23.570 align:middle line:84%
+We saw it in 3 up there, and
+we saw it in the similar things
+
+01:16:23.570 --> 01:16:26.750 align:middle line:90%
+for sequences.
+
+01:16:26.750 --> 01:16:45.290 align:middle line:84%
+But now the thing is that since
+f of x0 is not equal to 0, then
+
+01:16:45.290 --> 01:16:47.100 align:middle line:90%
+you can just take--
+
+01:16:47.100 --> 01:16:49.135 align:middle line:90%
+so then now you can first take--
+
+01:16:49.135 --> 01:16:52.110 align:middle line:90%
+
+
+01:16:52.110 --> 01:17:03.570 align:middle line:84%
+so now we're going to pick the
+delta we want in two steps.
+
+01:17:03.570 --> 01:17:06.700 align:middle line:84%
+The first step is since
+this here is not 0,
+
+01:17:06.700 --> 01:17:17.430 align:middle line:84%
+then we know that there exists
+a delta 1 greater than 0 so
+
+01:17:17.430 --> 01:17:23.340 align:middle line:84%
+that if x minus x0 is
+smaller than delta 1,
+
+01:17:23.340 --> 01:17:29.460 align:middle line:84%
+then the image between
+f of x and f of x0--
+
+01:17:29.460 --> 01:17:39.150 align:middle line:84%
+I can make that smaller
+than f of x0 over 2.
+
+01:17:39.150 --> 01:17:45.366 align:middle line:84%
+You see, I'm just using this
+one here first as my epsilon.
+
+01:17:45.366 --> 01:17:47.430 align:middle line:90%
+Once I have that--
+
+01:17:47.430 --> 01:17:52.980 align:middle line:84%
+but this here implies,
+of course, that f of x--
+
+01:17:52.980 --> 01:17:58.060 align:middle line:84%
+see, I have f of x
+in the denominator,
+
+01:17:58.060 --> 01:18:01.160 align:middle line:84%
+and I want to bound
+this here from above.
+
+01:18:01.160 --> 01:18:03.660 align:middle line:90%
+
+
+01:18:03.660 --> 01:18:04.910 align:middle line:90%
+I want to bound it from above.
+
+01:18:04.910 --> 01:18:09.190 align:middle line:84%
+So I just need to get a
+lower bound for f of x.
+
+01:18:09.190 --> 01:18:12.970 align:middle line:90%
+So f of x here--
+
+01:18:12.970 --> 01:18:17.113 align:middle line:90%
+so I have that f of x plus--
+
+01:18:17.113 --> 01:18:20.140 align:middle line:90%
+
+
+01:18:20.140 --> 01:18:23.530 align:middle line:84%
+I can write--
+sorry, I can write.
+
+01:18:23.530 --> 01:18:35.293 align:middle line:84%
+Using this, I can write
+f of x0 as f of x minus--
+
+01:18:35.293 --> 01:18:38.680 align:middle line:90%
+
+
+01:18:38.680 --> 01:18:43.570 align:middle line:90%
+sorry, f of x0 like this--
+
+01:18:43.570 --> 01:18:47.775 align:middle line:90%
+minus f of x plus f of x.
+
+01:18:47.775 --> 01:18:49.275 align:middle line:84%
+Obviously, I can
+write it like that.
+
+01:18:49.275 --> 01:18:51.790 align:middle line:90%
+
+
+01:18:51.790 --> 01:18:58.800 align:middle line:84%
+And so this means that f of
+x0, slapping an absolute value
+
+01:18:58.800 --> 01:19:03.420 align:middle line:84%
+sign on it-- this here
+is less than f of x0
+
+01:19:03.420 --> 01:19:07.835 align:middle line:90%
+minus f of x plus f of x.
+
+01:19:07.835 --> 01:19:10.590 align:middle line:90%
+
+
+01:19:10.590 --> 01:19:14.195 align:middle line:84%
+And so now I can move this one
+here over on the other side.
+
+01:19:14.195 --> 01:19:20.640 align:middle line:90%
+
+
+01:19:20.640 --> 01:19:23.850 align:middle line:84%
+So I have that-- so if
+I move this one here
+
+01:19:23.850 --> 01:19:29.820 align:middle line:84%
+over on the other side, I get
+that f of x absolute value
+
+01:19:29.820 --> 01:19:35.100 align:middle line:84%
+is bigger or equal to f
+of x0, absolute value,
+
+01:19:35.100 --> 01:19:44.900 align:middle line:84%
+minus this difference
+here, like that.
+
+01:19:44.900 --> 01:19:50.170 align:middle line:84%
+But if I make x and x0
+delta 1 close to each other,
+
+01:19:50.170 --> 01:19:53.170 align:middle line:84%
+then this difference
+here is at--
+
+01:19:53.170 --> 01:19:55.370 align:middle line:84%
+it's actually less
+than this thing here.
+
+01:19:55.370 --> 01:19:57.560 align:middle line:90%
+So there's still another 1/2.
+
+01:19:57.560 --> 01:20:04.960 align:middle line:84%
+You see, this one here must be
+bigger or equal to 1/2 of f of x
+
+01:20:04.960 --> 01:20:12.160 align:middle line:84%
+here, because this here takes up
+strictly less than half of this
+
+01:20:12.160 --> 01:20:16.550 align:middle line:84%
+thing here, so there's
+still another 1/2 left
+
+01:20:16.550 --> 01:20:19.280 align:middle line:84%
+And so this gives us a
+lower bound for this.
+
+01:20:19.280 --> 01:20:20.540 align:middle line:90%
+And now we are out of time.
+
+01:20:20.540 --> 01:20:22.880 align:middle line:84%
+but this gives us a
+lower bound for this,
+
+01:20:22.880 --> 01:20:28.610 align:middle line:84%
+as long as we make sure that
+x and x0 is delta 1 close.
+
+01:20:28.610 --> 01:20:30.220 align:middle line:84%
+And once you have
+that, you can just
+
+01:20:30.220 --> 01:20:32.030 align:middle line:90%
+treat this here as a constant.
+
+01:20:32.030 --> 01:20:34.630 align:middle line:84%
+And so now it's
+clear that you then
+
+01:20:34.630 --> 01:20:39.490 align:middle line:84%
+make another choice of
+delta, possibly even smaller
+
+01:20:39.490 --> 01:20:41.440 align:middle line:90%
+than this one here.
+
+01:20:41.440 --> 01:20:45.130 align:middle line:84%
+And then for this smallest
+of these two numbers, then
+
+01:20:45.130 --> 01:20:47.710 align:middle line:84%
+you can now conclude
+that this fraction here
+
+01:20:47.710 --> 01:20:48.970 align:middle line:90%
+is smaller than epsilon.
+
+01:20:48.970 --> 01:20:52.580 align:middle line:90%
+
+
+01:20:52.580 --> 01:20:54.442 align:middle line:90%
+Any questions?
+
+01:20:54.442 --> 01:20:55.395 align:middle line:90%
+Yeah?
+
+01:20:55.395 --> 01:20:57.395 align:middle line:84%
+AUDIENCE: I had a question
+going back to what we
+
+01:20:57.395 --> 01:20:58.850 align:middle line:90%
+were talking about [INAUDIBLE].
+
+01:20:58.850 --> 01:21:01.340 align:middle line:84%
+I was a little bit confused
+because we're defining
+
+01:21:01.340 --> 01:21:03.270 align:middle line:90%
+it to be non-continuous.
+
+01:21:03.270 --> 01:21:07.100 align:middle line:84%
+But by definition of
+continuity, if you
+
+01:21:07.100 --> 01:21:12.470 align:middle line:84%
+picked two x's near each
+other that were both rational,
+
+01:21:12.470 --> 01:21:16.310 align:middle line:84%
+and their f of x is both 0, then
+wouldn't that be continuous?
+
+01:21:16.310 --> 01:21:18.380 align:middle line:84%
+TOBIAS COLDING: So
+first of all, let
+
+01:21:18.380 --> 01:21:22.397 align:middle line:84%
+me say that if you were
+to picture this function--
+
+01:21:22.397 --> 01:21:24.480 align:middle line:84%
+of course, it wouldn't be
+very easy to picture it.
+
+01:21:24.480 --> 01:21:28.760 align:middle line:84%
+But you would sort of-- if you
+were to draw it, then actually,
+
+01:21:28.760 --> 01:21:29.600 align:middle line:90%
+it would look--
+
+01:21:29.600 --> 01:21:31.730 align:middle line:84%
+it wouldn't look like
+a function anymore,
+
+01:21:31.730 --> 01:21:35.700 align:middle line:84%
+because you would have it on
+all the rational numbers here,
+
+01:21:35.700 --> 01:21:39.230 align:middle line:84%
+it would be 0, and all the
+irrational numbers here, it
+
+01:21:39.230 --> 01:21:40.020 align:middle line:90%
+would be 1.
+
+01:21:40.020 --> 01:21:42.540 align:middle line:84%
+So if you picture it, it
+would look like two lines.
+
+01:21:42.540 --> 01:21:45.830 align:middle line:84%
+But of course, it wouldn't
+be two lines because it's--
+
+01:21:45.830 --> 01:21:47.780 align:middle line:84%
+but the points are
+just so close together
+
+01:21:47.780 --> 01:21:49.780 align:middle line:84%
+that you couldn't
+really draw it.
+
+01:21:49.780 --> 01:21:51.680 align:middle line:90%
+And so the thing is that--
+
+01:21:51.680 --> 01:21:54.280 align:middle line:90%
+but it also means that if you--
+
+01:21:54.280 --> 01:21:56.140 align:middle line:84%
+but this picture
+here illustrates
+
+01:21:56.140 --> 01:21:59.900 align:middle line:90%
+what you're saying, that for--
+
+01:21:59.900 --> 01:22:02.240 align:middle line:84%
+if you take rational
+numbers, well,
+
+01:22:02.240 --> 01:22:05.140 align:middle line:84%
+all the rational
+numbers that is really--
+
+01:22:05.140 --> 01:22:07.720 align:middle line:84%
+any rational number, whether
+it's close or not-- it
+
+01:22:07.720 --> 01:22:09.800 align:middle line:90%
+will all be 0 on those.
+
+01:22:09.800 --> 01:22:14.360 align:middle line:84%
+So that's not where the
+problem with continuity occurs.
+
+01:22:14.360 --> 01:22:17.410 align:middle line:84%
+The problem occurs
+because you also have
+
+01:22:17.410 --> 01:22:19.430 align:middle line:90%
+irrational numbers close to it.
+
+01:22:19.430 --> 01:22:22.990 align:middle line:84%
+And it has to be for
+all points close to this
+
+01:22:22.990 --> 01:22:25.730 align:middle line:84%
+that the value has to
+be almost the same.
+
+01:22:25.730 --> 01:22:28.930 align:middle line:84%
+So it's really for
+the irrational numbers
+
+01:22:28.930 --> 01:22:32.590 align:middle line:84%
+that the problem occurs
+with continuity--
+
+01:22:32.590 --> 01:22:33.760 align:middle line:90%
+in irrational numbers.
+
+01:22:33.760 --> 01:22:36.800 align:middle line:84%
+And vice versa for an
+irrational number--
+
+01:22:36.800 --> 01:22:39.710 align:middle line:84%
+if you're looking at continuity
+around an irrational,
+
+01:22:39.710 --> 01:22:42.590 align:middle line:84%
+the problem is not from
+other irrational numbers,
+
+01:22:42.590 --> 01:22:45.270 align:middle line:84%
+but is from the
+rational numbers.
+
+01:22:45.270 --> 01:22:48.000 align:middle line:90%

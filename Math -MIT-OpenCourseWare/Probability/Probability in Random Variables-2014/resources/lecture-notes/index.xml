@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_440s14_lecture1/index.html&#34;&gt;Permutations and Combinations (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_440s14_lecture2/index.html&#34;&gt;Multinomial Coefficients and More Counting (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_440s14_lecture3/index.html&#34;&gt;Sample Spaces and Set Theory (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_440s14_lecture4/index.html&#34;&gt;Axioms of Probability (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_440s14_lecture5/index.html&#34;&gt;Probability and Equal Likelihood (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_440s14_lecture6/index.html&#34;&gt;Conditional Probabilities (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;7&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_440s14_lecture7/index.html&#34;&gt;Bayes&amp;rsquo; Formula and Independent Events (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;8&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_440s14_lecture8/index.html&#34;&gt;Discrete Random Variables (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;9&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_440s14_lecture9/index.html&#34;&gt;Expectations of Discrete Random Variables (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;10&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_440s14_lecture10/index.html&#34;&gt;Variance (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;11&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit18_440s14_lecture11/index.html&#34;&gt;Binomial Random Variables, Repeated Trials and the so-called Modern Portfolio Theory (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 1</title>
+      <link>/resources/mit18_440s14_lecture1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture1/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 1 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 10</title>
+      <link>/resources/mit18_440s14_lecture10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture10/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 10 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 11</title>
+      <link>/resources/mit18_440s14_lecture11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture11/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 11 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 12</title>
+      <link>/resources/mit18_440s14_lecture12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture12/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 12 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 13</title>
+      <link>/resources/mit18_440s14_lecture13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture13/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 13 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 14</title>
+      <link>/resources/mit18_440s14_lecture14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture14/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 14 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 15</title>
+      <link>/resources/mit18_440s14_lecture15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture15/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 15 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 16</title>
+      <link>/resources/mit18_440s14_lecture16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture16/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 16 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 18</title>
+      <link>/resources/mit18_440s14_lecture18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture18/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 18 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 19</title>
+      <link>/resources/mit18_440s14_lecture19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture19/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 19 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 2</title>
+      <link>/resources/mit18_440s14_lecture2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture2/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 2 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 20</title>
+      <link>/resources/mit18_440s14_lecture20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture20/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Exponential random variables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 21</title>
+      <link>/resources/mit18_440s14_lecture21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture21/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding More continuous random variables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 22</title>
+      <link>/resources/mit18_440s14_lecture22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture22/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Joint distribution functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 23</title>
+      <link>/resources/mit18_440s14_lecture23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture23/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding sums of independent random variables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 24</title>
+      <link>/resources/mit18_440s14_lecture24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture24/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Expectation of sums.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 25</title>
+      <link>/resources/mit18_440s14_lecture25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture25/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Covariance and correlation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 26</title>
+      <link>/resources/mit18_440s14_lecture26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture26/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Conditional expectation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 27</title>
+      <link>/resources/mit18_440s14_lecture27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture27/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Moment generating distributions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 28</title>
+      <link>/resources/mit18_440s14_lecture28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture28/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Review for Midterm Exam 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 3</title>
+      <link>/resources/mit18_440s14_lecture3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture3/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 3 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 30</title>
+      <link>/resources/mit18_440s14_lecture30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture30/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Weak law of large numbers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 31</title>
+      <link>/resources/mit18_440s14_lecture31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture31/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Central limit theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 32</title>
+      <link>/resources/mit18_440s14_lecture32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture32/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Strong law of large numbers and Jensen&amp;rsquo;s inequality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 33</title>
+      <link>/resources/mit18_440s14_lecture33/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture33/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Markov chains.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 34</title>
+      <link>/resources/mit18_440s14_lecture34/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture34/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Entropy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 35</title>
+      <link>/resources/mit18_440s14_lecture35/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture35/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Martingales and the Optional Stopping Time Theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 36</title>
+      <link>/resources/mit18_440s14_lecture36/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture36/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Risk Neutral Probability and Black-Scholes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 37</title>
+      <link>/resources/mit18_440s14_lecture37/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture37/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Review for Final Exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 38</title>
+      <link>/resources/mit18_440s14_lecture38/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture38/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Review for Final Exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 39</title>
+      <link>/resources/mit18_440s14_lecture39/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture39/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Review for Final Exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 4</title>
+      <link>/resources/mit18_440s14_lecture4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture4/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 4 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 5</title>
+      <link>/resources/mit18_440s14_lecture5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture5/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 5 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 6</title>
+      <link>/resources/mit18_440s14_lecture6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture6/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 6 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 7</title>
+      <link>/resources/mit18_440s14_lecture7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture7/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 7 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 8</title>
+      <link>/resources/mit18_440s14_lecture8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture8/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 8 notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Lecture 9</title>
+      <link>/resources/mit18_440s14_lecture9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_lecture9/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lecture 9 notes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

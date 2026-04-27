@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>18.103 Fourier Analysis, Final Exam Review</title>
+      <link>/resources/mit18_103f13_final-rev/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_103f13_final-rev/data.json</guid>
+      <description>&lt;p&gt;This is a resource file that contains information regarding final exam review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.103 Fourier Analysis, Midterm test description</title>
+      <link>/resources/mit18_103f13_midterm-des/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_103f13_midterm-des/data.json</guid>
+      <description>&lt;p&gt;This is a resource file that contains information regarding midterm test description.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.103 Fourier Analysis, Midterm test review</title>
+      <link>/resources/mit18_103f13_midterm-rev/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_103f13_midterm-rev/data.json</guid>
+      <description>&lt;p&gt;This is a resource file that contains information regarding midterm test review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.103 Fourier Analysis, Practice midterm test</title>
+      <link>/resources/mit18_103f13_prac-mid/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_103f13_prac-mid/data.json</guid>
+      <description>&lt;p&gt;This is a resource file that contains information regarding practice midterm test.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.103 Fourier Analysis, Practice midterm test solutions</title>
+      <link>/resources/mit18_103f13_prac-mid-sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_103f13_prac-mid-sol/data.json</guid>
+      <description>&lt;p&gt;This is a resource file that contains information regarding practice midterm test solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;h3 id=&#34;review-and-practice-tests&#34;&gt;Review and Practice Tests&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit18_103f13_midterm-rev/index.html&#34;&gt;Midterm Test Review (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit18_103f13_midterm-des/index.html&#34;&gt;Midterm Test Description (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit18_103f13_prac-mid/index.html&#34;&gt;Practice Midterm Test (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit18_103f13_prac-mid-sol/index.html&#34;&gt;Practice Midterm Test Solutions (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit18_103f13_final-rev/index.html&#34;&gt;Final Exam Review and Practice Problems (PDF)&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

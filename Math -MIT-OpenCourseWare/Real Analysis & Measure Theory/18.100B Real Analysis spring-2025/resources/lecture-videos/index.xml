@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Introduction to Real Numbers</title>
+      <link>/resources/ocw_18100b-lec01-2025feb04_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec01-2025feb04_mp4/data.json</guid>
+      <description>&lt;p&gt;In this class you will learn the foundation of mathematical analysis as well as how to prove theorems and write a mathematical proof.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Continuous Functions; Exponential Function (cont.)</title>
+      <link>/resources/ocw_18100b-lec10-2025mar11_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec10-2025mar11_mp4/data.json</guid>
+      <description>&lt;p&gt;We conclude our proof of the basic properties of the exponential function. This includes a result about products of two series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Extreme and Intermediate Value Theorem; Metric Spaces</title>
+      <link>/resources/ocw_18100b-lec11-2025mar13_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec11-2025mar13_mp4/data.json</guid>
+      <description>&lt;p&gt;Using sequences and properties of sequences, we show both the extreme value theorem as well as the intermediate value theorem. We also define the notion of a metric space. A metric space is a space with a well-defined way of measuring distances between pairs of points. Many of the notions that we have introduced for the real numbers have counterparts for metric spaces and we discuss some of those including convergence and Cauchy sequence. We will also give a number of examples of metric spaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Convergence in Metric Spaces; Operations on Sets</title>
+      <link>/resources/ocw_18100b-lec12-2025apr01_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec12-2025apr01_mp4/data.json</guid>
+      <description>&lt;p&gt;We continue our discussion of metric spaces and see that even more concepts that we have studied on the real line have counterparts in metric spaces. Those include, in addition to sequences, convergence, and Cauchy sequence, also a ball, a bounded set, as well as open and closed subsets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Open and Closed Sets; Coverings; Compactness</title>
+      <link>/resources/ocw_18100b-lec13-2025apr03_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec13-2025apr03_mp4/data.json</guid>
+      <description>&lt;p&gt;We begin by giving a useful characterization of what it means for a set to be closed. This is the notion that a set contains all its limit points.  After that, we turn to the notion of a cover and, in particular, open covers and use it to define compact subsets of a metric space.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Sequential Compactness; Bolzano–Weierstrass Theorem in a Metric Space</title>
+      <link>/resources/ocw_18100b-lec14-2025apr08_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec14-2025apr08_mp4/data.json</guid>
+      <description>&lt;p&gt;We show the Bolzano-Weierstrass theorem in a metric space. This theorem states that for a metric space, a sequence contained in a compact subset has a convergent subsequence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Derivatives; Laws for Differentiation</title>
+      <link>/resources/ocw_18100b-lec15-2025apr10_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec15-2025apr10_mp4/data.json</guid>
+      <description>&lt;p&gt;We define what it means for a function to be differentiable. We show that if a function is differentiable at a point, then it is also continuous. We then establish the basic algebraic laws for differentiation. Those include Leibniz&amp;rsquo;s rule, the quotient rule, and the chain rule. Once we have that, we prove Rolle&amp;rsquo;s lemma and use it to show the mean value theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Rolle’s Theorem; Mean Theorem; L’Hôpital’s Rule; Taylor Expansion</title>
+      <link>/resources/ocw_18100b-lec16-2025apr15_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec16-2025apr15_mp4/data.json</guid>
+      <description>&lt;p&gt;In the lecture we show a second, more elaborate mean value theorem that involves two functions. This is the Cauchy mean value theorem and we use it to the show the two versions of L&amp;rsquo;Hôpital&amp;rsquo;s rule for limits of quotients as well as the important theorem about Taylor expansion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Taylor Polynomials; Remainder Term; Riemann Integrals</title>
+      <link>/resources/ocw_18100b-lec17-2025apr17_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec17-2025apr17_mp4/data.json</guid>
+      <description>&lt;p&gt;We begin by estimating how close the Taylor expansion approximates a function. To do so means that we need to bound the remainder term. After that, we turn to constructing the Riemann integrals. Integrals play a key role in all of mathematics and were originally constructed to calculate areas of complicated  figures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Integrable Functions</title>
+      <link>/resources/ocw_18100b-lec18-2025apr22_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec18-2025apr22_mp4/data.json</guid>
+      <description>&lt;p&gt;We will show that continuous functions are integrable. This means that the graph of such a function bounds a well-defined area. To do so, we define what it means for a function to be uniformly continuous. This is a strong version of continuity but we will see that all continuous functions on a closed and bounded interval have this stronger property. Once we have shown that all continuous functions on a compact interval are uniformly continuous, it will follow relatively easily that they are integrable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Fundamental Theorem of Calculus</title>
+      <link>/resources/ocw_18100b-lec19-2025apr24_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec19-2025apr24_mp4/data.json</guid>
+      <description>&lt;p&gt;We will show the key link between differentiation and integrals: the fundamental theorem of calculus. In fact, we give two versions of this key theorem. We will also discuss improper integrals as well as integrals of unbounded functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Introduction to Real Numbers (cont.)</title>
+      <link>/resources/ocw_18100b-lec02-2025feb06_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec02-2025feb06_mp4/data.json</guid>
+      <description>&lt;p&gt;We will get deeper into some of the properties of the real numbers that we will need and use in the class. This will include completeness in the form of least upper bound property of a bounded subset of the reals. We will also see that the set of rational numbers is not complete and we will therefore need a larger set of numbers. This larger set is the reals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Pointwise Convergence; Uniform Convergence</title>
+      <link>/resources/ocw_18100b-lec20-2025apr29_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec20-2025apr29_mp4/data.json</guid>
+      <description>&lt;p&gt;We define arc length of curves in terms of integrals. We also explore the difference between pointwise and uniform convergence and show that Weierstrass &lt;em&gt;M&lt;/em&gt;-test gives an easy to use criterion for when uniform convergence holds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Integrals and Derivatives under Uniform Convergence</title>
+      <link>/resources/ocw_18100b-lec21-2025may01_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec21-2025may01_mp4/data.json</guid>
+      <description>&lt;p&gt;We use Weierstrass &lt;em&gt;M&lt;/em&gt;-test to prove continuity of power series inside the radius of convergence. We also show that &lt;em&gt;C&lt;/em&gt;([&lt;em&gt;a&lt;/em&gt;; &lt;em&gt;b&lt;/em&gt;]) with the supremum norm is Cauchy complete. This will later play an important role when we establish existence and uniqueness of solutions to ordinary differential equations. Toward the end of the lecture we show that integrals and differentiation behave well under uniform convergence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Differentiating and Integrating Power Series; Ordinary Differential Equations (ODEs)</title>
+      <link>/resources/ocw_18100b-lec22-2025may06_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec22-2025may06_mp4/data.json</guid>
+      <description>&lt;p&gt;We show that integrating, respectively, differentiating a power series is done by integrating, respectively, differentiating it term by term. In the second part of the lecture we look at ordinary differential equations (ODEs). We explain what they are and discuss what existence and uniqueness of solutions means.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Existence &amp; Uniqueness for ODEs: Picard–Lindelöf Theorem</title>
+      <link>/resources/ocw_18100b-lec23-2025may08_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec23-2025may08_mp4/data.json</guid>
+      <description>&lt;p&gt;We show existence and uniqueness of  first order ordinary differential equations (ODEs). This is the Picard–Lindelöf theorem and is a wonderful application of much of the material in the class. It will use the theory of metric spaces as well as the contracting mapping theorem. The solution to an ODE will be constructed as a fix point of a contracting map. Here the contracting map is defined on the Cauchy complete metric space of continuous functions on a compact interval.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: How to Write a Proof; Archimedean Property</title>
+      <link>/resources/ocw_18100b-lec03-2025feb11_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec03-2025feb11_mp4/data.json</guid>
+      <description>&lt;p&gt;In this lecture we take a closer look of what it means to write a mathematical proof. In doing so we return to the Archimedean property as well as why the square root of 2 is not a rational number.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Sequences; Convergence</title>
+      <link>/resources/ocw_18100b-lec04-2025feb13_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec04-2025feb13_mp4/data.json</guid>
+      <description>&lt;p&gt;We introduce in this lecture the key concept of a sequence and what it means for a sequence to be convergent. We also show the first basic properties of converging sequences as well define the notion of a subsequence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Monotone Convergence Theorem</title>
+      <link>/resources/ocw_18100b-lec05-2025feb20_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec05-2025feb20_mp4/data.json</guid>
+      <description>&lt;p&gt;We give a simple criterion that guarantees that a sequence is convergent. The criterion is that the sequence is bounded and either increasing or decreasing. This is the content of the monotone convergence theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Cauchy Convergence Theorem</title>
+      <link>/resources/ocw_18100b-lec06-2025feb23_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec06-2025feb23_mp4/data.json</guid>
+      <description>&lt;p&gt;In this lecture we show that there is way to determine whether or not a sequence is convergent even if we are unable to write down explicitly the limit. This is the notion of a sequence being a Cauchy sequence and has wide-ranging applications. We will also discuss some of these applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Bolzano–Weierstrass Theorem; Cauchy Sequences; Series</title>
+      <link>/resources/ocw_18100b-lec07-2025feb27_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec07-2025feb27_mp4/data.json</guid>
+      <description>&lt;p&gt;The Bolzano-Weierstrass theorem says that any bounded sequence has a convergent subsequence. This crucial fact can be used to show other important theorems. An almost immediate consequence of it is the Cauchy convergence theorem. We also introduce the notion of a series and get acquainted with perhaps the single most important series: the geometric series. For series, the most important question is whether or not it is convergent. To determine that, there are a number of tests beginning with the two versions of the comparison test.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Convergence Tests for Series; Power Series</title>
+      <link>/resources/ocw_18100b-lec08-2025mar04_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec08-2025mar04_mp4/data.json</guid>
+      <description>&lt;p&gt;In this lecture we will first continue the discussion of the available tests to determine whether or not a series is convergent. After that, we turn to the important notions of limsup and liminf. These new notions are needed to state the general form of the convergence tests. Once we have limsup, we can define the radius of convergence for a power series. Power series are infinite sums of polynomials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Limsup and Liminf; Power Series; Continuous Functions; Exponential Function</title>
+      <link>/resources/ocw_18100b-lec09-2025mar06_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-lec09-2025mar06_mp4/data.json</guid>
+      <description>&lt;p&gt;We define the exponential function as a power series and takes the first steps in establishing its basic properties. This also leads us to more discussion of continuous functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Review for 18.100B Real Analysis Midterm</title>
+      <link>/resources/ocw_18100b-midterm-review-2025mar18_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-midterm-review-2025mar18_mp4/data.json</guid>
+      <description>&lt;p&gt;We review the content presented to date in preparation for the 18.100B Real Analysis midterm exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Review for the 18.100B Real Analysis Final Exam</title>
+      <link>/resources/ocw_18100b-final-exam-review-2025may13_mp4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ocw_18100b-final-exam-review-2025may13_mp4/data.json</guid>
+      <description>&lt;p&gt;We review the content presented to date in preparation for the 18.100B Real Analysis final exam.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

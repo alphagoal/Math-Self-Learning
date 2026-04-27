@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;The lecture notes were taken by a student in the class. For all of the lecture notes, including a table of contents, download the following file (&lt;a href=&#34;../../resources/lectures/index.html&#34;&gt;PDF - 1.6 MB&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Lec #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Topics&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Metric Spaces, Continuity, Limit Points (&lt;a href=&#34;../../resources/lecture1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Compactness, Connectedness (&lt;a href=&#34;../../resources/lecture2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Differentiation in n Dimensions (&lt;a href=&#34;../../resources/lecture3/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Conditions for Differentiability, Mean Value Theorem (&lt;a href=&#34;../../resources/lecture4/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Chain Rule, Mean-value Theorem in n Dimensions (&lt;a href=&#34;../../resources/lecture5/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture1.pdf</title>
+      <link>/resources/lecture1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture1/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding review of topology&#xA;metric spaces, open and closed sets, continuity and limit points and closure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture10.pdf</title>
+      <link>/resources/lecture10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture10/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding fubini theorem and properties of riemann integrals&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture11.pdf</title>
+      <link>/resources/lecture11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture11/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding riemann integral and integration over more general regions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture12.pdf</title>
+      <link>/resources/lecture12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture12/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding improper integrals along with some definitions, remarks and corollary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture13.pdf</title>
+      <link>/resources/lecture13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture13/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding exhaustions along with some definitions, remarks and corollary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture14.pdf</title>
+      <link>/resources/lecture14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture14/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding support?and?compact?support and partitions?of?Unity along with the definitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture15.pdf</title>
+      <link>/resources/lecture15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture15/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding partition of unity theorem along with some definitions, remarks and corollary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture16.pdf</title>
+      <link>/resources/lecture16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture16/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding multilinear?algebra, review of linear algebra and topology and dual space.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture17.pdf</title>
+      <link>/resources/lecture17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture17/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding theory of tensors, pullback operators, alternating tensors along with some definitions, remarks and proofs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture18.pdf</title>
+      <link>/resources/lecture18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture18/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding a quick review of permutations along with some definitions, remarks and corollary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture19.pdf</title>
+      <link>/resources/lecture19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture19/data.json</guid>
+      <description>&lt;p&gt;This resource discusses the topic wedge product in detail.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture2.pdf</title>
+      <link>/resources/lecture2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture2/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding compactness and connectedness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture20.pdf</title>
+      <link>/resources/lecture20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture20/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topics: determinant, orientations of vector spaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture21.pdf</title>
+      <link>/resources/lecture21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture21/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topics: tangent spaces and k-forms, the d operator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture22.pdf</title>
+      <link>/resources/lecture22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture22/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topics: The d operator, pullback operator on exterior forms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture23.pdf</title>
+      <link>/resources/lecture23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture23/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topics: integration with differential forms, change of variables theorem, Sard&amp;rsquo;s theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture24.pdf</title>
+      <link>/resources/lecture24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture24/data.json</guid>
+      <description>&lt;p&gt;This resource explains Poincare theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture25.pdf</title>
+      <link>/resources/lecture25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture25/data.json</guid>
+      <description>&lt;p&gt;This resource explains the generalization of Poincare lemma.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture26.pdf</title>
+      <link>/resources/lecture26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture26/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topics: proper maps and degree.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture27.pdf</title>
+      <link>/resources/lecture27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture27/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topics: proper maps and degree.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture28.pdf</title>
+      <link>/resources/lecture28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture28/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topics: regular values, degree formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture29.pdf</title>
+      <link>/resources/lecture29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture29/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topic topological invariance of degree.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture3.pdf</title>
+      <link>/resources/lecture3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture3/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding differentiation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture30.pdf</title>
+      <link>/resources/lecture30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture30/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topics: Canonical submersion and immersion theorems, definition of manifold.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture31.pdf</title>
+      <link>/resources/lecture31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture31/data.json</guid>
+      <description>&lt;p&gt;This resource gives some examples of manifolds to better explain the topic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture32.pdf</title>
+      <link>/resources/lecture32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture32/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topic tangent spaces of manifolds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture33.pdf</title>
+      <link>/resources/lecture33/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture33/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topic differential forms on manifolds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture34.pdf</title>
+      <link>/resources/lecture34/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture34/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topic orientations of manifolds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture35.pdf</title>
+      <link>/resources/lecture35/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture35/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topics: Integration on manifolds, degree on manifolds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture36.pdf</title>
+      <link>/resources/lecture36/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture36/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topics: Degree on manifolds, Hopf theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture37.pdf</title>
+      <link>/resources/lecture37/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture37/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topic integration on smooth domains.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture38.pdf</title>
+      <link>/resources/lecture38/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture38/data.json</guid>
+      <description>&lt;p&gt;This resource explains the topics: Integration on smooth domains, Stokes&amp;rsquo; theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture4.pdf</title>
+      <link>/resources/lecture4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture4/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding conditions for differentiability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture5.pdf</title>
+      <link>/resources/lecture5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture5/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding chain rule, the mean-value theorem inn dimensions and inverse function theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture6.pdf</title>
+      <link>/resources/lecture6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture6/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding inverse function theorem and 4 lemmas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture7.pdf</title>
+      <link>/resources/lecture7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture7/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding discussion of inverse function theorem and integration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture8.pdf</title>
+      <link>/resources/lecture8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture8/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding riemann integral of several variables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture9.pdf</title>
+      <link>/resources/lecture9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture9/data.json</guid>
+      <description>&lt;p&gt;This resource provides information regarding discusses few theorems, corollary proofs, and lemmas&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lectures.pdf</title>
+      <link>/resources/lectures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lectures/data.json</guid>
+      <description>&lt;p&gt;This resource contains a table of content of the lecture topics covered in the class e.g. review of topology, differentiation, integration, multi-linear algebra, integration with differential forms, and manifolds. It also covers these topics in detail.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

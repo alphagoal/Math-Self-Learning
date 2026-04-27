@@ -1,0 +1,3293 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.440 align:middle line:90%
+[SQUEAKING]
+
+00:00:02.440 --> 00:00:04.392 align:middle line:90%
+[RUSTLING]
+
+00:00:04.392 --> 00:00:07.808 align:middle line:90%
+[CLICKING]
+
+00:00:07.808 --> 00:00:14.460 align:middle line:90%
+
+
+00:00:14.460 --> 00:00:16.560 align:middle line:84%
+TOBIAS COLDING:
+OK, so last time we
+
+00:00:16.560 --> 00:00:19.300 align:middle line:90%
+were looking at a metric space.
+
+00:00:19.300 --> 00:00:20.470 align:middle line:90%
+So this is a metric space.
+
+00:00:20.470 --> 00:00:25.840 align:middle line:90%
+
+
+00:00:25.840 --> 00:00:30.830 align:middle line:84%
+And we looked at what
+we called a open subset.
+
+00:00:30.830 --> 00:00:37.920 align:middle line:90%
+
+
+00:00:37.920 --> 00:00:42.240 align:middle line:84%
+And so an open subset
+is-- so over here
+
+00:00:42.240 --> 00:00:59.710 align:middle line:84%
+is now a subset of x is said
+to be open if for all x in O
+
+00:00:59.710 --> 00:01:12.030 align:middle line:84%
+there exists r greater than 0
+so that the entire ball around x
+
+00:01:12.030 --> 00:01:14.470 align:middle line:90%
+is contained in O.
+
+00:01:14.470 --> 00:01:20.510 align:middle line:84%
+And so the picture is
+that here you have x.
+
+00:01:20.510 --> 00:01:23.950 align:middle line:84%
+Here you have some
+open subset O.
+
+00:01:23.950 --> 00:01:29.710 align:middle line:84%
+And so if for each
+point x in O, there
+
+00:01:29.710 --> 00:01:36.150 align:middle line:84%
+is an entire ball here
+that is contained in O,
+
+00:01:36.150 --> 00:01:37.960 align:middle line:90%
+then O is said to be open.
+
+00:01:37.960 --> 00:01:42.470 align:middle line:90%
+
+
+00:01:42.470 --> 00:01:46.970 align:middle line:84%
+One of a few things
+that we proved is--
+
+00:01:46.970 --> 00:01:51.873 align:middle line:90%
+so one thing we proved is that--
+
+00:01:51.873 --> 00:01:54.910 align:middle line:90%
+
+
+00:01:54.910 --> 00:01:56.850 align:middle line:84%
+so again, x, d is
+a metric space.
+
+00:01:56.850 --> 00:01:59.400 align:middle line:90%
+
+
+00:01:59.400 --> 00:02:08.380 align:middle line:84%
+Sorry, I should say we
+defined the ball, Br of x.
+
+00:02:08.380 --> 00:02:14.060 align:middle line:90%
+So here, x is in x.
+
+00:02:14.060 --> 00:02:16.460 align:middle line:90%
+r is some positive number.
+
+00:02:16.460 --> 00:02:23.260 align:middle line:84%
+And then this thing here
+is then the y in x such
+
+00:02:23.260 --> 00:02:31.740 align:middle line:84%
+that the distance from x to
+y is strictly less than r.
+
+00:02:31.740 --> 00:02:41.410 align:middle line:84%
+And we showed that
+Br of x is given.
+
+00:02:41.410 --> 00:02:44.020 align:middle line:90%
+
+
+00:02:44.020 --> 00:02:47.780 align:middle line:84%
+By that Br, we say
+also that Br of x
+
+00:02:47.780 --> 00:02:56.750 align:middle line:84%
+is a ball of radius
+r centered at x.
+
+00:02:56.750 --> 00:03:05.570 align:middle line:90%
+
+
+00:03:05.570 --> 00:03:10.390 align:middle line:84%
+Now, there's a few other
+things that we discussed.
+
+00:03:10.390 --> 00:03:13.650 align:middle line:90%
+
+
+00:03:13.650 --> 00:03:24.330 align:middle line:84%
+So one thing is
+that so on subsets,
+
+00:03:24.330 --> 00:03:26.150 align:middle line:90%
+we have three operations.
+
+00:03:26.150 --> 00:03:37.610 align:middle line:90%
+
+
+00:03:37.610 --> 00:03:39.310 align:middle line:90%
+One is intersection.
+
+00:03:39.310 --> 00:03:44.570 align:middle line:90%
+
+
+00:03:44.570 --> 00:04:00.770 align:middle line:84%
+So this is that if u alpha
+is a family of subsets, then
+
+00:04:00.770 --> 00:04:05.570 align:middle line:84%
+we look at the intersection
+of all these subsets.
+
+00:04:05.570 --> 00:04:10.290 align:middle line:84%
+And so x is in this
+intersection just
+
+00:04:10.290 --> 00:04:16.720 align:middle line:84%
+means that x is in u
+alpha for all alpha.
+
+00:04:16.720 --> 00:04:21.209 align:middle line:90%
+
+
+00:04:21.209 --> 00:04:27.010 align:middle line:84%
+The second operation
+we looked at was union.
+
+00:04:27.010 --> 00:04:31.570 align:middle line:84%
+And so again, u alpha
+is a family of subsets.
+
+00:04:31.570 --> 00:04:38.210 align:middle line:84%
+Then we say that x here is
+in the union of the u alpha.
+
+00:04:38.210 --> 00:04:50.370 align:middle line:84%
+This is the same as saying that
+there exists alpha such that x
+
+00:04:50.370 --> 00:04:53.640 align:middle line:90%
+is in u alpha.
+
+00:04:53.640 --> 00:04:56.440 align:middle line:90%
+And the third thing we--
+
+00:04:56.440 --> 00:05:01.920 align:middle line:84%
+the celebration we have is that
+if you have a subset capital
+
+00:05:01.920 --> 00:05:07.500 align:middle line:90%
+U, then we have the complement.
+
+00:05:07.500 --> 00:05:21.760 align:middle line:84%
+So the complement
+of U is the x such
+
+00:05:21.760 --> 00:05:27.860 align:middle line:84%
+that x is not in U.
+That's a complement.
+
+00:05:27.860 --> 00:05:33.360 align:middle line:84%
+And so there was these
+three operations on subsets.
+
+00:05:33.360 --> 00:05:37.280 align:middle line:90%
+And why this is relevant here?
+
+00:05:37.280 --> 00:05:43.360 align:middle line:84%
+This is relevant
+because if u alpha--
+
+00:05:43.360 --> 00:05:46.150 align:middle line:90%
+so we have the following lemma.
+
+00:05:46.150 --> 00:05:51.470 align:middle line:90%
+
+
+00:05:51.470 --> 00:05:53.710 align:middle line:84%
+Again, we have a
+metric space here,
+
+00:05:53.710 --> 00:06:10.630 align:middle line:84%
+and we have O alpha is a
+family of open subset of x.
+
+00:06:10.630 --> 00:06:17.640 align:middle line:90%
+Then the union is also open.
+
+00:06:17.640 --> 00:06:21.310 align:middle line:90%
+
+
+00:06:21.310 --> 00:06:23.920 align:middle line:90%
+Now why is this the case?
+
+00:06:23.920 --> 00:06:28.070 align:middle line:90%
+
+
+00:06:28.070 --> 00:06:35.470 align:middle line:84%
+Well, it's the case
+because if x here
+
+00:06:35.470 --> 00:06:40.630 align:middle line:84%
+is in the union of
+the O alpha, then
+
+00:06:40.630 --> 00:06:50.380 align:middle line:84%
+this means that there exists
+alpha such that x here
+
+00:06:50.380 --> 00:06:53.340 align:middle line:90%
+is in alpha.
+
+00:06:53.340 --> 00:06:58.860 align:middle line:84%
+But since that alpha is open,
+this means that there exists--
+
+00:06:58.860 --> 00:07:01.060 align:middle line:84%
+so not only is x
+in that, but there
+
+00:07:01.060 --> 00:07:14.060 align:middle line:84%
+exists r that depends on
+x and alpha r positive,
+
+00:07:14.060 --> 00:07:22.380 align:middle line:84%
+so that the whole ball centered
+at x is contained in O alpha.
+
+00:07:22.380 --> 00:07:26.210 align:middle line:84%
+But if it's contained in
+alpha then this imply--
+
+00:07:26.210 --> 00:07:32.180 align:middle line:90%
+
+
+00:07:32.180 --> 00:07:39.420 align:middle line:84%
+if it's contained
+in alpha, then this
+
+00:07:39.420 --> 00:07:42.100 align:middle line:84%
+implies that it's,
+of course, this ball
+
+00:07:42.100 --> 00:07:49.960 align:middle line:84%
+here is contained in
+the union of these guys.
+
+00:07:49.960 --> 00:07:53.450 align:middle line:90%
+
+
+00:07:53.450 --> 00:07:57.490 align:middle line:84%
+But that's exactly
+what it means,
+
+00:07:57.490 --> 00:07:59.620 align:middle line:90%
+to say that the union is open.
+
+00:07:59.620 --> 00:08:07.890 align:middle line:90%
+
+
+00:08:07.890 --> 00:08:13.810 align:middle line:84%
+The other lemma
+related to this is--
+
+00:08:13.810 --> 00:08:16.890 align:middle line:84%
+and there, you
+have to be careful
+
+00:08:16.890 --> 00:08:20.270 align:middle line:90%
+that if you have finitely many.
+
+00:08:20.270 --> 00:08:28.290 align:middle line:84%
+So can you have a
+metric space and O1 up
+
+00:08:28.290 --> 00:08:37.540 align:middle line:84%
+to On finitely
+many open subsets?
+
+00:08:37.540 --> 00:08:43.650 align:middle line:90%
+
+
+00:08:43.650 --> 00:08:48.160 align:middle line:84%
+If you have finitely
+many open subsets,
+
+00:08:48.160 --> 00:08:54.500 align:middle line:84%
+then the intersection
+of these is also open.
+
+00:08:54.500 --> 00:09:00.520 align:middle line:90%
+
+
+00:09:00.520 --> 00:09:03.560 align:middle line:90%
+Now why is that the case?
+
+00:09:03.560 --> 00:09:09.360 align:middle line:84%
+This is the case
+because if you have--
+
+00:09:09.360 --> 00:09:18.760 align:middle line:84%
+so if x here is in the
+intersection of these guys,
+
+00:09:18.760 --> 00:09:23.480 align:middle line:84%
+then it means that this is
+equivalent to saying that x here
+
+00:09:23.480 --> 00:09:26.180 align:middle line:90%
+is in z for all i--
+
+00:09:26.180 --> 00:09:28.960 align:middle line:90%
+
+
+00:09:28.960 --> 00:09:30.860 align:middle line:90%
+i equal to 1 up to n.
+
+00:09:30.860 --> 00:09:37.960 align:middle line:90%
+
+
+00:09:37.960 --> 00:09:48.510 align:middle line:84%
+But since Oi is open, then
+for Oi, there exists ri.
+
+00:09:48.510 --> 00:09:59.230 align:middle line:84%
+This means that since Oi is
+open, there exists at ri such
+
+00:09:59.230 --> 00:10:11.790 align:middle line:84%
+that the ball here with radius
+r but center x, this one here
+
+00:10:11.790 --> 00:10:12.990 align:middle line:90%
+is contained in Oi.
+
+00:10:12.990 --> 00:10:15.590 align:middle line:90%
+
+
+00:10:15.590 --> 00:10:17.950 align:middle line:90%
+This is for each i.
+
+00:10:17.950 --> 00:10:20.750 align:middle line:84%
+But now if we check--
+there's only finitely many
+
+00:10:20.750 --> 00:10:27.040 align:middle line:84%
+i so you can let r be the
+minimum of these guys.
+
+00:10:27.040 --> 00:10:30.230 align:middle line:90%
+
+
+00:10:30.230 --> 00:10:35.710 align:middle line:84%
+If r is the minimum
+of these guys, then
+
+00:10:35.710 --> 00:10:38.530 align:middle line:90%
+the ball of radius r around x--
+
+00:10:38.530 --> 00:10:42.710 align:middle line:84%
+these are the points where the
+distance is strictly less than r
+
+00:10:42.710 --> 00:10:44.260 align:middle line:90%
+to x.
+
+00:10:44.260 --> 00:10:50.620 align:middle line:84%
+But that is, of course,
+contained in Br i of x.
+
+00:10:50.620 --> 00:10:53.540 align:middle line:84%
+This is for each
+i, you have this.
+
+00:10:53.540 --> 00:10:59.020 align:middle line:84%
+But this one here was supposed
+to be contained in Oi.
+
+00:10:59.020 --> 00:11:04.700 align:middle line:84%
+And so you see that
+this ball here--
+
+00:11:04.700 --> 00:11:15.460 align:middle line:84%
+again, this ball here is
+contained in this for each i.
+
+00:11:15.460 --> 00:11:17.500 align:middle line:84%
+So this means that
+this ball must
+
+00:11:17.500 --> 00:11:22.130 align:middle line:84%
+be contained in the
+intersection of these guys.
+
+00:11:22.130 --> 00:11:26.020 align:middle line:90%
+
+
+00:11:26.020 --> 00:11:28.960 align:middle line:84%
+And I'll just
+write it out again,
+
+00:11:28.960 --> 00:11:36.940 align:middle line:84%
+just emphasizing that I'm only
+doing this for finitely many Os.
+
+00:11:36.940 --> 00:11:39.500 align:middle line:84%
+And that's exactly
+what it means,
+
+00:11:39.500 --> 00:11:41.860 align:middle line:90%
+that the intersection is open.
+
+00:11:41.860 --> 00:11:45.580 align:middle line:84%
+And again, you could draw
+a little picture here.
+
+00:11:45.580 --> 00:11:48.100 align:middle line:84%
+It might be helpful to
+draw a little picture.
+
+00:11:48.100 --> 00:11:52.860 align:middle line:90%
+You have this here is O1.
+
+00:11:52.860 --> 00:11:55.700 align:middle line:90%
+Here, you have O2.
+
+00:11:55.700 --> 00:11:58.220 align:middle line:90%
+And here, you have O3.
+
+00:11:58.220 --> 00:12:01.380 align:middle line:84%
+You have a point in
+the intersection.
+
+00:12:01.380 --> 00:12:04.940 align:middle line:84%
+There's a ball here that
+is contained in this.
+
+00:12:04.940 --> 00:12:09.100 align:middle line:84%
+There's another ball here
+that's contained in this.
+
+00:12:09.100 --> 00:12:11.940 align:middle line:84%
+And there's a third
+ball, this ball here.
+
+00:12:11.940 --> 00:12:14.500 align:middle line:90%
+So that's contained in that.
+
+00:12:14.500 --> 00:12:17.860 align:middle line:84%
+And then you look at
+the smallest ball.
+
+00:12:17.860 --> 00:12:21.340 align:middle line:84%
+You look at the smallest
+weight-- the minimum, again,
+
+00:12:21.340 --> 00:12:23.780 align:middle line:90%
+of the radii.
+
+00:12:23.780 --> 00:12:30.180 align:middle line:84%
+And that ball is then contained
+in the intersection of the 3.
+
+00:12:30.180 --> 00:12:36.980 align:middle line:90%
+
+
+00:12:36.980 --> 00:12:39.080 align:middle line:84%
+Now why do we have
+to be careful?
+
+00:12:39.080 --> 00:12:43.090 align:middle line:84%
+Let me just remind you, why
+do we have to be careful here?
+
+00:12:43.090 --> 00:12:47.930 align:middle line:84%
+And so the examples that
+we looked at last time
+
+00:12:47.930 --> 00:13:00.650 align:middle line:90%
+was that if you are on--
+
+00:13:00.650 --> 00:13:07.490 align:middle line:84%
+so the example from last
+time is that if x here
+
+00:13:07.490 --> 00:13:14.026 align:middle line:84%
+is the real number and
+you're looking at On--
+
+00:13:14.026 --> 00:13:18.610 align:middle line:90%
+n here is a natural number--
+
+00:13:18.610 --> 00:13:25.010 align:middle line:84%
+and you're looking at this
+interval here from minus 1
+
+00:13:25.010 --> 00:13:30.010 align:middle line:84%
+over n to n, well,
+then if you're
+
+00:13:30.010 --> 00:13:36.150 align:middle line:84%
+looking at the intersection
+of all of these,
+
+00:13:36.150 --> 00:13:39.470 align:middle line:90%
+well, that's just the one point.
+
+00:13:39.470 --> 00:13:42.640 align:middle line:90%
+
+
+00:13:42.640 --> 00:13:46.220 align:middle line:84%
+And of course, 0 is
+not an open subset.
+
+00:13:46.220 --> 00:13:49.200 align:middle line:84%
+Because if it was an open
+subset, a whole ball--
+
+00:13:49.200 --> 00:13:52.680 align:middle line:84%
+and a ball here on the
+line is like a little open
+
+00:13:52.680 --> 00:13:55.620 align:middle line:84%
+little interval that doesn't
+have the two endpoints.
+
+00:13:55.620 --> 00:13:58.180 align:middle line:90%
+
+
+00:13:58.180 --> 00:14:11.520 align:middle line:84%
+So note that in this example,
+each Oi or each On is open,
+
+00:14:11.520 --> 00:14:20.670 align:middle line:84%
+but the intersection of
+the On's is not open.
+
+00:14:20.670 --> 00:14:23.880 align:middle line:90%
+
+
+00:14:23.880 --> 00:14:28.200 align:middle line:84%
+And the problem, again, is
+that there are infinitely many
+
+00:14:28.200 --> 00:14:28.760 align:middle line:90%
+of n's.
+
+00:14:28.760 --> 00:14:32.000 align:middle line:90%
+
+
+00:14:32.000 --> 00:14:37.070 align:middle line:84%
+Now again, one of the
+things we proved was--
+
+00:14:37.070 --> 00:14:42.470 align:middle line:84%
+and maybe I was just
+here on that board--
+
+00:14:42.470 --> 00:14:45.670 align:middle line:84%
+but one of the things
+we proved last time
+
+00:14:45.670 --> 00:14:53.920 align:middle line:84%
+was that if you take a ball,
+then it is actually an open set.
+
+00:14:53.920 --> 00:14:58.910 align:middle line:90%
+
+
+00:14:58.910 --> 00:15:10.230 align:middle line:84%
+Let me prove a
+variation of that.
+
+00:15:10.230 --> 00:15:16.030 align:middle line:84%
+So suppose you're looking at--
+so let's have a lemma here
+
+00:15:16.030 --> 00:15:19.830 align:middle line:84%
+that if you have, again,
+a metric space here
+
+00:15:19.830 --> 00:15:22.830 align:middle line:90%
+and r here is bigger than 0.
+
+00:15:22.830 --> 00:15:28.230 align:middle line:84%
+Now let's look at the
+x and then take away.
+
+00:15:28.230 --> 00:15:30.490 align:middle line:90%
+But now I'm looking at the sets.
+
+00:15:30.490 --> 00:15:34.030 align:middle line:84%
+So let me look at
+the set y here.
+
+00:15:34.030 --> 00:15:41.300 align:middle line:84%
+So x is some fixed point
+in this metric space,
+
+00:15:41.300 --> 00:15:52.340 align:middle line:84%
+and you're looking at the y in x
+so that the distance to x from y
+
+00:15:52.340 --> 00:15:55.300 align:middle line:90%
+is strictly bigger than r.
+
+00:15:55.300 --> 00:16:06.300 align:middle line:84%
+So in other words, if this
+here is x, this is the space x.
+
+00:16:06.300 --> 00:16:08.540 align:middle line:90%
+Here, you have the point x.
+
+00:16:08.540 --> 00:16:14.060 align:middle line:84%
+Then you have here this,
+including this circle here,
+
+00:16:14.060 --> 00:16:17.820 align:middle line:84%
+are the points that
+have distance at most r
+
+00:16:17.820 --> 00:16:20.500 align:middle line:90%
+from little x.
+
+00:16:20.500 --> 00:16:27.140 align:middle line:84%
+Then this is the set
+here outside this disk,
+
+00:16:27.140 --> 00:16:32.740 align:middle line:84%
+where the boundary is
+included, so outside.
+
+00:16:32.740 --> 00:16:37.210 align:middle line:84%
+And so what I want to prove
+here is that this here
+
+00:16:37.210 --> 00:16:40.640 align:middle line:90%
+is this here is an open subset.
+
+00:16:40.640 --> 00:16:44.810 align:middle line:90%
+
+
+00:16:44.810 --> 00:16:48.170 align:middle line:84%
+And the proof is
+very similar to how
+
+00:16:48.170 --> 00:16:50.910 align:middle line:90%
+we proved that a ball is open.
+
+00:16:50.910 --> 00:16:59.290 align:middle line:84%
+Again, the key ingredient
+is the triangle inequality.
+
+00:16:59.290 --> 00:17:12.410 align:middle line:90%
+And so let's try to prove that.
+
+00:17:12.410 --> 00:17:26.710 align:middle line:84%
+So we take y here in this--
+let's call this set something.
+
+00:17:26.710 --> 00:17:32.280 align:middle line:90%
+Let's call it E.
+
+00:17:32.280 --> 00:17:36.960 align:middle line:84%
+So suppose you have
+x here, y here in E.
+
+00:17:36.960 --> 00:17:41.720 align:middle line:84%
+So this means that the
+distance from y to x
+
+00:17:41.720 --> 00:17:44.760 align:middle line:90%
+is strictly bigger than r.
+
+00:17:44.760 --> 00:17:47.260 align:middle line:90%
+I want to prove--
+
+00:17:47.260 --> 00:17:51.720 align:middle line:90%
+so I have my picture here.
+
+00:17:51.720 --> 00:17:52.700 align:middle line:90%
+This is x.
+
+00:17:52.700 --> 00:17:54.680 align:middle line:90%
+This is this ball here.
+
+00:17:54.680 --> 00:17:58.080 align:middle line:84%
+And then I have a y
+that lie outside it.
+
+00:17:58.080 --> 00:18:01.160 align:middle line:84%
+And I want to find
+a little ball here
+
+00:18:01.160 --> 00:18:04.720 align:middle line:84%
+around y that is
+entirely contained
+
+00:18:04.720 --> 00:18:07.400 align:middle line:90%
+in the complement of this ball.
+
+00:18:07.400 --> 00:18:12.920 align:middle line:84%
+And so I do the same
+that I did last time--
+
+00:18:12.920 --> 00:18:16.280 align:middle line:84%
+I mean, almost the same,
+not exactly the same.
+
+00:18:16.280 --> 00:18:19.500 align:middle line:90%
+So we said S here equal to y.
+
+00:18:19.500 --> 00:18:23.200 align:middle line:84%
+So the idea is that you're
+looking at this distance here.
+
+00:18:23.200 --> 00:18:27.240 align:middle line:90%
+This distance is d x, y.
+
+00:18:27.240 --> 00:18:32.040 align:middle line:90%
+This part of it is r.
+
+00:18:32.040 --> 00:18:38.160 align:middle line:84%
+And so it seems reasonable, this
+here, if this picture was right,
+
+00:18:38.160 --> 00:18:42.720 align:middle line:90%
+then this thing here would be s.
+
+00:18:42.720 --> 00:18:50.200 align:middle line:84%
+And this s here would
+be d x, y minus r.
+
+00:18:50.200 --> 00:18:54.580 align:middle line:84%
+So that's what I'm
+setting s equal to.
+
+00:18:54.580 --> 00:18:58.000 align:middle line:90%
+
+
+00:18:58.000 --> 00:19:00.920 align:middle line:84%
+And the first thing I noticed
+that because this is strictly
+
+00:19:00.920 --> 00:19:06.400 align:middle line:84%
+bigger than r, this thing
+here is strictly positive.
+
+00:19:06.400 --> 00:19:11.840 align:middle line:84%
+And then I take set
+here in that ball.
+
+00:19:11.840 --> 00:19:13.840 align:middle line:90%
+Now it's centered at y.
+
+00:19:13.840 --> 00:19:16.880 align:middle line:90%
+Let's have radius s.
+
+00:19:16.880 --> 00:19:22.240 align:middle line:84%
+And then I want to look
+at the distance to--
+
+00:19:22.240 --> 00:19:23.860 align:middle line:90%
+and I want to estimate.
+
+00:19:23.860 --> 00:19:44.470 align:middle line:84%
+So I want to estimate from
+below the distance from x to z.
+
+00:19:44.470 --> 00:19:46.375 align:middle line:84%
+Well, the triangle
+inequality, if you just
+
+00:19:46.375 --> 00:19:47.750 align:middle line:84%
+think about the
+triangle-- that's
+
+00:19:47.750 --> 00:19:51.250 align:middle line:84%
+something like bounding
+a distance from above.
+
+00:19:51.250 --> 00:19:54.150 align:middle line:84%
+So if I want to estimate
+something below,
+
+00:19:54.150 --> 00:19:58.430 align:middle line:84%
+then basically, this thing I
+want to estimate from below
+
+00:19:58.430 --> 00:20:01.550 align:middle line:84%
+have to be on the other
+side of the inequality.
+
+00:20:01.550 --> 00:20:05.450 align:middle line:90%
+And so how does that work?
+
+00:20:05.450 --> 00:20:09.230 align:middle line:90%
+
+
+00:20:09.230 --> 00:20:14.390 align:middle line:84%
+So let's again draw a
+little picture, too.
+
+00:20:14.390 --> 00:20:17.870 align:middle line:84%
+So let me do a little
+bit on the side.
+
+00:20:17.870 --> 00:20:24.270 align:middle line:84%
+So I have this ball here,
+and I have this y here,
+
+00:20:24.270 --> 00:20:26.010 align:middle line:90%
+and then I have this z here.
+
+00:20:26.010 --> 00:20:30.180 align:middle line:90%
+
+
+00:20:30.180 --> 00:20:32.540 align:middle line:90%
+And I now want to say--
+
+00:20:32.540 --> 00:20:35.980 align:middle line:90%
+I want to estimate.
+
+00:20:35.980 --> 00:20:42.220 align:middle line:84%
+So I'm saying that
+the distance from--
+
+00:20:42.220 --> 00:20:48.980 align:middle line:84%
+so this is what I want
+to bound from below.
+
+00:20:48.980 --> 00:20:54.340 align:middle line:84%
+And what I know is
+that this set here is--
+
+00:20:54.340 --> 00:20:59.020 align:middle line:84%
+I know something about
+the distance to y.
+
+00:20:59.020 --> 00:21:02.420 align:middle line:90%
+So this here, I know.
+
+00:21:02.420 --> 00:21:06.820 align:middle line:84%
+And so you see, this thing
+here by the triangle inequality
+
+00:21:06.820 --> 00:21:15.220 align:middle line:84%
+is now bounded by the
+distance from x to y.
+
+00:21:15.220 --> 00:21:20.540 align:middle line:84%
+And I know that
+this thing here is
+
+00:21:20.540 --> 00:21:24.380 align:middle line:84%
+less than or equal to this here
+is the one I want to estimate.
+
+00:21:24.380 --> 00:21:26.010 align:middle line:90%
+So I'm just leaving that.
+
+00:21:26.010 --> 00:21:29.970 align:middle line:84%
+This one here, it's because
+set is in the ball of radius
+
+00:21:29.970 --> 00:21:31.530 align:middle line:90%
+s around y.
+
+00:21:31.530 --> 00:21:39.690 align:middle line:84%
+So this thing here is actually
+strictly less than s, like that.
+
+00:21:39.690 --> 00:21:43.090 align:middle line:90%
+
+
+00:21:43.090 --> 00:21:46.050 align:middle line:84%
+And so now you can just
+move this one here over
+
+00:21:46.050 --> 00:21:47.450 align:middle line:90%
+on the other side.
+
+00:21:47.450 --> 00:21:58.010 align:middle line:84%
+And you have that d x, y minus
+s is strictly less than d x
+
+00:21:58.010 --> 00:21:59.930 align:middle line:90%
+comma z.
+
+00:21:59.930 --> 00:22:03.290 align:middle line:84%
+Now we have to
+fill in what S is.
+
+00:22:03.290 --> 00:22:05.370 align:middle line:90%
+S is up there.
+
+00:22:05.370 --> 00:22:10.010 align:middle line:84%
+So this thing here
+is-- this thing here
+
+00:22:10.010 --> 00:22:12.710 align:middle line:90%
+is equal to this is dx.
+
+00:22:12.710 --> 00:22:14.590 align:middle line:90%
+I'm just copying that.
+
+00:22:14.590 --> 00:22:21.710 align:middle line:84%
+But I fill in what s is,
+and s is d x, y minus r.
+
+00:22:21.710 --> 00:22:25.360 align:middle line:90%
+
+
+00:22:25.360 --> 00:22:29.080 align:middle line:84%
+But you see, those two cancel,
+and you're left with the r.
+
+00:22:29.080 --> 00:22:31.320 align:middle line:84%
+And so you have
+that r is strictly
+
+00:22:31.320 --> 00:22:35.440 align:middle line:84%
+less than this, which is
+exactly what we wanted to prove.
+
+00:22:35.440 --> 00:22:41.640 align:middle line:84%
+And so, again, it was almost
+exactly the same proof
+
+00:22:41.640 --> 00:22:44.180 align:middle line:84%
+that we had to prove
+that the ball was open.
+
+00:22:44.180 --> 00:22:49.360 align:middle line:90%
+
+
+00:22:49.360 --> 00:22:51.760 align:middle line:84%
+What we're using here
+is that, again, we're
+
+00:22:51.760 --> 00:22:54.720 align:middle line:84%
+using that the
+triangle inequality is
+
+00:22:54.720 --> 00:22:57.800 align:middle line:84%
+like you're bounding
+some distance from above.
+
+00:22:57.800 --> 00:23:02.800 align:middle line:84%
+And so you have to use it the
+other way with having the things
+
+00:23:02.800 --> 00:23:05.800 align:middle line:84%
+that you want to bound from
+below on the other side
+
+00:23:05.800 --> 00:23:06.980 align:middle line:90%
+of the inequality.
+
+00:23:06.980 --> 00:23:09.720 align:middle line:90%
+
+
+00:23:09.720 --> 00:23:14.160 align:middle line:84%
+So the next thing is then-- and
+we talked a little bit about
+
+00:23:14.160 --> 00:23:16.160 align:middle line:90%
+that last time--
+
+00:23:16.160 --> 00:23:19.480 align:middle line:84%
+the next thing is
+closed subsets.
+
+00:23:19.480 --> 00:23:23.150 align:middle line:84%
+So this may seem
+like a triviality
+
+00:23:23.150 --> 00:23:29.110 align:middle line:84%
+because it's defined,
+in a way, trivially.
+
+00:23:29.110 --> 00:23:30.150 align:middle line:90%
+So what is it?
+
+00:23:30.150 --> 00:23:32.960 align:middle line:84%
+But it's actually a
+really useful notion.
+
+00:23:32.960 --> 00:23:37.390 align:middle line:90%
+
+
+00:23:37.390 --> 00:23:38.650 align:middle line:90%
+And so this is--
+
+00:23:38.650 --> 00:23:42.670 align:middle line:90%
+
+
+00:23:42.670 --> 00:23:50.890 align:middle line:84%
+so a subset C is
+said to be closed--
+
+00:23:50.890 --> 00:23:52.590 align:middle line:90%
+again, x is a metric space--
+
+00:23:52.590 --> 00:24:04.970 align:middle line:84%
+to be closed if the
+complement is open.
+
+00:24:04.970 --> 00:24:07.670 align:middle line:90%
+
+
+00:24:07.670 --> 00:24:12.030 align:middle line:84%
+So that's how you
+define a closed subset.
+
+00:24:12.030 --> 00:24:22.140 align:middle line:84%
+And so, again, as we observed,
+since the empty set and x are
+
+00:24:22.140 --> 00:24:31.980 align:middle line:84%
+both open, the complement of
+the empty set is the whole set.
+
+00:24:31.980 --> 00:24:35.460 align:middle line:84%
+So it means that x and the
+complement of the whole set
+
+00:24:35.460 --> 00:24:36.820 align:middle line:90%
+is the empty set.
+
+00:24:36.820 --> 00:24:40.340 align:middle line:84%
+It means that those
+sets are both open--
+
+00:24:40.340 --> 00:24:43.490 align:middle line:90%
+are also both closed.
+
+00:24:43.490 --> 00:24:55.660 align:middle line:90%
+
+
+00:24:55.660 --> 00:25:01.900 align:middle line:84%
+So now there is another
+way-- you could have defined
+
+00:25:01.900 --> 00:25:04.700 align:middle line:90%
+a closed subset another way.
+
+00:25:04.700 --> 00:25:08.120 align:middle line:84%
+And this is because you have
+the following statement here.
+
+00:25:08.120 --> 00:25:14.620 align:middle line:90%
+
+
+00:25:14.620 --> 00:25:29.850 align:middle line:84%
+So a subset-- you have the
+following theorem that, again,
+
+00:25:29.850 --> 00:25:32.130 align:middle line:90%
+you have a metric space.
+
+00:25:32.130 --> 00:25:47.090 align:middle line:84%
+And C here, subset of x,
+is closed if and only if
+
+00:25:47.090 --> 00:25:52.410 align:middle line:90%
+for all sequences in C--
+
+00:25:52.410 --> 00:26:12.450 align:middle line:84%
+if and only if for
+all sequences xn where
+
+00:26:12.450 --> 00:26:20.810 align:middle line:84%
+xn is in C, if you have all
+sequences, all, let's say,
+
+00:26:20.810 --> 00:26:22.310 align:middle line:90%
+convergent sequences--
+
+00:26:22.310 --> 00:26:28.250 align:middle line:90%
+
+
+00:26:28.250 --> 00:26:36.730 align:middle line:84%
+so all convergent sequence
+where the sequence lie in C,
+
+00:26:36.730 --> 00:26:55.190 align:middle line:90%
+then the limit x is also in C.
+
+00:26:55.190 --> 00:27:00.770 align:middle line:84%
+So I claim that if you want
+to check that a set is closed,
+
+00:27:00.770 --> 00:27:03.770 align:middle line:84%
+instead of checking that
+the complement is open,
+
+00:27:03.770 --> 00:27:06.330 align:middle line:90%
+you could check that.
+
+00:27:06.330 --> 00:27:09.370 align:middle line:84%
+And this seems like
+if you were literally
+
+00:27:09.370 --> 00:27:14.010 align:middle line:84%
+going to check it on any given
+example, explicit example,
+
+00:27:14.010 --> 00:27:16.040 align:middle line:90%
+you would never do it this way.
+
+00:27:16.040 --> 00:27:18.540 align:middle line:84%
+But it's very useful
+for proving things.
+
+00:27:18.540 --> 00:27:23.480 align:middle line:84%
+And so the thing is that instead
+of proving that a complement is
+
+00:27:23.480 --> 00:27:25.720 align:middle line:84%
+open, instead you
+could just prove
+
+00:27:25.720 --> 00:27:30.000 align:middle line:84%
+that whenever you have
+a sequence in that set,
+
+00:27:30.000 --> 00:27:34.060 align:middle line:84%
+then is the limit
+also in that set?
+
+00:27:34.060 --> 00:27:36.640 align:middle line:84%
+If that's the case
+for all sequences,
+
+00:27:36.640 --> 00:27:38.840 align:middle line:90%
+then the set is closed.
+
+00:27:38.840 --> 00:27:42.820 align:middle line:84%
+And so we need to-- so
+let's try to prove that.
+
+00:27:42.820 --> 00:27:47.700 align:middle line:84%
+And again, it's
+useful theoretically.
+
+00:27:47.700 --> 00:27:53.320 align:middle line:84%
+But in practice, this
+would be totally useless.
+
+00:27:53.320 --> 00:27:55.330 align:middle line:84%
+But it is useful
+to proving things.
+
+00:27:55.330 --> 00:27:57.920 align:middle line:90%
+
+
+00:27:57.920 --> 00:28:03.050 align:middle line:84%
+And so there's two
+things we need to prove.
+
+00:28:03.050 --> 00:28:07.480 align:middle line:90%
+
+
+00:28:07.480 --> 00:28:09.000 align:middle line:90%
+So there's two directions.
+
+00:28:09.000 --> 00:28:21.360 align:middle line:84%
+So assume first
+that C is closed.
+
+00:28:21.360 --> 00:28:30.310 align:middle line:90%
+
+
+00:28:30.310 --> 00:28:39.100 align:middle line:84%
+And let xn in C be a
+convergent sequence.
+
+00:28:39.100 --> 00:28:46.310 align:middle line:90%
+
+
+00:28:46.310 --> 00:29:19.420 align:middle line:84%
+We want to show that the
+limit x is also in C.
+
+00:29:19.420 --> 00:29:43.220 align:middle line:84%
+Since xn converges to x, then
+for all r greater than 0,
+
+00:29:43.220 --> 00:29:58.460 align:middle line:84%
+there exists xn in the ball
+here of radius r around
+
+00:29:58.460 --> 00:30:00.920 align:middle line:90%
+x because it's converging.
+
+00:30:00.920 --> 00:30:08.620 align:middle line:84%
+So this means that for
+each r, you must have this.
+
+00:30:08.620 --> 00:30:10.590 align:middle line:90%
+But now you see that.
+
+00:30:10.590 --> 00:30:29.570 align:middle line:84%
+And if x was not in C, if x is
+not in C, since c is closed,
+
+00:30:29.570 --> 00:30:32.540 align:middle line:90%
+the complement is open.
+
+00:30:32.540 --> 00:30:35.130 align:middle line:90%
+
+
+00:30:35.130 --> 00:30:40.310 align:middle line:84%
+And so this means that now x is
+assumed to be in a complement.
+
+00:30:40.310 --> 00:30:43.130 align:middle line:84%
+But that means that
+there exists some r
+
+00:30:43.130 --> 00:30:49.290 align:middle line:84%
+so that the ball here
+of radius of that r
+
+00:30:49.290 --> 00:30:52.310 align:middle line:84%
+would be contained
+in the complement.
+
+00:30:52.310 --> 00:31:00.150 align:middle line:90%
+
+
+00:31:00.150 --> 00:31:04.930 align:middle line:84%
+But this means that there
+is no xn in that ball
+
+00:31:04.930 --> 00:31:09.440 align:middle line:84%
+because all of
+the xn's are in C.
+
+00:31:09.440 --> 00:31:12.380 align:middle line:84%
+And this here is entirely
+contained in the complement.
+
+00:31:12.380 --> 00:31:15.980 align:middle line:90%
+
+
+00:31:15.980 --> 00:31:18.060 align:middle line:90%
+So this is the contradiction.
+
+00:31:18.060 --> 00:31:23.480 align:middle line:84%
+So if it is closed and you
+have a convergent sequence,
+
+00:31:23.480 --> 00:31:26.680 align:middle line:84%
+that sequence is lying
+in this closed set,
+
+00:31:26.680 --> 00:31:33.340 align:middle line:84%
+then the limit must be
+also contained in the set
+
+00:31:33.340 --> 00:31:35.520 align:middle line:84%
+because, otherwise,
+there would be--
+
+00:31:35.520 --> 00:31:38.000 align:middle line:84%
+the limit would lie
+outside, and there would be
+
+00:31:38.000 --> 00:31:40.260 align:middle line:90%
+a little ball centered at that.
+
+00:31:40.260 --> 00:31:44.840 align:middle line:84%
+So there was no element in the
+sequence that was in that ball.
+
+00:31:44.840 --> 00:31:49.960 align:middle line:84%
+But then that sequence couldn't
+converge to the center.
+
+00:31:49.960 --> 00:31:51.320 align:middle line:90%
+And the other thing--
+
+00:31:51.320 --> 00:31:52.980 align:middle line:90%
+so this is one direction.
+
+00:31:52.980 --> 00:32:03.120 align:middle line:84%
+The other direction that we
+need to prove is that if--
+
+00:32:03.120 --> 00:32:05.360 align:middle line:90%
+again, it's useless.
+
+00:32:05.360 --> 00:32:07.520 align:middle line:84%
+You would never
+go about to prove
+
+00:32:07.520 --> 00:32:10.310 align:middle line:84%
+that a set is closed
+in an example,
+
+00:32:10.310 --> 00:32:14.510 align:middle line:84%
+but it is useful
+more theoretically.
+
+00:32:14.510 --> 00:32:17.630 align:middle line:84%
+So suppose you
+have a set, and you
+
+00:32:17.630 --> 00:32:22.710 align:middle line:84%
+knew that whenever you have
+a sequence in that set,
+
+00:32:22.710 --> 00:32:25.870 align:middle line:84%
+then the limit that
+is convergent--
+
+00:32:25.870 --> 00:32:30.050 align:middle line:84%
+then the limit is
+also in the set.
+
+00:32:30.050 --> 00:32:38.818 align:middle line:84%
+So we also need to show
+the converse and, again,
+
+00:32:38.818 --> 00:32:39.360 align:middle line:90%
+the converse.
+
+00:32:39.360 --> 00:32:43.270 align:middle line:90%
+
+
+00:32:43.270 --> 00:33:06.310 align:middle line:84%
+So we need to show that if
+for all sequences xn with line
+
+00:33:06.310 --> 00:33:34.390 align:middle line:84%
+C n is convergent, then the
+limit x is also in C. Then
+
+00:33:34.390 --> 00:33:41.650 align:middle line:90%
+C is in fact closed.
+
+00:33:41.650 --> 00:33:43.090 align:middle line:90%
+So that would be the converse.
+
+00:33:43.090 --> 00:33:47.570 align:middle line:84%
+So we prove if and only
+if it has this property.
+
+00:33:47.570 --> 00:33:50.390 align:middle line:90%
+So now let's assume that--
+
+00:33:50.390 --> 00:33:57.070 align:middle line:84%
+so suppose we have this property
+that all convergent sequences
+
+00:33:57.070 --> 00:34:02.550 align:middle line:84%
+that the limit convergent
+sequence in the set.
+
+00:34:02.550 --> 00:34:05.500 align:middle line:84%
+Then the limit was
+also in the set.
+
+00:34:05.500 --> 00:34:09.699 align:middle line:84%
+Now let's prove that
+the set is closed.
+
+00:34:09.699 --> 00:34:12.139 align:middle line:84%
+So to prove the
+set is closed, we
+
+00:34:12.139 --> 00:34:16.100 align:middle line:84%
+need to show that the
+complement is open.
+
+00:34:16.100 --> 00:34:36.369 align:middle line:84%
+So we need to show that the
+complement here is open.
+
+00:34:36.369 --> 00:34:41.500 align:middle line:90%
+
+
+00:34:41.500 --> 00:34:48.360 align:middle line:84%
+So take x here in
+the complement.
+
+00:34:48.360 --> 00:34:56.100 align:middle line:90%
+
+
+00:34:56.100 --> 00:35:03.700 align:middle line:90%
+If for all r greater than 0--
+
+00:35:03.700 --> 00:35:06.810 align:middle line:90%
+
+
+00:35:06.810 --> 00:35:10.470 align:middle line:90%
+so we need to prove that--
+
+00:35:10.470 --> 00:35:13.330 align:middle line:90%
+sorry, let me say it like this.
+
+00:35:13.330 --> 00:35:16.210 align:middle line:84%
+So we take some x,
+and we need to show
+
+00:35:16.210 --> 00:35:26.690 align:middle line:84%
+that there exists some
+r strictly bigger than 0
+
+00:35:26.690 --> 00:35:33.010 align:middle line:84%
+so that this ball here is
+contained in the complement.
+
+00:35:33.010 --> 00:35:34.630 align:middle line:90%
+That's what we need to prove.
+
+00:35:34.630 --> 00:35:38.210 align:middle line:84%
+And we need to prove this
+for each x in the complement.
+
+00:35:38.210 --> 00:35:52.970 align:middle line:84%
+Now suppose that if
+this was not the case,
+
+00:35:52.970 --> 00:35:56.450 align:middle line:90%
+then I can look at for each n--
+
+00:35:56.450 --> 00:36:08.880 align:middle line:84%
+then for each natural number
+here, you can look at the ball.
+
+00:36:08.880 --> 00:36:12.760 align:middle line:84%
+It's always going to
+be centered at this x.
+
+00:36:12.760 --> 00:36:18.640 align:middle line:84%
+But I'm looking at it with radii
+that is smaller and smaller.
+
+00:36:18.640 --> 00:36:24.040 align:middle line:84%
+If for each n, natural
+number, if that ball
+
+00:36:24.040 --> 00:36:26.360 align:middle line:84%
+was not contained
+in the complement--
+
+00:36:26.360 --> 00:36:29.760 align:middle line:84%
+so this means that for
+each n, you could pick--
+
+00:36:29.760 --> 00:36:34.720 align:middle line:90%
+so pick xn in that set.
+
+00:36:34.720 --> 00:36:38.460 align:middle line:90%
+So you just choose.
+
+00:36:38.460 --> 00:36:43.380 align:middle line:84%
+Because we're assuming that
+the complement is not closed.
+
+00:36:43.380 --> 00:36:44.840 align:middle line:90%
+It's not open.
+
+00:36:44.840 --> 00:36:47.880 align:middle line:84%
+So it means that there
+would exist at x so
+
+00:36:47.880 --> 00:36:52.500 align:middle line:84%
+that no ball here would be
+entirely in the complement.
+
+00:36:52.500 --> 00:36:56.800 align:middle line:84%
+So this means that this one here
+would not be entirely contained
+
+00:36:56.800 --> 00:36:57.700 align:middle line:90%
+in complement.
+
+00:36:57.700 --> 00:37:00.830 align:middle line:84%
+So this means that
+there would be some xn.
+
+00:37:00.830 --> 00:37:10.310 align:middle line:84%
+And this xn here would
+actually be in the set C.
+
+00:37:10.310 --> 00:37:16.830 align:middle line:84%
+But now, of course, the
+distance here from xn
+
+00:37:16.830 --> 00:37:22.910 align:middle line:84%
+to x, this distance here is
+strictly less than 1 over n.
+
+00:37:22.910 --> 00:37:25.790 align:middle line:84%
+So this means that--
+so this implies
+
+00:37:25.790 --> 00:37:30.150 align:middle line:90%
+that the xn converges to x.
+
+00:37:30.150 --> 00:37:32.350 align:middle line:84%
+And now the assumption
+was that whenever
+
+00:37:32.350 --> 00:37:36.670 align:middle line:84%
+you have a sequence that was
+converging, these guys lie in C.
+
+00:37:36.670 --> 00:37:39.350 align:middle line:84%
+Then the limit
+here also lie in C.
+
+00:37:39.350 --> 00:37:44.430 align:middle line:84%
+So then you have, from the
+assumption that x here is in C.
+
+00:37:44.430 --> 00:37:45.810 align:middle line:90%
+But this is the contradiction.
+
+00:37:45.810 --> 00:37:51.870 align:middle line:84%
+You're assuming
+that x was not in C.
+
+00:37:51.870 --> 00:37:58.220 align:middle line:84%
+And again, this here is
+really, really useful.
+
+00:37:58.220 --> 00:38:02.560 align:middle line:84%
+But it's only useful of as
+a tool to proving things.
+
+00:38:02.560 --> 00:38:06.380 align:middle line:84%
+It's not useful for checking
+whether an example is
+
+00:38:06.380 --> 00:38:07.130 align:middle line:90%
+open or closed.
+
+00:38:07.130 --> 00:38:15.220 align:middle line:90%
+
+
+00:38:15.220 --> 00:38:19.740 align:middle line:84%
+Let me just quickly give
+you a couple of examples.
+
+00:38:19.740 --> 00:38:21.985 align:middle line:84%
+I probably should have
+done that already that.
+
+00:38:21.985 --> 00:38:25.380 align:middle line:90%
+
+
+00:38:25.380 --> 00:38:28.140 align:middle line:90%
+If you're looking at--
+
+00:38:28.140 --> 00:38:30.700 align:middle line:90%
+so what are closed subsets?
+
+00:38:30.700 --> 00:38:34.140 align:middle line:90%
+So closed subset could be--
+
+00:38:34.140 --> 00:38:36.660 align:middle line:90%
+so here's some examples--
+
+00:38:36.660 --> 00:38:37.530 align:middle line:90%
+closed subsets.
+
+00:38:37.530 --> 00:38:42.540 align:middle line:90%
+
+
+00:38:42.540 --> 00:38:49.420 align:middle line:84%
+So if it's an r, a closed
+subset is some interval,
+
+00:38:49.420 --> 00:38:54.300 align:middle line:84%
+let's say, from 0 to 1,
+where both these points are--
+
+00:38:54.300 --> 00:38:55.960 align:middle line:90%
+both 0 and 1 is included.
+
+00:38:55.960 --> 00:38:58.650 align:middle line:90%
+This has closed.
+
+00:38:58.650 --> 00:38:59.950 align:middle line:90%
+And why is it closed?
+
+00:38:59.950 --> 00:39:02.030 align:middle line:84%
+Because the complement
+here is open.
+
+00:39:02.030 --> 00:39:04.350 align:middle line:84%
+It's easy to see that
+the complement is open.
+
+00:39:04.350 --> 00:39:07.970 align:middle line:90%
+
+
+00:39:07.970 --> 00:39:11.210 align:middle line:84%
+Something like if you
+include one of the endpoints
+
+00:39:11.210 --> 00:39:14.720 align:middle line:84%
+but not the other, this
+is either closed or open.
+
+00:39:14.720 --> 00:39:24.010 align:middle line:90%
+
+
+00:39:24.010 --> 00:39:28.210 align:middle line:84%
+And also, if you're
+looking at the complement,
+
+00:39:28.210 --> 00:39:31.210 align:middle line:84%
+say, from 0 of the
+complement of--
+
+00:39:31.210 --> 00:39:34.930 align:middle line:84%
+so if you're looking
+at this thing here,
+
+00:39:34.930 --> 00:39:40.660 align:middle line:84%
+union, we'll say, from 2
+to 3, this is also closed.
+
+00:39:40.660 --> 00:39:49.970 align:middle line:90%
+
+
+00:39:49.970 --> 00:39:57.290 align:middle line:84%
+And maybe one more example is
+if you just take a single point,
+
+00:39:57.290 --> 00:39:58.240 align:middle line:90%
+this is closed.
+
+00:39:58.240 --> 00:40:02.970 align:middle line:90%
+
+
+00:40:02.970 --> 00:40:05.650 align:middle line:84%
+And again, you just check
+that the complement is open.
+
+00:40:05.650 --> 00:40:08.730 align:middle line:90%
+
+
+00:40:08.730 --> 00:40:14.570 align:middle line:84%
+So now the next
+thing, which I think
+
+00:40:14.570 --> 00:40:16.730 align:middle line:84%
+we talked very briefly
+about that last time
+
+00:40:16.730 --> 00:40:19.200 align:middle line:84%
+also, because we talked a
+little bit about closed subset.
+
+00:40:19.200 --> 00:40:23.083 align:middle line:90%
+
+
+00:40:23.083 --> 00:40:24.500 align:middle line:84%
+So you have the
+following theorem.
+
+00:40:24.500 --> 00:40:30.090 align:middle line:90%
+
+
+00:40:30.090 --> 00:40:33.650 align:middle line:84%
+So if you have a
+metric space here
+
+00:40:33.650 --> 00:40:46.570 align:middle line:84%
+and you have a family C
+alpha of closed subset,
+
+00:40:46.570 --> 00:40:52.410 align:middle line:84%
+then the intersection
+of these closed subset,
+
+00:40:52.410 --> 00:40:54.470 align:middle line:90%
+this here, is also closed.
+
+00:40:54.470 --> 00:41:00.800 align:middle line:90%
+
+
+00:41:00.800 --> 00:41:08.360 align:middle line:84%
+And if you have just
+finitely many closed subset,
+
+00:41:08.360 --> 00:41:16.750 align:middle line:84%
+then the union of finitely many
+closed subset is also closed.
+
+00:41:16.750 --> 00:41:22.000 align:middle line:90%
+
+
+00:41:22.000 --> 00:41:27.280 align:middle line:84%
+And so here, it's exactly the
+opposite thing as for open sets
+
+00:41:27.280 --> 00:41:30.720 align:middle line:84%
+that you can take
+any intersection,
+
+00:41:30.720 --> 00:41:33.400 align:middle line:90%
+and it's still closed.
+
+00:41:33.400 --> 00:41:36.660 align:middle line:84%
+But if you take union, you can
+only do it for finitely many.
+
+00:41:36.660 --> 00:41:38.440 align:middle line:90%
+So this is exactly the opposite.
+
+00:41:38.440 --> 00:41:40.480 align:middle line:90%
+Why is it exactly the opposite?
+
+00:41:40.480 --> 00:41:44.500 align:middle line:84%
+It's because in order to prove
+that something is closed,
+
+00:41:44.500 --> 00:41:47.720 align:middle line:84%
+it means that the
+complement is open.
+
+00:41:47.720 --> 00:41:55.870 align:middle line:84%
+And then we have these
+basic relations for--
+
+00:41:55.870 --> 00:41:57.600 align:middle line:90%
+so the proof of this again.
+
+00:41:57.600 --> 00:42:02.830 align:middle line:90%
+
+
+00:42:02.830 --> 00:42:05.390 align:middle line:84%
+And so these are these
+operations on set
+
+00:42:05.390 --> 00:42:10.430 align:middle line:84%
+that we went through,
+that if you take x here
+
+00:42:10.430 --> 00:42:16.670 align:middle line:84%
+and you take the complement
+of intersections of subsets.
+
+00:42:16.670 --> 00:42:26.670 align:middle line:84%
+This thing here is the same as
+the union of the complement,
+
+00:42:26.670 --> 00:42:27.830 align:middle line:90%
+like that.
+
+00:42:27.830 --> 00:42:31.950 align:middle line:84%
+And you see that
+since this is closed,
+
+00:42:31.950 --> 00:42:34.390 align:middle line:84%
+this means that the
+complement is open.
+
+00:42:34.390 --> 00:42:37.810 align:middle line:84%
+And you can take any union of
+open sets, and it's still open.
+
+00:42:37.810 --> 00:42:41.790 align:middle line:84%
+So that's why you could
+take any intersection.
+
+00:42:41.790 --> 00:42:44.310 align:middle line:84%
+And so the other thing
+is that if you're
+
+00:42:44.310 --> 00:42:50.220 align:middle line:84%
+looking to prove that
+this thing here is closed,
+
+00:42:50.220 --> 00:42:54.320 align:middle line:84%
+then you're looking at the
+complement of this union here.
+
+00:42:54.320 --> 00:42:59.020 align:middle line:90%
+
+
+00:42:59.020 --> 00:43:03.280 align:middle line:84%
+But this thing here is
+now the intersection,
+
+00:43:03.280 --> 00:43:16.060 align:middle line:84%
+the complement of the
+intersection of the C1 up to--
+
+00:43:16.060 --> 00:43:21.140 align:middle line:84%
+sorry, this is the
+complement of-- this
+
+00:43:21.140 --> 00:43:29.880 align:middle line:84%
+is the intersection of
+these guys, like this.
+
+00:43:29.880 --> 00:43:39.860 align:middle line:90%
+
+
+00:43:39.860 --> 00:43:47.020 align:middle line:84%
+And you see here, since C1 up
+to Cn, since they are closed,
+
+00:43:47.020 --> 00:43:48.770 align:middle line:90%
+these guys here are open.
+
+00:43:48.770 --> 00:43:52.470 align:middle line:84%
+And you're looking at finite
+intersections of open sets,
+
+00:43:52.470 --> 00:43:53.930 align:middle line:90%
+and that's open.
+
+00:43:53.930 --> 00:43:57.530 align:middle line:84%
+So again, for closed
+sets, in terms
+
+00:43:57.530 --> 00:43:59.570 align:middle line:84%
+of taking intersection
+and union,
+
+00:43:59.570 --> 00:44:01.230 align:middle line:90%
+it's exactly the opposite.
+
+00:44:01.230 --> 00:44:05.280 align:middle line:90%
+
+
+00:44:05.280 --> 00:44:09.760 align:middle line:84%
+Now, the next thing I want
+to talk about is a cover.
+
+00:44:09.760 --> 00:44:14.290 align:middle line:90%
+
+
+00:44:14.290 --> 00:44:19.640 align:middle line:90%
+So have a metric space.
+
+00:44:19.640 --> 00:44:25.130 align:middle line:90%
+
+
+00:44:25.130 --> 00:44:27.190 align:middle line:90%
+So we have a metric space here.
+
+00:44:27.190 --> 00:44:30.090 align:middle line:90%
+
+
+00:44:30.090 --> 00:44:32.330 align:middle line:90%
+And we have a subset--
+
+00:44:32.330 --> 00:44:34.760 align:middle line:90%
+A here is a subset of x.
+
+00:44:34.760 --> 00:44:37.690 align:middle line:90%
+
+
+00:44:37.690 --> 00:44:40.050 align:middle line:90%
+And then we have a collection.
+
+00:44:40.050 --> 00:44:55.040 align:middle line:84%
+And then you alpha is a
+family of subsets of x.
+
+00:44:55.040 --> 00:45:15.600 align:middle line:84%
+And we say that u
+alpha is a cover of A
+
+00:45:15.600 --> 00:45:24.720 align:middle line:84%
+if A is contained in the
+union of the u alphas.
+
+00:45:24.720 --> 00:45:30.050 align:middle line:84%
+So this is what it means to
+cover that set by a family.
+
+00:45:30.050 --> 00:45:35.600 align:middle line:90%
+
+
+00:45:35.600 --> 00:45:50.480 align:middle line:84%
+A subcover of the
+cover u alpha is--
+
+00:45:50.480 --> 00:45:52.990 align:middle line:90%
+
+
+00:45:52.990 --> 00:45:58.070 align:middle line:84%
+so imagine that you have
+a whole bunch of sets.
+
+00:45:58.070 --> 00:46:02.670 align:middle line:84%
+And together, they
+cover A sub cover means
+
+00:46:02.670 --> 00:46:06.750 align:middle line:84%
+that you don't need to
+take all of the u alphas,
+
+00:46:06.750 --> 00:46:08.950 align:middle line:84%
+if you can just
+take some of them,
+
+00:46:08.950 --> 00:46:12.370 align:middle line:90%
+and they will still cover it.
+
+00:46:12.370 --> 00:46:28.190 align:middle line:84%
+So a cover is a subfamily
+of the given family
+
+00:46:28.190 --> 00:46:45.030 align:middle line:84%
+u alpha such that the
+union of those still cover.
+
+00:46:45.030 --> 00:46:52.100 align:middle line:90%
+
+
+00:46:52.100 --> 00:46:57.070 align:middle line:84%
+So let's look at a
+couple of examples.
+
+00:46:57.070 --> 00:47:02.620 align:middle line:90%
+
+
+00:47:02.620 --> 00:47:05.460 align:middle line:84%
+I mean, if you
+take a family that
+
+00:47:05.460 --> 00:47:10.440 align:middle line:84%
+covers something, then the
+family itself is a subcover.
+
+00:47:10.440 --> 00:47:14.340 align:middle line:84%
+But that's a kind
+of trivial subcover.
+
+00:47:14.340 --> 00:47:19.800 align:middle line:90%
+And so you could look at--
+
+00:47:19.800 --> 00:47:23.460 align:middle line:90%
+so just here's an example.
+
+00:47:23.460 --> 00:47:28.180 align:middle line:84%
+Suppose that the metric space is
+x with the usual as r-- sorry,
+
+00:47:28.180 --> 00:47:31.220 align:middle line:90%
+with the usual metric.
+
+00:47:31.220 --> 00:47:35.680 align:middle line:84%
+And suppose now that the
+u alpha is actually Un's,
+
+00:47:35.680 --> 00:47:40.580 align:middle line:84%
+and those are integral
+from minus n--
+
+00:47:40.580 --> 00:47:41.840 align:middle line:90%
+let me just make them open.
+
+00:47:41.840 --> 00:47:42.620 align:middle line:90%
+It doesn't matter.
+
+00:47:42.620 --> 00:47:45.740 align:middle line:84%
+For a cover, there's no
+assertion whether they're
+
+00:47:45.740 --> 00:47:48.500 align:middle line:90%
+open or closed or neither.
+
+00:47:48.500 --> 00:47:51.140 align:middle line:84%
+So if you're looking
+at those sets,
+
+00:47:51.140 --> 00:47:55.900 align:middle line:84%
+well, if you take the
+union of all those sets,
+
+00:47:55.900 --> 00:47:58.020 align:middle line:90%
+that gives you everything.
+
+00:47:58.020 --> 00:48:03.220 align:middle line:84%
+So this family is a
+cover of the real line.
+
+00:48:03.220 --> 00:48:08.680 align:middle line:84%
+Of course, if you take a
+proper subcover, meaning--
+
+00:48:08.680 --> 00:48:11.020 align:middle line:90%
+I mean, well, you could take a--
+
+00:48:11.020 --> 00:48:13.780 align:middle line:90%
+so this here cover all of it.
+
+00:48:13.780 --> 00:48:16.220 align:middle line:84%
+But you see that this
+particular cover has
+
+00:48:16.220 --> 00:48:21.060 align:middle line:90%
+the property that Un plus 1--
+
+00:48:21.060 --> 00:48:25.300 align:middle line:84%
+this is contained,
+the previous one.
+
+00:48:25.300 --> 00:48:31.860 align:middle line:84%
+So you don't really need
+all of them to cover r.
+
+00:48:31.860 --> 00:48:35.820 align:middle line:84%
+If you wanted to, you could
+start with some very large n,
+
+00:48:35.820 --> 00:48:38.220 align:middle line:84%
+and then you could
+go on from there.
+
+00:48:38.220 --> 00:48:43.890 align:middle line:84%
+But there wouldn't be finitely
+many of the Un that would cover.
+
+00:48:43.890 --> 00:48:48.690 align:middle line:84%
+You need infinite money to
+cover because, otherwise, there
+
+00:48:48.690 --> 00:48:53.740 align:middle line:84%
+would be some of last
+point and both interest.
+
+00:48:53.740 --> 00:48:56.430 align:middle line:90%
+
+
+00:48:56.430 --> 00:49:00.370 align:middle line:84%
+So that's a cover
+and a subcover.
+
+00:49:00.370 --> 00:49:14.210 align:middle line:84%
+And an open cover
+is, then, where
+
+00:49:14.210 --> 00:49:21.000 align:middle line:90%
+each u alpha is an open subset.
+
+00:49:21.000 --> 00:49:29.570 align:middle line:90%
+
+
+00:49:29.570 --> 00:49:33.070 align:middle line:84%
+I mean, you it's
+really distinct that--
+
+00:49:33.070 --> 00:49:40.680 align:middle line:90%
+
+
+00:49:40.680 --> 00:49:42.480 align:middle line:90%
+so that's our open cover.
+
+00:49:42.480 --> 00:49:48.480 align:middle line:84%
+So each of the sets that is in
+the covering has to be open.
+
+00:49:48.480 --> 00:50:03.840 align:middle line:84%
+And the last definition we
+need is a finite subcover
+
+00:50:03.840 --> 00:50:15.900 align:middle line:84%
+is a subcover consisting
+of finite sets.
+
+00:50:15.900 --> 00:50:26.880 align:middle line:90%
+
+
+00:50:26.880 --> 00:50:28.850 align:middle line:90%
+So that's a finite subcover.
+
+00:50:28.850 --> 00:50:31.520 align:middle line:90%
+
+
+00:50:31.520 --> 00:50:35.560 align:middle line:90%
+And so now this leads to the--
+
+00:50:35.560 --> 00:50:43.510 align:middle line:84%
+and again, in this example here,
+r where this here is a cover,
+
+00:50:43.510 --> 00:50:45.050 align:middle line:90%
+there is no finite--
+
+00:50:45.050 --> 00:51:04.630 align:middle line:84%
+so note that this
+particular cover does not
+
+00:51:04.630 --> 00:51:06.180 align:middle line:90%
+have a finite subcover.
+
+00:51:06.180 --> 00:51:14.390 align:middle line:90%
+
+
+00:51:14.390 --> 00:51:16.950 align:middle line:84%
+If you just take
+finitely many of these,
+
+00:51:16.950 --> 00:51:19.910 align:middle line:84%
+they are not going
+to cover all of r.
+
+00:51:19.910 --> 00:51:21.510 align:middle line:84%
+But actually, in
+this example, you
+
+00:51:21.510 --> 00:51:25.210 align:middle line:84%
+see also that the
+cover is an open cover.
+
+00:51:25.210 --> 00:51:28.130 align:middle line:90%
+
+
+00:51:28.130 --> 00:51:34.950 align:middle line:84%
+So this now leads to the
+definition of compactness.
+
+00:51:34.950 --> 00:51:39.770 align:middle line:90%
+So you have a metric space.
+
+00:51:39.770 --> 00:51:47.540 align:middle line:90%
+
+
+00:51:47.540 --> 00:51:52.580 align:middle line:90%
+So x comma d is a metric space.
+
+00:51:52.580 --> 00:51:55.140 align:middle line:90%
+A here is a subset.
+
+00:51:55.140 --> 00:52:44.170 align:middle line:84%
+And we say that A is compact
+if for every open cover of A
+
+00:52:44.170 --> 00:52:46.000 align:middle line:90%
+there is a finite subcover.
+
+00:52:46.000 --> 00:53:05.530 align:middle line:90%
+
+
+00:53:05.530 --> 00:53:10.810 align:middle line:84%
+And the thing that
+is really useful is--
+
+00:53:10.810 --> 00:53:19.530 align:middle line:84%
+and we won't prove this today,
+but I'll prove it next time.
+
+00:53:19.530 --> 00:53:30.840 align:middle line:84%
+So this is the following result.
+So why is this notion useful?
+
+00:53:30.840 --> 00:53:35.080 align:middle line:90%
+
+
+00:53:35.080 --> 00:53:38.360 align:middle line:84%
+So one of the key
+properties, when
+
+00:53:38.360 --> 00:53:40.840 align:middle line:84%
+you're thinking
+about sequences, one
+
+00:53:40.840 --> 00:53:46.320 align:middle line:84%
+of the key properties
+for sequences on the line
+
+00:53:46.320 --> 00:53:50.900 align:middle line:84%
+was the Cauchy
+convergence theorem.
+
+00:53:50.900 --> 00:53:52.420 align:middle line:84%
+And the Cauchy
+convergence theorem,
+
+00:53:52.420 --> 00:53:54.780 align:middle line:84%
+again, said that whenever
+you have a Cauchy sequence,
+
+00:53:54.780 --> 00:53:56.900 align:middle line:84%
+then it was
+automatically convergent,
+
+00:53:56.900 --> 00:54:00.280 align:middle line:84%
+and it was often much easier
+to check that a sequence was
+
+00:54:00.280 --> 00:54:03.880 align:middle line:84%
+a Cauchy sequence than to
+actually find the limit
+
+00:54:03.880 --> 00:54:07.800 align:middle line:84%
+and prove that it's
+converging to that.
+
+00:54:07.800 --> 00:54:10.300 align:middle line:84%
+But to prove the Cauchy
+convergence theorem,
+
+00:54:10.300 --> 00:54:12.840 align:middle line:84%
+we needed the
+Bolzano-Weierstrass theorem.
+
+00:54:12.840 --> 00:54:16.940 align:middle line:90%
+And so this is because--
+
+00:54:16.940 --> 00:54:20.240 align:middle line:84%
+so why is it useful, this
+notion of compactness?
+
+00:54:20.240 --> 00:54:28.480 align:middle line:84%
+So it's useful because
+there's a metric version
+
+00:54:28.480 --> 00:54:48.030 align:middle line:84%
+of the Bolzano-Weierstrass
+theorem for metric spaces.
+
+00:54:48.030 --> 00:54:53.360 align:middle line:90%
+
+
+00:54:53.360 --> 00:54:57.160 align:middle line:84%
+And so this is the
+following theorem.
+
+00:54:57.160 --> 00:55:00.960 align:middle line:84%
+And again, I won't prove it now,
+but I'll prove it next time,
+
+00:55:00.960 --> 00:55:09.640 align:middle line:84%
+that if you take a metric
+space, and A here is a subset
+
+00:55:09.640 --> 00:55:30.552 align:middle line:84%
+and A is compact,
+then any sequence in A
+
+00:55:30.552 --> 00:55:37.070 align:middle line:90%
+has a convergent subsequence.
+
+00:55:37.070 --> 00:55:43.890 align:middle line:90%
+
+
+00:55:43.890 --> 00:55:45.950 align:middle line:84%
+So remember that the
+Bolzano-Weierstrass theorem,
+
+00:55:45.950 --> 00:55:54.870 align:middle line:84%
+again, said that if you take
+an upper bounded sequence in r,
+
+00:55:54.870 --> 00:55:58.160 align:middle line:84%
+then there is a
+subsequence that converge.
+
+00:55:58.160 --> 00:56:01.110 align:middle line:90%
+
+
+00:56:01.110 --> 00:56:08.440 align:middle line:84%
+So now let's prove
+a few things about--
+
+00:56:08.440 --> 00:56:14.790 align:middle line:90%
+
+
+00:56:14.790 --> 00:56:18.990 align:middle line:84%
+and let me also look at a
+couple of more examples.
+
+00:56:18.990 --> 00:56:25.190 align:middle line:84%
+So the first thing I want
+to just discuss is that--
+
+00:56:25.190 --> 00:56:27.250 align:middle line:90%
+so this here is the key--
+
+00:56:27.250 --> 00:56:30.860 align:middle line:84%
+this is our key
+application of compactness
+
+00:56:30.860 --> 00:56:32.580 align:middle line:84%
+that you have this
+metric version
+
+00:56:32.580 --> 00:56:34.480 align:middle line:84%
+of the Bolzano-Weierstrass
+theorem.
+
+00:56:34.480 --> 00:56:47.580 align:middle line:90%
+
+
+00:56:47.580 --> 00:56:53.940 align:middle line:84%
+But let's prove a couple of
+things about compact subsets.
+
+00:56:53.940 --> 00:56:56.760 align:middle line:90%
+So we have a metric space here.
+
+00:56:56.760 --> 00:57:00.420 align:middle line:90%
+
+
+00:57:00.420 --> 00:57:07.650 align:middle line:90%
+And I have A here is compact.
+
+00:57:07.650 --> 00:57:12.340 align:middle line:90%
+
+
+00:57:12.340 --> 00:57:17.780 align:middle line:84%
+Then I want to show that
+this implies two things.
+
+00:57:17.780 --> 00:57:20.510 align:middle line:90%
+One is that A is bounded.
+
+00:57:20.510 --> 00:57:28.810 align:middle line:90%
+
+
+00:57:28.810 --> 00:57:31.780 align:middle line:84%
+And the second one
+is that A is closed.
+
+00:57:31.780 --> 00:57:41.610 align:middle line:90%
+
+
+00:57:41.610 --> 00:57:43.940 align:middle line:84%
+Let's prove first
+that A is bounded.
+
+00:57:43.940 --> 00:58:00.430 align:middle line:90%
+
+
+00:58:00.430 --> 00:58:04.690 align:middle line:84%
+So you could look at a
+very trivial cover of A.
+
+00:58:04.690 --> 00:58:13.810 align:middle line:84%
+So you have here
+A. Well, obviously,
+
+00:58:13.810 --> 00:58:20.530 align:middle line:84%
+if you take all balls,
+let's say, with radius 1,
+
+00:58:20.530 --> 00:58:24.480 align:middle line:84%
+and you take all balls,
+but now the center
+
+00:58:24.480 --> 00:58:30.920 align:middle line:90%
+here could be anything in A.
+
+00:58:30.920 --> 00:58:36.400 align:middle line:84%
+For each element in A, you
+take a ball of radius 1
+
+00:58:36.400 --> 00:58:38.720 align:middle line:90%
+around that point.
+
+00:58:38.720 --> 00:58:42.360 align:middle line:84%
+But first of all, these
+balls are all open.
+
+00:58:42.360 --> 00:58:46.340 align:middle line:84%
+And of course, this thing
+here, the union of these guys,
+
+00:58:46.340 --> 00:58:49.140 align:middle line:84%
+well, the union contains, in
+particular, all the centers,
+
+00:58:49.140 --> 00:58:55.400 align:middle line:84%
+but the centers is already A.
+So you trivially have this.
+
+00:58:55.400 --> 00:59:06.720 align:middle line:84%
+Now since A is
+compact, this means
+
+00:59:06.720 --> 00:59:11.100 align:middle line:84%
+that A must be that
+this is an open cover.
+
+00:59:11.100 --> 00:59:16.840 align:middle line:84%
+So it means that finitely
+many of them already cover A,
+
+00:59:16.840 --> 00:59:25.410 align:middle line:84%
+so you have finitely
+many, like this.
+
+00:59:25.410 --> 00:59:30.750 align:middle line:84%
+But now I claim that
+this automatically
+
+00:59:30.750 --> 00:59:35.470 align:middle line:84%
+implies that A is
+bounded because, you see,
+
+00:59:35.470 --> 00:59:39.110 align:middle line:90%
+you have all these balls here.
+
+00:59:39.110 --> 00:59:43.010 align:middle line:84%
+And A is somehow contained
+in the union of these guys.
+
+00:59:43.010 --> 00:59:46.850 align:middle line:84%
+So this means that
+for any element--
+
+00:59:46.850 --> 00:59:49.350 align:middle line:90%
+so this means that for any x--
+
+00:59:49.350 --> 01:00:00.910 align:middle line:84%
+so if x here is in
+A, then there exists
+
+01:00:00.910 --> 01:00:06.110 align:middle line:84%
+one of these finitely many i,
+where i is one of these finitely
+
+01:00:06.110 --> 01:00:10.510 align:middle line:90%
+many so that the distance.
+
+01:00:10.510 --> 01:00:16.030 align:middle line:90%
+to this xi is smaller than 1.
+
+01:00:16.030 --> 01:00:20.230 align:middle line:84%
+We would like to say that a
+is contained in a large ball.
+
+01:00:20.230 --> 01:00:36.820 align:middle line:90%
+
+
+01:00:36.820 --> 01:00:42.580 align:middle line:84%
+Now you just pick
+one of these xi's.
+
+01:00:42.580 --> 01:00:45.200 align:middle line:90%
+Let's pick the first one.
+
+01:00:45.200 --> 01:00:52.050 align:middle line:84%
+And let's look at the
+maximum of these--
+
+01:00:52.050 --> 01:00:54.740 align:middle line:90%
+
+
+01:00:54.740 --> 01:00:57.530 align:middle line:84%
+from the first one
+to the other one.
+
+01:00:57.530 --> 01:01:02.580 align:middle line:90%
+
+
+01:01:02.580 --> 01:01:05.820 align:middle line:90%
+And let's add 1 to that.
+
+01:01:05.820 --> 01:01:10.160 align:middle line:84%
+You take the maximum of
+finitely many numbers.
+
+01:01:10.160 --> 01:01:13.380 align:middle line:84%
+So this is a nice
+finitely many numbers.
+
+01:01:13.380 --> 01:01:17.340 align:middle line:90%
+And you call this here r.
+
+01:01:17.340 --> 01:01:24.290 align:middle line:84%
+Now you look at the ball
+of radius r around x1.
+
+01:01:24.290 --> 01:01:26.710 align:middle line:90%
+And I want to show that any x--
+
+01:01:26.710 --> 01:01:29.270 align:middle line:90%
+
+
+01:01:29.270 --> 01:01:44.650 align:middle line:84%
+so I want to show
+That for any x in A,
+
+01:01:44.650 --> 01:01:50.790 align:middle line:84%
+then we have that x is
+in this ball, like that.
+
+01:01:50.790 --> 01:02:15.510 align:middle line:90%
+
+
+01:02:15.510 --> 01:02:21.490 align:middle line:84%
+So now we know that--
+so since x here is,
+
+01:02:21.490 --> 01:02:25.670 align:middle line:84%
+we know that x is contained
+in the union of this ball.
+
+01:02:25.670 --> 01:02:36.650 align:middle line:84%
+So we know that x is contained
+in this ball here for some i,
+
+01:02:36.650 --> 01:02:40.330 align:middle line:84%
+where it's one of these
+little n many i's.
+
+01:02:40.330 --> 01:02:42.850 align:middle line:90%
+
+
+01:02:42.850 --> 01:02:47.010 align:middle line:84%
+So this means now
+that the distance--
+
+01:02:47.010 --> 01:02:53.410 align:middle line:84%
+and so you know that the
+distance to this little i
+
+01:02:53.410 --> 01:02:54.850 align:middle line:90%
+is at most 1.
+
+01:02:54.850 --> 01:02:58.250 align:middle line:84%
+And so now if you're
+looking at the distance
+
+01:02:58.250 --> 01:03:02.250 align:middle line:84%
+from x to the first
+one, then this here
+
+01:03:02.250 --> 01:03:09.930 align:middle line:84%
+is less than the
+distance from this to xi
+
+01:03:09.930 --> 01:03:14.810 align:middle line:84%
+plus the distance-- this is the
+triangle inequality again xi.
+
+01:03:14.810 --> 01:03:16.640 align:middle line:84%
+Maybe let me just
+make very clear
+
+01:03:16.640 --> 01:03:21.360 align:middle line:84%
+that this is the first
+one to the first one.
+
+01:03:21.360 --> 01:03:24.160 align:middle line:90%
+This is the triangle inequality.
+
+01:03:24.160 --> 01:03:28.360 align:middle line:90%
+But these distances here are--
+
+01:03:28.360 --> 01:03:41.920 align:middle line:90%
+
+
+01:03:41.920 --> 01:03:44.600 align:middle line:84%
+this thing here
+is bounded by $1.
+
+01:03:44.600 --> 01:03:49.120 align:middle line:84%
+It's actually
+strictly less than 1.
+
+01:03:49.120 --> 01:03:53.420 align:middle line:84%
+So this is less than 1
+plus this thing here.
+
+01:03:53.420 --> 01:03:57.520 align:middle line:90%
+
+
+01:03:57.520 --> 01:04:00.520 align:middle line:84%
+And you see, this thing
+here is, of course, this
+
+01:04:00.520 --> 01:04:04.000 align:middle line:90%
+is how we define r.
+
+01:04:04.000 --> 01:04:08.560 align:middle line:84%
+This is actually less
+than or equal to r.
+
+01:04:08.560 --> 01:04:13.703 align:middle line:84%
+And so you have this thing
+here is strictly less than r.
+
+01:04:13.703 --> 01:04:15.370 align:middle line:84%
+And that's what we
+want wanted to prove.
+
+01:04:15.370 --> 01:04:18.810 align:middle line:90%
+
+
+01:04:18.810 --> 01:04:22.950 align:middle line:84%
+So this proves that if you take,
+again, a metric space and you
+
+01:04:22.950 --> 01:04:28.230 align:middle line:84%
+have a compact subset, then
+it's automatically bounded.
+
+01:04:28.230 --> 01:04:29.870 align:middle line:90%
+What about the second one?
+
+01:04:29.870 --> 01:04:33.430 align:middle line:90%
+Suppose you take a subset.
+
+01:04:33.430 --> 01:04:35.990 align:middle line:90%
+Is it closed?
+
+01:04:35.990 --> 01:04:38.780 align:middle line:84%
+Now let's use the theorem
+that we just proved.
+
+01:04:38.780 --> 01:04:45.270 align:middle line:90%
+
+
+01:04:45.270 --> 01:04:46.460 align:middle line:90%
+So we need to prove--
+
+01:04:46.460 --> 01:05:01.110 align:middle line:90%
+
+
+01:05:01.110 --> 01:05:05.940 align:middle line:84%
+so let's prove that
+this A here is closed.
+
+01:05:05.940 --> 01:05:23.460 align:middle line:90%
+
+
+01:05:23.460 --> 01:05:27.200 align:middle line:90%
+So now if A is closed--
+
+01:05:27.200 --> 01:05:40.460 align:middle line:84%
+so to prove that A is
+closed by the theorem
+
+01:05:40.460 --> 01:05:43.120 align:middle line:84%
+we just proved just
+a little while ago--
+
+01:05:43.120 --> 01:05:46.140 align:middle line:90%
+
+
+01:05:46.140 --> 01:05:53.740 align:middle line:84%
+theorem we proved
+earlier, we need
+
+01:05:53.740 --> 01:06:08.620 align:middle line:84%
+to show that if xn is a sequence
+in A and xn is converging
+
+01:06:08.620 --> 01:06:36.930 align:middle line:84%
+to some x, we need to
+show that x is also in A.
+
+01:06:36.930 --> 01:06:41.370 align:middle line:84%
+Suppose now we want to show that
+this leads to a contradiction.
+
+01:06:41.370 --> 01:06:42.990 align:middle line:90%
+We want to get a contradiction.
+
+01:06:42.990 --> 01:06:54.050 align:middle line:90%
+
+
+01:06:54.050 --> 01:06:57.650 align:middle line:90%
+So you have this x here.
+
+01:06:57.650 --> 01:07:02.390 align:middle line:84%
+And you're assuming
+that x is not in A.
+
+01:07:02.390 --> 01:07:11.400 align:middle line:84%
+Yet you have a sequence in A
+that somehow tends to this--
+
+01:07:11.400 --> 01:07:14.670 align:middle line:84%
+this is the sequence xn, and
+it's heading to this element.
+
+01:07:14.670 --> 01:07:19.520 align:middle line:90%
+
+
+01:07:19.520 --> 01:07:31.540 align:middle line:84%
+Well, we saw earlier that we
+define something called E here,
+
+01:07:31.540 --> 01:07:42.680 align:middle line:84%
+which is the x, the y in x, so
+that the distance from x to y
+
+01:07:42.680 --> 01:07:45.080 align:middle line:90%
+is strictly bigger than r.
+
+01:07:45.080 --> 01:07:48.940 align:middle line:84%
+Then we saw that this
+here is an open set.
+
+01:07:48.940 --> 01:07:51.800 align:middle line:90%
+We show that this is open.
+
+01:07:51.800 --> 01:07:55.320 align:middle line:90%
+This is for each r.
+
+01:07:55.320 --> 01:08:02.880 align:middle line:84%
+So I'm going to now
+find a cover of A. I'm
+
+01:08:02.880 --> 01:08:05.040 align:middle line:90%
+going to find an open cover.
+
+01:08:05.040 --> 01:08:13.550 align:middle line:84%
+And the open cover is that for
+each integer, for each n here,
+
+01:08:13.550 --> 01:08:18.710 align:middle line:90%
+I'm going to look at E 1 over n.
+
+01:08:18.710 --> 01:08:23.710 align:middle line:84%
+So this means that
+I'm looking at the y
+
+01:08:23.710 --> 01:08:30.430 align:middle line:84%
+so that the distance from y to
+this x here that I want to show
+
+01:08:30.430 --> 01:08:37.370 align:middle line:84%
+is an A, that this thing
+here is bigger than 1 over n.
+
+01:08:37.370 --> 01:08:41.950 align:middle line:90%
+
+
+01:08:41.950 --> 01:08:48.750 align:middle line:84%
+But now I claim
+that A is contained
+
+01:08:48.750 --> 01:08:59.630 align:middle line:84%
+in the union of these
+guys because, you see,
+
+01:08:59.630 --> 01:09:06.830 align:middle line:84%
+actually, these guys here, if
+you have something that is not
+
+01:09:06.830 --> 01:09:14.910 align:middle line:84%
+in any of these, this means
+that this inequality fails
+
+01:09:14.910 --> 01:09:20.910 align:middle line:84%
+with each n, but this
+means that-- so if set
+
+01:09:20.910 --> 01:09:30.310 align:middle line:84%
+is in the complement of
+the union of these guys,
+
+01:09:30.310 --> 01:09:33.229 align:middle line:84%
+actually, then you
+have that this thing
+
+01:09:33.229 --> 01:09:39.810 align:middle line:84%
+here is less than or equal
+to 1 over n for all n.
+
+01:09:39.810 --> 01:09:43.149 align:middle line:90%
+
+
+01:09:43.149 --> 01:09:44.430 align:middle line:90%
+You have that.
+
+01:09:44.430 --> 01:09:47.750 align:middle line:84%
+That's a complement
+of the union.
+
+01:09:47.750 --> 01:09:50.630 align:middle line:84%
+But if it's less than
+1 over n for all n,
+
+01:09:50.630 --> 01:09:51.860 align:middle line:90%
+it means that it must be 0.
+
+01:09:51.860 --> 01:09:54.510 align:middle line:90%
+
+
+01:09:54.510 --> 01:09:57.030 align:middle line:84%
+So this means that
+this distance here--
+
+01:09:57.030 --> 01:10:01.610 align:middle line:84%
+so you conclude that
+this distance is 0.
+
+01:10:01.610 --> 01:10:07.580 align:middle line:84%
+But this means that this
+set here is actually your x.
+
+01:10:07.580 --> 01:10:11.740 align:middle line:84%
+So the complement of
+these guys, the complement
+
+01:10:11.740 --> 01:10:15.980 align:middle line:84%
+of this union here is
+simply just a point x.
+
+01:10:15.980 --> 01:10:18.460 align:middle line:84%
+But you are assuming
+that x was not
+
+01:10:18.460 --> 01:10:24.100 align:middle line:84%
+in your set A. The complement
+here, the union of these guys,
+
+01:10:24.100 --> 01:10:29.740 align:middle line:84%
+we have proved now that the
+union covers everything but x.
+
+01:10:29.740 --> 01:10:32.740 align:middle line:84%
+So in particular, it covers
+A because we're assuming
+
+01:10:32.740 --> 01:10:38.700 align:middle line:90%
+that little x was not in A.
+
+01:10:38.700 --> 01:10:44.460 align:middle line:84%
+So this is a nice
+open cover of A.
+
+01:10:44.460 --> 01:10:46.980 align:middle line:84%
+But A was supposed
+to be compact.
+
+01:10:46.980 --> 01:10:49.360 align:middle line:84%
+It means that finitely
+many of these cover.
+
+01:10:49.360 --> 01:10:52.540 align:middle line:90%
+
+
+01:10:52.540 --> 01:11:03.100 align:middle line:84%
+But now this family has
+this property that you see--
+
+01:11:03.100 --> 01:11:09.370 align:middle line:84%
+these guys here, if you're
+looking at E 1 over n,
+
+01:11:09.370 --> 01:11:17.650 align:middle line:84%
+this thing here is contained
+in E 1 over n plus 1.
+
+01:11:17.650 --> 01:11:21.170 align:middle line:84%
+If this number here
+is smaller, then it
+
+01:11:21.170 --> 01:11:25.610 align:middle line:84%
+means that this
+set here is larger.
+
+01:11:25.610 --> 01:11:27.330 align:middle line:90%
+So you have this--
+
+01:11:27.330 --> 01:11:30.890 align:middle line:84%
+and so you see that
+if finitely many--
+
+01:11:30.890 --> 01:11:36.690 align:middle line:84%
+if A here was contained in
+finitely many of these guys
+
+01:11:36.690 --> 01:11:52.010 align:middle line:84%
+here, if it was contained
+in a union of finitely many,
+
+01:11:52.010 --> 01:11:57.250 align:middle line:84%
+then you just take one of
+these n that is the largest.
+
+01:11:57.250 --> 01:12:03.000 align:middle line:84%
+So this means that A here
+would be contained in some 1
+
+01:12:03.000 --> 01:12:10.060 align:middle line:84%
+over for some i because
+there's one of these numbers--
+
+01:12:10.060 --> 01:12:13.400 align:middle line:84%
+these ni's, that
+would be the largest.
+
+01:12:13.400 --> 01:12:19.640 align:middle line:90%
+But this means now that A--
+
+01:12:19.640 --> 01:12:28.640 align:middle line:84%
+that there is some lower bound
+for the distance to x in A.
+
+01:12:28.640 --> 01:12:30.760 align:middle line:90%
+There's no elements that is--
+
+01:12:30.760 --> 01:12:35.640 align:middle line:84%
+so this means that
+there exists--
+
+01:12:35.640 --> 01:12:48.880 align:middle line:84%
+that does not exist, let
+me say, for all y in A.
+
+01:12:48.880 --> 01:12:58.680 align:middle line:84%
+Then the distance here from y
+to x is strictly bigger than 1
+
+01:12:58.680 --> 01:13:02.110 align:middle line:90%
+over this in i.
+
+01:13:02.110 --> 01:13:04.870 align:middle line:90%
+This is just some fixed number.
+
+01:13:04.870 --> 01:13:07.430 align:middle line:84%
+This is obviously
+po-- you know, right?
+
+01:13:07.430 --> 01:13:11.870 align:middle line:84%
+But this means that you can't
+have a sequence in A that
+
+01:13:11.870 --> 01:13:18.890 align:middle line:84%
+is converging to x because
+they all stay away from x.
+
+01:13:18.890 --> 01:13:23.450 align:middle line:84%
+They stay a certain
+distance away from x.
+
+01:13:23.450 --> 01:13:26.190 align:middle line:90%
+
+
+01:13:26.190 --> 01:13:28.830 align:middle line:84%
+So this is the
+desired contradiction.
+
+01:13:28.830 --> 01:13:49.510 align:middle line:84%
+Therefore, there is no sequence
+that converges to x and the xn
+
+01:13:49.510 --> 01:13:50.470 align:middle line:90%
+on A.
+
+01:13:50.470 --> 01:13:54.470 align:middle line:84%
+But that's what we
+assumed in the beginning.
+
+01:13:54.470 --> 01:13:55.830 align:middle line:90%
+We wanted to check.
+
+01:13:55.830 --> 01:14:00.980 align:middle line:84%
+Then whenever you
+have a sequence in An
+
+01:14:00.980 --> 01:14:05.660 align:middle line:84%
+that is converging,
+then the limit was also.
+
+01:14:05.660 --> 01:14:08.280 align:middle line:84%
+So that was supposed to
+have been such a sequence.
+
+01:14:08.280 --> 01:14:11.220 align:middle line:84%
+So that's a desired
+contradiction.
+
+01:14:11.220 --> 01:14:17.900 align:middle line:84%
+So this proved that if you take
+a compact metric space, then
+
+01:14:17.900 --> 01:14:23.300 align:middle line:84%
+if you take a metric space and
+if you take a compact subset,
+
+01:14:23.300 --> 01:14:26.380 align:middle line:84%
+the compact subset could,
+of course, be all of x.
+
+01:14:26.380 --> 01:14:26.990 align:middle line:90%
+That's fine.
+
+01:14:26.990 --> 01:14:30.620 align:middle line:90%
+
+
+01:14:30.620 --> 01:14:33.380 align:middle line:84%
+But I want to allow
+more generally that just
+
+01:14:33.380 --> 01:14:36.540 align:middle line:84%
+to say that just having
+a subset that is compact,
+
+01:14:36.540 --> 01:14:39.780 align:middle line:84%
+this means that it's
+bounded and closed.
+
+01:14:39.780 --> 01:14:41.510 align:middle line:90%
+If you are in Rn--
+
+01:14:41.510 --> 01:14:44.620 align:middle line:90%
+
+
+01:14:44.620 --> 01:14:51.660 align:middle line:84%
+so you have a theorem, and we'll
+talk about that next time also,
+
+01:14:51.660 --> 01:14:52.820 align:middle line:90%
+that this theorem--
+
+01:14:52.820 --> 01:14:55.820 align:middle line:84%
+let's say the
+converse is the case.
+
+01:14:55.820 --> 01:14:59.050 align:middle line:90%
+But that is not actually--
+
+01:14:59.050 --> 01:15:02.130 align:middle line:84%
+that does not generalize
+to metric spaces.
+
+01:15:02.130 --> 01:15:04.970 align:middle line:90%
+So it says theorem here.
+
+01:15:04.970 --> 01:15:09.330 align:middle line:84%
+Well, I mean it does
+generalize, but not like this.
+
+01:15:09.330 --> 01:15:13.890 align:middle line:84%
+This particular
+statement does not hold.
+
+01:15:13.890 --> 01:15:23.050 align:middle line:84%
+So in Rn with the usual metric,
+say the usual Euclidean metric,
+
+01:15:23.050 --> 01:15:23.550 align:middle line:90%
+if you will.
+
+01:15:23.550 --> 01:15:29.970 align:middle line:84%
+You can just think
+about R. If A is
+
+01:15:29.970 --> 01:15:42.020 align:middle line:84%
+compact is closed and
+bounded, then A is compact.
+
+01:15:42.020 --> 01:15:46.010 align:middle line:90%
+
+
+01:15:46.010 --> 01:15:50.950 align:middle line:84%
+And I wanted to talk
+about an example,
+
+01:15:50.950 --> 01:15:54.010 align:middle line:84%
+but I don't think
+I have enough time
+
+01:15:54.010 --> 01:15:59.220 align:middle line:90%
+to actually talk about that.
+
+01:15:59.220 --> 01:16:03.525 align:middle line:84%
+Let's talk about this--
+return to this next time
+
+01:16:03.525 --> 01:16:05.150 align:middle line:84%
+because we only have
+four minutes left.
+
+01:16:05.150 --> 01:16:10.840 align:middle line:90%
+
+
+01:16:10.840 --> 01:16:19.794 align:middle line:84%
+And so, instead, let's
+prove a theorem here that--
+
+01:16:19.794 --> 01:16:22.640 align:middle line:90%
+
+
+01:16:22.640 --> 01:16:28.960 align:middle line:84%
+if we take the theorem, if
+you have a metric space,
+
+01:16:28.960 --> 01:16:35.840 align:middle line:84%
+A here is a subset
+of x is compact,
+
+01:16:35.840 --> 01:16:43.860 align:middle line:84%
+suppose that C here is a subset
+of A and C here is [INAUDIBLE].
+
+01:16:43.860 --> 01:16:45.140 align:middle line:90%
+So this is, of course, in x.
+
+01:16:45.140 --> 01:16:47.400 align:middle line:90%
+So C is also a subset of x.
+
+01:16:47.400 --> 01:16:51.800 align:middle line:90%
+And C is closed.
+
+01:16:51.800 --> 01:16:57.170 align:middle line:84%
+Then the claim is that
+then C is also compact.
+
+01:16:57.170 --> 01:17:02.440 align:middle line:90%
+
+
+01:17:02.440 --> 01:17:04.040 align:middle line:84%
+And we have three
+minutes, and we
+
+01:17:04.040 --> 01:17:08.080 align:middle line:84%
+don't need three minutes because
+it's actually very quick.
+
+01:17:08.080 --> 01:17:11.480 align:middle line:84%
+And so the thing is--
+so proof of this--
+
+01:17:11.480 --> 01:17:15.280 align:middle line:84%
+so C here is assumed
+to be closed.
+
+01:17:15.280 --> 01:17:22.200 align:middle line:84%
+So this means that
+since C is closed,
+
+01:17:22.200 --> 01:17:26.450 align:middle line:84%
+this means that the
+complement of C is open.
+
+01:17:26.450 --> 01:17:34.400 align:middle line:90%
+
+
+01:17:34.400 --> 01:17:51.340 align:middle line:84%
+So now let's let O
+alpha be a cover of C.
+
+01:17:51.340 --> 01:17:54.190 align:middle line:84%
+So O alpha is a cover
+of C, and now you
+
+01:17:54.190 --> 01:17:58.430 align:middle line:84%
+can add the
+complement of C to it.
+
+01:17:58.430 --> 01:18:02.990 align:middle line:90%
+So if you're looking at C--
+
+01:18:02.990 --> 01:18:11.070 align:middle line:84%
+so C here is now,
+of course, in fact,
+
+01:18:11.070 --> 01:18:16.910 align:middle line:84%
+A here, you can think about
+A as-- so A is clearly
+
+01:18:16.910 --> 01:18:28.110 align:middle line:84%
+contained in C union
+with the complement of C.
+
+01:18:28.110 --> 01:18:34.650 align:middle line:84%
+And so this means that A
+here, the O alpha cover C--
+
+01:18:34.650 --> 01:18:39.350 align:middle line:84%
+so this is contained in
+the union of O alpha union
+
+01:18:39.350 --> 01:18:41.510 align:middle line:90%
+with this last set.
+
+01:18:41.510 --> 01:18:44.190 align:middle line:90%
+
+
+01:18:44.190 --> 01:18:46.950 align:middle line:84%
+These guys are
+assumed to be open.
+
+01:18:46.950 --> 01:18:49.950 align:middle line:84%
+This here is open
+because C is closed.
+
+01:18:49.950 --> 01:18:54.220 align:middle line:84%
+So this means that you have
+now A is contained in--
+
+01:18:54.220 --> 01:18:58.260 align:middle line:84%
+this is an open cover of A. So
+this means that finitely many
+
+01:18:58.260 --> 01:18:59.840 align:middle line:90%
+of these--
+
+01:18:59.840 --> 01:19:04.620 align:middle line:84%
+so this means that A is
+contained in like O1 union
+
+01:19:04.620 --> 01:19:06.460 align:middle line:90%
+up to some On.
+
+01:19:06.460 --> 01:19:11.900 align:middle line:84%
+And then, quite possibly, you
+would also need this one here.
+
+01:19:11.900 --> 01:19:16.540 align:middle line:84%
+But now you see, but C
+here is contained in here.
+
+01:19:16.540 --> 01:19:19.780 align:middle line:84%
+So this means that C
+is contained in this.
+
+01:19:19.780 --> 01:19:22.460 align:middle line:84%
+This here was not
+part of the cover,
+
+01:19:22.460 --> 01:19:26.340 align:middle line:84%
+but it's not needed if you just
+want to cover C because none
+
+01:19:26.340 --> 01:19:30.780 align:middle line:84%
+of these elements
+cover anything in C.
+
+01:19:30.780 --> 01:19:36.900 align:middle line:84%
+So this implies that C actually
+must be contained in O1 union
+
+01:19:36.900 --> 01:19:42.020 align:middle line:84%
+up to On because this here does
+not cover anything in C. So
+
+01:19:42.020 --> 01:19:44.100 align:middle line:90%
+this proves that C--
+
+01:19:44.100 --> 01:19:47.790 align:middle line:84%
+there was a finite
+subcover that covers C.
+
+01:19:47.790 --> 01:19:50.000 align:middle line:90%

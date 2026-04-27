@@ -1,0 +1,23 @@
+{
+  "course_title":"Measure and Integration",
+  "course_description":"This graduate-level course covers Lebesgue's integration theory with applications to analysis, including an introduction to convolution and the Fourier transform.\n",
+  "course_description_html":"This graduate-level course covers Lebesgue&rsquo;s integration theory with applications to analysis, including an introduction to convolution and the Fourier transform.",
+  "site_uid":"98caa1ec-c506-4da9-b58b-1fd770b971fb",
+  "legacy_uid":"4b603ff8-741b-e1bb-0a92-c7aa9f366f3d","instructors": [{
+    "first_name":"Jeff",
+    "last_name":"Viaclovsky",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Jeff Viaclovsky"}],"department_numbers":["18"],
+  "learning_resource_types":["Lecture Notes","Problem Sets"],
+  "topics":[["Mathematics","Mathematical Analysis"],["Mathematics","Calculus"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"18.125",
+  "extra_course_numbers":"",
+  "term":"Fall",
+  "year":"2003",
+  "level":["Graduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/70d02cb821c5e62afd7fbbc2ffe49ab4_18-125f03.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"Photograph of Henri L?on Lebesgue (1875-1941), who laid the groundwork for modern measure theory and remade the theory of integration.  (Courtesy of The MacTutor History of Mathematics Archive, University of St. Andrews.)","draft":false,"file":"/courses/18-125-measure-and-integration-fall-2003/70d02cb821c5e62afd7fbbc2ffe49ab4_18-125f03.jpg","file_size":62127,"file_type":"image/jpeg","image_metadata":{"caption":"Photograph of Henri Léon Lebesgue (1875-1941), who laid the groundwork for modern measure theory and remade the theory of integration.  (Courtesy of {{% resource_link \"8cf7e84d-24f4-464e-8624-263746ad0d5f\" \"The MacTutor History of Mathematics Archive\" %}}, University of St. Andrews.)","credit":"","image-alt":"Photograph of Henri Leon Lebesgue."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"18-125f03.jpg","uid":"70d02cb8-21c5-e62a-fd7f-bbc2ffe49ab4","video_files":{"archive_url":"","video_captions_file":"","video_thumbnail_file":"","video_transcript_file":""},"video_metadata":{"video_speakers":"","video_tags":"","youtube_description":"","youtube_id":""}}}
+

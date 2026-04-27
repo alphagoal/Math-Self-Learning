@@ -1,0 +1,8 @@
+{
+  "title":"18-103-f13.jpg",
+  "description": "The first three successive partial Fourier series (shown in red) for a square wave (shown in blue). Image by user Jim.belk on Wikipedia and is in the public domain.",
+  "file": "/courses/18-103-fourier-analysis-fall-2013/33eb81b52351dcb5e9e74aaab3219cd0_18-103-f13.jpg",
+  "learning_resource_types": [],
+  "resource_type": "Image",
+  "file_type": "image/jpeg",
+  "image_metadata": {"caption":"The first three successive partial Fourier series (shown in red) for a square wave (shown in blue). The second half of the course is devoted to Fourier series and Fourier integrals. (Image by user {{% resource_link \"9b7f73a9-bd4d-4a29-8a4d-8ad871b6362f\" \"Jim.belk\" %}} on Wikipedia and is in the public domain.)","credit":"Image by user Jim.belk on Wikipedia and is in the public domain.","image-alt":"Three graphs, showing successive partial Fourier series of a square wave, overlayed onto the original square wave. Each successive Fourier series more closely resembles the original square wave."}}

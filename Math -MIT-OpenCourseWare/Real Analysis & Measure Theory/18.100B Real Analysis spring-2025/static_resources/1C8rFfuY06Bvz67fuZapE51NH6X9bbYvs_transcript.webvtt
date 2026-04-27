@@ -1,0 +1,4125 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.920 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.920 --> 00:00:04.320 align:middle line:90%
+[RUSTLING]
+
+00:00:04.320 --> 00:00:05.760 align:middle line:90%
+[CLICKING]
+
+00:00:05.760 --> 00:00:11.820 align:middle line:90%
+
+
+00:00:11.820 --> 00:00:13.640 align:middle line:84%
+PROFESSOR: So last
+time, just quickly
+
+00:00:13.640 --> 00:00:19.040 align:middle line:84%
+recall, we looked at a
+function on some interval
+
+00:00:19.040 --> 00:00:25.740 align:middle line:84%
+into R. We looked at a
+partition, P. So here,
+
+00:00:25.740 --> 00:00:28.360 align:middle line:84%
+we have the interval
+from a to b.
+
+00:00:28.360 --> 00:00:35.760 align:middle line:84%
+Then we have a partition,
+x0, x1, up to, say, xn.
+
+00:00:35.760 --> 00:00:41.820 align:middle line:84%
+We looked at Mi, which was the
+sup, on this little interval
+
+00:00:41.820 --> 00:00:45.960 align:middle line:90%
+here from xi minus 1 to xi of f.
+
+00:00:45.960 --> 00:00:51.800 align:middle line:84%
+We looked at little
+mi, which was the inf.
+
+00:00:51.800 --> 00:00:53.150 align:middle line:90%
+f here was bounded again.
+
+00:00:53.150 --> 00:00:57.920 align:middle line:90%
+
+
+00:00:57.920 --> 00:01:03.820 align:middle line:84%
+And inf on the same
+interval, xi minus 1 to xi.
+
+00:01:03.820 --> 00:01:07.460 align:middle line:84%
+And then we looked at the
+upper and the lower sum.
+
+00:01:07.460 --> 00:01:11.580 align:middle line:84%
+So we looked at the
+upper and lower sum
+
+00:01:11.580 --> 00:01:13.940 align:middle line:90%
+with respect to this partition.
+
+00:01:13.940 --> 00:01:19.700 align:middle line:84%
+So this here was the sum
+of Mi and then delta xi
+
+00:01:19.700 --> 00:01:24.300 align:middle line:84%
+and the lower sum for
+this partition, which
+
+00:01:24.300 --> 00:01:31.620 align:middle line:84%
+was the sum of this smaller mi's
+delta xi, where the delta xi was
+
+00:01:31.620 --> 00:01:37.860 align:middle line:84%
+the length of these little
+intervals here, like that.
+
+00:01:37.860 --> 00:01:40.620 align:middle line:84%
+And then it was
+Riemann integrable.
+
+00:01:40.620 --> 00:01:48.140 align:middle line:84%
+Then we looked at the lower
+and the upper Riemann integral.
+
+00:01:48.140 --> 00:01:54.580 align:middle line:84%
+So we looked at the upper
+and lower Riemann integral.
+
+00:01:54.580 --> 00:02:01.920 align:middle line:84%
+This here was now the inf
+of these upper integrals
+
+00:02:01.920 --> 00:02:03.760 align:middle line:90%
+over all partitions.
+
+00:02:03.760 --> 00:02:12.840 align:middle line:84%
+And the lower one, that
+was the sup of the lower
+
+00:02:12.840 --> 00:02:17.080 align:middle line:90%
+sums over all partitions.
+
+00:02:17.080 --> 00:02:27.360 align:middle line:84%
+And then we said that f is
+Riemann integrable if those two
+
+00:02:27.360 --> 00:02:30.460 align:middle line:84%
+numbers are the same,
+if the upper one here,
+
+00:02:30.460 --> 00:02:33.200 align:middle line:84%
+which is always bigger or
+equal to the lower one,
+
+00:02:33.200 --> 00:02:37.960 align:middle line:84%
+if that is actually equal to
+the lower one, the lower Riemann
+
+00:02:37.960 --> 00:02:40.328 align:middle line:90%
+integral.
+
+00:02:40.328 --> 00:02:43.300 align:middle line:90%
+And if this is the case--
+
+00:02:43.300 --> 00:02:45.880 align:middle line:90%
+so this here is--
+
+00:02:45.880 --> 00:02:48.000 align:middle line:84%
+it's Riemann
+integrable if and only
+
+00:02:48.000 --> 00:02:49.920 align:middle line:84%
+if these two numbers
+are the same.
+
+00:02:49.920 --> 00:02:53.120 align:middle line:84%
+And in that case, we wrote--
+for this common number,
+
+00:02:53.120 --> 00:02:55.040 align:middle line:90%
+we wrote just the--
+
+00:02:55.040 --> 00:02:59.020 align:middle line:84%
+we wrote it as the
+Riemann integral.
+
+00:02:59.020 --> 00:03:06.000 align:middle line:84%
+So now, there was this parallel
+to things we have done before.
+
+00:03:06.000 --> 00:03:09.860 align:middle line:84%
+There was these algebraic
+rules that we talked about
+
+00:03:09.860 --> 00:03:11.040 align:middle line:90%
+at the very end.
+
+00:03:11.040 --> 00:03:12.705 align:middle line:90%
+So what were those?
+
+00:03:12.705 --> 00:03:15.740 align:middle line:90%
+
+
+00:03:15.740 --> 00:03:24.060 align:middle line:84%
+If you take a function
+that is Riemann integrable,
+
+00:03:24.060 --> 00:03:31.140 align:middle line:84%
+and you take c is a constant,
+then the product here
+
+00:03:31.140 --> 00:03:32.920 align:middle line:90%
+is also Riemann integrable.
+
+00:03:32.920 --> 00:03:37.180 align:middle line:90%
+
+
+00:03:37.180 --> 00:03:43.020 align:middle line:84%
+And the integral of
+the product is just--
+
+00:03:43.020 --> 00:03:46.500 align:middle line:84%
+product function
+is just the product
+
+00:03:46.500 --> 00:03:53.020 align:middle line:84%
+of c with the Riemann
+integral of f.
+
+00:03:53.020 --> 00:03:55.360 align:middle line:90%
+So that was 1.
+
+00:03:55.360 --> 00:04:00.480 align:middle line:84%
+2 is that if you have a second
+function, so in addition to f,
+
+00:04:00.480 --> 00:04:07.746 align:middle line:84%
+you also have a g, and they're
+both Riemann integrable,
+
+00:04:07.746 --> 00:04:12.220 align:middle line:84%
+then the sum here is
+also Riemann integrable.
+
+00:04:12.220 --> 00:04:15.840 align:middle line:90%
+
+
+00:04:15.840 --> 00:04:25.040 align:middle line:84%
+And the integral of
+the sum is equal to--
+
+00:04:25.040 --> 00:04:26.480 align:middle line:90%
+from a to b--
+
+00:04:26.480 --> 00:04:28.930 align:middle line:84%
+is equal to the sum of
+the Riemann integral.
+
+00:04:28.930 --> 00:04:31.960 align:middle line:90%
+
+
+00:04:31.960 --> 00:04:33.420 align:middle line:90%
+Let's prove this one here.
+
+00:04:33.420 --> 00:04:36.200 align:middle line:90%
+
+
+00:04:36.200 --> 00:04:38.240 align:middle line:90%
+I won't prove the first one.
+
+00:04:38.240 --> 00:04:40.400 align:middle line:90%
+But let's prove the second one.
+
+00:04:40.400 --> 00:04:42.600 align:middle line:90%
+So this is 2.
+
+00:04:42.600 --> 00:04:45.160 align:middle line:84%
+Now, to prove this,
+let me remind you
+
+00:04:45.160 --> 00:04:53.860 align:middle line:84%
+about one of the lemmas
+that we had last time.
+
+00:04:53.860 --> 00:04:58.060 align:middle line:84%
+We were talking about that
+this was a useful lemma
+
+00:04:58.060 --> 00:05:01.900 align:middle line:84%
+to determine whether a function
+was Riemann integrable.
+
+00:05:01.900 --> 00:05:07.860 align:middle line:84%
+So recall this from
+last time, that you
+
+00:05:07.860 --> 00:05:14.280 align:middle line:84%
+have the following lemma,
+that f, again, is bounded.
+
+00:05:14.280 --> 00:05:21.940 align:middle line:84%
+So f is Riemann
+integrable if and only
+
+00:05:21.940 --> 00:05:28.260 align:middle line:84%
+if, for all epsilon
+greater than 0,
+
+00:05:28.260 --> 00:05:32.180 align:middle line:84%
+there exists a partition
+of this interval here
+
+00:05:32.180 --> 00:05:36.660 align:middle line:84%
+such that the upper
+sum, which is always
+
+00:05:36.660 --> 00:05:46.260 align:middle line:84%
+bigger than the lower sum, this
+one here, minus the lower sum--
+
+00:05:46.260 --> 00:05:49.100 align:middle line:84%
+so this number is
+always positive.
+
+00:05:49.100 --> 00:05:55.120 align:middle line:84%
+But if, for all epsilon, you
+can make this difference here
+
+00:05:55.120 --> 00:05:58.600 align:middle line:84%
+smaller, then you can find a
+partition so that you have that.
+
+00:05:58.600 --> 00:06:00.060 align:middle line:90%
+You proved that last time.
+
+00:06:00.060 --> 00:06:02.600 align:middle line:90%
+
+
+00:06:02.600 --> 00:06:05.540 align:middle line:84%
+So now, let's go to
+the proof of this.
+
+00:06:05.540 --> 00:06:09.920 align:middle line:90%
+
+
+00:06:09.920 --> 00:06:11.180 align:middle line:90%
+So proof of 2.
+
+00:06:11.180 --> 00:06:18.520 align:middle line:90%
+
+
+00:06:18.520 --> 00:06:28.280 align:middle line:84%
+So given epsilon greater
+than 0, since f here
+
+00:06:28.280 --> 00:06:34.160 align:middle line:84%
+is Riemann
+integrable, then there
+
+00:06:34.160 --> 00:06:45.920 align:middle line:84%
+exists a partition, P1,
+such that the upper sum
+
+00:06:45.920 --> 00:06:54.320 align:middle line:84%
+minus the lower sum is
+less than epsilon over 2.
+
+00:06:54.320 --> 00:06:58.140 align:middle line:84%
+This is because the function
+f was Riemann integrable.
+
+00:06:58.140 --> 00:07:07.620 align:middle line:84%
+And likewise-- likewise,
+since g is Riemann integrable,
+
+00:07:07.620 --> 00:07:19.220 align:middle line:84%
+so there exists a second
+partition, P2, so that, for g,
+
+00:07:19.220 --> 00:07:21.980 align:middle line:90%
+you have the same thing--
+
+00:07:21.980 --> 00:07:23.160 align:middle line:90%
+for g and P2.
+
+00:07:23.160 --> 00:07:25.300 align:middle line:90%
+Sorry, this is g.
+
+00:07:25.300 --> 00:07:29.020 align:middle line:84%
+This upper sum
+minus the lower sum
+
+00:07:29.020 --> 00:07:33.460 align:middle line:84%
+for g with respect to
+this second partition,
+
+00:07:33.460 --> 00:07:35.700 align:middle line:84%
+this here, is less
+than epsilon over 2.
+
+00:07:35.700 --> 00:07:40.140 align:middle line:90%
+
+
+00:07:40.140 --> 00:07:42.130 align:middle line:90%
+So now you let P here--
+
+00:07:42.130 --> 00:07:46.080 align:middle line:90%
+
+
+00:07:46.080 --> 00:07:58.600 align:middle line:84%
+so now let P be
+the partition that
+
+00:07:58.600 --> 00:08:12.560 align:middle line:84%
+has all the dividing
+points of P1,
+
+00:08:12.560 --> 00:08:30.640 align:middle line:84%
+together with all the
+dividing points of P2.
+
+00:08:30.640 --> 00:08:38.509 align:middle line:84%
+So it has the partitions that
+are in either one of the two,
+
+00:08:38.509 --> 00:08:40.500 align:middle line:90%
+or both.
+
+00:08:40.500 --> 00:08:44.580 align:middle line:84%
+And so now we know that--
+so this just means that--
+
+00:08:44.580 --> 00:08:57.740 align:middle line:84%
+so P here is a refinement
+of both P1 and P2.
+
+00:08:57.740 --> 00:09:00.380 align:middle line:90%
+
+
+00:09:00.380 --> 00:09:02.260 align:middle line:84%
+So this means that
+actually, when
+
+00:09:02.260 --> 00:09:04.140 align:middle line:84%
+you're looking at
+this, if you're
+
+00:09:04.140 --> 00:09:10.800 align:middle line:84%
+looking at this upper
+sum minus this lower sum,
+
+00:09:10.800 --> 00:09:13.860 align:middle line:84%
+remember that if you
+go to a refinement,
+
+00:09:13.860 --> 00:09:16.020 align:middle line:90%
+then this here goes down.
+
+00:09:16.020 --> 00:09:17.440 align:middle line:90%
+And this here goes up.
+
+00:09:17.440 --> 00:09:19.460 align:middle line:84%
+So it means that
+this difference here
+
+00:09:19.460 --> 00:09:25.190 align:middle line:84%
+would be less than or
+equal to what it is for P1.
+
+00:09:25.190 --> 00:09:32.980 align:middle line:90%
+
+
+00:09:32.980 --> 00:09:35.600 align:middle line:84%
+And this was, of course,
+less than epsilon over 2.
+
+00:09:35.600 --> 00:09:37.060 align:middle line:90%
+That was how it was chosen.
+
+00:09:37.060 --> 00:09:41.660 align:middle line:84%
+And similarly, if you're
+looking at the upper sum
+
+00:09:41.660 --> 00:09:52.800 align:middle line:84%
+for g with respect to P, P here
+is a refinement of P2 also.
+
+00:09:52.800 --> 00:09:56.800 align:middle line:84%
+So this means that you have
+that this difference here
+
+00:09:56.800 --> 00:10:04.160 align:middle line:84%
+is less or equal to the
+upper sum of g with respect
+
+00:10:04.160 --> 00:10:09.880 align:middle line:84%
+to P2 minus this lower
+sum with respect to P2.
+
+00:10:09.880 --> 00:10:11.900 align:middle line:84%
+And that's less
+than epsilon over 2.
+
+00:10:11.900 --> 00:10:14.800 align:middle line:90%
+
+
+00:10:14.800 --> 00:10:19.760 align:middle line:84%
+But this means now that
+if you now take the--
+
+00:10:19.760 --> 00:10:21.110 align:middle line:90%
+so now, if you take--
+
+00:10:21.110 --> 00:10:29.600 align:middle line:90%
+
+
+00:10:29.600 --> 00:10:36.000 align:middle line:84%
+so now, if you take
+an interval here of--
+
+00:10:36.000 --> 00:10:41.300 align:middle line:90%
+this is from xi minus 1 to xi.
+
+00:10:41.300 --> 00:10:45.080 align:middle line:84%
+If you're looking
+at this sum here--
+
+00:10:45.080 --> 00:10:46.980 align:middle line:84%
+you have to be a little
+bit careful here.
+
+00:10:46.980 --> 00:10:50.700 align:middle line:84%
+But if you're looking at
+the sum on this integral,
+
+00:10:50.700 --> 00:10:56.140 align:middle line:84%
+the sum here is less or equal
+to the sup of what f is--
+
+00:10:56.140 --> 00:11:01.580 align:middle line:90%
+this is on this interval here.
+
+00:11:01.580 --> 00:11:04.660 align:middle line:84%
+On this interval,
+this function here
+
+00:11:04.660 --> 00:11:12.195 align:middle line:84%
+is less than the sup
+of f plus the sup of g
+
+00:11:12.195 --> 00:11:13.070 align:middle line:90%
+on the same interval.
+
+00:11:13.070 --> 00:11:20.276 align:middle line:90%
+
+
+00:11:20.276 --> 00:11:25.380 align:middle line:84%
+And it's, of course,
+bigger or equal to what--
+
+00:11:25.380 --> 00:11:38.810 align:middle line:84%
+it is the inf of f plus the
+inf of g on that same interval.
+
+00:11:38.810 --> 00:11:42.960 align:middle line:90%
+
+
+00:11:42.960 --> 00:11:45.020 align:middle line:84%
+Why do I say you have to
+be a little bit careful
+
+00:11:45.020 --> 00:11:53.480 align:middle line:84%
+is that the inf of the sum could
+be strictly larger than this.
+
+00:11:53.480 --> 00:11:55.840 align:middle line:84%
+And it could be
+strictly less than that.
+
+00:11:55.840 --> 00:11:58.720 align:middle line:84%
+But you certainly
+have this statement.
+
+00:11:58.720 --> 00:12:04.180 align:middle line:84%
+Just thinking about, if f and
+g was the same up to a sign,
+
+00:12:04.180 --> 00:12:09.920 align:middle line:84%
+if g was like minus f, then
+the sum would be dead 0.
+
+00:12:09.920 --> 00:12:13.800 align:middle line:84%
+But one of the functions may
+be negative on this interval,
+
+00:12:13.800 --> 00:12:15.300 align:middle line:90%
+and the other one was positive.
+
+00:12:15.300 --> 00:12:18.720 align:middle line:84%
+So you see, for the sum
+here, could be dead 0.
+
+00:12:18.720 --> 00:12:21.140 align:middle line:84%
+But these two numbers,
+one would be positive.
+
+00:12:21.140 --> 00:12:22.600 align:middle line:90%
+The other would be negative.
+
+00:12:22.600 --> 00:12:24.960 align:middle line:84%
+But you certainly
+have this inequality.
+
+00:12:24.960 --> 00:12:30.240 align:middle line:84%
+And so, of course, this
+implies that on this interval,
+
+00:12:30.240 --> 00:12:39.380 align:middle line:84%
+the sup of the sum here
+is less than the sup
+
+00:12:39.380 --> 00:12:42.590 align:middle line:90%
+of the sum of the sups--
+
+00:12:42.590 --> 00:12:49.100 align:middle line:90%
+
+
+00:12:49.100 --> 00:12:51.280 align:middle line:84%
+sum of the sups on
+the same intervals--
+
+00:12:51.280 --> 00:12:58.060 align:middle line:90%
+
+
+00:12:58.060 --> 00:13:01.660 align:middle line:90%
+and likewise for the inf.
+
+00:13:01.660 --> 00:13:05.900 align:middle line:90%
+
+
+00:13:05.900 --> 00:13:07.680 align:middle line:90%
+So you have this thing here.
+
+00:13:07.680 --> 00:13:09.780 align:middle line:84%
+And you have that
+this thing here
+
+00:13:09.780 --> 00:13:14.900 align:middle line:84%
+is clearly bigger or equal to
+the inf of the same function,
+
+00:13:14.900 --> 00:13:20.740 align:middle line:84%
+which is the sum of the
+two, on this interval here.
+
+00:13:20.740 --> 00:13:25.680 align:middle line:84%
+And that is, of course,
+bigger than this sum here.
+
+00:13:25.680 --> 00:13:33.380 align:middle line:90%
+
+
+00:13:33.380 --> 00:13:36.560 align:middle line:90%
+So this here, this number here--
+
+00:13:36.560 --> 00:13:42.640 align:middle line:84%
+you see, this here is like
+Mi for the function f.
+
+00:13:42.640 --> 00:13:45.760 align:middle line:90%
+This is what this number is.
+
+00:13:45.760 --> 00:13:48.520 align:middle line:84%
+And this here is
+like-- this number here
+
+00:13:48.520 --> 00:13:54.760 align:middle line:84%
+is like capital Mi
+for the function g.
+
+00:13:54.760 --> 00:13:58.480 align:middle line:84%
+And this here-- this
+here is like little--
+
+00:13:58.480 --> 00:14:02.600 align:middle line:84%
+this here is like little
+mi for the function f.
+
+00:14:02.600 --> 00:14:08.080 align:middle line:84%
+And this number here is
+little mi for the function g.
+
+00:14:08.080 --> 00:14:15.880 align:middle line:84%
+So what we have here
+is that mi for f plus--
+
+00:14:15.880 --> 00:14:18.820 align:middle line:90%
+sorry, let me write this--
+
+00:14:18.820 --> 00:14:22.720 align:middle line:90%
+
+
+00:14:22.720 --> 00:14:24.020 align:middle line:90%
+let me write it over here.
+
+00:14:24.020 --> 00:14:35.140 align:middle line:90%
+
+
+00:14:35.140 --> 00:14:39.380 align:middle line:84%
+So what we have is that we
+have little mi for the function
+
+00:14:39.380 --> 00:14:44.500 align:middle line:84%
+f plus little mi
+for the function g
+
+00:14:44.500 --> 00:14:50.980 align:middle line:84%
+is less than or equal to
+little mi for the sum, which
+
+00:14:50.980 --> 00:14:56.340 align:middle line:84%
+is, of course, less than
+the sup of the same sum
+
+00:14:56.340 --> 00:14:57.520 align:middle line:90%
+on the same interval.
+
+00:14:57.520 --> 00:15:00.660 align:middle line:90%
+So this is this.
+
+00:15:00.660 --> 00:15:06.540 align:middle line:84%
+And that's less or equal
+to the sup of f on that
+
+00:15:06.540 --> 00:15:12.120 align:middle line:90%
+interval plus this here of g.
+
+00:15:12.120 --> 00:15:15.260 align:middle line:90%
+So you have that inequality.
+
+00:15:15.260 --> 00:15:18.080 align:middle line:84%
+But now you see that
+this means, of course,
+
+00:15:18.080 --> 00:15:19.900 align:middle line:90%
+that the contribution--
+
+00:15:19.900 --> 00:15:26.796 align:middle line:84%
+so if you're looking at
+this upper sum for this--
+
+00:15:26.796 --> 00:15:31.640 align:middle line:84%
+this upper sum for the sum of
+these two functions with respect
+
+00:15:31.640 --> 00:15:37.960 align:middle line:84%
+to P, this here, the
+contribution you get
+
+00:15:37.960 --> 00:15:40.720 align:middle line:90%
+is, for the upper, you get this.
+
+00:15:40.720 --> 00:15:42.850 align:middle line:84%
+And for the lower,
+you would get--
+
+00:15:42.850 --> 00:15:45.360 align:middle line:90%
+
+
+00:15:45.360 --> 00:15:50.480 align:middle line:84%
+you'd get this here times the
+length of the interval, right?
+
+00:15:50.480 --> 00:15:57.520 align:middle line:84%
+So this is-- so again, so what
+you get on that little interval,
+
+00:15:57.520 --> 00:16:04.880 align:middle line:84%
+the contribution you get is like
+Mi f plus g times the length
+
+00:16:04.880 --> 00:16:06.270 align:middle line:90%
+of the interval--
+
+00:16:06.270 --> 00:16:13.240 align:middle line:84%
+this is this-- minus Mi
+f plus g times the length
+
+00:16:13.240 --> 00:16:14.400 align:middle line:90%
+of the interval.
+
+00:16:14.400 --> 00:16:18.320 align:middle line:84%
+This is the contribution
+that you get here
+
+00:16:18.320 --> 00:16:23.200 align:middle line:84%
+from this interval-- from
+this interval, right?
+
+00:16:23.200 --> 00:16:27.660 align:middle line:84%
+And because this number
+here is less than that,
+
+00:16:27.660 --> 00:16:42.100 align:middle line:84%
+then this here is less than Mi f
+plus Mi g times delta xi minus--
+
+00:16:42.100 --> 00:16:45.740 align:middle line:84%
+and then this thing
+here, you see,
+
+00:16:45.740 --> 00:16:48.620 align:middle line:84%
+this spreads between
+these two here.
+
+00:16:48.620 --> 00:16:50.740 align:middle line:84%
+Bounds are spread
+between those two.
+
+00:16:50.740 --> 00:17:00.300 align:middle line:84%
+So this is less than mi f plus
+little mi g times delta xi.
+
+00:17:00.300 --> 00:17:04.420 align:middle line:90%
+
+
+00:17:04.420 --> 00:17:06.560 align:middle line:84%
+And now you're summing
+over everything.
+
+00:17:06.560 --> 00:17:09.800 align:middle line:84%
+So this means that
+this thing here is--
+
+00:17:09.800 --> 00:17:13.880 align:middle line:84%
+so this-- and if you just
+split this here, this sum here,
+
+00:17:13.880 --> 00:17:16.500 align:middle line:84%
+you can just split
+that into two parts,
+
+00:17:16.500 --> 00:17:24.279 align:middle line:84%
+the Mi f times delta
+xi minus little mi
+
+00:17:24.279 --> 00:17:31.810 align:middle line:84%
+f times delta xi, and
+then plus capital Mi
+
+00:17:31.810 --> 00:17:42.200 align:middle line:84%
+g delta xi minus
+little mi g delta xi.
+
+00:17:42.200 --> 00:17:47.120 align:middle line:84%
+So when you're
+summing these up, you
+
+00:17:47.120 --> 00:17:54.040 align:middle line:84%
+get a U f, P. That's
+from this here.
+
+00:17:54.040 --> 00:17:59.216 align:middle line:84%
+When you're summing these
+up, U f, P minus, sorry, L f,
+
+00:17:59.216 --> 00:18:04.000 align:middle line:84%
+P. When you're summing
+this up, then you're
+
+00:18:04.000 --> 00:18:18.280 align:middle line:90%
+getting U g, P minus L g, P.
+
+00:18:18.280 --> 00:18:20.470 align:middle line:90%
+And so what you get here is--
+
+00:18:20.470 --> 00:18:23.240 align:middle line:90%
+
+
+00:18:23.240 --> 00:18:25.740 align:middle line:84%
+again, when you're
+summing it up,
+
+00:18:25.740 --> 00:18:31.460 align:middle line:84%
+this here gives you-- when you
+sum these up, then you get this.
+
+00:18:31.460 --> 00:18:34.600 align:middle line:84%
+When you sum this
+here up, you get that.
+
+00:18:34.600 --> 00:18:36.120 align:middle line:84%
+When you sum this
+up, you get that.
+
+00:18:36.120 --> 00:18:38.060 align:middle line:84%
+So summing everything
+up, you get
+
+00:18:38.060 --> 00:18:43.980 align:middle line:84%
+U f plus g, comma,
+this partition,
+
+00:18:43.980 --> 00:18:51.380 align:middle line:84%
+minus L f plus g with
+respect to this partition,
+
+00:18:51.380 --> 00:18:55.980 align:middle line:84%
+is less or equal
+to U f with respect
+
+00:18:55.980 --> 00:19:01.540 align:middle line:84%
+to this partition, minus L f
+with respect to partition P,
+
+00:19:01.540 --> 00:19:13.580 align:middle line:84%
+plus U g, P, minus L g,
+P. So you're getting that.
+
+00:19:13.580 --> 00:19:19.540 align:middle line:84%
+And this thing here, it was a
+refinement of the partition P1.
+
+00:19:19.540 --> 00:19:23.140 align:middle line:84%
+So this spread here is less
+than what it was for P1.
+
+00:19:23.140 --> 00:19:26.800 align:middle line:84%
+So this here is less
+than epsilon over 2.
+
+00:19:26.800 --> 00:19:31.160 align:middle line:84%
+And likewise, this here is a
+refinement of the partition P2.
+
+00:19:31.160 --> 00:19:34.640 align:middle line:84%
+So the spread here is less
+than what it is for P2.
+
+00:19:34.640 --> 00:19:36.600 align:middle line:90%
+So you're getting this.
+
+00:19:36.600 --> 00:19:38.440 align:middle line:90%
+And so this here is epsilon.
+
+00:19:38.440 --> 00:19:41.040 align:middle line:90%
+So this gives you the partition.
+
+00:19:41.040 --> 00:19:43.520 align:middle line:84%
+And so there's two
+things you have
+
+00:19:43.520 --> 00:19:49.617 align:middle line:84%
+to be careful with, that for one
+function, you get one partition.
+
+00:19:49.617 --> 00:19:51.700 align:middle line:84%
+For the other function,
+you get another partition.
+
+00:19:51.700 --> 00:19:55.160 align:middle line:84%
+So you're looking
+at the subpartition
+
+00:19:55.160 --> 00:19:59.040 align:middle line:84%
+that has all of the dividing
+points of both of them.
+
+00:19:59.040 --> 00:20:02.420 align:middle line:84%
+And the other things you
+have to be careful is about--
+
+00:20:02.420 --> 00:20:07.960 align:middle line:84%
+and that was embedded here, but
+it was actually more clearly
+
+00:20:07.960 --> 00:20:10.160 align:middle line:84%
+on one of the other
+boards, is that when
+
+00:20:10.160 --> 00:20:13.160 align:middle line:84%
+you're looking at two
+functions, and you're
+
+00:20:13.160 --> 00:20:15.200 align:middle line:84%
+looking at a little
+interval, and you're
+
+00:20:15.200 --> 00:20:19.160 align:middle line:84%
+taking the sup of
+the sum, then that's
+
+00:20:19.160 --> 00:20:21.460 align:middle line:90%
+bounded by the sum of the sup.
+
+00:20:21.460 --> 00:20:25.600 align:middle line:84%
+But it's not equal to the
+sum, and likewise for the inf.
+
+00:20:25.600 --> 00:20:26.100 align:middle line:90%
+Yeah?
+
+00:20:26.100 --> 00:20:30.260 align:middle line:84%
+AUDIENCE: [INAUDIBLE] for a
+partition because you always
+
+00:20:30.260 --> 00:20:32.940 align:middle line:90%
+have to be [INAUDIBLE]?
+
+00:20:32.940 --> 00:20:36.580 align:middle line:84%
+PROFESSOR: I mean,
+so there's not.
+
+00:20:36.580 --> 00:20:39.580 align:middle line:84%
+But the reason it's
+not is that once you
+
+00:20:39.580 --> 00:20:43.580 align:middle line:84%
+have this general framework,
+you wouldn't really get back
+
+00:20:43.580 --> 00:20:45.620 align:middle line:90%
+to the partition, actually.
+
+00:20:45.620 --> 00:20:49.640 align:middle line:90%
+So if it was--
+
+00:20:49.640 --> 00:20:52.700 align:middle line:84%
+I mean, once you
+have this solid ,
+
+00:20:52.700 --> 00:20:58.360 align:middle line:90%
+foundations then you just write.
+
+00:20:58.360 --> 00:20:59.860 align:middle line:84%
+You just write the
+integrals, right?
+
+00:20:59.860 --> 00:21:01.100 align:middle line:90%
+Yeah.
+
+00:21:01.100 --> 00:21:10.800 align:middle line:84%
+And so, just on that
+note, this dx, this is--
+
+00:21:10.800 --> 00:21:24.480 align:middle line:90%
+so this here-- this here is--
+
+00:21:24.480 --> 00:21:26.480 align:middle line:90%
+this here is like--
+
+00:21:26.480 --> 00:21:28.860 align:middle line:84%
+it's referring-- this
+is like a giant S.
+
+00:21:28.860 --> 00:21:32.440 align:middle line:90%
+So it's referring to summation.
+
+00:21:32.440 --> 00:21:36.200 align:middle line:90%
+This here is, of course, a d.
+
+00:21:36.200 --> 00:21:38.660 align:middle line:84%
+And delta is the
+Greek letter for d.
+
+00:21:38.660 --> 00:21:41.280 align:middle line:84%
+And so this here, you
+should think about this here
+
+00:21:41.280 --> 00:21:47.500 align:middle line:84%
+as referring to some sort
+of limit of this delta xi.
+
+00:21:47.500 --> 00:21:51.200 align:middle line:90%
+
+
+00:21:51.200 --> 00:22:01.240 align:middle line:84%
+So that was-- let me just talk
+a little bit about the other two
+
+00:22:01.240 --> 00:22:02.320 align:middle line:90%
+rules.
+
+00:22:02.320 --> 00:22:04.570 align:middle line:90%
+So one of the other ones is--
+
+00:22:04.570 --> 00:22:07.880 align:middle line:90%
+
+
+00:22:07.880 --> 00:22:12.150 align:middle line:84%
+one of the other ones is that if
+you take two functions, f and g
+
+00:22:12.150 --> 00:22:12.650 align:middle line:90%
+again--
+
+00:22:12.650 --> 00:22:15.200 align:middle line:90%
+
+
+00:22:15.200 --> 00:22:19.860 align:middle line:84%
+so number 3 here was
+that if you have f and g,
+
+00:22:19.860 --> 00:22:24.540 align:middle line:84%
+they are both integrable
+on this interval here.
+
+00:22:24.540 --> 00:22:28.380 align:middle line:84%
+And f here is less
+or equal to g.
+
+00:22:28.380 --> 00:22:32.120 align:middle line:84%
+Then it implies that the
+integral here is less
+
+00:22:32.120 --> 00:22:38.240 align:middle line:90%
+or equal to the integral of g.
+
+00:22:38.240 --> 00:22:41.220 align:middle line:90%
+
+
+00:22:41.220 --> 00:22:42.940 align:middle line:90%
+I won't prove this.
+
+00:22:42.940 --> 00:22:45.400 align:middle line:90%
+It's sort of, in a way--
+
+00:22:45.400 --> 00:22:47.580 align:middle line:84%
+maybe I'll just say
+words, that if you
+
+00:22:47.580 --> 00:22:51.440 align:middle line:84%
+take a partition,
+then, of course,
+
+00:22:51.440 --> 00:22:54.300 align:middle line:84%
+you're looking at
+some xi minus 1
+
+00:22:54.300 --> 00:22:57.780 align:middle line:90%
+and xi, some interval like this.
+
+00:22:57.780 --> 00:23:01.020 align:middle line:84%
+And so, if you're looking
+at the function f,
+
+00:23:01.020 --> 00:23:03.300 align:middle line:84%
+and you're looking at
+the sup of the function
+
+00:23:03.300 --> 00:23:10.380 align:middle line:84%
+f on this little interval, well
+then, obviously, this sup here
+
+00:23:10.380 --> 00:23:15.220 align:middle line:84%
+is less than the sup of g, just
+because you have this inequality
+
+00:23:15.220 --> 00:23:17.240 align:middle line:90%
+everywhere.
+
+00:23:17.240 --> 00:23:19.480 align:middle line:90%
+And so this means that the--
+
+00:23:19.480 --> 00:23:21.640 align:middle line:90%
+and likewise for the inf.
+
+00:23:21.640 --> 00:23:25.680 align:middle line:84%
+And so you see that
+it's this inequality.
+
+00:23:25.680 --> 00:23:30.240 align:middle line:84%
+You have to, of course, make it
+nice, into a mathematical proof.
+
+00:23:30.240 --> 00:23:32.650 align:middle line:84%
+But this inequality will
+seem kind of obvious.
+
+00:23:32.650 --> 00:23:37.040 align:middle line:90%
+
+
+00:23:37.040 --> 00:23:41.720 align:middle line:84%
+Let me instead try
+and prove that if you
+
+00:23:41.720 --> 00:23:46.920 align:middle line:84%
+split the integral
+up into pieces, then
+
+00:23:46.920 --> 00:23:51.080 align:middle line:90%
+you can just sum the pieces.
+
+00:23:51.080 --> 00:23:52.580 align:middle line:90%
+So this is the following.
+
+00:23:52.580 --> 00:23:58.960 align:middle line:90%
+
+
+00:23:58.960 --> 00:24:01.280 align:middle line:84%
+So again, in the notes,
+which I haven't--
+
+00:24:01.280 --> 00:24:03.840 align:middle line:84%
+I forgot to post,
+but I will post--
+
+00:24:03.840 --> 00:24:07.740 align:middle line:84%
+I guess these are posted
+because this is from--
+
+00:24:07.740 --> 00:24:11.346 align:middle line:84%
+these are things we didn't
+quite do yet last time.
+
+00:24:11.346 --> 00:24:16.580 align:middle line:84%
+But the proofs of all
+of these four here,
+
+00:24:16.580 --> 00:24:19.000 align:middle line:84%
+also the one in
+particular-- like the one,
+
+00:24:19.000 --> 00:24:21.620 align:middle line:84%
+this one here, I
+didn't do now, they
+
+00:24:21.620 --> 00:24:25.140 align:middle line:84%
+are all-- the proofs
+are all in the notes.
+
+00:24:25.140 --> 00:24:30.740 align:middle line:84%
+So number 4 here is that
+if you take a function,
+
+00:24:30.740 --> 00:24:35.080 align:middle line:84%
+and it's integrable on
+some interval like this,
+
+00:24:35.080 --> 00:24:37.980 align:middle line:90%
+it's bounded-- always bounded--
+
+00:24:37.980 --> 00:24:44.660 align:middle line:84%
+and you're looking at the
+integral here of this function,
+
+00:24:44.660 --> 00:24:46.980 align:middle line:90%
+and c here is--
+
+00:24:46.980 --> 00:24:49.220 align:middle line:90%
+c is somewhere between.
+
+00:24:49.220 --> 00:24:53.220 align:middle line:90%
+So c is lying between a and b.
+
+00:24:53.220 --> 00:24:57.400 align:middle line:84%
+Well, then, actually--
+then, actually,
+
+00:24:57.400 --> 00:25:00.660 align:middle line:84%
+let me just full
+write down this.
+
+00:25:00.660 --> 00:25:03.260 align:middle line:84%
+Then the function
+here-- if you're
+
+00:25:03.260 --> 00:25:06.660 align:middle line:84%
+think about restricting
+the function to the smaller
+
+00:25:06.660 --> 00:25:12.660 align:middle line:84%
+interval from a to c, it's
+also integrable there.
+
+00:25:12.660 --> 00:25:22.000 align:middle line:84%
+And likewise, if you restrict
+it to the integral from c to b,
+
+00:25:22.000 --> 00:25:24.140 align:middle line:90%
+then it's also integrable here.
+
+00:25:24.140 --> 00:25:29.240 align:middle line:84%
+So it's integrable on
+both these subintervals.
+
+00:25:29.240 --> 00:25:37.360 align:middle line:84%
+And you have that the
+integral here of f dx
+
+00:25:37.360 --> 00:25:48.400 align:middle line:84%
+is equal to the sum of
+the integrals, like that.
+
+00:25:48.400 --> 00:25:52.160 align:middle line:90%
+
+
+00:25:52.160 --> 00:25:54.050 align:middle line:84%
+And so now, why
+is this the case?
+
+00:25:54.050 --> 00:25:59.670 align:middle line:90%
+
+
+00:25:59.670 --> 00:26:02.630 align:middle line:84%
+So this is just
+because, if you take--
+
+00:26:02.630 --> 00:26:06.600 align:middle line:90%
+
+
+00:26:06.600 --> 00:26:07.340 align:middle line:90%
+so let's see.
+
+00:26:07.340 --> 00:26:22.080 align:middle line:90%
+
+
+00:26:22.080 --> 00:26:22.580 align:middle line:90%
+Right.
+
+00:26:22.580 --> 00:26:24.480 align:middle line:90%
+So now, let's try to prove that.
+
+00:26:24.480 --> 00:26:34.420 align:middle line:90%
+
+
+00:26:34.420 --> 00:26:37.980 align:middle line:90%
+So right.
+
+00:26:37.980 --> 00:26:40.680 align:middle line:90%
+So I want to look at the--
+
+00:26:40.680 --> 00:26:44.860 align:middle line:90%
+
+
+00:26:44.860 --> 00:26:45.400 align:middle line:90%
+right.
+
+00:26:45.400 --> 00:26:52.500 align:middle line:84%
+So let me first prove that
+if it is integrable here,
+
+00:26:52.500 --> 00:26:55.440 align:middle line:84%
+it's also integrable on
+these two subintervals.
+
+00:26:55.440 --> 00:26:58.120 align:middle line:90%
+And then once we know--
+
+00:26:58.120 --> 00:27:01.340 align:middle line:90%
+
+
+00:27:01.340 --> 00:27:08.220 align:middle line:84%
+in that proof, we will also
+see what that sum is equal to.
+
+00:27:08.220 --> 00:27:13.520 align:middle line:84%
+So I again use this lemma from
+before, that all I need is to--
+
+00:27:13.520 --> 00:27:17.080 align:middle line:84%
+for a given epsilon, I
+need to find a partition
+
+00:27:17.080 --> 00:27:20.360 align:middle line:84%
+so that the spread
+between the upper
+
+00:27:20.360 --> 00:27:26.920 align:middle line:84%
+and the lower sum for each of
+these two is bounded by epsilon.
+
+00:27:26.920 --> 00:27:35.440 align:middle line:84%
+So given epsilon,
+since f here is
+
+00:27:35.440 --> 00:27:41.880 align:middle line:84%
+integrable on the
+interval from a to b,
+
+00:27:41.880 --> 00:27:47.400 align:middle line:84%
+we know that there
+exists a partition P such
+
+00:27:47.400 --> 00:28:01.030 align:middle line:84%
+that the upper sum minus the
+lower sum is less than epsilon.
+
+00:28:01.030 --> 00:28:04.960 align:middle line:90%
+
+
+00:28:04.960 --> 00:28:07.460 align:middle line:90%
+Then I look at a refinement.
+
+00:28:07.460 --> 00:28:09.406 align:middle line:90%
+So here, I have a.
+
+00:28:09.406 --> 00:28:11.820 align:middle line:90%
+Here, I have b.
+
+00:28:11.820 --> 00:28:13.380 align:middle line:90%
+And here, I have c.
+
+00:28:13.380 --> 00:28:17.100 align:middle line:90%
+And then I have some partition.
+
+00:28:17.100 --> 00:28:20.800 align:middle line:84%
+But the partition may not
+have c as a dividing point.
+
+00:28:20.800 --> 00:28:40.340 align:middle line:84%
+So I'm looking at-- so let's let
+P star be the refinement, that
+
+00:28:40.340 --> 00:29:00.220 align:middle line:84%
+in addition to all the
+dividing points of P,
+
+00:29:00.220 --> 00:29:07.510 align:middle line:90%
+also have c as a dividing point.
+
+00:29:07.510 --> 00:29:14.772 align:middle line:90%
+
+
+00:29:14.772 --> 00:29:16.820 align:middle line:84%
+So it has one more
+dividing point.
+
+00:29:16.820 --> 00:29:19.900 align:middle line:84%
+I mean, of course, it may
+be that c was already there.
+
+00:29:19.900 --> 00:29:24.680 align:middle line:84%
+Then you don't-- then
+this partition is fine.
+
+00:29:24.680 --> 00:29:27.760 align:middle line:84%
+And so now-- of
+course, now the thing
+
+00:29:27.760 --> 00:29:30.820 align:middle line:84%
+is that once you have
+that, well, first of all,
+
+00:29:30.820 --> 00:29:32.460 align:middle line:90%
+you have-- this is refinement.
+
+00:29:32.460 --> 00:29:35.220 align:middle line:84%
+So you still have-- so you
+may as well just think--
+
+00:29:35.220 --> 00:29:36.700 align:middle line:90%
+so you have this inequality.
+
+00:29:36.700 --> 00:29:47.120 align:middle line:84%
+So you have that U of f, comma,
+P star is minus L of f, P star,
+
+00:29:47.120 --> 00:29:50.380 align:middle line:84%
+is also strictly less
+than epsilon, right?
+
+00:29:50.380 --> 00:29:53.680 align:middle line:84%
+That's because it's
+refinement of P.
+
+00:29:53.680 --> 00:29:59.080 align:middle line:84%
+And so now you're looking at
+the Ps, so this thing here.
+
+00:29:59.080 --> 00:30:01.200 align:middle line:90%
+But this thing here--
+
+00:30:01.200 --> 00:30:05.140 align:middle line:84%
+this thing here
+is just equal to--
+
+00:30:05.140 --> 00:30:11.860 align:middle line:84%
+this here is simply
+equal to U f of P
+
+00:30:11.860 --> 00:30:24.740 align:middle line:84%
+star intersected with
+a, c, plus U P, U P
+
+00:30:24.740 --> 00:30:31.200 align:middle line:84%
+star, intersected with
+the interval from c to b.
+
+00:30:31.200 --> 00:30:34.620 align:middle line:84%
+By this here, when I'm
+taking the partition,
+
+00:30:34.620 --> 00:30:36.800 align:middle line:84%
+and I intersect it
+with the interval,
+
+00:30:36.800 --> 00:30:41.740 align:middle line:84%
+I'm just thinking about the
+part of the partition that
+
+00:30:41.740 --> 00:30:45.220 align:middle line:90%
+is dividing this interval up.
+
+00:30:45.220 --> 00:30:46.500 align:middle line:90%
+So you have this.
+
+00:30:46.500 --> 00:30:52.040 align:middle line:84%
+And likewise, this
+thing here is the sum.
+
+00:30:52.040 --> 00:30:57.620 align:middle line:84%
+This one here is the sum of
+the partition, the lower sum--
+
+00:30:57.620 --> 00:31:09.456 align:middle line:84%
+the sum of the two lower sums,
+which is this, a to c, plus L f,
+
+00:31:09.456 --> 00:31:17.640 align:middle line:90%
+P star of c to b, like that.
+
+00:31:17.640 --> 00:31:22.348 align:middle line:90%
+
+
+00:31:22.348 --> 00:31:25.600 align:middle line:84%
+And so this, of course,
+means that-- so now you
+
+00:31:25.600 --> 00:31:26.880 align:middle line:90%
+can split this up.
+
+00:31:26.880 --> 00:31:29.400 align:middle line:84%
+And you can divide
+by-- so you have--
+
+00:31:29.400 --> 00:31:31.360 align:middle line:90%
+this is equal to this sum.
+
+00:31:31.360 --> 00:31:33.400 align:middle line:90%
+This is equal to that sum.
+
+00:31:33.400 --> 00:31:39.280 align:middle line:84%
+So you can just rearrange
+it so that this upper sum--
+
+00:31:39.280 --> 00:31:45.030 align:middle line:84%
+have. so this means that this
+whole thing here is equal to U
+
+00:31:45.030 --> 00:31:52.980 align:middle line:84%
+f, P star, intersected
+with a, comma, c, minus--
+
+00:31:52.980 --> 00:31:56.120 align:middle line:84%
+and then I'll take
+this one here next--
+
+00:31:56.120 --> 00:32:05.140 align:middle line:84%
+so L f, P star,
+intersected with a, c.
+
+00:32:05.140 --> 00:32:07.480 align:middle line:84%
+And then I take
+plus this one here.
+
+00:32:07.480 --> 00:32:16.780 align:middle line:90%
+
+
+00:32:16.780 --> 00:32:21.200 align:middle line:84%
+And then I take the last
+one, which is this one here.
+
+00:32:21.200 --> 00:32:23.820 align:middle line:84%
+And it, again, comes
+with a minus sign,
+
+00:32:23.820 --> 00:32:34.740 align:middle line:84%
+so minus L f, P star,
+intersected with c, v,
+
+00:32:34.740 --> 00:32:35.620 align:middle line:90%
+like that.
+
+00:32:35.620 --> 00:32:37.460 align:middle line:90%
+OK?
+
+00:32:37.460 --> 00:32:39.580 align:middle line:90%
+But each of these things here--
+
+00:32:39.580 --> 00:32:42.940 align:middle line:90%
+this here is non-negative.
+
+00:32:42.940 --> 00:32:46.140 align:middle line:90%
+This here is non-negative.
+
+00:32:46.140 --> 00:32:51.180 align:middle line:84%
+And you see, the sum
+of these two numbers
+
+00:32:51.180 --> 00:32:53.040 align:middle line:90%
+is bounded by epsilon.
+
+00:32:53.040 --> 00:32:56.720 align:middle line:84%
+So this means that each of them
+must be at most epsilon, right?
+
+00:32:56.720 --> 00:32:57.380 align:middle line:90%
+Yeah?
+
+00:32:57.380 --> 00:32:59.088 align:middle line:84%
+AUDIENCE: Would you
+able to explain again
+
+00:32:59.088 --> 00:33:01.920 align:middle line:84%
+what you did to break up P
+star into the intersection of a
+
+00:33:01.920 --> 00:33:02.887 align:middle line:90%
+to c and b to c?
+
+00:33:02.887 --> 00:33:03.470 align:middle line:90%
+PROFESSOR: OK.
+
+00:33:03.470 --> 00:33:06.400 align:middle line:90%
+
+
+00:33:06.400 --> 00:33:07.190 align:middle line:90%
+So I have--
+
+00:33:07.190 --> 00:33:15.560 align:middle line:90%
+
+
+00:33:15.560 --> 00:33:17.250 align:middle line:90%
+I have here the integral.
+
+00:33:17.250 --> 00:33:21.280 align:middle line:90%
+
+
+00:33:21.280 --> 00:33:27.200 align:middle line:84%
+I have here the
+integral from a to b.
+
+00:33:27.200 --> 00:33:30.000 align:middle line:90%
+Here, I have c.
+
+00:33:30.000 --> 00:33:32.920 align:middle line:84%
+And the star
+partition is the one
+
+00:33:32.920 --> 00:33:35.200 align:middle line:84%
+that has all of
+the dividing points
+
+00:33:35.200 --> 00:33:39.260 align:middle line:84%
+of the original partition,
+P, and then also c.
+
+00:33:39.260 --> 00:33:43.320 align:middle line:84%
+So the partition
+looks like this.
+
+00:33:43.320 --> 00:33:46.160 align:middle line:84%
+Maybe this here would
+be the partition.
+
+00:33:46.160 --> 00:33:48.780 align:middle line:90%
+And now I'm thinking about--
+
+00:33:48.780 --> 00:33:52.800 align:middle line:90%
+so the sum here in the--
+
+00:33:52.800 --> 00:33:57.380 align:middle line:84%
+the sum from the partition,
+it would look like this.
+
+00:33:57.380 --> 00:34:01.500 align:middle line:84%
+And I'm summing
+over all i, right?
+
+00:34:01.500 --> 00:34:04.500 align:middle line:84%
+But I can look at where
+I'm summing over just
+
+00:34:04.500 --> 00:34:06.370 align:middle line:90%
+those intervals, up to here.
+
+00:34:06.370 --> 00:34:08.900 align:middle line:90%
+
+
+00:34:08.900 --> 00:34:12.340 align:middle line:84%
+I can look at where I'm just
+summing over this interval.
+
+00:34:12.340 --> 00:34:15.819 align:middle line:84%
+And then I can look at where I'm
+summing over those intervals.
+
+00:34:15.819 --> 00:34:17.520 align:middle line:90%
+And so that's what I mean.
+
+00:34:17.520 --> 00:34:21.780 align:middle line:84%
+So this here is now where
+you're summing over all the i.
+
+00:34:21.780 --> 00:34:24.179 align:middle line:84%
+But you can also
+just summing over
+
+00:34:24.179 --> 00:34:28.820 align:middle line:84%
+the i's that are less or
+equal to c and the it's that
+
+00:34:28.820 --> 00:34:32.020 align:middle line:90%
+are in this range, right?
+
+00:34:32.020 --> 00:34:32.730 align:middle line:90%
+OK, so that's--
+
+00:34:32.730 --> 00:34:35.586 align:middle line:90%
+
+
+00:34:35.586 --> 00:34:40.400 align:middle line:90%
+OK, so this here proves--
+
+00:34:40.400 --> 00:34:47.100 align:middle line:84%
+so what this proves is that
+if you take this function,
+
+00:34:47.100 --> 00:34:50.500 align:middle line:84%
+and it's integrable
+on this interval,
+
+00:34:50.500 --> 00:34:53.780 align:middle line:84%
+and you now restrict
+it to either of those,
+
+00:34:53.780 --> 00:34:55.800 align:middle line:90%
+they are also integrable.
+
+00:34:55.800 --> 00:34:57.840 align:middle line:90%
+That's what it actually proves.
+
+00:34:57.840 --> 00:35:03.120 align:middle line:84%
+But it's easy to
+see that it also--
+
+00:35:03.120 --> 00:35:06.600 align:middle line:84%
+with a little bit-- maybe
+I'll leave this for you--
+
+00:35:06.600 --> 00:35:09.640 align:middle line:84%
+but that through
+the proof, we also
+
+00:35:09.640 --> 00:35:12.000 align:middle line:84%
+get that this sum
+here will have to be
+
+00:35:12.000 --> 00:35:14.480 align:middle line:90%
+equal to the sum of these two.
+
+00:35:14.480 --> 00:35:16.600 align:middle line:84%
+But really, what I,
+technically speaking,
+
+00:35:16.600 --> 00:35:20.552 align:middle line:90%
+proved was just this part here.
+
+00:35:20.552 --> 00:35:26.390 align:middle line:84%
+But again, all of the details
+for this are in the notes.
+
+00:35:26.390 --> 00:35:30.235 align:middle line:90%
+
+
+00:35:30.235 --> 00:35:33.360 align:middle line:90%
+Now, the next thing I want to--
+
+00:35:33.360 --> 00:35:34.560 align:middle line:90%
+OK, so yeah.
+
+00:35:34.560 --> 00:35:39.920 align:middle line:84%
+So I will-- let's
+talk about one other--
+
+00:35:39.920 --> 00:35:41.460 align:middle line:90%
+one corollary of this.
+
+00:35:41.460 --> 00:35:46.000 align:middle line:90%
+
+
+00:35:46.000 --> 00:35:50.760 align:middle line:84%
+So it's the corner, really,
+not of this fourth property,
+
+00:35:50.760 --> 00:35:53.980 align:middle line:90%
+but on the third property.
+
+00:35:53.980 --> 00:35:57.400 align:middle line:84%
+So the third property
+was this with--
+
+00:35:57.400 --> 00:36:02.940 align:middle line:90%
+
+
+00:36:02.940 --> 00:36:07.120 align:middle line:84%
+so the third property was
+this property here, over here.
+
+00:36:07.120 --> 00:36:09.880 align:middle line:84%
+So I want to talk about a
+corollary of this one here.
+
+00:36:09.880 --> 00:36:16.020 align:middle line:90%
+
+
+00:36:16.020 --> 00:36:18.500 align:middle line:90%
+So now I have a function.
+
+00:36:18.500 --> 00:36:20.820 align:middle line:84%
+I'm assuming both the
+function and the function
+
+00:36:20.820 --> 00:36:22.940 align:middle line:90%
+that is the absolute value.
+
+00:36:22.940 --> 00:36:27.180 align:middle line:84%
+So the function that's absolute
+value means that at each point,
+
+00:36:27.180 --> 00:36:29.140 align:middle line:84%
+instead of looking
+at f of x, I'm
+
+00:36:29.140 --> 00:36:32.020 align:middle line:84%
+looking at the absolute
+value of f of x.
+
+00:36:32.020 --> 00:36:33.360 align:middle line:90%
+This is the function.
+
+00:36:33.360 --> 00:36:35.980 align:middle line:84%
+So I'm assuming that
+both of these functions
+
+00:36:35.980 --> 00:36:40.320 align:middle line:84%
+are Riemann integrable on
+this interval from a to b.
+
+00:36:40.320 --> 00:36:43.060 align:middle line:90%
+
+
+00:36:43.060 --> 00:36:52.020 align:middle line:84%
+And then the claim is that
+the integral here of f is less
+
+00:36:52.020 --> 00:36:55.140 align:middle line:90%
+or equal-- dx--
+
+00:36:55.140 --> 00:36:59.100 align:middle line:84%
+is less or equal to
+the integral from a.
+
+00:36:59.100 --> 00:37:00.280 align:middle line:90%
+This is a very--
+
+00:37:00.280 --> 00:37:06.720 align:middle line:84%
+this is very simple inequality,
+but extremely useful.
+
+00:37:06.720 --> 00:37:09.360 align:middle line:90%
+So this is the claim.
+
+00:37:09.360 --> 00:37:11.760 align:middle line:84%
+So I'm already assuming
+that things are-- everything
+
+00:37:11.760 --> 00:37:12.860 align:middle line:90%
+is Riemann integrable.
+
+00:37:12.860 --> 00:37:16.060 align:middle line:84%
+So I don't need to prove
+anything like that.
+
+00:37:16.060 --> 00:37:18.840 align:middle line:84%
+I just need to establish
+this inequality.
+
+00:37:18.840 --> 00:37:21.040 align:middle line:84%
+And so, to do that,
+I'm just looking
+
+00:37:21.040 --> 00:37:25.780 align:middle line:84%
+at f, where f is less than or
+equal to the absolute value.
+
+00:37:25.780 --> 00:37:29.120 align:middle line:84%
+If f is positive, it's
+equal to the absolute value.
+
+00:37:29.120 --> 00:37:31.860 align:middle line:84%
+If it's negative, this here
+is non-negative anyway.
+
+00:37:31.860 --> 00:37:34.220 align:middle line:90%
+So this is clear.
+
+00:37:34.220 --> 00:37:35.740 align:middle line:90%
+This is clearly for all x.
+
+00:37:35.740 --> 00:37:39.520 align:middle line:90%
+
+
+00:37:39.520 --> 00:37:43.240 align:middle line:84%
+But it's also clear that
+if I take minus f, you see,
+
+00:37:43.240 --> 00:37:44.880 align:middle line:90%
+this is also less than this.
+
+00:37:44.880 --> 00:37:48.300 align:middle line:90%
+
+
+00:37:48.300 --> 00:37:54.540 align:middle line:84%
+But now, taken together--
+so those two things--
+
+00:37:54.540 --> 00:37:56.580 align:middle line:90%
+so now, the first one--
+
+00:37:56.580 --> 00:38:04.060 align:middle line:84%
+so let's say star here
+and double star here.
+
+00:38:04.060 --> 00:38:12.260 align:middle line:84%
+So star here plus property
+3 from over there,
+
+00:38:12.260 --> 00:38:17.980 align:middle line:84%
+this just gives us that the
+integral of f from a to b dx
+
+00:38:17.980 --> 00:38:24.140 align:middle line:84%
+is less or equal to the
+integral of the absolute value.
+
+00:38:24.140 --> 00:38:27.540 align:middle line:90%
+This is from star and 3.
+
+00:38:27.540 --> 00:38:35.340 align:middle line:84%
+But if we take double
+star here plus 3,
+
+00:38:35.340 --> 00:38:39.200 align:middle line:90%
+well, then we have that--
+
+00:38:39.200 --> 00:38:39.840 align:middle line:90%
+so this here.
+
+00:38:39.840 --> 00:38:44.820 align:middle line:84%
+So we have that the
+integral of minus f dx
+
+00:38:44.820 --> 00:38:48.900 align:middle line:84%
+is less or equal to
+the integral like this.
+
+00:38:48.900 --> 00:38:53.820 align:middle line:90%
+
+
+00:38:53.820 --> 00:38:57.240 align:middle line:84%
+But this one here is-- you
+can just think about this here
+
+00:38:57.240 --> 00:38:58.660 align:middle line:90%
+as minus 1.
+
+00:38:58.660 --> 00:39:04.112 align:middle line:84%
+This is like minus 1
+times this function.
+
+00:39:04.112 --> 00:39:06.220 align:middle line:90%
+So minus 1 just comes out.
+
+00:39:06.220 --> 00:39:07.840 align:middle line:90%
+That was like number 1.
+
+00:39:07.840 --> 00:39:11.160 align:middle line:84%
+So this here is
+like minus 1 times
+
+00:39:11.160 --> 00:39:15.400 align:middle line:84%
+the integral from
+a to b of f dx.
+
+00:39:15.400 --> 00:39:18.200 align:middle line:84%
+But this is, of course, the
+same as minus the integral
+
+00:39:18.200 --> 00:39:21.420 align:middle line:90%
+from a to b f dx.
+
+00:39:21.420 --> 00:39:22.860 align:middle line:90%
+So you see that--
+
+00:39:22.860 --> 00:39:26.720 align:middle line:84%
+so this here-- so
+the second here
+
+00:39:26.720 --> 00:39:33.040 align:middle line:84%
+implies that minus the
+integral from a to b f dx
+
+00:39:33.040 --> 00:39:36.180 align:middle line:84%
+is less or equal
+to this thing here.
+
+00:39:36.180 --> 00:39:40.172 align:middle line:90%
+
+
+00:39:40.172 --> 00:39:45.620 align:middle line:84%
+And so now you have this thing
+here and that thing here.
+
+00:39:45.620 --> 00:39:49.140 align:middle line:84%
+And so, together, it just means
+that the absolute value of this
+
+00:39:49.140 --> 00:39:51.580 align:middle line:90%
+is bounded by this.
+
+00:39:51.580 --> 00:39:53.330 align:middle line:84%
+And so that's
+really this corner.
+
+00:39:53.330 --> 00:39:57.400 align:middle line:90%
+
+
+00:39:57.400 --> 00:39:59.480 align:middle line:84%
+The next thing I
+want to talk about--
+
+00:39:59.480 --> 00:40:02.060 align:middle line:84%
+so this is how to
+evaluate integrals.
+
+00:40:02.060 --> 00:40:05.730 align:middle line:84%
+And so there, you have the
+fundamental theorem of calculus.
+
+00:40:05.730 --> 00:40:09.020 align:middle line:90%
+
+
+00:40:09.020 --> 00:40:12.900 align:middle line:84%
+And so we'll give
+two versions of that.
+
+00:40:12.900 --> 00:40:22.540 align:middle line:90%
+So how to evaluate integrals.
+
+00:40:22.540 --> 00:40:27.940 align:middle line:90%
+
+
+00:40:27.940 --> 00:40:30.410 align:middle line:84%
+And so this is the fundamental
+theorem of calculus.
+
+00:40:30.410 --> 00:40:46.250 align:middle line:90%
+
+
+00:40:46.250 --> 00:40:48.270 align:middle line:84%
+And now, what does the
+fundamental theorem
+
+00:40:48.270 --> 00:40:51.830 align:middle line:84%
+of calculus-- so
+let's give version 1.
+
+00:40:51.830 --> 00:41:02.350 align:middle line:84%
+So version 1-- version 1
+is that if you take a--
+
+00:41:02.350 --> 00:41:15.990 align:middle line:84%
+if you take a function, f,
+and f here is continuous,
+
+00:41:15.990 --> 00:41:19.830 align:middle line:84%
+and you're looking
+at the integral--
+
+00:41:19.830 --> 00:41:23.470 align:middle line:84%
+you're looking at-- so
+you have a function.
+
+00:41:23.470 --> 00:41:28.950 align:middle line:84%
+I don't really think
+about it as two versions.
+
+00:41:28.950 --> 00:41:36.490 align:middle line:84%
+But the version-- but I divided
+it into two versions here.
+
+00:41:36.490 --> 00:41:40.030 align:middle line:84%
+So the function-- if
+f is continuous, say,
+
+00:41:40.030 --> 00:41:42.810 align:middle line:90%
+on the interval from--
+
+00:41:42.810 --> 00:41:47.130 align:middle line:84%
+on this interval here, and
+you define a function, f
+
+00:41:47.130 --> 00:41:58.170 align:middle line:84%
+of x, which is the integral
+from a to x of f of s ds,
+
+00:41:58.170 --> 00:42:02.170 align:middle line:84%
+you see, for each
+fixed x in the interval
+
+00:42:02.170 --> 00:42:05.890 align:middle line:84%
+here, well, if you're
+thinking about the function,
+
+00:42:05.890 --> 00:42:10.150 align:middle line:84%
+little f, little f was
+continuous on the interval.
+
+00:42:10.150 --> 00:42:12.630 align:middle line:90%
+So it's continuous on--
+
+00:42:12.630 --> 00:42:17.690 align:middle line:84%
+so f here is continuous on
+the interval from a to x.
+
+00:42:17.690 --> 00:42:22.010 align:middle line:84%
+So when you restrict it,
+it's still continuous.
+
+00:42:22.010 --> 00:42:24.690 align:middle line:84%
+So this means that
+it's integrable.
+
+00:42:24.690 --> 00:42:28.130 align:middle line:84%
+And so this here
+gives you a number.
+
+00:42:28.130 --> 00:42:31.970 align:middle line:84%
+And so, for each x, you can
+think about this number here.
+
+00:42:31.970 --> 00:42:34.970 align:middle line:84%
+So this gives you a
+function, capital F.
+
+00:42:34.970 --> 00:42:39.150 align:middle line:84%
+And the claim is that
+this function here--
+
+00:42:39.150 --> 00:42:46.190 align:middle line:84%
+so the claim is that the
+function capital F, defined
+
+00:42:46.190 --> 00:42:49.570 align:middle line:90%
+this way, is differentiable.
+
+00:42:49.570 --> 00:42:52.210 align:middle line:90%
+So capital F is differentiable.
+
+00:42:52.210 --> 00:42:57.310 align:middle line:90%
+
+
+00:42:57.310 --> 00:43:12.670 align:middle line:84%
+And the derivative of this
+at x is little f of x.
+
+00:43:12.670 --> 00:43:13.950 align:middle line:90%
+And maybe I'll just--
+
+00:43:13.950 --> 00:43:14.590 align:middle line:90%
+yeah.
+
+00:43:14.590 --> 00:43:15.900 align:middle line:90%
+So that's the claim.
+
+00:43:15.900 --> 00:43:19.670 align:middle line:90%
+
+
+00:43:19.670 --> 00:43:21.710 align:middle line:90%
+OK.
+
+00:43:21.710 --> 00:43:23.010 align:middle line:90%
+Let's try to prove that.
+
+00:43:23.010 --> 00:43:30.350 align:middle line:90%
+
+
+00:43:30.350 --> 00:43:32.870 align:middle line:90%
+So let's look at--
+
+00:43:32.870 --> 00:43:34.080 align:middle line:90%
+let's try to prove--
+
+00:43:34.080 --> 00:43:37.250 align:middle line:90%
+
+
+00:43:37.250 --> 00:43:39.370 align:middle line:90%
+so we want to prove--
+
+00:43:39.370 --> 00:43:42.700 align:middle line:84%
+so we want to prove that this
+function-- so we want to prove--
+
+00:43:42.700 --> 00:43:45.650 align:middle line:90%
+
+
+00:43:45.650 --> 00:44:04.170 align:middle line:84%
+so we want to show that f
+prime exists at, say, at x0.
+
+00:44:04.170 --> 00:44:07.310 align:middle line:84%
+If you want to prove
+that it exists,
+
+00:44:07.310 --> 00:44:10.437 align:middle line:84%
+then you need to look at
+the difference quotient.
+
+00:44:10.437 --> 00:44:12.520 align:middle line:84%
+So we'll need to look at
+this difference quotient.
+
+00:44:12.520 --> 00:44:16.330 align:middle line:90%
+
+
+00:44:16.330 --> 00:44:18.570 align:middle line:84%
+And we need to prove
+that this thing here
+
+00:44:18.570 --> 00:44:21.350 align:middle line:90%
+has a limit as x goes to x0.
+
+00:44:21.350 --> 00:44:22.890 align:middle line:90%
+So x0 is fixed.
+
+00:44:22.890 --> 00:44:25.320 align:middle line:84%
+And you want to prove that
+it has a limit, right?
+
+00:44:25.320 --> 00:44:31.115 align:middle line:90%
+
+
+00:44:31.115 --> 00:44:35.670 align:middle line:84%
+So in order to estimate
+this, let me just--
+
+00:44:35.670 --> 00:44:38.390 align:middle line:90%
+let me not divide first.
+
+00:44:38.390 --> 00:44:42.430 align:middle line:84%
+Let me just look at what
+this difference here is.
+
+00:44:42.430 --> 00:44:46.630 align:middle line:84%
+And then, afterwards, I'm
+going to divide by x minus x0.
+
+00:44:46.630 --> 00:44:50.510 align:middle line:84%
+So if I'm looking at this,
+let's, for the sake of argument,
+
+00:44:50.510 --> 00:44:54.110 align:middle line:90%
+assume that x is bigger than x0.
+
+00:44:54.110 --> 00:44:58.470 align:middle line:84%
+Of course, I need to also
+see when I'm approaching x0
+
+00:44:58.470 --> 00:45:00.350 align:middle line:90%
+from the other side.
+
+00:45:00.350 --> 00:45:03.170 align:middle line:84%
+But the argument
+for that is similar.
+
+00:45:03.170 --> 00:45:09.270 align:middle line:84%
+So I just assume that
+x is bigger than x0.
+
+00:45:09.270 --> 00:45:11.930 align:middle line:90%
+Well, this difference here--
+
+00:45:11.930 --> 00:45:15.390 align:middle line:84%
+well, the function--
+so this function here,
+
+00:45:15.390 --> 00:45:17.390 align:middle line:84%
+the function here-- so
+let me just write it over
+
+00:45:17.390 --> 00:45:20.910 align:middle line:84%
+here so I have a
+little more space.
+
+00:45:20.910 --> 00:45:23.950 align:middle line:84%
+So this difference here,
+where the function-- this
+
+00:45:23.950 --> 00:45:30.910 align:middle line:84%
+here is the integral
+from a to x f of s ds.
+
+00:45:30.910 --> 00:45:41.210 align:middle line:84%
+And this thing here is the
+integral from a to x0 f of s ds,
+
+00:45:41.210 --> 00:45:43.130 align:middle line:90%
+right?
+
+00:45:43.130 --> 00:45:49.210 align:middle line:84%
+But this first integral here,
+I can use this fourth rule
+
+00:45:49.210 --> 00:45:51.190 align:middle line:90%
+that I maybe don't have anymore.
+
+00:45:51.190 --> 00:45:55.970 align:middle line:84%
+But the fourth rule is saying
+that you can split it up.
+
+00:45:55.970 --> 00:45:57.630 align:middle line:84%
+An integral, you
+can split it up.
+
+00:45:57.630 --> 00:46:01.690 align:middle line:84%
+So here, if you have
+a, then you have x0,
+
+00:46:01.690 --> 00:46:06.690 align:middle line:84%
+and then you have x, if you want
+to integrate little f over this,
+
+00:46:06.690 --> 00:46:09.250 align:middle line:84%
+it's the same as
+integrating over this
+
+00:46:09.250 --> 00:46:11.770 align:middle line:90%
+plus the integral over that.
+
+00:46:11.770 --> 00:46:13.070 align:middle line:90%
+So I do that.
+
+00:46:13.070 --> 00:46:16.210 align:middle line:84%
+So this one here, I
+break into two pieces.
+
+00:46:16.210 --> 00:46:21.970 align:middle line:84%
+I integrate from
+a to x0 f of s ds.
+
+00:46:21.970 --> 00:46:24.870 align:middle line:84%
+And then I take
+the second piece,
+
+00:46:24.870 --> 00:46:32.230 align:middle line:84%
+which is from x0 to x, and
+then minus the integral from a
+
+00:46:32.230 --> 00:46:36.190 align:middle line:90%
+to x0 of f of s ds.
+
+00:46:36.190 --> 00:46:38.550 align:middle line:90%
+OK?
+
+00:46:38.550 --> 00:46:41.430 align:middle line:84%
+But now you see
+that this one here
+
+00:46:41.430 --> 00:46:43.690 align:middle line:90%
+cancels out with that, right?
+
+00:46:43.690 --> 00:46:51.050 align:middle line:84%
+And so this difference is just
+the integral from x0 to x f of s
+
+00:46:51.050 --> 00:46:51.550 align:middle line:90%
+ds.
+
+00:46:51.550 --> 00:46:59.242 align:middle line:90%
+
+
+00:46:59.242 --> 00:47:09.190 align:middle line:84%
+So what we have is we have
+that this difference here,
+
+00:47:09.190 --> 00:47:13.830 align:middle line:90%
+f of x minus f of x0--
+
+00:47:13.830 --> 00:47:19.710 align:middle line:84%
+we know that this difference
+here is equal to this integral
+
+00:47:19.710 --> 00:47:20.210 align:middle line:90%
+here.
+
+00:47:20.210 --> 00:47:24.470 align:middle line:90%
+
+
+00:47:24.470 --> 00:47:30.690 align:middle line:84%
+Now, let me use this to bound
+this thing here from above
+
+00:47:30.690 --> 00:47:31.920 align:middle line:90%
+and bound it from below.
+
+00:47:31.920 --> 00:47:35.890 align:middle line:90%
+
+
+00:47:35.890 --> 00:47:39.730 align:middle line:84%
+You see, this integral
+here, this function here--
+
+00:47:39.730 --> 00:47:45.516 align:middle line:84%
+so this function here, if you're
+looking at this integral here
+
+00:47:45.516 --> 00:47:50.650 align:middle line:84%
+of f of s ds,
+well, this function
+
+00:47:50.650 --> 00:47:57.690 align:middle line:90%
+here is smaller than the max--
+
+00:47:57.690 --> 00:48:00.730 align:middle line:84%
+the function is continuous, so
+the max and sup is the same--
+
+00:48:00.730 --> 00:48:05.210 align:middle line:84%
+the max, or the sup, or whatever
+you want, on that interval.
+
+00:48:05.210 --> 00:48:14.690 align:middle line:84%
+So this thing here is less than
+the integral of, if you will, x0
+
+00:48:14.690 --> 00:48:20.510 align:middle line:84%
+to x of the sup of f
+on this interval here.
+
+00:48:20.510 --> 00:48:24.690 align:middle line:90%
+
+
+00:48:24.690 --> 00:48:27.010 align:middle line:90%
+But this is just a constant.
+
+00:48:27.010 --> 00:48:29.960 align:middle line:90%
+And so this here is just--
+
+00:48:29.960 --> 00:48:33.190 align:middle line:84%
+this is just like the
+sup of the function
+
+00:48:33.190 --> 00:48:37.230 align:middle line:90%
+on this little interval times--
+
+00:48:37.230 --> 00:48:38.770 align:middle line:90%
+so this here's a constant.
+
+00:48:38.770 --> 00:48:40.590 align:middle line:90%
+So this just pops out.
+
+00:48:40.590 --> 00:48:43.210 align:middle line:84%
+And then it's just the
+integral of 1 on this.
+
+00:48:43.210 --> 00:48:45.190 align:middle line:84%
+But that's just the
+length of the interval.
+
+00:48:45.190 --> 00:48:48.230 align:middle line:84%
+So this is this here times
+the length of the interval.
+
+00:48:48.230 --> 00:48:53.096 align:middle line:84%
+And the length of
+the interval is this.
+
+00:48:53.096 --> 00:48:58.118 align:middle line:84%
+So this thing here
+is less than that.
+
+00:48:58.118 --> 00:49:02.350 align:middle line:84%
+Likewise, this function
+here on this little interval
+
+00:49:02.350 --> 00:49:05.370 align:middle line:90%
+is bigger or equal to the inf.
+
+00:49:05.370 --> 00:49:10.550 align:middle line:84%
+So this is bigger
+than if you were just
+
+00:49:10.550 --> 00:49:14.100 align:middle line:84%
+integrating the inf of the
+function on this same interval.
+
+00:49:14.100 --> 00:49:17.150 align:middle line:90%
+
+
+00:49:17.150 --> 00:49:20.750 align:middle line:84%
+But the inf-- this
+is just a constant.
+
+00:49:20.750 --> 00:49:22.190 align:middle line:90%
+This pops out.
+
+00:49:22.190 --> 00:49:26.410 align:middle line:84%
+So this thing here
+is just the inf
+
+00:49:26.410 --> 00:49:31.530 align:middle line:84%
+of the function on
+this interval here
+
+00:49:31.530 --> 00:49:37.750 align:middle line:84%
+times the length of the
+interval, like that.
+
+00:49:37.750 --> 00:49:40.876 align:middle line:90%
+
+
+00:49:40.876 --> 00:49:44.210 align:middle line:84%
+So now I can-- and remember
+that this thing here
+
+00:49:44.210 --> 00:49:46.690 align:middle line:90%
+was equal to the difference.
+
+00:49:46.690 --> 00:49:48.790 align:middle line:90%
+So now I can just record this.
+
+00:49:48.790 --> 00:49:52.690 align:middle line:90%
+So what I have is now--
+
+00:49:52.690 --> 00:49:58.330 align:middle line:84%
+what I'm interested in is in
+the difference in capital F.
+
+00:49:58.330 --> 00:50:01.230 align:middle line:90%
+So what I'm interested in is--
+
+00:50:01.230 --> 00:50:04.610 align:middle line:84%
+of course, I really want to
+look at the difference quotient.
+
+00:50:04.610 --> 00:50:06.590 align:middle line:84%
+But I can do this
+in just a second.
+
+00:50:06.590 --> 00:50:10.930 align:middle line:84%
+So I'm interested in the
+difference of the function
+
+00:50:10.930 --> 00:50:13.390 align:middle line:90%
+at those two points.
+
+00:50:13.390 --> 00:50:18.290 align:middle line:84%
+I know that that difference is
+equal to that integral here.
+
+00:50:18.290 --> 00:50:23.130 align:middle line:84%
+And that integral is bounded
+from above by this and below
+
+00:50:23.130 --> 00:50:24.010 align:middle line:90%
+by that.
+
+00:50:24.010 --> 00:50:25.170 align:middle line:90%
+So I just write--
+
+00:50:25.170 --> 00:50:28.250 align:middle line:84%
+I can now just write that
+this difference here--
+
+00:50:28.250 --> 00:50:31.030 align:middle line:84%
+maybe I should write it so
+I have a little more space.
+
+00:50:31.030 --> 00:50:36.470 align:middle line:84%
+Somehow, F of x minus
+F of x0, the difference
+
+00:50:36.470 --> 00:50:42.990 align:middle line:84%
+is bounded from above by this
+thing here, the sup of f,
+
+00:50:42.990 --> 00:50:48.430 align:middle line:84%
+on this little interval,
+times x minus x0.
+
+00:50:48.430 --> 00:50:55.110 align:middle line:84%
+And it's bounded
+from below by the inf
+
+00:50:55.110 --> 00:51:02.430 align:middle line:84%
+on that same interval times
+the length of the interval.
+
+00:51:02.430 --> 00:51:06.110 align:middle line:90%
+
+
+00:51:06.110 --> 00:51:08.630 align:middle line:84%
+So now we can go to
+the difference quotient
+
+00:51:08.630 --> 00:51:12.030 align:middle line:84%
+because we just divide by
+x minus x0 on both sides.
+
+00:51:12.030 --> 00:51:14.750 align:middle line:90%
+x is bigger than x0.
+
+00:51:14.750 --> 00:51:17.430 align:middle line:90%
+So you have this thing here.
+
+00:51:17.430 --> 00:51:19.490 align:middle line:84%
+So you have this
+difference quotient here.
+
+00:51:19.490 --> 00:51:22.890 align:middle line:84%
+And that's what we want
+to show has a limit.
+
+00:51:22.890 --> 00:51:26.010 align:middle line:84%
+And now we have that
+this is less than sup
+
+00:51:26.010 --> 00:51:30.290 align:middle line:84%
+of f on this little
+interval here.
+
+00:51:30.290 --> 00:51:34.450 align:middle line:84%
+And it's bigger or
+equal to the inf of f
+
+00:51:34.450 --> 00:51:35.920 align:middle line:90%
+on that same little interval.
+
+00:51:35.920 --> 00:51:39.520 align:middle line:90%
+
+
+00:51:39.520 --> 00:51:43.650 align:middle line:90%
+But you see that as x here--
+
+00:51:43.650 --> 00:51:44.560 align:middle line:90%
+but now you have--
+
+00:51:44.560 --> 00:51:48.930 align:middle line:90%
+
+
+00:51:48.930 --> 00:51:51.680 align:middle line:84%
+now you have that
+as x goes to x0--
+
+00:51:51.680 --> 00:52:02.790 align:middle line:90%
+
+
+00:52:02.790 --> 00:52:11.130 align:middle line:84%
+so now, as x goes
+to x0, the values--
+
+00:52:11.130 --> 00:52:15.570 align:middle line:84%
+and not just the value at x, but
+actually, in this whole interval
+
+00:52:15.570 --> 00:52:16.210 align:middle line:90%
+here--
+
+00:52:16.210 --> 00:52:20.970 align:middle line:84%
+the values goes to what
+the values is at x0.
+
+00:52:20.970 --> 00:52:26.070 align:middle line:84%
+So you see that this here,
+the right-hand side here, goes
+
+00:52:26.070 --> 00:52:29.190 align:middle line:90%
+to f of x-- little f of x0.
+
+00:52:29.190 --> 00:52:34.430 align:middle line:84%
+And the left-hand side
+goes to little f of x0.
+
+00:52:34.430 --> 00:52:37.130 align:middle line:84%
+So this means that this thing
+is squeezed between these two
+
+00:52:37.130 --> 00:52:37.630 align:middle line:90%
+numbers.
+
+00:52:37.630 --> 00:52:39.210 align:middle line:90%
+That goes to the same number.
+
+00:52:39.210 --> 00:52:42.290 align:middle line:84%
+So this difference
+quotient also goes--
+
+00:52:42.290 --> 00:52:47.950 align:middle line:84%
+so this difference
+quotient here goes
+
+00:52:47.950 --> 00:52:54.190 align:middle line:84%
+to f of x0, because
+it's squeezed
+
+00:52:54.190 --> 00:52:59.150 align:middle line:84%
+between those two numbers that
+converge to the same number--
+
+00:52:59.150 --> 00:53:03.470 align:middle line:84%
+namely, to f of x--
+little f of x0, right?
+
+00:53:03.470 --> 00:53:08.630 align:middle line:84%
+So this here proves that it's--
+but technically speaking,
+
+00:53:08.630 --> 00:53:13.950 align:middle line:84%
+I only did it where I'm assuming
+that x was bigger than x0.
+
+00:53:13.950 --> 00:53:18.570 align:middle line:84%
+If you let-- so you
+also need to check
+
+00:53:18.570 --> 00:53:21.290 align:middle line:84%
+when x is strictly
+less than x0, and it's
+
+00:53:21.290 --> 00:53:25.010 align:middle line:90%
+converging to x0 from below.
+
+00:53:25.010 --> 00:53:30.240 align:middle line:84%
+But with trivial modification,
+the same proof works.
+
+00:53:30.240 --> 00:53:32.830 align:middle line:84%
+And that's done
+out in the notes.
+
+00:53:32.830 --> 00:53:34.920 align:middle line:90%
+So I will not go through that.
+
+00:53:34.920 --> 00:53:38.430 align:middle line:90%
+
+
+00:53:38.430 --> 00:53:40.150 align:middle line:90%
+Now let's talk about--
+
+00:53:40.150 --> 00:53:43.970 align:middle line:84%
+so this is the second version
+of the fundamental theorem
+
+00:53:43.970 --> 00:53:44.500 align:middle line:90%
+of calculus.
+
+00:53:44.500 --> 00:53:51.810 align:middle line:90%
+
+
+00:53:51.810 --> 00:53:55.890 align:middle line:84%
+And so-- again,
+you wouldn't really
+
+00:53:55.890 --> 00:53:58.250 align:middle line:84%
+eventually think
+about it, probably,
+
+00:53:58.250 --> 00:54:00.330 align:middle line:90%
+as two different versions.
+
+00:54:00.330 --> 00:54:07.410 align:middle line:84%
+But they're slightly-- it's two
+things about the same stuff.
+
+00:54:07.410 --> 00:54:09.510 align:middle line:90%
+But the second version here--
+
+00:54:09.510 --> 00:54:11.670 align:middle line:84%
+So I divided it into
+these two versions.
+
+00:54:11.670 --> 00:54:14.810 align:middle line:90%
+So the second version--
+
+00:54:14.810 --> 00:54:26.650 align:middle line:84%
+so again, fundamental theorem
+of calculus, version 2.
+
+00:54:26.650 --> 00:54:30.230 align:middle line:90%
+
+
+00:54:30.230 --> 00:54:32.950 align:middle line:90%
+And so this is the following--
+
+00:54:32.950 --> 00:54:37.790 align:middle line:84%
+that you take a function,
+F, that is defined--
+
+00:54:37.790 --> 00:54:46.950 align:middle line:84%
+and F is defined on some
+interval from a to b into R.
+
+00:54:46.950 --> 00:54:50.510 align:middle line:90%
+And F is differentiable.
+
+00:54:50.510 --> 00:54:53.350 align:middle line:90%
+So this here exists.
+
+00:54:53.350 --> 00:54:57.070 align:middle line:84%
+It's differentiable
+at each point.
+
+00:54:57.070 --> 00:55:04.330 align:middle line:84%
+And f here, this little
+f, is Riemann integrable.
+
+00:55:04.330 --> 00:55:09.630 align:middle line:90%
+
+
+00:55:09.630 --> 00:55:19.050 align:middle line:84%
+And then the claim is that
+F of b minus capital F at a
+
+00:55:19.050 --> 00:55:28.790 align:middle line:84%
+is the integral from a
+to b of little f of x dx.
+
+00:55:28.790 --> 00:55:29.770 align:middle line:90%
+So that's the claim.
+
+00:55:29.770 --> 00:55:40.422 align:middle line:90%
+
+
+00:55:40.422 --> 00:55:45.870 align:middle line:84%
+I wonder if I should
+just skip that.
+
+00:55:45.870 --> 00:55:50.270 align:middle line:84%
+I did the proof for this
+out in the notes also.
+
+00:55:50.270 --> 00:55:52.000 align:middle line:90%
+So maybe I'll just skip that.
+
+00:55:52.000 --> 00:55:56.730 align:middle line:90%
+
+
+00:55:56.730 --> 00:56:04.930 align:middle line:84%
+And then-- OK, so now-- but
+let me look at an example
+
+00:56:04.930 --> 00:56:06.670 align:middle line:90%
+where I'm applying it.
+
+00:56:06.670 --> 00:56:19.870 align:middle line:90%
+
+
+00:56:19.870 --> 00:56:21.710 align:middle line:90%
+And so I have--
+
+00:56:21.710 --> 00:56:26.550 align:middle line:84%
+I'm looking at-- so
+suppose I want to compute
+
+00:56:26.550 --> 00:56:30.910 align:middle line:90%
+x squared from 0 to 1 dx.
+
+00:56:30.910 --> 00:56:34.710 align:middle line:90%
+Suppose I want to compute that.
+
+00:56:34.710 --> 00:56:37.370 align:middle line:84%
+And so, in this case,
+I could look at--
+
+00:56:37.370 --> 00:56:40.350 align:middle line:84%
+so if I want to
+apply that version,
+
+00:56:40.350 --> 00:56:42.070 align:middle line:84%
+I could think
+about-- suppose I'm
+
+00:56:42.070 --> 00:56:49.256 align:middle line:84%
+looking at F of x equal to
+x to the power 3 over 3.
+
+00:56:49.256 --> 00:56:51.590 align:middle line:90%
+Suppose I'm looking at this.
+
+00:56:51.590 --> 00:56:54.310 align:middle line:84%
+Well, if I'm looking
+at this function,
+
+00:56:54.310 --> 00:56:59.630 align:middle line:84%
+I know that capital F of x is
+equal to the derivative of this.
+
+00:56:59.630 --> 00:57:01.550 align:middle line:90%
+It's just x squared.
+
+00:57:01.550 --> 00:57:02.670 align:middle line:90%
+Right.
+
+00:57:02.670 --> 00:57:05.950 align:middle line:84%
+So this, say-- and x
+squared is now-- of course,
+
+00:57:05.950 --> 00:57:07.130 align:middle line:90%
+it's continuous.
+
+00:57:07.130 --> 00:57:09.110 align:middle line:90%
+So it's integrable.
+
+00:57:09.110 --> 00:57:13.610 align:middle line:84%
+So this means that
+by the second--
+
+00:57:13.610 --> 00:57:34.610 align:middle line:84%
+by this second version of the
+fundamental theorem of calculus,
+
+00:57:34.610 --> 00:57:42.290 align:middle line:84%
+then we have that
+F of 1 minus F of 0
+
+00:57:42.290 --> 00:57:47.470 align:middle line:84%
+is equal to the integral
+of the derivative,
+
+00:57:47.470 --> 00:57:51.770 align:middle line:84%
+because the derivative
+is integrable, so 0 to 1,
+
+00:57:51.770 --> 00:57:57.170 align:middle line:90%
+of x squared dx.
+
+00:57:57.170 --> 00:58:01.810 align:middle line:84%
+But this here is now just
+evaluating this function here.
+
+00:58:01.810 --> 00:58:06.010 align:middle line:90%
+So this here is 1/3 minus 0.
+
+00:58:06.010 --> 00:58:08.650 align:middle line:84%
+So this original
+integral is 1/3.
+
+00:58:08.650 --> 00:58:13.035 align:middle line:90%
+
+
+00:58:13.035 --> 00:58:13.535 align:middle line:90%
+OK.
+
+00:58:13.535 --> 00:58:16.750 align:middle line:90%
+
+
+00:58:16.750 --> 00:58:19.990 align:middle line:90%
+So the next thing--
+
+00:58:19.990 --> 00:58:28.330 align:middle line:84%
+so the next thing I want to talk
+about is improper integrals.
+
+00:58:28.330 --> 00:58:30.690 align:middle line:84%
+So this here
+concludes-- this here
+
+00:58:30.690 --> 00:58:33.230 align:middle line:84%
+was stuff I actually had
+from the previous lecture.
+
+00:58:33.230 --> 00:58:35.450 align:middle line:84%
+That was why I skipped
+a couple of things.
+
+00:58:35.450 --> 00:58:39.630 align:middle line:90%
+
+
+00:58:39.630 --> 00:58:43.470 align:middle line:84%
+But yeah, but the details
+for the things I skipped
+
+00:58:43.470 --> 00:58:45.010 align:middle line:90%
+is in the notes.
+
+00:58:45.010 --> 00:58:47.430 align:middle line:84%
+And the things I skipped
+is very similar to things
+
+00:58:47.430 --> 00:58:49.040 align:middle line:90%
+I went through here, anyway.
+
+00:58:49.040 --> 00:58:53.030 align:middle line:90%
+
+
+00:58:53.030 --> 00:58:56.470 align:middle line:84%
+So now, let me look
+at improper integrals.
+
+00:58:56.470 --> 00:59:00.310 align:middle line:84%
+And there is a couple
+of versions of this.
+
+00:59:00.310 --> 00:59:02.910 align:middle line:84%
+So we will look at
+two versions of this.
+
+00:59:02.910 --> 00:59:05.590 align:middle line:90%
+One is where the integral--
+
+00:59:05.590 --> 00:59:07.250 align:middle line:90%
+where the integral is--
+
+00:59:07.250 --> 00:59:09.710 align:middle line:84%
+so we will look at
+improper integrals.
+
+00:59:09.710 --> 00:59:18.170 align:middle line:90%
+
+
+00:59:18.170 --> 00:59:21.240 align:middle line:84%
+So I'm going to look at two
+versions, so two versions.
+
+00:59:21.240 --> 00:59:28.090 align:middle line:90%
+
+
+00:59:28.090 --> 00:59:33.870 align:middle line:84%
+Version 1 is where the
+integral is unbounded.
+
+00:59:33.870 --> 00:59:39.590 align:middle line:90%
+The integral is unbounded.
+
+00:59:39.590 --> 00:59:43.490 align:middle line:90%
+
+
+00:59:43.490 --> 00:59:47.510 align:middle line:84%
+And the second version is where
+the function is unbounded.
+
+00:59:47.510 --> 00:59:57.156 align:middle line:90%
+
+
+00:59:57.156 --> 01:00:02.650 align:middle line:84%
+Now, in the first
+version, then you take--
+
+01:00:02.650 --> 01:00:08.750 align:middle line:90%
+you're looking at a function, f.
+
+01:00:08.750 --> 01:00:12.310 align:middle line:90%
+And this function is integrable.
+
+01:00:12.310 --> 01:00:23.010 align:middle line:84%
+So f here is integrable
+from a to b for all--
+
+01:00:23.010 --> 01:00:26.150 align:middle line:90%
+
+
+01:00:26.150 --> 01:00:29.310 align:middle line:90%
+so a here is fixed.
+
+01:00:29.310 --> 01:00:34.330 align:middle line:84%
+But it's integrable for
+all b bigger than a.
+
+01:00:34.330 --> 01:00:35.410 align:middle line:90%
+So a is fixed.
+
+01:00:35.410 --> 01:00:36.600 align:middle line:90%
+So a here, fixed.
+
+01:00:36.600 --> 01:00:39.310 align:middle line:90%
+
+
+01:00:39.310 --> 01:00:42.710 align:middle line:90%
+And it's integrable like that.
+
+01:00:42.710 --> 01:00:44.910 align:middle line:90%
+Then what we want to--
+
+01:00:44.910 --> 01:00:49.190 align:middle line:90%
+what we are interested in--
+
+01:00:49.190 --> 01:00:53.296 align:middle line:84%
+so again, if you're thinking
+about the integral as a--
+
+01:00:53.296 --> 01:00:56.860 align:middle line:84%
+think about the integral
+as the weighted area.
+
+01:00:56.860 --> 01:00:59.482 align:middle line:90%
+
+
+01:00:59.482 --> 01:01:02.150 align:middle line:84%
+And weight just means
+that if the function is
+
+01:01:02.150 --> 01:01:05.770 align:middle line:84%
+negative in a
+stretch, then the area
+
+01:01:05.770 --> 01:01:08.570 align:middle line:84%
+there will count
+with a minus sign.
+
+01:01:08.570 --> 01:01:12.650 align:middle line:84%
+So this here is-- so what
+we're interested in is
+
+01:01:12.650 --> 01:01:16.290 align:middle line:84%
+we were interested
+in making sense
+
+01:01:16.290 --> 01:01:21.530 align:middle line:84%
+of the area, the weighted
+area below the graph, where we
+
+01:01:21.530 --> 01:01:24.810 align:middle line:90%
+go all the way out to infinity.
+
+01:01:24.810 --> 01:01:26.390 align:middle line:90%
+And so this is--
+
+01:01:26.390 --> 01:01:27.520 align:middle line:90%
+does this make sense?
+
+01:01:27.520 --> 01:01:35.090 align:middle line:90%
+
+
+01:01:35.090 --> 01:01:38.230 align:middle line:84%
+So this is, in this case,
+the improper integral.
+
+01:01:38.230 --> 01:01:41.982 align:middle line:84%
+It's improper because it's
+not a bounded interval.
+
+01:01:41.982 --> 01:01:45.290 align:middle line:90%
+And so yes, if--
+
+01:01:45.290 --> 01:01:55.330 align:middle line:84%
+yes, if this limit here of
+a to b, If this limit here
+
+01:01:55.330 --> 01:02:00.970 align:middle line:84%
+of f of x dx, if this limit
+here as b goes to infinity
+
+01:02:00.970 --> 01:02:13.110 align:middle line:84%
+exists, then we say that
+the improper integral here
+
+01:02:13.110 --> 01:02:19.310 align:middle line:84%
+from a to infinity of f of x--
+we say that this here exists
+
+01:02:19.310 --> 01:02:21.040 align:middle line:90%
+and is equal to this limit.
+
+01:02:21.040 --> 01:02:33.780 align:middle line:90%
+
+
+01:02:33.780 --> 01:02:37.110 align:middle line:84%
+So this is one version of
+the improper integrals.
+
+01:02:37.110 --> 01:02:39.550 align:middle line:90%
+And the other version is--
+
+01:02:39.550 --> 01:02:42.630 align:middle line:84%
+the other version of
+the improper integral
+
+01:02:42.630 --> 01:02:43.650 align:middle line:90%
+is the following.
+
+01:02:43.650 --> 01:02:51.190 align:middle line:90%
+
+
+01:02:51.190 --> 01:02:54.270 align:middle line:90%
+So the second version--
+
+01:02:54.270 --> 01:02:57.250 align:middle line:84%
+so this is where f
+here is unbounded.
+
+01:02:57.250 --> 01:03:00.410 align:middle line:90%
+
+
+01:03:00.410 --> 01:03:03.530 align:middle line:84%
+In a minute, I'll look at
+examples of both things.
+
+01:03:03.530 --> 01:03:05.650 align:middle line:90%
+So the function is unbounded.
+
+01:03:05.650 --> 01:03:07.210 align:middle line:90%
+So it's defined.
+
+01:03:07.210 --> 01:03:14.970 align:middle line:84%
+But f here is supposed to be
+integrable on, say, a to b.
+
+01:03:14.970 --> 01:03:20.770 align:middle line:84%
+Right, so a is supposed
+to be integrable from--
+
+01:03:20.770 --> 01:03:33.210 align:middle line:84%
+it's supposed to be integrable
+from c to b for all c
+
+01:03:33.210 --> 01:03:34.610 align:middle line:90%
+bigger than--
+
+01:03:34.610 --> 01:03:40.810 align:middle line:84%
+so c here, where c is bigger
+than a and less than b.
+
+01:03:40.810 --> 01:03:44.370 align:middle line:90%
+So think here about--
+
+01:03:44.370 --> 01:03:46.810 align:middle line:90%
+here, you have a.
+
+01:03:46.810 --> 01:03:47.830 align:middle line:90%
+Here, you have b.
+
+01:03:47.830 --> 01:03:51.010 align:middle line:84%
+So a and b, in this
+case, are fixed.
+
+01:03:51.010 --> 01:03:54.330 align:middle line:90%
+But the function is not bounded.
+
+01:03:54.330 --> 01:03:57.810 align:middle line:84%
+It's not maybe even
+defined at a, right?
+
+01:03:57.810 --> 01:03:59.450 align:middle line:90%
+It's not really defined at a.
+
+01:03:59.450 --> 01:04:02.096 align:middle line:90%
+
+
+01:04:02.096 --> 01:04:05.750 align:middle line:90%
+But it is integrable on--
+
+01:04:05.750 --> 01:04:09.430 align:middle line:84%
+if you go anywhere
+strictly to the right of a,
+
+01:04:09.430 --> 01:04:15.550 align:middle line:84%
+then it is integrable
+on this interval here.
+
+01:04:15.550 --> 01:04:22.990 align:middle line:84%
+And so if this limit-- so
+if this limit here as c goes
+
+01:04:22.990 --> 01:04:29.430 align:middle line:84%
+to a, the integral from
+c to b of f of x dx--
+
+01:04:29.430 --> 01:04:36.110 align:middle line:84%
+if this limit here exists,
+then we say that this improper
+
+01:04:36.110 --> 01:04:42.230 align:middle line:84%
+integral from c to b--
+sorry, a to b, of f of x dx--
+
+01:04:42.230 --> 01:04:45.590 align:middle line:84%
+this is an improper integral
+because the function is not
+
+01:04:45.590 --> 01:04:47.870 align:middle line:90%
+bounded on this whole interval.
+
+01:04:47.870 --> 01:04:50.990 align:middle line:90%
+It's not even defined at a.
+
+01:04:50.990 --> 01:04:54.030 align:middle line:84%
+If this here-- we say
+that this thing here
+
+01:04:54.030 --> 01:05:02.830 align:middle line:84%
+is equal to this limit as c
+goes to a of c, b, f of x dx.
+
+01:05:02.830 --> 01:05:05.362 align:middle line:90%
+
+
+01:05:05.362 --> 01:05:13.970 align:middle line:84%
+And so the improper integral
+actually often appear in things.
+
+01:05:13.970 --> 01:05:18.450 align:middle line:84%
+So let me look at
+examples of this.
+
+01:05:18.450 --> 01:05:20.590 align:middle line:84%
+So I will look at
+example of this.
+
+01:05:20.590 --> 01:05:22.250 align:middle line:84%
+And I will look--
+so again, there's
+
+01:05:22.250 --> 01:05:26.770 align:middle line:84%
+these two versions, where
+the interval is unbounded,
+
+01:05:26.770 --> 01:05:29.310 align:middle line:90%
+or the function is unbounded.
+
+01:05:29.310 --> 01:05:32.030 align:middle line:84%
+Of course, there's all
+kinds of variation of this.
+
+01:05:32.030 --> 01:05:34.690 align:middle line:84%
+Here, I looked at
+where the function
+
+01:05:34.690 --> 01:05:37.810 align:middle line:90%
+was unbounded to the left.
+
+01:05:37.810 --> 01:05:40.050 align:middle line:84%
+But you could do the
+same to the right.
+
+01:05:40.050 --> 01:05:47.230 align:middle line:84%
+It could be this interval
+here, this interval in the--
+
+01:05:47.230 --> 01:05:50.010 align:middle line:84%
+where the interval
+was unbounded.
+
+01:05:50.010 --> 01:05:55.030 align:middle line:84%
+I'm talking-- I was when
+I explained what it means,
+
+01:05:55.030 --> 01:06:00.910 align:middle line:84%
+I did it as if the interval
+was unbounded to the right.
+
+01:06:00.910 --> 01:06:04.430 align:middle line:84%
+But of course, you could also
+look at unbounded to the left,
+
+01:06:04.430 --> 01:06:06.030 align:middle line:84%
+or you could even
+look at where it
+
+01:06:06.030 --> 01:06:08.670 align:middle line:84%
+was unbounded both to the
+right and to the left.
+
+01:06:08.670 --> 01:06:13.462 align:middle line:90%
+
+
+01:06:13.462 --> 01:06:15.540 align:middle line:84%
+But let me look
+at some examples.
+
+01:06:15.540 --> 01:06:26.630 align:middle line:90%
+
+
+01:06:26.630 --> 01:06:29.790 align:middle line:90%
+And so the first example--
+
+01:06:29.790 --> 01:06:33.670 align:middle line:84%
+again, the first two
+examples would be where
+
+01:06:33.670 --> 01:06:37.376 align:middle line:90%
+the interval is unbounded.
+
+01:06:37.376 --> 01:06:47.670 align:middle line:90%
+
+
+01:06:47.670 --> 01:06:54.210 align:middle line:84%
+So this first example here is
+where the interval is unbounded.
+
+01:06:54.210 --> 01:06:58.970 align:middle line:84%
+And we're looking at the
+interval is 1 to infinity.
+
+01:06:58.970 --> 01:07:01.570 align:middle line:84%
+And we're looking
+at the function, f
+
+01:07:01.570 --> 01:07:04.680 align:middle line:90%
+of x equal to 1 over x squared.
+
+01:07:04.680 --> 01:07:09.115 align:middle line:90%
+
+
+01:07:09.115 --> 01:07:12.370 align:middle line:90%
+And I'm interested in--
+
+01:07:12.370 --> 01:07:19.410 align:middle line:84%
+and the question is, does the
+improper integral, this here,
+
+01:07:19.410 --> 01:07:23.200 align:middle line:84%
+of 1 over x squared
+dx, does this exist?
+
+01:07:23.200 --> 01:07:26.090 align:middle line:90%
+
+
+01:07:26.090 --> 01:07:29.250 align:middle line:90%
+That's the question.
+
+01:07:29.250 --> 01:07:35.410 align:middle line:84%
+And so we use the fundamental
+theorem of calculus
+
+01:07:35.410 --> 01:07:37.090 align:middle line:90%
+to determine that.
+
+01:07:37.090 --> 01:07:39.770 align:middle line:84%
+We observe that if
+we're looking at f
+
+01:07:39.770 --> 01:07:48.090 align:middle line:84%
+of x, which is 1 over x,
+then the derivative here,
+
+01:07:48.090 --> 01:07:51.200 align:middle line:84%
+of this function here,
+this is 1 over x squared.
+
+01:07:51.200 --> 01:07:54.526 align:middle line:90%
+
+
+01:07:54.526 --> 01:07:56.370 align:middle line:90%
+So this is what we observe.
+
+01:07:56.370 --> 01:08:02.470 align:middle line:84%
+So therefore, it means that if
+you're integrating from 1 to b
+
+01:08:02.470 --> 01:08:06.710 align:middle line:84%
+of 1 over x squared
+dx, this thing here
+
+01:08:06.710 --> 01:08:11.390 align:middle line:84%
+is the same as f
+of b minus f of 1.
+
+01:08:11.390 --> 01:08:14.270 align:middle line:90%
+
+
+01:08:14.270 --> 01:08:18.149 align:middle line:84%
+And so, using this,
+and we know what f is,
+
+01:08:18.149 --> 01:08:19.769 align:middle line:90%
+you have that this is minus--
+
+01:08:19.769 --> 01:08:22.790 align:middle line:90%
+
+
+01:08:22.790 --> 01:08:28.750 align:middle line:90%
+minus, sorry, 1 over b and--
+
+01:08:28.750 --> 01:08:29.729 align:middle line:90%
+no, sorry.
+
+01:08:29.729 --> 01:08:31.410 align:middle line:90%
+Yeah, it's minus 1 over b.
+
+01:08:31.410 --> 01:08:33.229 align:middle line:90%
+This is what you get from this.
+
+01:08:33.229 --> 01:08:39.510 align:middle line:84%
+And here, you're getting 1,
+plus 1, like this, right?
+
+01:08:39.510 --> 01:08:43.710 align:middle line:84%
+And so you see that this thing
+here, as b goes to infinity,
+
+01:08:43.710 --> 01:08:45.630 align:middle line:90%
+this has converged to 0.
+
+01:08:45.630 --> 01:08:47.830 align:middle line:90%
+So this has converged to 1.
+
+01:08:47.830 --> 01:08:50.370 align:middle line:90%
+So indeed, this improper?
+
+01:08:50.370 --> 01:08:54.210 align:middle line:90%
+Yes is the answer.
+
+01:08:54.210 --> 01:09:03.050 align:middle line:84%
+And what it's equal to,
+because it converts to 1,
+
+01:09:03.050 --> 01:09:05.210 align:middle line:90%
+it's equal to 1.
+
+01:09:05.210 --> 01:09:08.210 align:middle line:84%
+So again, if you're
+thinking about it,
+
+01:09:08.210 --> 01:09:09.970 align:middle line:84%
+it's a little bit
+like what we did
+
+01:09:09.970 --> 01:09:14.590 align:middle line:84%
+for series that you're summing
+infinitely many numbers.
+
+01:09:14.590 --> 01:09:16.609 align:middle line:84%
+So here, you're
+looking at something.
+
+01:09:16.609 --> 01:09:19.050 align:middle line:90%
+And you're looking at the area.
+
+01:09:19.050 --> 01:09:21.210 align:middle line:84%
+But the area actually
+is finite, even
+
+01:09:21.210 --> 01:09:22.719 align:middle line:90%
+though it continues on forever.
+
+01:09:22.719 --> 01:09:26.890 align:middle line:90%
+
+
+01:09:26.890 --> 01:09:28.630 align:middle line:90%
+So that's one version of it.
+
+01:09:28.630 --> 01:09:32.390 align:middle line:84%
+Suppose that instead
+of 1 over x squared--
+
+01:09:32.390 --> 01:09:37.130 align:middle line:84%
+so 1 over the property that the
+function 1 over x squared has
+
+01:09:37.130 --> 01:09:40.729 align:middle line:84%
+is that it goes really
+quite fast to 0.
+
+01:09:40.729 --> 01:09:44.130 align:middle line:84%
+As x goes to infinity,
+1 over x squared
+
+01:09:44.130 --> 01:09:48.350 align:middle line:90%
+goes really pretty fast to 0.
+
+01:09:48.350 --> 01:09:52.109 align:middle line:84%
+Suppose I look at a
+function that does go to 0.
+
+01:09:52.109 --> 01:09:55.590 align:middle line:84%
+But if it doesn't go
+to 0, if the function
+
+01:09:55.590 --> 01:09:58.110 align:middle line:90%
+doesn't go to 0, if we kind of--
+
+01:09:58.110 --> 01:10:01.630 align:middle line:84%
+let's say that we're staying
+above a certain line.
+
+01:10:01.630 --> 01:10:03.310 align:middle line:84%
+Well, then the area
+below the graph
+
+01:10:03.310 --> 01:10:05.570 align:middle line:84%
+would, of course, be
+larger than this thing.
+
+01:10:05.570 --> 01:10:07.210 align:middle line:90%
+And that would be infinite.
+
+01:10:07.210 --> 01:10:09.560 align:middle line:90%
+So it's not going to converge.
+
+01:10:09.560 --> 01:10:15.550 align:middle line:84%
+So it will have to
+go to 0 in some way.
+
+01:10:15.550 --> 01:10:18.990 align:middle line:84%
+So example 2, I'm looking
+at another function.
+
+01:10:18.990 --> 01:10:20.430 align:middle line:90%
+Still goes to 0.
+
+01:10:20.430 --> 01:10:24.710 align:middle line:84%
+Again, the interval is the
+same from 1 to infinity.
+
+01:10:24.710 --> 01:10:28.910 align:middle line:84%
+And the function is now--
+this time, it's 1 over x.
+
+01:10:28.910 --> 01:10:30.250 align:middle line:90%
+It still goes to 0.
+
+01:10:30.250 --> 01:10:31.610 align:middle line:90%
+So maybe it has a chance.
+
+01:10:31.610 --> 01:10:34.310 align:middle line:90%
+Let's see.
+
+01:10:34.310 --> 01:10:40.390 align:middle line:84%
+If you now take the
+integral from 1 to x of--
+
+01:10:40.390 --> 01:10:47.050 align:middle line:84%
+1 to b, sorry, of 1 over
+x dx, well, again, you
+
+01:10:47.050 --> 01:10:49.230 align:middle line:84%
+use the fundamental
+theorem of calculus.
+
+01:10:49.230 --> 01:10:50.730 align:middle line:84%
+If you're looking
+at the function,
+
+01:10:50.730 --> 01:11:01.010 align:middle line:84%
+f of x equal to log of x, the
+derivative of log is 1 over x.
+
+01:11:01.010 --> 01:11:04.630 align:middle line:84%
+So this thing here, by the
+fundamental theorem of calculus,
+
+01:11:04.630 --> 01:11:07.370 align:middle line:84%
+this second version of
+fundamental theorem of calculus
+
+01:11:07.370 --> 01:11:11.330 align:middle line:90%
+is f of b minus f of 1.
+
+01:11:11.330 --> 01:11:17.370 align:middle line:84%
+And that is log of
+b minus log of 1.
+
+01:11:17.370 --> 01:11:19.230 align:middle line:90%
+Log of 1 is 0.
+
+01:11:19.230 --> 01:11:21.370 align:middle line:90%
+So this is just log of b.
+
+01:11:21.370 --> 01:11:25.570 align:middle line:84%
+But as b goes to infinity,
+this here actually goes--
+
+01:11:25.570 --> 01:11:26.750 align:middle line:90%
+it's not bounded.
+
+01:11:26.750 --> 01:11:29.450 align:middle line:84%
+It tends to wander
+off to infinity.
+
+01:11:29.450 --> 01:11:38.500 align:middle line:84%
+So this improper integral here,
+this one here, does not exist.
+
+01:11:38.500 --> 01:11:43.710 align:middle line:90%
+
+
+01:11:43.710 --> 01:11:46.150 align:middle line:84%
+It's like the area
+below this function
+
+01:11:46.150 --> 01:11:51.230 align:middle line:84%
+here would actually
+be infinite, right?
+
+01:11:51.230 --> 01:11:53.770 align:middle line:90%
+It does not go to 0 fast enough.
+
+01:11:53.770 --> 01:12:00.950 align:middle line:84%
+So that's examples of where
+the interval is unbounded.
+
+01:12:00.950 --> 01:12:05.870 align:middle line:84%
+Suppose that we look at examples
+where the state of the interval
+
+01:12:05.870 --> 01:12:07.250 align:middle line:90%
+is being unbounded.
+
+01:12:07.250 --> 01:12:09.750 align:middle line:90%
+The function is unbounded.
+
+01:12:09.750 --> 01:12:11.970 align:middle line:84%
+So let's look at some
+examples of that.
+
+01:12:11.970 --> 01:12:14.870 align:middle line:90%
+
+
+01:12:14.870 --> 01:12:23.150 align:middle line:84%
+Suppose you take-- so now,
+suppose you take the interval
+
+01:12:23.150 --> 01:12:24.550 align:middle line:90%
+from--
+
+01:12:24.550 --> 01:12:25.990 align:middle line:90%
+so the interval is bounded.
+
+01:12:25.990 --> 01:12:32.110 align:middle line:84%
+But the function
+is not unbounded.
+
+01:12:32.110 --> 01:12:34.310 align:middle line:84%
+Sorry, the function--
+the interval is bounded.
+
+01:12:34.310 --> 01:12:36.710 align:middle line:90%
+But the function is unbounded.
+
+01:12:36.710 --> 01:12:40.790 align:middle line:84%
+So I'm looking at,
+first, f of x equal to 1
+
+01:12:40.790 --> 01:12:43.090 align:middle line:90%
+over square root of x.
+
+01:12:43.090 --> 01:12:49.270 align:middle line:84%
+As x goes to 0, square
+root of x goes to 0.
+
+01:12:49.270 --> 01:12:51.830 align:middle line:84%
+So this means that 1
+over it goes to infinity.
+
+01:12:51.830 --> 01:12:54.570 align:middle line:90%
+So this function is not bounded.
+
+01:12:54.570 --> 01:12:56.730 align:middle line:84%
+But if I'm now
+looking at-- so I want
+
+01:12:56.730 --> 01:12:58.930 align:middle line:84%
+to look at the improper
+integral, where
+
+01:12:58.930 --> 01:13:01.050 align:middle line:90%
+I'm taking this function.
+
+01:13:01.050 --> 01:13:06.170 align:middle line:84%
+The function is blowing up
+as I'm going close to 0,
+
+01:13:06.170 --> 01:13:07.730 align:middle line:90%
+blowing up like that.
+
+01:13:07.730 --> 01:13:12.290 align:middle line:84%
+And I want to see,
+does this here--
+
+01:13:12.290 --> 01:13:17.130 align:middle line:84%
+does this improper
+integral here--
+
+01:13:17.130 --> 01:13:18.060 align:middle line:90%
+does this exist?
+
+01:13:18.060 --> 01:13:22.127 align:middle line:90%
+
+
+01:13:22.127 --> 01:13:22.960 align:middle line:90%
+That's the question.
+
+01:13:22.960 --> 01:13:26.090 align:middle line:90%
+
+
+01:13:26.090 --> 01:13:29.130 align:middle line:84%
+And so, in order
+to figure that out,
+
+01:13:29.130 --> 01:13:33.410 align:middle line:84%
+I use the fundamental
+theorem of calculus again.
+
+01:13:33.410 --> 01:13:37.090 align:middle line:90%
+So if I take the function--
+
+01:13:37.090 --> 01:13:41.190 align:middle line:84%
+if I take the
+function, f of x is
+
+01:13:41.190 --> 01:13:45.120 align:middle line:84%
+equal to 2 times
+square root of x,
+
+01:13:45.120 --> 01:13:51.550 align:middle line:84%
+and I now take the
+derivative of this,
+
+01:13:51.550 --> 01:13:53.470 align:middle line:84%
+then I get 1 over
+square root of x.
+
+01:13:53.470 --> 01:13:56.350 align:middle line:90%
+
+
+01:13:56.350 --> 01:13:58.830 align:middle line:90%
+And so this means that--
+
+01:13:58.830 --> 01:14:01.680 align:middle line:84%
+so this means that
+if you now look at--
+
+01:14:01.680 --> 01:14:12.350 align:middle line:90%
+
+
+01:14:12.350 --> 01:14:15.670 align:middle line:84%
+so this means that if you're
+now looking at the integral
+
+01:14:15.670 --> 01:14:18.830 align:middle line:90%
+here of--
+
+01:14:18.830 --> 01:14:22.390 align:middle line:90%
+
+
+01:14:22.390 --> 01:14:28.390 align:middle line:84%
+this integral from a, say, to
+1 of 1 over square root of x--
+
+01:14:28.390 --> 01:14:30.910 align:middle line:90%
+a is strictly positive--
+
+01:14:30.910 --> 01:14:32.470 align:middle line:90%
+dx.
+
+01:14:32.470 --> 01:14:42.170 align:middle line:84%
+This thing here is capital
+F of 1 minus capital F of a.
+
+01:14:42.170 --> 01:14:45.730 align:middle line:84%
+And so capital F was
+this function here.
+
+01:14:45.730 --> 01:14:48.090 align:middle line:90%
+So this is 2, right?
+
+01:14:48.090 --> 01:14:51.810 align:middle line:84%
+2-- square root of 1
+plus 1, so that's 2--
+
+01:14:51.810 --> 01:14:56.810 align:middle line:90%
+minus 2 square root of a.
+
+01:14:56.810 --> 01:15:01.310 align:middle line:84%
+But now, as a goes to 0,
+this here converts to 2.
+
+01:15:01.310 --> 01:15:04.180 align:middle line:84%
+So this improper
+integral exists.
+
+01:15:04.180 --> 01:15:04.680 align:middle line:90%
+So yes.
+
+01:15:04.680 --> 01:15:07.850 align:middle line:90%
+
+
+01:15:07.850 --> 01:15:15.590 align:middle line:84%
+This one here exists
+and is equal to 2.
+
+01:15:15.590 --> 01:15:20.430 align:middle line:90%
+
+
+01:15:20.430 --> 01:15:26.460 align:middle line:84%
+Let's look at one
+last example of this.
+
+01:15:26.460 --> 01:15:46.990 align:middle line:90%
+
+
+01:15:46.990 --> 01:15:51.870 align:middle line:84%
+And so this is another example
+where the function is-- so
+
+01:15:51.870 --> 01:15:58.170 align:middle line:84%
+again, in this sort of example,
+the function was unbounded.
+
+01:15:58.170 --> 01:16:00.590 align:middle line:90%
+It's blowing up.
+
+01:16:00.590 --> 01:16:02.090 align:middle line:90%
+It's going to infinity.
+
+01:16:02.090 --> 01:16:05.270 align:middle line:84%
+But the area below the graph--
+that's where we calculated--
+
+01:16:05.270 --> 01:16:08.150 align:middle line:90%
+is still actually finite.
+
+01:16:08.150 --> 01:16:12.520 align:middle line:84%
+But what if the function is
+blowing up faster than this?
+
+01:16:12.520 --> 01:16:18.110 align:middle line:84%
+So this is an example like
+this, that if you take--
+
+01:16:18.110 --> 01:16:21.470 align:middle line:84%
+it's, again, the
+interval from 0 to 1.
+
+01:16:21.470 --> 01:16:23.390 align:middle line:84%
+And the function
+is now-- now it's
+
+01:16:23.390 --> 01:16:28.830 align:middle line:84%
+going to infinite
+faster as x goes to 0.
+
+01:16:28.830 --> 01:16:31.470 align:middle line:90%
+So this is the function.
+
+01:16:31.470 --> 01:16:35.690 align:middle line:84%
+And so now we want-- what
+we're again asking is,
+
+01:16:35.690 --> 01:16:43.056 align:middle line:84%
+does the improper integral-- so
+does this improper integral here
+
+01:16:43.056 --> 01:16:43.556 align:middle line:90%
+exist?
+
+01:16:43.556 --> 01:16:48.050 align:middle line:90%
+
+
+01:16:48.050 --> 01:16:51.430 align:middle line:84%
+And let's see if
+it exists or not.
+
+01:16:51.430 --> 01:16:54.570 align:middle line:84%
+So we use the fundamental
+theorem of calculus again.
+
+01:16:54.570 --> 01:16:57.610 align:middle line:84%
+We observe that the
+function, F of x
+
+01:16:57.610 --> 01:17:02.770 align:middle line:84%
+equal to log of x, that the
+derivative of this function
+
+01:17:02.770 --> 01:17:04.730 align:middle line:90%
+is just 1 over x.
+
+01:17:04.730 --> 01:17:08.550 align:middle line:84%
+So this means that if
+we integrate from a-- a
+
+01:17:08.550 --> 01:17:14.570 align:middle line:84%
+is now, again, strictly
+positive, strictly positive.
+
+01:17:14.570 --> 01:17:19.610 align:middle line:84%
+So if we're looking
+at this integral here,
+
+01:17:19.610 --> 01:17:22.090 align:middle line:84%
+this here is-- because
+of the second version
+
+01:17:22.090 --> 01:17:24.850 align:middle line:84%
+of the fundamental theorem
+of calculus, we have
+
+01:17:24.850 --> 01:17:30.230 align:middle line:84%
+that this here is F
+in 1 minus F in a.
+
+01:17:30.230 --> 01:17:33.190 align:middle line:90%
+
+
+01:17:33.190 --> 01:17:39.150 align:middle line:84%
+And this thing is now
+log of 1-- that's 0--
+
+01:17:39.150 --> 01:17:41.670 align:middle line:90%
+minus log of a.
+
+01:17:41.670 --> 01:17:43.790 align:middle line:90%
+Log of a is--
+
+01:17:43.790 --> 01:17:47.910 align:middle line:84%
+right, so log of a--
+so this is like that.
+
+01:17:47.910 --> 01:17:51.670 align:middle line:84%
+But now, remember that
+the log function here--
+
+01:17:51.670 --> 01:17:55.170 align:middle line:84%
+the log function
+looks like this.
+
+01:17:55.170 --> 01:17:58.390 align:middle line:90%
+This is the log function.
+
+01:17:58.390 --> 01:18:02.950 align:middle line:84%
+So you see that as
+you go towards 0 here,
+
+01:18:02.950 --> 01:18:05.930 align:middle line:84%
+this number here goes
+to minus infinity.
+
+01:18:05.930 --> 01:18:08.630 align:middle line:90%
+So this here goes to infinity.
+
+01:18:08.630 --> 01:18:11.350 align:middle line:90%
+So it doesn't converge.
+
+01:18:11.350 --> 01:18:13.850 align:middle line:90%
+So the answer is no.
+
+01:18:13.850 --> 01:18:19.936 align:middle line:90%
+
+
+01:18:19.936 --> 01:18:25.670 align:middle line:84%
+And so the very last thing
+I want to talk about is,
+
+01:18:25.670 --> 01:18:28.150 align:middle line:90%
+I'll just give you a definition.
+
+01:18:28.150 --> 01:18:29.720 align:middle line:90%
+So this is arc length.
+
+01:18:29.720 --> 01:18:33.650 align:middle line:90%
+
+
+01:18:33.650 --> 01:18:38.200 align:middle line:84%
+So suppose you take
+a curve in the plane.
+
+01:18:38.200 --> 01:18:44.690 align:middle line:90%
+
+
+01:18:44.690 --> 01:18:48.660 align:middle line:84%
+So suppose that I have
+a curve in the plane.
+
+01:18:48.660 --> 01:18:56.490 align:middle line:90%
+
+
+01:18:56.490 --> 01:19:00.290 align:middle line:90%
+So gamma of t.
+
+01:19:00.290 --> 01:19:01.630 align:middle line:90%
+This is a curve.
+
+01:19:01.630 --> 01:19:03.370 align:middle line:90%
+So it has-- in the plane.
+
+01:19:03.370 --> 01:19:07.530 align:middle line:84%
+So it means that it has two
+coordinates called gamma of s.
+
+01:19:07.530 --> 01:19:09.220 align:middle line:84%
+I think that's what
+I did in the notes.
+
+01:19:09.220 --> 01:19:12.370 align:middle line:90%
+
+
+01:19:12.370 --> 01:19:15.810 align:middle line:90%
+So this here is the curve.
+
+01:19:15.810 --> 01:19:22.630 align:middle line:84%
+And I'm assuming that f
+and g are differentiable.
+
+01:19:22.630 --> 01:19:25.210 align:middle line:90%
+
+
+01:19:25.210 --> 01:19:31.130 align:middle line:84%
+And the derivative
+here are continuous.
+
+01:19:31.130 --> 01:19:33.870 align:middle line:90%
+
+
+01:19:33.870 --> 01:19:35.950 align:middle line:90%
+So suppose I have such a curve.
+
+01:19:35.950 --> 01:19:41.590 align:middle line:84%
+And s here is running in
+an interval from a to b.
+
+01:19:41.590 --> 01:19:45.950 align:middle line:84%
+Then the length of the
+curve is, by definition,
+
+01:19:45.950 --> 01:19:54.270 align:middle line:84%
+the integral from a to b
+of square root of f prime
+
+01:19:54.270 --> 01:20:04.550 align:middle line:84%
+of s squared plus g
+prime of s squared ds.
+
+01:20:04.550 --> 01:20:07.530 align:middle line:84%
+So this is the
+length of the curve.
+
+01:20:07.530 --> 01:20:11.630 align:middle line:84%
+Maybe I'll talk a little bit
+more about that next time.
+
+01:20:11.630 --> 01:20:12.490 align:middle line:90%
+OK.
+
+01:20:12.490 --> 01:20:14.510 align:middle line:90%
+So I'll stop here.
+
+01:20:14.510 --> 01:20:19.310 align:middle line:90%
+And I'll post the notes.
+
+01:20:19.310 --> 01:20:22.350 align:middle line:90%
+Any questions?
+
+01:20:22.350 --> 01:20:25.060 align:middle line:90%
+OK, great.
+
+01:20:25.060 --> 01:20:28.000 align:middle line:90%

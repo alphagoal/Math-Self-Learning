@@ -1,0 +1,4320 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.964 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.964 --> 00:00:03.928 align:middle line:90%
+[RUSTLING]
+
+00:00:03.928 --> 00:00:06.383 align:middle line:90%
+[CLICKING]
+
+00:00:06.383 --> 00:00:10.320 align:middle line:90%
+
+
+00:00:10.320 --> 00:00:12.160 align:middle line:84%
+TOBIAS COLDING: Last
+time, we talked about--
+
+00:00:12.160 --> 00:00:16.120 align:middle line:84%
+one of the things we talked
+about last time was series.
+
+00:00:16.120 --> 00:00:19.080 align:middle line:90%
+So we'll continue on that today.
+
+00:00:19.080 --> 00:00:22.127 align:middle line:84%
+So series is that
+you have a sequence.
+
+00:00:22.127 --> 00:00:23.460 align:middle line:90%
+You're starting with a sequence.
+
+00:00:23.460 --> 00:00:24.810 align:middle line:90%
+So a n is a sequence.
+
+00:00:24.810 --> 00:00:28.600 align:middle line:90%
+
+
+00:00:28.600 --> 00:00:31.020 align:middle line:84%
+And then you form
+a new sequence.
+
+00:00:31.020 --> 00:00:32.350 align:middle line:90%
+So you form a new sequence.
+
+00:00:32.350 --> 00:00:35.320 align:middle line:90%
+
+
+00:00:35.320 --> 00:00:45.030 align:middle line:84%
+A new sequence from
+a n as follows.
+
+00:00:45.030 --> 00:00:51.400 align:middle line:90%
+
+
+00:00:51.400 --> 00:01:00.060 align:middle line:84%
+So the new sequence, let's call
+that Sn, and S1 is just a1,
+
+00:01:00.060 --> 00:01:14.940 align:middle line:84%
+S2 is a1 plus a2, S3 is a1
+plus a2 plus a3, and so on.
+
+00:01:14.940 --> 00:01:21.720 align:middle line:84%
+So this is the sum of
+the first n elements.
+
+00:01:21.720 --> 00:01:24.740 align:middle line:90%
+
+
+00:01:24.740 --> 00:01:29.890 align:middle line:90%
+And you typically write a Sn.
+
+00:01:29.890 --> 00:01:32.820 align:middle line:90%
+
+
+00:01:32.820 --> 00:01:37.200 align:middle line:84%
+You write Sn as
+the sum here from--
+
+00:01:37.200 --> 00:01:39.760 align:middle line:84%
+and then, in this case,
+I'm starting at 1.
+
+00:01:39.760 --> 00:01:47.740 align:middle line:84%
+But you could start at something
+else, i equal to 1, to n of ai.
+
+00:01:47.740 --> 00:01:50.700 align:middle line:90%
+And so to say that's the--
+
+00:01:50.700 --> 00:01:52.420 align:middle line:90%
+so and you write the series.
+
+00:01:52.420 --> 00:01:56.020 align:middle line:84%
+You also write-- so this is
+slight abuse of notation,
+
+00:01:56.020 --> 00:02:06.430 align:middle line:84%
+that you write this infinite
+sum, sorry, as the series.
+
+00:02:06.430 --> 00:02:08.229 align:middle line:90%
+So you think about this as--
+
+00:02:08.229 --> 00:02:09.729 align:middle line:90%
+you think about this thing here.
+
+00:02:09.729 --> 00:02:12.070 align:middle line:84%
+When you write this
+thing here, you really
+
+00:02:12.070 --> 00:02:16.150 align:middle line:90%
+think about the sequence Sn.
+
+00:02:16.150 --> 00:02:27.750 align:middle line:84%
+So write this for
+the sequence Sn.
+
+00:02:27.750 --> 00:02:32.720 align:middle line:90%
+And so the series converge.
+
+00:02:32.720 --> 00:02:40.030 align:middle line:90%
+
+
+00:02:40.030 --> 00:02:52.730 align:middle line:84%
+This means that the
+sequence Sn converges.
+
+00:02:52.730 --> 00:02:57.450 align:middle line:90%
+
+
+00:02:57.450 --> 00:03:00.910 align:middle line:90%
+And so the most--
+
+00:03:00.910 --> 00:03:04.890 align:middle line:84%
+so remember that a sequence
+converges-- so recall,
+
+00:03:04.890 --> 00:03:09.010 align:middle line:84%
+by the Cauchy
+convergence theorem--
+
+00:03:09.010 --> 00:03:25.690 align:middle line:84%
+so recall by the Cauchy
+convergence theorem
+
+00:03:25.690 --> 00:03:42.980 align:middle line:84%
+that Sn converge if and only
+if Sn is a Cauchy sequence.
+
+00:03:42.980 --> 00:03:51.010 align:middle line:90%
+
+
+00:03:51.010 --> 00:03:57.190 align:middle line:84%
+And a Cauchy sequence just means
+that if you go sufficiently far
+
+00:03:57.190 --> 00:04:00.430 align:middle line:84%
+out and you're looking
+at this difference here,
+
+00:04:00.430 --> 00:04:07.110 align:middle line:84%
+then this here is
+small, provided
+
+00:04:07.110 --> 00:04:11.230 align:middle line:84%
+that m and n are larger
+than some capital
+
+00:04:11.230 --> 00:04:17.003 align:middle line:84%
+N, where this here is
+chosen depending on epsilon.
+
+00:04:17.003 --> 00:04:20.269 align:middle line:84%
+That's what it means to
+be a Cauchy sequence.
+
+00:04:20.269 --> 00:04:30.790 align:middle line:84%
+So in particular, of course,
+if you take-- so in particular,
+
+00:04:30.790 --> 00:04:37.020 align:middle line:90%
+if you take m to be n plus 1--
+
+00:04:37.020 --> 00:04:39.650 align:middle line:90%
+
+
+00:04:39.650 --> 00:04:40.150 align:middle line:90%
+sorry.
+
+00:04:40.150 --> 00:04:46.210 align:middle line:90%
+Let me say m to be n minus 1.
+
+00:04:46.210 --> 00:04:47.950 align:middle line:90%
+Doesn't matter.
+
+00:04:47.950 --> 00:04:54.520 align:middle line:84%
+So if I take it like
+this, then Sn minus Sm.
+
+00:04:54.520 --> 00:05:00.560 align:middle line:84%
+Well, this here is some
+of the first n elements,
+
+00:05:00.560 --> 00:05:03.360 align:middle line:84%
+and from that we
+have to subtract
+
+00:05:03.360 --> 00:05:09.160 align:middle line:84%
+the sum of the first
+n minus 1 elements.
+
+00:05:09.160 --> 00:05:11.100 align:middle line:84%
+So this here-- just
+leave this here.
+
+00:05:11.100 --> 00:05:13.520 align:middle line:90%
+Cancel out all of these.
+
+00:05:13.520 --> 00:05:14.990 align:middle line:84%
+And so you're just
+left with a n.
+
+00:05:14.990 --> 00:05:17.600 align:middle line:90%
+
+
+00:05:17.600 --> 00:05:24.920 align:middle line:84%
+So this means that if it is
+converging, then in particular,
+
+00:05:24.920 --> 00:05:32.960 align:middle line:84%
+a n here has to go to 0
+as n goes to infinity.
+
+00:05:32.960 --> 00:05:35.720 align:middle line:84%
+Because in fact,
+this whole difference
+
+00:05:35.720 --> 00:05:39.520 align:middle line:84%
+here, as long as m and n
+are sufficiently large,
+
+00:05:39.520 --> 00:05:43.320 align:middle line:90%
+has to be as small as you want.
+
+00:05:43.320 --> 00:05:46.600 align:middle line:84%
+And so in a particularly
+special case
+
+00:05:46.600 --> 00:05:49.960 align:middle line:84%
+where this here is
+the one prior to that,
+
+00:05:49.960 --> 00:05:53.380 align:middle line:84%
+then you see that the a
+n will have to go to 0.
+
+00:05:53.380 --> 00:05:56.820 align:middle line:84%
+So again, if you see a
+series, the first thing--
+
+00:05:56.820 --> 00:05:58.440 align:middle line:90%
+you do don't apply any tests.
+
+00:05:58.440 --> 00:06:02.540 align:middle line:84%
+The first thing that you check
+is that this element here
+
+00:06:02.540 --> 00:06:05.360 align:middle line:90%
+goes to 0.
+
+00:06:05.360 --> 00:06:09.390 align:middle line:84%
+Now what are the most
+important series?
+
+00:06:09.390 --> 00:06:12.060 align:middle line:90%
+
+
+00:06:12.060 --> 00:06:15.690 align:middle line:84%
+So the most important
+is the geometric series.
+
+00:06:15.690 --> 00:06:20.980 align:middle line:90%
+
+
+00:06:20.980 --> 00:06:23.020 align:middle line:84%
+And the reason it's
+the most important
+
+00:06:23.020 --> 00:06:25.580 align:middle line:84%
+is that it can be
+used to determine--
+
+00:06:25.580 --> 00:06:29.100 align:middle line:84%
+it's easy to determine whether
+it's converging or not.
+
+00:06:29.100 --> 00:06:34.020 align:middle line:84%
+And it can be used to
+determine using the test
+
+00:06:34.020 --> 00:06:36.300 align:middle line:90%
+whether other series converge.
+
+00:06:36.300 --> 00:06:40.380 align:middle line:84%
+And so the geometric series
+is that you take a sum.
+
+00:06:40.380 --> 00:06:43.400 align:middle line:90%
+Typically, here, you start at 0.
+
+00:06:43.400 --> 00:06:45.100 align:middle line:90%
+You don't have to start at 0.
+
+00:06:45.100 --> 00:06:47.680 align:middle line:90%
+But of course, the limit.
+
+00:06:47.680 --> 00:06:48.180 align:middle line:90%
+The limit.
+
+00:06:48.180 --> 00:06:52.320 align:middle line:84%
+If you take a series, then,
+to say that it's converging,
+
+00:06:52.320 --> 00:06:55.520 align:middle line:84%
+meaning that the
+sequence Sn converges,
+
+00:06:55.520 --> 00:07:00.580 align:middle line:84%
+and the limit of
+these here is also.
+
+00:07:00.580 --> 00:07:03.320 align:middle line:84%
+And that's where there's
+this abuse of notation.
+
+00:07:03.320 --> 00:07:05.380 align:middle line:90%
+It's denoted by the same thing.
+
+00:07:05.380 --> 00:07:11.640 align:middle line:84%
+So this thing here is playing
+the role of the sequence,
+
+00:07:11.640 --> 00:07:15.160 align:middle line:84%
+but it's also
+denoting the limit.
+
+00:07:15.160 --> 00:07:18.000 align:middle line:90%
+That's just a standard thing.
+
+00:07:18.000 --> 00:07:20.030 align:middle line:84%
+So in this case, I
+was starting from 1.
+
+00:07:20.030 --> 00:07:26.080 align:middle line:90%
+
+
+00:07:26.080 --> 00:07:29.360 align:middle line:84%
+So now your matrix
+series is where
+
+00:07:29.360 --> 00:07:34.440 align:middle line:84%
+you take some number, c, and
+then you multiply it by itself.
+
+00:07:34.440 --> 00:07:40.100 align:middle line:84%
+This is some real number, and
+you multiply it with itself
+
+00:07:40.100 --> 00:07:44.840 align:middle line:84%
+i times, where i runs
+from 0 to infinity.
+
+00:07:44.840 --> 00:07:48.230 align:middle line:84%
+And when i is zero,
+this is meant to be 1.
+
+00:07:48.230 --> 00:07:51.150 align:middle line:90%
+
+
+00:07:51.150 --> 00:07:54.450 align:middle line:84%
+And the reason why I
+want to do it here at 0
+
+00:07:54.450 --> 00:08:02.050 align:middle line:84%
+is that it's probably worth
+remembering that this here, it's
+
+00:08:02.050 --> 00:08:03.690 align:middle line:90%
+easy to deduce.
+
+00:08:03.690 --> 00:08:10.550 align:middle line:84%
+But it's such a standard fact
+that this here is converging.
+
+00:08:10.550 --> 00:08:13.290 align:middle line:90%
+
+
+00:08:13.290 --> 00:08:15.610 align:middle line:84%
+So the geometric
+series converges,
+
+00:08:15.610 --> 00:08:20.490 align:middle line:84%
+provided that the absolute
+value of c is less than 1.
+
+00:08:20.490 --> 00:08:23.300 align:middle line:84%
+And when it is, this
+here is the limit.
+
+00:08:23.300 --> 00:08:26.130 align:middle line:90%
+
+
+00:08:26.130 --> 00:08:33.750 align:middle line:84%
+So then you can
+ask if c here is 1,
+
+00:08:33.750 --> 00:08:36.130 align:middle line:90%
+so if c is actually equal to 1.
+
+00:08:36.130 --> 00:08:39.929 align:middle line:84%
+Not just the absolute value,
+but if c is actually equal to 1,
+
+00:08:39.929 --> 00:08:42.710 align:middle line:84%
+then it's just 1 times
+itself a number of times.
+
+00:08:42.710 --> 00:08:45.250 align:middle line:90%
+But that does not go to 0.
+
+00:08:45.250 --> 00:08:47.650 align:middle line:90%
+So that's clearly diverging.
+
+00:08:47.650 --> 00:08:51.570 align:middle line:84%
+And if it's minus 1 multiply
+itself by a number of times,
+
+00:08:51.570 --> 00:08:54.350 align:middle line:84%
+then it just alternates
+between 1 and negative 1.
+
+00:08:54.350 --> 00:08:55.870 align:middle line:90%
+So it doesn't go to 0.
+
+00:08:55.870 --> 00:08:59.430 align:middle line:90%
+So it's divergent here.
+
+00:08:59.430 --> 00:09:04.510 align:middle line:84%
+And in fact, as long as c
+here is bigger or equal to--
+
+00:09:04.510 --> 00:09:07.590 align:middle line:84%
+the absolute value is
+bigger or equal to 1,
+
+00:09:07.590 --> 00:09:10.190 align:middle line:84%
+because you take this
+number and multiply it
+
+00:09:10.190 --> 00:09:14.550 align:middle line:84%
+by itself a number of times,
+if the absolute value of c
+
+00:09:14.550 --> 00:09:17.930 align:middle line:84%
+is bigger than 1, then it
+actually is even blowing up.
+
+00:09:17.930 --> 00:09:22.510 align:middle line:84%
+It becomes larger and
+larger in absolute value.
+
+00:09:22.510 --> 00:09:26.210 align:middle line:84%
+So it's divergent here
+and it's convergent.
+
+00:09:26.210 --> 00:09:28.810 align:middle line:90%
+So that was kind of easy.
+
+00:09:28.810 --> 00:09:32.270 align:middle line:84%
+And it was easy to
+determine why we did--
+
+00:09:32.270 --> 00:09:38.230 align:middle line:84%
+this little trick will
+determine what this limit was.
+
+00:09:38.230 --> 00:09:41.350 align:middle line:84%
+And this is a trick that
+goes back, I think, certainly
+
+00:09:41.350 --> 00:09:44.950 align:middle line:84%
+to the ancient Greeks,
+I mean, this idea.
+
+00:09:44.950 --> 00:09:47.850 align:middle line:84%
+And you can do this with various
+other things, these things
+
+00:09:47.850 --> 00:09:51.630 align:middle line:84%
+about adding things in
+different order kind of stuff,
+
+00:09:51.630 --> 00:09:55.510 align:middle line:90%
+or multiplying by something.
+
+00:09:55.510 --> 00:09:57.150 align:middle line:90%
+So that was the most important.
+
+00:09:57.150 --> 00:10:00.030 align:middle line:84%
+And again, we'll come back to
+why it is the most important,
+
+00:10:00.030 --> 00:10:03.410 align:middle line:84%
+but it's because it can
+be used to determine
+
+00:10:03.410 --> 00:10:06.610 align:middle line:84%
+whether other series
+converge or not.
+
+00:10:06.610 --> 00:10:17.090 align:middle line:84%
+Another classical, but that
+sits inside a family of series
+
+00:10:17.090 --> 00:10:19.730 align:middle line:90%
+is the harmonic series.
+
+00:10:19.730 --> 00:10:23.190 align:middle line:84%
+So this is an
+example of a series.
+
+00:10:23.190 --> 00:10:30.770 align:middle line:84%
+It's one series that sits inside
+a larger family of series.
+
+00:10:30.770 --> 00:10:35.170 align:middle line:84%
+And so the harmonic series
+is when you take 1 over n
+
+00:10:35.170 --> 00:10:38.890 align:middle line:84%
+and you're summing
+here like that.
+
+00:10:38.890 --> 00:10:44.470 align:middle line:84%
+This series here, and we saw
+that last time, is divergent.
+
+00:10:44.470 --> 00:10:47.620 align:middle line:90%
+
+
+00:10:47.620 --> 00:10:51.900 align:middle line:84%
+And in fact, the larger series
+that is sitting inside is the--
+
+00:10:51.900 --> 00:10:58.270 align:middle line:90%
+sits inside a larger family.
+
+00:10:58.270 --> 00:11:03.220 align:middle line:90%
+
+
+00:11:03.220 --> 00:11:06.140 align:middle line:84%
+And that larger
+family is where you're
+
+00:11:06.140 --> 00:11:11.940 align:middle line:84%
+summing from 1 to infinity
+of 1 over n to the alpha.
+
+00:11:11.940 --> 00:11:16.860 align:middle line:84%
+And here, alpha is taken
+to be bigger or equal to 1.
+
+00:11:16.860 --> 00:11:19.580 align:middle line:84%
+And so in the case where
+alpha is equal to 1,
+
+00:11:19.580 --> 00:11:21.280 align:middle line:90%
+that's a harmonic series.
+
+00:11:21.280 --> 00:11:23.020 align:middle line:90%
+These ones diverge.
+
+00:11:23.020 --> 00:11:27.460 align:middle line:84%
+But if alpha-- and so this
+here is for alpha equal to 1.
+
+00:11:27.460 --> 00:11:29.690 align:middle line:84%
+It's diverged because
+it's the harmonic series.
+
+00:11:29.690 --> 00:11:32.580 align:middle line:90%
+
+
+00:11:32.580 --> 00:11:36.020 align:middle line:84%
+And when alpha is strictly
+bigger than 1, what we
+
+00:11:36.020 --> 00:11:38.220 align:middle line:84%
+just-- last time, we
+just saw one example
+
+00:11:38.220 --> 00:11:41.260 align:middle line:84%
+of this when alpha
+was equal to 2,
+
+00:11:41.260 --> 00:11:43.080 align:middle line:90%
+and we saw that that converged.
+
+00:11:43.080 --> 00:11:47.520 align:middle line:84%
+But in fact, you can prove that
+for any alpha strictly bigger
+
+00:11:47.520 --> 00:11:49.910 align:middle line:90%
+than 1, it does converge.
+
+00:11:49.910 --> 00:11:53.600 align:middle line:90%
+
+
+00:11:53.600 --> 00:11:57.640 align:middle line:84%
+And the typical thing
+to use there is--
+
+00:11:57.640 --> 00:12:00.400 align:middle line:84%
+and we'll talk about that
+at some later lecture
+
+00:12:00.400 --> 00:12:02.210 align:middle line:84%
+is what's called
+the integral test.
+
+00:12:02.210 --> 00:12:09.680 align:middle line:90%
+
+
+00:12:09.680 --> 00:12:22.470 align:middle line:84%
+Now there is-- when you have a
+series, then most, but not all--
+
+00:12:22.470 --> 00:12:25.280 align:middle line:90%
+
+
+00:12:25.280 --> 00:12:30.800 align:middle line:84%
+most tests, but again,
+not all, determine really
+
+00:12:30.800 --> 00:12:35.520 align:middle line:84%
+whether the series is what's
+called absolutely convergent.
+
+00:12:35.520 --> 00:12:36.968 align:middle line:84%
+So what is absolutely
+convergent?
+
+00:12:36.968 --> 00:12:38.260 align:middle line:90%
+We talked about that last time.
+
+00:12:38.260 --> 00:12:41.480 align:middle line:90%
+But let me remind you.
+
+00:12:41.480 --> 00:12:44.180 align:middle line:90%
+Absolute convergence.
+
+00:12:44.180 --> 00:12:48.900 align:middle line:90%
+
+
+00:12:48.900 --> 00:12:56.100 align:middle line:84%
+So if you take a
+series here, then here
+
+00:12:56.100 --> 00:12:59.100 align:middle line:90%
+is absolutely convergent.
+
+00:12:59.100 --> 00:13:00.880 align:middle line:90%
+Is absolutely convergent.
+
+00:13:00.880 --> 00:13:09.140 align:middle line:90%
+
+
+00:13:09.140 --> 00:13:17.380 align:middle line:84%
+This just means-- it means that
+the series where you're slapping
+
+00:13:17.380 --> 00:13:22.180 align:middle line:84%
+on absolute value,
+so this thing here,
+
+00:13:22.180 --> 00:13:24.520 align:middle line:84%
+means that this series
+here is convergent.
+
+00:13:24.520 --> 00:13:29.980 align:middle line:90%
+
+
+00:13:29.980 --> 00:13:32.360 align:middle line:90%
+And so it's easy to see.
+
+00:13:32.360 --> 00:13:37.700 align:middle line:90%
+So easy to see.
+
+00:13:37.700 --> 00:13:41.020 align:middle line:90%
+And we saw this last time.
+
+00:13:41.020 --> 00:13:43.610 align:middle line:84%
+And it was just from the
+Cauchy convergence theorem.
+
+00:13:43.610 --> 00:13:52.350 align:middle line:90%
+
+
+00:13:52.350 --> 00:14:05.750 align:middle line:84%
+It is easy to see that absolute
+convergence implies convergence,
+
+00:14:05.750 --> 00:14:07.750 align:middle line:90%
+but not the other way around.
+
+00:14:07.750 --> 00:14:12.430 align:middle line:84%
+So Cauchy convergence theorem
+gives you this implication.
+
+00:14:12.430 --> 00:14:17.350 align:middle line:84%
+Why it's not the case that
+you have the other way around?
+
+00:14:17.350 --> 00:14:25.670 align:middle line:84%
+And that is because what's
+called the alternating series.
+
+00:14:25.670 --> 00:14:29.550 align:middle line:90%
+So the alternating series.
+
+00:14:29.550 --> 00:14:30.570 align:middle line:90%
+Alternating.
+
+00:14:30.570 --> 00:14:34.550 align:middle line:90%
+
+
+00:14:34.550 --> 00:14:38.270 align:middle line:84%
+And there's something called
+the alternating series test.
+
+00:14:38.270 --> 00:14:41.810 align:middle line:84%
+But let me just
+explain to you in words
+
+00:14:41.810 --> 00:14:44.530 align:middle line:84%
+why the alternating
+series converge.
+
+00:14:44.530 --> 00:14:46.580 align:middle line:84%
+So the alternating
+harmonic series.
+
+00:14:46.580 --> 00:14:54.330 align:middle line:90%
+
+
+00:14:54.330 --> 00:15:01.330 align:middle line:84%
+So if you take this series
+here minus 1 to the n times--
+
+00:15:01.330 --> 00:15:07.410 align:middle line:84%
+over n and you sum
+here from 0 to--
+
+00:15:07.410 --> 00:15:11.490 align:middle line:84%
+sorry, not 0, because you're
+dividing by 0, so from 1
+
+00:15:11.490 --> 00:15:16.090 align:middle line:84%
+to infinity, this here is
+called the alternating series.
+
+00:15:16.090 --> 00:15:18.930 align:middle line:90%
+Alternating harmonic series.
+
+00:15:18.930 --> 00:15:22.290 align:middle line:84%
+If you were slapping an
+absolute value sign on it,
+
+00:15:22.290 --> 00:15:28.850 align:middle line:84%
+this means that a n here is
+minus 1 to the power n over n.
+
+00:15:28.850 --> 00:15:34.930 align:middle line:84%
+So if you take the
+absolute value sign of a n,
+
+00:15:34.930 --> 00:15:37.410 align:middle line:90%
+then this here is just 1.
+
+00:15:37.410 --> 00:15:39.370 align:middle line:90%
+So this is 1 over n.
+
+00:15:39.370 --> 00:15:43.270 align:middle line:84%
+So this here is the
+corresponding series when
+
+00:15:43.270 --> 00:15:45.070 align:middle line:90%
+you're slapping absolute value.
+
+00:15:45.070 --> 00:15:46.640 align:middle line:90%
+And this is the harmonic series.
+
+00:15:46.640 --> 00:15:51.910 align:middle line:90%
+
+
+00:15:51.910 --> 00:15:55.170 align:middle line:90%
+And this is divergent.
+
+00:15:55.170 --> 00:15:57.830 align:middle line:90%
+That was what we just discussed.
+
+00:15:57.830 --> 00:16:00.722 align:middle line:84%
+Now why is this series
+here convergent?
+
+00:16:00.722 --> 00:16:04.590 align:middle line:84%
+We'll probably come back to that
+in a later lecture in a more
+
+00:16:04.590 --> 00:16:08.060 align:middle line:84%
+general setting, but let
+me just explain this.
+
+00:16:08.060 --> 00:16:11.910 align:middle line:90%
+
+
+00:16:11.910 --> 00:16:21.030 align:middle line:84%
+And so the idea is that
+before you start summing,
+
+00:16:21.030 --> 00:16:25.030 align:middle line:84%
+imagine that you have here--
+before you start your sum,
+
+00:16:25.030 --> 00:16:28.642 align:middle line:84%
+then you are in a neutral
+position, which is 1.
+
+00:16:28.642 --> 00:16:30.030 align:middle line:90%
+0, sorry.
+
+00:16:30.030 --> 00:16:35.350 align:middle line:90%
+And then you do the first thing.
+
+00:16:35.350 --> 00:16:38.210 align:middle line:90%
+You're looking at S1.
+
+00:16:38.210 --> 00:16:43.280 align:middle line:84%
+But S1 will bring
+you down, because S1
+
+00:16:43.280 --> 00:16:47.740 align:middle line:84%
+is just equal to minus
+1 to the power 1.
+
+00:16:47.740 --> 00:16:49.060 align:middle line:90%
+But that's minus 1.
+
+00:16:49.060 --> 00:16:51.280 align:middle line:90%
+So it's minus 1 over n.
+
+00:16:51.280 --> 00:16:53.800 align:middle line:90%
+This is the first element.
+
+00:16:53.800 --> 00:16:56.040 align:middle line:84%
+So that's going
+to bring you down.
+
+00:16:56.040 --> 00:16:59.720 align:middle line:84%
+Let me just
+exaggerate the picture
+
+00:16:59.720 --> 00:17:04.359 align:middle line:84%
+and bring you down
+here to minus 1 over n.
+
+00:17:04.359 --> 00:17:08.180 align:middle line:90%
+Minus 1 over-- n is equal to 1.
+
+00:17:08.180 --> 00:17:11.160 align:middle line:90%
+So this is minus 1.
+
+00:17:11.160 --> 00:17:15.000 align:middle line:90%
+This is how the series starts.
+
+00:17:15.000 --> 00:17:18.680 align:middle line:90%
+And so the next element is S2.
+
+00:17:18.680 --> 00:17:21.020 align:middle line:90%
+But S2 is minus 1.
+
+00:17:21.020 --> 00:17:22.760 align:middle line:90%
+That was the first element.
+
+00:17:22.760 --> 00:17:30.480 align:middle line:84%
+And then plus and then
+minus 1 squared over 2.
+
+00:17:30.480 --> 00:17:33.920 align:middle line:84%
+So this is-- and you would
+be tempted, but it's not--
+
+00:17:33.920 --> 00:17:36.300 align:middle line:90%
+don't add them at this stage.
+
+00:17:36.300 --> 00:17:40.610 align:middle line:84%
+But just looking
+at it like this.
+
+00:17:40.610 --> 00:17:48.460 align:middle line:84%
+So the next-- so
+this here is S1.
+
+00:17:48.460 --> 00:17:50.700 align:middle line:90%
+Let me just write it down here.
+
+00:17:50.700 --> 00:17:52.580 align:middle line:90%
+This is S1.
+
+00:17:52.580 --> 00:17:57.780 align:middle line:84%
+When you're looking at S2, then
+you're coming back towards 0.
+
+00:17:57.780 --> 00:18:02.440 align:middle line:84%
+But you don't go as far
+up as you went down,
+
+00:18:02.440 --> 00:18:05.580 align:middle line:90%
+because it's 1 over 2.
+
+00:18:05.580 --> 00:18:06.080 align:middle line:90%
+Right.
+
+00:18:06.080 --> 00:18:08.740 align:middle line:90%
+So this here is S2.
+
+00:18:08.740 --> 00:18:12.300 align:middle line:84%
+And then you see
+the next one is--
+
+00:18:12.300 --> 00:18:13.360 align:middle line:90%
+the next one.
+
+00:18:13.360 --> 00:18:18.500 align:middle line:84%
+If you start here, then you
+are supposed to-- so for S3,
+
+00:18:18.500 --> 00:18:26.220 align:middle line:84%
+it's really S2 plus minus
+1 to the power 3 over 3.
+
+00:18:26.220 --> 00:18:32.100 align:middle line:84%
+So this is S2 minus, because
+minus 1 to the power 3
+
+00:18:32.100 --> 00:18:35.400 align:middle line:90%
+is a negative sign like that.
+
+00:18:35.400 --> 00:18:38.800 align:middle line:90%
+So the next one here--
+
+00:18:38.800 --> 00:18:42.460 align:middle line:84%
+so you're starting here before
+you have done any summation.
+
+00:18:42.460 --> 00:18:44.000 align:middle line:90%
+You're starting at 0.
+
+00:18:44.000 --> 00:18:45.440 align:middle line:90%
+You're brought down here.
+
+00:18:45.440 --> 00:18:47.960 align:middle line:90%
+You come up here.
+
+00:18:47.960 --> 00:18:50.300 align:middle line:84%
+But then in S3,
+you're going down,
+
+00:18:50.300 --> 00:18:53.600 align:middle line:84%
+but you don't go as far
+down as the previous one.
+
+00:18:53.600 --> 00:18:55.320 align:middle line:90%
+So you're going down here.
+
+00:18:55.320 --> 00:18:58.220 align:middle line:84%
+And so you're really
+continuing this process.
+
+00:18:58.220 --> 00:19:01.000 align:middle line:84%
+And you see that this interval
+gets smaller and smaller,
+
+00:19:01.000 --> 00:19:03.380 align:middle line:84%
+and it just goes down,
+and then it come up.
+
+00:19:03.380 --> 00:19:07.200 align:middle line:84%
+But it doesn't go as far
+up as you were before,
+
+00:19:07.200 --> 00:19:08.700 align:middle line:90%
+and then so on and so forth.
+
+00:19:08.700 --> 00:19:11.500 align:middle line:84%
+And so you could make
+this more precise.
+
+00:19:11.500 --> 00:19:13.000 align:middle line:90%
+It's quite easy.
+
+00:19:13.000 --> 00:19:16.460 align:middle line:84%
+And this shows you that
+this series is converging.
+
+00:19:16.460 --> 00:19:20.680 align:middle line:84%
+And in fact, this is the basis
+for this alternating series
+
+00:19:20.680 --> 00:19:21.180 align:middle line:90%
+test.
+
+00:19:21.180 --> 00:19:24.440 align:middle line:84%
+And it works as long as
+you have alternating--
+
+00:19:24.440 --> 00:19:27.800 align:middle line:84%
+where the sign of the
+a n's are alternating
+
+00:19:27.800 --> 00:19:30.240 align:middle line:84%
+and the absolute
+value goes to 0.
+
+00:19:30.240 --> 00:19:32.840 align:middle line:84%
+Then this here, that's
+your alternating series.
+
+00:19:32.840 --> 00:19:35.970 align:middle line:84%
+So I'll probably come back
+to that at some later stage.
+
+00:19:35.970 --> 00:19:44.050 align:middle line:84%
+But this just shows you that
+if you take a series, then--
+
+00:19:44.050 --> 00:19:46.770 align:middle line:84%
+So the absolute
+convergence means
+
+00:19:46.770 --> 00:19:48.990 align:middle line:84%
+that if you slap
+absolute value sign,
+
+00:19:48.990 --> 00:19:51.930 align:middle line:84%
+then that new series
+also converges.
+
+00:19:51.930 --> 00:19:55.065 align:middle line:84%
+Absolute convergence
+implies convergence, but not
+
+00:19:55.065 --> 00:19:55.940 align:middle line:90%
+the other way around.
+
+00:19:55.940 --> 00:19:58.750 align:middle line:90%
+
+
+00:19:58.750 --> 00:20:03.910 align:middle line:90%
+So now the next thing is that--
+
+00:20:03.910 --> 00:20:07.200 align:middle line:84%
+so the next thing is that
+if you take a series--
+
+00:20:07.200 --> 00:20:11.370 align:middle line:90%
+
+
+00:20:11.370 --> 00:20:16.730 align:middle line:84%
+suppose you take a series and
+suppose that you knew that--
+
+00:20:16.730 --> 00:20:24.610 align:middle line:84%
+so suppose you have a series
+like this and you knew that
+
+00:20:24.610 --> 00:20:26.470 align:middle line:90%
+a n here--
+
+00:20:26.470 --> 00:20:29.750 align:middle line:84%
+all of the a n's were
+non-negative for all n.
+
+00:20:29.750 --> 00:20:33.590 align:middle line:90%
+
+
+00:20:33.590 --> 00:20:35.950 align:middle line:90%
+Then convergence here.
+
+00:20:35.950 --> 00:20:36.950 align:middle line:90%
+Convergence.
+
+00:20:36.950 --> 00:20:41.110 align:middle line:90%
+
+
+00:20:41.110 --> 00:20:42.370 align:middle line:90%
+Just implied, right?
+
+00:20:42.370 --> 00:20:47.550 align:middle line:84%
+So convergence is-- because
+the Sn is now the sum here
+
+00:20:47.550 --> 00:20:48.890 align:middle line:90%
+of these guys here.
+
+00:20:48.890 --> 00:20:51.470 align:middle line:90%
+
+
+00:20:51.470 --> 00:20:53.830 align:middle line:90%
+That's Sn.
+
+00:20:53.830 --> 00:20:55.850 align:middle line:84%
+And you see that
+this is, of course,
+
+00:20:55.850 --> 00:20:58.150 align:middle line:84%
+less than or equal to--
+because all of these guys
+
+00:20:58.150 --> 00:21:03.030 align:middle line:84%
+are non-negative, it's less than
+or equal to where you summing.
+
+00:21:03.030 --> 00:21:08.710 align:middle line:84%
+Not just up to n, but one more,
+because this is non-negative.
+
+00:21:08.710 --> 00:21:11.190 align:middle line:90%
+And so this is Sn plus 1.
+
+00:21:11.190 --> 00:21:14.910 align:middle line:84%
+So you see that if the
+elements are non-negative,
+
+00:21:14.910 --> 00:21:18.610 align:middle line:90%
+then the sequence Sn is--
+
+00:21:18.610 --> 00:21:24.210 align:middle line:84%
+so Sn is monotone
+non-decreasing sequence.
+
+00:21:24.210 --> 00:21:27.870 align:middle line:84%
+And so to say-- by the
+monotone convergence theorem,
+
+00:21:27.870 --> 00:21:31.510 align:middle line:84%
+to say that this sequence,
+Sn, is convergent,
+
+00:21:31.510 --> 00:21:33.950 align:middle line:90%
+is equivalent to saying that.
+
+00:21:33.950 --> 00:21:47.500 align:middle line:84%
+So Sn converges if and only
+if Sn is bounded from above.
+
+00:21:47.500 --> 00:21:58.290 align:middle line:90%
+
+
+00:21:58.290 --> 00:21:58.790 align:middle line:90%
+OK.
+
+00:21:58.790 --> 00:22:03.890 align:middle line:84%
+So now when you have a
+series and you have already
+
+00:22:03.890 --> 00:22:08.730 align:middle line:84%
+checked that a n goes
+to 0, and you are then
+
+00:22:08.730 --> 00:22:13.590 align:middle line:84%
+asked to determine whether the
+series is convergent or not,
+
+00:22:13.590 --> 00:22:15.830 align:middle line:84%
+then there are these
+number of tests.
+
+00:22:15.830 --> 00:22:18.150 align:middle line:90%
+And so there's a bunch of tests.
+
+00:22:18.150 --> 00:22:24.750 align:middle line:90%
+So tests for convergence.
+
+00:22:24.750 --> 00:22:30.090 align:middle line:90%
+
+
+00:22:30.090 --> 00:22:32.220 align:middle line:90%
+And so there's a bunch of them.
+
+00:22:32.220 --> 00:22:35.340 align:middle line:90%
+And let me talk about--
+
+00:22:35.340 --> 00:22:37.870 align:middle line:84%
+in this lecture, I'll just
+talk about the comparison test.
+
+00:22:37.870 --> 00:22:40.740 align:middle line:90%
+
+
+00:22:40.740 --> 00:22:46.040 align:middle line:84%
+And I mentioned them
+very briefly last time,
+
+00:22:46.040 --> 00:22:48.020 align:middle line:84%
+but I'll talk a little
+bit more about them.
+
+00:22:48.020 --> 00:22:49.570 align:middle line:90%
+And then there's the ratio test.
+
+00:22:49.570 --> 00:22:56.980 align:middle line:90%
+
+
+00:22:56.980 --> 00:22:59.120 align:middle line:90%
+And then there's the root test.
+
+00:22:59.120 --> 00:23:01.180 align:middle line:90%
+So I'll talk about those three.
+
+00:23:01.180 --> 00:23:02.740 align:middle line:90%
+But there are other tests.
+
+00:23:02.740 --> 00:23:03.590 align:middle line:90%
+So root test.
+
+00:23:03.590 --> 00:23:14.500 align:middle line:90%
+
+
+00:23:14.500 --> 00:23:20.140 align:middle line:84%
+So now let's start with
+the comparison test.
+
+00:23:20.140 --> 00:23:22.850 align:middle line:84%
+And there are two
+versions of this.
+
+00:23:22.850 --> 00:23:27.060 align:middle line:90%
+
+
+00:23:27.060 --> 00:23:30.660 align:middle line:90%
+One version is the following.
+
+00:23:30.660 --> 00:23:40.460 align:middle line:84%
+Let's suppose that you have--
+so comparison test version one.
+
+00:23:40.460 --> 00:23:46.240 align:middle line:90%
+
+
+00:23:46.240 --> 00:23:49.640 align:middle line:84%
+And so the first version
+of the comparison test
+
+00:23:49.640 --> 00:23:50.780 align:middle line:90%
+is the following.
+
+00:23:50.780 --> 00:23:56.460 align:middle line:84%
+Imagine that you have two
+series here, a n, and again,
+
+00:23:56.460 --> 00:23:58.220 align:middle line:90%
+we talked about this last time.
+
+00:23:58.220 --> 00:24:02.880 align:middle line:84%
+But let me just say a few more
+words, that you have this series
+
+00:24:02.880 --> 00:24:04.840 align:middle line:90%
+and you have that series.
+
+00:24:04.840 --> 00:24:11.080 align:middle line:84%
+And I'm assuming here
+that a n and the bn
+
+00:24:11.080 --> 00:24:12.540 align:middle line:90%
+are non-negative numbers.
+
+00:24:12.540 --> 00:24:17.800 align:middle line:84%
+And in fact, I'm assuming that
+bn is larger or equal to a n.
+
+00:24:17.800 --> 00:24:20.460 align:middle line:84%
+In the comparison
+test, this version,
+
+00:24:20.460 --> 00:24:28.460 align:middle line:84%
+the simple version of the
+comparison test is this here.
+
+00:24:28.460 --> 00:24:38.780 align:middle line:84%
+If the series based on
+the bn is convergent,
+
+00:24:38.780 --> 00:24:47.160 align:middle line:84%
+then the series of the a
+n's is also convergent.
+
+00:24:47.160 --> 00:24:52.860 align:middle line:90%
+
+
+00:24:52.860 --> 00:24:57.660 align:middle line:84%
+And so this version
+of the comparison test
+
+00:24:57.660 --> 00:25:00.820 align:middle line:84%
+is used both in this
+way, but it's also
+
+00:25:00.820 --> 00:25:05.720 align:middle line:84%
+used sometimes where you know
+that this series is divergent.
+
+00:25:05.720 --> 00:25:08.380 align:middle line:84%
+And from that, you conclude
+that this one is just
+
+00:25:08.380 --> 00:25:09.960 align:middle line:90%
+a negation of this statement.
+
+00:25:09.960 --> 00:25:14.420 align:middle line:90%
+
+
+00:25:14.420 --> 00:25:18.100 align:middle line:90%
+So let's see.
+
+00:25:18.100 --> 00:25:24.900 align:middle line:84%
+So the proof here of
+that is actually easy.
+
+00:25:24.900 --> 00:25:28.390 align:middle line:90%
+So why is this the case?
+
+00:25:28.390 --> 00:25:38.670 align:middle line:84%
+Well, the thing is that you
+know by the Cauchy convergence
+
+00:25:38.670 --> 00:25:39.170 align:middle line:90%
+theorem.
+
+00:25:39.170 --> 00:25:46.790 align:middle line:90%
+
+
+00:25:46.790 --> 00:25:51.790 align:middle line:84%
+And we know that to
+determine whether--
+
+00:25:51.790 --> 00:25:56.110 align:middle line:84%
+all we need to check to
+determine whether this sequence
+
+00:25:56.110 --> 00:25:57.870 align:middle line:90%
+here is convergent--
+
+00:25:57.870 --> 00:26:08.230 align:middle line:84%
+all we need to figure out is
+if it is a Cauchy sequence.
+
+00:26:08.230 --> 00:26:12.310 align:middle line:84%
+So this means that
+you want to say that--
+
+00:26:12.310 --> 00:26:23.110 align:middle line:84%
+so suppose you're looking at
+the sequence defined from a.
+
+00:26:23.110 --> 00:26:28.010 align:middle line:84%
+And so this is just where
+I'm now summing the first n
+
+00:26:28.010 --> 00:26:32.250 align:middle line:90%
+elements in a.
+
+00:26:32.250 --> 00:26:35.630 align:middle line:90%
+And I just want to--
+
+00:26:35.630 --> 00:26:40.490 align:middle line:84%
+so I'm using the
+superscript a just
+
+00:26:40.490 --> 00:26:44.250 align:middle line:84%
+to denote that it's coming
+from the sequence a n.
+
+00:26:44.250 --> 00:26:48.670 align:middle line:84%
+So if you're looking at
+this, and so likewise,
+
+00:26:48.670 --> 00:26:50.450 align:middle line:90%
+I look at this thing here.
+
+00:26:50.450 --> 00:26:55.130 align:middle line:90%
+
+
+00:26:55.130 --> 00:26:58.210 align:middle line:84%
+Now, of course, you
+have that suppose you're
+
+00:26:58.210 --> 00:27:02.650 align:middle line:90%
+looking at Sna minus Sma.
+
+00:27:02.650 --> 00:27:05.570 align:middle line:90%
+
+
+00:27:05.570 --> 00:27:08.730 align:middle line:84%
+You want to show
+that this here--
+
+00:27:08.730 --> 00:27:11.630 align:middle line:84%
+you want to show that this
+here is a Cauchy sequence.
+
+00:27:11.630 --> 00:27:15.010 align:middle line:84%
+So you're looking at
+this difference here.
+
+00:27:15.010 --> 00:27:19.570 align:middle line:84%
+But this thing here is
+just this here difference.
+
+00:27:19.570 --> 00:27:23.810 align:middle line:84%
+I'm assuming that
+m is less than n.
+
+00:27:23.810 --> 00:27:25.710 align:middle line:90%
+Strictly less than m.
+
+00:27:25.710 --> 00:27:27.030 align:middle line:90%
+n, sorry.
+
+00:27:27.030 --> 00:27:30.510 align:middle line:84%
+This just means that
+this difference here
+
+00:27:30.510 --> 00:27:35.250 align:middle line:84%
+is just where you're
+coming from m plus 1.
+
+00:27:35.250 --> 00:27:42.416 align:middle line:84%
+So this is just the
+a m plus 1 up to a n.
+
+00:27:42.416 --> 00:27:45.630 align:middle line:90%
+This is just this one.
+
+00:27:45.630 --> 00:27:46.710 align:middle line:90%
+Yeah?
+
+00:27:46.710 --> 00:27:50.730 align:middle line:84%
+AUDIENCE: When we're proving
+convergence, there's now--
+
+00:27:50.730 --> 00:27:52.870 align:middle line:84%
+just to give some
+motivation, is the reason
+
+00:27:52.870 --> 00:27:55.613 align:middle line:84%
+that we're using
+Cauchy sequences?
+
+00:27:55.613 --> 00:27:57.030 align:middle line:84%
+TOBIAS COLDING:
+At this stage, you
+
+00:27:57.030 --> 00:27:59.770 align:middle line:84%
+could either use Cauchy
+sequence, that's what I started.
+
+00:27:59.770 --> 00:28:02.810 align:middle line:84%
+You could also have used the
+monotone convergence theorem.
+
+00:28:02.810 --> 00:28:04.394 align:middle line:90%
+Maybe that would be--
+
+00:28:04.394 --> 00:28:04.936 align:middle line:90%
+AUDIENCE: OK.
+
+00:28:04.936 --> 00:28:05.550 align:middle line:84%
+Because I was just
+going to say, back
+
+00:28:05.550 --> 00:28:07.633 align:middle line:84%
+to the definition of
+convergence that we initially
+
+00:28:07.633 --> 00:28:10.252 align:middle line:84%
+had where we had the absolute
+value of a of n minus some--
+
+00:28:10.252 --> 00:28:11.710 align:middle line:84%
+TOBIAS COLDING:
+Yeah, that's right.
+
+00:28:11.710 --> 00:28:13.690 align:middle line:84%
+AUDIENCE: Is it
+just like-- is it--
+
+00:28:13.690 --> 00:28:16.150 align:middle line:84%
+TOBIAS COLDING: So if
+you went all the way back
+
+00:28:16.150 --> 00:28:18.350 align:middle line:84%
+to the definition,
+then you would
+
+00:28:18.350 --> 00:28:20.640 align:middle line:84%
+have to determine
+what the limit was.
+
+00:28:20.640 --> 00:28:21.430 align:middle line:84%
+AUDIENCE: Right,
+which we don't want.
+
+00:28:21.430 --> 00:28:23.763 align:middle line:84%
+TOBIAS COLDING: And we don't
+want because we don't know.
+
+00:28:23.763 --> 00:28:26.160 align:middle line:84%
+But just because we may
+know what the limit of b--
+
+00:28:26.160 --> 00:28:28.980 align:middle line:90%
+of the sequence based on b is.
+
+00:28:28.980 --> 00:28:31.160 align:middle line:84%
+But this doesn't mean that
+you can figure out what
+
+00:28:31.160 --> 00:28:32.120 align:middle line:90%
+the limit of the a--
+
+00:28:32.120 --> 00:28:34.920 align:middle line:84%
+AUDIENCE: So does that
+motivate why the sequences are
+
+00:28:34.920 --> 00:28:35.940 align:middle line:90%
+more useful in general?
+
+00:28:35.940 --> 00:28:36.580 align:middle line:84%
+TOBIAS COLDING:
+Yeah, that's right.
+
+00:28:36.580 --> 00:28:36.940 align:middle line:90%
+That's right.
+
+00:28:36.940 --> 00:28:37.482 align:middle line:90%
+That's right.
+
+00:28:37.482 --> 00:28:38.460 align:middle line:90%
+Exactly, that's right.
+
+00:28:38.460 --> 00:28:39.002 align:middle line:90%
+That's right.
+
+00:28:39.002 --> 00:28:41.080 align:middle line:84%
+So the advantage
+with Cauchy sequence
+
+00:28:41.080 --> 00:28:44.340 align:middle line:84%
+is that you don't have to
+figure out what the limit is.
+
+00:28:44.340 --> 00:28:48.060 align:middle line:84%
+And it's often-- I mean, like
+in this case, you have no idea.
+
+00:28:48.060 --> 00:28:51.980 align:middle line:84%
+I mean, it's not in terms
+of anything from the b's.
+
+00:28:51.980 --> 00:28:56.240 align:middle line:84%
+And I should-- but let me just
+continue doing it like this.
+
+00:28:56.240 --> 00:28:59.320 align:middle line:84%
+But just now when you
+asked, I should probably
+
+00:28:59.320 --> 00:29:02.880 align:middle line:84%
+have done it using the
+monotone convergence theorem.
+
+00:29:02.880 --> 00:29:04.700 align:middle line:84%
+But you can do that
+as an exercise.
+
+00:29:04.700 --> 00:29:07.240 align:middle line:90%
+But it doesn't matter.
+
+00:29:07.240 --> 00:29:11.980 align:middle line:90%
+So the difference here is--
+
+00:29:11.980 --> 00:29:14.320 align:middle line:90%
+this is what the difference is.
+
+00:29:14.320 --> 00:29:17.040 align:middle line:84%
+The absolute value signs
+are really irrelevant,
+
+00:29:17.040 --> 00:29:19.140 align:middle line:84%
+because these are all
+non-negative numbers.
+
+00:29:19.140 --> 00:29:23.685 align:middle line:84%
+So I don't have to have
+the absolute value sign.
+
+00:29:23.685 --> 00:29:27.200 align:middle line:84%
+And now this thing here
+is, of course, less than.
+
+00:29:27.200 --> 00:29:29.950 align:middle line:84%
+But this here is less than
+the corresponding b's.
+
+00:29:29.950 --> 00:29:34.420 align:middle line:90%
+
+
+00:29:34.420 --> 00:29:39.660 align:middle line:84%
+And this is less than the
+corresponding b here like that.
+
+00:29:39.660 --> 00:29:48.500 align:middle line:84%
+But this here is exactly
+Sn, the one based on bSm.
+
+00:29:48.500 --> 00:29:50.060 align:middle line:90%
+Based on b.
+
+00:29:50.060 --> 00:29:53.760 align:middle line:84%
+And this here, as long as n
+and m are sufficiently large,
+
+00:29:53.760 --> 00:29:55.820 align:middle line:84%
+we can make this as
+small as we want.
+
+00:29:55.820 --> 00:29:58.150 align:middle line:84%
+So therefore, this here
+was the smallest one.
+
+00:29:58.150 --> 00:30:01.700 align:middle line:90%
+
+
+00:30:01.700 --> 00:30:03.380 align:middle line:84%
+You could also have
+done it-- maybe
+
+00:30:03.380 --> 00:30:05.540 align:middle line:84%
+let's just say
+that you could also
+
+00:30:05.540 --> 00:30:10.040 align:middle line:84%
+have done it using the monotone
+convergence, because now,
+
+00:30:10.040 --> 00:30:15.060 align:middle line:90%
+of course, you have that.
+
+00:30:15.060 --> 00:30:16.900 align:middle line:90%
+Again, the same of thing.
+
+00:30:16.900 --> 00:30:21.780 align:middle line:84%
+Say that if you take
+the Sn based on the a's.
+
+00:30:21.780 --> 00:30:27.320 align:middle line:84%
+So that's a1 up to a
+n sum of these guys.
+
+00:30:27.320 --> 00:30:31.110 align:middle line:84%
+But this individually is less
+than the corresponding b's.
+
+00:30:31.110 --> 00:30:34.560 align:middle line:90%
+
+
+00:30:34.560 --> 00:30:41.040 align:middle line:84%
+And this here is just the
+sequence Sn based on the b's.
+
+00:30:41.040 --> 00:30:45.360 align:middle line:90%
+But these here converge.
+
+00:30:45.360 --> 00:30:48.480 align:middle line:84%
+This is equivalent to saying
+that they are bounded.
+
+00:30:48.480 --> 00:30:49.920 align:middle line:90%
+They are less than some c--
+
+00:30:49.920 --> 00:30:51.920 align:middle line:90%
+some real number c.
+
+00:30:51.920 --> 00:30:53.660 align:middle line:90%
+And this here is for all a.
+
+00:30:53.660 --> 00:30:57.040 align:middle line:90%
+
+
+00:30:57.040 --> 00:30:59.120 align:middle line:90%
+For all n, sorry.
+
+00:30:59.120 --> 00:31:01.560 align:middle line:84%
+But this means, of course,
+that those things here
+
+00:31:01.560 --> 00:31:05.260 align:middle line:90%
+are bounded for all n.
+
+00:31:05.260 --> 00:31:10.760 align:middle line:84%
+And this here is also a monotone
+sequence-- monotone increasing
+
+00:31:10.760 --> 00:31:13.880 align:middle line:84%
+sequence that is not
+bounded from above.
+
+00:31:13.880 --> 00:31:16.360 align:middle line:90%
+So therefore, it converges.
+
+00:31:16.360 --> 00:31:19.690 align:middle line:84%
+So you can do it either
+of those two ways.
+
+00:31:19.690 --> 00:31:22.530 align:middle line:90%
+So that's really easy to check.
+
+00:31:22.530 --> 00:31:26.340 align:middle line:84%
+Let's see an example where
+we are using this test here.
+
+00:31:26.340 --> 00:31:34.490 align:middle line:90%
+
+
+00:31:34.490 --> 00:31:43.170 align:middle line:84%
+And so this could be that you're
+looking at something like--
+
+00:31:43.170 --> 00:31:45.880 align:middle line:84%
+you're looking at--
+so here's an example.
+
+00:31:45.880 --> 00:31:50.530 align:middle line:90%
+
+
+00:31:50.530 --> 00:31:54.890 align:middle line:84%
+You're looking at a series
+that is true to the minus n
+
+00:31:54.890 --> 00:32:00.550 align:middle line:84%
+over n, n equal
+to 1 to infinity.
+
+00:32:00.550 --> 00:32:04.050 align:middle line:90%
+
+
+00:32:04.050 --> 00:32:08.090 align:middle line:84%
+And you want to show--
+you're being asked,
+
+00:32:08.090 --> 00:32:14.210 align:middle line:90%
+is this series converging?
+
+00:32:14.210 --> 00:32:17.170 align:middle line:90%
+
+
+00:32:17.170 --> 00:32:22.750 align:middle line:84%
+So this is typically
+how it works.
+
+00:32:22.750 --> 00:32:24.950 align:middle line:84%
+And so, of course,
+in this case, you
+
+00:32:24.950 --> 00:32:30.830 align:middle line:84%
+should think about that
+this here is a sequence a n.
+
+00:32:30.830 --> 00:32:33.750 align:middle line:90%
+And so you have to find the bn.
+
+00:32:33.750 --> 00:32:37.430 align:middle line:84%
+But in this case, we just
+say-- so we're setting a.
+
+00:32:37.430 --> 00:32:49.230 align:middle line:84%
+So answer set a n equal
+to 2 to minus n over 2
+
+00:32:49.230 --> 00:32:53.930 align:middle line:84%
+and bn equal to
+2 to the minus n.
+
+00:32:53.930 --> 00:32:58.683 align:middle line:90%
+
+
+00:32:58.683 --> 00:33:05.760 align:middle line:84%
+Then you have that a n bigger or
+equal to 0 is smaller than bn.
+
+00:33:05.760 --> 00:33:09.350 align:middle line:90%
+
+
+00:33:09.350 --> 00:33:17.130 align:middle line:84%
+And the sequence
+here based on the bn
+
+00:33:17.130 --> 00:33:23.520 align:middle line:84%
+is a convergent
+geometric series.
+
+00:33:23.520 --> 00:33:28.970 align:middle line:90%
+
+
+00:33:28.970 --> 00:33:34.830 align:middle line:84%
+It's convergent between--
+because c here, in this case,
+
+00:33:34.830 --> 00:33:36.570 align:middle line:90%
+is 1 over 2.
+
+00:33:36.570 --> 00:33:38.690 align:middle line:90%
+It's 1 over 2.
+
+00:33:38.690 --> 00:33:41.170 align:middle line:90%
+So it's just 1 over 2.
+
+00:33:41.170 --> 00:33:44.230 align:middle line:84%
+1.5 is the same as
+2 to the minus 1.
+
+00:33:44.230 --> 00:33:47.450 align:middle line:90%
+
+
+00:33:47.450 --> 00:33:49.550 align:middle line:90%
+And so this is convergent.
+
+00:33:49.550 --> 00:33:52.910 align:middle line:90%
+
+
+00:33:52.910 --> 00:33:55.490 align:middle line:90%
+So this is just so--
+
+00:33:55.490 --> 00:33:58.570 align:middle line:84%
+so typically, this could
+be used to-- that you're
+
+00:33:58.570 --> 00:34:00.690 align:middle line:84%
+given a sequence and
+you're being asked,
+
+00:34:00.690 --> 00:34:02.690 align:middle line:90%
+is convergent or not?
+
+00:34:02.690 --> 00:34:06.170 align:middle line:84%
+And so you have to
+find the sequence
+
+00:34:06.170 --> 00:34:09.330 align:middle line:84%
+and you're being asked whether
+it's convergent or not.
+
+00:34:09.330 --> 00:34:14.489 align:middle line:84%
+And you have to find
+the comparison series.
+
+00:34:14.489 --> 00:34:24.460 align:middle line:84%
+And then, in this case, say that
+this thing here is convergent.
+
+00:34:24.460 --> 00:34:27.500 align:middle line:84%
+And so therefore,
+the sequence a n
+
+00:34:27.500 --> 00:34:34.460 align:middle line:84%
+that was squeezed between that
+and 0 was also convergent.
+
+00:34:34.460 --> 00:34:40.580 align:middle line:84%
+So this was the first version
+of the comparison test.
+
+00:34:40.580 --> 00:34:47.300 align:middle line:84%
+Here is another more fancy
+version of comparing,
+
+00:34:47.300 --> 00:34:50.089 align:middle line:84%
+where you're
+comparing two series.
+
+00:34:50.089 --> 00:34:53.260 align:middle line:90%
+
+
+00:34:53.260 --> 00:34:57.500 align:middle line:84%
+In fact, it's pretty much like
+that, except for this stuff
+
+00:34:57.500 --> 00:34:59.540 align:middle line:90%
+we talked about.
+
+00:34:59.540 --> 00:35:05.620 align:middle line:84%
+I mean, typically the tests
+are where you're comparing it
+
+00:35:05.620 --> 00:35:09.060 align:middle line:90%
+with some other series.
+
+00:35:09.060 --> 00:35:11.580 align:middle line:90%
+So here is version two.
+
+00:35:11.580 --> 00:35:19.500 align:middle line:90%
+So comparison version two.
+
+00:35:19.500 --> 00:35:26.225 align:middle line:90%
+
+
+00:35:26.225 --> 00:35:31.480 align:middle line:84%
+And so you have,
+again, two series, a n.
+
+00:35:31.480 --> 00:35:33.840 align:middle line:90%
+And again, it doesn't matter--
+
+00:35:33.840 --> 00:35:36.580 align:middle line:84%
+what the sum is matters
+where you're starting,
+
+00:35:36.580 --> 00:35:41.320 align:middle line:84%
+but whether or not it converges
+doesn't matter where you start.
+
+00:35:41.320 --> 00:35:45.120 align:middle line:84%
+So suppose that you have this
+series and you have this series
+
+00:35:45.120 --> 00:35:45.620 align:middle line:90%
+here.
+
+00:35:45.620 --> 00:35:48.840 align:middle line:90%
+
+
+00:35:48.840 --> 00:36:00.200 align:middle line:84%
+And suppose that you know that
+the none of the bn's are 0.
+
+00:36:00.200 --> 00:36:06.160 align:middle line:84%
+And you know that the
+a n divided by bn,
+
+00:36:06.160 --> 00:36:11.080 align:middle line:84%
+that this ratio here,
+as n goes to infinity,
+
+00:36:11.080 --> 00:36:17.140 align:middle line:84%
+converges to some
+L. And L here is--
+
+00:36:17.140 --> 00:36:22.980 align:middle line:84%
+L here is not 0 and
+is not infinity.
+
+00:36:22.980 --> 00:36:29.060 align:middle line:84%
+I mean that it really
+is a limit, like that.
+
+00:36:29.060 --> 00:36:32.610 align:middle line:84%
+So if that's the case,
+then the series--
+
+00:36:32.610 --> 00:36:39.380 align:middle line:90%
+
+
+00:36:39.380 --> 00:36:52.810 align:middle line:84%
+then let's-- then let's have
+these as non-negative numbers.
+
+00:36:52.810 --> 00:37:01.660 align:middle line:90%
+
+
+00:37:01.660 --> 00:37:19.430 align:middle line:84%
+Then the series a n converges
+if and only if the series bn
+
+00:37:19.430 --> 00:37:20.250 align:middle line:90%
+converges.
+
+00:37:20.250 --> 00:37:30.270 align:middle line:90%
+
+
+00:37:30.270 --> 00:37:33.270 align:middle line:90%
+And so an example of this--
+
+00:37:33.270 --> 00:37:36.790 align:middle line:84%
+so a typical example
+of this is where
+
+00:37:36.790 --> 00:37:45.110 align:middle line:84%
+you're looking at the series
+1 over n squared minus 1.
+
+00:37:45.110 --> 00:37:46.990 align:middle line:90%
+Suppose you're looking at this.
+
+00:37:46.990 --> 00:37:48.910 align:middle line:84%
+And now, just to
+make it so that--
+
+00:37:48.910 --> 00:37:53.070 align:middle line:84%
+make sure that it makes sense
+that you're not dividing by 0,
+
+00:37:53.070 --> 00:37:56.590 align:middle line:84%
+you're looking at
+this thing here.
+
+00:37:56.590 --> 00:38:02.270 align:middle line:84%
+Suppose that this is the
+series that you're given.
+
+00:38:02.270 --> 00:38:04.490 align:middle line:90%
+Well, this here is--
+
+00:38:04.490 --> 00:38:07.050 align:middle line:84%
+so you wouldn't use
+the first comparison,
+
+00:38:07.050 --> 00:38:08.770 align:middle line:84%
+although you could
+have used the first.
+
+00:38:08.770 --> 00:38:11.855 align:middle line:84%
+But then it would be a
+little bit more complicated.
+
+00:38:11.855 --> 00:38:14.230 align:middle line:84%
+Not super complicated, but a
+little bit more complicated,
+
+00:38:14.230 --> 00:38:17.870 align:middle line:84%
+because this thing
+here this is--
+
+00:38:17.870 --> 00:38:20.230 align:middle line:84%
+so the first thing you observe
+is that this, of course,
+
+00:38:20.230 --> 00:38:21.570 align:middle line:90%
+goes to 0.
+
+00:38:21.570 --> 00:38:22.810 align:middle line:90%
+This goes to 0.
+
+00:38:22.810 --> 00:38:26.250 align:middle line:84%
+But the second thing is that
+it's very close to a series
+
+00:38:26.250 --> 00:38:28.250 align:middle line:90%
+that you know something about.
+
+00:38:28.250 --> 00:38:32.610 align:middle line:84%
+It's very close to
+this series here.
+
+00:38:32.610 --> 00:38:34.050 align:middle line:84%
+But again, it
+doesn't matter where
+
+00:38:34.050 --> 00:38:38.250 align:middle line:84%
+I'm starting when you're asking
+whether it's converging or not.
+
+00:38:38.250 --> 00:38:40.570 align:middle line:84%
+So it's very close
+to this series.
+
+00:38:40.570 --> 00:38:44.850 align:middle line:90%
+But of course, this thing here--
+
+00:38:44.850 --> 00:38:47.650 align:middle line:84%
+this thing here is
+a smaller number.
+
+00:38:47.650 --> 00:38:53.730 align:middle line:84%
+So this is actually bigger
+than 1 over n squared.
+
+00:38:53.730 --> 00:38:57.510 align:middle line:84%
+This here is a
+convergent series.
+
+00:38:57.510 --> 00:38:59.870 align:middle line:90%
+So this does not help you.
+
+00:38:59.870 --> 00:39:03.570 align:middle line:84%
+This is not great for
+using the first test.
+
+00:39:03.570 --> 00:39:05.170 align:middle line:90%
+You could have done it.
+
+00:39:05.170 --> 00:39:07.110 align:middle line:84%
+You could still
+use the first test.
+
+00:39:07.110 --> 00:39:09.830 align:middle line:84%
+But then you have to build
+a slightly more clever.
+
+00:39:09.830 --> 00:39:16.910 align:middle line:84%
+So instead of that you
+can use this second test.
+
+00:39:16.910 --> 00:39:22.430 align:middle line:84%
+And so in the second test
+you, set a n equal to 1 over n
+
+00:39:22.430 --> 00:39:24.110 align:middle line:90%
+squared minus 1.
+
+00:39:24.110 --> 00:39:28.390 align:middle line:84%
+And you set bn equal
+to 1 over n squared.
+
+00:39:28.390 --> 00:39:33.190 align:middle line:84%
+And then you have that
+a n divided by bn.
+
+00:39:33.190 --> 00:39:42.950 align:middle line:84%
+But this is just 1 over n
+squared minus 1 over n squared.
+
+00:39:42.950 --> 00:39:44.390 align:middle line:90%
+Or 1 over n squared, sorry.
+
+00:39:44.390 --> 00:39:47.270 align:middle line:90%
+
+
+00:39:47.270 --> 00:39:56.470 align:middle line:84%
+And so this here is the same as
+n squared minus 1, like that.
+
+00:39:56.470 --> 00:40:00.070 align:middle line:84%
+And now you can divide by
+n squared in both numerator
+
+00:40:00.070 --> 00:40:01.130 align:middle line:90%
+and denominator.
+
+00:40:01.130 --> 00:40:07.070 align:middle line:84%
+So you're getting 1
+minus 1 over n squared.
+
+00:40:07.070 --> 00:40:11.780 align:middle line:84%
+And now you just use the usual
+algebraic rules for limits.
+
+00:40:11.780 --> 00:40:13.820 align:middle line:90%
+This here converts to 0.
+
+00:40:13.820 --> 00:40:16.840 align:middle line:84%
+So it means that the
+denominator converts to 1.
+
+00:40:16.840 --> 00:40:22.600 align:middle line:84%
+So this means that this
+ratio here converts to 1.
+
+00:40:22.600 --> 00:40:27.360 align:middle line:84%
+And so you see that the ratios
+are converging to something that
+
+00:40:27.360 --> 00:40:30.840 align:middle line:90%
+is neither zero nor infinity.
+
+00:40:30.840 --> 00:40:35.160 align:middle line:84%
+And this means that this
+series here is convergent if
+
+00:40:35.160 --> 00:40:37.020 align:middle line:90%
+and only if this convergent.
+
+00:40:37.020 --> 00:40:39.420 align:middle line:84%
+You already know that
+this is convergent.
+
+00:40:39.420 --> 00:40:41.800 align:middle line:84%
+So we conclude that
+this is convergent.
+
+00:40:41.800 --> 00:40:44.530 align:middle line:84%
+So that's how it's
+typically used.
+
+00:40:44.530 --> 00:40:53.300 align:middle line:90%
+
+
+00:40:53.300 --> 00:41:01.620 align:middle line:84%
+So now the next test I want to
+talk about is the ratio test.
+
+00:41:01.620 --> 00:41:04.560 align:middle line:90%
+And so this is--
+
+00:41:04.560 --> 00:41:08.900 align:middle line:84%
+I mean, the comparison
+tests are typically almost
+
+00:41:08.900 --> 00:41:11.740 align:middle line:90%
+the easiest tests.
+
+00:41:11.740 --> 00:41:14.430 align:middle line:84%
+But this one here
+is extremely useful.
+
+00:41:14.430 --> 00:41:18.220 align:middle line:90%
+
+
+00:41:18.220 --> 00:41:23.820 align:middle line:84%
+And so the next two
+tests, the ratio test--
+
+00:41:23.820 --> 00:41:40.140 align:middle line:84%
+both the ratio
+test and root test,
+
+00:41:40.140 --> 00:41:55.300 align:middle line:84%
+are based on comparison
+with the geometric series.
+
+00:41:55.300 --> 00:42:00.580 align:middle line:84%
+And so this is explaining
+why the geometric series
+
+00:42:00.580 --> 00:42:02.620 align:middle line:90%
+is so crucial.
+
+00:42:02.620 --> 00:42:05.230 align:middle line:90%
+So what is the ratio test?
+
+00:42:05.230 --> 00:42:08.350 align:middle line:84%
+Well, the ratio test
+is simply the test
+
+00:42:08.350 --> 00:42:12.670 align:middle line:90%
+that if you're looking at--
+
+00:42:12.670 --> 00:42:14.290 align:middle line:90%
+so if you have a series.
+
+00:42:14.290 --> 00:42:16.930 align:middle line:84%
+You don't have to look
+at any other series.
+
+00:42:16.930 --> 00:42:21.510 align:middle line:84%
+Like in the comparison test,
+you had to find another series.
+
+00:42:21.510 --> 00:42:23.730 align:middle line:90%
+But in the ratio test--
+
+00:42:23.730 --> 00:42:25.080 align:middle line:90%
+so this is the ratio test.
+
+00:42:25.080 --> 00:42:31.070 align:middle line:90%
+
+
+00:42:31.070 --> 00:42:34.680 align:middle line:84%
+So you're looking at
+a series like this.
+
+00:42:34.680 --> 00:42:38.870 align:middle line:90%
+
+
+00:42:38.870 --> 00:42:48.190 align:middle line:84%
+And the ratio test is that
+you're looking at a n plus 1
+
+00:42:48.190 --> 00:42:49.130 align:middle line:90%
+over n.
+
+00:42:49.130 --> 00:42:55.310 align:middle line:84%
+So you are looking at the ratio
+between two consecutive elements
+
+00:42:55.310 --> 00:42:57.510 align:middle line:90%
+of the a n's.
+
+00:42:57.510 --> 00:43:01.710 align:middle line:84%
+So you're looking at
+this and you're looking
+
+00:43:01.710 --> 00:43:04.690 align:middle line:90%
+at the absolute value of this.
+
+00:43:04.690 --> 00:43:09.010 align:middle line:84%
+And you're asking
+if the limit here--
+
+00:43:09.010 --> 00:43:14.330 align:middle line:84%
+as n goes to infinity,
+suppose that the limit exists.
+
+00:43:14.330 --> 00:43:17.770 align:middle line:84%
+And let's say that
+the limit is a.
+
+00:43:17.770 --> 00:43:24.690 align:middle line:90%
+So it's asking you if this--
+
+00:43:24.690 --> 00:43:26.610 align:middle line:90%
+somehow the test here--
+
+00:43:26.610 --> 00:43:31.010 align:middle line:84%
+this form of the ratio test,
+it requires that the ratio here
+
+00:43:31.010 --> 00:43:33.450 align:middle line:90%
+has a limit.
+
+00:43:33.450 --> 00:43:40.450 align:middle line:84%
+So the ratio test then
+says that if a here is--
+
+00:43:40.450 --> 00:43:41.640 align:middle line:90%
+if a here is--
+
+00:43:41.640 --> 00:43:46.090 align:middle line:90%
+
+
+00:43:46.090 --> 00:43:46.890 align:middle line:90%
+sorry.
+
+00:43:46.890 --> 00:43:54.090 align:middle line:84%
+If a here is less than 1,
+then the series is-- so let
+
+00:43:54.090 --> 00:43:55.190 align:middle line:90%
+me write it like this.
+
+00:43:55.190 --> 00:43:57.970 align:middle line:90%
+
+
+00:43:57.970 --> 00:44:04.190 align:middle line:84%
+So a less than 1,
+this here means
+
+00:44:04.190 --> 00:44:05.970 align:middle line:90%
+that the series is convergent.
+
+00:44:05.970 --> 00:44:13.270 align:middle line:90%
+
+
+00:44:13.270 --> 00:44:17.230 align:middle line:84%
+Two, if this a here
+is bigger than 1,
+
+00:44:17.230 --> 00:44:22.250 align:middle line:84%
+this implies that the
+series is divergent.
+
+00:44:22.250 --> 00:44:26.150 align:middle line:90%
+
+
+00:44:26.150 --> 00:44:30.950 align:middle line:84%
+And three is that
+if this a here is 1,
+
+00:44:30.950 --> 00:44:36.256 align:middle line:90%
+then the test is inconclusive.
+
+00:44:36.256 --> 00:44:40.150 align:middle line:90%
+
+
+00:44:40.150 --> 00:44:44.470 align:middle line:84%
+But it's important to
+remember that it is possible
+
+00:44:44.470 --> 00:44:46.610 align:middle line:84%
+that you don't get
+anything out of the test
+
+00:44:46.610 --> 00:44:51.570 align:middle line:84%
+if you are in the unlucky
+case where this limit is 1.
+
+00:44:51.570 --> 00:44:54.580 align:middle line:90%
+
+
+00:44:54.580 --> 00:45:02.560 align:middle line:84%
+And I should also emphasize that
+it is crucial to have a limit.
+
+00:45:02.560 --> 00:45:07.050 align:middle line:84%
+So the test here, in this form,
+it's crucial to have a limit.
+
+00:45:07.050 --> 00:45:18.136 align:middle line:90%
+
+
+00:45:18.136 --> 00:45:22.640 align:middle line:84%
+And we'll talk a little bit
+and we'll come back to that.
+
+00:45:22.640 --> 00:45:23.900 align:middle line:90%
+We'll come back to this.
+
+00:45:23.900 --> 00:45:27.760 align:middle line:90%
+
+
+00:45:27.760 --> 00:45:37.440 align:middle line:84%
+So now let me try to
+explain why you have--
+
+00:45:37.440 --> 00:45:41.540 align:middle line:84%
+well, in conclusion, I don't
+really need to explain anything.
+
+00:45:41.540 --> 00:45:44.740 align:middle line:90%
+But why in the case--
+
+00:45:44.740 --> 00:45:46.140 align:middle line:90%
+so proof of case one.
+
+00:45:46.140 --> 00:45:52.320 align:middle line:90%
+
+
+00:45:52.320 --> 00:45:55.680 align:middle line:84%
+So this means that
+I have to show--
+
+00:45:55.680 --> 00:46:08.940 align:middle line:84%
+so I need to show that
+if this limit here--
+
+00:46:08.940 --> 00:46:16.220 align:middle line:84%
+if this limit of a
+n plus 1 over a n,
+
+00:46:16.220 --> 00:46:22.480 align:middle line:84%
+if this here is less than 1,
+then the series is convergent.
+
+00:46:22.480 --> 00:46:31.540 align:middle line:90%
+
+
+00:46:31.540 --> 00:46:37.260 align:middle line:84%
+And I'll just sketch the proof,
+because we're going to do--
+
+00:46:37.260 --> 00:46:37.780 align:middle line:90%
+yeah.
+
+00:46:37.780 --> 00:46:39.760 align:middle line:90%
+I will just sketch the proof.
+
+00:46:39.760 --> 00:46:41.980 align:middle line:84%
+We;ll come back, in
+a way, to the proof,
+
+00:46:41.980 --> 00:46:45.620 align:middle line:84%
+because it's very close to
+the same proof that is used
+
+00:46:45.620 --> 00:46:47.090 align:middle line:90%
+in the case of the root test.
+
+00:46:47.090 --> 00:46:50.180 align:middle line:90%
+
+
+00:46:50.180 --> 00:46:54.040 align:middle line:90%
+So that's what I need.
+
+00:46:54.040 --> 00:46:56.570 align:middle line:90%
+So I have that there exists--
+
+00:46:56.570 --> 00:47:01.560 align:middle line:90%
+
+
+00:47:01.560 --> 00:47:09.360 align:middle line:90%
+so given a0 less than 1.
+
+00:47:09.360 --> 00:47:12.860 align:middle line:90%
+So given a0 with--
+
+00:47:12.860 --> 00:47:17.680 align:middle line:90%
+
+
+00:47:17.680 --> 00:47:23.460 align:middle line:84%
+a0 bigger than this
+a and less than 1.
+
+00:47:23.460 --> 00:47:26.600 align:middle line:84%
+So if you pick an
+a0 that is strictly
+
+00:47:26.600 --> 00:47:30.480 align:middle line:84%
+bigger than a and
+still less than 1,
+
+00:47:30.480 --> 00:47:40.400 align:middle line:84%
+then we know that
+there exists an n such
+
+00:47:40.400 --> 00:47:51.040 align:middle line:84%
+that if little n is bigger
+than this capital N,
+
+00:47:51.040 --> 00:47:58.850 align:middle line:90%
+then a n plus 1 over a n--
+
+00:47:58.850 --> 00:48:03.610 align:middle line:84%
+and really, I should have
+absolute value here on this.
+
+00:48:03.610 --> 00:48:09.530 align:middle line:84%
+Then we have that this
+thing here is less than--
+
+00:48:09.530 --> 00:48:12.150 align:middle line:90%
+it's less than a0.
+
+00:48:12.150 --> 00:48:16.370 align:middle line:84%
+Because if you're very
+far out, then this here
+
+00:48:16.370 --> 00:48:19.490 align:middle line:84%
+is-- this ratio is going
+to be very close to this.
+
+00:48:19.490 --> 00:48:21.830 align:middle line:84%
+But this is strictly
+less than that.
+
+00:48:21.830 --> 00:48:24.090 align:middle line:90%
+So we have this.
+
+00:48:24.090 --> 00:48:26.650 align:middle line:84%
+So this means that--
+maybe I shouldn't
+
+00:48:26.650 --> 00:48:30.890 align:middle line:84%
+call it a0 because
+there's too many a's now.
+
+00:48:30.890 --> 00:48:32.710 align:middle line:90%
+Let's call it something else.
+
+00:48:32.710 --> 00:48:36.380 align:middle line:84%
+Let's call it alpha to make it
+just look much more distinct.
+
+00:48:36.380 --> 00:48:41.392 align:middle line:90%
+
+
+00:48:41.392 --> 00:48:43.270 align:middle line:90%
+So this means that--
+
+00:48:43.270 --> 00:48:49.050 align:middle line:84%
+so you see that if--
+so in other words,
+
+00:48:49.050 --> 00:48:52.810 align:middle line:84%
+If n here is bigger
+than this capital N then
+
+00:48:52.810 --> 00:48:57.830 align:middle line:84%
+you have-- just multiplying
+over, you have that a n plus 1
+
+00:48:57.830 --> 00:49:01.620 align:middle line:84%
+is less than alpha
+times a n, like that.
+
+00:49:01.620 --> 00:49:04.214 align:middle line:90%
+
+
+00:49:04.214 --> 00:49:06.610 align:middle line:84%
+In the ratio test, I
+should have said that.
+
+00:49:06.610 --> 00:49:10.790 align:middle line:84%
+But obviously, you are assuming
+that these a n's are not 0.
+
+00:49:10.790 --> 00:49:12.450 align:middle line:90%
+So you can divide by them.
+
+00:49:12.450 --> 00:49:17.230 align:middle line:90%
+
+
+00:49:17.230 --> 00:49:19.150 align:middle line:90%
+So you have this.
+
+00:49:19.150 --> 00:49:20.910 align:middle line:84%
+If you are far
+out, you have this,
+
+00:49:20.910 --> 00:49:25.390 align:middle line:84%
+that the next one is a
+fraction of the previous one.
+
+00:49:25.390 --> 00:49:30.530 align:middle line:84%
+But this means, of
+course, that if you take--
+
+00:49:30.530 --> 00:49:37.310 align:middle line:84%
+if you're looking at n is bigger
+or equal to this capital N,
+
+00:49:37.310 --> 00:49:44.790 align:middle line:84%
+well, you have that
+a capital N plus 1.
+
+00:49:44.790 --> 00:49:52.070 align:middle line:84%
+If you're using this a
+capital N as little n,
+
+00:49:52.070 --> 00:49:57.682 align:middle line:84%
+then you have that this
+thing here, this is now the--
+
+00:49:57.682 --> 00:49:59.450 align:middle line:90%
+this here is now-- sorry.
+
+00:49:59.450 --> 00:50:08.890 align:middle line:84%
+If you're using-- if you first
+pick n equal to capital N, then
+
+00:50:08.890 --> 00:50:10.990 align:middle line:84%
+what does this
+inequality tell you?
+
+00:50:10.990 --> 00:50:15.770 align:middle line:84%
+It tells you that a capital N
+plus 1 is less than or equal
+
+00:50:15.770 --> 00:50:23.890 align:middle line:84%
+to alpha a capital N. Now apply
+this inequality here for n --
+
+00:50:23.890 --> 00:50:24.650 align:middle line:90%
+plus--
+
+00:50:24.650 --> 00:50:27.090 align:middle line:90%
+capital n plus 1.
+
+00:50:27.090 --> 00:50:33.650 align:middle line:84%
+So then you have that a capital
+N plus true absolute value
+
+00:50:33.650 --> 00:50:40.570 align:middle line:84%
+is less than or equal to
+alpha a n plus 1 like that.
+
+00:50:40.570 --> 00:50:44.890 align:middle line:84%
+But you already proven
+that this thing here--
+
+00:50:44.890 --> 00:50:46.350 align:middle line:90%
+forget about the alpha here.
+
+00:50:46.350 --> 00:50:47.830 align:middle line:84%
+But you've proven
+this inequality.
+
+00:50:47.830 --> 00:50:51.650 align:middle line:84%
+So filling in that inequality,
+I have this alpha here.
+
+00:50:51.650 --> 00:50:56.600 align:middle line:84%
+But then I have another alpha
+that is this and then like this.
+
+00:50:56.600 --> 00:51:01.300 align:middle line:90%
+
+
+00:51:01.300 --> 00:51:03.800 align:middle line:84%
+And so now, you can
+continue this way.
+
+00:51:03.800 --> 00:51:09.540 align:middle line:84%
+So this here is like alpha
+squared times a capital N.
+
+00:51:09.540 --> 00:51:12.300 align:middle line:84%
+And so now you see
+that you can continue.
+
+00:51:12.300 --> 00:51:14.480 align:middle line:90%
+So if you're looking at--
+
+00:51:14.480 --> 00:51:20.740 align:middle line:84%
+so if you continue
+like this, then
+
+00:51:20.740 --> 00:51:26.780 align:middle line:84%
+you see that a capital
+N plus some little n
+
+00:51:26.780 --> 00:51:31.820 align:middle line:84%
+is less than or equal to
+alpha to the power m times
+
+00:51:31.820 --> 00:51:35.540 align:middle line:90%
+a to the absolute value of a n.
+
+00:51:35.540 --> 00:51:37.700 align:middle line:84%
+This here, the
+previous line, was just
+
+00:51:37.700 --> 00:51:40.420 align:middle line:90%
+where m was equal to true.
+
+00:51:40.420 --> 00:51:42.840 align:middle line:84%
+But you really get
+it for all integers.
+
+00:51:42.840 --> 00:51:45.940 align:middle line:90%
+
+
+00:51:45.940 --> 00:51:49.780 align:middle line:84%
+And so this says that at least
+the tail of this sequence here,
+
+00:51:49.780 --> 00:51:53.160 align:middle line:84%
+the tail of the a n
+sequence, this is just
+
+00:51:53.160 --> 00:51:54.540 align:middle line:90%
+some fixed constant.
+
+00:51:54.540 --> 00:51:57.840 align:middle line:84%
+This here is a convergent
+geometric series.
+
+00:51:57.840 --> 00:52:02.120 align:middle line:84%
+So the tail is bounded by a
+convergent geometric series.
+
+00:52:02.120 --> 00:52:06.920 align:middle line:84%
+So you can just apply
+the first comparison test
+
+00:52:06.920 --> 00:52:11.040 align:middle line:84%
+to prove that the
+sequence-- the series a n
+
+00:52:11.040 --> 00:52:12.400 align:middle line:90%
+is actually convergent.
+
+00:52:12.400 --> 00:52:16.640 align:middle line:90%
+
+
+00:52:16.640 --> 00:52:23.120 align:middle line:84%
+So the ratio test,
+again, was to compare
+
+00:52:23.120 --> 00:52:28.040 align:middle line:84%
+it, use the first comparison
+test where the comparison was
+
+00:52:28.040 --> 00:52:29.090 align:middle line:90%
+the geometric series.
+
+00:52:29.090 --> 00:52:36.520 align:middle line:90%
+
+
+00:52:36.520 --> 00:52:39.560 align:middle line:90%
+And so of course, if the--
+
+00:52:39.560 --> 00:52:45.920 align:middle line:90%
+so this proves one, two here.
+
+00:52:45.920 --> 00:52:49.080 align:middle line:84%
+But two is kind of
+really the same.
+
+00:52:49.080 --> 00:52:53.140 align:middle line:90%
+Because if this alpha here--
+
+00:52:53.140 --> 00:52:56.980 align:middle line:90%
+so to show the second part.
+
+00:52:56.980 --> 00:52:59.980 align:middle line:84%
+Again, the third one, to
+prove it's inconclusive,
+
+00:52:59.980 --> 00:53:01.980 align:middle line:84%
+there's nothing to
+prove, because it
+
+00:53:01.980 --> 00:53:05.220 align:middle line:90%
+leaves open any possibility.
+
+00:53:05.220 --> 00:53:08.940 align:middle line:84%
+But you want to show that if
+this limit here-- so if this
+
+00:53:08.940 --> 00:53:11.000 align:middle line:90%
+limit-- so proof of two.
+
+00:53:11.000 --> 00:53:16.300 align:middle line:90%
+
+
+00:53:16.300 --> 00:53:22.180 align:middle line:84%
+So you want-- so we're assuming
+that a here is bigger than 1.
+
+00:53:22.180 --> 00:53:24.200 align:middle line:84%
+But this means
+that there exists--
+
+00:53:24.200 --> 00:53:26.820 align:middle line:90%
+so if you take alpha--
+
+00:53:26.820 --> 00:53:41.020 align:middle line:84%
+so this time, choose alpha such
+that alpha is bigger than 1,
+
+00:53:41.020 --> 00:53:44.860 align:middle line:90%
+but it's smaller than a.
+
+00:53:44.860 --> 00:53:48.080 align:middle line:90%
+But then you have that for--
+
+00:53:48.080 --> 00:53:53.030 align:middle line:84%
+since this ratio is
+converging for little n
+
+00:53:53.030 --> 00:53:55.470 align:middle line:84%
+bigger than-- there
+exists some capital N, so
+
+00:53:55.470 --> 00:53:58.990 align:middle line:84%
+that if this little n is
+bigger than capital N, then
+
+00:53:58.990 --> 00:54:06.870 align:middle line:84%
+you have that a n plus 1 over
+a n, that this thing here,
+
+00:54:06.870 --> 00:54:09.690 align:middle line:84%
+if it's far enough out,
+it's going to converge here.
+
+00:54:09.690 --> 00:54:11.390 align:middle line:84%
+But at least far
+enough out, it's
+
+00:54:11.390 --> 00:54:14.830 align:middle line:90%
+going to be bigger than alpha.
+
+00:54:14.830 --> 00:54:22.150 align:middle line:84%
+Multiplying over again
+means that a n plus 1
+
+00:54:22.150 --> 00:54:28.590 align:middle line:90%
+is bigger than alpha times a n.
+
+00:54:28.590 --> 00:54:31.270 align:middle line:90%
+This here is now bigger than 1.
+
+00:54:31.270 --> 00:54:33.410 align:middle line:84%
+And so in the same
+way as before,
+
+00:54:33.410 --> 00:54:36.870 align:middle line:84%
+you see that if
+you're far enough out,
+
+00:54:36.870 --> 00:54:42.070 align:middle line:84%
+then the next element
+is some multiple,
+
+00:54:42.070 --> 00:54:48.850 align:middle line:84%
+some big number, at least bigger
+than 1, times the previous one.
+
+00:54:48.850 --> 00:54:52.290 align:middle line:84%
+But this means that they're
+getting larger and larger.
+
+00:54:52.290 --> 00:54:57.290 align:middle line:84%
+From some fixed stage on
+and outwards, the a n's are
+
+00:54:57.290 --> 00:54:59.310 align:middle line:90%
+getting larger and larger.
+
+00:54:59.310 --> 00:55:03.170 align:middle line:84%
+So they don't converge to
+0 as they were supposed to.
+
+00:55:03.170 --> 00:55:05.858 align:middle line:90%
+So this is proving true.
+
+00:55:05.858 --> 00:55:07.650 align:middle line:84%
+And three, again,
+there's nothing to prove,
+
+00:55:07.650 --> 00:55:10.190 align:middle line:84%
+because it leaves open
+both possibilities.
+
+00:55:10.190 --> 00:55:18.067 align:middle line:90%
+
+
+00:55:18.067 --> 00:55:20.150 align:middle line:84%
+AUDIENCE: I have a question
+about the first group.
+
+00:55:20.150 --> 00:55:21.025 align:middle line:90%
+TOBIAS COLDING: Yeah.
+
+00:55:21.025 --> 00:55:23.970 align:middle line:84%
+AUDIENCE: Does that assume that
+the series is monotonically
+
+00:55:23.970 --> 00:55:26.810 align:middle line:90%
+decreasing?
+
+00:55:26.810 --> 00:55:29.330 align:middle line:90%
+TOBIAS COLDING: Sorry?
+
+00:55:29.330 --> 00:55:32.230 align:middle line:84%
+AUDIENCE: I guess just looking
+at it from a high level,
+
+00:55:32.230 --> 00:55:34.625 align:middle line:84%
+we're saying that a of
+n plus 1 over a of n--
+
+00:55:34.625 --> 00:55:35.750 align:middle line:90%
+TOBIAS COLDING: Wait, wait.
+
+00:55:35.750 --> 00:55:38.968 align:middle line:84%
+So you're asking--
+what are you asking?
+
+00:55:38.968 --> 00:55:41.510 align:middle line:84%
+AUDIENCE: So for part one, when
+we say that a is less than 1,
+
+00:55:41.510 --> 00:55:45.690 align:middle line:84%
+that implies that it
+converges, is that only
+
+00:55:45.690 --> 00:55:47.590 align:middle line:84%
+going to work for
+monotonically decreasing?
+
+00:55:47.590 --> 00:55:48.715 align:middle line:90%
+TOBIAS COLDING: No, no, no.
+
+00:55:48.715 --> 00:55:54.530 align:middle line:84%
+So there's no assumption here on
+whether the sequence is right.
+
+00:55:54.530 --> 00:55:56.810 align:middle line:90%
+I mean, so 1--
+
+00:55:56.810 --> 00:55:57.310 align:middle line:90%
+yeah.
+
+00:55:57.310 --> 00:56:04.950 align:middle line:84%
+So 1 implies that the absolute
+value is going down, as you say.
+
+00:56:04.950 --> 00:56:07.850 align:middle line:84%
+But I could alternate
+signs and things like that.
+
+00:56:07.850 --> 00:56:08.990 align:middle line:90%
+Yeah.
+
+00:56:08.990 --> 00:56:10.430 align:middle line:90%
+But it is-- yeah.
+
+00:56:10.430 --> 00:56:13.370 align:middle line:84%
+And so just because
+you're comparing it with--
+
+00:56:13.370 --> 00:56:17.030 align:middle line:84%
+you're going to compare it with
+a convergent geometric series.
+
+00:56:17.030 --> 00:56:19.510 align:middle line:84%
+In a convergent
+geometric series,
+
+00:56:19.510 --> 00:56:25.850 align:middle line:84%
+the next element is some fixed
+fraction of the previous one.
+
+00:56:25.850 --> 00:56:26.350 align:middle line:90%
+Yeah.
+
+00:56:26.350 --> 00:56:29.030 align:middle line:90%
+
+
+00:56:29.030 --> 00:56:33.430 align:middle line:84%
+So you're right that in
+order for the ratio test
+
+00:56:33.430 --> 00:56:37.750 align:middle line:84%
+to give you
+convergence, then it's
+
+00:56:37.750 --> 00:56:41.350 align:middle line:84%
+going to require that
+sufficiently far out,
+
+00:56:41.350 --> 00:56:46.960 align:middle line:84%
+the absolute value of the
+a n element has gone down.
+
+00:56:46.960 --> 00:56:57.920 align:middle line:90%
+
+
+00:56:57.920 --> 00:57:01.800 align:middle line:84%
+And this, in a way, addresses
+that point you're making there.
+
+00:57:01.800 --> 00:57:08.760 align:middle line:84%
+So the other test that is
+also based on comparing it
+
+00:57:08.760 --> 00:57:11.440 align:middle line:90%
+with the geometric series.
+
+00:57:11.440 --> 00:57:15.080 align:middle line:84%
+But this does not compare
+consecutive elements.
+
+00:57:15.080 --> 00:57:19.720 align:middle line:84%
+So it's leaving the possibility
+that the next element could
+
+00:57:19.720 --> 00:57:22.250 align:middle line:90%
+be larger than the previous.
+
+00:57:22.250 --> 00:57:25.760 align:middle line:90%
+
+
+00:57:25.760 --> 00:57:27.880 align:middle line:90%
+And so this is the root test.
+
+00:57:27.880 --> 00:57:31.800 align:middle line:84%
+But of course, it
+cannot be that--
+
+00:57:31.800 --> 00:57:35.420 align:middle line:84%
+you cannot keep having the
+next element larger than
+
+00:57:35.420 --> 00:57:35.980 align:middle line:90%
+the previous.
+
+00:57:35.980 --> 00:57:39.480 align:middle line:84%
+But you could have-- there
+could be somewhere where
+
+00:57:39.480 --> 00:57:41.760 align:middle line:90%
+the next one actually went up.
+
+00:57:41.760 --> 00:57:44.580 align:middle line:84%
+But then presumably,
+after that, they're
+
+00:57:44.580 --> 00:57:46.403 align:middle line:84%
+going down, at least
+for a long time.
+
+00:57:46.403 --> 00:57:47.820 align:middle line:84%
+And then maybe
+there's another one
+
+00:57:47.820 --> 00:57:50.920 align:middle line:84%
+that jumps up, but not
+very much, et cetera.
+
+00:57:50.920 --> 00:57:57.380 align:middle line:84%
+And the root test is OK with
+that, whereas that test wasn't
+
+00:57:57.380 --> 00:57:58.380 align:middle line:90%
+OK with that.
+
+00:57:58.380 --> 00:58:00.420 align:middle line:90%
+So the root test.
+
+00:58:00.420 --> 00:58:05.020 align:middle line:84%
+So you have a series,
+again, like this.
+
+00:58:05.020 --> 00:58:08.780 align:middle line:84%
+And the root test is
+that you're looking
+
+00:58:08.780 --> 00:58:13.860 align:middle line:84%
+at-- you're taking the
+absolute value of this
+
+00:58:13.860 --> 00:58:16.700 align:middle line:84%
+and then you're
+taking the n-th root.
+
+00:58:16.700 --> 00:58:20.540 align:middle line:84%
+So this means-- this is
+the same as saying a n
+
+00:58:20.540 --> 00:58:26.180 align:middle line:84%
+absolute value, if you want to
+write it like this, 1 over n.
+
+00:58:26.180 --> 00:58:31.340 align:middle line:90%
+So it's dealing with this.
+
+00:58:31.340 --> 00:58:43.360 align:middle line:84%
+And the root test is saying that
+suppose that when you form this
+
+00:58:43.360 --> 00:58:46.360 align:middle line:90%
+here, that this has a limit.
+
+00:58:46.360 --> 00:58:47.970 align:middle line:90%
+Suppose that this n-th root--
+
+00:58:47.970 --> 00:58:50.800 align:middle line:90%
+
+
+00:58:50.800 --> 00:58:53.640 align:middle line:84%
+suppose that this
+here has a limit.
+
+00:58:53.640 --> 00:58:56.720 align:middle line:90%
+And let's call this limit c.
+
+00:58:56.720 --> 00:59:00.080 align:middle line:90%
+Suppose that you have this.
+
+00:59:00.080 --> 00:59:06.950 align:middle line:84%
+Then it has the same three
+parts here as in the previous.
+
+00:59:06.950 --> 00:59:15.600 align:middle line:90%
+
+
+00:59:15.600 --> 00:59:19.320 align:middle line:90%
+And so this is--
+
+00:59:19.320 --> 00:59:21.640 align:middle line:90%
+so there's three possibilities.
+
+00:59:21.640 --> 00:59:25.720 align:middle line:84%
+Where c here is less
+than 1, then this
+
+00:59:25.720 --> 00:59:27.860 align:middle line:84%
+implies that the
+series is convergent.
+
+00:59:27.860 --> 00:59:34.240 align:middle line:90%
+
+
+00:59:34.240 --> 00:59:41.420 align:middle line:84%
+Two, c is bigger than 1 implies
+that the series is divergent.
+
+00:59:41.420 --> 00:59:46.330 align:middle line:90%
+
+
+00:59:46.330 --> 00:59:52.530 align:middle line:84%
+And again, the case where c here
+is equal to 1, in conclusion.
+
+00:59:52.530 --> 00:59:53.950 align:middle line:90%
+Test is in conclusion.
+
+00:59:53.950 --> 01:00:01.690 align:middle line:90%
+
+
+01:00:01.690 --> 01:00:04.330 align:middle line:84%
+And again, we're
+going to compare
+
+01:00:04.330 --> 01:00:05.750 align:middle line:90%
+with the geometric series.
+
+01:00:05.750 --> 01:00:07.160 align:middle line:84%
+So let's see how
+the proof works.
+
+01:00:07.160 --> 01:00:20.990 align:middle line:90%
+
+
+01:00:20.990 --> 01:00:21.490 align:middle line:90%
+OK.
+
+01:00:21.490 --> 01:00:23.300 align:middle line:90%
+So now let's prove one.
+
+01:00:23.300 --> 01:00:26.050 align:middle line:90%
+
+
+01:00:26.050 --> 01:00:28.530 align:middle line:90%
+Proof of one.
+
+01:00:28.530 --> 01:00:30.570 align:middle line:84%
+So again, we are in
+a situation where
+
+01:00:30.570 --> 01:00:37.290 align:middle line:84%
+we have that the n-th root
+of the absolute value here
+
+01:00:37.290 --> 01:00:43.070 align:middle line:84%
+as n goes to infinity
+is equal to some c,
+
+01:00:43.070 --> 01:00:47.270 align:middle line:84%
+and we're assuming that
+the c is less than 1.
+
+01:00:47.270 --> 01:00:53.390 align:middle line:84%
+So now I'm again
+choosing something
+
+01:00:53.390 --> 01:00:57.490 align:middle line:90%
+that is between c and 1.
+
+01:00:57.490 --> 01:01:08.140 align:middle line:84%
+So choose c-- let's
+call it c0 with a--
+
+01:01:08.140 --> 01:01:12.270 align:middle line:90%
+
+
+01:01:12.270 --> 01:01:16.790 align:middle line:90%
+c0 less than 1.
+
+01:01:16.790 --> 01:01:20.390 align:middle line:84%
+And now we know that--
+because we have this limit,
+
+01:01:20.390 --> 01:01:28.790 align:middle line:84%
+we know that there
+exists capital N such
+
+01:01:28.790 --> 01:01:38.730 align:middle line:84%
+that if little n is
+bigger than capital N,
+
+01:01:38.730 --> 01:01:43.330 align:middle line:84%
+then the n-th root of
+this absolute value sign
+
+01:01:43.330 --> 01:01:47.930 align:middle line:84%
+is actually less
+than or equal to c0.
+
+01:01:47.930 --> 01:01:53.650 align:middle line:84%
+This is just because c0
+was strictly bigger than c.
+
+01:01:53.650 --> 01:01:54.850 align:middle line:90%
+So we have that.
+
+01:01:54.850 --> 01:01:58.790 align:middle line:84%
+So now we just check the
+n-th power on both sides.
+
+01:01:58.790 --> 01:02:12.570 align:middle line:84%
+So this implies by
+taking the n-th power,
+
+01:02:12.570 --> 01:02:22.450 align:middle line:84%
+we get that absolute value
+of a n is less or equal to c0
+
+01:02:22.450 --> 01:02:23.410 align:middle line:90%
+to the power n.
+
+01:02:23.410 --> 01:02:27.850 align:middle line:90%
+
+
+01:02:27.850 --> 01:02:32.970 align:middle line:84%
+But that's already great,
+because this means that you have
+
+01:02:32.970 --> 01:02:37.290 align:middle line:84%
+compared-- at least from a
+certain stage and an outward,
+
+01:02:37.290 --> 01:02:40.320 align:middle line:90%
+you have compared the a n with--
+
+01:02:40.320 --> 01:02:46.220 align:middle line:84%
+if you're thinking that this
+thing here is like the b n,
+
+01:02:46.220 --> 01:02:50.020 align:middle line:84%
+then you have compared
+these guys here
+
+01:02:50.020 --> 01:02:53.900 align:middle line:84%
+with this series here
+based on these, at least
+
+01:02:53.900 --> 01:02:57.060 align:middle line:84%
+from this capital
+N and outwards.
+
+01:02:57.060 --> 01:03:00.300 align:middle line:84%
+And this is a geometric
+series because it's
+
+01:03:00.300 --> 01:03:03.220 align:middle line:84%
+just some number
+strictly smaller than 1
+
+01:03:03.220 --> 01:03:05.800 align:middle line:90%
+multiplied by itself n times.
+
+01:03:05.800 --> 01:03:09.290 align:middle line:84%
+So again, by the first
+comparison test--
+
+01:03:09.290 --> 01:03:20.140 align:middle line:90%
+
+
+01:03:20.140 --> 01:03:39.140 align:middle line:84%
+so by the first comparison
+test, the a n is convergent.
+
+01:03:39.140 --> 01:03:42.760 align:middle line:84%
+And note here that what
+you're proving is--
+
+01:03:42.760 --> 01:03:47.680 align:middle line:84%
+you're actually proving that
+this series is convergent.
+
+01:03:47.680 --> 01:03:50.280 align:middle line:84%
+Because you're comparing
+this series here
+
+01:03:50.280 --> 01:03:52.200 align:middle line:90%
+with the geometric series.
+
+01:03:52.200 --> 01:03:53.800 align:middle line:90%
+But this here is just--
+
+01:03:53.800 --> 01:04:01.520 align:middle line:84%
+this just means-- sorry, means
+that the original series here
+
+01:04:01.520 --> 01:04:03.300 align:middle line:90%
+was absolutely convergent.
+
+01:04:03.300 --> 01:04:09.440 align:middle line:90%
+
+
+01:04:09.440 --> 01:04:13.960 align:middle line:84%
+But absolute convergence
+implies convergence.
+
+01:04:13.960 --> 01:04:18.860 align:middle line:84%
+So you're actually proving
+absolute convergence.
+
+01:04:18.860 --> 01:04:22.826 align:middle line:90%
+
+
+01:04:22.826 --> 01:04:27.020 align:middle line:84%
+Now let's try to-- again,
+there's three parts to it.
+
+01:04:27.020 --> 01:04:30.900 align:middle line:84%
+But the last one leaves
+open any possibility,
+
+01:04:30.900 --> 01:04:32.460 align:middle line:90%
+so there's nothing to prove.
+
+01:04:32.460 --> 01:04:35.900 align:middle line:84%
+So let's just prove
+the second part here.
+
+01:04:35.900 --> 01:04:39.220 align:middle line:90%
+And that just goes similarly.
+
+01:04:39.220 --> 01:04:43.900 align:middle line:84%
+And again, it fails
+dramatically to be convergent,
+
+01:04:43.900 --> 01:04:47.260 align:middle line:84%
+because the a n,
+as you will see,
+
+01:04:47.260 --> 01:04:49.820 align:middle line:90%
+does not actually goes to 0.
+
+01:04:49.820 --> 01:04:52.160 align:middle line:90%
+So proof of two.
+
+01:04:52.160 --> 01:04:56.220 align:middle line:90%
+
+
+01:04:56.220 --> 01:04:58.820 align:middle line:90%
+So we have that this--
+
+01:04:58.820 --> 01:05:04.380 align:middle line:84%
+so we're assuming that
+this thing here, this
+
+01:05:04.380 --> 01:05:11.180 align:middle line:84%
+should converge to some c here,
+which is now bigger than 1.
+
+01:05:11.180 --> 01:05:13.460 align:middle line:84%
+So this means that
+there exists--
+
+01:05:13.460 --> 01:05:23.660 align:middle line:84%
+so this means that there
+exists capital N such that
+
+01:05:23.660 --> 01:05:28.080 align:middle line:84%
+if little n is bigger than
+this capital N-- sorry.
+
+01:05:28.080 --> 01:05:31.260 align:middle line:90%
+So we have this thing here.
+
+01:05:31.260 --> 01:05:35.710 align:middle line:84%
+And what I should before I
+do this, I should choose my--
+
+01:05:35.710 --> 01:05:44.910 align:middle line:84%
+just like before, I
+should choose my c0 such
+
+01:05:44.910 --> 01:05:53.330 align:middle line:84%
+that c0 is strictly
+bigger than 1,
+
+01:05:53.330 --> 01:05:55.463 align:middle line:84%
+but yet is strictly
+smaller than c.
+
+01:05:55.463 --> 01:05:58.790 align:middle line:90%
+
+
+01:05:58.790 --> 01:06:00.050 align:middle line:90%
+So you choose this.
+
+01:06:00.050 --> 01:06:03.390 align:middle line:84%
+And now using this,
+we have-- because we
+
+01:06:03.390 --> 01:06:06.130 align:middle line:84%
+have that this limit
+here, it converts to c.
+
+01:06:06.130 --> 01:06:09.790 align:middle line:84%
+So it converts to something
+that is strictly above this c0.
+
+01:06:09.790 --> 01:06:16.950 align:middle line:84%
+This means that there
+exists capital N such
+
+01:06:16.950 --> 01:06:22.630 align:middle line:84%
+that if little n is
+bigger than capital N,
+
+01:06:22.630 --> 01:06:35.115 align:middle line:84%
+then the n-th root
+here is bigger than c0.
+
+01:06:35.115 --> 01:06:38.370 align:middle line:90%
+
+
+01:06:38.370 --> 01:06:41.770 align:middle line:84%
+But now, again, taking the
+n-th power on both sides,
+
+01:06:41.770 --> 01:06:47.530 align:middle line:84%
+then you have that
+a n is bigger than--
+
+01:06:47.530 --> 01:06:53.410 align:middle line:84%
+strictly bigger than, in
+fact, c0 to the n-th power.
+
+01:06:53.410 --> 01:06:56.710 align:middle line:90%
+But you see these guys here?
+
+01:06:56.710 --> 01:06:58.950 align:middle line:90%
+c0 is strictly bigger than 1.
+
+01:06:58.950 --> 01:07:02.470 align:middle line:84%
+So this here actually
+even goes to infinity.
+
+01:07:02.470 --> 01:07:04.100 align:middle line:90%
+So this here does not go to 0.
+
+01:07:04.100 --> 01:07:08.714 align:middle line:90%
+
+
+01:07:08.714 --> 01:07:13.130 align:middle line:84%
+So this proves, again,
+that it's divergent.
+
+01:07:13.130 --> 01:07:14.170 align:middle line:90%
+So this proved true.
+
+01:07:14.170 --> 01:07:17.210 align:middle line:90%
+
+
+01:07:17.210 --> 01:07:19.570 align:middle line:90%
+Now the next thing--
+
+01:07:19.570 --> 01:07:22.400 align:middle line:84%
+the next thing we want to
+talk about is power series.
+
+01:07:22.400 --> 01:07:35.550 align:middle line:90%
+
+
+01:07:35.550 --> 01:07:40.550 align:middle line:84%
+So remember that-- so the
+first example of a power series
+
+01:07:40.550 --> 01:07:44.510 align:middle line:84%
+is something we already
+looked at, more or less.
+
+01:07:44.510 --> 01:07:47.230 align:middle line:90%
+So suppose you take--
+
+01:07:47.230 --> 01:07:51.790 align:middle line:84%
+suppose that you're looking
+at the series, some number,
+
+01:07:51.790 --> 01:07:57.590 align:middle line:84%
+I'll call it x now instead of c,
+to the power n, and n equal to 0
+
+01:07:57.590 --> 01:07:59.390 align:middle line:90%
+to infinity.
+
+01:07:59.390 --> 01:08:00.644 align:middle line:90%
+Yeah?
+
+01:08:00.644 --> 01:08:03.488 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+01:08:03.488 --> 01:08:05.390 align:middle line:90%
+
+
+01:08:05.390 --> 01:08:07.550 align:middle line:84%
+TOBIAS COLDING: So
+what we proved--
+
+01:08:07.550 --> 01:08:12.430 align:middle line:84%
+so in the root test here,
+we proved that the series
+
+01:08:12.430 --> 01:08:15.490 align:middle line:90%
+is absolutely convergent.
+
+01:08:15.490 --> 01:08:19.510 align:middle line:90%
+
+
+01:08:19.510 --> 01:08:23.069 align:middle line:90%
+Here we proved it's divergent.
+
+01:08:23.069 --> 01:08:27.229 align:middle line:84%
+And what we actually proved
+is we proved that a n--
+
+01:08:27.229 --> 01:08:33.040 align:middle line:84%
+in fact, this here
+a n that is here
+
+01:08:33.040 --> 01:08:40.000 align:middle line:84%
+allows me to write that it
+goes to infinity like this.
+
+01:08:40.000 --> 01:08:43.840 align:middle line:84%
+They were supposed to go to
+0, but we actually write--
+
+01:08:43.840 --> 01:08:48.680 align:middle line:84%
+if the series was converging,
+the most elementary thing
+
+01:08:48.680 --> 01:08:53.200 align:middle line:84%
+is, the most basic thing is
+that the a n has to go to 0.
+
+01:08:53.200 --> 01:08:55.319 align:middle line:84%
+Otherwise, it's not
+going to converge.
+
+01:08:55.319 --> 01:08:58.560 align:middle line:84%
+But in fact, not only
+do they not go to 0,
+
+01:08:58.560 --> 01:09:01.580 align:middle line:84%
+they actually, in absolute
+value, go to infinity.
+
+01:09:01.580 --> 01:09:04.479 align:middle line:84%
+So it's very, very far
+from being convergent.
+
+01:09:04.479 --> 01:09:12.720 align:middle line:90%
+
+
+01:09:12.720 --> 01:09:16.479 align:middle line:84%
+So suppose we looked at
+the geometric series.
+
+01:09:16.479 --> 01:09:20.040 align:middle line:84%
+If you think about x just
+representing any number,
+
+01:09:20.040 --> 01:09:21.819 align:middle line:84%
+you can look at
+this series here.
+
+01:09:21.819 --> 01:09:25.240 align:middle line:90%
+This is the geometric series.
+
+01:09:25.240 --> 01:09:27.520 align:middle line:84%
+And we know that
+it's convergent.
+
+01:09:27.520 --> 01:09:29.840 align:middle line:84%
+So we know that this
+has convergence.
+
+01:09:29.840 --> 01:09:34.180 align:middle line:90%
+
+
+01:09:34.180 --> 01:09:39.200 align:middle line:84%
+It's convergent if the
+absolute value is less than 1.
+
+01:09:39.200 --> 01:09:45.979 align:middle line:84%
+And in that case, the sum here
+is just this familiar function.
+
+01:09:45.979 --> 01:09:54.560 align:middle line:84%
+But in general, you
+may have a sequence.
+
+01:09:54.560 --> 01:10:04.460 align:middle line:84%
+So in general, if
+a n is a sequence,
+
+01:10:04.460 --> 01:10:07.860 align:middle line:84%
+then you can form
+a power series.
+
+01:10:07.860 --> 01:10:11.500 align:middle line:84%
+And the power
+series is like that,
+
+01:10:11.500 --> 01:10:13.740 align:middle line:90%
+where this is the coefficient.
+
+01:10:13.740 --> 01:10:19.980 align:middle line:84%
+The a n is now the coefficient
+to the x to the power n.
+
+01:10:19.980 --> 01:10:26.120 align:middle line:84%
+So if you will, this is
+like an infinite polynomial,
+
+01:10:26.120 --> 01:10:29.680 align:middle line:84%
+a polynomial of infinite
+degree because the sum
+
+01:10:29.680 --> 01:10:33.500 align:middle line:90%
+of all these polynomials.
+
+01:10:33.500 --> 01:10:34.940 align:middle line:84%
+And this is called
+a power series.
+
+01:10:34.940 --> 01:10:37.047 align:middle line:90%
+So this is a power series.
+
+01:10:37.047 --> 01:10:38.130 align:middle line:90%
+So this is a power series.
+
+01:10:38.130 --> 01:10:41.600 align:middle line:90%
+
+
+01:10:41.600 --> 01:10:44.960 align:middle line:90%
+And the question is then--
+
+01:10:44.960 --> 01:10:50.240 align:middle line:84%
+the question, which turned
+out to be quite subtle, is--
+
+01:10:50.240 --> 01:10:53.360 align:middle line:84%
+so a lot of the
+basic functions can
+
+01:10:53.360 --> 01:10:56.000 align:middle line:90%
+be represented by power series.
+
+01:10:56.000 --> 01:10:59.480 align:middle line:90%
+This here was one example.
+
+01:10:59.480 --> 01:11:04.640 align:middle line:84%
+Another example is--
+so another example of--
+
+01:11:04.640 --> 01:11:07.200 align:middle line:84%
+if you're looking at the
+exponential function-- and we'll
+
+01:11:07.200 --> 01:11:09.320 align:middle line:90%
+come back and discuss this more.
+
+01:11:09.320 --> 01:11:12.640 align:middle line:84%
+But the exponential function
+has a nice power series
+
+01:11:12.640 --> 01:11:14.520 align:middle line:90%
+representation.
+
+01:11:14.520 --> 01:11:17.860 align:middle line:84%
+And this is the
+exponential function,
+
+01:11:17.860 --> 01:11:22.760 align:middle line:84%
+the power series representation
+of the exponential function.
+
+01:11:22.760 --> 01:11:26.170 align:middle line:90%
+And also the sine and cosine.
+
+01:11:26.170 --> 01:11:33.010 align:middle line:84%
+So cosine x, this also has a
+power series representation.
+
+01:11:33.010 --> 01:11:38.210 align:middle line:84%
+And the power series is minus 1
+to the power n x to the power 2n
+
+01:11:38.210 --> 01:11:45.210 align:middle line:84%
+divided by 2n factorial,
+where you're summing from 0
+
+01:11:45.210 --> 01:11:46.930 align:middle line:90%
+to infinity.
+
+01:11:46.930 --> 01:11:50.170 align:middle line:90%
+And sine has a similar one.
+
+01:11:50.170 --> 01:11:54.730 align:middle line:84%
+So sine x has a similar
+one where you're
+
+01:11:54.730 --> 01:11:57.170 align:middle line:90%
+summing from 0 to infinity.
+
+01:11:57.170 --> 01:12:05.810 align:middle line:84%
+And then it's minus 1 to power n
+x to the power 2n plus 1 over 2n
+
+01:12:05.810 --> 01:12:08.270 align:middle line:90%
+plus 1 factorial.
+
+01:12:08.270 --> 01:12:11.202 align:middle line:90%
+
+
+01:12:11.202 --> 01:12:16.970 align:middle line:84%
+And lots of functions have a
+power series representation.
+
+01:12:16.970 --> 01:12:19.470 align:middle line:90%
+But it's not every function.
+
+01:12:19.470 --> 01:12:23.250 align:middle line:84%
+If I write down a
+function, then--
+
+01:12:23.250 --> 01:12:26.990 align:middle line:84%
+so in fact, it's easy to write
+a function that doesn't have.
+
+01:12:26.990 --> 01:12:30.230 align:middle line:84%
+So if you have-- but I'm not
+going to prove to you that it
+
+01:12:30.230 --> 01:12:30.870 align:middle line:90%
+doesn't.
+
+01:12:30.870 --> 01:12:33.910 align:middle line:84%
+So if I take the
+function that starts off
+
+01:12:33.910 --> 01:12:39.170 align:middle line:84%
+being dead zero and now
+it's becoming interesting.
+
+01:12:39.170 --> 01:12:43.050 align:middle line:84%
+So this function here, this one
+does not have a power series.
+
+01:12:43.050 --> 01:12:45.990 align:middle line:84%
+Even locally does not
+have a power series.
+
+01:12:45.990 --> 01:12:51.190 align:middle line:84%
+And the thing is
+that a power series
+
+01:12:51.190 --> 01:12:52.870 align:middle line:84%
+is an example of
+something that's
+
+01:12:52.870 --> 01:12:55.030 align:middle line:90%
+called an analytic function.
+
+01:12:55.030 --> 01:12:57.850 align:middle line:84%
+And this here is not
+an analytic function.
+
+01:12:57.850 --> 01:13:00.070 align:middle line:84%
+So that's why I know
+that it definitely
+
+01:13:00.070 --> 01:13:01.350 align:middle line:90%
+doesn't have a power series.
+
+01:13:01.350 --> 01:13:01.850 align:middle line:90%
+But anyway.
+
+01:13:01.850 --> 01:13:11.390 align:middle line:90%
+
+
+01:13:11.390 --> 01:13:16.510 align:middle line:84%
+So the question is if
+you take a power series--
+
+01:13:16.510 --> 01:13:23.550 align:middle line:84%
+so suppose you take a sequence,
+a n, and you write it down.
+
+01:13:23.550 --> 01:13:28.370 align:middle line:84%
+Suppose you take a sequence
+a n and then you write down
+
+01:13:28.370 --> 01:13:32.730 align:middle line:90%
+a power series based on it.
+
+01:13:32.730 --> 01:13:35.130 align:middle line:84%
+Then the first question
+that comes to mind
+
+01:13:35.130 --> 01:13:41.770 align:middle line:84%
+is, when does this-- for which
+x does this series converge?
+
+01:13:41.770 --> 01:13:51.140 align:middle line:84%
+So for which x does
+the series converge?
+
+01:13:51.140 --> 01:13:57.810 align:middle line:90%
+
+
+01:13:57.810 --> 01:14:01.250 align:middle line:84%
+So this is like the
+most basic thing.
+
+01:14:01.250 --> 01:14:04.360 align:middle line:90%
+And let's look at some examples.
+
+01:14:04.360 --> 01:14:13.370 align:middle line:90%
+
+
+01:14:13.370 --> 01:14:21.250 align:middle line:84%
+Of course, if you
+look at the-- so
+
+01:14:21.250 --> 01:14:27.840 align:middle line:84%
+the first example is what
+we already talked about.
+
+01:14:27.840 --> 01:14:31.540 align:middle line:84%
+Suppose I'm looking
+at this thing here.
+
+01:14:31.540 --> 01:14:33.900 align:middle line:90%
+Well, this here is x.
+
+01:14:33.900 --> 01:14:35.960 align:middle line:84%
+If you think about
+x as being fixed,
+
+01:14:35.960 --> 01:14:38.060 align:middle line:90%
+this is a geometric series.
+
+01:14:38.060 --> 01:14:39.740 align:middle line:90%
+And we already know--
+
+01:14:39.740 --> 01:14:52.050 align:middle line:84%
+so this is for each fixed x,
+this is the geometric series.
+
+01:14:52.050 --> 01:14:58.340 align:middle line:90%
+
+
+01:14:58.340 --> 01:15:01.160 align:middle line:84%
+So we already know that
+this thing here converges.
+
+01:15:01.160 --> 01:15:09.480 align:middle line:84%
+So converges as long as
+the absolute value sign--
+
+01:15:09.480 --> 01:15:12.300 align:middle line:84%
+absolute value of
+x is less than 1.
+
+01:15:12.300 --> 01:15:21.320 align:middle line:84%
+And we also know that n diverges
+otherwise, because we've already
+
+01:15:21.320 --> 01:15:22.260 align:middle line:90%
+determined that.
+
+01:15:22.260 --> 01:15:26.560 align:middle line:90%
+
+
+01:15:26.560 --> 01:15:33.440 align:middle line:84%
+Now you see-- the next example I
+want to look at is the one power
+
+01:15:33.440 --> 01:15:36.520 align:middle line:90%
+series that represents--
+
+01:15:36.520 --> 01:15:38.180 align:middle line:90%
+but we haven't proven that yet.
+
+01:15:38.180 --> 01:15:40.840 align:middle line:84%
+But we'll talk about
+that next time.
+
+01:15:40.840 --> 01:15:42.820 align:middle line:90%
+It's the exponential function.
+
+01:15:42.820 --> 01:15:48.880 align:middle line:84%
+If I'm looking at this power
+series here, then I have--
+
+01:15:48.880 --> 01:15:54.200 align:middle line:84%
+then I'm interested
+in for what x--
+
+01:15:54.200 --> 01:16:01.570 align:middle line:90%
+for what x does this converge?
+
+01:16:01.570 --> 01:16:09.400 align:middle line:90%
+
+
+01:16:09.400 --> 01:16:13.620 align:middle line:84%
+And so it's natural here to
+try to apply one of the tests.
+
+01:16:13.620 --> 01:16:16.320 align:middle line:84%
+So you just think
+about x as being fixed
+
+01:16:16.320 --> 01:16:19.100 align:middle line:84%
+and you just apply
+one of the tests.
+
+01:16:19.100 --> 01:16:23.180 align:middle line:84%
+And the natural one is either
+the root test or the ratio test.
+
+01:16:23.180 --> 01:16:24.550 align:middle line:90%
+Let's do the ratio test.
+
+01:16:24.550 --> 01:16:27.180 align:middle line:90%
+
+
+01:16:27.180 --> 01:16:32.080 align:middle line:84%
+So x is fixed, and I'm not
+interested in x equal to 0.
+
+01:16:32.080 --> 01:16:36.840 align:middle line:84%
+I'm assuming that x is not
+equal to 0, because when x is 0,
+
+01:16:36.840 --> 01:16:38.420 align:middle line:90%
+this here is just--
+
+01:16:38.420 --> 01:16:44.780 align:middle line:84%
+it's only for-- x to the power
+of 0 is by definition one.
+
+01:16:44.780 --> 01:16:50.540 align:middle line:84%
+And all the other things,
+all the other terms, are 0.
+
+01:16:50.540 --> 01:16:53.380 align:middle line:84%
+So this here is-- it's
+definitely converging
+
+01:16:53.380 --> 01:16:55.360 align:middle line:90%
+when x is equal to 0.
+
+01:16:55.360 --> 01:16:58.425 align:middle line:90%
+So let's not look at that.
+
+01:16:58.425 --> 01:17:00.300 align:middle line:84%
+And then-- because if
+you don't look at that,
+
+01:17:00.300 --> 01:17:02.900 align:middle line:84%
+you can look at-- you
+can think about a n.
+
+01:17:02.900 --> 01:17:08.660 align:middle line:84%
+You can now think about,
+sorry, as the series
+
+01:17:08.660 --> 01:17:14.780 align:middle line:84%
+where bn is x to the
+power n over n factorial.
+
+01:17:14.780 --> 01:17:17.180 align:middle line:84%
+If you think about
+this thing here,
+
+01:17:17.180 --> 01:17:19.950 align:middle line:84%
+and you think about
+the series as now bn,
+
+01:17:19.950 --> 01:17:23.590 align:middle line:84%
+then the ratio test
+tells you that if you're
+
+01:17:23.590 --> 01:17:29.280 align:middle line:84%
+looking at the ratio
+of bn plus 1 over bn--
+
+01:17:29.280 --> 01:17:35.270 align:middle line:90%
+
+
+01:17:35.270 --> 01:17:40.510 align:middle line:84%
+so if you're looking
+at bn plus 1 over bn,
+
+01:17:40.510 --> 01:17:43.070 align:middle line:84%
+you take the absolute
+value of this here.
+
+01:17:43.070 --> 01:17:47.630 align:middle line:84%
+Well, this is just
+x to the power n
+
+01:17:47.630 --> 01:17:52.650 align:middle line:90%
+plus 1 over n plus 1 factorial.
+
+01:17:52.650 --> 01:17:57.190 align:middle line:84%
+And then you have to
+divide it by x to the power
+
+01:17:57.190 --> 01:18:00.070 align:middle line:90%
+n over n factorial.
+
+01:18:00.070 --> 01:18:05.630 align:middle line:84%
+But if you do that, this
+here flips upside down,
+
+01:18:05.630 --> 01:18:10.510 align:middle line:84%
+and you're getting x to
+the power n plus 1 times
+
+01:18:10.510 --> 01:18:12.430 align:middle line:90%
+n factorial.
+
+01:18:12.430 --> 01:18:18.170 align:middle line:84%
+And then you're getting x to
+the n times n plus 1 factorial.
+
+01:18:18.170 --> 01:18:21.330 align:middle line:90%
+So this is what it's equal to.
+
+01:18:21.330 --> 01:18:24.410 align:middle line:84%
+And now, of course,
+here, there are
+
+01:18:24.410 --> 01:18:27.930 align:middle line:90%
+x times itself n plus 1 times.
+
+01:18:27.930 --> 01:18:31.750 align:middle line:84%
+The n of those is
+canceling out with this.
+
+01:18:31.750 --> 01:18:34.890 align:middle line:90%
+So this is x.
+
+01:18:34.890 --> 01:18:41.170 align:middle line:84%
+And here, you see here
+the n plus 1 factorial.
+
+01:18:41.170 --> 01:18:45.890 align:middle line:84%
+You can write as n
+plus 1 and then times
+
+01:18:45.890 --> 01:18:48.130 align:middle line:90%
+n times n minus 1 cetera.
+
+01:18:48.130 --> 01:18:50.610 align:middle line:90%
+But that's just n factorial.
+
+01:18:50.610 --> 01:18:52.250 align:middle line:90%
+So you can write it like that.
+
+01:18:52.250 --> 01:18:56.050 align:middle line:84%
+And so you see that
+this here cancels that.
+
+01:18:56.050 --> 01:18:59.250 align:middle line:90%
+So you're left with n plus 1.
+
+01:18:59.250 --> 01:19:06.130 align:middle line:84%
+Remember, if x is fixed as n
+goes to infinity, this here--
+
+01:19:06.130 --> 01:19:10.390 align:middle line:84%
+for each fixed x,
+this just goes to 0.
+
+01:19:10.390 --> 01:19:15.430 align:middle line:84%
+So now you have, from the
+ratio test, if that limit--
+
+01:19:15.430 --> 01:19:18.270 align:middle line:84%
+if it has a limit--
+it does have a limit.
+
+01:19:18.270 --> 01:19:23.890 align:middle line:84%
+If that limit is strictly less
+than 1, but it's actually 0.
+
+01:19:23.890 --> 01:19:26.530 align:middle line:84%
+So it's definitely
+fallen under 1.
+
+01:19:26.530 --> 01:19:28.670 align:middle line:90%
+So it's convergent.
+
+01:19:28.670 --> 01:19:32.990 align:middle line:90%
+So the ratio test tells you--
+
+01:19:32.990 --> 01:19:39.890 align:middle line:84%
+so by the ratio test,
+this is convergent.
+
+01:19:39.890 --> 01:19:46.694 align:middle line:90%
+
+
+01:19:46.694 --> 01:19:49.350 align:middle line:90%
+And so we'll finish here.
+
+01:19:49.350 --> 01:19:50.550 align:middle line:90%
+There's a little bit more.
+
+01:19:50.550 --> 01:19:54.110 align:middle line:84%
+I posted already
+my lecture notes.
+
+01:19:54.110 --> 01:19:56.270 align:middle line:90%
+There's a little bit more.
+
+01:19:56.270 --> 01:19:59.750 align:middle line:84%
+And I'll probably talk
+about that next time.
+
+01:19:59.750 --> 01:20:02.070 align:middle line:84%
+I'll just start with just
+talking about the stuff I
+
+01:20:02.070 --> 01:20:02.910 align:middle line:90%
+didn't get to.
+
+01:20:02.910 --> 01:20:05.390 align:middle line:90%
+The stuff I didn't get to was--
+
+01:20:05.390 --> 01:20:08.190 align:middle line:84%
+and we touched
+upon that earlier--
+
+01:20:08.190 --> 01:20:10.534 align:middle line:90%
+is lim sup and lim inf.
+
+01:20:10.534 --> 01:20:13.150 align:middle line:90%
+
+
+01:20:13.150 --> 01:20:16.760 align:middle line:84%
+And the reason why
+we're covering it here
+
+01:20:16.760 --> 01:20:19.840 align:middle line:90%
+is that what if the ratio--
+
+01:20:19.840 --> 01:20:22.800 align:middle line:84%
+what if these things-- what
+if the n-th roots-- so you're
+
+01:20:22.800 --> 01:20:26.240 align:middle line:84%
+asking for either the
+ratio or the n-th root
+
+01:20:26.240 --> 01:20:28.760 align:middle line:90%
+of something to have a limit.
+
+01:20:28.760 --> 01:20:31.520 align:middle line:84%
+But what if it
+doesn't have a limit?
+
+01:20:31.520 --> 01:20:33.620 align:middle line:84%
+And so it's dealing
+with that case.
+
+01:20:33.620 --> 01:20:35.560 align:middle line:90%
+OK.
+
+01:20:35.560 --> 01:20:36.320 align:middle line:90%
+All right.
+
+01:20:36.320 --> 01:20:37.520 align:middle line:90%
+Any questions?
+
+01:20:37.520 --> 01:20:39.793 align:middle line:84%
+AUDIENCE: That means for
+all x, right, you're saying?
+
+01:20:39.793 --> 01:20:41.210 align:middle line:84%
+TOBIAS COLDING:
+This is for all x.
+
+01:20:41.210 --> 01:20:44.240 align:middle line:84%
+But think about
+x as being fixed.
+
+01:20:44.240 --> 01:20:46.320 align:middle line:90%
+Think about x.
+
+01:20:46.320 --> 01:20:48.860 align:middle line:84%
+You're just asking
+for one particular x,
+
+01:20:48.860 --> 01:20:50.300 align:middle line:90%
+but it holds for all x.
+
+01:20:50.300 --> 01:20:54.400 align:middle line:84%
+But don't think about x also
+as being variable right.
+
+01:20:54.400 --> 01:20:58.240 align:middle line:84%
+Because you think about x as
+being fixed, and then you let n
+
+01:20:58.240 --> 01:21:00.033 align:middle line:90%
+go to infinity.
+
+01:21:00.033 --> 01:21:00.700 align:middle line:90%
+AUDIENCE: Right.
+
+01:21:00.700 --> 01:21:01.960 align:middle line:90%
+And then after, you generalize.
+
+01:21:01.960 --> 01:21:02.480 align:middle line:90%
+TOBIAS COLDING: Yeah, yeah.
+
+01:21:02.480 --> 01:21:03.022 align:middle line:90%
+That's right.
+
+01:21:03.022 --> 01:21:07.280 align:middle line:84%
+And so you have for all
+x, this makes sense.
+
+01:21:07.280 --> 01:21:09.460 align:middle line:84%
+Then you can ask, how
+does it vary in x?
+
+01:21:09.460 --> 01:21:11.710 align:middle line:90%
+But that's a different story.
+
+01:21:11.710 --> 01:21:14.000 align:middle line:90%

@@ -1,0 +1,23 @@
+{
+  "course_title":"Real Analysis",
+  "course_description":"This course gives an introduction to analysis, and the goal is twofold:  \n\n         1. To learn how to prove mathematical theorems in analysis and how to write proofs.      \n         2. To prove theorems in calculus in a rigorous way.\n\nThe course will start with real numbers, limits, convergence, series and continuity.  We will continue on with metric spaces, differentiation and  Riemann integrals.  After that, we will move on to differential equations.",
+  "course_description_html":"<p>This course gives an introduction to analysis, and the goal is twofold:  </p>\n<p>         1. To learn how to prove mathematical theorems in analysis and how to write proofs.    <br>\n         2. To prove theorems in calculus in a rigorous way.</p>\n<p>The course will start with real numbers, limits, convergence, series and continuity.  We will continue on with metric spaces, differentiation and  Riemann integrals.  After that, we will move on to differential equations.</p>\n",
+  "site_uid":"94d074bb-ce2c-49f1-90e0-3da6d2f5eae4",
+  "legacy_uid":"","instructors": [{
+    "first_name":"Tobias",
+    "last_name":"Colding",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Tobias Holck Colding"}],"department_numbers":["18"],
+  "learning_resource_types":["Lecture Notes","Lecture Videos","Problem Sets","Exams"],
+  "topics":[["Mathematics","Calculus"],["Mathematics","Differential Equations"],["Mathematics","Mathematical Analysis"]],
+  "mit_learn_topics":[],
+  "primary_course_number":"18.100B",
+  "extra_course_numbers":"18.1002",
+  "term":"Spring",
+  "year":"2025",
+  "level":["Undergraduate","Graduate"],
+  "hide_download":false,
+  "image_src":"./static_resources/mit18_100b_s25.jpg",
+  "course_image_metadata":{"body":"","content_type":"resource","draft":false,"file":"/courses/18-100b-real-analysis-spring-2025/mit18_100b_s25.jpg","file_size":66754,"file_type":"image/jpeg","image_metadata":{"caption":"The key insight of calculus is the fundamental theorem of calculus relating differentiation and integration. Roughly speaking, this says that differentiation and integration are inverses. (Image courtesy of Prof. Colding.)","credit":"","image-alt":"A line graph with varying slope, highlighting concepts of differentiation and integration."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","resourcetype":"Image","title":"mit18_100b_s25.jpg","uid":"d6cbcab3-a3d7-412f-a99c-81adae2f5256","video_files":{"archive_url":"","video_captions_file":"","video_thumbnail_file":"","video_transcript_file":""},"video_metadata":{"source":"","video_speakers":"","video_tags":"","youtube_description":"","youtube_id":""}}}
+

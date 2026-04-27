@@ -1,0 +1,3291 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.470 align:middle line:90%
+[SQUEAKING]
+
+00:00:02.470 --> 00:00:04.446 align:middle line:90%
+[RUSTLING]
+
+00:00:04.446 --> 00:00:07.410 align:middle line:90%
+[CLICKING]
+
+00:00:07.410 --> 00:00:10.097 align:middle line:90%
+
+
+00:00:10.097 --> 00:00:12.680 align:middle line:84%
+TOBIAS COLDING: So this here is
+just to make sure that you are
+
+00:00:12.680 --> 00:00:28.440 align:middle line:84%
+in the right place, which
+is 18.100B or 18.1002.
+
+00:00:28.440 --> 00:00:31.430 align:middle line:84%
+And my name is Toby,
+so Toby Colding.
+
+00:00:31.430 --> 00:00:36.560 align:middle line:90%
+
+
+00:00:36.560 --> 00:00:40.440 align:middle line:84%
+And by the way, so
+we will be recorded.
+
+00:00:40.440 --> 00:00:46.160 align:middle line:84%
+And the video from the
+lecture will be posted online.
+
+00:00:46.160 --> 00:00:49.700 align:middle line:84%
+And I will also
+write lecture notes.
+
+00:00:49.700 --> 00:00:53.140 align:middle line:84%
+I hope you appreciate it
+because I wrote the first one.
+
+00:00:53.140 --> 00:00:54.920 align:middle line:84%
+It actually took me
+quite a long time.
+
+00:00:54.920 --> 00:00:58.060 align:middle line:84%
+I don't typically type
+the lecture notes,
+
+00:00:58.060 --> 00:01:01.340 align:middle line:84%
+but I will do this
+for this class.
+
+00:01:01.340 --> 00:01:06.800 align:middle line:84%
+And I also wanted to just give
+you an idea of the structure.
+
+00:01:06.800 --> 00:01:09.580 align:middle line:84%
+First of all, this is one
+of the most important math
+
+00:01:09.580 --> 00:01:12.620 align:middle line:90%
+classes at MIT.
+
+00:01:12.620 --> 00:01:16.660 align:middle line:84%
+And I'll tell you in a
+minute why it is important.
+
+00:01:16.660 --> 00:01:18.660 align:middle line:84%
+And of course, I
+think that, being
+
+00:01:18.660 --> 00:01:20.340 align:middle line:84%
+one of the most
+important math classes,
+
+00:01:20.340 --> 00:01:22.600 align:middle line:84%
+it's one of the most
+important classes, period.
+
+00:01:22.600 --> 00:01:25.940 align:middle line:90%
+
+
+00:01:25.940 --> 00:01:30.500 align:middle line:84%
+But just to give you
+an idea of what will
+
+00:01:30.500 --> 00:01:32.300 align:middle line:90%
+be expected from the class--
+
+00:01:32.300 --> 00:01:34.950 align:middle line:84%
+so there will be
+10 weekly homework.
+
+00:01:34.950 --> 00:01:39.980 align:middle line:90%
+
+
+00:01:39.980 --> 00:01:47.100 align:middle line:84%
+And the first one, it
+won't be due next week.
+
+00:01:47.100 --> 00:01:51.340 align:middle line:84%
+It will probably be due
+the week after next week.
+
+00:01:51.340 --> 00:01:56.180 align:middle line:84%
+And in part, it will just allow
+you to get settled in a bit.
+
+00:01:56.180 --> 00:01:59.920 align:middle line:84%
+But also, I'm waiting
+for somebody else
+
+00:01:59.920 --> 00:02:02.300 align:middle line:90%
+to assign the TA and the grader.
+
+00:02:02.300 --> 00:02:05.600 align:middle line:84%
+So I think it will be at
+least one graduate TA,
+
+00:02:05.600 --> 00:02:10.960 align:middle line:84%
+and there will be some
+undergraduate TAs.
+
+00:02:10.960 --> 00:02:14.320 align:middle line:84%
+And then there will also
+probably be some graders.
+
+00:02:14.320 --> 00:02:18.020 align:middle line:84%
+And most of these,
+including myself,
+
+00:02:18.020 --> 00:02:20.480 align:middle line:90%
+will have office hours or so.
+
+00:02:20.480 --> 00:02:23.720 align:middle line:90%
+So it'll be 10 weekly homework.
+
+00:02:23.720 --> 00:02:34.480 align:middle line:84%
+There will be a midterm, so
+one midterm and one final.
+
+00:02:34.480 --> 00:02:38.840 align:middle line:90%
+And the midterm is on March 20.
+
+00:02:38.840 --> 00:02:42.400 align:middle line:90%
+And the final is--
+
+00:02:42.400 --> 00:02:43.860 align:middle line:90%
+I don't know when it is.
+
+00:02:43.860 --> 00:02:48.520 align:middle line:84%
+I'm not the one that
+is deciding the date.
+
+00:02:48.520 --> 00:02:53.200 align:middle line:84%
+And it will be a while before
+we know what date that will be.
+
+00:02:53.200 --> 00:02:57.940 align:middle line:84%
+And in terms of the
+grade, the homework
+
+00:02:57.940 --> 00:03:01.380 align:middle line:84%
+will count for
+50% of your grade,
+
+00:03:01.380 --> 00:03:06.820 align:middle line:84%
+midterm will count for
+20%, and the final for 30%
+
+00:03:06.820 --> 00:03:11.420 align:middle line:84%
+And you can see all this
+information about this in--
+
+00:03:11.420 --> 00:03:13.740 align:middle line:84%
+there's a syllabus and
+a course information
+
+00:03:13.740 --> 00:03:16.340 align:middle line:90%
+posted on the Canvas.
+
+00:03:16.340 --> 00:03:23.260 align:middle line:84%
+So make sure to check out the
+Canvas site for the class.
+
+00:03:23.260 --> 00:03:26.300 align:middle line:84%
+And there's also the
+information about the book.
+
+00:03:26.300 --> 00:03:30.660 align:middle line:84%
+And also, the lecture notes will
+be posted on the Canvas site.
+
+00:03:30.660 --> 00:03:34.320 align:middle line:84%
+The lecture notes, I think, will
+probably be posted on the files.
+
+00:03:34.320 --> 00:03:41.310 align:middle line:84%
+So lecture notes will
+be posted on the files.
+
+00:03:41.310 --> 00:03:54.200 align:middle line:90%
+
+
+00:03:54.200 --> 00:03:59.040 align:middle line:84%
+And one other thing is
+that I have activated
+
+00:03:59.040 --> 00:04:00.470 align:middle line:90%
+what's called pset partners.
+
+00:04:00.470 --> 00:04:06.200 align:middle line:90%
+
+
+00:04:06.200 --> 00:04:12.100 align:middle line:84%
+So you are encouraged to work
+with other people on the psets,
+
+00:04:12.100 --> 00:04:15.400 align:middle line:84%
+but everybody have to
+hand in their own psets.
+
+00:04:15.400 --> 00:04:21.800 align:middle line:84%
+And pset partners is a way
+of finding other people
+
+00:04:21.800 --> 00:04:23.180 align:middle line:90%
+to work with.
+
+00:04:23.180 --> 00:04:25.260 align:middle line:84%
+Of course, you can
+do it another way.
+
+00:04:25.260 --> 00:04:29.130 align:middle line:84%
+But this is a tool that is
+used in a lot of classes.
+
+00:04:29.130 --> 00:04:31.460 align:middle line:90%
+
+
+00:04:31.460 --> 00:04:31.960 align:middle line:90%
+OK.
+
+00:04:31.960 --> 00:04:36.920 align:middle line:84%
+I think this covered
+the basic information.
+
+00:04:36.920 --> 00:04:39.080 align:middle line:90%
+And so the class here is--
+
+00:04:39.080 --> 00:04:44.480 align:middle line:84%
+so the two key topics
+for this class is--
+
+00:04:44.480 --> 00:04:54.820 align:middle line:84%
+so key topics, one
+is you will learn how
+
+00:04:54.820 --> 00:04:59.150 align:middle line:90%
+to write a mathematical proof.
+
+00:04:59.150 --> 00:05:05.060 align:middle line:90%
+
+
+00:05:05.060 --> 00:05:09.080 align:middle line:84%
+So what does it mean
+to write something
+
+00:05:09.080 --> 00:05:12.380 align:middle line:84%
+so that is
+mathematically rigorous?
+
+00:05:12.380 --> 00:05:14.220 align:middle line:84%
+And the second thing
+that you will learn
+
+00:05:14.220 --> 00:05:15.630 align:middle line:90%
+is how to prove theorems.
+
+00:05:15.630 --> 00:05:25.820 align:middle line:90%
+
+
+00:05:25.820 --> 00:05:29.940 align:middle line:84%
+And so here's an
+example of this.
+
+00:05:29.940 --> 00:05:32.660 align:middle line:84%
+Let's suppose you
+have a function.
+
+00:05:32.660 --> 00:05:34.440 align:middle line:84%
+So suppose you
+have some interval.
+
+00:05:34.440 --> 00:05:38.380 align:middle line:90%
+So a and b are real numbers.
+
+00:05:38.380 --> 00:05:44.740 align:middle line:84%
+And you have a function f
+defined on this interval.
+
+00:05:44.740 --> 00:05:47.140 align:middle line:90%
+And you take real values.
+
+00:05:47.140 --> 00:05:49.800 align:middle line:84%
+And so here, you have
+the interval here, a.
+
+00:05:49.800 --> 00:05:52.480 align:middle line:90%
+Here's b.
+
+00:05:52.480 --> 00:05:58.620 align:middle line:84%
+And let's say that the
+value at a is negative,
+
+00:05:58.620 --> 00:06:03.600 align:middle line:84%
+and the value at the other
+endpoint, b, is positive.
+
+00:06:03.600 --> 00:06:08.280 align:middle line:84%
+So if you were drawing the
+graph, here, you have a, maybe.
+
+00:06:08.280 --> 00:06:09.920 align:middle line:90%
+Here, you have b.
+
+00:06:09.920 --> 00:06:13.160 align:middle line:84%
+And then the function
+initially is negative,
+
+00:06:13.160 --> 00:06:15.300 align:middle line:90%
+and it end up being positive.
+
+00:06:15.300 --> 00:06:17.360 align:middle line:90%
+So this is f of a.
+
+00:06:17.360 --> 00:06:20.840 align:middle line:90%
+Here, you have f of b.
+
+00:06:20.840 --> 00:06:23.420 align:middle line:84%
+And then this function
+here is continuous.
+
+00:06:23.420 --> 00:06:28.440 align:middle line:90%
+
+
+00:06:28.440 --> 00:06:31.100 align:middle line:84%
+So the function looks
+maybe like this.
+
+00:06:31.100 --> 00:06:34.840 align:middle line:90%
+
+
+00:06:34.840 --> 00:06:36.500 align:middle line:90%
+So f is continuous.
+
+00:06:36.500 --> 00:06:39.050 align:middle line:84%
+So the intermediate
+value theorem's saying--
+
+00:06:39.050 --> 00:06:54.850 align:middle line:90%
+
+
+00:06:54.850 --> 00:06:56.780 align:middle line:84%
+so the intermediate
+value theorem.
+
+00:06:56.780 --> 00:07:09.867 align:middle line:90%
+
+
+00:07:09.867 --> 00:07:11.450 align:middle line:84%
+It's saying the
+following, that if you
+
+00:07:11.450 --> 00:07:15.130 align:middle line:84%
+have a continuous function
+on an interval, then
+
+00:07:15.130 --> 00:07:18.650 align:middle line:90%
+it takes all values in between.
+
+00:07:18.650 --> 00:07:21.570 align:middle line:84%
+So the intermediate value
+theorem says in particular
+
+00:07:21.570 --> 00:07:27.810 align:middle line:90%
+that there exists a c.
+
+00:07:27.810 --> 00:07:32.930 align:middle line:84%
+And the c here is
+between a and b
+
+00:07:32.930 --> 00:07:38.190 align:middle line:84%
+so that the value of
+the function at c is 0.
+
+00:07:38.190 --> 00:07:42.330 align:middle line:84%
+Because the function starts off
+negative, and it end positive.
+
+00:07:42.330 --> 00:07:45.810 align:middle line:84%
+So there must be somewhere
+in between where it hits 0.
+
+00:07:45.810 --> 00:07:49.150 align:middle line:84%
+That's the intermediate
+value theorem.
+
+00:07:49.150 --> 00:07:55.390 align:middle line:84%
+But now the question is then,
+how do we make this into--
+
+00:07:55.390 --> 00:07:57.470 align:middle line:90%
+and it's kind of obvious.
+
+00:07:57.470 --> 00:08:04.790 align:middle line:84%
+It's sort of intuitively obvious
+that if you take a function,
+
+00:08:04.790 --> 00:08:08.590 align:middle line:84%
+continuous means something
+like that if you were drawing
+
+00:08:08.590 --> 00:08:13.550 align:middle line:84%
+the graph, and you'd have
+this piece of chalk here,
+
+00:08:13.550 --> 00:08:17.110 align:middle line:84%
+then as you're
+drawing the graph,
+
+00:08:17.110 --> 00:08:20.690 align:middle line:84%
+the chalk is not allowed
+to leave your table.
+
+00:08:20.690 --> 00:08:24.030 align:middle line:84%
+It can't have a
+function like this here
+
+00:08:24.030 --> 00:08:28.210 align:middle line:84%
+that jumps, so go like this,
+and then jumps like this.
+
+00:08:28.210 --> 00:08:30.330 align:middle line:90%
+That's not continuous.
+
+00:08:30.330 --> 00:08:34.030 align:middle line:90%
+This is not continuous.
+
+00:08:34.030 --> 00:08:38.730 align:middle line:84%
+So continuous function is that
+you have to, when you draw it,
+
+00:08:38.730 --> 00:08:40.470 align:middle line:90%
+it's in one motion.
+
+00:08:40.470 --> 00:08:44.130 align:middle line:84%
+The chalk doesn't
+leave the blackboard.
+
+00:08:44.130 --> 00:08:47.490 align:middle line:84%
+And so it seems
+obvious that there
+
+00:08:47.490 --> 00:08:51.130 align:middle line:84%
+should be some point
+in between where
+
+00:08:51.130 --> 00:08:53.530 align:middle line:90%
+you're crossing this axis here.
+
+00:08:53.530 --> 00:08:56.070 align:middle line:84%
+But how do we make this
+into a rigorous proof?
+
+00:08:56.070 --> 00:08:58.510 align:middle line:90%
+And what is the property?
+
+00:08:58.510 --> 00:09:00.440 align:middle line:84%
+So how do we make
+this into a proof?
+
+00:09:00.440 --> 00:09:04.290 align:middle line:90%
+
+
+00:09:04.290 --> 00:09:20.950 align:middle line:84%
+So how do we make this
+intuition into a proof?
+
+00:09:20.950 --> 00:09:25.210 align:middle line:90%
+
+
+00:09:25.210 --> 00:09:29.350 align:middle line:84%
+And this is not just
+a semantic question.
+
+00:09:29.350 --> 00:09:32.450 align:middle line:90%
+It's not just a crazy question.
+
+00:09:32.450 --> 00:09:35.730 align:middle line:84%
+Maybe in this case,
+it seemed clear.
+
+00:09:35.730 --> 00:09:39.850 align:middle line:84%
+But very quickly, if
+your foundation is not
+
+00:09:39.850 --> 00:09:43.110 align:middle line:84%
+totally rigorous, then
+you get into something
+
+00:09:43.110 --> 00:09:47.510 align:middle line:84%
+where it seems to be the case,
+but it might not be the case.
+
+00:09:47.510 --> 00:09:50.910 align:middle line:84%
+And it's also very
+difficult to then--
+
+00:09:50.910 --> 00:09:52.590 align:middle line:84%
+quickly, that's
+where you arrive.
+
+00:09:52.590 --> 00:09:54.690 align:middle line:84%
+And you also quickly
+arrive to that
+
+00:09:54.690 --> 00:09:59.090 align:middle line:84%
+you don't even know whether
+it should be the case or not.
+
+00:09:59.090 --> 00:10:03.610 align:middle line:84%
+And so it's really important to
+build things up, step to step,
+
+00:10:03.610 --> 00:10:06.310 align:middle line:84%
+where each step is
+totally rigorous.
+
+00:10:06.310 --> 00:10:10.930 align:middle line:84%
+And you write it
+because it's not only
+
+00:10:10.930 --> 00:10:13.850 align:middle line:84%
+you know for sure
+that things are right,
+
+00:10:13.850 --> 00:10:18.830 align:middle line:84%
+but it also makes it much easier
+to predict what should be true.
+
+00:10:18.830 --> 00:10:24.150 align:middle line:84%
+And so in order
+to understand why
+
+00:10:24.150 --> 00:10:30.230 align:middle line:84%
+there should be some
+c between a and b
+
+00:10:30.230 --> 00:10:36.190 align:middle line:84%
+where the value is 0,
+immediately, the first question
+
+00:10:36.190 --> 00:10:37.550 align:middle line:90%
+that arises--
+
+00:10:37.550 --> 00:10:38.730 align:middle line:90%
+what are you using?
+
+00:10:38.730 --> 00:10:43.110 align:middle line:84%
+What property do we need
+to make this into a proof?
+
+00:10:43.110 --> 00:10:45.970 align:middle line:84%
+What property do we need
+of the real numbers?
+
+00:10:45.970 --> 00:10:49.830 align:middle line:84%
+So this is the first
+question that arises.
+
+00:10:49.830 --> 00:11:05.940 align:middle line:84%
+So what property are we
+using of the real numbers?
+
+00:11:05.940 --> 00:11:12.810 align:middle line:90%
+
+
+00:11:12.810 --> 00:11:18.050 align:middle line:84%
+And so, in fact, what
+is the real numbers?
+
+00:11:18.050 --> 00:11:19.640 align:middle line:90%
+So what are the real numbers?
+
+00:11:19.640 --> 00:11:33.770 align:middle line:90%
+
+
+00:11:33.770 --> 00:11:41.098 align:middle line:84%
+And so the thing is
+that, in particular,
+
+00:11:41.098 --> 00:11:43.990 align:middle line:90%
+what is square root of 2?
+
+00:11:43.990 --> 00:11:45.690 align:middle line:90%
+So what is square root of 2?
+
+00:11:45.690 --> 00:11:54.040 align:middle line:90%
+
+
+00:11:54.040 --> 00:11:55.520 align:middle line:90%
+And is that a real number?
+
+00:11:55.520 --> 00:11:58.270 align:middle line:90%
+
+
+00:11:58.270 --> 00:12:00.850 align:middle line:84%
+Is square root of
+2 a real number?
+
+00:12:00.850 --> 00:12:13.070 align:middle line:90%
+
+
+00:12:13.070 --> 00:12:15.870 align:middle line:84%
+So those are some
+of the questions
+
+00:12:15.870 --> 00:12:19.670 align:middle line:90%
+that you immediately get to.
+
+00:12:19.670 --> 00:12:24.910 align:middle line:84%
+And so now-- but so
+the answer to, what
+
+00:12:24.910 --> 00:12:27.730 align:middle line:84%
+are the properties that you're
+using of the real numbers?
+
+00:12:27.730 --> 00:12:33.810 align:middle line:84%
+So the answer to this question
+here is the following.
+
+00:12:33.810 --> 00:12:43.050 align:middle line:90%
+
+
+00:12:43.050 --> 00:12:45.110 align:middle line:84%
+So the answer to
+this question is--
+
+00:12:45.110 --> 00:12:50.130 align:middle line:84%
+so what are the property of the
+real numbers that you're using?
+
+00:12:50.130 --> 00:12:59.850 align:middle line:84%
+So the answer to that
+is the following,
+
+00:12:59.850 --> 00:13:17.322 align:middle line:84%
+that the real numbers-- so R
+is a complete ordered field
+
+00:13:17.322 --> 00:13:39.430 align:middle line:84%
+that contains the rational
+numbers, the rational numbers,
+
+00:13:39.430 --> 00:13:40.430 align:middle line:90%
+Q.
+
+00:13:40.430 --> 00:13:43.790 align:middle line:84%
+I denote the rational numbers
+by Q and the real numbers
+
+00:13:43.790 --> 00:13:54.110 align:middle line:84%
+by capital R. So in order to
+make this the intermediate value
+
+00:13:54.110 --> 00:13:58.670 align:middle line:84%
+theorem, this property that
+if you have an integral from a
+
+00:13:58.670 --> 00:14:02.290 align:middle line:84%
+to b, you have a continuous
+function on that interval.
+
+00:14:02.290 --> 00:14:04.390 align:middle line:84%
+And it starts off
+negative, and it
+
+00:14:04.390 --> 00:14:07.830 align:middle line:84%
+ends positive-- that then
+there is some value in between,
+
+00:14:07.830 --> 00:14:09.130 align:middle line:90%
+where 0 is achieved.
+
+00:14:09.130 --> 00:14:12.390 align:middle line:84%
+In order to make that
+rigorous, what you're
+
+00:14:12.390 --> 00:14:15.230 align:middle line:84%
+using about the real numbers
+is that it's complete
+
+00:14:15.230 --> 00:14:18.430 align:middle line:84%
+ordered field that contains
+irrational numbers.
+
+00:14:18.430 --> 00:14:21.430 align:middle line:84%
+So we need to understand
+what this here means.
+
+00:14:21.430 --> 00:14:27.070 align:middle line:84%
+And in this lecture here, I
+will not explain complete.
+
+00:14:27.070 --> 00:14:29.430 align:middle line:84%
+I will do that at
+a later lecture.
+
+00:14:29.430 --> 00:14:35.050 align:middle line:84%
+But we will understand the rest
+of what are these properties
+
+00:14:35.050 --> 00:14:36.570 align:middle line:90%
+that we're using.
+
+00:14:36.570 --> 00:14:38.470 align:middle line:90%
+So just first, some notation--
+
+00:14:38.470 --> 00:14:56.570 align:middle line:90%
+
+
+00:14:56.570 --> 00:15:00.890 align:middle line:84%
+so the natural numbers
+here, this here
+
+00:15:00.890 --> 00:15:08.610 align:middle line:90%
+is 1, 2, 3, 4, 5, et cetera.
+
+00:15:08.610 --> 00:15:10.220 align:middle line:84%
+So these are the
+natural numbers.
+
+00:15:10.220 --> 00:15:21.050 align:middle line:90%
+
+
+00:15:21.050 --> 00:15:27.340 align:middle line:84%
+The integers-- so 2 set
+here, these are the integers.
+
+00:15:27.340 --> 00:15:31.590 align:middle line:90%
+
+
+00:15:31.590 --> 00:15:36.490 align:middle line:84%
+And the integers are
+simply the natural numbers.
+
+00:15:36.490 --> 00:15:39.910 align:middle line:84%
+But then it also allows
+them to be negative,
+
+00:15:39.910 --> 00:15:41.910 align:middle line:90%
+and it also includes 0.
+
+00:15:41.910 --> 00:15:47.710 align:middle line:84%
+So this is 0 plus or
+minus 1, plus or minus 2,
+
+00:15:47.710 --> 00:15:51.430 align:middle line:90%
+plus or minus 3, et cetera.
+
+00:15:51.430 --> 00:15:54.110 align:middle line:90%
+These are the integers.
+
+00:15:54.110 --> 00:16:05.230 align:middle line:84%
+The rational numbers are then--
+so the rational numbers, Q,
+
+00:16:05.230 --> 00:16:10.810 align:middle line:84%
+so these are numbers
+of the form m/n,
+
+00:16:10.810 --> 00:16:17.550 align:middle line:84%
+where m here is an
+integer and n here--
+
+00:16:17.550 --> 00:16:18.400 align:middle line:90%
+sorry.
+
+00:16:18.400 --> 00:16:22.230 align:middle line:84%
+Yeah, m is an integer, and
+n here is a natural number.
+
+00:16:22.230 --> 00:16:24.830 align:middle line:90%
+
+
+00:16:24.830 --> 00:16:27.950 align:middle line:90%
+That's a rational number.
+
+00:16:27.950 --> 00:16:32.490 align:middle line:84%
+And so now what
+are the properties?
+
+00:16:32.490 --> 00:16:36.090 align:middle line:84%
+So we're building up to trying
+to understand what property
+
+00:16:36.090 --> 00:16:37.530 align:middle line:90%
+of the real numbers is.
+
+00:16:37.530 --> 00:16:42.370 align:middle line:84%
+But let's try to somehow
+understand it a bit better.
+
+00:16:42.370 --> 00:16:44.610 align:middle line:84%
+What are the properties
+that we really have
+
+00:16:44.610 --> 00:16:47.810 align:middle line:90%
+about the rational numbers?
+
+00:16:47.810 --> 00:16:51.370 align:middle line:84%
+So for rational
+numbers, we have--
+
+00:16:51.370 --> 00:16:56.956 align:middle line:84%
+so we write a rational number
+as a quotient, like that.
+
+00:16:56.956 --> 00:16:59.050 align:middle line:84%
+But of course,
+there are many ways
+
+00:16:59.050 --> 00:17:01.370 align:middle line:90%
+that you can write a quotient.
+
+00:17:01.370 --> 00:17:04.040 align:middle line:84%
+So properties of the
+rational numbers--
+
+00:17:04.040 --> 00:17:16.609 align:middle line:90%
+
+
+00:17:16.609 --> 00:17:21.569 align:middle line:84%
+so we write it as a
+quotient, like this.
+
+00:17:21.569 --> 00:17:26.290 align:middle line:84%
+But this is not
+uniquely defined.
+
+00:17:26.290 --> 00:17:29.670 align:middle line:84%
+If you take a
+quotient, like this,
+
+00:17:29.670 --> 00:17:35.875 align:middle line:84%
+you think that this here is
+equal to another quotient,
+
+00:17:35.875 --> 00:17:38.430 align:middle line:90%
+right?
+
+00:17:38.430 --> 00:17:47.390 align:middle line:84%
+Again, m1 and m2 are
+integers, and n1 and n2
+
+00:17:47.390 --> 00:17:50.110 align:middle line:90%
+are natural numbers.
+
+00:17:50.110 --> 00:17:53.830 align:middle line:84%
+Two quotients are
+the same if and only
+
+00:17:53.830 --> 00:18:00.310 align:middle line:84%
+if that if you multiply this
+over here and this over there,
+
+00:18:00.310 --> 00:18:02.970 align:middle line:90%
+then those numbers are the same.
+
+00:18:02.970 --> 00:18:11.670 align:middle line:84%
+So n2 times N2 is
+equal to N2 times n1.
+
+00:18:11.670 --> 00:18:15.030 align:middle line:84%
+Those two rational
+numbers are the same if
+
+00:18:15.030 --> 00:18:19.230 align:middle line:84%
+and only if those two natural
+numbers are the same--
+
+00:18:19.230 --> 00:18:23.176 align:middle line:84%
+or integers, because
+m could be negative.
+
+00:18:23.176 --> 00:18:27.050 align:middle line:90%
+
+
+00:18:27.050 --> 00:18:33.450 align:middle line:84%
+So again, a rational number, it
+has a representative like this.
+
+00:18:33.450 --> 00:18:37.130 align:middle line:84%
+But you could think
+about it as always, you
+
+00:18:37.130 --> 00:18:39.270 align:middle line:90%
+can write this quotient.
+
+00:18:39.270 --> 00:18:41.970 align:middle line:84%
+And two quotients are
+the same if and only
+
+00:18:41.970 --> 00:18:45.210 align:middle line:90%
+if this here is the case.
+
+00:18:45.210 --> 00:18:48.280 align:middle line:84%
+So this is what it means
+to be a rational number.
+
+00:18:48.280 --> 00:18:53.205 align:middle line:90%
+
+
+00:18:53.205 --> 00:18:56.770 align:middle line:84%
+But then there are
+some operations.
+
+00:18:56.770 --> 00:18:59.510 align:middle line:84%
+If you have two
+rational numbers,
+
+00:18:59.510 --> 00:19:02.200 align:middle line:84%
+then you can add two
+rational numbers together.
+
+00:19:02.200 --> 00:19:05.630 align:middle line:90%
+
+
+00:19:05.630 --> 00:19:09.570 align:middle line:84%
+And that's really important,
+that you have some operations
+
+00:19:09.570 --> 00:19:12.370 align:middle line:90%
+on the rational numbers.
+
+00:19:12.370 --> 00:19:14.030 align:middle line:90%
+So if you take--
+
+00:19:14.030 --> 00:19:18.130 align:middle line:90%
+
+
+00:19:18.130 --> 00:19:21.650 align:middle line:84%
+this here is one
+rational number.
+
+00:19:21.650 --> 00:19:25.650 align:middle line:84%
+And if you now take another
+rational number, m2/n2--
+
+00:19:25.650 --> 00:19:29.910 align:middle line:90%
+
+
+00:19:29.910 --> 00:19:34.196 align:middle line:84%
+then how do you add two
+rational numbers together?
+
+00:19:34.196 --> 00:19:36.750 align:middle line:84%
+Well, of course, you
+know that you put it
+
+00:19:36.750 --> 00:19:38.630 align:middle line:90%
+on the common denominator.
+
+00:19:38.630 --> 00:19:49.430 align:middle line:84%
+So this here is m1 times n2 plus
+m2 times n1 divided by n1 times
+
+00:19:49.430 --> 00:19:52.270 align:middle line:90%
+n2.
+
+00:19:52.270 --> 00:19:55.310 align:middle line:84%
+This here is an integer
+in the denominator.
+
+00:19:55.310 --> 00:19:58.970 align:middle line:84%
+And this is a natural
+number in the denominator.
+
+00:19:58.970 --> 00:20:03.990 align:middle line:84%
+And so that's representative
+of a rational number.
+
+00:20:03.990 --> 00:20:06.950 align:middle line:90%
+So that's an operation.
+
+00:20:06.950 --> 00:20:12.170 align:middle line:84%
+Now, in order to really
+know that this is--
+
+00:20:12.170 --> 00:20:17.350 align:middle line:84%
+so the idea here is that if
+you take one rational number,
+
+00:20:17.350 --> 00:20:20.910 align:middle line:84%
+like this, and you take
+another rational number,
+
+00:20:20.910 --> 00:20:25.240 align:middle line:84%
+like that, then
+you can add them.
+
+00:20:25.240 --> 00:20:30.096 align:middle line:84%
+And that gives you
+another rational number.
+
+00:20:30.096 --> 00:20:35.120 align:middle line:84%
+That's this operation that we
+know so well and its addition.
+
+00:20:35.120 --> 00:20:38.240 align:middle line:90%
+
+
+00:20:38.240 --> 00:20:41.440 align:middle line:84%
+In order for this
+really to make sense,
+
+00:20:41.440 --> 00:20:48.680 align:middle line:84%
+you should check that this
+rational number you get
+
+00:20:48.680 --> 00:20:52.200 align:middle line:84%
+is independent on
+the representation.
+
+00:20:52.200 --> 00:20:54.680 align:middle line:84%
+If you have another
+representation
+
+00:20:54.680 --> 00:20:59.240 align:middle line:84%
+for the same rational number
+and another representation
+
+00:20:59.240 --> 00:21:02.560 align:middle line:84%
+for the same rational number,
+then when you add them,
+
+00:21:02.560 --> 00:21:04.920 align:middle line:84%
+you should get
+another representation
+
+00:21:04.920 --> 00:21:08.200 align:middle line:90%
+for the same rational number.
+
+00:21:08.200 --> 00:21:11.200 align:middle line:90%
+
+
+00:21:11.200 --> 00:21:15.560 align:middle line:84%
+And we will check one of
+these things in just a minute.
+
+00:21:15.560 --> 00:21:19.710 align:middle line:90%
+The other thing is that--
+
+00:21:19.710 --> 00:21:22.740 align:middle line:90%
+
+
+00:21:22.740 --> 00:21:24.580 align:middle line:90%
+so that was one operation.
+
+00:21:24.580 --> 00:21:27.580 align:middle line:84%
+When you have the
+rational number,
+
+00:21:27.580 --> 00:21:30.620 align:middle line:90%
+then addition is one operation.
+
+00:21:30.620 --> 00:21:33.880 align:middle line:84%
+Another operation is, of
+course, multiplication.
+
+00:21:33.880 --> 00:21:37.260 align:middle line:90%
+
+
+00:21:37.260 --> 00:21:39.760 align:middle line:84%
+So another operation
+is multiplication.
+
+00:21:39.760 --> 00:21:49.260 align:middle line:90%
+
+
+00:21:49.260 --> 00:21:53.740 align:middle line:84%
+And so if you take one
+rational number, like this,
+
+00:21:53.740 --> 00:21:57.700 align:middle line:84%
+and you take another
+rational number,
+
+00:21:57.700 --> 00:22:01.460 align:middle line:84%
+like that, then if
+you multiply them
+
+00:22:01.460 --> 00:22:04.340 align:middle line:84%
+together-- so what does
+it mean to multiply
+
+00:22:04.340 --> 00:22:06.540 align:middle line:90%
+two rational number together?
+
+00:22:06.540 --> 00:22:09.320 align:middle line:84%
+Well, of course, you
+know this very well.
+
+00:22:09.320 --> 00:22:13.420 align:middle line:84%
+It's just multiplying
+the denominator.
+
+00:22:13.420 --> 00:22:15.940 align:middle line:90%
+So that gives you an integer.
+
+00:22:15.940 --> 00:22:18.760 align:middle line:84%
+And then multiplying
+the denominator,
+
+00:22:18.760 --> 00:22:20.260 align:middle line:90%
+that gives you a natural number.
+
+00:22:20.260 --> 00:22:22.060 align:middle line:84%
+So this here is a
+rational number.
+
+00:22:22.060 --> 00:22:25.600 align:middle line:90%
+
+
+00:22:25.600 --> 00:22:29.180 align:middle line:90%
+And then there's another thing.
+
+00:22:29.180 --> 00:22:31.760 align:middle line:90%
+So this is addition.
+
+00:22:31.760 --> 00:22:32.900 align:middle line:90%
+This was addition.
+
+00:22:32.900 --> 00:22:34.880 align:middle line:90%
+This is multiplication.
+
+00:22:34.880 --> 00:22:38.600 align:middle line:84%
+But there's another
+important property
+
+00:22:38.600 --> 00:22:41.040 align:middle line:84%
+that you have for
+the rational number.
+
+00:22:41.040 --> 00:22:42.350 align:middle line:90%
+And that is an ordering.
+
+00:22:42.350 --> 00:22:46.640 align:middle line:90%
+
+
+00:22:46.640 --> 00:22:48.920 align:middle line:84%
+Again, we're trying to
+understand this question
+
+00:22:48.920 --> 00:22:49.700 align:middle line:90%
+up there.
+
+00:22:49.700 --> 00:22:52.360 align:middle line:84%
+But we want to try to
+understand, how do we
+
+00:22:52.360 --> 00:22:55.660 align:middle line:84%
+make the intermediate
+value theorem--
+
+00:22:55.660 --> 00:22:57.480 align:middle line:90%
+how do we make this rigorous?
+
+00:22:57.480 --> 00:22:59.800 align:middle line:84%
+And so we need to
+understand what property
+
+00:22:59.800 --> 00:23:03.360 align:middle line:90%
+of the real numbers we need.
+
+00:23:03.360 --> 00:23:05.260 align:middle line:84%
+And so this is
+explained in this.
+
+00:23:05.260 --> 00:23:08.080 align:middle line:84%
+And we were working towards
+trying to understand
+
+00:23:08.080 --> 00:23:10.060 align:middle line:90%
+the different concepts in this.
+
+00:23:10.060 --> 00:23:10.940 align:middle line:90%
+What is a field?
+
+00:23:10.940 --> 00:23:13.960 align:middle line:84%
+That's what we're
+trying to understand.
+
+00:23:13.960 --> 00:23:17.960 align:middle line:84%
+And so we have addition
+in the rational numbers.
+
+00:23:17.960 --> 00:23:19.000 align:middle line:90%
+We have addition.
+
+00:23:19.000 --> 00:23:20.420 align:middle line:90%
+We have multiplication.
+
+00:23:20.420 --> 00:23:24.900 align:middle line:84%
+But we have another operation
+on it, which is an ordering.
+
+00:23:24.900 --> 00:23:31.340 align:middle line:84%
+So if you take a
+rational number here,
+
+00:23:31.340 --> 00:23:34.380 align:middle line:84%
+then you can say that this
+rational number is less
+
+00:23:34.380 --> 00:23:36.460 align:middle line:90%
+than another rational number.
+
+00:23:36.460 --> 00:23:40.420 align:middle line:84%
+When is it less than
+another rational number,
+
+00:23:40.420 --> 00:23:42.620 align:middle line:90%
+this is equivalent to saying--
+
+00:23:42.620 --> 00:23:46.680 align:middle line:84%
+remember that these here
+are natural numbers.
+
+00:23:46.680 --> 00:23:48.140 align:middle line:90%
+So they're positive.
+
+00:23:48.140 --> 00:23:51.420 align:middle line:84%
+So that this rational
+number is less
+
+00:23:51.420 --> 00:23:55.100 align:middle line:84%
+than that just
+means that m1 times
+
+00:23:55.100 --> 00:23:59.120 align:middle line:90%
+n2 is less than m2 times n1.
+
+00:23:59.120 --> 00:24:01.820 align:middle line:90%
+
+
+00:24:01.820 --> 00:24:07.160 align:middle line:84%
+Here, I am just multiplying
+over here over here.
+
+00:24:07.160 --> 00:24:12.180 align:middle line:84%
+And I'm using, of course, that
+these numbers here are positive.
+
+00:24:12.180 --> 00:24:12.860 align:middle line:90%
+OK.
+
+00:24:12.860 --> 00:24:14.320 align:middle line:90%
+So this is an ordering.
+
+00:24:14.320 --> 00:24:18.740 align:middle line:84%
+So in the rational numbers,
+there is actually ordering.
+
+00:24:18.740 --> 00:24:21.660 align:middle line:90%
+So that's really important also.
+
+00:24:21.660 --> 00:24:24.860 align:middle line:84%
+So we have these two operations,
+and then we have an ordering.
+
+00:24:24.860 --> 00:24:31.460 align:middle line:90%
+
+
+00:24:31.460 --> 00:24:34.180 align:middle line:84%
+So here is-- so
+let me just check.
+
+00:24:34.180 --> 00:24:38.840 align:middle line:84%
+So I said that when we
+talked about addition, when
+
+00:24:38.840 --> 00:24:42.000 align:middle line:84%
+we talk about addition here,
+then there was something,
+
+00:24:42.000 --> 00:24:46.620 align:middle line:84%
+really, you had to check,
+that this even made any sense.
+
+00:24:46.620 --> 00:24:49.480 align:middle line:84%
+And for this to
+make any sense means
+
+00:24:49.480 --> 00:24:54.720 align:middle line:84%
+that this rational number
+you get from adding these two
+
+00:24:54.720 --> 00:24:58.760 align:middle line:84%
+is independent on how you
+write this rational number
+
+00:24:58.760 --> 00:25:01.080 align:middle line:84%
+and how you write
+that rational number--
+
+00:25:01.080 --> 00:25:04.960 align:middle line:90%
+and the same for multiplication.
+
+00:25:04.960 --> 00:25:07.030 align:middle line:90%
+So let us check that.
+
+00:25:07.030 --> 00:25:12.100 align:middle line:90%
+
+
+00:25:12.100 --> 00:25:29.372 align:middle line:84%
+So this here is checking
+that multiplication
+
+00:25:29.372 --> 00:25:46.860 align:middle line:84%
+is a well-defined operation,
+i.e, it is independent.
+
+00:25:46.860 --> 00:25:57.040 align:middle line:84%
+It is independent of
+the representative.
+
+00:25:57.040 --> 00:26:04.220 align:middle line:90%
+
+
+00:26:04.220 --> 00:26:09.440 align:middle line:84%
+So we are multiplying-- we
+take this rational number.
+
+00:26:09.440 --> 00:26:11.920 align:middle line:84%
+Sorry, let me write
+a little bit bigger--
+
+00:26:11.920 --> 00:26:13.840 align:middle line:90%
+this rational number.
+
+00:26:13.840 --> 00:26:17.480 align:middle line:90%
+So this is one rational number.
+
+00:26:17.480 --> 00:26:24.280 align:middle line:84%
+And we multiply
+this rational number
+
+00:26:24.280 --> 00:26:26.300 align:middle line:90%
+by another rational number.
+
+00:26:26.300 --> 00:26:29.690 align:middle line:90%
+Let's call it p1 comma q1.
+
+00:26:29.690 --> 00:26:33.280 align:middle line:90%
+
+
+00:26:33.280 --> 00:26:35.800 align:middle line:84%
+And then we take
+another representative
+
+00:26:35.800 --> 00:26:38.040 align:middle line:90%
+for the same rational number.
+
+00:26:38.040 --> 00:26:39.500 align:middle line:90%
+And let's call this m2/n2.
+
+00:26:39.500 --> 00:26:42.840 align:middle line:90%
+
+
+00:26:42.840 --> 00:26:46.780 align:middle line:84%
+And for this rational number,
+we take another representative.
+
+00:26:46.780 --> 00:26:51.040 align:middle line:90%
+
+
+00:26:51.040 --> 00:26:56.240 align:middle line:84%
+And we want to prove
+that this number here is
+
+00:26:56.240 --> 00:27:00.280 align:middle line:90%
+the same as that number here.
+
+00:27:00.280 --> 00:27:01.970 align:middle line:90%
+So how do we do that?
+
+00:27:01.970 --> 00:27:08.560 align:middle line:90%
+
+
+00:27:08.560 --> 00:27:13.920 align:middle line:84%
+So we have that this here
+and this here is the same--
+
+00:27:13.920 --> 00:27:15.460 align:middle line:84%
+it's two different
+representation
+
+00:27:15.460 --> 00:27:17.420 align:middle line:90%
+of the same rational number.
+
+00:27:17.420 --> 00:27:26.460 align:middle line:84%
+So we have that m1/n1
+is equal to m2/n2.
+
+00:27:26.460 --> 00:27:31.900 align:middle line:84%
+So remember that this just meant
+that when you multiply over
+
+00:27:31.900 --> 00:27:35.140 align:middle line:84%
+here, like that, then you
+get the same integers-- so
+
+00:27:35.140 --> 00:27:40.040 align:middle line:90%
+this here, n2, plus m2 times n1.
+
+00:27:40.040 --> 00:27:43.500 align:middle line:84%
+That's what it meant, that
+these here were the same.
+
+00:27:43.500 --> 00:27:48.620 align:middle line:84%
+And likewise, you have the
+two rational numbers here.
+
+00:27:48.620 --> 00:27:49.620 align:middle line:90%
+This is one.
+
+00:27:49.620 --> 00:27:54.820 align:middle line:84%
+This is equal to that
+p2 divided by q2.
+
+00:27:54.820 --> 00:27:57.900 align:middle line:84%
+This just meant that
+when you multiply over,
+
+00:27:57.900 --> 00:28:03.750 align:middle line:90%
+p1 q2 is equal to p2 q1.
+
+00:28:03.750 --> 00:28:07.480 align:middle line:90%
+
+
+00:28:07.480 --> 00:28:12.000 align:middle line:84%
+So this just meant that
+these two represent
+
+00:28:12.000 --> 00:28:13.780 align:middle line:90%
+the same rational number.
+
+00:28:13.780 --> 00:28:17.560 align:middle line:84%
+These two represent the
+same rational number.
+
+00:28:17.560 --> 00:28:21.920 align:middle line:84%
+And now what we need to prove
+is that the product here
+
+00:28:21.920 --> 00:28:26.480 align:middle line:84%
+is independent of
+these representations.
+
+00:28:26.480 --> 00:28:30.160 align:middle line:90%
+So the product here is--
+
+00:28:30.160 --> 00:28:33.420 align:middle line:84%
+so we need to prove the
+products of the first--
+
+00:28:33.420 --> 00:28:36.520 align:middle line:90%
+
+
+00:28:36.520 --> 00:28:40.320 align:middle line:84%
+this product here,
+this product here,
+
+00:28:40.320 --> 00:28:50.040 align:middle line:84%
+this is just m1 times p1
+divided by n1 times q1.
+
+00:28:50.040 --> 00:28:59.960 align:middle line:84%
+And this is what we want to
+show, that this thing here
+
+00:28:59.960 --> 00:29:03.720 align:middle line:84%
+is the same if we took
+this other representation
+
+00:29:03.720 --> 00:29:07.340 align:middle line:84%
+and multiply it by the
+other reputation of this.
+
+00:29:07.340 --> 00:29:15.900 align:middle line:84%
+So this is m2 times
+p2, m2 times q2.
+
+00:29:15.900 --> 00:29:19.980 align:middle line:84%
+That's what we want to prove,
+that those two are same.
+
+00:29:19.980 --> 00:29:22.660 align:middle line:90%
+And so we need to prove that.
+
+00:29:22.660 --> 00:29:35.420 align:middle line:84%
+So we need to show
+that m1 p1 times
+
+00:29:35.420 --> 00:29:40.940 align:middle line:90%
+this denominator here into q2--
+
+00:29:40.940 --> 00:29:50.220 align:middle line:84%
+we need to prove, need to
+show that this thing here
+
+00:29:50.220 --> 00:29:58.920 align:middle line:90%
+is equal to m2 p2 n1 q1.
+
+00:29:58.920 --> 00:30:02.420 align:middle line:90%
+That's what we need to prove.
+
+00:30:02.420 --> 00:30:04.860 align:middle line:90%
+But now let's see.
+
+00:30:04.860 --> 00:30:20.640 align:middle line:84%
+So we know that if we take
+m1 and together with n2,
+
+00:30:20.640 --> 00:30:25.620 align:middle line:84%
+m1 together with n2,
+this is the same as--
+
+00:30:25.620 --> 00:30:32.340 align:middle line:84%
+so this here is
+the same as m2 n1.
+
+00:30:32.340 --> 00:30:35.600 align:middle line:90%
+This is what this here say.
+
+00:30:35.600 --> 00:30:40.760 align:middle line:84%
+And it also says that if you
+take p1 together with q2, then
+
+00:30:40.760 --> 00:30:44.120 align:middle line:84%
+you may as well write
+this thing here.
+
+00:30:44.120 --> 00:30:49.400 align:middle line:90%
+So you may as well write p2 q1.
+
+00:30:49.400 --> 00:30:52.400 align:middle line:84%
+So this thing here
+is equal to that.
+
+00:30:52.400 --> 00:30:56.360 align:middle line:84%
+But now you see that
+here, you have m2.
+
+00:30:56.360 --> 00:30:57.920 align:middle line:90%
+Here, you have n1.
+
+00:30:57.920 --> 00:30:59.440 align:middle line:90%
+Here, you have p2.
+
+00:30:59.440 --> 00:31:01.100 align:middle line:90%
+Here, you have q1.
+
+00:31:01.100 --> 00:31:03.140 align:middle line:90%
+So those two are the same.
+
+00:31:03.140 --> 00:31:07.780 align:middle line:84%
+So this proves that this
+operation of multiplication
+
+00:31:07.780 --> 00:31:10.340 align:middle line:84%
+is well defined in
+the rational number--
+
+00:31:10.340 --> 00:31:13.940 align:middle line:90%
+and similarly for addition.
+
+00:31:13.940 --> 00:31:16.460 align:middle line:84%
+The reason, of course,
+why I chose multiplication
+
+00:31:16.460 --> 00:31:20.160 align:middle line:84%
+is that it looks a little
+simpler on the blackboard.
+
+00:31:20.160 --> 00:31:22.760 align:middle line:84%
+It's a little more messy
+if you did addition.
+
+00:31:22.760 --> 00:31:27.212 align:middle line:90%
+But it's just exactly the same.
+
+00:31:27.212 --> 00:31:27.712 align:middle line:90%
+OK.
+
+00:31:27.712 --> 00:31:36.660 align:middle line:90%
+
+
+00:31:36.660 --> 00:31:40.650 align:middle line:84%
+So this is also
+supposed to illustrate
+
+00:31:40.650 --> 00:31:42.800 align:middle line:90%
+how detailed a proof is.
+
+00:31:42.800 --> 00:31:46.260 align:middle line:84%
+So when we have a
+concept like this,
+
+00:31:46.260 --> 00:31:50.280 align:middle line:84%
+we want to make sure that
+it really makes sense.
+
+00:31:50.280 --> 00:31:53.160 align:middle line:84%
+And in this case, it makes
+sense that it's well defined.
+
+00:31:53.160 --> 00:31:56.500 align:middle line:84%
+It's independent
+under representation.
+
+00:31:56.500 --> 00:31:59.170 align:middle line:84%
+And so the proof here, this
+here would be the proof.
+
+00:31:59.170 --> 00:32:02.793 align:middle line:90%
+
+
+00:32:02.793 --> 00:32:03.293 align:middle line:90%
+OK.
+
+00:32:03.293 --> 00:32:05.880 align:middle line:90%
+
+
+00:32:05.880 --> 00:32:08.320 align:middle line:84%
+So the takeaway
+here at the moment
+
+00:32:08.320 --> 00:32:10.860 align:middle line:90%
+is, we're building towards this.
+
+00:32:10.860 --> 00:32:12.220 align:middle line:90%
+We're understanding a field.
+
+00:32:12.220 --> 00:32:16.200 align:middle line:84%
+We want to understand
+the real numbers.
+
+00:32:16.200 --> 00:32:22.160 align:middle line:84%
+But the takeaway at the moment
+is that on the rational numbers,
+
+00:32:22.160 --> 00:32:25.400 align:middle line:84%
+there is a way of adding
+two rational numbers
+
+00:32:25.400 --> 00:32:27.540 align:middle line:84%
+and multiplying two
+rational numbers.
+
+00:32:27.540 --> 00:32:31.080 align:middle line:90%
+And there's also an ordering.
+
+00:32:31.080 --> 00:32:36.740 align:middle line:84%
+And so this leads us to
+the following definition.
+
+00:32:36.740 --> 00:32:47.680 align:middle line:90%
+
+
+00:32:47.680 --> 00:32:50.960 align:middle line:84%
+And so this is the
+definition of a field.
+
+00:32:50.960 --> 00:33:05.050 align:middle line:84%
+So a field-- and I will use F
+here, capital F for a field--
+
+00:33:05.050 --> 00:33:06.070 align:middle line:90%
+is the following.
+
+00:33:06.070 --> 00:33:12.290 align:middle line:90%
+
+
+00:33:12.290 --> 00:33:18.750 align:middle line:84%
+So it's a set with
+two operations.
+
+00:33:18.750 --> 00:33:26.450 align:middle line:90%
+
+
+00:33:26.450 --> 00:33:31.530 align:middle line:84%
+And the operations we are
+denoting suggestively by--
+
+00:33:31.530 --> 00:33:34.410 align:middle line:84%
+so the two operations
+are denoted suggestively
+
+00:33:34.410 --> 00:33:49.005 align:middle line:84%
+by a plus and a
+multiplication, like a dot.
+
+00:33:49.005 --> 00:33:52.150 align:middle line:90%
+But this is just abstract.
+
+00:33:52.150 --> 00:33:56.750 align:middle line:84%
+So we have a set, and we
+have these two operations.
+
+00:33:56.750 --> 00:34:01.470 align:middle line:84%
+What property do these two
+operations need to have?
+
+00:34:01.470 --> 00:34:05.790 align:middle line:84%
+Each of them have
+five properties.
+
+00:34:05.790 --> 00:34:08.750 align:middle line:84%
+So that means that
+there are 10 properties.
+
+00:34:08.750 --> 00:34:12.350 align:middle line:84%
+And then there's 11 properties
+that chain those two operations
+
+00:34:12.350 --> 00:34:13.110 align:middle line:90%
+together.
+
+00:34:13.110 --> 00:34:15.530 align:middle line:90%
+So let's start with addition.
+
+00:34:15.530 --> 00:34:21.170 align:middle line:90%
+So properties of addition--
+
+00:34:21.170 --> 00:34:25.909 align:middle line:90%
+
+
+00:34:25.909 --> 00:34:30.449 align:middle line:84%
+so the first property is
+that addition make any sense.
+
+00:34:30.449 --> 00:34:35.590 align:middle line:84%
+So if you take a
+element in the field
+
+00:34:35.590 --> 00:34:40.270 align:middle line:84%
+and you take another
+element in the field,
+
+00:34:40.270 --> 00:34:44.969 align:middle line:84%
+then addition gives
+you a third element.
+
+00:34:44.969 --> 00:34:47.230 align:middle line:84%
+So when you add
+these together, this
+
+00:34:47.230 --> 00:34:51.790 align:middle line:84%
+is just a third
+element in the field.
+
+00:34:51.790 --> 00:34:54.050 align:middle line:84%
+So this is the first
+property, that it really
+
+00:34:54.050 --> 00:34:57.730 align:middle line:84%
+is an operation that when you
+take two elements of the field,
+
+00:34:57.730 --> 00:35:01.290 align:middle line:84%
+then you get another
+element in the field.
+
+00:35:01.290 --> 00:35:03.290 align:middle line:90%
+So this is one.
+
+00:35:03.290 --> 00:35:10.450 align:middle line:84%
+The second is that if you
+add two elements together--
+
+00:35:10.450 --> 00:35:12.830 align:middle line:90%
+so x and y are in the field.
+
+00:35:12.830 --> 00:35:15.190 align:middle line:84%
+If you add two
+elements together,
+
+00:35:15.190 --> 00:35:20.350 align:middle line:84%
+then the ordering that
+you're adding is irrelevant.
+
+00:35:20.350 --> 00:35:23.390 align:middle line:84%
+So this here is the
+same as y plus x.
+
+00:35:23.390 --> 00:35:28.530 align:middle line:90%
+
+
+00:35:28.530 --> 00:35:32.410 align:middle line:84%
+Then the next one is--
+this is sometimes called
+
+00:35:32.410 --> 00:35:35.890 align:middle line:84%
+abelian or commutative,
+this property here.
+
+00:35:35.890 --> 00:35:38.890 align:middle line:84%
+Then there's a third
+property, which
+
+00:35:38.890 --> 00:35:42.810 align:middle line:84%
+is that if you add
+two elements together
+
+00:35:42.810 --> 00:35:48.770 align:middle line:84%
+and then you add a third
+element to the sum of these two,
+
+00:35:48.770 --> 00:35:52.830 align:middle line:84%
+then this here is
+the same as that you
+
+00:35:52.830 --> 00:35:58.150 align:middle line:84%
+can add the last
+two first and then
+
+00:35:58.150 --> 00:36:01.010 align:middle line:84%
+add the first one to the
+sum of the other two.
+
+00:36:01.010 --> 00:36:17.790 align:middle line:90%
+
+
+00:36:17.790 --> 00:36:23.670 align:middle line:84%
+And so the fourth
+property is that there
+
+00:36:23.670 --> 00:36:28.470 align:middle line:84%
+is what is sometimes referred
+to as a neutral element.
+
+00:36:28.470 --> 00:36:48.190 align:middle line:84%
+So there exists an element
+that we denote by 0.
+
+00:36:48.190 --> 00:36:52.290 align:middle line:84%
+But it's just to make it
+kind of easier to understand,
+
+00:36:52.290 --> 00:36:54.330 align:middle line:90%
+that we denote by 0.
+
+00:36:54.330 --> 00:37:07.770 align:middle line:84%
+And it has the property that
+if you take this 0 element
+
+00:37:07.770 --> 00:37:12.650 align:middle line:84%
+and you add it to any
+other element, then it just
+
+00:37:12.650 --> 00:37:15.250 align:middle line:84%
+gives you back
+that other element.
+
+00:37:15.250 --> 00:37:19.770 align:middle line:84%
+So it's kind of neutral
+for the operation.
+
+00:37:19.770 --> 00:37:24.050 align:middle line:84%
+And then there's supposed
+to be a fifth property.
+
+00:37:24.050 --> 00:37:33.490 align:middle line:84%
+And the fifth property is
+that for any element x,
+
+00:37:33.490 --> 00:37:40.200 align:middle line:90%
+there exist another element.
+
+00:37:40.200 --> 00:37:44.650 align:middle line:90%
+
+
+00:37:44.650 --> 00:37:49.590 align:middle line:84%
+And again, we write this
+suggestively by minus x
+
+00:37:49.590 --> 00:37:52.950 align:middle line:84%
+with a bracket
+around, like this.
+
+00:37:52.950 --> 00:38:04.526 align:middle line:84%
+So there is another
+element with the property
+
+00:38:04.526 --> 00:38:10.150 align:middle line:84%
+that if you take x and you're
+adding this other element, then
+
+00:38:10.150 --> 00:38:12.750 align:middle line:90%
+you get 0.
+
+00:38:12.750 --> 00:38:18.990 align:middle line:84%
+So those are the five properties
+that addition has to have.
+
+00:38:18.990 --> 00:38:23.810 align:middle line:84%
+And then multiplication have
+to have five properties also.
+
+00:38:23.810 --> 00:38:29.910 align:middle line:84%
+And these are similar to
+this with a little twist.
+
+00:38:29.910 --> 00:38:36.190 align:middle line:84%
+And so for
+multiplication, you need
+
+00:38:36.190 --> 00:38:37.850 align:middle line:84%
+to have the
+following properties.
+
+00:38:37.850 --> 00:38:41.950 align:middle line:90%
+
+
+00:38:41.950 --> 00:38:44.470 align:middle line:90%
+So again, it's five properties.
+
+00:38:44.470 --> 00:38:51.170 align:middle line:84%
+The first one is the similar
+property to the property 1
+
+00:38:51.170 --> 00:38:55.370 align:middle line:84%
+up there, namely that if you
+take two elements, x and y,
+
+00:38:55.370 --> 00:39:02.890 align:middle line:84%
+in the field, then when
+you multiply them together,
+
+00:39:02.890 --> 00:39:06.850 align:middle line:84%
+that should give you another
+element in the field.
+
+00:39:06.850 --> 00:39:09.090 align:middle line:90%
+So that's the first.
+
+00:39:09.090 --> 00:39:16.730 align:middle line:84%
+The second one is similar to
+2 up there, is that x times y
+
+00:39:16.730 --> 00:39:19.350 align:middle line:90%
+should be the same as y times x.
+
+00:39:19.350 --> 00:39:22.170 align:middle line:90%
+
+
+00:39:22.170 --> 00:39:25.730 align:middle line:84%
+So again, that's often
+referred to that it
+
+00:39:25.730 --> 00:39:30.530 align:middle line:90%
+is abelian or commutative.
+
+00:39:30.530 --> 00:39:40.010 align:middle line:84%
+The third property, it's similar
+to the third property up there--
+
+00:39:40.010 --> 00:39:43.250 align:middle line:84%
+is that if you take
+x times y and then
+
+00:39:43.250 --> 00:39:46.590 align:middle line:84%
+you multiply it by
+a third element,
+
+00:39:46.590 --> 00:39:50.030 align:middle line:84%
+then you could as well
+have first multiplied
+
+00:39:50.030 --> 00:39:54.990 align:middle line:84%
+the two last elements and then
+multiply by the first element,
+
+00:39:54.990 --> 00:39:57.750 align:middle line:90%
+like that.
+
+00:39:57.750 --> 00:40:05.510 align:middle line:84%
+And then the fourth property
+is similar to that property 4
+
+00:40:05.510 --> 00:40:22.710 align:middle line:84%
+up there, is that there exists
+an element denoted suggestively
+
+00:40:22.710 --> 00:40:30.390 align:middle line:84%
+by 1 here, with a property
+that 1 times any element
+
+00:40:30.390 --> 00:40:35.790 align:middle line:84%
+x just give you back
+that element, x.
+
+00:40:35.790 --> 00:40:38.890 align:middle line:84%
+And then the fifth is
+similar, except there
+
+00:40:38.890 --> 00:40:40.600 align:middle line:90%
+is a twist, slight twist.
+
+00:40:40.600 --> 00:40:44.170 align:middle line:90%
+
+
+00:40:44.170 --> 00:40:49.170 align:middle line:84%
+And so the fifth
+property is that--
+
+00:40:49.170 --> 00:40:52.450 align:middle line:84%
+but it's very similar to
+that fifth over there.
+
+00:40:52.450 --> 00:40:54.270 align:middle line:84%
+The fifth property
+is the following.
+
+00:40:54.270 --> 00:40:57.410 align:middle line:90%
+
+
+00:40:57.410 --> 00:41:00.050 align:middle line:84%
+The fifth property
+here is that there
+
+00:41:00.050 --> 00:41:12.170 align:middle line:84%
+exists that for any x
+in the field except 0--
+
+00:41:12.170 --> 00:41:14.970 align:middle line:90%
+you have to disregard 0.
+
+00:41:14.970 --> 00:41:23.940 align:middle line:84%
+For any other elements,
+there exist an element--
+
+00:41:23.940 --> 00:41:27.130 align:middle line:90%
+
+
+00:41:27.130 --> 00:41:44.270 align:middle line:84%
+and, again, suggestively denoted
+by 1/x with the property that x
+
+00:41:44.270 --> 00:41:48.790 align:middle line:90%
+times 1/x is equal to 1.
+
+00:41:48.790 --> 00:41:49.290 align:middle line:90%
+OK.
+
+00:41:49.290 --> 00:41:55.910 align:middle line:84%
+So those are the five properties
+for addition, five properties
+
+00:41:55.910 --> 00:41:57.290 align:middle line:90%
+for multiplication.
+
+00:41:57.290 --> 00:42:00.950 align:middle line:84%
+And you see that the
+one for multiplication
+
+00:42:00.950 --> 00:42:03.730 align:middle line:84%
+is like a mirror of
+the one for addition,
+
+00:42:03.730 --> 00:42:08.150 align:middle line:84%
+except the fifth one has
+that you have to look away
+
+00:42:08.150 --> 00:42:09.680 align:middle line:90%
+from the 0 element.
+
+00:42:09.680 --> 00:42:15.650 align:middle line:90%
+
+
+00:42:15.650 --> 00:42:18.310 align:middle line:90%
+And so, again, this is just--
+
+00:42:18.310 --> 00:42:21.710 align:middle line:84%
+1 is just that it
+is an operation.
+
+00:42:21.710 --> 00:42:25.510 align:middle line:84%
+2 is usually called the
+abelian property or commutative
+
+00:42:25.510 --> 00:42:26.590 align:middle line:90%
+property.
+
+00:42:26.590 --> 00:42:29.510 align:middle line:84%
+This is called the
+associative property.
+
+00:42:29.510 --> 00:42:34.670 align:middle line:84%
+This, it's often also referred
+to as a neutral element.
+
+00:42:34.670 --> 00:42:40.110 align:middle line:84%
+And this here, that
+exists this element--
+
+00:42:40.110 --> 00:42:43.090 align:middle line:84%
+in this case, minus
+x is sometimes
+
+00:42:43.090 --> 00:42:44.520 align:middle line:90%
+called the inverse element--
+
+00:42:44.520 --> 00:42:47.090 align:middle line:90%
+
+
+00:42:47.090 --> 00:42:50.130 align:middle line:90%
+and likewise for multiplication.
+
+00:42:50.130 --> 00:42:54.370 align:middle line:84%
+And then there is,
+again, an 11th property.
+
+00:42:54.370 --> 00:42:55.890 align:middle line:84%
+And that's a
+property because you
+
+00:42:55.890 --> 00:42:58.250 align:middle line:84%
+see that those-- at
+the moment, there's
+
+00:42:58.250 --> 00:43:02.050 align:middle line:84%
+basically no interaction
+between these two operations.
+
+00:43:02.050 --> 00:43:05.050 align:middle line:84%
+The only way that you
+see some interaction,
+
+00:43:05.050 --> 00:43:10.250 align:middle line:84%
+but this is very little, is that
+the fifth property over here
+
+00:43:10.250 --> 00:43:13.570 align:middle line:84%
+refer to the neutral
+element for addition.
+
+00:43:13.570 --> 00:43:17.130 align:middle line:84%
+But they don't really chain
+the two operations together.
+
+00:43:17.130 --> 00:43:20.290 align:middle line:84%
+And that is the last property
+that is often referred
+
+00:43:20.290 --> 00:43:22.070 align:middle line:90%
+to as the distributive law.
+
+00:43:22.070 --> 00:43:32.800 align:middle line:84%
+So this is an axiom
+chaining addition--
+
+00:43:32.800 --> 00:43:42.230 align:middle line:84%
+write it like this, addition
+together with multiplication.
+
+00:43:42.230 --> 00:43:53.390 align:middle line:90%
+
+
+00:43:53.390 --> 00:44:03.950 align:middle line:84%
+And that's if you take x and
+you multiply it by y plus z--
+
+00:44:03.950 --> 00:44:08.030 align:middle line:84%
+you take the sum here, and
+then you multiply it by x.
+
+00:44:08.030 --> 00:44:11.190 align:middle line:84%
+That is supposed to
+be the same as where
+
+00:44:11.190 --> 00:44:19.830 align:middle line:84%
+you first multiply x with y
+and then you multiply x by z.
+
+00:44:19.830 --> 00:44:23.550 align:middle line:84%
+So this is often called
+the distributive law.
+
+00:44:23.550 --> 00:44:27.390 align:middle line:84%
+And that's a law, again, or
+axiom that is chaining these two
+
+00:44:27.390 --> 00:44:30.303 align:middle line:90%
+operations together.
+
+00:44:30.303 --> 00:44:30.803 align:middle line:90%
+OK.
+
+00:44:30.803 --> 00:44:37.610 align:middle line:84%
+So now let's try
+to see-- so let me
+
+00:44:37.610 --> 00:44:43.130 align:middle line:84%
+just establish just one
+little property of a field.
+
+00:44:43.130 --> 00:44:55.382 align:middle line:84%
+And you see that when we talk
+about the axioms for addition,
+
+00:44:55.382 --> 00:44:59.250 align:middle line:84%
+I just said that there had
+to exist one element that we
+
+00:44:59.250 --> 00:45:02.410 align:middle line:84%
+call the 0 element, and it
+had to have some property.
+
+00:45:02.410 --> 00:45:04.270 align:middle line:84%
+But maybe there
+are many elements.
+
+00:45:04.270 --> 00:45:06.080 align:middle line:84%
+And so this is the
+first little theorem.
+
+00:45:06.080 --> 00:45:10.090 align:middle line:90%
+
+
+00:45:10.090 --> 00:45:18.210 align:middle line:84%
+For any field-- I just
+write it as capital Field.
+
+00:45:18.210 --> 00:45:20.460 align:middle line:90%
+But it's just to--
+
+00:45:20.460 --> 00:45:22.970 align:middle line:90%
+but you don't really have to.
+
+00:45:22.970 --> 00:45:37.260 align:middle line:84%
+For any field F, there
+exist only one zero element.
+
+00:45:37.260 --> 00:45:43.390 align:middle line:90%
+
+
+00:45:43.390 --> 00:45:44.030 align:middle line:90%
+OK.
+
+00:45:44.030 --> 00:45:46.750 align:middle line:90%
+Let's try to prove this.
+
+00:45:46.750 --> 00:45:54.550 align:middle line:84%
+And again, there's all
+kind of important concepts
+
+00:45:54.550 --> 00:45:55.610 align:middle line:90%
+in this class.
+
+00:45:55.610 --> 00:46:02.910 align:middle line:84%
+But there's also another thing
+that is important to learn.
+
+00:46:02.910 --> 00:46:04.630 align:middle line:84%
+And you have to be
+a little bit patient
+
+00:46:04.630 --> 00:46:09.510 align:middle line:84%
+because it will take you a
+little bit of time to learn it--
+
+00:46:09.510 --> 00:46:13.510 align:middle line:84%
+is how to write a
+mathematical proof.
+
+00:46:13.510 --> 00:46:17.710 align:middle line:84%
+And so this here just gives you
+just a little bit of idea of it.
+
+00:46:17.710 --> 00:46:23.230 align:middle line:84%
+So we want to prove that there
+exists only one zero element.
+
+00:46:23.230 --> 00:46:39.070 align:middle line:84%
+So assume that O1 and O2
+are both zero element.
+
+00:46:39.070 --> 00:46:45.780 align:middle line:90%
+
+
+00:46:45.780 --> 00:46:54.360 align:middle line:84%
+So that it's a zero
+element just means
+
+00:46:54.360 --> 00:46:58.200 align:middle line:84%
+that if you take O1 and
+you add anything to it--
+
+00:46:58.200 --> 00:47:00.440 align:middle line:84%
+x could be anything
+in the field--
+
+00:47:00.440 --> 00:47:02.120 align:middle line:90%
+then you get x back.
+
+00:47:02.120 --> 00:47:05.080 align:middle line:84%
+That is that O1
+is a zero element.
+
+00:47:05.080 --> 00:47:08.840 align:middle line:84%
+That O2 is a zero element
+just means the same thing--
+
+00:47:08.840 --> 00:47:12.986 align:middle line:84%
+that if you take anything
+in x, then you get x back.
+
+00:47:12.986 --> 00:47:17.520 align:middle line:84%
+And now we want to prove
+that O1 is equal to O2.
+
+00:47:17.520 --> 00:47:21.400 align:middle line:90%
+So I just write O1 plus O2.
+
+00:47:21.400 --> 00:47:25.800 align:middle line:84%
+But now I'm just thinking
+about this O2 as my x.
+
+00:47:25.800 --> 00:47:30.000 align:middle line:90%
+So I'm adding 0 O1 to this x.
+
+00:47:30.000 --> 00:47:33.780 align:middle line:84%
+So I know that I'm just
+getting this here back.
+
+00:47:33.780 --> 00:47:38.700 align:middle line:90%
+Is because O1 is a 0 element.
+
+00:47:38.700 --> 00:47:42.540 align:middle line:84%
+But I could do the same
+with O2 that I take.
+
+00:47:42.540 --> 00:47:46.380 align:middle line:84%
+The ordering I know
+already is irrelevant,
+
+00:47:46.380 --> 00:47:49.160 align:middle line:84%
+whether it's O1 plus
+O2 or O2 plus O1.
+
+00:47:49.160 --> 00:47:50.260 align:middle line:90%
+That's the same.
+
+00:47:50.260 --> 00:47:54.900 align:middle line:84%
+So I can think about
+this O1 here as my x.
+
+00:47:54.900 --> 00:47:58.880 align:middle line:90%
+And so I'm adding the O2 to it.
+
+00:47:58.880 --> 00:48:01.660 align:middle line:84%
+But then I know that I'm
+getting this here back.
+
+00:48:01.660 --> 00:48:06.120 align:middle line:84%
+So this here must
+also be equal to O1.
+
+00:48:06.120 --> 00:48:08.210 align:middle line:84%
+And so you see that
+O1 is equal to O2.
+
+00:48:08.210 --> 00:48:11.940 align:middle line:90%
+
+
+00:48:11.940 --> 00:48:18.900 align:middle line:84%
+And of course, in the
+notes that are post,
+
+00:48:18.900 --> 00:48:21.290 align:middle line:84%
+things are written
+slightly more rigorous.
+
+00:48:21.290 --> 00:48:25.540 align:middle line:90%
+
+
+00:48:25.540 --> 00:48:27.540 align:middle line:84%
+There's a little
+bit more meat to it.
+
+00:48:27.540 --> 00:48:31.320 align:middle line:84%
+Here, I write it a little
+bit shorter on the board.
+
+00:48:31.320 --> 00:48:33.790 align:middle line:90%
+So look also at the notes.
+
+00:48:33.790 --> 00:48:36.500 align:middle line:90%
+
+
+00:48:36.500 --> 00:48:37.000 align:middle line:90%
+OK.
+
+00:48:37.000 --> 00:48:39.640 align:middle line:90%
+
+
+00:48:39.640 --> 00:48:42.300 align:middle line:90%
+So now we know what a field is.
+
+00:48:42.300 --> 00:48:46.360 align:middle line:84%
+So a field, again, it has
+these two operations, additions
+
+00:48:46.360 --> 00:48:47.840 align:middle line:90%
+and multiplication.
+
+00:48:47.840 --> 00:48:50.780 align:middle line:84%
+Each of those operations
+have five properties.
+
+00:48:50.780 --> 00:48:53.800 align:middle line:84%
+And then there's 11 properties
+that chain those two operations
+
+00:48:53.800 --> 00:48:55.920 align:middle line:90%
+together.
+
+00:48:55.920 --> 00:48:59.470 align:middle line:84%
+And so the examples
+of a fields is--
+
+00:48:59.470 --> 00:49:04.240 align:middle line:90%
+
+
+00:49:04.240 --> 00:49:06.390 align:middle line:90%
+so we already have an example.
+
+00:49:06.390 --> 00:49:11.560 align:middle line:90%
+
+
+00:49:11.560 --> 00:49:14.290 align:middle line:84%
+So the rational numbers
+here is a field.
+
+00:49:14.290 --> 00:49:19.200 align:middle line:90%
+
+
+00:49:19.200 --> 00:49:26.140 align:middle line:84%
+It has these two operations
+and with all the 11 properties.
+
+00:49:26.140 --> 00:49:33.700 align:middle line:84%
+The natural numbers is not
+a field, is not a field.
+
+00:49:33.700 --> 00:49:38.480 align:middle line:84%
+It fails even the
+most basic thing.
+
+00:49:38.480 --> 00:49:41.240 align:middle line:84%
+It fails many of the
+properties it needs,
+
+00:49:41.240 --> 00:49:44.900 align:middle line:84%
+but it fails that even the
+serial elements is not in it.
+
+00:49:44.900 --> 00:49:52.260 align:middle line:90%
+
+
+00:49:52.260 --> 00:49:57.150 align:middle line:84%
+And the integers here
+also is not a field.
+
+00:49:57.150 --> 00:50:04.300 align:middle line:90%
+
+
+00:50:04.300 --> 00:50:11.160 align:middle line:84%
+That is slightly closer to being
+a field, but it's still not.
+
+00:50:11.160 --> 00:50:13.180 align:middle line:90%
+And why is this not a field?
+
+00:50:13.180 --> 00:50:15.320 align:middle line:90%
+It's for multiplication, right?
+
+00:50:15.320 --> 00:50:19.860 align:middle line:90%
+If you take 2, then write 2.
+
+00:50:19.860 --> 00:50:23.460 align:middle line:84%
+If you think about 2,
+then there should be--
+
+00:50:23.460 --> 00:50:26.580 align:middle line:84%
+then the neutral element
+for multiplication,
+
+00:50:26.580 --> 00:50:29.080 align:middle line:90%
+that's the usual 1.
+
+00:50:29.080 --> 00:50:31.880 align:middle line:84%
+But if you take,
+say, the element 2,
+
+00:50:31.880 --> 00:50:34.620 align:middle line:84%
+then there should be an
+element like the inverse.
+
+00:50:34.620 --> 00:50:37.920 align:middle line:84%
+There should be an element with
+the property that if you take 2
+
+00:50:37.920 --> 00:50:43.380 align:middle line:84%
+and you multiply with that
+element, then you should get 1.
+
+00:50:43.380 --> 00:50:46.060 align:middle line:84%
+That should be the inverse
+element, 1 over it.
+
+00:50:46.060 --> 00:50:47.580 align:middle line:90%
+But this is like a half.
+
+00:50:47.580 --> 00:50:51.860 align:middle line:84%
+But you're missing a
+half in the integers.
+
+00:50:51.860 --> 00:50:53.740 align:middle line:84%
+So that's why this
+here is not a field.
+
+00:50:53.740 --> 00:50:56.480 align:middle line:90%
+
+
+00:50:56.480 --> 00:50:57.770 align:middle line:90%
+OK.
+
+00:50:57.770 --> 00:51:02.200 align:middle line:84%
+So the next concept
+is-- so, again, we're
+
+00:51:02.200 --> 00:51:06.200 align:middle line:84%
+working our way towards
+trying to understand
+
+00:51:06.200 --> 00:51:08.720 align:middle line:84%
+what property of
+the real numbers
+
+00:51:08.720 --> 00:51:13.040 align:middle line:84%
+that we need in order to
+make the intermediate value
+
+00:51:13.040 --> 00:51:18.560 align:middle line:90%
+theorem, the proof regression.
+
+00:51:18.560 --> 00:51:24.600 align:middle line:84%
+And so we now know
+what a field is.
+
+00:51:24.600 --> 00:51:29.420 align:middle line:90%
+
+
+00:51:29.420 --> 00:51:34.620 align:middle line:84%
+The next few slides, I'll talk
+about complete, what that means.
+
+00:51:34.620 --> 00:51:40.440 align:middle line:90%
+But we also have this ordering.
+
+00:51:40.440 --> 00:51:43.420 align:middle line:84%
+So what does it mean
+that a field is ordered?
+
+00:51:43.420 --> 00:51:48.680 align:middle line:84%
+So let's start with
+an ordered set.
+
+00:51:48.680 --> 00:51:53.940 align:middle line:90%
+
+
+00:51:53.940 --> 00:51:55.740 align:middle line:90%
+So an ordered set--
+
+00:51:55.740 --> 00:52:03.820 align:middle line:84%
+so this is a set
+denoted by capital S.
+
+00:52:03.820 --> 00:52:07.300 align:middle line:84%
+And it has the property that
+whenever you have two elements
+
+00:52:07.300 --> 00:52:12.780 align:middle line:84%
+in the set, then it should
+either be-- and the ordering,
+
+00:52:12.780 --> 00:52:17.280 align:middle line:84%
+by the way-- so an ordered
+set with an ordering--
+
+00:52:17.280 --> 00:52:23.120 align:middle line:90%
+
+
+00:52:23.120 --> 00:52:27.060 align:middle line:84%
+and I denote the ordering,
+again, suggestively by this.
+
+00:52:27.060 --> 00:52:28.660 align:middle line:84%
+I could have used
+any other symbol,
+
+00:52:28.660 --> 00:52:31.360 align:middle line:84%
+but I'm just suggestively
+using this symbol,
+
+00:52:31.360 --> 00:52:35.380 align:middle line:84%
+just to make it easier
+to remember the property.
+
+00:52:35.380 --> 00:52:39.600 align:middle line:84%
+It's like this property
+that you know so well.
+
+00:52:39.600 --> 00:52:46.380 align:middle line:84%
+So an ordered set is a
+set with an ordering--
+
+00:52:46.380 --> 00:52:52.760 align:middle line:90%
+
+
+00:52:52.760 --> 00:52:55.400 align:middle line:90%
+and, again, denoted by this--
+
+00:52:55.400 --> 00:53:00.600 align:middle line:84%
+so that if you take any
+two elements in the set,
+
+00:53:00.600 --> 00:53:02.830 align:middle line:84%
+then one of the three
+properties should hold.
+
+00:53:02.830 --> 00:53:07.040 align:middle line:90%
+
+
+00:53:07.040 --> 00:53:09.140 align:middle line:84%
+The following three
+properties should hold.
+
+00:53:09.140 --> 00:53:26.060 align:middle line:90%
+
+
+00:53:26.060 --> 00:53:33.380 align:middle line:84%
+One is that-- so either
+x should be equal to y.
+
+00:53:33.380 --> 00:53:38.460 align:middle line:84%
+2, the other possibility,
+is that x is smaller than y.
+
+00:53:38.460 --> 00:53:43.740 align:middle line:90%
+Or 3, y is smaller than x.
+
+00:53:43.740 --> 00:53:46.560 align:middle line:84%
+So basically, if you
+have an ordered set,
+
+00:53:46.560 --> 00:53:48.300 align:middle line:84%
+whenever you take
+two elements, you
+
+00:53:48.300 --> 00:53:51.180 align:middle line:84%
+should be able to compare
+these two elements.
+
+00:53:51.180 --> 00:53:51.680 align:middle line:90%
+Of course.
+
+00:53:51.680 --> 00:53:54.340 align:middle line:84%
+These two elements could
+be the same elements.
+
+00:53:54.340 --> 00:53:56.020 align:middle line:84%
+But if they're not
+the same element,
+
+00:53:56.020 --> 00:54:00.340 align:middle line:84%
+then one should be
+smaller than the other.
+
+00:54:00.340 --> 00:54:01.310 align:middle line:90%
+So that's the idea.
+
+00:54:01.310 --> 00:54:03.860 align:middle line:90%
+
+
+00:54:03.860 --> 00:54:05.000 align:middle line:90%
+OK.
+
+00:54:05.000 --> 00:54:10.410 align:middle line:84%
+And so now the next concept
+is an ordered field.
+
+00:54:10.410 --> 00:54:15.480 align:middle line:90%
+
+
+00:54:15.480 --> 00:54:22.220 align:middle line:84%
+So now we have a field,
+and we have an ordered set.
+
+00:54:22.220 --> 00:54:46.310 align:middle line:84%
+So an ordered field is a field
+that is also an ordered set.
+
+00:54:46.310 --> 00:54:51.240 align:middle line:90%
+
+
+00:54:51.240 --> 00:54:56.720 align:middle line:84%
+And then the operations from
+the fields and the ordering,
+
+00:54:56.720 --> 00:54:58.860 align:middle line:90%
+they should speak to each other.
+
+00:54:58.860 --> 00:55:01.320 align:middle line:84%
+So there should be an
+interaction between these two
+
+00:55:01.320 --> 00:55:03.200 align:middle line:90%
+operations.
+
+00:55:03.200 --> 00:55:17.940 align:middle line:84%
+So it has to have-- with
+the following properties,
+
+00:55:17.940 --> 00:55:19.679 align:middle line:90%
+then if you take--
+
+00:55:19.679 --> 00:55:23.060 align:middle line:90%
+
+
+00:55:23.060 --> 00:55:24.900 align:middle line:84%
+so it's following
+two properties,
+
+00:55:24.900 --> 00:55:35.000 align:middle line:84%
+that if x is less than y and
+you're adding a c to both--
+
+00:55:35.000 --> 00:55:45.140 align:middle line:84%
+so this here implies that
+for any z in the field,
+
+00:55:45.140 --> 00:55:47.800 align:middle line:84%
+if you add this
+z to both sides--
+
+00:55:47.800 --> 00:55:53.620 align:middle line:84%
+so x plus z is
+less than y plus z.
+
+00:55:53.620 --> 00:55:58.600 align:middle line:84%
+So you should be able to
+add something to both sides
+
+00:55:58.600 --> 00:56:03.340 align:middle line:84%
+and it's still less
+than, like that.
+
+00:56:03.340 --> 00:56:06.260 align:middle line:90%
+
+
+00:56:06.260 --> 00:56:09.620 align:middle line:84%
+So this here is,
+how do the ordering
+
+00:56:09.620 --> 00:56:11.780 align:middle line:90%
+interacts with addition?
+
+00:56:11.780 --> 00:56:15.160 align:middle line:84%
+And the other thing is,
+how do it act interacts
+
+00:56:15.160 --> 00:56:17.800 align:middle line:90%
+with multiplication?
+
+00:56:17.800 --> 00:56:22.440 align:middle line:84%
+And there, the property is
+that if you take a x that
+
+00:56:22.440 --> 00:56:29.440 align:middle line:90%
+is positive and y is positive--
+
+00:56:29.440 --> 00:56:30.480 align:middle line:90%
+and the y.
+
+00:56:30.480 --> 00:56:33.920 align:middle line:84%
+So you have both x and
+y that are positive.
+
+00:56:33.920 --> 00:56:39.480 align:middle line:84%
+Then the product of these
+two should also be positive.
+
+00:56:39.480 --> 00:56:42.960 align:middle line:84%
+So then this here, the
+product of the two,
+
+00:56:42.960 --> 00:56:44.560 align:middle line:90%
+should also be positive.
+
+00:56:44.560 --> 00:56:51.060 align:middle line:84%
+And so this is how the ordering
+interact with multiplication.
+
+00:56:51.060 --> 00:56:53.720 align:middle line:84%
+This is how it
+interacts with addition.
+
+00:56:53.720 --> 00:56:56.100 align:middle line:84%
+This is how it interacts
+with multiplication.
+
+00:56:56.100 --> 00:57:00.590 align:middle line:90%
+
+
+00:57:00.590 --> 00:57:07.360 align:middle line:84%
+And so now-- well, the
+first thing you observe
+
+00:57:07.360 --> 00:57:11.840 align:middle line:84%
+is that, again, you already
+know an example of this.
+
+00:57:11.840 --> 00:57:15.540 align:middle line:90%
+
+
+00:57:15.540 --> 00:57:24.520 align:middle line:90%
+So the rational numbers--
+
+00:57:24.520 --> 00:57:28.230 align:middle line:90%
+so Q here is an ordered field.
+
+00:57:28.230 --> 00:57:36.300 align:middle line:90%
+
+
+00:57:36.300 --> 00:57:39.580 align:middle line:84%
+We have already seen
+that it is a field,
+
+00:57:39.580 --> 00:57:41.120 align:middle line:90%
+has those 11 properties.
+
+00:57:41.120 --> 00:57:43.860 align:middle line:90%
+It has addition, multiplication.
+
+00:57:43.860 --> 00:57:45.480 align:middle line:90%
+Each of those have 5 property.
+
+00:57:45.480 --> 00:57:49.380 align:middle line:84%
+It has the 11 that
+chain the two together.
+
+00:57:49.380 --> 00:57:51.940 align:middle line:84%
+And we also discussed
+the ordering.
+
+00:57:51.940 --> 00:57:53.960 align:middle line:84%
+If you take two
+rational numbers,
+
+00:57:53.960 --> 00:57:56.240 align:middle line:84%
+what does it mean that one
+is less than the other?
+
+00:57:56.240 --> 00:57:58.620 align:middle line:84%
+It has the property
+of an ordering,
+
+00:57:58.620 --> 00:58:02.340 align:middle line:84%
+that you can compare any
+two elements, any two
+
+00:58:02.340 --> 00:58:05.240 align:middle line:84%
+rational numbers, that
+either they are the same
+
+00:58:05.240 --> 00:58:08.360 align:middle line:84%
+or, if you have two, one
+is less than the other.
+
+00:58:08.360 --> 00:58:14.040 align:middle line:90%
+
+
+00:58:14.040 --> 00:58:18.480 align:middle line:84%
+And it also has this,
+the additive property.
+
+00:58:18.480 --> 00:58:23.400 align:middle line:84%
+And also, the ordering interact
+with addition in this way.
+
+00:58:23.400 --> 00:58:26.600 align:middle line:84%
+And it interacts with
+multiplication in this way.
+
+00:58:26.600 --> 00:58:33.280 align:middle line:84%
+So the rational number is
+indeed an ordered field.
+
+00:58:33.280 --> 00:58:39.360 align:middle line:84%
+Now let me just establish
+one last property.
+
+00:58:39.360 --> 00:58:42.670 align:middle line:90%
+And that is that if I take--
+
+00:58:42.670 --> 00:58:47.880 align:middle line:90%
+
+
+00:58:47.880 --> 00:58:50.180 align:middle line:84%
+well, let me try to prove
+a little theorem here.
+
+00:58:50.180 --> 00:58:57.840 align:middle line:90%
+
+
+00:58:57.840 --> 00:59:03.110 align:middle line:90%
+So here's the theorem.
+
+00:59:03.110 --> 00:59:09.420 align:middle line:90%
+
+
+00:59:09.420 --> 00:59:15.420 align:middle line:84%
+So F here is supposed
+to be an ordered field.
+
+00:59:15.420 --> 00:59:20.500 align:middle line:90%
+
+
+00:59:20.500 --> 00:59:25.940 align:middle line:84%
+And then we have that
+x here is less than y.
+
+00:59:25.940 --> 00:59:34.260 align:middle line:90%
+And z here, this is positive.
+
+00:59:34.260 --> 00:59:36.820 align:middle line:90%
+So I assume I have this.
+
+00:59:36.820 --> 00:59:40.060 align:middle line:84%
+And now I want to show
+that-- then I claim that
+
+00:59:40.060 --> 00:59:43.500 align:middle line:84%
+from these properties that
+our ordered field have,
+
+00:59:43.500 --> 00:59:51.580 align:middle line:84%
+I get automatically then x
+times c is less than y times c.
+
+00:59:51.580 --> 00:59:55.700 align:middle line:84%
+So I claim I get
+this property here
+
+00:59:55.700 --> 00:59:59.580 align:middle line:84%
+that you know these
+properties over here.
+
+00:59:59.580 --> 01:00:01.720 align:middle line:90%
+So let's try to prove that.
+
+01:00:01.720 --> 01:00:19.310 align:middle line:90%
+
+
+01:00:19.310 --> 01:00:23.550 align:middle line:90%
+So what I want to do is--
+
+01:00:23.550 --> 01:00:35.890 align:middle line:84%
+so we want to show that x
+times z is less than y times z.
+
+01:00:35.890 --> 01:00:38.350 align:middle line:90%
+This is what we want to show.
+
+01:00:38.350 --> 01:00:42.090 align:middle line:90%
+Now, to say this here--
+
+01:00:42.090 --> 01:00:58.050 align:middle line:84%
+this here is equivalent
+to showing that--
+
+01:00:58.050 --> 01:01:01.030 align:middle line:90%
+so if you take, this you could--
+
+01:01:01.030 --> 01:01:09.890 align:middle line:84%
+because this here, if you
+add minus y times z-- sorry.
+
+01:01:09.890 --> 01:01:12.570 align:middle line:90%
+
+
+01:01:12.570 --> 01:01:17.470 align:middle line:84%
+If you take this thing
+here and to both sides--
+
+01:01:17.470 --> 01:01:26.890 align:middle line:84%
+so you take x times z and
+then you plus minus x times z,
+
+01:01:26.890 --> 01:01:31.830 align:middle line:90%
+then this here is the same as--
+
+01:01:31.830 --> 01:01:35.490 align:middle line:84%
+to say that this is less than
+that is equivalent to saying
+
+01:01:35.490 --> 01:01:36.430 align:middle line:90%
+this thing here.
+
+01:01:36.430 --> 01:01:41.530 align:middle line:90%
+
+
+01:01:41.530 --> 01:01:43.810 align:middle line:90%
+Why is that equivalent?
+
+01:01:43.810 --> 01:01:48.530 align:middle line:84%
+This is this law here that is
+chaining the ordering together
+
+01:01:48.530 --> 01:01:50.970 align:middle line:90%
+with addition.
+
+01:01:50.970 --> 01:01:56.310 align:middle line:84%
+And this here,
+this element here,
+
+01:01:56.310 --> 01:02:00.510 align:middle line:84%
+this is just the inverse
+element of this product here.
+
+01:02:00.510 --> 01:02:04.679 align:middle line:90%
+
+
+01:02:04.679 --> 01:02:08.710 align:middle line:84%
+But now you see that
+these two things together,
+
+01:02:08.710 --> 01:02:10.082 align:middle line:90%
+that just gives you 0.
+
+01:02:10.082 --> 01:02:19.030 align:middle line:90%
+
+
+01:02:19.030 --> 01:02:26.950 align:middle line:84%
+This thing here, this
+here is the same as x.
+
+01:02:26.950 --> 01:02:30.790 align:middle line:90%
+So maybe we need to show this.
+
+01:02:30.790 --> 01:02:32.790 align:middle line:84%
+But this here, it's
+not hard to believe
+
+01:02:32.790 --> 01:02:43.990 align:middle line:84%
+that this here is the same
+as y times z minus x times z.
+
+01:02:43.990 --> 01:02:46.850 align:middle line:84%
+So this here is now--
+you can factor out.
+
+01:02:46.850 --> 01:02:51.910 align:middle line:84%
+So this is this law, the 11th
+law that allow you to factor
+
+01:02:51.910 --> 01:02:53.070 align:middle line:90%
+this one out.
+
+01:02:53.070 --> 01:02:58.350 align:middle line:84%
+So this is the same
+as y minus x times z.
+
+01:02:58.350 --> 01:03:04.450 align:middle line:84%
+This was the distributive
+law and was the 11th law.
+
+01:03:04.450 --> 01:03:10.170 align:middle line:84%
+But now you see that because
+y was bigger than x--
+
+01:03:10.170 --> 01:03:20.210 align:middle line:84%
+since y here was
+bigger than x, this
+
+01:03:20.210 --> 01:03:23.850 align:middle line:84%
+is equivalent to saying
+that y is bigger than x--
+
+01:03:23.850 --> 01:03:28.450 align:middle line:84%
+if you subtract x
+on both sides, this
+
+01:03:28.450 --> 01:03:34.090 align:middle line:84%
+is equivalent to saying that
+y minus x is bigger than 0.
+
+01:03:34.090 --> 01:03:40.520 align:middle line:84%
+This is, again, using the
+first axiom over here.
+
+01:03:40.520 --> 01:03:44.150 align:middle line:84%
+And so you see that
+now we have that.
+
+01:03:44.150 --> 01:03:49.810 align:middle line:84%
+So we want to prove that
+this thing here, this
+
+01:03:49.810 --> 01:03:53.410 align:middle line:84%
+here is all equivalent to
+proving that this thing here
+
+01:03:53.410 --> 01:03:55.890 align:middle line:90%
+is bigger than 0.
+
+01:03:55.890 --> 01:03:58.750 align:middle line:84%
+So the claim up there
+is equivalent to proving
+
+01:03:58.750 --> 01:04:02.390 align:middle line:84%
+that this thing here
+is bigger than 0.
+
+01:04:02.390 --> 01:04:07.070 align:middle line:84%
+But the difference here, this
+difference here is positive.
+
+01:04:07.070 --> 01:04:09.590 align:middle line:90%
+This is assumed to be positive.
+
+01:04:09.590 --> 01:04:13.590 align:middle line:84%
+The second law that is
+chaining the ordering together
+
+01:04:13.590 --> 01:04:17.390 align:middle line:84%
+with multiplication say that
+if you have something positive
+
+01:04:17.390 --> 01:04:19.330 align:middle line:84%
+and you multiply it
+by something positive,
+
+01:04:19.330 --> 01:04:21.230 align:middle line:84%
+you're getting
+something positive.
+
+01:04:21.230 --> 01:04:24.550 align:middle line:84%
+And so in order to
+prove this here,
+
+01:04:24.550 --> 01:04:27.870 align:middle line:84%
+it was the same as proving
+that this thing here
+
+01:04:27.870 --> 01:04:29.670 align:middle line:90%
+is actually positive.
+
+01:04:29.670 --> 01:04:35.450 align:middle line:84%
+And we have now just reduced
+it to this second axiom.
+
+01:04:35.450 --> 01:04:35.950 align:middle line:90%
+OK.
+
+01:04:35.950 --> 01:04:38.630 align:middle line:90%
+
+
+01:04:38.630 --> 01:04:41.710 align:middle line:90%
+Is that clear?
+
+01:04:41.710 --> 01:04:43.010 align:middle line:90%
+OK.
+
+01:04:43.010 --> 01:04:44.910 align:middle line:84%
+So we go just a
+little bit easier
+
+01:04:44.910 --> 01:04:46.130 align:middle line:90%
+here in the first lecture.
+
+01:04:46.130 --> 01:04:49.990 align:middle line:84%
+This is what I have
+for the first lecture.
+
+01:04:49.990 --> 01:04:53.750 align:middle line:84%
+But there's a bunch
+of different concepts.
+
+01:04:53.750 --> 01:05:00.290 align:middle line:84%
+And again, feel free, of
+course, to ask any questions.
+
+01:05:00.290 --> 01:05:03.770 align:middle line:84%
+On the class, I typically just
+linger around for a few minutes
+
+01:05:03.770 --> 01:05:07.290 align:middle line:84%
+afterwards if anybody has any
+questions after the class.
+
+01:05:07.290 --> 01:05:09.970 align:middle line:84%
+And we will also
+have office hours.
+
+01:05:09.970 --> 01:05:14.290 align:middle line:84%
+I'm just waiting for the
+assignment of the TAs.
+
+01:05:14.290 --> 01:05:17.743 align:middle line:84%
+So that will be
+put all on online.
+
+01:05:17.743 --> 01:05:20.890 align:middle line:90%
+
+
+01:05:20.890 --> 01:05:21.470 align:middle line:90%
+Yeah.
+
+01:05:21.470 --> 01:05:22.210 align:middle line:90%
+OK.
+
+01:05:22.210 --> 01:05:23.510 align:middle line:90%
+Let me know how it goes.
+
+01:05:23.510 --> 01:05:26.330 align:middle line:84%
+And one more thing is
+that this-- again, I
+
+01:05:26.330 --> 01:05:28.370 align:middle line:90%
+mentioned before.
+
+01:05:28.370 --> 01:05:31.370 align:middle line:84%
+So my experience is that it
+takes people a little bit
+
+01:05:31.370 --> 01:05:35.130 align:middle line:84%
+of time to get a hang of
+this with writing proofs.
+
+01:05:35.130 --> 01:05:39.146 align:middle line:90%
+So don't be discouraged.
+
+01:05:39.146 --> 01:05:43.530 align:middle line:84%
+A few weeks or months
+into the class, things
+
+01:05:43.530 --> 01:05:46.830 align:middle line:84%
+will really turn around,
+and it will all make sense.
+
+01:05:46.830 --> 01:05:50.130 align:middle line:84%
+And then it will
+be more fun also.
+
+01:05:50.130 --> 01:05:51.680 align:middle line:90%
+OK.
+
+01:05:51.680 --> 01:05:55.000 align:middle line:90%

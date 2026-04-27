@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;p&gt;There are two types of assignments given in this course: daily assignments and graded assignments. The daily assignments are not graded, but one problem from each day is usually included in a graded assignment. Not all lectures have assigned daily problems.&lt;/p&gt;&#xA;&lt;p&gt;Assignments listed in the table below are from the following textbooks and notes:&lt;/p&gt;&#xA;&lt;p&gt;(M) Munkres, J. &lt;em&gt;Analysis on Manifolds&lt;/em&gt;. Cambridge, MA: Perseus Publishing, 1991. ISBN: 0201510359, ISBN: 0201315963 (paperback).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>classnotesfall04.pdf</title>
+      <link>/resources/classnotesfall04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/classnotesfall04/data.json</guid>
+      <description>&lt;p&gt;This resource includes information on linear algebra, tensors, alternating k-tensors, the space, and the wedge product.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>hw36.pdf</title>
+      <link>/resources/hw36/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hw36/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>hw37.pdf</title>
+      <link>/resources/hw37/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hw37/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ps3_05.pdf</title>
+      <link>/resources/ps3_05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_05/data.json</guid>
+      <description>&lt;p&gt;This resource includes the questions to be solved taken from Multi linear Algebra notes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>suppnotes.pdf</title>
+      <link>/resources/suppnotes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/suppnotes/data.json</guid>
+      <description>&lt;p&gt;This resource includes information on sard&amp;rsquo;s theorem, the poincare lemma for rectangles, the Poincare lemma for open subsets, and proper mappings.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

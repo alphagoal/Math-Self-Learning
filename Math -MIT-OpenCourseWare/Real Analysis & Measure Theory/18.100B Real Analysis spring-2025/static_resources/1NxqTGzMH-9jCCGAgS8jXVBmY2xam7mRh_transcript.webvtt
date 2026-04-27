@@ -1,0 +1,3275 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000 align:middle line:90%
+[SQUEAKING]
+
+00:00:02.000 --> 00:00:04.500 align:middle line:90%
+[RUSTLING]
+
+00:00:04.500 --> 00:00:07.000 align:middle line:90%
+[CLICKING]
+
+00:00:07.000 --> 00:00:11.017 align:middle line:90%
+
+
+00:00:11.017 --> 00:00:11.600 align:middle line:90%
+PROFESSOR: OK.
+
+00:00:11.600 --> 00:00:16.580 align:middle line:90%
+So just to remind you--
+
+00:00:16.580 --> 00:00:22.160 align:middle line:90%
+so last time, we looked at--
+
+00:00:22.160 --> 00:00:26.020 align:middle line:84%
+we had the motivating
+example that we had a graph.
+
+00:00:26.020 --> 00:00:31.840 align:middle line:84%
+We had a function f defined
+on some interval from a to b.
+
+00:00:31.840 --> 00:00:35.960 align:middle line:84%
+And it was going inside
+the real numbers.
+
+00:00:35.960 --> 00:00:38.660 align:middle line:84%
+And it started
+off negative here.
+
+00:00:38.660 --> 00:00:40.520 align:middle line:90%
+This is f of a.
+
+00:00:40.520 --> 00:00:42.400 align:middle line:90%
+This is negative.
+
+00:00:42.400 --> 00:00:47.000 align:middle line:84%
+And it ended up
+positive, f of b.
+
+00:00:47.000 --> 00:00:48.880 align:middle line:90%
+And we wanted to say--
+
+00:00:48.880 --> 00:00:50.510 align:middle line:84%
+and this was a
+continuous function.
+
+00:00:50.510 --> 00:01:00.950 align:middle line:90%
+
+
+00:01:00.950 --> 00:01:04.450 align:middle line:84%
+And we wanted to say
+that there was some c.
+
+00:01:04.450 --> 00:01:16.510 align:middle line:84%
+So we wanted to show that
+there's a c between a and b
+
+00:01:16.510 --> 00:01:21.170 align:middle line:84%
+so that the value
+at c is equal to 0.
+
+00:01:21.170 --> 00:01:23.220 align:middle line:84%
+So this was the
+intermediate value theorem.
+
+00:01:23.220 --> 00:01:30.150 align:middle line:90%
+
+
+00:01:30.150 --> 00:01:38.790 align:middle line:84%
+And so this here was
+a motivating example
+
+00:01:38.790 --> 00:01:43.810 align:middle line:84%
+for trying to understand,
+what property of R do we need?
+
+00:01:43.810 --> 00:02:10.650 align:middle line:84%
+So what property of R do we
+need to make this rigorous?
+
+00:02:10.650 --> 00:02:13.790 align:middle line:84%
+So that was the
+motivating example.
+
+00:02:13.790 --> 00:02:19.530 align:middle line:84%
+And so in order to
+make this rigorous,
+
+00:02:19.530 --> 00:02:27.050 align:middle line:84%
+well, then we need to
+concept of that R--
+
+00:02:27.050 --> 00:02:31.370 align:middle line:84%
+we need to understand
+the following statement,
+
+00:02:31.370 --> 00:02:42.600 align:middle line:84%
+that R is a complete
+ordered field.
+
+00:02:42.600 --> 00:02:46.660 align:middle line:90%
+
+
+00:02:46.660 --> 00:02:50.610 align:middle line:84%
+And a field here--
+so just briefly,
+
+00:02:50.610 --> 00:03:07.560 align:middle line:84%
+fields here was a set with
+two operations, a plus
+
+00:03:07.560 --> 00:03:09.820 align:middle line:84%
+and what we called
+multiplication.
+
+00:03:09.820 --> 00:03:16.360 align:middle line:90%
+
+
+00:03:16.360 --> 00:03:30.130 align:middle line:84%
+So each of these two
+operations have a 5 property.
+
+00:03:30.130 --> 00:03:36.120 align:middle line:90%
+
+
+00:03:36.120 --> 00:03:39.040 align:middle line:90%
+And then there's an 11 property.
+
+00:03:39.040 --> 00:03:47.230 align:middle line:84%
+Plus, there's an 11th property
+that chain them together.
+
+00:03:47.230 --> 00:03:55.950 align:middle line:90%
+
+
+00:03:55.950 --> 00:03:58.590 align:middle line:84%
+And the last one is
+usually referred to
+
+00:03:58.590 --> 00:04:00.230 align:middle line:90%
+as the distributive law.
+
+00:04:00.230 --> 00:04:05.790 align:middle line:84%
+So that was one of the
+two important concepts
+
+00:04:05.790 --> 00:04:08.790 align:middle line:90%
+that we talked about last time.
+
+00:04:08.790 --> 00:04:11.030 align:middle line:84%
+The other concept
+that we talked about
+
+00:04:11.030 --> 00:04:13.060 align:middle line:84%
+was what's called
+an ordered set.
+
+00:04:13.060 --> 00:04:18.990 align:middle line:90%
+
+
+00:04:18.990 --> 00:04:27.030 align:middle line:84%
+So that's a set
+with an ordering.
+
+00:04:27.030 --> 00:04:30.490 align:middle line:84%
+And the ordering has to
+have the property that--
+
+00:04:30.490 --> 00:04:36.990 align:middle line:84%
+so this here, the ordering
+has the property--
+
+00:04:36.990 --> 00:04:38.770 align:middle line:84%
+so it has actually
+two properties.
+
+00:04:38.770 --> 00:04:47.750 align:middle line:90%
+
+
+00:04:47.750 --> 00:04:49.870 align:middle line:84%
+The first one is
+that whenever you
+
+00:04:49.870 --> 00:04:57.460 align:middle line:84%
+take an element x and an
+element y in the set, then
+
+00:04:57.460 --> 00:05:01.060 align:middle line:84%
+you should be able to relate
+these two by the ordering.
+
+00:05:01.060 --> 00:05:09.740 align:middle line:84%
+So either x is equal
+to y or x is smaller
+
+00:05:09.740 --> 00:05:17.040 align:middle line:90%
+than y or y is smaller than x.
+
+00:05:17.040 --> 00:05:21.580 align:middle line:90%
+
+
+00:05:21.580 --> 00:05:23.940 align:middle line:84%
+And the second
+property is what's
+
+00:05:23.940 --> 00:05:31.420 align:middle line:84%
+called transitive, that if x and
+y and c are elements in the set
+
+00:05:31.420 --> 00:05:40.580 align:middle line:84%
+and x is less than y and
+y is less than c, then
+
+00:05:40.580 --> 00:05:42.780 align:middle line:90%
+x should be less than c.
+
+00:05:42.780 --> 00:05:45.740 align:middle line:84%
+So this is the
+transitive property.
+
+00:05:45.740 --> 00:05:48.300 align:middle line:84%
+So the first property,
+again, is that you
+
+00:05:48.300 --> 00:05:50.840 align:middle line:90%
+can compare any two elements.
+
+00:05:50.840 --> 00:05:53.880 align:middle line:84%
+And the second one is
+this transitive law.
+
+00:05:53.880 --> 00:05:57.800 align:middle line:90%
+
+
+00:05:57.800 --> 00:06:01.600 align:middle line:84%
+So that was the two concepts
+we talked about last time.
+
+00:06:01.600 --> 00:06:07.620 align:middle line:84%
+And then we talked about what
+is meant to be an ordered field.
+
+00:06:07.620 --> 00:06:17.560 align:middle line:84%
+So then we also talked
+about ordered fields.
+
+00:06:17.560 --> 00:06:23.160 align:middle line:84%
+And then ordered fields
+is, you have a field that
+
+00:06:23.160 --> 00:06:25.440 align:middle line:90%
+is also an ordered set.
+
+00:06:25.440 --> 00:06:33.560 align:middle line:84%
+And then the relationship--
+so that one being less than
+
+00:06:33.560 --> 00:06:34.880 align:middle line:90%
+the other one--
+
+00:06:34.880 --> 00:06:37.720 align:middle line:84%
+to interact. have So
+this is these two things
+
+00:06:37.720 --> 00:06:41.680 align:middle line:84%
+that, if you take
+x is less than y
+
+00:06:41.680 --> 00:06:46.080 align:middle line:84%
+and you're adding any
+elements on both sides,
+
+00:06:46.080 --> 00:06:50.350 align:middle line:84%
+then it still
+preserve the order.
+
+00:06:50.350 --> 00:06:52.110 align:middle line:90%
+So this is one thing.
+
+00:06:52.110 --> 00:06:57.310 align:middle line:84%
+And the second is that if you
+take x that's bigger than 0
+
+00:06:57.310 --> 00:07:04.630 align:middle line:84%
+and y that's bigger than 0,
+then the product of x and y
+
+00:07:04.630 --> 00:07:06.990 align:middle line:90%
+should be bigger than 0.
+
+00:07:06.990 --> 00:07:10.690 align:middle line:90%
+And so this is how the--
+
+00:07:10.690 --> 00:07:15.670 align:middle line:84%
+so an ordered field, again,
+is a field that has a set,
+
+00:07:15.670 --> 00:07:17.830 align:middle line:90%
+also has an ordering.
+
+00:07:17.830 --> 00:07:22.750 align:middle line:84%
+And then the ordering together
+with the operation of the field
+
+00:07:22.750 --> 00:07:25.030 align:middle line:84%
+should be chained together
+by these two rules.
+
+00:07:25.030 --> 00:07:27.550 align:middle line:90%
+
+
+00:07:27.550 --> 00:07:32.770 align:middle line:84%
+So we're getting close
+to understanding this.
+
+00:07:32.770 --> 00:07:35.370 align:middle line:90%
+So this question is--
+
+00:07:35.370 --> 00:07:39.750 align:middle line:84%
+so in order for all
+of this to make sense,
+
+00:07:39.750 --> 00:07:45.780 align:middle line:84%
+we need to understand what it
+means that the real numbers is
+
+00:07:45.780 --> 00:07:48.060 align:middle line:90%
+a complete ordered field.
+
+00:07:48.060 --> 00:07:51.720 align:middle line:84%
+And so we have now this part of
+it, that it's an ordered field.
+
+00:07:51.720 --> 00:07:53.060 align:middle line:90%
+We understand that.
+
+00:07:53.060 --> 00:07:58.200 align:middle line:84%
+This here, we need to
+understand what this means.
+
+00:07:58.200 --> 00:07:58.700 align:middle line:90%
+OK.
+
+00:07:58.700 --> 00:08:04.380 align:middle line:84%
+So now before I get
+into that, let's
+
+00:08:04.380 --> 00:08:15.760 align:middle line:84%
+just talk about-- so
+what is the difference
+
+00:08:15.760 --> 00:08:24.460 align:middle line:84%
+between the real numbers
+and the rational numbers?
+
+00:08:24.460 --> 00:08:28.420 align:middle line:84%
+Remember, the rational numbers
+are numbers of this form
+
+00:08:28.420 --> 00:08:33.085 align:middle line:84%
+here, where this is an integer
+and this is a natural number.
+
+00:08:33.085 --> 00:08:37.460 align:middle line:84%
+So what is the difference
+between these two?
+
+00:08:37.460 --> 00:08:48.200 align:middle line:84%
+Well, one difference
+is-- so one difference
+
+00:08:48.200 --> 00:09:00.120 align:middle line:84%
+is that that square root of
+2 is a real number but not
+
+00:09:00.120 --> 00:09:00.970 align:middle line:90%
+a rational number.
+
+00:09:00.970 --> 00:09:13.384 align:middle line:90%
+
+
+00:09:13.384 --> 00:09:18.650 align:middle line:84%
+Now let me try to explain first
+why it's not a rational number.
+
+00:09:18.650 --> 00:09:21.240 align:middle line:90%
+
+
+00:09:21.240 --> 00:09:23.560 align:middle line:90%
+So let's try to see--
+
+00:09:23.560 --> 00:09:25.260 align:middle line:90%
+so what is square root of 2?
+
+00:09:25.260 --> 00:09:30.600 align:middle line:90%
+
+
+00:09:30.600 --> 00:09:37.080 align:middle line:84%
+The square root of 2, you can
+think about it as a number, x.
+
+00:09:37.080 --> 00:09:40.520 align:middle line:84%
+And it has to have the property
+that if you multiply it
+
+00:09:40.520 --> 00:09:42.510 align:middle line:90%
+by itself--
+
+00:09:42.510 --> 00:09:46.550 align:middle line:84%
+so x times x or, if
+you will, x squared--
+
+00:09:46.550 --> 00:09:49.910 align:middle line:90%
+this here should be equal to 2.
+
+00:09:49.910 --> 00:09:51.710 align:middle line:90%
+It also should be positive.
+
+00:09:51.710 --> 00:09:57.950 align:middle line:90%
+
+
+00:09:57.950 --> 00:10:04.110 align:middle line:84%
+Now suppose-- so I claim
+that square root of 2
+
+00:10:04.110 --> 00:10:07.010 align:middle line:90%
+is not a rational number.
+
+00:10:07.010 --> 00:10:09.050 align:middle line:90%
+So by that, I mean that--
+
+00:10:09.050 --> 00:10:12.170 align:middle line:84%
+so I want to claim
+the following.
+
+00:10:12.170 --> 00:10:17.110 align:middle line:90%
+
+
+00:10:17.110 --> 00:10:40.600 align:middle line:84%
+There does not exist a rational
+number x equal to m/n, where--
+
+00:10:40.600 --> 00:10:42.740 align:middle line:90%
+again, this is an integer.
+
+00:10:42.740 --> 00:10:45.240 align:middle line:90%
+This is a natural number--
+
+00:10:45.240 --> 00:10:53.540 align:middle line:90%
+so that x squared is equal to 2.
+
+00:10:53.540 --> 00:10:58.780 align:middle line:84%
+So I claim that you don't
+have a rational number that
+
+00:10:58.780 --> 00:11:00.840 align:middle line:90%
+is square root of 2.
+
+00:11:00.840 --> 00:11:01.340 align:middle line:90%
+OK.
+
+00:11:01.340 --> 00:11:03.120 align:middle line:90%
+Now let's try to prove that.
+
+00:11:03.120 --> 00:11:18.500 align:middle line:90%
+
+
+00:11:18.500 --> 00:11:23.140 align:middle line:84%
+So suppose there
+was such a number.
+
+00:11:23.140 --> 00:11:24.540 align:middle line:90%
+So we want to prove it.
+
+00:11:24.540 --> 00:11:26.240 align:middle line:90%
+So we prove by contradiction.
+
+00:11:26.240 --> 00:11:36.220 align:middle line:90%
+
+
+00:11:36.220 --> 00:11:49.180 align:middle line:84%
+So assume that there exists
+x that is a rational number.
+
+00:11:49.180 --> 00:11:50.680 align:middle line:84%
+So it can be
+written in this form
+
+00:11:50.680 --> 00:11:59.200 align:middle line:84%
+here, where m is an integer,
+and n is a natural number.
+
+00:11:59.200 --> 00:12:03.620 align:middle line:84%
+So assume that there exists
+an x that is a rational number
+
+00:12:03.620 --> 00:12:07.080 align:middle line:84%
+and so that the
+squared is equal to 2.
+
+00:12:07.080 --> 00:12:10.320 align:middle line:84%
+Well, if that's the
+case, then m/n--
+
+00:12:10.320 --> 00:12:14.140 align:middle line:90%
+
+
+00:12:14.140 --> 00:12:18.280 align:middle line:84%
+so this here squared is
+supposed to be equal to 2.
+
+00:12:18.280 --> 00:12:21.740 align:middle line:90%
+
+
+00:12:21.740 --> 00:12:29.720 align:middle line:84%
+So this implies that m squared
+over n squared is equal to 2.
+
+00:12:29.720 --> 00:12:36.550 align:middle line:84%
+And this, just multiplying over,
+implies that m squared is equal
+
+00:12:36.550 --> 00:12:40.750 align:middle line:90%
+to 2n squared.
+
+00:12:40.750 --> 00:12:46.050 align:middle line:84%
+Now, when we write x as a
+rational number-- of course,
+
+00:12:46.050 --> 00:12:48.150 align:middle line:84%
+we know that there are
+many ways of writing it
+
+00:12:48.150 --> 00:12:49.530 align:middle line:90%
+as rational number.
+
+00:12:49.530 --> 00:12:51.990 align:middle line:84%
+Because if you
+have one, then you
+
+00:12:51.990 --> 00:12:56.810 align:middle line:84%
+can just multiply the
+numerator and denominator
+
+00:12:56.810 --> 00:13:01.142 align:middle line:84%
+by a natural number, and then
+you get another representation.
+
+00:13:01.142 --> 00:13:03.190 align:middle line:90%
+But we can assume--
+
+00:13:03.190 --> 00:13:05.510 align:middle line:90%
+so we may assume.
+
+00:13:05.510 --> 00:13:07.270 align:middle line:90%
+So when we have written--
+
+00:13:07.270 --> 00:13:23.700 align:middle line:84%
+so we may assume that m and n
+does not have a common factor.
+
+00:13:23.700 --> 00:13:27.950 align:middle line:90%
+
+
+00:13:27.950 --> 00:13:30.130 align:middle line:84%
+Because otherwise, we
+could just reduce it.
+
+00:13:30.130 --> 00:13:34.230 align:middle line:84%
+So we could reduce it until
+they don't have a common factor.
+
+00:13:34.230 --> 00:13:44.760 align:middle line:90%
+
+
+00:13:44.760 --> 00:13:45.260 align:middle line:90%
+OK.
+
+00:13:45.260 --> 00:13:49.780 align:middle line:84%
+So we will assume that m and
+n do not have a common factor.
+
+00:13:49.780 --> 00:13:53.820 align:middle line:84%
+We have now that m
+squared is equal to this.
+
+00:13:53.820 --> 00:13:59.300 align:middle line:84%
+But this means that
+m here must be even.
+
+00:13:59.300 --> 00:14:08.720 align:middle line:84%
+So we have that since m squared
+is equal to 2n squared--
+
+00:14:08.720 --> 00:14:13.040 align:middle line:84%
+so it means that 2 is
+a factor in m squared.
+
+00:14:13.040 --> 00:14:15.340 align:middle line:84%
+So it must actually
+be a factor in m.
+
+00:14:15.340 --> 00:14:24.580 align:middle line:84%
+So it means that 2
+here is a factor in m.
+
+00:14:24.580 --> 00:14:27.980 align:middle line:90%
+In other words, m is even.
+
+00:14:27.980 --> 00:14:34.946 align:middle line:84%
+So you can write m here as 2
+times another integer here.
+
+00:14:34.946 --> 00:14:40.730 align:middle line:90%
+
+
+00:14:40.730 --> 00:14:48.050 align:middle line:84%
+But this means that m squared
+is equal to 2 m1 squared, which
+
+00:14:48.050 --> 00:14:51.640 align:middle line:90%
+is equal to 4 m1 squared.
+
+00:14:51.640 --> 00:14:56.050 align:middle line:84%
+And we already know that
+that is equal to 2n squared.
+
+00:14:56.050 --> 00:14:59.170 align:middle line:90%
+
+
+00:14:59.170 --> 00:15:03.030 align:middle line:84%
+So this means dividing
+by 2 on both sides.
+
+00:15:03.030 --> 00:15:08.730 align:middle line:84%
+It means that 2 m1
+squared is equal to n.
+
+00:15:08.730 --> 00:15:12.090 align:middle line:84%
+But this means that-- sorry,
+is equal to n squared.
+
+00:15:12.090 --> 00:15:17.650 align:middle line:84%
+So this means that 2 here
+must be a factor of n.
+
+00:15:17.650 --> 00:15:29.290 align:middle line:84%
+So this means here that
+2 is also a factor in n.
+
+00:15:29.290 --> 00:15:33.550 align:middle line:84%
+But now you see that
+this is a contradiction.
+
+00:15:33.550 --> 00:15:35.390 align:middle line:90%
+So this is a contradiction.
+
+00:15:35.390 --> 00:15:41.190 align:middle line:84%
+Because now what we have
+is that 2 is a factor in m
+
+00:15:41.190 --> 00:15:43.170 align:middle line:90%
+and 2 is a factor on n.
+
+00:15:43.170 --> 00:15:44.890 align:middle line:90%
+So they have a common factor.
+
+00:15:44.890 --> 00:15:46.950 align:middle line:84%
+But we assumed they didn't
+have a common factor.
+
+00:15:46.950 --> 00:15:50.090 align:middle line:90%
+
+
+00:15:50.090 --> 00:15:52.430 align:middle line:84%
+So we argue by
+contradiction-- we assumed
+
+00:15:52.430 --> 00:15:55.750 align:middle line:84%
+there was a rational number
+so that the square of it
+
+00:15:55.750 --> 00:15:57.230 align:middle line:90%
+was equal to 2.
+
+00:15:57.230 --> 00:15:58.990 align:middle line:90%
+And we get a contradiction.
+
+00:15:58.990 --> 00:16:03.390 align:middle line:84%
+So there could not
+be a rational number
+
+00:16:03.390 --> 00:16:06.850 align:middle line:84%
+that has a property that
+the square is equal to 2.
+
+00:16:06.850 --> 00:16:10.030 align:middle line:84%
+So square root of
+2 is definitely
+
+00:16:10.030 --> 00:16:11.100 align:middle line:90%
+not a rational number.
+
+00:16:11.100 --> 00:16:18.150 align:middle line:90%
+
+
+00:16:18.150 --> 00:16:25.230 align:middle line:84%
+So now, how do we think
+about square root of 2?
+
+00:16:25.230 --> 00:16:34.910 align:middle line:84%
+So how do we fit square root
+of 2 into the number system?
+
+00:16:34.910 --> 00:16:47.060 align:middle line:90%
+
+
+00:16:47.060 --> 00:16:50.380 align:middle line:84%
+Well, square root
+of 2 is-- if you
+
+00:16:50.380 --> 00:16:55.100 align:middle line:84%
+think about it as
+a decimal number,
+
+00:16:55.100 --> 00:17:09.859 align:middle line:90%
+then it starts with 1.4142136.
+
+00:17:09.859 --> 00:17:12.460 align:middle line:90%
+And then it continue like this.
+
+00:17:12.460 --> 00:17:18.020 align:middle line:84%
+So one way of thinking
+about square root of 2
+
+00:17:18.020 --> 00:17:20.220 align:middle line:84%
+is that it is--
+and we'll come back
+
+00:17:20.220 --> 00:17:22.460 align:middle line:90%
+to this at some later lecture.
+
+00:17:22.460 --> 00:17:24.660 align:middle line:90%
+So we think about--
+
+00:17:24.660 --> 00:17:40.330 align:middle line:84%
+so one way of thinking
+about square root of 2
+
+00:17:40.330 --> 00:17:47.960 align:middle line:84%
+is as a limit of a
+sequence of number.
+
+00:17:47.960 --> 00:17:52.530 align:middle line:90%
+
+
+00:17:52.530 --> 00:17:58.530 align:middle line:84%
+And that brings us to another
+really important concept
+
+00:17:58.530 --> 00:18:02.130 align:middle line:84%
+that we will talk
+much more about later,
+
+00:18:02.130 --> 00:18:06.050 align:middle line:90%
+is sequences and limits.
+
+00:18:06.050 --> 00:18:10.610 align:middle line:84%
+And so if we want to think about
+it as a limit of a sequence,
+
+00:18:10.610 --> 00:18:14.310 align:middle line:84%
+we think about maybe
+the number 1 first.
+
+00:18:14.310 --> 00:18:16.690 align:middle line:90%
+And then we think about 1.4.
+
+00:18:16.690 --> 00:18:30.830 align:middle line:84%
+And then we think 1.4.1, and
+then 1.414, and then 1.4142,
+
+00:18:30.830 --> 00:18:31.710 align:middle line:90%
+et cetera.
+
+00:18:31.710 --> 00:18:37.230 align:middle line:84%
+And so you see that this here
+is a sequence of numbers.
+
+00:18:37.230 --> 00:18:44.340 align:middle line:84%
+And so this is an increasing
+sequence of numbers.
+
+00:18:44.340 --> 00:18:53.950 align:middle line:90%
+
+
+00:18:53.950 --> 00:19:02.880 align:middle line:84%
+And square root of 2 is
+the limit of the sequence.
+
+00:19:02.880 --> 00:19:08.270 align:middle line:90%
+
+
+00:19:08.270 --> 00:19:13.830 align:middle line:84%
+So again, we'll talk much more
+about sequences and limits
+
+00:19:13.830 --> 00:19:14.330 align:middle line:90%
+later.
+
+00:19:14.330 --> 00:19:16.710 align:middle line:84%
+But this is just
+something to keep in mind
+
+00:19:16.710 --> 00:19:23.222 align:middle line:84%
+as also motivating why we
+need to understand sequences
+
+00:19:23.222 --> 00:19:23.930 align:middle line:90%
+and their limits.
+
+00:19:23.930 --> 00:19:30.620 align:middle line:90%
+
+
+00:19:30.620 --> 00:19:33.940 align:middle line:90%
+So we now know--
+
+00:19:33.940 --> 00:19:37.980 align:middle line:84%
+maybe not super surprisingly,
+but we know and see
+
+00:19:37.980 --> 00:19:43.980 align:middle line:84%
+there was a very simple proof
+why the real numbers is larger
+
+00:19:43.980 --> 00:19:45.420 align:middle line:90%
+than the rational numbers.
+
+00:19:45.420 --> 00:19:49.100 align:middle line:84%
+It contain a particular
+square root of 2
+
+00:19:49.100 --> 00:19:53.180 align:middle line:84%
+that the rational
+numbers does not contain.
+
+00:19:53.180 --> 00:19:54.480 align:middle line:90%
+We still need to--
+
+00:19:54.480 --> 00:19:58.500 align:middle line:84%
+and this is related to
+the completeness of R
+
+00:19:58.500 --> 00:20:02.520 align:middle line:84%
+and why the rational
+numbers is not complete.
+
+00:20:02.520 --> 00:20:07.220 align:middle line:84%
+And this is, again, what
+we're now working towards.
+
+00:20:07.220 --> 00:20:10.380 align:middle line:84%
+So we're working
+towards what it means
+
+00:20:10.380 --> 00:20:11.970 align:middle line:90%
+for a field to be complete.
+
+00:20:11.970 --> 00:20:31.570 align:middle line:90%
+
+
+00:20:31.570 --> 00:20:36.330 align:middle line:84%
+So let me just write that,
+and I'll explain it more.
+
+00:20:36.330 --> 00:20:46.290 align:middle line:84%
+But this here is what we are
+aiming towards, completeness,
+
+00:20:46.290 --> 00:20:48.290 align:middle line:84%
+which is-- and
+I'll explain that--
+
+00:20:48.290 --> 00:20:49.800 align:middle line:84%
+at the least upper
+bound property.
+
+00:20:49.800 --> 00:21:02.708 align:middle line:90%
+
+
+00:21:02.708 --> 00:21:03.990 align:middle line:90%
+OK.
+
+00:21:03.990 --> 00:21:07.110 align:middle line:84%
+So suppose you take
+an ordered set.
+
+00:21:07.110 --> 00:21:15.080 align:middle line:90%
+So suppose S is an ordered set.
+
+00:21:15.080 --> 00:21:20.160 align:middle line:90%
+
+
+00:21:20.160 --> 00:21:29.280 align:middle line:84%
+And the ordering-- as
+usual, we're ordering,
+
+00:21:29.280 --> 00:21:33.000 align:middle line:90%
+we denote by this.
+
+00:21:33.000 --> 00:21:35.460 align:middle line:90%
+So suppose S is an ordered set.
+
+00:21:35.460 --> 00:21:40.880 align:middle line:84%
+And suppose that A
+here is a subset of S.
+
+00:21:40.880 --> 00:21:59.328 align:middle line:84%
+Then we say that M is an upper
+bound for the subset for A
+
+00:21:59.328 --> 00:22:15.280 align:middle line:84%
+if, for all elements in A, M
+here is bigger or equal to A.
+
+00:22:15.280 --> 00:22:19.780 align:middle line:84%
+So an upper bound
+for a subset is
+
+00:22:19.780 --> 00:22:22.540 align:middle line:84%
+something that has
+to be bigger than all
+
+00:22:22.540 --> 00:22:25.240 align:middle line:84%
+the elements in the
+subset, bigger or equal to.
+
+00:22:25.240 --> 00:22:27.410 align:middle line:84%
+It could be equal to
+one of the elements.
+
+00:22:27.410 --> 00:22:30.580 align:middle line:90%
+
+
+00:22:30.580 --> 00:22:32.960 align:middle line:90%
+So that's a upper bound.
+
+00:22:32.960 --> 00:22:36.150 align:middle line:84%
+And so, of course,
+if you look at--
+
+00:22:36.150 --> 00:22:41.140 align:middle line:90%
+
+
+00:22:41.140 --> 00:22:44.820 align:middle line:90%
+so a couple of examples here.
+
+00:22:44.820 --> 00:22:57.580 align:middle line:84%
+So if the set here is--
+let's say that the set is--
+
+00:22:57.580 --> 00:23:01.660 align:middle line:84%
+so S is the natural
+numbers here.
+
+00:23:01.660 --> 00:23:10.240 align:middle line:90%
+And the subset here is 1, 2, 3.
+
+00:23:10.240 --> 00:23:20.770 align:middle line:84%
+So then the element 4
+here is an upper bound
+
+00:23:20.770 --> 00:23:38.690 align:middle line:84%
+for A. So 4 is an upper bound
+for A, whereas 2 is not.
+
+00:23:38.690 --> 00:23:41.090 align:middle line:90%
+Obviously, 3 is bigger than 2.
+
+00:23:41.090 --> 00:23:43.240 align:middle line:90%
+So 2 is not an upper bound.
+
+00:23:43.240 --> 00:23:48.810 align:middle line:90%
+
+
+00:23:48.810 --> 00:23:54.170 align:middle line:90%
+Another example is if you take--
+
+00:23:54.170 --> 00:23:58.010 align:middle line:90%
+
+
+00:23:58.010 --> 00:24:01.290 align:middle line:84%
+let's say S is the
+rational numbers,
+
+00:24:01.290 --> 00:24:07.520 align:middle line:84%
+and A here is the
+natural numbers.
+
+00:24:07.520 --> 00:24:14.280 align:middle line:90%
+
+
+00:24:14.280 --> 00:24:18.070 align:middle line:84%
+Then A here does not
+have an upper bound.
+
+00:24:18.070 --> 00:24:30.240 align:middle line:90%
+
+
+00:24:30.240 --> 00:24:37.850 align:middle line:84%
+And I'll return to this second
+example in just a minute.
+
+00:24:37.850 --> 00:24:44.532 align:middle line:90%
+
+
+00:24:44.532 --> 00:24:49.080 align:middle line:84%
+s that is what it means
+to be an upper bound.
+
+00:24:49.080 --> 00:24:54.840 align:middle line:90%
+So now there's another concept.
+
+00:24:54.840 --> 00:24:56.930 align:middle line:90%
+And that is a least upper bound.
+
+00:24:56.930 --> 00:25:16.060 align:middle line:90%
+
+
+00:25:16.060 --> 00:25:19.330 align:middle line:84%
+So there's another concept
+of the least upper bound.
+
+00:25:19.330 --> 00:25:26.140 align:middle line:90%
+
+
+00:25:26.140 --> 00:25:30.430 align:middle line:84%
+So again, we have S
+is an ordered set.
+
+00:25:30.430 --> 00:25:35.700 align:middle line:90%
+
+
+00:25:35.700 --> 00:25:43.860 align:middle line:90%
+We have A here is a subset of S.
+
+00:25:43.860 --> 00:25:53.340 align:middle line:84%
+Then we say that it's a
+subset of S. Maybe let me just
+
+00:25:53.340 --> 00:25:55.430 align:middle line:90%
+point out that it's bounded.
+
+00:25:55.430 --> 00:26:08.890 align:middle line:90%
+
+
+00:26:08.890 --> 00:26:11.420 align:middle line:84%
+So And is a subset
+of S that is bounded.
+
+00:26:11.420 --> 00:26:14.850 align:middle line:90%
+
+
+00:26:14.850 --> 00:26:36.770 align:middle line:84%
+Then we say that capital
+M is a least upper bound
+
+00:26:36.770 --> 00:26:47.570 align:middle line:90%
+for a if M is an upper bound--
+
+00:26:47.570 --> 00:26:50.730 align:middle line:90%
+so it has to be an upper bound--
+
+00:26:50.730 --> 00:27:02.190 align:middle line:84%
+and if, for any
+other upper bound--
+
+00:27:02.190 --> 00:27:11.440 align:middle line:90%
+
+
+00:27:11.440 --> 00:27:14.740 align:middle line:84%
+we have to have that for
+any other upper bound,
+
+00:27:14.740 --> 00:27:25.760 align:middle line:84%
+say, M1, we have that M1 has
+to be bigger or equal to M.
+
+00:27:25.760 --> 00:27:32.080 align:middle line:84%
+So a bounded set
+has a least upper
+
+00:27:32.080 --> 00:27:38.000 align:middle line:84%
+bound if there is an element
+that is the smallest, so
+
+00:27:38.000 --> 00:27:39.450 align:middle line:90%
+to speak, of the upper bound.
+
+00:27:39.450 --> 00:27:42.760 align:middle line:90%
+
+
+00:27:42.760 --> 00:27:45.035 align:middle line:90%
+OK.
+
+00:27:45.035 --> 00:27:53.360 align:middle line:84%
+And so now we are ready
+to state what it means
+
+00:27:53.360 --> 00:27:55.490 align:middle line:90%
+to be a complete ordered field.
+
+00:27:55.490 --> 00:28:03.960 align:middle line:90%
+
+
+00:28:03.960 --> 00:28:35.340 align:middle line:84%
+So a complete ordered
+field is an ordered field
+
+00:28:35.340 --> 00:28:53.150 align:middle line:84%
+so that any bounded subset
+has a least upper bound.
+
+00:28:53.150 --> 00:29:03.010 align:middle line:90%
+
+
+00:29:03.010 --> 00:29:05.782 align:middle line:90%
+OK.
+
+00:29:05.782 --> 00:29:08.610 align:middle line:84%
+So that's a complete
+ordered field.
+
+00:29:08.610 --> 00:29:11.610 align:middle line:84%
+And so we have the
+following theorem
+
+00:29:11.610 --> 00:29:15.970 align:middle line:84%
+that we're not going to prove
+because that really takes us
+
+00:29:15.970 --> 00:29:16.720 align:middle line:90%
+off field.
+
+00:29:16.720 --> 00:29:21.022 align:middle line:90%
+
+
+00:29:21.022 --> 00:29:22.900 align:middle line:84%
+So we'll just take
+it for granted.
+
+00:29:22.900 --> 00:29:27.810 align:middle line:90%
+
+
+00:29:27.810 --> 00:29:53.030 align:middle line:84%
+So theorem-- so there exists a
+smallest complete ordered field
+
+00:29:53.030 --> 00:29:55.020 align:middle line:84%
+that contains the
+rational numbers.
+
+00:29:55.020 --> 00:30:11.840 align:middle line:90%
+
+
+00:30:11.840 --> 00:30:12.340 align:middle line:90%
+OK.
+
+00:30:12.340 --> 00:30:13.500 align:middle line:90%
+So this is a theorem.
+
+00:30:13.500 --> 00:30:17.000 align:middle line:84%
+Again, we won't prove
+it because it's really
+
+00:30:17.000 --> 00:30:19.300 align:middle line:90%
+outside the scope of this class.
+
+00:30:19.300 --> 00:30:22.520 align:middle line:84%
+It's not really what we
+want to focus on here.
+
+00:30:22.520 --> 00:30:27.600 align:middle line:90%
+But you can prove this.
+
+00:30:27.600 --> 00:30:41.720 align:middle line:84%
+And so that field
+is what we call R,
+
+00:30:41.720 --> 00:30:43.780 align:middle line:90%
+is R. It's the real numbers.
+
+00:30:43.780 --> 00:30:48.800 align:middle line:90%
+
+
+00:30:48.800 --> 00:30:49.600 align:middle line:90%
+OK.
+
+00:30:49.600 --> 00:30:58.640 align:middle line:84%
+So now I want to see that if
+we work with that field instead
+
+00:30:58.640 --> 00:31:03.630 align:middle line:84%
+of the rational numbers, then
+actually, we have in particular
+
+00:31:03.630 --> 00:31:07.580 align:middle line:84%
+that the square root
+of 2 is in that field.
+
+00:31:07.580 --> 00:31:25.930 align:middle line:90%
+
+
+00:31:25.930 --> 00:31:41.640 align:middle line:84%
+So we want to show that a square
+root of 2 is in the reals.
+
+00:31:41.640 --> 00:31:45.246 align:middle line:90%
+
+
+00:31:45.246 --> 00:31:51.350 align:middle line:84%
+So now I'm going to
+look at the set A.
+
+00:31:51.350 --> 00:31:58.450 align:middle line:84%
+So I'm going to look
+at the set A, which
+
+00:31:58.450 --> 00:32:06.570 align:middle line:84%
+is the element in R such
+that x here is bigger than 0
+
+00:32:06.570 --> 00:32:13.930 align:middle line:90%
+and x squared is less than 2.
+
+00:32:13.930 --> 00:32:17.950 align:middle line:84%
+So I'm going to
+look at this set.
+
+00:32:17.950 --> 00:32:23.410 align:middle line:84%
+Now, of course, this set
+here-- so A here is bounded.
+
+00:32:23.410 --> 00:32:24.270 align:middle line:90%
+It's not empty.
+
+00:32:24.270 --> 00:32:25.960 align:middle line:90%
+We'll say first, it's not empty.
+
+00:32:25.960 --> 00:32:29.370 align:middle line:90%
+
+
+00:32:29.370 --> 00:32:38.090 align:middle line:84%
+It's not empty since 1 here
+is in A. 1 is positive.
+
+00:32:38.090 --> 00:32:44.690 align:middle line:84%
+And 1 squared here is, of
+course, 1, which is less than 2.
+
+00:32:44.690 --> 00:32:46.450 align:middle line:90%
+So it's non-empty.
+
+00:32:46.450 --> 00:32:50.460 align:middle line:90%
+And A here is also A is bounded.
+
+00:32:50.460 --> 00:32:53.970 align:middle line:90%
+
+
+00:32:53.970 --> 00:33:09.480 align:middle line:84%
+Because any element-- so for all
+x in A, you have that x squared,
+
+00:33:09.480 --> 00:33:12.360 align:middle line:84%
+x is positive and
+is less than 2.
+
+00:33:12.360 --> 00:33:17.320 align:middle line:84%
+So this means that x here
+must be itself less than 2.
+
+00:33:17.320 --> 00:33:20.980 align:middle line:84%
+Because 2, of course, when you
+square it, you're getting 4.
+
+00:33:20.980 --> 00:33:25.760 align:middle line:90%
+
+
+00:33:25.760 --> 00:33:30.010 align:middle line:84%
+So A here is a bounded
+subset of the reals.
+
+00:33:30.010 --> 00:33:40.600 align:middle line:90%
+
+
+00:33:40.600 --> 00:33:45.130 align:middle line:84%
+So now the real has the
+least upper bound property.
+
+00:33:45.130 --> 00:33:47.960 align:middle line:90%
+
+
+00:33:47.960 --> 00:33:51.720 align:middle line:84%
+So this means that
+I can now define--
+
+00:33:51.720 --> 00:34:03.015 align:middle line:84%
+so define square root of 2
+to be the least upper bound.
+
+00:34:03.015 --> 00:34:20.030 align:middle line:84%
+So define it to be the
+least upper bound of A. A
+
+00:34:20.030 --> 00:34:23.429 align:middle line:90%
+was a nonempty bounded subset.
+
+00:34:23.429 --> 00:34:29.350 align:middle line:84%
+So because we are in the reals,
+if you grant this theorem,
+
+00:34:29.350 --> 00:34:30.970 align:middle line:84%
+then there is a
+least upper bound.
+
+00:34:30.970 --> 00:34:34.790 align:middle line:90%
+
+
+00:34:34.790 --> 00:34:38.550 align:middle line:90%
+So now let's denote--
+
+00:34:38.550 --> 00:34:56.010 align:middle line:84%
+so let me denote
+this number by x.
+
+00:34:56.010 --> 00:34:58.910 align:middle line:84%
+I'm going to denoted by x
+instead of square root of 2.
+
+00:34:58.910 --> 00:35:02.090 align:middle line:84%
+Because if I denote it
+by square root of 2,
+
+00:35:02.090 --> 00:35:03.810 align:middle line:90%
+then it's going to be confusing.
+
+00:35:03.810 --> 00:35:07.010 align:middle line:84%
+And it's like you
+will automatically
+
+00:35:07.010 --> 00:35:11.290 align:middle line:84%
+use what you think square
+root 2 should satisfy.
+
+00:35:11.290 --> 00:35:17.175 align:middle line:90%
+So let's call it x.
+
+00:35:17.175 --> 00:35:20.570 align:middle line:90%
+
+
+00:35:20.570 --> 00:35:23.870 align:middle line:90%
+So I want to prove--
+
+00:35:23.870 --> 00:35:41.528 align:middle line:84%
+so it's clear that since x here
+is at least upper bound for A
+
+00:35:41.528 --> 00:35:45.890 align:middle line:84%
+and, in particular,
+1 is in A, then
+
+00:35:45.890 --> 00:35:51.120 align:middle line:84%
+it means that 1 here has to
+be less than or equal to x.
+
+00:35:51.120 --> 00:35:54.760 align:middle line:90%
+And 1, of course, is positive.
+
+00:35:54.760 --> 00:36:00.160 align:middle line:84%
+So it means that x here
+is definitely positive.
+
+00:36:00.160 --> 00:36:04.610 align:middle line:84%
+Now we need to show
+that the square--
+
+00:36:04.610 --> 00:36:13.840 align:middle line:90%
+
+
+00:36:13.840 --> 00:36:31.480 align:middle line:84%
+so we need to show that
+x squared is equal to 2.
+
+00:36:31.480 --> 00:36:33.320 align:middle line:84%
+That's what we need
+to prove in order
+
+00:36:33.320 --> 00:36:36.580 align:middle line:84%
+to prove that x is really
+the square root of 2.
+
+00:36:36.580 --> 00:36:39.406 align:middle line:90%
+
+
+00:36:39.406 --> 00:36:41.380 align:middle line:90%
+So I'm going to divide it up.
+
+00:36:41.380 --> 00:36:51.520 align:middle line:84%
+So we divide the
+proof into two steps.
+
+00:36:51.520 --> 00:37:02.390 align:middle line:90%
+
+
+00:37:02.390 --> 00:37:06.810 align:middle line:84%
+The first one is
+that we want to--
+
+00:37:06.810 --> 00:37:14.830 align:middle line:84%
+so step 1, we're going to show
+that x squared is less than
+
+00:37:14.830 --> 00:37:16.790 align:middle line:90%
+or equal to 2.
+
+00:37:16.790 --> 00:37:19.470 align:middle line:84%
+So this is what we would
+show in the first step.
+
+00:37:19.470 --> 00:37:22.750 align:middle line:84%
+And then the second step would
+be the reverse inequality.
+
+00:37:22.750 --> 00:37:24.930 align:middle line:84%
+And of course, together,
+this would be the proof.
+
+00:37:24.930 --> 00:37:28.190 align:middle line:90%
+
+
+00:37:28.190 --> 00:37:34.210 align:middle line:84%
+So again, just like we
+argued before, in this case,
+
+00:37:34.210 --> 00:37:36.450 align:middle line:84%
+we will also argue
+by contradiction.
+
+00:37:36.450 --> 00:37:39.390 align:middle line:90%
+
+
+00:37:39.390 --> 00:37:41.590 align:middle line:84%
+You may get the feeling
+that we're always
+
+00:37:41.590 --> 00:37:43.930 align:middle line:84%
+going to argue by
+contradiction in this class.
+
+00:37:43.930 --> 00:37:45.110 align:middle line:90%
+And we won't.
+
+00:37:45.110 --> 00:37:49.290 align:middle line:84%
+And it's generally thought
+of that it's better style
+
+00:37:49.290 --> 00:37:51.290 align:middle line:90%
+to prove things directly.
+
+00:37:51.290 --> 00:37:55.050 align:middle line:84%
+But sometimes it's
+a much more logical
+
+00:37:55.050 --> 00:37:58.730 align:middle line:84%
+and easier in a way-- at
+least, easier the first time--
+
+00:37:58.730 --> 00:38:00.270 align:middle line:90%
+to prove it by contradiction.
+
+00:38:00.270 --> 00:38:03.970 align:middle line:84%
+And there's nothing wrong with
+proving it by contradiction.
+
+00:38:03.970 --> 00:38:06.390 align:middle line:84%
+So we will show this
+by contradiction.
+
+00:38:06.390 --> 00:38:20.150 align:middle line:90%
+
+
+00:38:20.150 --> 00:38:20.650 align:middle line:90%
+OK.
+
+00:38:20.650 --> 00:38:50.000 align:middle line:90%
+
+
+00:38:50.000 --> 00:38:51.820 align:middle line:84%
+So we show this
+by contradiction.
+
+00:38:51.820 --> 00:38:53.500 align:middle line:90%
+And so we assume first--
+
+00:38:53.500 --> 00:38:56.300 align:middle line:90%
+so assume not.
+
+00:38:56.300 --> 00:38:59.760 align:middle line:90%
+
+
+00:38:59.760 --> 00:39:05.260 align:middle line:84%
+So assume that x squared is
+not less than or equal to 2.
+
+00:39:05.260 --> 00:39:06.360 align:middle line:90%
+So we assume not.
+
+00:39:06.360 --> 00:39:09.160 align:middle line:90%
+
+
+00:39:09.160 --> 00:39:17.980 align:middle line:84%
+So assume that x squared
+is strictly bigger than 2.
+
+00:39:17.980 --> 00:39:20.720 align:middle line:90%
+
+
+00:39:20.720 --> 00:39:26.440 align:middle line:84%
+Now I will look at x
+minus some small number.
+
+00:39:26.440 --> 00:39:29.200 align:middle line:84%
+And I'm going to
+eventually prove
+
+00:39:29.200 --> 00:39:34.100 align:middle line:84%
+that if I'm looking at x
+minus some small number--
+
+00:39:34.100 --> 00:39:39.400 align:middle line:90%
+
+
+00:39:39.400 --> 00:39:42.510 align:middle line:84%
+I'm going to prove now that if
+this here was strictly bigger
+
+00:39:42.510 --> 00:39:46.910 align:middle line:84%
+than 2, then I can find some
+small number so that this here
+
+00:39:46.910 --> 00:39:48.770 align:middle line:90%
+would also be an upper bound.
+
+00:39:48.770 --> 00:39:53.710 align:middle line:90%
+So h would be positive.
+
+00:39:53.710 --> 00:39:56.870 align:middle line:84%
+This here would be a number
+strictly less than x.
+
+00:39:56.870 --> 00:39:59.890 align:middle line:84%
+And I would show that this
+here is also an upper bound.
+
+00:39:59.890 --> 00:40:02.142 align:middle line:90%
+That's what I want to do.
+
+00:40:02.142 --> 00:40:09.750 align:middle line:84%
+So I take x minus
+h, and I square it.
+
+00:40:09.750 --> 00:40:21.790 align:middle line:84%
+If I do that, then I get that
+this is x squared minus 2xh plus
+
+00:40:21.790 --> 00:40:24.630 align:middle line:90%
+h squared.
+
+00:40:24.630 --> 00:40:27.050 align:middle line:90%
+The squared is non-negative.
+
+00:40:27.050 --> 00:40:31.590 align:middle line:84%
+So this here is definitely
+bigger or equal to x squared
+
+00:40:31.590 --> 00:40:33.394 align:middle line:90%
+minus 2xh.
+
+00:40:33.394 --> 00:40:37.030 align:middle line:90%
+
+
+00:40:37.030 --> 00:40:38.770 align:middle line:90%
+And so you see that--
+
+00:40:38.770 --> 00:40:39.270 align:middle line:90%
+right.
+
+00:40:39.270 --> 00:40:52.280 align:middle line:90%
+
+
+00:40:52.280 --> 00:40:56.980 align:middle line:84%
+So we have that x
+squared is bigger than 2.
+
+00:40:56.980 --> 00:41:04.280 align:middle line:84%
+So this means that x
+squared minus 2 is positive.
+
+00:41:04.280 --> 00:41:06.520 align:middle line:84%
+I'm just subtracting
+a 2 from both sides.
+
+00:41:06.520 --> 00:41:10.260 align:middle line:84%
+So we're assuming that
+this here is positive.
+
+00:41:10.260 --> 00:41:13.340 align:middle line:90%
+
+
+00:41:13.340 --> 00:41:16.870 align:middle line:84%
+And so now if I just
+make sure that--
+
+00:41:16.870 --> 00:41:23.780 align:middle line:90%
+
+
+00:41:23.780 --> 00:41:27.380 align:middle line:90%
+so now I'm going to choose.
+
+00:41:27.380 --> 00:41:28.760 align:middle line:90%
+So I want to choose.
+
+00:41:28.760 --> 00:41:31.600 align:middle line:84%
+So I want to prove
+that x minus--
+
+00:41:31.600 --> 00:41:33.540 align:middle line:90%
+so I want to show--
+
+00:41:33.540 --> 00:41:46.920 align:middle line:84%
+so I want to get
+the contradiction
+
+00:41:46.920 --> 00:42:04.960 align:middle line:84%
+by finding a h bigger than
+0 so that minus h is also
+
+00:42:04.960 --> 00:42:11.720 align:middle line:90%
+an upper bound for A.
+
+00:42:11.720 --> 00:42:16.060 align:middle line:84%
+Because this here is clearly
+smaller than x, right?
+
+00:42:16.060 --> 00:42:18.280 align:middle line:84%
+And this would then
+contradict that x
+
+00:42:18.280 --> 00:42:20.840 align:middle line:90%
+was the smallest upper bound.
+
+00:42:20.840 --> 00:42:23.840 align:middle line:90%
+So that's what I want to do.
+
+00:42:23.840 --> 00:42:29.120 align:middle line:90%
+And so now, how do I do that?
+
+00:42:29.120 --> 00:42:31.190 align:middle line:84%
+So using this little
+calculation here--
+
+00:42:31.190 --> 00:42:34.680 align:middle line:90%
+
+
+00:42:34.680 --> 00:42:36.950 align:middle line:90%
+so what I want to do is--
+
+00:42:36.950 --> 00:42:50.390 align:middle line:84%
+so I want to find h
+positive so that when
+
+00:42:50.390 --> 00:42:55.170 align:middle line:84%
+I square, when I subtract
+h from x and I square it,
+
+00:42:55.170 --> 00:42:59.030 align:middle line:84%
+then I still get
+something bigger than 2.
+
+00:42:59.030 --> 00:43:05.070 align:middle line:84%
+So I want to find h positive
+so that this thing here
+
+00:43:05.070 --> 00:43:08.390 align:middle line:90%
+is bigger than 2.
+
+00:43:08.390 --> 00:43:13.310 align:middle line:84%
+And all I need to do is, I
+need to show that I can find h
+
+00:43:13.310 --> 00:43:28.390 align:middle line:84%
+so that this thing here-- so
+enough to show that I can find h
+
+00:43:28.390 --> 00:43:36.940 align:middle line:84%
+such that x squared minus 2xh,
+that this thing here is bigger
+
+00:43:36.940 --> 00:43:37.520 align:middle line:90%
+than 2.
+
+00:43:37.520 --> 00:43:41.060 align:middle line:90%
+
+
+00:43:41.060 --> 00:43:44.580 align:middle line:84%
+And so you see, now
+I just move over
+
+00:43:44.580 --> 00:43:48.820 align:middle line:84%
+on the other side to say that
+this here is bigger than 2.
+
+00:43:48.820 --> 00:43:51.700 align:middle line:84%
+It's the same as saying I
+can just move this 2 over
+
+00:43:51.700 --> 00:43:54.540 align:middle line:90%
+on that side.
+
+00:43:54.540 --> 00:43:57.180 align:middle line:84%
+And I can move this here
+over on the other side.
+
+00:43:57.180 --> 00:44:03.860 align:middle line:84%
+So I just need to find
+h with this property.
+
+00:44:03.860 --> 00:44:10.180 align:middle line:84%
+But that, of course, is
+equivalent to saying that h has
+
+00:44:10.180 --> 00:44:17.060 align:middle line:84%
+to be less than x
+squared minus 2 over 2x.
+
+00:44:17.060 --> 00:44:18.980 align:middle line:90%
+x is positive.
+
+00:44:18.980 --> 00:44:21.500 align:middle line:84%
+This thing here is
+strictly positive.
+
+00:44:21.500 --> 00:44:24.120 align:middle line:84%
+So I can certainly
+find a positive number.
+
+00:44:24.120 --> 00:44:26.460 align:middle line:84%
+This here is something
+strictly positive.
+
+00:44:26.460 --> 00:44:30.140 align:middle line:84%
+So I can certainly
+find some small h
+
+00:44:30.140 --> 00:44:32.910 align:middle line:84%
+so that it's less than this
+strictly positive number.
+
+00:44:32.910 --> 00:44:35.960 align:middle line:90%
+
+
+00:44:35.960 --> 00:44:39.200 align:middle line:90%
+So this is step one.
+
+00:44:39.200 --> 00:44:42.660 align:middle line:84%
+This is just showing that
+x squared was less than
+
+00:44:42.660 --> 00:44:44.360 align:middle line:90%
+or equal to 2.
+
+00:44:44.360 --> 00:44:52.320 align:middle line:84%
+Now I want to argue similarly
+to prove the other direction.
+
+00:44:52.320 --> 00:45:15.900 align:middle line:90%
+
+
+00:45:15.900 --> 00:45:18.800 align:middle line:84%
+In this case, there's not
+really any difference.
+
+00:45:18.800 --> 00:45:23.600 align:middle line:84%
+You see in a minute that
+the one inequality is not
+
+00:45:23.600 --> 00:45:25.460 align:middle line:90%
+any easier than the other.
+
+00:45:25.460 --> 00:45:28.180 align:middle line:90%
+
+
+00:45:28.180 --> 00:45:29.760 align:middle line:90%
+I have a colleague here.
+
+00:45:29.760 --> 00:45:31.550 align:middle line:90%
+He's is retired now.
+
+00:45:31.550 --> 00:45:34.430 align:middle line:84%
+And he collaborated
+with some other guy
+
+00:45:34.430 --> 00:45:37.250 align:middle line:90%
+and made a lot of famous work.
+
+00:45:37.250 --> 00:45:40.270 align:middle line:84%
+And the other guy maybe
+become even more famous.
+
+00:45:40.270 --> 00:45:42.853 align:middle line:84%
+And he used to say that
+when you do mathematics--
+
+00:45:42.853 --> 00:45:45.270 align:middle line:84%
+so it doesn't really apply
+here because the two inequality
+
+00:45:45.270 --> 00:45:46.590 align:middle line:90%
+is just as easy.
+
+00:45:46.590 --> 00:45:50.470 align:middle line:84%
+But he used to say that
+when you do mathematics,
+
+00:45:50.470 --> 00:45:52.230 align:middle line:90%
+there's three things you do.
+
+00:45:52.230 --> 00:45:54.150 align:middle line:90%
+You locate a problem.
+
+00:45:54.150 --> 00:45:58.110 align:middle line:84%
+You prove one of the two
+inequality, whichever
+
+00:45:58.110 --> 00:45:59.590 align:middle line:90%
+one is easier.
+
+00:45:59.590 --> 00:46:00.810 align:middle line:90%
+And you ask Raghu--
+
+00:46:00.810 --> 00:46:03.460 align:middle line:84%
+Raghu was his collaborator--
+to prove the other inequality.
+
+00:46:03.460 --> 00:46:05.778 align:middle line:90%
+[LAUGHTER]
+
+00:46:05.778 --> 00:46:07.510 align:middle line:90%
+
+
+00:46:07.510 --> 00:46:08.010 align:middle line:90%
+OK.
+
+00:46:08.010 --> 00:46:15.430 align:middle line:90%
+
+
+00:46:15.430 --> 00:46:22.950 align:middle line:84%
+So step two is that x squared
+is bigger or equal to 2.
+
+00:46:22.950 --> 00:46:26.010 align:middle line:90%
+And we will again prove this.
+
+00:46:26.010 --> 00:46:36.401 align:middle line:84%
+So again, we'll show
+this by contradiction.
+
+00:46:36.401 --> 00:46:43.926 align:middle line:90%
+
+
+00:46:43.926 --> 00:46:50.340 align:middle line:90%
+So I assume not.
+
+00:46:50.340 --> 00:47:01.640 align:middle line:84%
+So assume that x squared here
+is strictly smaller than 2.
+
+00:47:01.640 --> 00:47:04.460 align:middle line:90%
+
+
+00:47:04.460 --> 00:47:06.900 align:middle line:90%
+Now what we want to prove is--
+
+00:47:06.900 --> 00:47:12.140 align:middle line:84%
+so then we want to
+get the contradiction.
+
+00:47:12.140 --> 00:47:36.330 align:middle line:84%
+We want to get the contradiction
+by showing that x is not
+
+00:47:36.330 --> 00:47:46.930 align:middle line:84%
+an upper bound, an
+upper bound for A. x
+
+00:47:46.930 --> 00:47:49.850 align:middle line:84%
+was supposed to be the least
+upper bound, so in particular
+
+00:47:49.850 --> 00:47:52.718 align:middle line:90%
+an upper bound.
+
+00:47:52.718 --> 00:47:54.730 align:middle line:90%
+So how do we do that?
+
+00:47:54.730 --> 00:47:59.650 align:middle line:84%
+Well, we're going to add
+just a little bit to x.
+
+00:47:59.650 --> 00:48:02.380 align:middle line:84%
+So this is similar to
+how we argued before.
+
+00:48:02.380 --> 00:48:14.570 align:middle line:90%
+
+
+00:48:14.570 --> 00:48:19.930 align:middle line:90%
+So I'm going to add--
+
+00:48:19.930 --> 00:48:24.070 align:middle line:90%
+so h, again, is being positive.
+
+00:48:24.070 --> 00:48:26.550 align:middle line:90%
+So h is positive.
+
+00:48:26.550 --> 00:48:30.590 align:middle line:84%
+And I'm going to add
+just a little bit to x.
+
+00:48:30.590 --> 00:48:38.030 align:middle line:84%
+And I'm going to see that
+if I choose h small, then
+
+00:48:38.030 --> 00:48:46.890 align:middle line:84%
+I can find something in the
+set if I choose it so that x--
+
+00:48:46.890 --> 00:48:50.850 align:middle line:84%
+so I want to prove that
+if h is small enough,
+
+00:48:50.850 --> 00:48:57.390 align:middle line:84%
+then x plus h is
+in A, contradicting
+
+00:48:57.390 --> 00:49:00.710 align:middle line:90%
+that x was an upper bound.
+
+00:49:00.710 --> 00:49:03.690 align:middle line:84%
+And so h is going
+to be chosen small.
+
+00:49:03.690 --> 00:49:08.710 align:middle line:84%
+So in particular, it's
+going to be between 0 and 1.
+
+00:49:08.710 --> 00:49:13.070 align:middle line:90%
+And I'm looking at x plus h.
+
+00:49:13.070 --> 00:49:14.750 align:middle line:90%
+And I'm squaring it.
+
+00:49:14.750 --> 00:49:19.815 align:middle line:84%
+So this thing here is x squared
+plus h squared plus 2hx.
+
+00:49:19.815 --> 00:49:23.100 align:middle line:90%
+
+
+00:49:23.100 --> 00:49:27.620 align:middle line:90%
+Now h is less than 1.
+
+00:49:27.620 --> 00:49:34.100 align:middle line:84%
+So this means that h
+squared-- since h is positive
+
+00:49:34.100 --> 00:49:40.780 align:middle line:84%
+and is less than 1, then
+you have that h squared
+
+00:49:40.780 --> 00:49:46.420 align:middle line:90%
+is less than actual h.
+
+00:49:46.420 --> 00:50:00.460 align:middle line:84%
+And so this thing here is less
+than x squared plus h plus 2hx
+
+00:50:00.460 --> 00:50:02.350 align:middle line:90%
+And I want to show--
+
+00:50:02.350 --> 00:50:05.920 align:middle line:90%
+
+
+00:50:05.920 --> 00:50:12.100 align:middle line:84%
+so I want to show that this
+x plus h, this is still in A.
+
+00:50:12.100 --> 00:50:33.650 align:middle line:84%
+So I want to show that we can
+find such a h so that this here
+
+00:50:33.650 --> 00:50:37.070 align:middle line:90%
+squared is still less than 2.
+
+00:50:37.070 --> 00:50:39.650 align:middle line:90%
+
+
+00:50:39.650 --> 00:50:43.410 align:middle line:84%
+So all I need to do is,
+because of this inequality,
+
+00:50:43.410 --> 00:50:47.650 align:middle line:84%
+I just need to find an h so that
+this thing here is less than 2.
+
+00:50:47.650 --> 00:51:06.550 align:middle line:84%
+So I want to find h such that
+this thing here is less than 2.
+
+00:51:06.550 --> 00:51:22.670 align:middle line:90%
+
+
+00:51:22.670 --> 00:51:27.090 align:middle line:84%
+Right now, again, we're just
+moving over on the other side.
+
+00:51:27.090 --> 00:51:29.870 align:middle line:84%
+In this case, we're moving
+this x squared over here.
+
+00:51:29.870 --> 00:51:35.250 align:middle line:84%
+So we have h plus
+2hx is less than--
+
+00:51:35.250 --> 00:51:38.790 align:middle line:90%
+this is what we want to find--
+
+00:51:38.790 --> 00:51:48.110 align:middle line:84%
+want to find an h such that
+this thing here is less than 2
+
+00:51:48.110 --> 00:51:50.310 align:middle line:90%
+minus a x squared.
+
+00:51:50.310 --> 00:51:53.270 align:middle line:84%
+This thing here is
+now-- because x squared
+
+00:51:53.270 --> 00:51:54.570 align:middle line:90%
+is strictly less than 2.
+
+00:51:54.570 --> 00:51:57.070 align:middle line:90%
+This is positive.
+
+00:51:57.070 --> 00:52:00.990 align:middle line:84%
+Here, you can just
+factor out an h.
+
+00:52:00.990 --> 00:52:03.030 align:middle line:84%
+So if you factor
+out an h, then you
+
+00:52:03.030 --> 00:52:09.670 align:middle line:84%
+have this thing here is
+less than 2 minus x squared.
+
+00:52:09.670 --> 00:52:13.190 align:middle line:84%
+And this is just saying that you
+want to find an h so that this
+
+00:52:13.190 --> 00:52:20.940 align:middle line:84%
+thing here is strictly less than
+2 minus x squared over 1 plus
+
+00:52:20.940 --> 00:52:22.320 align:middle line:90%
+2x.
+
+00:52:22.320 --> 00:52:24.460 align:middle line:90%
+x is positive.
+
+00:52:24.460 --> 00:52:27.740 align:middle line:90%
+So this thing here is positive.
+
+00:52:27.740 --> 00:52:29.960 align:middle line:84%
+So this and this here
+is also positive.
+
+00:52:29.960 --> 00:52:31.520 align:middle line:84%
+So this here is a
+positive number.
+
+00:52:31.520 --> 00:52:35.060 align:middle line:84%
+So you can definitely find
+some x with this property.
+
+00:52:35.060 --> 00:52:36.840 align:middle line:90%
+And then you see that--
+
+00:52:36.840 --> 00:52:41.980 align:middle line:84%
+so this means that this x plus
+h would also be in the set a,
+
+00:52:41.980 --> 00:52:44.440 align:middle line:84%
+contradicting that x
+was an upper bound.
+
+00:52:44.440 --> 00:52:52.140 align:middle line:90%
+
+
+00:52:52.140 --> 00:52:52.640 align:middle line:90%
+OK.
+
+00:52:52.640 --> 00:52:54.900 align:middle line:84%
+So now, accordingly,
+we immediately
+
+00:52:54.900 --> 00:53:07.200 align:middle line:84%
+get of this is that the
+rationals is not complete.
+
+00:53:07.200 --> 00:53:10.560 align:middle line:84%
+So we get the
+following corollarys.
+
+00:53:10.560 --> 00:53:16.450 align:middle line:90%
+
+
+00:53:16.450 --> 00:53:18.300 align:middle line:84%
+The rational number
+is not complete.
+
+00:53:18.300 --> 00:53:26.010 align:middle line:90%
+
+
+00:53:26.010 --> 00:53:27.550 align:middle line:90%
+And this is just because--
+
+00:53:27.550 --> 00:53:31.350 align:middle line:84%
+so the proof of that is
+that we have already--
+
+00:53:31.350 --> 00:53:43.150 align:middle line:84%
+so if we're looking at a field
+that is complete and contains
+
+00:53:43.150 --> 00:53:46.170 align:middle line:84%
+a rational, then we know
+that square root of 2
+
+00:53:46.170 --> 00:53:47.970 align:middle line:90%
+is in that field.
+
+00:53:47.970 --> 00:54:08.250 align:middle line:84%
+So we just proven that if f
+is a complete field containing
+
+00:54:08.250 --> 00:54:23.630 align:middle line:84%
+the rationals, then square
+root of 2 is in that field.
+
+00:54:23.630 --> 00:54:40.030 align:middle line:84%
+But we have also shown
+that square root of 2
+
+00:54:40.030 --> 00:54:42.290 align:middle line:90%
+is not a rational number.
+
+00:54:42.290 --> 00:54:46.930 align:middle line:90%
+
+
+00:54:46.930 --> 00:54:49.510 align:middle line:84%
+So the rational in
+itself is not complete.
+
+00:54:49.510 --> 00:54:54.710 align:middle line:90%
+
+
+00:54:54.710 --> 00:54:56.420 align:middle line:90%
+OK.
+
+00:54:56.420 --> 00:55:00.150 align:middle line:84%
+Now the next thing
+I want to do is
+
+00:55:00.150 --> 00:55:03.670 align:middle line:84%
+prove what's called the
+Archimedean property,
+
+00:55:03.670 --> 00:55:05.990 align:middle line:90%
+the Archimedean property.
+
+00:55:05.990 --> 00:55:07.750 align:middle line:84%
+And so this is
+actually something
+
+00:55:07.750 --> 00:55:15.280 align:middle line:84%
+that was sort of used here, sort
+of used it a little bit already.
+
+00:55:15.280 --> 00:55:20.100 align:middle line:84%
+But let me just
+prove it rigorously.
+
+00:55:20.100 --> 00:55:28.740 align:middle line:90%
+
+
+00:55:28.740 --> 00:55:30.920 align:middle line:90%
+So the Archimedean property--
+
+00:55:30.920 --> 00:55:41.140 align:middle line:90%
+
+
+00:55:41.140 --> 00:55:55.260 align:middle line:84%
+so this is the following, that
+for all real numbers, every time
+
+00:55:55.260 --> 00:56:07.050 align:middle line:84%
+you take a real number, then
+there exists an integer--
+
+00:56:07.050 --> 00:56:11.450 align:middle line:90%
+
+
+00:56:11.450 --> 00:56:25.370 align:middle line:84%
+actually, even a natural
+number n such that n here
+
+00:56:25.370 --> 00:56:28.130 align:middle line:90%
+is bigger than x.
+
+00:56:28.130 --> 00:56:28.630 align:middle line:90%
+OK.
+
+00:56:28.630 --> 00:56:31.490 align:middle line:84%
+This seems like a
+kind of trivial fact.
+
+00:56:31.490 --> 00:56:35.917 align:middle line:84%
+But let me try to actually
+prove it in a rigorous way.
+
+00:56:35.917 --> 00:56:38.000 align:middle line:84%
+So this is what's called
+the Archimedean property.
+
+00:56:38.000 --> 00:56:43.610 align:middle line:90%
+
+
+00:56:43.610 --> 00:56:48.590 align:middle line:84%
+And so, again, we prove
+this by contradiction.
+
+00:56:48.590 --> 00:56:56.770 align:middle line:90%
+
+
+00:56:56.770 --> 00:57:09.960 align:middle line:84%
+So suppose not-- so if there
+existed an x so that you did not
+
+00:57:09.960 --> 00:57:17.800 align:middle line:84%
+have this, well then--
+so suppose not, then--
+
+00:57:17.800 --> 00:57:19.560 align:middle line:84%
+so the negation
+of that statement
+
+00:57:19.560 --> 00:57:29.120 align:middle line:84%
+is that then there
+exists an x such that
+
+00:57:29.120 --> 00:57:36.520 align:middle line:84%
+for all natural
+numbers, for all,
+
+00:57:36.520 --> 00:57:40.520 align:middle line:84%
+you have that n here is
+less than or equal to x.
+
+00:57:40.520 --> 00:57:43.880 align:middle line:90%
+
+
+00:57:43.880 --> 00:57:45.720 align:middle line:90%
+Yeah, it's actually equal to x.
+
+00:57:45.720 --> 00:57:50.320 align:middle line:84%
+Because this is the
+negation of that.
+
+00:57:50.320 --> 00:58:02.350 align:middle line:84%
+But this means that x
+here is an upper bound.
+
+00:58:02.350 --> 00:58:09.030 align:middle line:90%
+
+
+00:58:09.030 --> 00:58:16.780 align:middle line:90%
+And so then you could take--
+
+00:58:16.780 --> 00:58:21.390 align:middle line:84%
+so you could replace by the
+least upper bound property.
+
+00:58:21.390 --> 00:58:23.900 align:middle line:90%
+
+
+00:58:23.900 --> 00:58:25.200 align:middle line:90%
+So it's upper bound.
+
+00:58:25.200 --> 00:58:34.340 align:middle line:84%
+So in particular,
+the natural number
+
+00:58:34.340 --> 00:58:45.340 align:middle line:84%
+is a bounded subset
+of the reals.
+
+00:58:45.340 --> 00:58:50.340 align:middle line:84%
+And then you could
+take-- so then we let,
+
+00:58:50.340 --> 00:59:10.030 align:middle line:84%
+let's say, y be the least upper
+bound of the natural numbers.
+
+00:59:10.030 --> 00:59:12.690 align:middle line:84%
+If the natural numbers
+was really bounded,
+
+00:59:12.690 --> 00:59:14.630 align:middle line:84%
+because it's a
+subset of the reals,
+
+00:59:14.630 --> 00:59:17.510 align:middle line:84%
+we could now take the
+least upper bound.
+
+00:59:17.510 --> 00:59:18.010 align:middle line:90%
+OK.
+
+00:59:18.010 --> 00:59:21.370 align:middle line:84%
+So now what we have
+is that we have
+
+00:59:21.370 --> 00:59:26.630 align:middle line:90%
+that for any natural number--
+
+00:59:26.630 --> 00:59:38.070 align:middle line:84%
+so for all, we have that n here
+is less than or equal to y.
+
+00:59:38.070 --> 00:59:40.410 align:middle line:84%
+But whenever you take
+a natural number,
+
+00:59:40.410 --> 00:59:44.250 align:middle line:84%
+then add 1 to that
+natural number--
+
+00:59:44.250 --> 00:59:48.110 align:middle line:90%
+so we would also have that--
+
+00:59:48.110 --> 00:59:52.730 align:middle line:90%
+
+
+00:59:52.730 --> 00:59:57.770 align:middle line:84%
+so y is not just an upper
+bound for n, but it actually--
+
+00:59:57.770 --> 01:00:00.950 align:middle line:84%
+because n plus 1 is also
+not a natural number.
+
+01:00:00.950 --> 01:00:05.680 align:middle line:84%
+So y here would have to be
+bigger or equal to n plus 1
+
+01:00:05.680 --> 01:00:07.880 align:middle line:90%
+also.
+
+01:00:07.880 --> 01:00:10.120 align:middle line:90%
+And this now holds for all n.
+
+01:00:10.120 --> 01:00:14.420 align:middle line:84%
+So this means that-- just moving
+the 1 over on the other side--
+
+01:00:14.420 --> 01:00:22.240 align:middle line:84%
+so hence, n here is
+less than y minus 1.
+
+01:00:22.240 --> 01:00:34.080 align:middle line:84%
+But this here say that-- so
+this means that y minus 1
+
+01:00:34.080 --> 01:00:49.980 align:middle line:84%
+is also an upper bound and
+that this is a contradiction.
+
+01:00:49.980 --> 01:00:55.910 align:middle line:84%
+So this contradicts that y
+was the least upper bound.
+
+01:00:55.910 --> 01:01:04.500 align:middle line:90%
+
+
+01:01:04.500 --> 01:01:06.150 align:middle line:84%
+And that's the
+Archimedean property.
+
+01:01:06.150 --> 01:01:08.700 align:middle line:90%
+
+
+01:01:08.700 --> 01:01:10.364 align:middle line:90%
+OK.
+
+01:01:10.364 --> 01:01:17.100 align:middle line:84%
+Now I want to give one
+application of this.
+
+01:01:17.100 --> 01:01:18.840 align:middle line:90%
+And so this is the following.
+
+01:01:18.840 --> 01:01:41.700 align:middle line:90%
+
+
+01:01:41.700 --> 01:01:47.660 align:middle line:84%
+So I now want to prove
+the following corollary
+
+01:01:47.660 --> 01:01:48.790 align:middle line:90%
+of the Archimedean problem.
+
+01:01:48.790 --> 01:01:53.540 align:middle line:90%
+
+
+01:01:53.540 --> 01:01:56.620 align:middle line:84%
+And the corollary
+is that whenever
+
+01:01:56.620 --> 01:02:01.730 align:middle line:84%
+you have two real
+numbers, x and y--
+
+01:02:01.730 --> 01:02:04.090 align:middle line:90%
+so these are real numbers.
+
+01:02:04.090 --> 01:02:07.010 align:middle line:90%
+And x here is less than y.
+
+01:02:07.010 --> 01:02:26.130 align:middle line:84%
+Then the claim is that then
+there exists a rational number
+
+01:02:26.130 --> 01:02:34.130 align:middle line:84%
+m/n with the property
+that is between these two
+
+01:02:34.130 --> 01:02:42.770 align:middle line:84%
+so that x is less than
+m/n and less than 1.
+
+01:02:42.770 --> 01:02:45.900 align:middle line:84%
+that's what I want to prove
+using the Archimedean property.
+
+01:02:45.900 --> 01:02:49.690 align:middle line:90%
+
+
+01:02:49.690 --> 01:03:04.480 align:middle line:84%
+And so to prove
+that, I look at beta.
+
+01:03:04.480 --> 01:03:07.980 align:middle line:90%
+Say beta is y minus x.
+
+01:03:07.980 --> 01:03:11.240 align:middle line:90%
+
+
+01:03:11.240 --> 01:03:13.400 align:middle line:90%
+And I'm looking at--
+
+01:03:13.400 --> 01:03:14.720 align:middle line:90%
+so y minus x.
+
+01:03:14.720 --> 01:03:19.640 align:middle line:84%
+Because y is bigger than
+x, this here is positive.
+
+01:03:19.640 --> 01:03:23.120 align:middle line:84%
+And I can now look
+at 1 over beta.
+
+01:03:23.120 --> 01:03:28.600 align:middle line:84%
+So 1 over beta is some
+positive real number.
+
+01:03:28.600 --> 01:03:31.940 align:middle line:84%
+And now the Archimedean
+property say that--
+
+01:03:31.940 --> 01:03:50.520 align:middle line:84%
+so by the Archimedean
+property, there
+
+01:03:50.520 --> 01:04:05.350 align:middle line:84%
+exists a n, a natural
+number such that n is
+
+01:04:05.350 --> 01:04:08.290 align:middle line:90%
+bigger than 1 over beta.
+
+01:04:08.290 --> 01:04:10.990 align:middle line:90%
+
+
+01:04:10.990 --> 01:04:12.710 align:middle line:90%
+That's the Archimedean property.
+
+01:04:12.710 --> 01:04:15.390 align:middle line:90%
+It gives us this n.
+
+01:04:15.390 --> 01:04:18.510 align:middle line:84%
+But now, of course,
+if that's the case,
+
+01:04:18.510 --> 01:04:23.110 align:middle line:84%
+this implies you can just
+take 1 over it on both sides,
+
+01:04:23.110 --> 01:04:25.470 align:middle line:84%
+and that reverses
+the inequality.
+
+01:04:25.470 --> 01:04:31.810 align:middle line:84%
+This implies that 1/n
+is smaller than beta.
+
+01:04:31.810 --> 01:04:32.730 align:middle line:90%
+So we get that.
+
+01:04:32.730 --> 01:04:35.950 align:middle line:90%
+
+
+01:04:35.950 --> 01:04:41.300 align:middle line:90%
+And so now we look at--
+
+01:04:41.300 --> 01:04:49.070 align:middle line:90%
+
+
+01:04:49.070 --> 01:04:54.430 align:middle line:84%
+so now like define the
+step size to some extent.
+
+01:04:54.430 --> 01:05:00.570 align:middle line:84%
+So we have here x,
+and we have here y.
+
+01:05:00.570 --> 01:05:05.790 align:middle line:84%
+And beta is really
+this distance here.
+
+01:05:05.790 --> 01:05:10.970 align:middle line:84%
+This here is beta, the
+distance between the two.
+
+01:05:10.970 --> 01:05:13.970 align:middle line:90%
+And n here is--
+
+01:05:13.970 --> 01:05:17.970 align:middle line:84%
+we've now seen that there's an
+n so that when you're looking
+
+01:05:17.970 --> 01:05:21.570 align:middle line:90%
+at 1/n, then--
+
+01:05:21.570 --> 01:05:24.950 align:middle line:84%
+so 1/n here is
+smaller than beta.
+
+01:05:24.950 --> 01:05:29.930 align:middle line:84%
+It's something positive
+and smaller than beta.
+
+01:05:29.930 --> 01:05:33.590 align:middle line:90%
+So now you're looking at the m.
+
+01:05:33.590 --> 01:05:36.370 align:middle line:90%
+
+
+01:05:36.370 --> 01:05:52.200 align:middle line:84%
+So now look at the
+integers so that m minus 1
+
+01:05:52.200 --> 01:05:59.680 align:middle line:90%
+is less than x times m.
+
+01:05:59.680 --> 01:06:03.660 align:middle line:84%
+So suppose you're looking
+at this thing here.
+
+01:06:03.660 --> 01:06:07.620 align:middle line:84%
+If you take x times
+n, this is an integer.
+
+01:06:07.620 --> 01:06:11.760 align:middle line:84%
+So there's definition
+m with this property.
+
+01:06:11.760 --> 01:06:14.220 align:middle line:90%
+And you can find the biggest--
+
+01:06:14.220 --> 01:06:19.160 align:middle line:90%
+so look at m with this property.
+
+01:06:19.160 --> 01:06:31.240 align:middle line:84%
+And let's denote n and choose
+the largest one, the largest
+
+01:06:31.240 --> 01:06:32.060 align:middle line:90%
+such m.
+
+01:06:32.060 --> 01:06:38.960 align:middle line:90%
+
+
+01:06:38.960 --> 01:06:45.980 align:middle line:84%
+So if you choose the largest
+such m, then you see that--
+
+01:06:45.980 --> 01:06:48.630 align:middle line:84%
+so this inequality
+here, this will just
+
+01:06:48.630 --> 01:06:58.690 align:middle line:84%
+tell you that m minus 1 over
+n, that this is smaller than x.
+
+01:06:58.690 --> 01:07:02.830 align:middle line:90%
+
+
+01:07:02.830 --> 01:07:05.950 align:middle line:84%
+But you would also
+have that because it
+
+01:07:05.950 --> 01:07:07.670 align:middle line:90%
+was the largest such m--
+
+01:07:07.670 --> 01:07:11.150 align:middle line:90%
+
+
+01:07:11.150 --> 01:07:26.510 align:middle line:84%
+since m was the
+largest such m, then
+
+01:07:26.510 --> 01:07:32.590 align:middle line:84%
+you would have that if you had
+m itself in the denominator,
+
+01:07:32.590 --> 01:07:35.210 align:middle line:84%
+then it wouldn't
+be smaller than x.
+
+01:07:35.210 --> 01:07:37.830 align:middle line:84%
+It would actually be
+larger or equal to x.
+
+01:07:37.830 --> 01:07:40.710 align:middle line:90%
+
+
+01:07:40.710 --> 01:07:44.790 align:middle line:84%
+And I just want to now
+prove that this-- so this
+
+01:07:44.790 --> 01:07:46.590 align:middle line:90%
+here is bigger than x.
+
+01:07:46.590 --> 01:07:48.970 align:middle line:84%
+That's part of what
+I needed to prove.
+
+01:07:48.970 --> 01:07:51.870 align:middle line:84%
+I also wanted to show
+that it's smaller than y.
+
+01:07:51.870 --> 01:07:58.170 align:middle line:90%
+
+
+01:07:58.170 --> 01:08:01.530 align:middle line:90%
+But if you now add--
+
+01:08:01.530 --> 01:08:02.910 align:middle line:90%
+but now the step size.
+
+01:08:02.910 --> 01:08:05.330 align:middle line:90%
+So when you have here--
+
+01:08:05.330 --> 01:08:07.330 align:middle line:90%
+here, you have x.
+
+01:08:07.330 --> 01:08:08.386 align:middle line:90%
+Here, you have y.
+
+01:08:08.386 --> 01:08:11.130 align:middle line:90%
+
+
+01:08:11.130 --> 01:08:14.390 align:middle line:84%
+1/n was smaller
+than this distance.
+
+01:08:14.390 --> 01:08:16.649 align:middle line:84%
+So if you are at
+some point here--
+
+01:08:16.649 --> 01:08:21.330 align:middle line:84%
+this is where you are when
+you are at n minus 1/n.
+
+01:08:21.330 --> 01:08:24.270 align:middle line:84%
+Then you can't go
+further to the right.
+
+01:08:24.270 --> 01:08:28.750 align:middle line:90%
+You go 1/n to the right.
+
+01:08:28.750 --> 01:08:32.729 align:middle line:84%
+But that can't take
+you all the way past y.
+
+01:08:32.729 --> 01:08:37.609 align:middle line:84%
+So that's why, if you're
+looking at this number here,
+
+01:08:37.609 --> 01:08:42.450 align:middle line:90%
+this m must be smaller than y.
+
+01:08:42.450 --> 01:08:45.800 align:middle line:84%
+And if I had just chosen
+m so that this here
+
+01:08:45.800 --> 01:08:48.000 align:middle line:84%
+was smaller or equal
+to that, then I
+
+01:08:48.000 --> 01:08:50.800 align:middle line:90%
+would get this [INAUDIBLE].
+
+01:08:50.800 --> 01:08:51.652 align:middle line:90%
+OK.
+
+01:08:51.652 --> 01:08:56.899 align:middle line:84%
+So that's a corollary of
+the Archimedean property.
+
+01:08:56.899 --> 01:08:59.880 align:middle line:84%
+I think there would be
+something along these lines
+
+01:08:59.880 --> 01:09:01.200 align:middle line:90%
+on the homework.
+
+01:09:01.200 --> 01:09:05.080 align:middle line:84%
+And again, I'm just waiting
+for the office hour.
+
+01:09:05.080 --> 01:09:07.080 align:middle line:84%
+I know that the office
+hour, there will at least
+
+01:09:07.080 --> 01:09:11.000 align:middle line:90%
+be four office hours next week.
+
+01:09:11.000 --> 01:09:15.399 align:middle line:84%
+On Mondays and Wednesday, there
+would be office hours from 5:00
+
+01:09:15.399 --> 01:09:20.319 align:middle line:90%
+to 6:00 on Monday and Wednesday.
+
+01:09:20.319 --> 01:09:25.340 align:middle line:84%
+And the other days, it
+would be 1:15 to 2:15.
+
+01:09:25.340 --> 01:09:30.560 align:middle line:84%
+But you can check-- the time
+is actually already posted.
+
+01:09:30.560 --> 01:09:33.000 align:middle line:84%
+The room number, I hope
+to have that today.
+
+01:09:33.000 --> 01:09:35.680 align:middle line:84%
+Once I have that,
+then I will also
+
+01:09:35.680 --> 01:09:39.319 align:middle line:84%
+assign the homework, probably
+today, or maybe more likely,
+
+01:09:39.319 --> 01:09:40.859 align:middle line:90%
+tomorrow, the homework.
+
+01:09:40.859 --> 01:09:46.550 align:middle line:84%
+But it won't be due next
+week, just the following week.
+
+01:09:46.550 --> 01:09:47.729 align:middle line:90%
+Any questions?
+
+01:09:47.729 --> 01:09:50.310 align:middle line:90%
+
+
+01:09:50.310 --> 01:09:52.109 align:middle line:84%
+And, of course, I
+very much encourage
+
+01:09:52.109 --> 01:09:56.070 align:middle line:90%
+you to go to the office hours.
+
+01:09:56.070 --> 01:09:59.490 align:middle line:90%
+And yeah.
+
+01:09:59.490 --> 01:09:59.990 align:middle line:90%
+Yeah?
+
+01:09:59.990 --> 01:10:01.350 align:middle line:84%
+STUDENT: Are you
+upper bounding--
+
+01:10:01.350 --> 01:10:01.890 align:middle line:90%
+PROFESSOR: Sorry.
+
+01:10:01.890 --> 01:10:02.682 align:middle line:90%
+STUDENT: Oh, sorry.
+
+01:10:02.682 --> 01:10:03.310 align:middle line:90%
+PROFESSOR: Oh.
+
+01:10:03.310 --> 01:10:06.950 align:middle line:84%
+STUDENT: So we defined
+plus in the solution.
+
+01:10:06.950 --> 01:10:11.110 align:middle line:84%
+So how do we define
+minus 1, for example?
+
+01:10:11.110 --> 01:10:12.990 align:middle line:84%
+PROFESSOR: So remember
+that the minus 1
+
+01:10:12.990 --> 01:10:18.750 align:middle line:84%
+was this element that
+you had when you had--
+
+01:10:18.750 --> 01:10:22.310 align:middle line:84%
+remember that a field had
+the two operation, plus
+
+01:10:22.310 --> 01:10:23.650 align:middle line:90%
+and multiplication.
+
+01:10:23.650 --> 01:10:27.610 align:middle line:84%
+And for each of these
+that had 5 property,
+
+01:10:27.610 --> 01:10:32.670 align:middle line:84%
+they were almost
+the same property.
+
+01:10:32.670 --> 01:10:35.390 align:middle line:84%
+There was one exception,
+that 0 didn't have
+
+01:10:35.390 --> 01:10:37.830 align:middle line:90%
+a inverse for multiplication.
+
+01:10:37.830 --> 01:10:40.510 align:middle line:90%
+But minus 1 is the--
+
+01:10:40.510 --> 01:10:43.570 align:middle line:84%
+so you have 1, but 1
+is the neutral element
+
+01:10:43.570 --> 01:10:45.410 align:middle line:90%
+for multiplication.
+
+01:10:45.410 --> 01:10:45.910 align:middle line:90%
+Why?
+
+01:10:45.910 --> 01:10:48.290 align:middle line:84%
+That was how 1 was
+defined, right?
+
+01:10:48.290 --> 01:10:52.290 align:middle line:84%
+And we proved that
+there was a unique 0.
+
+01:10:52.290 --> 01:10:56.450 align:middle line:84%
+That same argument would
+prove that there's a unique 1.
+
+01:10:56.450 --> 01:10:58.890 align:middle line:90%
+So there's just one 1.
+
+01:10:58.890 --> 01:11:01.410 align:middle line:90%
+So it's a well-defined notion.
+
+01:11:01.410 --> 01:11:04.730 align:middle line:84%
+And then you can look at
+the inverse element of that
+
+01:11:04.730 --> 01:11:06.390 align:middle line:90%
+with respect to addition.
+
+01:11:06.390 --> 01:11:09.710 align:middle line:90%
+That's minus 1.
+
+01:11:09.710 --> 01:11:10.210 align:middle line:90%
+Yeah.
+
+01:11:10.210 --> 01:11:12.568 align:middle line:90%
+
+
+01:11:12.568 --> 01:11:14.610 align:middle line:84%
+STUDENT: Why did we define
+an upper bound and not
+
+01:11:14.610 --> 01:11:15.570 align:middle line:90%
+a lower bound?
+
+01:11:15.570 --> 01:11:17.670 align:middle line:84%
+PROFESSOR: Yeah, and
+that's a good question.
+
+01:11:17.670 --> 01:11:20.510 align:middle line:84%
+And I will come back
+to that next time.
+
+01:11:20.510 --> 01:11:25.210 align:middle line:84%
+And it would seem more
+logical to define both upper
+
+01:11:25.210 --> 01:11:26.390 align:middle line:90%
+and lower bound.
+
+01:11:26.390 --> 01:11:30.290 align:middle line:84%
+But you can look
+at the complement.
+
+01:11:30.290 --> 01:11:33.130 align:middle line:84%
+And so if you take
+a set and you're
+
+01:11:33.130 --> 01:11:36.330 align:middle line:84%
+looking at the complement,
+then the upper bound for that
+
+01:11:36.330 --> 01:11:38.080 align:middle line:90%
+is the same as the lower bound.
+
+01:11:38.080 --> 01:11:40.420 align:middle line:90%
+So that's a kind of sneaky way--
+
+01:11:40.420 --> 01:11:44.270 align:middle line:90%
+that's the reason why we did it.
+
+01:11:44.270 --> 01:11:46.500 align:middle line:84%
+I might have done it
+the other way around,
+
+01:11:46.500 --> 01:11:49.180 align:middle line:84%
+but then it was a
+little bit overkill.
+
+01:11:49.180 --> 01:11:52.780 align:middle line:84%
+But I agree, it seemed more
+logical to define both things.
+
+01:11:52.780 --> 01:11:54.700 align:middle line:84%
+But it actually is
+contained in this.
+
+01:11:54.700 --> 01:11:57.280 align:middle line:90%
+
+
+01:11:57.280 --> 01:11:59.640 align:middle line:90%
+Any other questions?
+
+01:11:59.640 --> 01:12:00.180 align:middle line:90%
+Yeah?
+
+01:12:00.180 --> 01:12:02.555 align:middle line:84%
+STUDENT: I was a little confused
+because I was thinking--
+
+01:12:02.555 --> 01:12:05.040 align:middle line:84%
+I wonder if you could please
+speak about the completeness
+
+01:12:05.040 --> 01:12:05.940 align:middle line:90%
+of [INAUDIBLE]?
+
+01:12:05.940 --> 01:12:16.520 align:middle line:84%
+Like you make the
+statement [INAUDIBLE]
+
+01:12:16.520 --> 01:12:21.000 align:middle line:84%
+say a bounded subset
+of rational numbers
+
+01:12:21.000 --> 01:12:22.610 align:middle line:90%
+would not have this upper bound.
+
+01:12:22.610 --> 01:12:25.400 align:middle line:90%
+
+
+01:12:25.400 --> 01:12:30.840 align:middle line:84%
+PROFESSOR: So again, we
+saw that square root of 2
+
+01:12:30.840 --> 01:12:32.560 align:middle line:90%
+is not a rational number.
+
+01:12:32.560 --> 01:12:36.910 align:middle line:84%
+And if we're looking at
+all rational numbers,
+
+01:12:36.910 --> 01:12:40.190 align:middle line:84%
+all rational numbers
+so that the square is
+
+01:12:40.190 --> 01:12:45.950 align:middle line:84%
+less than or equal
+to 2, that set,
+
+01:12:45.950 --> 01:12:48.530 align:middle line:84%
+it has an upper bound
+in the rational number,
+
+01:12:48.530 --> 01:12:51.710 align:middle line:84%
+but it doesn't have
+a least upper bound.
+
+01:12:51.710 --> 01:12:53.990 align:middle line:84%
+And that's because
+we first prove
+
+01:12:53.990 --> 01:12:59.310 align:middle line:84%
+that there wasn't a rational
+number so that it multiplied
+
+01:12:59.310 --> 01:13:01.350 align:middle line:90%
+itself was equal to 2.
+
+01:13:01.350 --> 01:13:02.690 align:middle line:90%
+We proved that--
+
+01:13:02.690 --> 01:13:05.790 align:middle line:84%
+STUDENT: But does the least
+[INAUDIBLE] also have to belong
+
+01:13:05.790 --> 01:13:06.410 align:middle line:90%
+to the--
+
+01:13:06.410 --> 01:13:07.130 align:middle line:90%
+PROFESSOR: Yeah, that's right.
+
+01:13:07.130 --> 01:13:07.530 align:middle line:90%
+That's right.
+
+01:13:07.530 --> 01:13:07.830 align:middle line:90%
+That's right.
+
+01:13:07.830 --> 01:13:08.030 align:middle line:90%
+STUDENT: --[INAUDIBLE]?
+
+01:13:08.030 --> 01:13:08.530 align:middle line:90%
+PROFESSOR: That's right.
+
+01:13:08.530 --> 01:13:08.970 align:middle line:90%
+That's right.
+
+01:13:08.970 --> 01:13:09.512 align:middle line:90%
+That's right.
+
+01:13:09.512 --> 01:13:10.210 align:middle line:90%
+That's right.
+
+01:13:10.210 --> 01:13:12.530 align:middle line:90%
+So it's this.
+
+01:13:12.530 --> 01:13:16.350 align:middle line:84%
+A field is complete
+means that whenever
+
+01:13:16.350 --> 01:13:20.390 align:middle line:84%
+you take a subset of that
+field that is bounded,
+
+01:13:20.390 --> 01:13:24.110 align:middle line:84%
+then that subset has to
+have a least upper bound.
+
+01:13:24.110 --> 01:13:27.430 align:middle line:84%
+But any bound, including
+the least upper bound,
+
+01:13:27.430 --> 01:13:28.980 align:middle line:84%
+that always have to
+be in the fields.
+
+01:13:28.980 --> 01:13:31.590 align:middle line:90%
+
+
+01:13:31.590 --> 01:13:32.210 align:middle line:90%
+OK.
+
+01:13:32.210 --> 01:13:33.170 align:middle line:90%
+Any other questions?
+
+01:13:33.170 --> 01:13:34.180 align:middle line:90%
+Yeah?
+
+01:13:34.180 --> 01:13:36.240 align:middle line:84%
+STUDENT: Well, when
+we tried to define it,
+
+01:13:36.240 --> 01:13:42.300 align:middle line:84%
+and [INAUDIBLE] did we also
+prove the result 2 minus x
+
+01:13:42.300 --> 01:13:46.900 align:middle line:84%
+squared over 1 plus 2x is
+smaller than 1 because you have
+
+01:13:46.900 --> 01:13:51.400 align:middle line:84%
+assumed for [INAUDIBLE] smaller
+than 1 so that we can do the--
+
+01:13:51.400 --> 01:13:56.980 align:middle line:90%
+
+
+01:13:56.980 --> 01:13:59.452 align:middle line:90%
+PROFESSOR: So you're saying--
+
+01:13:59.452 --> 01:14:01.160 align:middle line:84%
+so I just want to make
+sure I understand.
+
+01:14:01.160 --> 01:14:05.900 align:middle line:84%
+So in the step two,
+we added something.
+
+01:14:05.900 --> 01:14:09.100 align:middle line:84%
+And we wanted to prove that
+you could add something,
+
+01:14:09.100 --> 01:14:11.240 align:middle line:90%
+and this is still less than 2.
+
+01:14:11.240 --> 01:14:13.924 align:middle line:90%
+
+
+01:14:13.924 --> 01:14:20.660 align:middle line:84%
+And so I was looking
+for h between 0 and 1.
+
+01:14:20.660 --> 01:14:24.620 align:middle line:84%
+And so then I got some
+equation somewhere
+
+01:14:24.620 --> 01:14:26.460 align:middle line:90%
+that is probably erased now.
+
+01:14:26.460 --> 01:14:28.620 align:middle line:90%
+But it just require that--
+
+01:14:28.620 --> 01:14:31.260 align:middle line:90%
+
+
+01:14:31.260 --> 01:14:34.873 align:middle line:84%
+h had to be positive, but
+it was less than something.
+
+01:14:34.873 --> 01:14:35.790 align:middle line:90%
+And that was positive.
+
+01:14:35.790 --> 01:14:37.332 align:middle line:84%
+STUDENT: Yeah, but
+that's something--
+
+01:14:37.332 --> 01:14:40.360 align:middle line:84%
+should the left
+something smaller than 1?
+
+01:14:40.360 --> 01:14:41.660 align:middle line:90%
+PROFESSOR: Right.
+
+01:14:41.660 --> 01:14:42.160 align:middle line:90%
+OK.
+
+01:14:42.160 --> 01:14:44.820 align:middle line:84%
+So I don't remember
+what I got here.
+
+01:14:44.820 --> 01:14:48.100 align:middle line:90%
+So yeah, you're right.
+
+01:14:48.100 --> 01:14:50.020 align:middle line:90%
+I guess I can reconstruct it.
+
+01:14:50.020 --> 01:14:51.200 align:middle line:90%
+STUDENT: Over 1 plus 2x.
+
+01:14:51.200 --> 01:14:51.867 align:middle line:90%
+PROFESSOR: Yeah.
+
+01:14:51.867 --> 01:14:54.960 align:middle line:90%
+
+
+01:14:54.960 --> 01:14:59.880 align:middle line:90%
+So what you are saying is that--
+
+01:14:59.880 --> 01:15:02.080 align:middle line:84%
+actually, so this
+thing here is positive.
+
+01:15:02.080 --> 01:15:05.920 align:middle line:84%
+And so you want to choose
+h so that it's smaller
+
+01:15:05.920 --> 01:15:09.400 align:middle line:90%
+than this but also this here.
+
+01:15:09.400 --> 01:15:11.000 align:middle line:90%
+So you don't.
+
+01:15:11.000 --> 01:15:17.640 align:middle line:84%
+But if this is
+500, well, I'm not
+
+01:15:17.640 --> 01:15:20.900 align:middle line:84%
+going to choose 500 because it
+was supposed to be less than 1.
+
+01:15:20.900 --> 01:15:23.640 align:middle line:84%
+But I just choose it so
+that it's less than 1
+
+01:15:23.640 --> 01:15:25.780 align:middle line:84%
+and also less than
+this positive number.
+
+01:15:25.780 --> 01:15:27.290 align:middle line:90%
+Yeah.
+
+01:15:27.290 --> 01:15:31.000 align:middle line:90%

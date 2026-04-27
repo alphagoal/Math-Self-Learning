@@ -1,0 +1,4094 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.924 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.924 --> 00:00:03.367 align:middle line:90%
+[RUSTLING]
+
+00:00:03.367 --> 00:00:04.810 align:middle line:90%
+[CLICKING]
+
+00:00:04.810 --> 00:00:11.648 align:middle line:90%
+
+
+00:00:11.648 --> 00:00:12.440 align:middle line:90%
+TOBIAS COLDING: OK.
+
+00:00:12.440 --> 00:00:17.060 align:middle line:84%
+So first, let me look
+at a curve and plane.
+
+00:00:17.060 --> 00:00:20.980 align:middle line:84%
+Talked a little bit about this
+last time at the very end.
+
+00:00:20.980 --> 00:00:27.800 align:middle line:90%
+
+
+00:00:27.800 --> 00:00:29.720 align:middle line:90%
+Oops.
+
+00:00:29.720 --> 00:00:30.220 align:middle line:90%
+OK.
+
+00:00:30.220 --> 00:00:34.720 align:middle line:84%
+So let's first talk about
+curves in the plane.
+
+00:00:34.720 --> 00:00:42.880 align:middle line:84%
+So we have functions, f
+and g, on some interval,
+
+00:00:42.880 --> 00:00:51.480 align:middle line:84%
+say, from a to b into R.
+And I'm assuming that f
+
+00:00:51.480 --> 00:01:08.410 align:middle line:84%
+and g are differentiable
+and that the derivative
+
+00:01:08.410 --> 00:01:09.470 align:middle line:90%
+are continuous.
+
+00:01:09.470 --> 00:01:16.055 align:middle line:90%
+
+
+00:01:16.055 --> 00:01:18.530 align:middle line:90%
+And then I'm thinking about--
+
+00:01:18.530 --> 00:01:20.430 align:middle line:84%
+so I'm thinking
+about the curves.
+
+00:01:20.430 --> 00:01:23.230 align:middle line:90%
+So gamma here of s is a curve.
+
+00:01:23.230 --> 00:01:26.675 align:middle line:90%
+
+
+00:01:26.675 --> 00:01:32.910 align:middle line:84%
+And it's given by the gamma
+of s is f of s comma g of s.
+
+00:01:32.910 --> 00:01:35.650 align:middle line:90%
+
+
+00:01:35.650 --> 00:01:38.870 align:middle line:84%
+And I want to look at
+the length of this curve.
+
+00:01:38.870 --> 00:01:42.790 align:middle line:84%
+So s here is running in
+the interval from a to b.
+
+00:01:42.790 --> 00:01:45.730 align:middle line:90%
+
+
+00:01:45.730 --> 00:01:47.490 align:middle line:90%
+And so the length--
+
+00:01:47.490 --> 00:01:50.310 align:middle line:84%
+and this is the
+definition of the length,
+
+00:01:50.310 --> 00:01:52.610 align:middle line:90%
+but then we will justify it.
+
+00:01:52.610 --> 00:01:59.740 align:middle line:90%
+So the length of gamma.
+
+00:01:59.740 --> 00:02:03.070 align:middle line:90%
+
+
+00:02:03.070 --> 00:02:08.470 align:middle line:84%
+So L is equal to the
+integral from a to b
+
+00:02:08.470 --> 00:02:18.430 align:middle line:84%
+of square root of f prime of
+s squared plus g prime of s
+
+00:02:18.430 --> 00:02:22.750 align:middle line:90%
+squared ds.
+
+00:02:22.750 --> 00:02:25.230 align:middle line:90%
+Now, why is this the case?
+
+00:02:25.230 --> 00:02:31.030 align:middle line:84%
+So why is this a
+sensible definition?
+
+00:02:31.030 --> 00:02:38.750 align:middle line:84%
+So suppose that this thing
+here is f of a comma g of a.
+
+00:02:38.750 --> 00:02:43.590 align:middle line:84%
+So this is the starting
+point of the curve.
+
+00:02:43.590 --> 00:02:46.290 align:middle line:84%
+And suppose that the
+curve looks like this.
+
+00:02:46.290 --> 00:02:48.660 align:middle line:90%
+So here is the endpoint.
+
+00:02:48.660 --> 00:02:51.550 align:middle line:90%
+
+
+00:02:51.550 --> 00:02:54.830 align:middle line:84%
+And now imagine that
+you take the interval
+
+00:02:54.830 --> 00:03:01.320 align:middle line:84%
+from a to b and you partition
+it into a lot of small--
+
+00:03:01.320 --> 00:03:05.840 align:middle line:84%
+so you have this partition
+of this interval.
+
+00:03:05.840 --> 00:03:09.140 align:middle line:90%
+And then you're looking at--
+
+00:03:09.140 --> 00:03:11.120 align:middle line:90%
+so we have the curve here.
+
+00:03:11.120 --> 00:03:14.520 align:middle line:90%
+This is maybe xi minus 1.
+
+00:03:14.520 --> 00:03:18.080 align:middle line:90%
+And here I have xi.
+
+00:03:18.080 --> 00:03:24.640 align:middle line:84%
+And under the map gamma,
+this little interval
+
+00:03:24.640 --> 00:03:29.410 align:middle line:84%
+here is mapped maybe into
+this piece of the curve.
+
+00:03:29.410 --> 00:03:33.990 align:middle line:90%
+
+
+00:03:33.990 --> 00:03:37.640 align:middle line:84%
+Now, this piece of
+the curve, I will then
+
+00:03:37.640 --> 00:03:42.240 align:middle line:84%
+approximate it by the line
+segment from here to here.
+
+00:03:42.240 --> 00:03:48.020 align:middle line:84%
+So if you do that, then it
+means that you are looking at--
+
+00:03:48.020 --> 00:03:51.660 align:middle line:84%
+so you have that
+you're looking--
+
+00:03:51.660 --> 00:03:53.360 align:middle line:90%
+so you have that--
+
+00:03:53.360 --> 00:03:57.020 align:middle line:90%
+so here you have xi minus 1.
+
+00:03:57.020 --> 00:03:59.380 align:middle line:90%
+Here you have xi.
+
+00:03:59.380 --> 00:04:06.500 align:middle line:84%
+And you're looking at the
+curve on this little interval.
+
+00:04:06.500 --> 00:04:11.700 align:middle line:90%
+And there the curve goes from--
+
+00:04:11.700 --> 00:04:17.519 align:middle line:90%
+so the initial point is this.
+
+00:04:17.519 --> 00:04:20.220 align:middle line:90%
+That's the image of that point.
+
+00:04:20.220 --> 00:04:25.620 align:middle line:84%
+And the image of
+this is gamma of xi.
+
+00:04:25.620 --> 00:04:27.060 align:middle line:90%
+Wow.
+
+00:04:27.060 --> 00:04:31.670 align:middle line:84%
+And so the line segment
+from here to here--
+
+00:04:31.670 --> 00:04:34.660 align:middle line:90%
+
+
+00:04:34.660 --> 00:04:37.300 align:middle line:84%
+so the length of
+this line segment
+
+00:04:37.300 --> 00:04:40.380 align:middle line:90%
+if you have this point here--
+
+00:04:40.380 --> 00:04:47.860 align:middle line:84%
+so this is gamma of xi minus
+1, and this is gamma of xi.
+
+00:04:47.860 --> 00:04:54.410 align:middle line:84%
+Then the length here
+is the vector here.
+
+00:04:54.410 --> 00:05:00.670 align:middle line:84%
+So gamma of xi minus
+gamma of xi minus 1.
+
+00:05:00.670 --> 00:05:02.630 align:middle line:90%
+The length of this.
+
+00:05:02.630 --> 00:05:06.490 align:middle line:90%
+But this thing here is--
+
+00:05:06.490 --> 00:05:10.110 align:middle line:90%
+this is the point.
+
+00:05:10.110 --> 00:05:10.630 align:middle line:90%
+Sorry.
+
+00:05:10.630 --> 00:05:11.130 align:middle line:90%
+Yeah.
+
+00:05:11.130 --> 00:05:16.070 align:middle line:90%
+
+
+00:05:16.070 --> 00:05:18.620 align:middle line:90%
+And the beginning point is this.
+
+00:05:18.620 --> 00:05:28.150 align:middle line:90%
+
+
+00:05:28.150 --> 00:05:31.910 align:middle line:84%
+So this here-- so it's
+the length of this.
+
+00:05:31.910 --> 00:05:35.030 align:middle line:84%
+But the length of
+this by Pythagoras
+
+00:05:35.030 --> 00:05:40.450 align:middle line:84%
+is the square of
+the coordinates.
+
+00:05:40.450 --> 00:05:46.670 align:middle line:90%
+
+
+00:05:46.670 --> 00:05:49.590 align:middle line:84%
+And then taking the
+square root of that.
+
+00:05:49.590 --> 00:05:54.140 align:middle line:84%
+So this is what the length
+of the line segment here is.
+
+00:05:54.140 --> 00:06:02.680 align:middle line:90%
+
+
+00:06:02.680 --> 00:06:05.880 align:middle line:84%
+But now, the mean
+value theorem tells you
+
+00:06:05.880 --> 00:06:10.200 align:middle line:84%
+that this thing
+here is essentially
+
+00:06:10.200 --> 00:06:15.060 align:middle line:84%
+the derivative at some
+point in between these two.
+
+00:06:15.060 --> 00:06:18.320 align:middle line:90%
+
+
+00:06:18.320 --> 00:06:22.280 align:middle line:84%
+It actually is equal
+to, if you will,
+
+00:06:22.280 --> 00:06:27.785 align:middle line:84%
+the derivative at some
+intermediate point
+
+00:06:27.785 --> 00:06:32.440 align:middle line:84%
+times the length of
+that little interval.
+
+00:06:32.440 --> 00:06:34.680 align:middle line:90%
+This is this difference here.
+
+00:06:34.680 --> 00:06:41.240 align:middle line:84%
+And likewise-- so
+this is x, like this,
+
+00:06:41.240 --> 00:06:42.920 align:middle line:90%
+some intermediate point.
+
+00:06:42.920 --> 00:06:48.080 align:middle line:84%
+And likewise for this, there's
+some intermediate point
+
+00:06:48.080 --> 00:06:51.860 align:middle line:90%
+times the length here.
+
+00:06:51.860 --> 00:06:54.500 align:middle line:84%
+So this means that this
+little line segment
+
+00:06:54.500 --> 00:07:06.020 align:middle line:84%
+here, the length of this little
+line segment is equal to--
+
+00:07:06.020 --> 00:07:09.700 align:middle line:84%
+and you see that when
+you take this thing here
+
+00:07:09.700 --> 00:07:13.600 align:middle line:84%
+and you square it, then
+you can factor out.
+
+00:07:13.600 --> 00:07:15.500 align:middle line:90%
+So let me just write it out.
+
+00:07:15.500 --> 00:07:17.000 align:middle line:90%
+So you take this thing here.
+
+00:07:17.000 --> 00:07:27.500 align:middle line:84%
+So it's f prime, like this,
+squared, delta xi squared plus,
+
+00:07:27.500 --> 00:07:37.260 align:middle line:84%
+and then g prime squared
+delta xi squared.
+
+00:07:37.260 --> 00:07:39.840 align:middle line:90%
+But now you can factor this out.
+
+00:07:39.840 --> 00:07:48.260 align:middle line:84%
+So you can write this as square
+root of delta xi squared,
+
+00:07:48.260 --> 00:07:55.510 align:middle line:84%
+and then f prime, like
+this, squared plus g
+
+00:07:55.510 --> 00:08:01.030 align:middle line:84%
+prime in this intermediate
+point squared.
+
+00:08:01.030 --> 00:08:03.470 align:middle line:84%
+And this here factors
+out both of them.
+
+00:08:03.470 --> 00:08:06.890 align:middle line:84%
+And so now you can just--
+when you take the square root,
+
+00:08:06.890 --> 00:08:08.750 align:middle line:90%
+it actually goes out as--
+
+00:08:08.750 --> 00:08:10.830 align:middle line:90%
+this is anyway positive.
+
+00:08:10.830 --> 00:08:12.720 align:middle line:90%
+So it becomes like this.
+
+00:08:12.720 --> 00:08:17.510 align:middle line:90%
+
+
+00:08:17.510 --> 00:08:27.430 align:middle line:84%
+And now the functions g prime
+and f prime are both continuous.
+
+00:08:27.430 --> 00:08:30.790 align:middle line:84%
+So this thing here
+is roughly what
+
+00:08:30.790 --> 00:08:33.390 align:middle line:90%
+it is at one of the endpoints.
+
+00:08:33.390 --> 00:08:39.770 align:middle line:84%
+So this here is roughly
+equal to, like this.
+
+00:08:39.770 --> 00:08:42.110 align:middle line:90%
+And then it's like one endpoint.
+
+00:08:42.110 --> 00:08:43.930 align:middle line:90%
+Or you can even take the--
+
+00:08:43.930 --> 00:08:44.430 align:middle line:90%
+yeah.
+
+00:08:44.430 --> 00:08:45.980 align:middle line:90%
+So it's like an endpoint.
+
+00:08:45.980 --> 00:08:52.650 align:middle line:90%
+
+
+00:08:52.650 --> 00:08:55.710 align:middle line:84%
+And so you see that this thing
+here now, when you sum up--
+
+00:08:55.710 --> 00:08:58.930 align:middle line:90%
+
+
+00:08:58.930 --> 00:09:02.690 align:middle line:84%
+when you sum up all of
+these over this partition
+
+00:09:02.690 --> 00:09:09.770 align:middle line:84%
+and you let the partition--
+the delta xi goes to 0,
+
+00:09:09.770 --> 00:09:13.890 align:middle line:84%
+then this here is going to
+converge to the integral
+
+00:09:13.890 --> 00:09:24.010 align:middle line:84%
+from a to b of the square root
+of f prime of s squared plus g
+
+00:09:24.010 --> 00:09:29.790 align:middle line:90%
+prime of s squared ds.
+
+00:09:29.790 --> 00:09:31.390 align:middle line:90%
+So that's why.
+
+00:09:31.390 --> 00:09:34.130 align:middle line:90%
+So you take this little curve.
+
+00:09:34.130 --> 00:09:35.310 align:middle line:90%
+It's parameterized.
+
+00:09:35.310 --> 00:09:37.930 align:middle line:84%
+So you take the curve
+parameterized by a to b.
+
+00:09:37.930 --> 00:09:42.770 align:middle line:90%
+You're looking at a partition.
+
+00:09:42.770 --> 00:09:47.420 align:middle line:84%
+And then, on each of
+these little intervals,
+
+00:09:47.420 --> 00:09:53.420 align:middle line:84%
+you approximate the curve
+by the line segment.
+
+00:09:53.420 --> 00:09:57.260 align:middle line:84%
+And then you let the-- as
+you let this refinement--
+
+00:09:57.260 --> 00:10:03.700 align:middle line:84%
+the length of these individual
+intervals goes to 0,
+
+00:10:03.700 --> 00:10:08.280 align:middle line:84%
+then actually this
+approximation will have a limit.
+
+00:10:08.280 --> 00:10:11.200 align:middle line:90%
+And that limit is this integral.
+
+00:10:11.200 --> 00:10:16.820 align:middle line:84%
+So that's why we define
+it to be the arc length.
+
+00:10:16.820 --> 00:10:18.020 align:middle line:90%
+OK.
+
+00:10:18.020 --> 00:10:19.820 align:middle line:90%
+So that's arc length.
+
+00:10:19.820 --> 00:10:22.330 align:middle line:84%
+And so let's look at
+an example of this.
+
+00:10:22.330 --> 00:10:29.140 align:middle line:90%
+
+
+00:10:29.140 --> 00:10:31.080 align:middle line:90%
+So we'll look at two examples.
+
+00:10:31.080 --> 00:10:36.500 align:middle line:84%
+Let me first look at the case
+where f of s is equal to s
+
+00:10:36.500 --> 00:10:44.940 align:middle line:84%
+and g of s is
+equal to s squared.
+
+00:10:44.940 --> 00:10:46.380 align:middle line:90%
+Then I have that.
+
+00:10:46.380 --> 00:10:48.440 align:middle line:90%
+So then the curve is--
+
+00:10:48.440 --> 00:10:54.160 align:middle line:84%
+so the curve gamma of
+s is s comma s squared.
+
+00:10:54.160 --> 00:11:03.800 align:middle line:84%
+And f prime of s is equal to 1
+and g prime of s is equal to 2s.
+
+00:11:03.800 --> 00:11:06.520 align:middle line:90%
+And so this means that--
+
+00:11:06.520 --> 00:11:09.040 align:middle line:84%
+and let's say that
+it's parameterized,
+
+00:11:09.040 --> 00:11:13.120 align:middle line:90%
+s here, from 0 to 1.
+
+00:11:13.120 --> 00:11:15.920 align:middle line:84%
+So then the length
+here of this curve
+
+00:11:15.920 --> 00:11:20.800 align:middle line:84%
+is the integral from 0 to
+1 and then square root.
+
+00:11:20.800 --> 00:11:23.780 align:middle line:84%
+And then you have to take
+this thing here squared.
+
+00:11:23.780 --> 00:11:31.040 align:middle line:84%
+So that's 1 plus this
+here, 2s squared, ds.
+
+00:11:31.040 --> 00:11:35.920 align:middle line:84%
+So this is-- and it's
+this integral here,
+
+00:11:35.920 --> 00:11:39.640 align:middle line:90%
+1 plus 4s squared.
+
+00:11:39.640 --> 00:11:41.880 align:middle line:90%
+So that's the arc length.
+
+00:11:41.880 --> 00:11:44.850 align:middle line:90%
+So it's given us this integral.
+
+00:11:44.850 --> 00:11:51.650 align:middle line:84%
+The second example I want
+to look at for arc length
+
+00:11:51.650 --> 00:11:56.670 align:middle line:90%
+is if you have the unit circle.
+
+00:11:56.670 --> 00:11:58.760 align:middle line:84%
+So suppose that you
+have the unit circle.
+
+00:11:58.760 --> 00:12:03.370 align:middle line:90%
+
+
+00:12:03.370 --> 00:12:06.010 align:middle line:90%
+So here you have one.
+
+00:12:06.010 --> 00:12:08.970 align:middle line:84%
+So this is supposed
+to be the unit circle.
+
+00:12:08.970 --> 00:12:15.510 align:middle line:84%
+So it's x squared plus
+y squared equal to 1.
+
+00:12:15.510 --> 00:12:18.020 align:middle line:84%
+It's a unit circle
+centered at the origin.
+
+00:12:18.020 --> 00:12:20.610 align:middle line:90%
+
+
+00:12:20.610 --> 00:12:26.170 align:middle line:84%
+Now, this means that
+if you take a point,
+
+00:12:26.170 --> 00:12:31.450 align:middle line:84%
+then y here is--
+so this here means
+
+00:12:31.450 --> 00:12:36.090 align:middle line:84%
+that y is given in terms
+of x, where that y squared
+
+00:12:36.090 --> 00:12:40.490 align:middle line:90%
+is equal to 1 minus x squared.
+
+00:12:40.490 --> 00:12:44.940 align:middle line:84%
+And so if you assuming
+that you are in this upper,
+
+00:12:44.940 --> 00:12:51.300 align:middle line:84%
+where y is positive-- so
+if y here is positive--
+
+00:12:51.300 --> 00:12:55.980 align:middle line:84%
+then you're looking at y
+equal to square root of 1
+
+00:12:55.980 --> 00:12:58.420 align:middle line:90%
+minus x squared.
+
+00:12:58.420 --> 00:13:06.500 align:middle line:84%
+So in this part here, where y is
+positive, you have the curve--
+
+00:13:06.500 --> 00:13:12.380 align:middle line:84%
+this part here of
+the unit circle.
+
+00:13:12.380 --> 00:13:16.580 align:middle line:84%
+This one here is given
+by the parametrization
+
+00:13:16.580 --> 00:13:23.140 align:middle line:84%
+gamma of s equal to s,
+and then square root of 1
+
+00:13:23.140 --> 00:13:26.660 align:middle line:90%
+minus s squared.
+
+00:13:26.660 --> 00:13:31.060 align:middle line:90%
+And s here is now running--
+
+00:13:31.060 --> 00:13:32.600 align:middle line:90%
+s is the first coordinate.
+
+00:13:32.600 --> 00:13:35.460 align:middle line:90%
+So it's between minus 1 and 1.
+
+00:13:35.460 --> 00:13:40.900 align:middle line:84%
+So s here is between
+minus 1 and 1.
+
+00:13:40.900 --> 00:13:42.600 align:middle line:90%
+OK.
+
+00:13:42.600 --> 00:13:48.920 align:middle line:84%
+Now suppose that you
+take some x here.
+
+00:13:48.920 --> 00:13:51.760 align:middle line:84%
+And suppose that
+you want to look at,
+
+00:13:51.760 --> 00:13:55.520 align:middle line:84%
+what is the arc length of
+this part of the circle?
+
+00:13:55.520 --> 00:14:00.960 align:middle line:84%
+Well, then, in this
+case, if you're
+
+00:14:00.960 --> 00:14:04.020 align:middle line:84%
+looking at the arc length
+of this part of the circle--
+
+00:14:04.020 --> 00:14:10.520 align:middle line:84%
+let's call that
+arc length theta.
+
+00:14:10.520 --> 00:14:15.380 align:middle line:84%
+So theta here is
+equal to this part.
+
+00:14:15.380 --> 00:14:20.040 align:middle line:84%
+It's not parameterized
+like this.
+
+00:14:20.040 --> 00:14:21.620 align:middle line:90%
+But x here is--
+
+00:14:21.620 --> 00:14:23.560 align:middle line:90%
+so this here is--
+
+00:14:23.560 --> 00:14:28.680 align:middle line:90%
+so length of gamma.
+
+00:14:28.680 --> 00:14:35.640 align:middle line:84%
+But now gamma-- by now, s
+here is running from x to 1.
+
+00:14:35.640 --> 00:14:39.360 align:middle line:84%
+Because x is the
+first coordinate
+
+00:14:39.360 --> 00:14:42.010 align:middle line:90%
+and it's running from--
+
+00:14:42.010 --> 00:14:45.970 align:middle line:84%
+the first coordinate is running
+from x, from this point, this
+
+00:14:45.970 --> 00:14:47.955 align:middle line:90%
+here, to 1.
+
+00:14:47.955 --> 00:14:51.810 align:middle line:90%
+
+
+00:14:51.810 --> 00:14:56.690 align:middle line:84%
+And so now, let's try to
+calculate this length,
+
+00:14:56.690 --> 00:14:59.850 align:middle line:84%
+or at least write it
+up as an integral.
+
+00:14:59.850 --> 00:15:05.230 align:middle line:84%
+So if we write it up as an
+integral, we have that--
+
+00:15:05.230 --> 00:15:10.010 align:middle line:84%
+so in this case-- so gamma
+s is equal to s square root
+
+00:15:10.010 --> 00:15:13.250 align:middle line:90%
+of 1 minus s squared.
+
+00:15:13.250 --> 00:15:19.690 align:middle line:84%
+And so if we define f of
+s equal to s and g of s
+
+00:15:19.690 --> 00:15:24.410 align:middle line:84%
+equal to square root
+of 1 minus s squared,
+
+00:15:24.410 --> 00:15:27.530 align:middle line:90%
+then we take f prime--
+
+00:15:27.530 --> 00:15:30.610 align:middle line:90%
+well, that's equal to 1--
+
+00:15:30.610 --> 00:15:34.150 align:middle line:90%
+and g prime.
+
+00:15:34.150 --> 00:15:36.530 align:middle line:90%
+So then we use the chain rule.
+
+00:15:36.530 --> 00:15:41.910 align:middle line:84%
+So this is equal to
+1 over 2 square root
+
+00:15:41.910 --> 00:15:43.930 align:middle line:90%
+of 1 minus s squared.
+
+00:15:43.930 --> 00:15:47.110 align:middle line:84%
+And then we have to take
+the derivative of this also.
+
+00:15:47.110 --> 00:15:51.750 align:middle line:84%
+So this is times
+minus 2s, like that.
+
+00:15:51.750 --> 00:15:55.270 align:middle line:90%
+
+
+00:15:55.270 --> 00:15:58.470 align:middle line:84%
+And so this here is, of
+course, then equal to.
+
+00:15:58.470 --> 00:15:59.990 align:middle line:90%
+The 2 cancels.
+
+00:15:59.990 --> 00:16:03.350 align:middle line:84%
+And you're getting
+minus s over square root
+
+00:16:03.350 --> 00:16:04.790 align:middle line:90%
+of 1 minus s squared.
+
+00:16:04.790 --> 00:16:09.070 align:middle line:90%
+
+
+00:16:09.070 --> 00:16:12.210 align:middle line:84%
+And so now, if
+you're looking at--
+
+00:16:12.210 --> 00:16:18.290 align:middle line:84%
+so f prime squared
+plus g prime squared,
+
+00:16:18.290 --> 00:16:20.690 align:middle line:90%
+this is equal to f is 1.
+
+00:16:20.690 --> 00:16:24.390 align:middle line:84%
+So this is 1 plus this
+thing here squared.
+
+00:16:24.390 --> 00:16:26.590 align:middle line:90%
+So this is s squared.
+
+00:16:26.590 --> 00:16:30.370 align:middle line:84%
+And then the denominator
+squared is just, of course,
+
+00:16:30.370 --> 00:16:33.670 align:middle line:90%
+1 minus s squared.
+
+00:16:33.670 --> 00:16:40.840 align:middle line:84%
+And we can now put it
+with a common denominator.
+
+00:16:40.840 --> 00:16:44.600 align:middle line:84%
+And so you see that this
+is 1 minus s squared.
+
+00:16:44.600 --> 00:16:45.980 align:middle line:90%
+1 minus s squared.
+
+00:16:45.980 --> 00:16:48.160 align:middle line:90%
+That's how you write 1.
+
+00:16:48.160 --> 00:16:52.420 align:middle line:84%
+And then plus s squared
+1 minus s squared.
+
+00:16:52.420 --> 00:16:56.280 align:middle line:84%
+And so you see that this
+whole thing is the s squared
+
+00:16:56.280 --> 00:16:59.480 align:middle line:90%
+cancel in the denominator.
+
+00:16:59.480 --> 00:17:03.779 align:middle line:84%
+And so you're getting 1
+over 1 minus s squared.
+
+00:17:03.779 --> 00:17:06.960 align:middle line:90%
+
+
+00:17:06.960 --> 00:17:11.599 align:middle line:84%
+And so this means
+that the integral--
+
+00:17:11.599 --> 00:17:13.500 align:middle line:84%
+so this means that
+the integral--
+
+00:17:13.500 --> 00:17:17.720 align:middle line:90%
+
+
+00:17:17.720 --> 00:17:19.180 align:middle line:90%
+so this length here--
+
+00:17:19.180 --> 00:17:22.280 align:middle line:90%
+
+
+00:17:22.280 --> 00:17:25.579 align:middle line:90%
+and the length is--
+
+00:17:25.579 --> 00:17:29.720 align:middle line:84%
+so actually, we call
+the length theta.
+
+00:17:29.720 --> 00:17:33.000 align:middle line:84%
+And it will be clear in
+a minute why I do this.
+
+00:17:33.000 --> 00:17:39.170 align:middle line:84%
+So the length here is then
+the integral from x to 1.
+
+00:17:39.170 --> 00:17:45.830 align:middle line:84%
+And then it is of
+the square root.
+
+00:17:45.830 --> 00:17:49.290 align:middle line:84%
+So it's supposed to be the
+square root of this thing here.
+
+00:17:49.290 --> 00:17:51.770 align:middle line:90%
+So it's the square root.
+
+00:17:51.770 --> 00:17:58.160 align:middle line:84%
+So if you will, it's 1 square
+root of 1 minus s squared ds.
+
+00:17:58.160 --> 00:18:02.050 align:middle line:90%
+
+
+00:18:02.050 --> 00:18:04.930 align:middle line:90%
+So that's the length.
+
+00:18:04.930 --> 00:18:09.050 align:middle line:84%
+But if you think about it--
+so you have here the unit
+
+00:18:09.050 --> 00:18:11.170 align:middle line:90%
+circle again.
+
+00:18:11.170 --> 00:18:16.450 align:middle line:84%
+What we now calculated was
+that we take some x here,
+
+00:18:16.450 --> 00:18:22.330 align:middle line:84%
+and then we calculate the
+length of this piece here.
+
+00:18:22.330 --> 00:18:24.930 align:middle line:90%
+Well, that piece is--
+
+00:18:24.930 --> 00:18:27.750 align:middle line:90%
+this here is also--
+
+00:18:27.750 --> 00:18:30.050 align:middle line:90%
+this is how you define.
+
+00:18:30.050 --> 00:18:31.820 align:middle line:90%
+If you will, this is the angle.
+
+00:18:31.820 --> 00:18:34.790 align:middle line:90%
+
+
+00:18:34.790 --> 00:18:38.310 align:middle line:90%
+So theta is the angle.
+
+00:18:38.310 --> 00:18:41.790 align:middle line:90%
+And so you see that--
+
+00:18:41.790 --> 00:18:47.510 align:middle line:90%
+so theta here is the angle.
+
+00:18:47.510 --> 00:18:52.790 align:middle line:90%
+And x here-- x here is--
+
+00:18:52.790 --> 00:18:54.190 align:middle line:90%
+and this point here--
+
+00:18:54.190 --> 00:19:02.270 align:middle line:84%
+sorry, this point here is
+cosine to the angle comma
+
+00:19:02.270 --> 00:19:04.770 align:middle line:90%
+sine to the angle.
+
+00:19:04.770 --> 00:19:06.310 align:middle line:90%
+That's this piece.
+
+00:19:06.310 --> 00:19:12.940 align:middle line:84%
+So this means that x is actually
+cosine through the angle.
+
+00:19:12.940 --> 00:19:20.990 align:middle line:90%
+
+
+00:19:20.990 --> 00:19:26.550 align:middle line:90%
+So this means that theta here--
+
+00:19:26.550 --> 00:19:33.370 align:middle line:84%
+in terms of x, theta is
+the inverse function.
+
+00:19:33.370 --> 00:19:40.280 align:middle line:84%
+So it's what's called
+arc cosine to x.
+
+00:19:40.280 --> 00:19:45.580 align:middle line:84%
+So this arccosine, it means
+that it's the inverse function.
+
+00:19:45.580 --> 00:19:51.960 align:middle line:84%
+If you take the inverse function
+on both sides of this then--
+
+00:19:51.960 --> 00:19:54.600 align:middle line:84%
+so if you take the
+inverse function--
+
+00:19:54.600 --> 00:19:57.840 align:middle line:90%
+so arccosine.
+
+00:19:57.840 --> 00:20:00.680 align:middle line:84%
+So you get arccosine
+to x on this side.
+
+00:20:00.680 --> 00:20:05.280 align:middle line:84%
+This side, you're getting
+arccosine and then
+
+00:20:05.280 --> 00:20:08.600 align:middle line:90%
+cosine to theta.
+
+00:20:08.600 --> 00:20:13.400 align:middle line:84%
+But these two functions
+together gives you the identity.
+
+00:20:13.400 --> 00:20:16.140 align:middle line:90%
+So this is just theta.
+
+00:20:16.140 --> 00:20:16.640 align:middle line:90%
+OK.
+
+00:20:16.640 --> 00:20:20.160 align:middle line:90%
+
+
+00:20:20.160 --> 00:20:20.820 align:middle line:90%
+OK.
+
+00:20:20.820 --> 00:20:28.400 align:middle line:84%
+So in other words, what you
+have is that arccosine to x
+
+00:20:28.400 --> 00:20:33.940 align:middle line:84%
+is given as the
+integral from x to 1 1
+
+00:20:33.940 --> 00:20:39.000 align:middle line:84%
+over square root of
+1 minus s squared ds.
+
+00:20:39.000 --> 00:20:44.200 align:middle line:84%
+So you have this formula here,
+which is not so surprising.
+
+00:20:44.200 --> 00:20:46.780 align:middle line:84%
+But anyway, you can
+get it from this.
+
+00:20:46.780 --> 00:20:50.980 align:middle line:84%
+And so now you can get it-- so
+now, the fundamental theorem
+
+00:20:50.980 --> 00:20:52.040 align:middle line:90%
+of calculus.
+
+00:20:52.040 --> 00:21:09.920 align:middle line:84%
+So by the fundamental theorem
+of calculus, then you have that.
+
+00:21:09.920 --> 00:21:12.380 align:middle line:84%
+So if you have a
+function that is
+
+00:21:12.380 --> 00:21:15.340 align:middle line:84%
+given like an
+integral like this,
+
+00:21:15.340 --> 00:21:20.700 align:middle line:84%
+then this thing here
+is the derivative.
+
+00:21:20.700 --> 00:21:23.200 align:middle line:84%
+That's what the fundamental
+theorem of calculus say.
+
+00:21:23.200 --> 00:21:25.700 align:middle line:84%
+Except you have to be a little
+bit careful because this
+
+00:21:25.700 --> 00:21:28.620 align:middle line:90%
+is if the variable is up here.
+
+00:21:28.620 --> 00:21:30.870 align:middle line:90%
+But now it's down here.
+
+00:21:30.870 --> 00:21:36.290 align:middle line:84%
+Because it's down here, the
+derivative is minus this.
+
+00:21:36.290 --> 00:21:36.790 align:middle line:90%
+OK.
+
+00:21:36.790 --> 00:21:38.510 align:middle line:90%
+Let me explain that.
+
+00:21:38.510 --> 00:21:43.390 align:middle line:84%
+So you get from the fundamental
+theorem of calculus,
+
+00:21:43.390 --> 00:21:47.510 align:middle line:84%
+the derivative of this function,
+I claim, is minus this thing
+
+00:21:47.510 --> 00:21:48.010 align:middle line:90%
+here.
+
+00:21:48.010 --> 00:21:54.180 align:middle line:90%
+
+
+00:21:54.180 --> 00:21:57.030 align:middle line:84%
+And then this should
+be evaluated at x.
+
+00:21:57.030 --> 00:22:03.510 align:middle line:84%
+This is the arccosine
+at x is equal to that.
+
+00:22:03.510 --> 00:22:05.530 align:middle line:90%
+So now let's just see that.
+
+00:22:05.530 --> 00:22:07.150 align:middle line:90%
+So why is this the case?
+
+00:22:07.150 --> 00:22:16.910 align:middle line:84%
+So you take-- so
+remember that if you
+
+00:22:16.910 --> 00:22:20.950 align:middle line:84%
+have a function f
+of x and this is
+
+00:22:20.950 --> 00:22:27.310 align:middle line:84%
+given as you're integrating from
+some a to some x, a is fixed.
+
+00:22:27.310 --> 00:22:33.640 align:middle line:84%
+And then you're integrating
+a function like this.
+
+00:22:33.640 --> 00:22:35.510 align:middle line:84%
+Assuming that the
+function is nice,
+
+00:22:35.510 --> 00:22:40.200 align:middle line:84%
+et cetera, then we have
+that the fundamental theorem
+
+00:22:40.200 --> 00:22:42.360 align:middle line:90%
+of calculus--
+
+00:22:42.360 --> 00:22:44.640 align:middle line:84%
+fundamental theorem
+of calculus--
+
+00:22:44.640 --> 00:22:51.600 align:middle line:84%
+the derivative of this
+function is little f.
+
+00:22:51.600 --> 00:22:53.880 align:middle line:90%
+But suppose I now switch.
+
+00:22:53.880 --> 00:22:57.880 align:middle line:84%
+So now suppose I now look--
+so I don't look at this,
+
+00:22:57.880 --> 00:23:00.500 align:middle line:90%
+but I look at--
+
+00:23:00.500 --> 00:23:09.760 align:middle line:84%
+suppose that g of x is
+the integral from x to a--
+
+00:23:09.760 --> 00:23:12.280 align:middle line:84%
+let's call it x to b,
+just because we usually
+
+00:23:12.280 --> 00:23:20.200 align:middle line:84%
+have the endpoint as
+the last point, as b.
+
+00:23:20.200 --> 00:23:23.480 align:middle line:84%
+So suppose that the
+function is like this.
+
+00:23:23.480 --> 00:23:25.980 align:middle line:90%
+What is the derivative?
+
+00:23:25.980 --> 00:23:30.080 align:middle line:84%
+But this is just the
+fundamental theorem.
+
+00:23:30.080 --> 00:23:35.540 align:middle line:84%
+But one of the rules we
+had writing the integral
+
+00:23:35.540 --> 00:23:38.280 align:middle line:90%
+is we can write this one here.
+
+00:23:38.280 --> 00:23:41.940 align:middle line:84%
+So here I'm thinking about
+that a function little f
+
+00:23:41.940 --> 00:23:44.640 align:middle line:84%
+is defined on some
+interval from a to b.
+
+00:23:44.640 --> 00:23:48.220 align:middle line:90%
+
+
+00:23:48.220 --> 00:23:51.940 align:middle line:84%
+And I can rewrite this
+thing here in this form
+
+00:23:51.940 --> 00:23:55.460 align:middle line:84%
+here because I can just
+think about this thing
+
+00:23:55.460 --> 00:24:04.300 align:middle line:84%
+here as the integral
+from a to b of f of s.
+
+00:24:04.300 --> 00:24:05.120 align:middle line:90%
+So sorry.
+
+00:24:05.120 --> 00:24:06.670 align:middle line:90%
+Let me write it over here.
+
+00:24:06.670 --> 00:24:16.156 align:middle line:90%
+
+
+00:24:16.156 --> 00:24:22.680 align:middle line:84%
+So I'm just making the trivial
+observation that we have--
+
+00:24:22.680 --> 00:24:28.590 align:middle line:84%
+so if we have a function
+from a to b into R,
+
+00:24:28.590 --> 00:24:33.110 align:middle line:84%
+and we have some x that
+lie between a and b,
+
+00:24:33.110 --> 00:24:36.270 align:middle line:84%
+then we proved that
+the integral from a
+
+00:24:36.270 --> 00:24:43.550 align:middle line:84%
+to b of f, this thing here, is
+equal to the integral from a
+
+00:24:43.550 --> 00:24:51.250 align:middle line:84%
+to x plus the
+integral from x to b.
+
+00:24:51.250 --> 00:24:55.590 align:middle line:90%
+
+
+00:24:55.590 --> 00:25:00.970 align:middle line:84%
+That was one of the rules,
+that if you take this--
+
+00:25:00.970 --> 00:25:03.910 align:middle line:84%
+if you have a dividing
+point in this interval, then
+
+00:25:03.910 --> 00:25:06.430 align:middle line:84%
+you could integrate
+over the first half
+
+00:25:06.430 --> 00:25:12.070 align:middle line:84%
+and then add the integral
+of the second half.
+
+00:25:12.070 --> 00:25:17.510 align:middle line:84%
+But this thing here just tells
+you that this thing here you
+
+00:25:17.510 --> 00:25:19.890 align:middle line:90%
+can rewrite as this minus that.
+
+00:25:19.890 --> 00:25:27.090 align:middle line:84%
+So you have that the integral
+from x to b f of s ds
+
+00:25:27.090 --> 00:25:32.730 align:middle line:84%
+is equal to the integral
+from a to b f of s ds
+
+00:25:32.730 --> 00:25:44.250 align:middle line:84%
+minus the integral
+from a to x f of s ds.
+
+00:25:44.250 --> 00:25:46.730 align:middle line:90%
+And so a and b are fixed.
+
+00:25:46.730 --> 00:25:51.450 align:middle line:84%
+And when you think about this
+thing here as a function of x,
+
+00:25:51.450 --> 00:25:53.010 align:middle line:90%
+then it's equal to--
+
+00:25:53.010 --> 00:25:54.970 align:middle line:90%
+this is just a constant.
+
+00:25:54.970 --> 00:25:56.390 align:middle line:90%
+And then minus this.
+
+00:25:56.390 --> 00:26:00.430 align:middle line:84%
+So when you take the derivative
+of this, this is a constant.
+
+00:26:00.430 --> 00:26:02.650 align:middle line:90%
+So this derivative is 0.
+
+00:26:02.650 --> 00:26:04.490 align:middle line:84%
+The derivative of
+this, well, that
+
+00:26:04.490 --> 00:26:07.730 align:middle line:84%
+is straight the fundamental
+theorem of calculus.
+
+00:26:07.730 --> 00:26:12.750 align:middle line:84%
+And because of this
+sign, you get minus f.
+
+00:26:12.750 --> 00:26:14.650 align:middle line:84%
+And so that's what
+I applied over here,
+
+00:26:14.650 --> 00:26:19.450 align:middle line:84%
+that if it is of
+this form here, then
+
+00:26:19.450 --> 00:26:26.240 align:middle line:84%
+the derivative of this
+function is minus little f.
+
+00:26:26.240 --> 00:26:26.740 align:middle line:90%
+OK?
+
+00:26:26.740 --> 00:26:30.540 align:middle line:90%
+
+
+00:26:30.540 --> 00:26:31.040 align:middle line:90%
+OK.
+
+00:26:31.040 --> 00:26:34.080 align:middle line:90%
+So this was-- this is so--
+
+00:26:34.080 --> 00:26:38.660 align:middle line:84%
+so this is how the angle
+is defined, if you will.
+
+00:26:38.660 --> 00:26:44.820 align:middle line:84%
+The angle is defined as the
+arc length of the curve.
+
+00:26:44.820 --> 00:26:48.660 align:middle line:84%
+And we can calculate it
+using this formula here.
+
+00:26:48.660 --> 00:26:50.690 align:middle line:90%
+And we're getting a nice--
+
+00:26:50.690 --> 00:26:54.740 align:middle line:90%
+
+
+00:26:54.740 --> 00:26:59.240 align:middle line:84%
+I mean, we know what
+this arccosine--
+
+00:26:59.240 --> 00:27:01.660 align:middle line:84%
+we know actually what
+the derivative is just
+
+00:27:01.660 --> 00:27:05.780 align:middle line:84%
+from this arc length and the
+fundamental theorem of calculus.
+
+00:27:05.780 --> 00:27:07.320 align:middle line:90%
+OK.
+
+00:27:07.320 --> 00:27:09.140 align:middle line:84%
+The next thing I
+want to talk about
+
+00:27:09.140 --> 00:27:13.420 align:middle line:84%
+is I want to talk about
+pointwise and uniform
+
+00:27:13.420 --> 00:27:16.620 align:middle line:90%
+convergence of functions.
+
+00:27:16.620 --> 00:27:19.920 align:middle line:84%
+So you have a
+sequence of functions.
+
+00:27:19.920 --> 00:27:26.600 align:middle line:90%
+
+
+00:27:26.600 --> 00:27:29.290 align:middle line:84%
+You have a sequence
+of functions fn.
+
+00:27:29.290 --> 00:27:32.920 align:middle line:90%
+
+
+00:27:32.920 --> 00:27:38.120 align:middle line:84%
+So suppose you have
+some interval I,
+
+00:27:38.120 --> 00:27:45.720 align:middle line:84%
+and you have a sequence
+of functions fn.
+
+00:27:45.720 --> 00:27:51.530 align:middle line:84%
+And you have another function
+f also on this interval.
+
+00:27:51.530 --> 00:27:54.520 align:middle line:90%
+
+
+00:27:54.520 --> 00:27:57.220 align:middle line:84%
+Then we say-- so this
+is the definition.
+
+00:27:57.220 --> 00:28:01.240 align:middle line:90%
+
+
+00:28:01.240 --> 00:28:04.600 align:middle line:84%
+We say that the
+sequence here converges
+
+00:28:04.600 --> 00:28:19.310 align:middle line:84%
+to f pointwise if,
+for all x fixed--
+
+00:28:19.310 --> 00:28:22.970 align:middle line:90%
+
+
+00:28:22.970 --> 00:28:24.790 align:middle line:90%
+if you're looking at this--
+
+00:28:24.790 --> 00:28:28.930 align:middle line:84%
+so x here, think about x as
+being-- x could be anything,
+
+00:28:28.930 --> 00:28:30.610 align:middle line:90%
+but it is fixed.
+
+00:28:30.610 --> 00:28:33.790 align:middle line:84%
+And then you're looking
+at this sequence here.
+
+00:28:33.790 --> 00:28:37.570 align:middle line:84%
+So this is a sequence of real
+numbers because x is fixed.
+
+00:28:37.570 --> 00:28:42.590 align:middle line:84%
+Then you want this thing
+here to converge to f of x.
+
+00:28:42.590 --> 00:28:43.090 align:middle line:90%
+Yeah?
+
+00:28:43.090 --> 00:28:43.757 align:middle line:90%
+AUDIENCE: Sorry.
+
+00:28:43.757 --> 00:28:45.830 align:middle line:84%
+I had a quick question
+about the last thing.
+
+00:28:45.830 --> 00:28:51.330 align:middle line:84%
+So how do you know that the
+integral of a to b fs ds is 0?
+
+00:28:51.330 --> 00:28:53.090 align:middle line:90%
+TOBIAS COLDING: So no.
+
+00:28:53.090 --> 00:28:58.910 align:middle line:84%
+So the thing is that what
+we're looking at here--
+
+00:28:58.910 --> 00:28:59.890 align:middle line:90%
+so I was asking--
+
+00:28:59.890 --> 00:29:02.410 align:middle line:90%
+
+
+00:29:02.410 --> 00:29:04.390 align:middle line:90%
+so this here is--
+
+00:29:04.390 --> 00:29:06.370 align:middle line:84%
+so if you have a
+function, capital F,
+
+00:29:06.370 --> 00:29:09.650 align:middle line:84%
+that is given like this, the
+fundamental theorem of calculus
+
+00:29:09.650 --> 00:29:11.970 align:middle line:84%
+gives you what
+the derivative is.
+
+00:29:11.970 --> 00:29:15.370 align:middle line:84%
+So I'm just asking,
+suppose that the function--
+
+00:29:15.370 --> 00:29:20.940 align:middle line:84%
+that the variable was not up
+here but it was down here.
+
+00:29:20.940 --> 00:29:22.700 align:middle line:90%
+What is the derivative?
+
+00:29:22.700 --> 00:29:25.440 align:middle line:84%
+And so in order to figure
+out that derivative,
+
+00:29:25.440 --> 00:29:28.100 align:middle line:90%
+I'm just using that--
+
+00:29:28.100 --> 00:29:31.820 align:middle line:84%
+so if I was integrating
+over the whole interval,
+
+00:29:31.820 --> 00:29:33.540 align:middle line:90%
+a and b are fixed.
+
+00:29:33.540 --> 00:29:38.040 align:middle line:84%
+So this is just some
+number, whatever it is.
+
+00:29:38.040 --> 00:29:40.340 align:middle line:90%
+But it's probably not 0.
+
+00:29:40.340 --> 00:29:43.620 align:middle line:84%
+I mean, it generally wouldn't be
+0, but it's just some constant.
+
+00:29:43.620 --> 00:29:49.180 align:middle line:84%
+And so for each x you get
+the same constant here.
+
+00:29:49.180 --> 00:29:52.580 align:middle line:84%
+And then it's equal
+to this plus that.
+
+00:29:52.580 --> 00:29:55.160 align:middle line:84%
+But this is what
+we're interested in.
+
+00:29:55.160 --> 00:29:57.520 align:middle line:84%
+So I'm just moving this
+1 over on the other side.
+
+00:29:57.520 --> 00:29:59.020 align:middle line:90%
+So I get this thing here.
+
+00:29:59.020 --> 00:30:01.580 align:middle line:84%
+But remember, this
+here is a constant.
+
+00:30:01.580 --> 00:30:03.740 align:middle line:84%
+So when you take the
+derivative, it's 0.
+
+00:30:03.740 --> 00:30:07.960 align:middle line:90%
+
+
+00:30:07.960 --> 00:30:08.460 align:middle line:90%
+OK.
+
+00:30:08.460 --> 00:30:09.260 align:middle line:90%
+So--
+
+00:30:09.260 --> 00:30:09.980 align:middle line:90%
+AUDIENCE: For this problem--
+
+00:30:09.980 --> 00:30:10.460 align:middle line:90%
+TOBIAS COLDING: Yeah?
+
+00:30:10.460 --> 00:30:12.293 align:middle line:84%
+AUDIENCE: --if you were
+to just substitute--
+
+00:30:12.293 --> 00:30:14.660 align:middle line:84%
+set b equal to a,
+then wouldn't you
+
+00:30:14.660 --> 00:30:18.160 align:middle line:84%
+just get that a equal integral
+from a to a goes to 0?
+
+00:30:18.160 --> 00:30:19.320 align:middle line:90%
+And then you can get this--
+
+00:30:19.320 --> 00:30:21.208 align:middle line:84%
+TOBIAS COLDING: But
+that's-- but if--
+
+00:30:21.208 --> 00:30:21.708 align:middle line:90%
+right.
+
+00:30:21.708 --> 00:30:24.520 align:middle line:90%
+
+
+00:30:24.520 --> 00:30:26.140 align:middle line:90%
+If b is equal to a--
+
+00:30:26.140 --> 00:30:29.640 align:middle line:90%
+
+
+00:30:29.640 --> 00:30:32.200 align:middle line:90%
+if b is equal to a, yeah.
+
+00:30:32.200 --> 00:30:34.120 align:middle line:90%
+I mean, but it's not.
+
+00:30:34.120 --> 00:30:38.453 align:middle line:84%
+I mean, so then this interval
+is just a trivial interval.
+
+00:30:38.453 --> 00:30:39.120 align:middle line:90%
+AUDIENCE: Right.
+
+00:30:39.120 --> 00:30:42.020 align:middle line:84%
+But doesn't it allow you to
+get to the same identity there?
+
+00:30:42.020 --> 00:30:42.937 align:middle line:90%
+TOBIAS COLDING: Right.
+
+00:30:42.937 --> 00:30:45.260 align:middle line:84%
+But the thing is--
+so the reason why--
+
+00:30:45.260 --> 00:30:47.220 align:middle line:90%
+so why did I want to do it?
+
+00:30:47.220 --> 00:30:47.760 align:middle line:90%
+Yes.
+
+00:30:47.760 --> 00:30:53.540 align:middle line:84%
+But it's like-- but it's kind
+of using something implicitly.
+
+00:30:53.540 --> 00:30:54.420 align:middle line:90%
+You see what I mean?
+
+00:30:54.420 --> 00:30:57.680 align:middle line:84%
+I'm assuming that x
+is between a and b
+
+00:30:57.680 --> 00:31:02.320 align:middle line:84%
+because when we took this
+interval, if x is not
+
+00:31:02.320 --> 00:31:04.040 align:middle line:84%
+between a, b, we
+have to figure out,
+
+00:31:04.040 --> 00:31:07.760 align:middle line:84%
+what the hell do we mean by
+this sort of integral anyway?
+
+00:31:07.760 --> 00:31:13.560 align:middle line:84%
+And so, yes, it
+works, even if you
+
+00:31:13.560 --> 00:31:16.000 align:middle line:84%
+have the ordering
+differently, but you just
+
+00:31:16.000 --> 00:31:17.970 align:middle line:84%
+have to-- all I want
+to point out here
+
+00:31:17.970 --> 00:31:21.690 align:middle line:84%
+is that if it is downstairs
+and not upstairs,
+
+00:31:21.690 --> 00:31:26.270 align:middle line:84%
+you have to just
+remember the sign.
+
+00:31:26.270 --> 00:31:26.770 align:middle line:90%
+OK.
+
+00:31:26.770 --> 00:31:30.050 align:middle line:90%
+
+
+00:31:30.050 --> 00:31:30.550 align:middle line:90%
+OK.
+
+00:31:30.550 --> 00:31:33.690 align:middle line:84%
+So this here-- so
+I have a sequence
+
+00:31:33.690 --> 00:31:35.970 align:middle line:90%
+of functions on the interval.
+
+00:31:35.970 --> 00:31:39.610 align:middle line:84%
+I have another function
+on the same interval.
+
+00:31:39.610 --> 00:31:45.450 align:middle line:84%
+And I will say that this
+sequence is converging pointwise
+
+00:31:45.450 --> 00:31:51.490 align:middle line:84%
+to f if for all x fixed, when
+we're looking at this sequence,
+
+00:31:51.490 --> 00:31:54.610 align:middle line:90%
+it converges to that.
+
+00:31:54.610 --> 00:31:57.640 align:middle line:84%
+And so let me look at
+two examples of that.
+
+00:31:57.640 --> 00:32:00.650 align:middle line:90%
+
+
+00:32:00.650 --> 00:32:04.470 align:middle line:90%
+So the first one is--
+
+00:32:04.470 --> 00:32:15.010 align:middle line:90%
+
+
+00:32:15.010 --> 00:32:20.110 align:middle line:84%
+so the first example
+I want to look at,
+
+00:32:20.110 --> 00:32:27.950 align:middle line:84%
+this is where the functions fn
+of x is equal to x to the n.
+
+00:32:27.950 --> 00:32:32.530 align:middle line:90%
+And x here is between 0 and 1.
+
+00:32:32.530 --> 00:32:36.110 align:middle line:90%
+
+
+00:32:36.110 --> 00:32:44.790 align:middle line:84%
+And so this is my fn and my
+function f, which is now,
+
+00:32:44.790 --> 00:32:47.590 align:middle line:84%
+of course, also a
+function on this interval.
+
+00:32:47.590 --> 00:32:56.790 align:middle line:84%
+This is equal to 0 if x
+is bigger or equal to 0
+
+00:32:56.790 --> 00:32:59.230 align:middle line:90%
+but strictly less than 1.
+
+00:32:59.230 --> 00:33:05.350 align:middle line:90%
+And it's 1 if x is equal to 1.
+
+00:33:05.350 --> 00:33:07.030 align:middle line:90%
+OK.
+
+00:33:07.030 --> 00:33:10.690 align:middle line:84%
+So of course, this function
+f is not continuous.
+
+00:33:10.690 --> 00:33:12.250 align:middle line:90%
+The other ones are continuous.
+
+00:33:12.250 --> 00:33:15.960 align:middle line:90%
+
+
+00:33:15.960 --> 00:33:24.920 align:middle line:84%
+Now, I claim that this
+sequence-- so the sequence fn
+
+00:33:24.920 --> 00:33:28.800 align:middle line:90%
+is converging pointwise to f.
+
+00:33:28.800 --> 00:33:34.860 align:middle line:90%
+So fn converges to f pointwise.
+
+00:33:34.860 --> 00:33:39.080 align:middle line:90%
+
+
+00:33:39.080 --> 00:33:44.360 align:middle line:90%
+Because if you fix x--
+
+00:33:44.360 --> 00:33:56.680 align:middle line:84%
+let's say, fix x, and let's
+assume that it's between--
+
+00:33:56.680 --> 00:34:00.380 align:middle line:90%
+sorry, it's between 0--
+
+00:34:00.380 --> 00:34:02.120 align:middle line:90%
+it's strictly less than 1.
+
+00:34:02.120 --> 00:34:05.000 align:middle line:90%
+So you're fixing x.
+
+00:34:05.000 --> 00:34:07.800 align:middle line:84%
+And let's first deal with
+the case where that x
+
+00:34:07.800 --> 00:34:10.080 align:middle line:90%
+is strictly less than 1.
+
+00:34:10.080 --> 00:34:12.320 align:middle line:84%
+Well, if I'm looking
+at x to the n--
+
+00:34:12.320 --> 00:34:14.810 align:middle line:90%
+so it takes some small number.
+
+00:34:14.810 --> 00:34:17.449 align:middle line:84%
+Small just means that
+it's strictly less than 1.
+
+00:34:17.449 --> 00:34:20.530 align:middle line:84%
+And I multiply it
+by itself n time.
+
+00:34:20.530 --> 00:34:22.593 align:middle line:90%
+Well, that certainly goes to 0.
+
+00:34:22.593 --> 00:34:26.610 align:middle line:90%
+
+
+00:34:26.610 --> 00:34:33.650 align:middle line:84%
+If x here is fixed but it's
+not 1, then x to the n.
+
+00:34:33.650 --> 00:34:36.850 align:middle line:84%
+If x is 1, then this
+here is still 1.
+
+00:34:36.850 --> 00:34:40.969 align:middle line:90%
+
+
+00:34:40.969 --> 00:34:42.909 align:middle line:90%
+So you see that in this case--
+
+00:34:42.909 --> 00:34:46.870 align:middle line:90%
+so this here is f to the n of x.
+
+00:34:46.870 --> 00:34:50.170 align:middle line:90%
+And this here is f of x.
+
+00:34:50.170 --> 00:34:53.389 align:middle line:84%
+So these things here, I mean,
+they're actually equal to this.
+
+00:34:53.389 --> 00:34:55.469 align:middle line:90%
+So in particular, they converge.
+
+00:34:55.469 --> 00:34:59.810 align:middle line:90%
+And this here is what f of x is.
+
+00:34:59.810 --> 00:35:05.090 align:middle line:84%
+And this here is,
+again, fn of x.
+
+00:35:05.090 --> 00:35:09.050 align:middle line:84%
+So you have that this
+sequence of functions
+
+00:35:09.050 --> 00:35:13.710 align:middle line:84%
+converge to this
+slightly crazy function.
+
+00:35:13.710 --> 00:35:15.530 align:middle line:90%
+So that's the first example.
+
+00:35:15.530 --> 00:35:16.850 align:middle line:90%
+They converge pointwise.
+
+00:35:16.850 --> 00:35:19.870 align:middle line:90%
+
+
+00:35:19.870 --> 00:35:24.800 align:middle line:84%
+The next example I
+want to look at is--
+
+00:35:24.800 --> 00:35:28.470 align:middle line:90%
+
+
+00:35:28.470 --> 00:35:35.950 align:middle line:84%
+so the next example is
+where the functions are--
+
+00:35:35.950 --> 00:35:38.645 align:middle line:90%
+you're just summing here.
+
+00:35:38.645 --> 00:35:39.270 align:middle line:90%
+You're summing.
+
+00:35:39.270 --> 00:35:46.510 align:middle line:84%
+You just take the power series
+for the exponential function.
+
+00:35:46.510 --> 00:35:51.610 align:middle line:84%
+So you're summing where
+k is equal to 1 to n.
+
+00:35:51.610 --> 00:35:54.610 align:middle line:90%
+And that's my fn of x.
+
+00:35:54.610 --> 00:35:57.190 align:middle line:90%
+
+
+00:35:57.190 --> 00:36:03.510 align:middle line:84%
+And then my f of x is
+the infinite sum, which
+
+00:36:03.510 --> 00:36:06.590 align:middle line:90%
+is the exponential function.
+
+00:36:06.590 --> 00:36:10.920 align:middle line:84%
+And we have already
+proved that if you fix x--
+
+00:36:10.920 --> 00:36:12.340 align:middle line:90%
+so we fix x--
+
+00:36:12.340 --> 00:36:20.560 align:middle line:84%
+then this fn here of x converges
+to f of x for each fixed x.
+
+00:36:20.560 --> 00:36:23.310 align:middle line:90%
+For each fixed x.
+
+00:36:23.310 --> 00:36:30.960 align:middle line:90%
+
+
+00:36:30.960 --> 00:36:34.880 align:middle line:84%
+So this sequence of
+functions pointwise converges
+
+00:36:34.880 --> 00:36:38.760 align:middle line:90%
+to the exponential function.
+
+00:36:38.760 --> 00:36:42.760 align:middle line:84%
+So this is one notion of
+convergence for functions.
+
+00:36:42.760 --> 00:36:46.660 align:middle line:84%
+And there's another notion
+that is also useful.
+
+00:36:46.660 --> 00:36:48.360 align:middle line:90%
+They're both useful.
+
+00:36:48.360 --> 00:36:50.040 align:middle line:90%
+The other one is stronger.
+
+00:36:50.040 --> 00:36:53.240 align:middle line:84%
+And so of course, if you
+have the stronger version,
+
+00:36:53.240 --> 00:36:57.720 align:middle line:84%
+you often get
+something much better.
+
+00:36:57.720 --> 00:36:59.100 align:middle line:84%
+Oh, I shouldn't
+have erased this.
+
+00:36:59.100 --> 00:37:00.720 align:middle line:90%
+But anyway.
+
+00:37:00.720 --> 00:37:05.480 align:middle line:90%
+And so the second notion is--
+
+00:37:05.480 --> 00:37:13.840 align:middle line:84%
+so this is the notion
+of uniform convergence.
+
+00:37:13.840 --> 00:37:21.540 align:middle line:90%
+
+
+00:37:21.540 --> 00:37:27.600 align:middle line:84%
+Uniform means that
+it's uniform in x.
+
+00:37:27.600 --> 00:37:33.500 align:middle line:84%
+So what we have here is we
+have a sequence of functions
+
+00:37:33.500 --> 00:37:37.780 align:middle line:84%
+and f defined on
+some interval into R.
+
+00:37:37.780 --> 00:37:40.700 align:middle line:84%
+And then we say that
+this sequence converges
+
+00:37:40.700 --> 00:37:56.460 align:middle line:84%
+to f uniformly if, for all
+epsilon greater than 0,
+
+00:37:56.460 --> 00:38:00.900 align:middle line:84%
+there exists a capital N so
+that if little n is bigger
+
+00:38:00.900 --> 00:38:08.910 align:middle line:84%
+than this capital N,
+then f of x minus fn of x
+
+00:38:08.910 --> 00:38:13.050 align:middle line:84%
+is smaller than
+epsilon for all x.
+
+00:38:13.050 --> 00:38:16.670 align:middle line:90%
+
+
+00:38:16.670 --> 00:38:24.150 align:middle line:84%
+And again, the uniformness,
+it holds for all x.
+
+00:38:24.150 --> 00:38:28.170 align:middle line:84%
+You can use the same
+capital N for all x.
+
+00:38:28.170 --> 00:38:33.030 align:middle line:90%
+
+
+00:38:33.030 --> 00:38:45.550 align:middle line:84%
+And so now, now what you have
+is that if a sequence converges
+
+00:38:45.550 --> 00:38:50.590 align:middle line:84%
+uniformly, then it
+converges pointwise.
+
+00:38:50.590 --> 00:38:54.950 align:middle line:84%
+So we have the following
+lemma that follows directly
+
+00:38:54.950 --> 00:38:58.110 align:middle line:90%
+from the definition.
+
+00:38:58.110 --> 00:38:58.660 align:middle line:90%
+So lemma.
+
+00:38:58.660 --> 00:39:01.510 align:middle line:90%
+
+
+00:39:01.510 --> 00:39:16.890 align:middle line:84%
+So a uniform
+convergence of fn to f
+
+00:39:16.890 --> 00:39:37.730 align:middle line:84%
+implies pointwise
+convergence of fn to f.
+
+00:39:37.730 --> 00:39:38.350 align:middle line:90%
+OK.
+
+00:39:38.350 --> 00:39:43.330 align:middle line:84%
+So uniform convergence
+implies pointwise convergence.
+
+00:39:43.330 --> 00:39:44.910 align:middle line:90%
+And that's clear.
+
+00:39:44.910 --> 00:39:47.610 align:middle line:84%
+That's really just
+the definition
+
+00:39:47.610 --> 00:39:51.090 align:middle line:84%
+if I had written out
+what it means for--
+
+00:39:51.090 --> 00:39:54.050 align:middle line:84%
+so this here, I've
+written out what it means
+
+00:39:54.050 --> 00:39:57.330 align:middle line:90%
+to have uniform convergence.
+
+00:39:57.330 --> 00:39:59.530 align:middle line:84%
+If it was pointwise
+convergence, then
+
+00:39:59.530 --> 00:40:01.190 align:middle line:90%
+you have these functions again.
+
+00:40:01.190 --> 00:40:04.420 align:middle line:84%
+And you have that this
+converges to that pointwise.
+
+00:40:04.420 --> 00:40:07.360 align:middle line:90%
+It means that the sequence fn--
+
+00:40:07.360 --> 00:40:12.340 align:middle line:84%
+so once you fix x, then
+the sequence fn of x--
+
+00:40:12.340 --> 00:40:23.820 align:middle line:84%
+so once x is fixed, then
+these here converge to this.
+
+00:40:23.820 --> 00:40:26.660 align:middle line:84%
+But saying that this
+sequence here converge
+
+00:40:26.660 --> 00:40:29.380 align:middle line:84%
+means that for all
+epsilon greater than 0,
+
+00:40:29.380 --> 00:40:35.820 align:middle line:84%
+there exists an N. But this N
+is now allowed to depend on x so
+
+00:40:35.820 --> 00:40:39.340 align:middle line:84%
+that if little n is bigger
+than this capital N,
+
+00:40:39.340 --> 00:40:46.380 align:middle line:84%
+then fn of x minus f of x
+is smaller than epsilon.
+
+00:40:46.380 --> 00:40:52.220 align:middle line:84%
+So you see that clearly uniform
+convergence implies pointwise.
+
+00:40:52.220 --> 00:40:55.820 align:middle line:84%
+And again, uniform just
+means that this capital N
+
+00:40:55.820 --> 00:40:58.320 align:middle line:84%
+can be chosen to be
+the same for all x.
+
+00:40:58.320 --> 00:41:01.780 align:middle line:90%
+
+
+00:41:01.780 --> 00:41:04.850 align:middle line:84%
+So now let's look
+at the examples.
+
+00:41:04.850 --> 00:41:09.070 align:middle line:84%
+Unfortunately, I erased
+the most important one.
+
+00:41:09.070 --> 00:41:11.530 align:middle line:84%
+So I will just go
+through it again.
+
+00:41:11.530 --> 00:41:15.670 align:middle line:84%
+Let me just talk about
+the example again.
+
+00:41:15.670 --> 00:41:22.450 align:middle line:84%
+And then we'll see why
+this example here does not.
+
+00:41:22.450 --> 00:41:25.550 align:middle line:84%
+So we have this
+example from before,
+
+00:41:25.550 --> 00:41:32.550 align:middle line:84%
+where the sequence of
+functions was x to the n.
+
+00:41:32.550 --> 00:41:36.270 align:middle line:90%
+And x here was between 0 and 1.
+
+00:41:36.270 --> 00:41:39.870 align:middle line:84%
+And then we had
+this function f that
+
+00:41:39.870 --> 00:41:43.270 align:middle line:84%
+was this function that
+was not continuous.
+
+00:41:43.270 --> 00:41:47.150 align:middle line:84%
+But this function was
+given to be equal to 0
+
+00:41:47.150 --> 00:41:53.950 align:middle line:84%
+if x here is
+strictly less than 1
+
+00:41:53.950 --> 00:41:59.602 align:middle line:90%
+and it was 1 if x is equal to 1.
+
+00:41:59.602 --> 00:42:03.116 align:middle line:90%
+That was this function f.
+
+00:42:03.116 --> 00:42:07.410 align:middle line:84%
+And we know-- we've already
+shown that the fn converges
+
+00:42:07.410 --> 00:42:09.010 align:middle line:90%
+to f pointwise.
+
+00:42:09.010 --> 00:42:12.150 align:middle line:90%
+But we want to see now--
+
+00:42:12.150 --> 00:42:21.330 align:middle line:84%
+so I claim that fn
+does not converge.
+
+00:42:21.330 --> 00:42:29.690 align:middle line:84%
+So this does not
+converge uniformly to f.
+
+00:42:29.690 --> 00:42:33.150 align:middle line:84%
+We know already that
+it converges pointwise.
+
+00:42:33.150 --> 00:42:39.050 align:middle line:84%
+And I claim that this sequence
+does not converge uniformly.
+
+00:42:39.050 --> 00:42:42.850 align:middle line:90%
+So now, why is this the case?
+
+00:42:42.850 --> 00:42:47.850 align:middle line:84%
+Well, this is because, you
+see, by the intermediate value
+
+00:42:47.850 --> 00:42:54.330 align:middle line:84%
+theorem, the functions
+fn are continuous.
+
+00:42:54.330 --> 00:42:57.490 align:middle line:90%
+At 0, they take the value 0.
+
+00:42:57.490 --> 00:43:00.300 align:middle line:90%
+At 1, they take the value 1.
+
+00:43:00.300 --> 00:43:04.360 align:middle line:84%
+So for each n, by the
+intermediate value theorem--
+
+00:43:04.360 --> 00:43:22.220 align:middle line:90%
+
+
+00:43:22.220 --> 00:43:40.220 align:middle line:84%
+since each fn is continuous,
+then there exists an xn,
+
+00:43:40.220 --> 00:43:44.140 align:middle line:90%
+but it really will depend on n.
+
+00:43:44.140 --> 00:43:52.800 align:middle line:84%
+So that fn of xn will
+take the value one half.
+
+00:43:52.800 --> 00:43:55.200 align:middle line:90%
+So the functions here--
+
+00:43:55.200 --> 00:43:56.820 align:middle line:90%
+this is the functions--
+
+00:43:56.820 --> 00:43:57.500 align:middle line:90%
+oops.
+
+00:43:57.500 --> 00:44:00.320 align:middle line:90%
+This is the functions.
+
+00:44:00.320 --> 00:44:04.760 align:middle line:90%
+This is the function fn.
+
+00:44:04.760 --> 00:44:07.240 align:middle line:90%
+At 0, it takes a value of 0.
+
+00:44:07.240 --> 00:44:10.620 align:middle line:90%
+At 1, it takes a value 1.
+
+00:44:10.620 --> 00:44:16.100 align:middle line:84%
+So there is somewhere
+where a half is achieved.
+
+00:44:16.100 --> 00:44:18.060 align:middle line:90%
+And this is at this-- it's here.
+
+00:44:18.060 --> 00:44:21.700 align:middle line:90%
+
+
+00:44:21.700 --> 00:44:23.100 align:middle line:90%
+So you have that.
+
+00:44:23.100 --> 00:44:27.560 align:middle line:84%
+And again, this xn
+is depending on n.
+
+00:44:27.560 --> 00:44:30.800 align:middle line:84%
+And the thing is
+that as n gets large,
+
+00:44:30.800 --> 00:44:36.040 align:middle line:84%
+this point will have to
+move very close to 1.
+
+00:44:36.040 --> 00:44:44.640 align:middle line:84%
+But if you're now looking
+at fn of x minus f of x--
+
+00:44:44.640 --> 00:44:51.440 align:middle line:90%
+
+
+00:44:51.440 --> 00:44:52.800 align:middle line:90%
+so we want to--
+
+00:44:52.800 --> 00:44:55.240 align:middle line:84%
+if it was converging
+uniformly, it
+
+00:44:55.240 --> 00:44:58.770 align:middle line:84%
+would mean that this difference
+here would be smaller
+
+00:44:58.770 --> 00:45:01.810 align:middle line:90%
+than some epsilon for all x.
+
+00:45:01.810 --> 00:45:09.170 align:middle line:84%
+But if you're just looking
+at this point here,
+
+00:45:09.170 --> 00:45:12.210 align:middle line:84%
+this difference
+here is this point
+
+00:45:12.210 --> 00:45:16.610 align:middle line:90%
+here, xn, will lie strictly--
+
+00:45:16.610 --> 00:45:22.210 align:middle line:84%
+xn here will lie-- this is
+where this value here is a half.
+
+00:45:22.210 --> 00:45:23.590 align:middle line:90%
+It's not 1.
+
+00:45:23.590 --> 00:45:28.770 align:middle line:84%
+So it's strictly
+between 0 and 1.
+
+00:45:28.770 --> 00:45:37.210 align:middle line:84%
+So you see that for each
+n, this function f at xn,
+
+00:45:37.210 --> 00:45:38.950 align:middle line:90%
+this will always be 0.
+
+00:45:38.950 --> 00:45:43.110 align:middle line:84%
+This is because the
+function f is 0 except at 1.
+
+00:45:43.110 --> 00:45:45.850 align:middle line:84%
+And this point is
+definitely not 1.
+
+00:45:45.850 --> 00:45:47.450 align:middle line:90%
+So you have that.
+
+00:45:47.450 --> 00:45:53.130 align:middle line:84%
+So you see that this thing
+here, this here is 0.
+
+00:45:53.130 --> 00:45:56.560 align:middle line:84%
+So this is just the value
+of this, the absolute value.
+
+00:45:56.560 --> 00:45:57.720 align:middle line:90%
+But that's actually a half.
+
+00:45:57.720 --> 00:46:01.580 align:middle line:90%
+So this is always a half.
+
+00:46:01.580 --> 00:46:06.020 align:middle line:84%
+So the function would converge
+uniformly as long as--
+
+00:46:06.020 --> 00:46:09.260 align:middle line:90%
+
+
+00:46:09.260 --> 00:46:13.700 align:middle line:84%
+so uniform convergence
+would mean--
+
+00:46:13.700 --> 00:46:15.560 align:middle line:90%
+so uniform convergence.
+
+00:46:15.560 --> 00:46:21.140 align:middle line:90%
+
+
+00:46:21.140 --> 00:46:29.540 align:middle line:90%
+So now let's show.
+
+00:46:29.540 --> 00:46:40.240 align:middle line:84%
+So let's prove that fn does
+not converge uniformly to f.
+
+00:46:40.240 --> 00:46:45.300 align:middle line:90%
+
+
+00:46:45.300 --> 00:46:51.500 align:middle line:90%
+And so I just pick my epsilon.
+
+00:46:51.500 --> 00:46:57.810 align:middle line:84%
+So I pick an epsilon
+less than half.
+
+00:46:57.810 --> 00:47:03.270 align:middle line:84%
+And then if it was
+converging-- and suppose not--
+
+00:47:03.270 --> 00:47:08.000 align:middle line:90%
+
+
+00:47:08.000 --> 00:47:17.700 align:middle line:84%
+that is, suppose fn
+converges to f uniformly.
+
+00:47:17.700 --> 00:47:21.440 align:middle line:90%
+
+
+00:47:21.440 --> 00:47:23.180 align:middle line:90%
+This means that for all epsilon.
+
+00:47:23.180 --> 00:47:25.140 align:middle line:84%
+But I just use
+this epsilon here.
+
+00:47:25.140 --> 00:47:29.040 align:middle line:90%
+I just use this one, epsilon.
+
+00:47:29.040 --> 00:47:37.440 align:middle line:84%
+But then I would have that
+there exists capital N so that--
+
+00:47:37.440 --> 00:47:42.040 align:middle line:84%
+I mean, I can even take
+it to be equal to a half.
+
+00:47:42.040 --> 00:47:47.560 align:middle line:84%
+So there exists
+capital N such that
+
+00:47:47.560 --> 00:47:53.930 align:middle line:84%
+if little n is bigger than
+capital N, then this thing here,
+
+00:47:53.930 --> 00:48:01.850 align:middle line:84%
+minus f of x, would have to
+be strictly less than half
+
+00:48:01.850 --> 00:48:02.910 align:middle line:90%
+for all x.
+
+00:48:02.910 --> 00:48:06.730 align:middle line:90%
+
+
+00:48:06.730 --> 00:48:09.970 align:middle line:84%
+If it was converging
+uniformly, then in particular,
+
+00:48:09.970 --> 00:48:15.970 align:middle line:84%
+for this one choice of epsilon,
+you would have this for all x.
+
+00:48:15.970 --> 00:48:19.310 align:middle line:84%
+But we already know that
+if we are looking at--
+
+00:48:19.310 --> 00:48:22.530 align:middle line:84%
+now depending on what
+this is, but that's fine.
+
+00:48:22.530 --> 00:48:26.450 align:middle line:84%
+If you insert x equal
+to xn, then this
+
+00:48:26.450 --> 00:48:28.990 align:middle line:90%
+is actually equal to a half.
+
+00:48:28.990 --> 00:48:31.410 align:middle line:90%
+So this here does not hold.
+
+00:48:31.410 --> 00:48:32.830 align:middle line:90%
+This is the contradiction.
+
+00:48:32.830 --> 00:48:39.090 align:middle line:90%
+
+
+00:48:39.090 --> 00:48:42.680 align:middle line:84%
+Now, in the other example
+that we looked at before--
+
+00:48:42.680 --> 00:48:50.810 align:middle line:90%
+
+
+00:48:50.810 --> 00:48:54.840 align:middle line:84%
+in the other example
+we have that--
+
+00:48:54.840 --> 00:48:58.830 align:middle line:90%
+
+
+00:48:58.830 --> 00:49:03.470 align:middle line:84%
+in the other example,
+which is this example here,
+
+00:49:03.470 --> 00:49:06.410 align:middle line:84%
+this sequence here
+is converging.
+
+00:49:06.410 --> 00:49:10.590 align:middle line:84%
+And I'll return to
+this in a minute.
+
+00:49:10.590 --> 00:49:14.470 align:middle line:84%
+So in this case,
+these here converge
+
+00:49:14.470 --> 00:49:26.350 align:middle line:84%
+to f uniformly on
+each interval--
+
+00:49:26.350 --> 00:49:27.850 align:middle line:90%
+on each bounded interval.
+
+00:49:27.850 --> 00:49:35.550 align:middle line:84%
+So each interval
+of the form minus L
+
+00:49:35.550 --> 00:49:38.870 align:middle line:84%
+to L. So on each
+bounded interval.
+
+00:49:38.870 --> 00:49:39.670 align:middle line:90%
+OK.
+
+00:49:39.670 --> 00:49:42.540 align:middle line:84%
+And we will talk about
+this more in just a second.
+
+00:49:42.540 --> 00:49:45.910 align:middle line:90%
+
+
+00:49:45.910 --> 00:49:48.820 align:middle line:90%
+OK.
+
+00:49:48.820 --> 00:49:58.200 align:middle line:84%
+And because this is
+the content of what's
+
+00:49:58.200 --> 00:50:01.480 align:middle line:90%
+called Weierstrass M-test.
+
+00:50:01.480 --> 00:50:06.800 align:middle line:84%
+So this holds more generally
+that if you take a sequence--
+
+00:50:06.800 --> 00:50:07.560 align:middle line:90%
+so let's see.
+
+00:50:07.560 --> 00:50:09.420 align:middle line:90%
+Weierstrass M-test.
+
+00:50:09.420 --> 00:50:14.840 align:middle line:90%
+
+
+00:50:14.840 --> 00:50:31.600 align:middle line:84%
+So in Weierstrass M-test,
+you have a sequence
+
+00:50:31.600 --> 00:50:36.980 align:middle line:84%
+of functions, fn, and you
+have that these sequence--
+
+00:50:36.980 --> 00:50:45.640 align:middle line:84%
+so fn, sorry, is functions
+on some interval into R.
+
+00:50:45.640 --> 00:50:58.770 align:middle line:84%
+And then you have that the fn
+are bounded by some constant Mn.
+
+00:50:58.770 --> 00:51:02.810 align:middle line:90%
+And then you have that the Mn--
+
+00:51:02.810 --> 00:51:05.070 align:middle line:84%
+so these are clearly
+non-negative numbers.
+
+00:51:05.070 --> 00:51:08.630 align:middle line:84%
+And you have that
+this series here--
+
+00:51:08.630 --> 00:51:12.010 align:middle line:90%
+
+
+00:51:12.010 --> 00:51:16.190 align:middle line:90%
+this here is finite.
+
+00:51:16.190 --> 00:51:19.470 align:middle line:84%
+So this is a series of
+non-negative numbers.
+
+00:51:19.470 --> 00:51:23.290 align:middle line:84%
+So to say that this
+series is summable
+
+00:51:23.290 --> 00:51:24.940 align:middle line:84%
+is the same as saying
+that it's finite.
+
+00:51:24.940 --> 00:51:29.330 align:middle line:90%
+
+
+00:51:29.330 --> 00:51:33.130 align:middle line:84%
+And now the claim is-- so
+then Weierstrass M-test is--
+
+00:51:33.130 --> 00:51:38.130 align:middle line:90%
+
+
+00:51:38.130 --> 00:51:41.910 align:middle line:84%
+so this is that if
+this here is the case,
+
+00:51:41.910 --> 00:51:49.570 align:middle line:84%
+then this sequence converges
+to some f uniformly.
+
+00:51:49.570 --> 00:51:53.870 align:middle line:90%
+
+
+00:51:53.870 --> 00:51:56.480 align:middle line:90%
+That's Weierstrass M-test.
+
+00:51:56.480 --> 00:51:59.790 align:middle line:90%
+
+
+00:51:59.790 --> 00:52:00.990 align:middle line:90%
+Yeah?
+
+00:52:00.990 --> 00:52:02.510 align:middle line:84%
+AUDIENCE: What does
+this mean here?
+
+00:52:02.510 --> 00:52:05.168 align:middle line:84%
+Is it the absolute
+value of the function?
+
+00:52:05.168 --> 00:52:06.210 align:middle line:90%
+TOBIAS COLDING: Oh, yeah.
+
+00:52:06.210 --> 00:52:09.870 align:middle line:84%
+So this here-- so
+this here means--
+
+00:52:09.870 --> 00:52:15.350 align:middle line:84%
+this here just means
+that fn of x is less than
+
+00:52:15.350 --> 00:52:17.730 align:middle line:90%
+or equal to M for all x.
+
+00:52:17.730 --> 00:52:25.070 align:middle line:90%
+
+
+00:52:25.070 --> 00:52:26.030 align:middle line:90%
+Yeah.
+
+00:52:26.030 --> 00:52:31.370 align:middle line:84%
+That's a kind of quite
+common used situation.
+
+00:52:31.370 --> 00:52:34.030 align:middle line:90%
+
+
+00:52:34.030 --> 00:52:35.918 align:middle line:90%
+OK.
+
+00:52:35.918 --> 00:52:37.620 align:middle line:90%
+So let's try to prove that.
+
+00:52:37.620 --> 00:52:45.270 align:middle line:90%
+
+
+00:52:45.270 --> 00:52:47.410 align:middle line:90%
+So we are looking at--
+
+00:52:47.410 --> 00:52:53.000 align:middle line:90%
+
+
+00:52:53.000 --> 00:52:54.900 align:middle line:90%
+so suppose we look at--
+
+00:52:54.900 --> 00:52:58.080 align:middle line:90%
+suppose we define Sn of x.
+
+00:52:58.080 --> 00:53:03.880 align:middle line:84%
+So this is just when you're
+summing from k equal to 0
+
+00:53:03.880 --> 00:53:08.160 align:middle line:90%
+to n of fk of x.
+
+00:53:08.160 --> 00:53:10.240 align:middle line:90%
+Suppose you're looking at this.
+
+00:53:10.240 --> 00:53:12.160 align:middle line:90%
+And you want to prove--
+
+00:53:12.160 --> 00:53:13.410 align:middle line:90%
+so I want to show--
+
+00:53:13.410 --> 00:53:20.320 align:middle line:90%
+
+
+00:53:20.320 --> 00:53:21.940 align:middle line:90%
+yeah, sorry about that.
+
+00:53:21.940 --> 00:53:23.460 align:middle line:84%
+This is not what
+we want to prove.
+
+00:53:23.460 --> 00:53:25.360 align:middle line:90%
+Sorry.
+
+00:53:25.360 --> 00:53:27.880 align:middle line:90%
+Sorry, I should have said.
+
+00:53:27.880 --> 00:53:28.720 align:middle line:90%
+Yeah.
+
+00:53:28.720 --> 00:53:31.220 align:middle line:84%
+It's not these
+functions that converge.
+
+00:53:31.220 --> 00:53:33.560 align:middle line:90%
+It's the sum of them.
+
+00:53:33.560 --> 00:53:36.000 align:middle line:84%
+So what I want to
+prove is that--
+
+00:53:36.000 --> 00:53:38.560 align:middle line:84%
+I want to prove that
+this thing here--
+
+00:53:38.560 --> 00:53:45.780 align:middle line:84%
+as k equal to 0 to n,
+that this function here
+
+00:53:45.780 --> 00:53:50.270 align:middle line:90%
+converge uniformly.
+
+00:53:50.270 --> 00:53:50.770 align:middle line:90%
+OK?
+
+00:53:50.770 --> 00:53:53.740 align:middle line:90%
+
+
+00:53:53.740 --> 00:53:56.140 align:middle line:90%
+So think about it.
+
+00:53:56.140 --> 00:54:02.740 align:middle line:84%
+You want this to probably
+apply to some power series.
+
+00:54:02.740 --> 00:54:09.700 align:middle line:84%
+And so the individual fk
+is like this polynomial.
+
+00:54:09.700 --> 00:54:13.860 align:middle line:90%
+It's of some degree.
+
+00:54:13.860 --> 00:54:16.100 align:middle line:90%
+OK.
+
+00:54:16.100 --> 00:54:20.020 align:middle line:90%
+So we define this function Sn.
+
+00:54:20.020 --> 00:54:26.170 align:middle line:84%
+And I want to prove this
+Sn and then converge.
+
+00:54:26.170 --> 00:54:30.220 align:middle line:90%
+
+
+00:54:30.220 --> 00:54:33.660 align:middle line:84%
+And if it's OK, I
+think it's better
+
+00:54:33.660 --> 00:54:37.620 align:middle line:84%
+to call this something else
+than little f, to call it S,
+
+00:54:37.620 --> 00:54:40.800 align:middle line:84%
+because it's not these
+guys that converge.
+
+00:54:40.800 --> 00:54:42.270 align:middle line:84%
+It's the sum of
+them that converge.
+
+00:54:42.270 --> 00:54:46.288 align:middle line:90%
+
+
+00:54:46.288 --> 00:54:52.910 align:middle line:84%
+So we want to show that these
+guys here, the Sn converts
+
+00:54:52.910 --> 00:54:54.640 align:middle line:90%
+to this S uniform.
+
+00:54:54.640 --> 00:54:59.310 align:middle line:90%
+
+
+00:54:59.310 --> 00:55:02.590 align:middle line:90%
+That's what we want to prove.
+
+00:55:02.590 --> 00:55:06.830 align:middle line:84%
+Now, let's look
+at the difference
+
+00:55:06.830 --> 00:55:14.150 align:middle line:90%
+between Sn of x and Sm of x.
+
+00:55:14.150 --> 00:55:21.710 align:middle line:84%
+And so here I'm going to think
+about n as being larger than m.
+
+00:55:21.710 --> 00:55:24.010 align:middle line:84%
+Suppose I'm thinking
+about this thing here.
+
+00:55:24.010 --> 00:55:26.550 align:middle line:90%
+
+
+00:55:26.550 --> 00:55:32.910 align:middle line:84%
+Well, this here is when
+you're summing the first--
+
+00:55:32.910 --> 00:55:35.870 align:middle line:84%
+I guess you're starting
+at k equal to 0.
+
+00:55:35.870 --> 00:55:42.330 align:middle line:84%
+So then we're summing the
+first n plus 1 of those guys.
+
+00:55:42.330 --> 00:55:43.783 align:middle line:90%
+Here, we're summing more.
+
+00:55:43.783 --> 00:55:45.450 align:middle line:84%
+We're summing those
+guys, but then we're
+
+00:55:45.450 --> 00:55:47.610 align:middle line:90%
+also summing some more.
+
+00:55:47.610 --> 00:55:50.730 align:middle line:90%
+And so this thing here--
+
+00:55:50.730 --> 00:55:52.710 align:middle line:90%
+so let me just write it out.
+
+00:55:52.710 --> 00:55:59.450 align:middle line:90%
+So k equal to 0 to n of fk of x.
+
+00:55:59.450 --> 00:56:03.250 align:middle line:84%
+And the second one is
+when we're summing.
+
+00:56:03.250 --> 00:56:04.550 align:middle line:90%
+n is bigger than m.
+
+00:56:04.550 --> 00:56:06.360 align:middle line:84%
+So here, we are
+actually summing fewer.
+
+00:56:06.360 --> 00:56:10.050 align:middle line:90%
+
+
+00:56:10.050 --> 00:56:14.890 align:middle line:84%
+And so of course, the difference
+is between these two are,
+
+00:56:14.890 --> 00:56:21.010 align:middle line:84%
+how many more of these guys
+are there than those guys?
+
+00:56:21.010 --> 00:56:23.610 align:middle line:84%
+So this is summing
+absolute value,
+
+00:56:23.610 --> 00:56:33.410 align:middle line:84%
+where we're summing from k equal
+to m plus 1 up to n of fk of x.
+
+00:56:33.410 --> 00:56:35.870 align:middle line:90%
+So that's what it's equal to.
+
+00:56:35.870 --> 00:56:37.950 align:middle line:84%
+And we didn't even have
+to have absolute value.
+
+00:56:37.950 --> 00:56:41.460 align:middle line:84%
+But in a minute, it's useful
+to have absolute value.
+
+00:56:41.460 --> 00:56:44.060 align:middle line:84%
+Because now, of
+course, this sum here
+
+00:56:44.060 --> 00:56:49.730 align:middle line:84%
+is less than the sum of
+the absolute values k
+
+00:56:49.730 --> 00:56:53.500 align:middle line:90%
+equal to m plus 1 to n.
+
+00:56:53.500 --> 00:56:56.420 align:middle line:84%
+And then we take
+the absolute value
+
+00:56:56.420 --> 00:57:00.510 align:middle line:84%
+in under the summation
+sign, like this.
+
+00:57:00.510 --> 00:57:04.740 align:middle line:84%
+But now we can use
+our condition here.
+
+00:57:04.740 --> 00:57:11.700 align:middle line:84%
+So this thing here is less than
+or equal to the sum here from k
+
+00:57:11.700 --> 00:57:16.580 align:middle line:90%
+equal to m plus 1 up to n of Mk.
+
+00:57:16.580 --> 00:57:22.260 align:middle line:90%
+
+
+00:57:22.260 --> 00:57:29.880 align:middle line:84%
+But those guys, this is just
+a sequence of real numbers.
+
+00:57:29.880 --> 00:57:30.880 align:middle line:90%
+This is not a function.
+
+00:57:30.880 --> 00:57:32.380 align:middle line:90%
+It's just real numbers.
+
+00:57:32.380 --> 00:57:33.900 align:middle line:90%
+And they converge.
+
+00:57:33.900 --> 00:57:36.020 align:middle line:90%
+So this means that--
+
+00:57:36.020 --> 00:57:39.430 align:middle line:90%
+so this means that given--
+
+00:57:39.430 --> 00:57:45.670 align:middle line:84%
+this means that you have-- that
+you can make this thing here
+
+00:57:45.670 --> 00:57:50.790 align:middle line:84%
+as small as you want, as long
+as m is sufficiently large.
+
+00:57:50.790 --> 00:57:54.190 align:middle line:90%
+
+
+00:57:54.190 --> 00:58:06.400 align:middle line:90%
+So given-- so given--
+
+00:58:06.400 --> 00:58:09.630 align:middle line:90%
+
+
+00:58:09.630 --> 00:58:13.830 align:middle line:84%
+so given epsilon
+greater than 0, there
+
+00:58:13.830 --> 00:58:19.510 align:middle line:84%
+exists a capital N
+such that if m here
+
+00:58:19.510 --> 00:58:28.870 align:middle line:84%
+is bigger than capital N,
+then the sum here of the tail,
+
+00:58:28.870 --> 00:58:37.230 align:middle line:84%
+this thing here, up to
+anything else of this Mk,
+
+00:58:37.230 --> 00:58:38.890 align:middle line:90%
+that this is less than epsilon.
+
+00:58:38.890 --> 00:58:41.410 align:middle line:90%
+
+
+00:58:41.410 --> 00:58:44.470 align:middle line:84%
+And so you see that
+this is really saying--
+
+00:58:44.470 --> 00:58:50.450 align:middle line:84%
+so this implies that
+the Sn for each x--
+
+00:58:50.450 --> 00:58:55.410 align:middle line:84%
+for each x, you can think about
+this thing here as a sequence.
+
+00:58:55.410 --> 00:58:59.490 align:middle line:84%
+And so you have that
+now this sequence
+
+00:58:59.490 --> 00:59:02.670 align:middle line:90%
+here is a Cauchy sequence.
+
+00:59:02.670 --> 00:59:05.300 align:middle line:84%
+For each x, this here
+is a Cauchy sequence.
+
+00:59:05.300 --> 00:59:13.370 align:middle line:90%
+
+
+00:59:13.370 --> 00:59:17.410 align:middle line:84%
+So this means that
+this Sn of x, they
+
+00:59:17.410 --> 00:59:19.770 align:middle line:84%
+will actually
+converge to something.
+
+00:59:19.770 --> 00:59:23.170 align:middle line:84%
+And that's something
+I call S of x.
+
+00:59:23.170 --> 00:59:26.410 align:middle line:84%
+So that gives you
+a function S of x.
+
+00:59:26.410 --> 00:59:30.350 align:middle line:84%
+But it gives you
+more because you see,
+
+00:59:30.350 --> 00:59:33.050 align:middle line:84%
+it actually shows
+you something about--
+
+00:59:33.050 --> 00:59:39.380 align:middle line:84%
+because this inequality here,
+that this difference here
+
+00:59:39.380 --> 00:59:40.740 align:middle line:90%
+is less than that.
+
+00:59:40.740 --> 00:59:44.820 align:middle line:90%
+That holds for all x.
+
+00:59:44.820 --> 00:59:48.300 align:middle line:90%
+So this means that--
+
+00:59:48.300 --> 00:59:51.860 align:middle line:84%
+this means that as
+you're sending--
+
+00:59:51.860 --> 00:59:55.630 align:middle line:90%
+so this means that you have--
+
+00:59:55.630 --> 00:59:58.740 align:middle line:90%
+
+
+00:59:58.740 --> 01:00:01.700 align:middle line:90%
+so now let n go to infinity.
+
+01:00:01.700 --> 01:00:04.320 align:middle line:84%
+If you take this
+inequality here--
+
+01:00:04.320 --> 01:00:07.420 align:middle line:84%
+so you we have
+this inequality, Sn
+
+01:00:07.420 --> 01:00:15.820 align:middle line:84%
+of x minus Sm of x is less
+than or equal to the sum
+
+01:00:15.820 --> 01:00:22.860 align:middle line:84%
+here, k equal to n
+plus 1 to n of Mk.
+
+01:00:22.860 --> 01:00:24.680 align:middle line:90%
+So we have this inequality.
+
+01:00:24.680 --> 01:00:28.900 align:middle line:84%
+And in fact, you can
+write it as if you're
+
+01:00:28.900 --> 01:00:30.340 align:middle line:90%
+summing over the entirety.
+
+01:00:30.340 --> 01:00:37.600 align:middle line:90%
+
+
+01:00:37.600 --> 01:00:40.920 align:middle line:84%
+And so now this side
+of it, this side
+
+01:00:40.920 --> 01:00:43.920 align:middle line:90%
+does not depend on little n.
+
+01:00:43.920 --> 01:00:46.640 align:middle line:84%
+This here holds as
+long as all here we
+
+01:00:46.640 --> 01:00:50.680 align:middle line:84%
+require was that this
+here was bigger than that.
+
+01:00:50.680 --> 01:00:54.080 align:middle line:84%
+And so as n goes
+to infinity, you
+
+01:00:54.080 --> 01:01:02.780 align:middle line:84%
+have that S of x minus Sm of
+x will have to be less than
+
+01:01:02.780 --> 01:01:03.950 align:middle line:90%
+or equal to the sum.
+
+01:01:03.950 --> 01:01:06.960 align:middle line:90%
+
+
+01:01:06.960 --> 01:01:11.800 align:middle line:84%
+And the key point here for
+this Weierstrass M-test
+
+01:01:11.800 --> 01:01:15.280 align:middle line:90%
+is that this here holds for all.
+
+01:01:15.280 --> 01:01:19.160 align:middle line:90%
+This inequality holds for all x.
+
+01:01:19.160 --> 01:01:20.980 align:middle line:90%
+You see that little n is gone.
+
+01:01:20.980 --> 01:01:26.080 align:middle line:84%
+There's only this
+capital N. Sorry, the M.
+
+01:01:26.080 --> 01:01:29.780 align:middle line:90%
+And so now we again--
+
+01:01:29.780 --> 01:01:35.630 align:middle line:84%
+so as long as you choose
+some N insufficiently large,
+
+01:01:35.630 --> 01:01:39.530 align:middle line:84%
+then if little m is
+bigger or equal to this N,
+
+01:01:39.530 --> 01:01:43.930 align:middle line:84%
+then you can make this sum here
+that have no reference to x.
+
+01:01:43.930 --> 01:01:45.916 align:middle line:84%
+You can make this
+less than epsilon.
+
+01:01:45.916 --> 01:01:48.730 align:middle line:90%
+
+
+01:01:48.730 --> 01:01:51.370 align:middle line:84%
+So this here is
+less than epsilon.
+
+01:01:51.370 --> 01:01:53.930 align:middle line:84%
+And you have this
+inequality for all x.
+
+01:01:53.930 --> 01:01:57.710 align:middle line:84%
+So you have this one here
+less than this for all x.
+
+01:01:57.710 --> 01:01:59.830 align:middle line:84%
+And that's exactly
+uniform convergence.
+
+01:01:59.830 --> 01:02:00.530 align:middle line:90%
+Yeah?
+
+01:02:00.530 --> 01:02:03.090 align:middle line:84%
+AUDIENCE: Where did
+we get the first--
+
+01:02:03.090 --> 01:02:05.890 align:middle line:84%
+when we said that the
+sum of these Mk's are
+
+01:02:05.890 --> 01:02:08.590 align:middle line:84%
+less than epsilon, where
+did that come from?
+
+01:02:08.590 --> 01:02:13.050 align:middle line:90%
+
+
+01:02:13.050 --> 01:02:16.970 align:middle line:90%
+TOBIAS COLDING: So let me just--
+
+01:02:16.970 --> 01:02:19.750 align:middle line:84%
+I'll get to this
+in just a second.
+
+01:02:19.750 --> 01:02:23.690 align:middle line:84%
+But let me just say what
+is the strategy here.
+
+01:02:23.690 --> 01:02:27.016 align:middle line:90%
+So we have this sequence.
+
+01:02:27.016 --> 01:02:30.170 align:middle line:90%
+
+
+01:02:30.170 --> 01:02:32.220 align:middle line:84%
+Maybe I erased the
+statement, unfortunately.
+
+01:02:32.220 --> 01:02:38.660 align:middle line:84%
+So we have this sequence of
+functions on an interval.
+
+01:02:38.660 --> 01:02:45.380 align:middle line:84%
+And you had that this function
+here was bounded like this.
+
+01:02:45.380 --> 01:02:49.900 align:middle line:84%
+And then you had that these
+are just real numbers.
+
+01:02:49.900 --> 01:02:56.900 align:middle line:84%
+And you had that these real
+numbers here were summable.
+
+01:02:56.900 --> 01:03:01.164 align:middle line:84%
+So these are non-negative,
+real numbers, of course.
+
+01:03:01.164 --> 01:03:05.020 align:middle line:90%
+And so then-- and I claim--
+
+01:03:05.020 --> 01:03:10.820 align:middle line:84%
+so the claim is that the sum
+here of these guys, these
+
+01:03:10.820 --> 01:03:17.620 align:middle line:84%
+here, I claim that these guys
+here converge uniformly to some
+
+01:03:17.620 --> 01:03:20.340 align:middle line:90%
+function S of x.
+
+01:03:20.340 --> 01:03:25.460 align:middle line:84%
+The first step is to
+say that they actually--
+
+01:03:25.460 --> 01:03:28.700 align:middle line:84%
+that there exists
+some function S,
+
+01:03:28.700 --> 01:03:32.480 align:middle line:84%
+and they converge to
+that function pointwise.
+
+01:03:32.480 --> 01:03:40.240 align:middle line:84%
+In order to prove that, I
+proved that these sums here,
+
+01:03:40.240 --> 01:03:43.700 align:middle line:84%
+for each fixed x, is
+a Cauchy sequence.
+
+01:03:43.700 --> 01:03:47.320 align:middle line:84%
+Once there is a Cauchy
+sequence for each fixed x,
+
+01:03:47.320 --> 01:03:49.800 align:middle line:90%
+then they will be convergent.
+
+01:03:49.800 --> 01:03:55.000 align:middle line:84%
+And the limits are now
+defined to be S of x.
+
+01:03:55.000 --> 01:03:57.200 align:middle line:90%
+So that gives me a function.
+
+01:03:57.200 --> 01:03:58.840 align:middle line:84%
+And then the thing
+is that I have
+
+01:03:58.840 --> 01:04:01.240 align:middle line:84%
+to upgrade this
+convergence, which
+
+01:04:01.240 --> 01:04:06.220 align:middle line:84%
+initially is pointwise
+to uniform convergence.
+
+01:04:06.220 --> 01:04:08.580 align:middle line:90%
+And so now you are asking--
+
+01:04:08.580 --> 01:04:10.200 align:middle line:90%
+so now--
+
+01:04:10.200 --> 01:04:14.440 align:middle line:84%
+AUDIENCE: Why did-- so we got
+the sum of Mk's But then where
+
+01:04:14.440 --> 01:04:14.960 align:middle line:90%
+did we--
+
+01:04:14.960 --> 01:04:16.292 align:middle line:90%
+how did we just [INAUDIBLE]?
+
+01:04:16.292 --> 01:04:17.500 align:middle line:90%
+TOBIAS COLDING: That's right.
+
+01:04:17.500 --> 01:04:21.600 align:middle line:84%
+And so now-- so this here
+was just very general.
+
+01:04:21.600 --> 01:04:25.180 align:middle line:84%
+And it just used
+this inequality.
+
+01:04:25.180 --> 01:04:27.360 align:middle line:90%
+That's all it used.
+
+01:04:27.360 --> 01:04:31.370 align:middle line:84%
+Now I'm using that
+these guys are summable.
+
+01:04:31.370 --> 01:04:34.410 align:middle line:84%
+So this means that if I'm
+starting this summation
+
+01:04:34.410 --> 01:04:37.370 align:middle line:84%
+sufficiently far
+out, then I can make
+
+01:04:37.370 --> 01:04:39.676 align:middle line:90%
+it less than a given epsilon.
+
+01:04:39.676 --> 01:04:40.490 align:middle line:90%
+AUDIENCE: Oh, OK.
+
+01:04:40.490 --> 01:04:41.810 align:middle line:90%
+Because it's technically--
+
+01:04:41.810 --> 01:04:43.643 align:middle line:84%
+TOBIAS COLDING: Because
+it's just like that.
+
+01:04:43.643 --> 01:04:45.330 align:middle line:90%
+These are non-negative number.
+
+01:04:45.330 --> 01:04:48.010 align:middle line:84%
+And that they are
+summable just means
+
+01:04:48.010 --> 01:04:52.470 align:middle line:84%
+that if I go out really, really
+far, then from there on out,
+
+01:04:52.470 --> 01:04:55.890 align:middle line:84%
+it makes very little
+contribution to the total sum.
+
+01:04:55.890 --> 01:04:58.570 align:middle line:90%
+OK.
+
+01:04:58.570 --> 01:04:59.070 align:middle line:90%
+OK.
+
+01:04:59.070 --> 01:05:01.330 align:middle line:90%
+So right.
+
+01:05:01.330 --> 01:05:04.950 align:middle line:90%
+So right.
+
+01:05:04.950 --> 01:05:11.370 align:middle line:84%
+So you see the first thing
+is, for each fixed x,
+
+01:05:11.370 --> 01:05:17.210 align:middle line:84%
+I prove that these Sn of x is a
+Cauchy sequence that then allow
+
+01:05:17.210 --> 01:05:21.170 align:middle line:90%
+me to define a function S of x.
+
+01:05:21.170 --> 01:05:25.190 align:middle line:84%
+And I get that the sequence
+Sn of x is converging.
+
+01:05:25.190 --> 01:05:27.810 align:middle line:84%
+The sequence function
+is converging pointwise.
+
+01:05:27.810 --> 01:05:30.090 align:middle line:84%
+And then again,
+once I have that,
+
+01:05:30.090 --> 01:05:33.450 align:middle line:84%
+then I need to upgrade it
+to be uniform convergence.
+
+01:05:33.450 --> 01:05:35.290 align:middle line:90%
+And that's what we did here.
+
+01:05:35.290 --> 01:05:35.790 align:middle line:90%
+OK?
+
+01:05:35.790 --> 01:05:38.670 align:middle line:90%
+
+
+01:05:38.670 --> 01:05:39.750 align:middle line:90%
+OK.
+
+01:05:39.750 --> 01:05:44.710 align:middle line:90%
+So now let's try to apply this.
+
+01:05:44.710 --> 01:05:45.870 align:middle line:90%
+Yeah?
+
+01:05:45.870 --> 01:05:52.030 align:middle line:84%
+AUDIENCE: So what if the Mk's
+are kind of converging sequence
+
+01:05:52.030 --> 01:05:58.070 align:middle line:84%
+but in the small side, the
+0 side, is on a low index?
+
+01:05:58.070 --> 01:06:05.270 align:middle line:84%
+So then, as I go further
+out, it's getting bigger.
+
+01:06:05.270 --> 01:06:07.090 align:middle line:84%
+TOBIAS COLDING: Can
+we look at an example
+
+01:06:07.090 --> 01:06:09.630 align:middle line:90%
+and see if it becomes clear?
+
+01:06:09.630 --> 01:06:13.275 align:middle line:90%
+So let's look at a sort of--
+
+01:06:13.275 --> 01:06:16.670 align:middle line:90%
+let's look at an example.
+
+01:06:16.670 --> 01:06:21.830 align:middle line:84%
+Let's look at a very-- yeah,
+let's look at an example.
+
+01:06:21.830 --> 01:06:25.550 align:middle line:84%
+So in fact, let's look at the
+function, the example we just
+
+01:06:25.550 --> 01:06:27.760 align:middle line:84%
+looked at, where we
+said that it followed
+
+01:06:27.760 --> 01:06:30.820 align:middle line:90%
+from Weierstrass M-test.
+
+01:06:30.820 --> 01:06:34.600 align:middle line:84%
+So what was the example
+I just looked at?
+
+01:06:34.600 --> 01:06:39.480 align:middle line:90%
+So I take a function fn of x.
+
+01:06:39.480 --> 01:06:46.360 align:middle line:84%
+This is now x to the n
+divided by n factorial.
+
+01:06:46.360 --> 01:06:51.400 align:middle line:90%
+Now I define Sn of x.
+
+01:06:51.400 --> 01:06:55.000 align:middle line:84%
+So this is now the
+sum from k equal to 0
+
+01:06:55.000 --> 01:06:57.960 align:middle line:90%
+to n of this fn of x--
+
+01:06:57.960 --> 01:06:59.680 align:middle line:90%
+fk of x, sorry.
+
+01:06:59.680 --> 01:07:02.080 align:middle line:84%
+So this means that
+this thing here
+
+01:07:02.080 --> 01:07:10.440 align:middle line:84%
+is the sum from k equal to 0
+to n of xk over k factorial.
+
+01:07:10.440 --> 01:07:11.600 align:middle line:90%
+OK?
+
+01:07:11.600 --> 01:07:14.720 align:middle line:90%
+And I want to show that this--
+
+01:07:14.720 --> 01:07:23.480 align:middle line:84%
+so I want to show
+that this Sn of x
+
+01:07:23.480 --> 01:07:34.930 align:middle line:84%
+converges to the exponential
+function uniformly
+
+01:07:34.930 --> 01:07:39.370 align:middle line:90%
+on an interval of this form.
+
+01:07:39.370 --> 01:07:42.010 align:middle line:84%
+So L is some fixed
+number, and I'm
+
+01:07:42.010 --> 01:07:45.950 align:middle line:84%
+looking between minus L to L.
+And I claim that they converge.
+
+01:07:45.950 --> 01:07:49.230 align:middle line:84%
+Now, let's try to apply
+Weierstrass M-test.
+
+01:07:49.230 --> 01:07:53.210 align:middle line:90%
+And so what are the Mn?
+
+01:07:53.210 --> 01:07:56.170 align:middle line:84%
+The Mn, in this
+case, the natural one
+
+01:07:56.170 --> 01:08:01.670 align:middle line:84%
+is L to the power n
+times n factorial.
+
+01:08:01.670 --> 01:08:04.622 align:middle line:90%
+
+
+01:08:04.622 --> 01:08:10.730 align:middle line:84%
+If I'm looking at those numbers,
+these are non-negative numbers.
+
+01:08:10.730 --> 01:08:16.490 align:middle line:84%
+And we already know that this
+sequence of non-negative numbers
+
+01:08:16.490 --> 01:08:20.569 align:middle line:84%
+is summable, that these
+non-negative numbers,
+
+01:08:20.569 --> 01:08:22.970 align:middle line:84%
+like this, that
+they are summable.
+
+01:08:22.970 --> 01:08:29.670 align:middle line:90%
+
+
+01:08:29.670 --> 01:08:32.109 align:middle line:90%
+And suppose now I have--
+
+01:08:32.109 --> 01:08:36.950 align:middle line:90%
+suppose now I take this fn of x.
+
+01:08:36.950 --> 01:08:41.870 align:middle line:84%
+So this is this function x to
+the power n over n factorial.
+
+01:08:41.870 --> 01:08:46.830 align:middle line:84%
+x here, remember, is in
+this bounded interval.
+
+01:08:46.830 --> 01:08:50.950 align:middle line:90%
+Well, let's look at fn of x.
+
+01:08:50.950 --> 01:08:56.470 align:middle line:90%
+So this is xn over n factorial.
+
+01:08:56.470 --> 01:08:58.470 align:middle line:84%
+But this thing here--
+so this is just
+
+01:08:58.470 --> 01:09:02.710 align:middle line:90%
+x to the power n n factorial.
+
+01:09:02.710 --> 01:09:05.130 align:middle line:90%
+This is why it's lying in here.
+
+01:09:05.130 --> 01:09:08.710 align:middle line:84%
+So the absolute value
+is bounded by L.
+
+01:09:08.710 --> 01:09:13.250 align:middle line:90%
+So this is L n over n factorial.
+
+01:09:13.250 --> 01:09:20.470 align:middle line:84%
+So I have that this sequence
+is less than this Mn.
+
+01:09:20.470 --> 01:09:22.939 align:middle line:90%
+And so now, Weierstrass.
+
+01:09:22.939 --> 01:09:27.399 align:middle line:84%
+But we restrict to
+this interval here.
+
+01:09:27.399 --> 01:09:34.840 align:middle line:84%
+And so now Weierstrass M-test
+tells you that the sum here,
+
+01:09:34.840 --> 01:09:41.920 align:middle line:84%
+when you're summing from k to
+0 to n xk over k factorial,
+
+01:09:41.920 --> 01:09:52.220 align:middle line:84%
+that these actually converge
+to the limit uniformly on--
+
+01:09:52.220 --> 01:09:56.160 align:middle line:84%
+But remember, we
+are restricting.
+
+01:09:56.160 --> 01:10:01.320 align:middle line:84%
+And the limit here, we
+already have defined the limit
+
+01:10:01.320 --> 01:10:03.030 align:middle line:90%
+to be the exponential function.
+
+01:10:03.030 --> 01:10:08.290 align:middle line:90%
+
+
+01:10:08.290 --> 01:10:10.200 align:middle line:90%
+Is that clear or not?
+
+01:10:10.200 --> 01:10:13.520 align:middle line:90%
+Does that answer, or not really?
+
+01:10:13.520 --> 01:10:14.880 align:middle line:90%
+AUDIENCE: I'm not sure.
+
+01:10:14.880 --> 01:10:16.140 align:middle line:90%
+TOBIAS COLDING: OK.
+
+01:10:16.140 --> 01:10:19.070 align:middle line:84%
+AUDIENCE: So I guess
+my question was,
+
+01:10:19.070 --> 01:10:23.465 align:middle line:84%
+is it that Mn must be
+a convergent series?
+
+01:10:23.465 --> 01:10:24.340 align:middle line:90%
+TOBIAS COLDING: Yeah.
+
+01:10:24.340 --> 01:10:26.060 align:middle line:90%
+So Mn-- that's right.
+
+01:10:26.060 --> 01:10:28.620 align:middle line:90%
+So Mn.
+
+01:10:28.620 --> 01:10:34.385 align:middle line:84%
+Mn, in this example or in
+the general example, it's--
+
+01:10:34.385 --> 01:10:37.180 align:middle line:90%
+
+
+01:10:37.180 --> 01:10:40.440 align:middle line:84%
+so why is the Mn so much
+easier to determine?
+
+01:10:40.440 --> 01:10:42.200 align:middle line:90%
+Because they are just numbers.
+
+01:10:42.200 --> 01:10:44.280 align:middle line:84%
+They are just
+non-negative numbers.
+
+01:10:44.280 --> 01:10:48.980 align:middle line:84%
+And you're just asking if the
+series of non-negative numbers--
+
+01:10:48.980 --> 01:10:51.340 align:middle line:84%
+it's not function, it's
+non-negative numbers--
+
+01:10:51.340 --> 01:10:53.160 align:middle line:90%
+if that's convergent or not.
+
+01:10:53.160 --> 01:10:56.740 align:middle line:84%
+And so since they're
+non-negative,
+
+01:10:56.740 --> 01:11:01.145 align:middle line:84%
+it just means that
+the sum is finite.
+
+01:11:01.145 --> 01:11:07.920 align:middle line:84%
+And so that's much
+easier to determine.
+
+01:11:07.920 --> 01:11:08.420 align:middle line:90%
+OK.
+
+01:11:08.420 --> 01:11:11.680 align:middle line:90%
+
+
+01:11:11.680 --> 01:11:17.660 align:middle line:84%
+So now we can do the same
+argument more generally.
+
+01:11:17.660 --> 01:11:26.790 align:middle line:84%
+So this leads us to the
+following, that suppose
+
+01:11:26.790 --> 01:11:28.080 align:middle line:90%
+you take a power series.
+
+01:11:28.080 --> 01:11:33.750 align:middle line:90%
+
+
+01:11:33.750 --> 01:11:36.030 align:middle line:84%
+So suppose you take
+a power series.
+
+01:11:36.030 --> 01:11:42.210 align:middle line:84%
+So you're summing here n
+equal to 0 to infinity a n xn.
+
+01:11:42.210 --> 01:11:44.310 align:middle line:90%
+This is a power series.
+
+01:11:44.310 --> 01:11:45.370 align:middle line:90%
+So power series.
+
+01:11:45.370 --> 01:11:48.110 align:middle line:84%
+Remember that a
+power series is where
+
+01:11:48.110 --> 01:11:53.070 align:middle line:84%
+you're taking a sequence
+of numbers, real numbers,
+
+01:11:53.070 --> 01:11:56.630 align:middle line:84%
+and you think about these as
+coefficients in this polynomial.
+
+01:11:56.630 --> 01:11:58.870 align:middle line:84%
+And then you're
+summing over them.
+
+01:11:58.870 --> 01:12:07.350 align:middle line:84%
+But it's like-- a n is the
+coefficient to x to the power n.
+
+01:12:07.350 --> 01:12:08.690 align:middle line:90%
+So this is a power series.
+
+01:12:08.690 --> 01:12:10.410 align:middle line:90%
+And a power series again means--
+
+01:12:10.410 --> 01:12:14.390 align:middle line:84%
+so you think about it as a
+series because for each x,
+
+01:12:14.390 --> 01:12:16.970 align:middle line:90%
+it's like a regular series.
+
+01:12:16.970 --> 01:12:23.090 align:middle line:84%
+But then it's like the value
+that you get depends on x.
+
+01:12:23.090 --> 01:12:26.990 align:middle line:84%
+And so for this, we defined
+the radius of convergence.
+
+01:12:26.990 --> 01:12:34.610 align:middle line:90%
+
+
+01:12:34.610 --> 01:12:38.930 align:middle line:84%
+And let me remind you how
+this radius of convergence
+
+01:12:38.930 --> 01:12:41.090 align:middle line:90%
+was defined.
+
+01:12:41.090 --> 01:12:47.710 align:middle line:84%
+You take the a n, and you
+take the absolute value of it,
+
+01:12:47.710 --> 01:12:50.650 align:middle line:84%
+and then you take the
+n-th root of that.
+
+01:12:50.650 --> 01:12:56.150 align:middle line:84%
+And then you're looking at
+limsup as n goes to infinity.
+
+01:12:56.150 --> 01:13:00.418 align:middle line:90%
+
+
+01:13:00.418 --> 01:13:02.890 align:middle line:90%
+That gives you some number.
+
+01:13:02.890 --> 01:13:06.490 align:middle line:84%
+That number potentially
+could be infinity.
+
+01:13:06.490 --> 01:13:09.990 align:middle line:84%
+It's always non-negative, and it
+will always give you a number.
+
+01:13:09.990 --> 01:13:12.250 align:middle line:84%
+It could be 0, it
+could be infinity,
+
+01:13:12.250 --> 01:13:15.010 align:middle line:84%
+and it could be
+anything in between.
+
+01:13:15.010 --> 01:13:17.560 align:middle line:84%
+And then the radius
+of convergence--
+
+01:13:17.560 --> 01:13:21.980 align:middle line:90%
+
+
+01:13:21.980 --> 01:13:33.770 align:middle line:84%
+of convergence of
+the power series is--
+
+01:13:33.770 --> 01:13:36.660 align:middle line:90%
+
+
+01:13:36.660 --> 01:13:43.260 align:middle line:84%
+so this is right by R.
+And this is 1 over M.
+
+01:13:43.260 --> 01:13:47.473 align:middle line:84%
+And where this convention
+in this case-- usually,
+
+01:13:47.473 --> 01:13:51.240 align:middle line:84%
+you don't divide
+by 0 or infinity.
+
+01:13:51.240 --> 01:13:54.560 align:middle line:84%
+But in this case,
+if M here is 0,
+
+01:13:54.560 --> 01:13:58.180 align:middle line:84%
+this means that the radius
+of convergence is infinite.
+
+01:13:58.180 --> 01:14:04.300 align:middle line:84%
+If M is infinite, then it means
+that the radius of convergence
+
+01:14:04.300 --> 01:14:04.940 align:middle line:90%
+is 0.
+
+01:14:04.940 --> 01:14:10.000 align:middle line:84%
+And now the slightly
+surprising fact.
+
+01:14:10.000 --> 01:14:11.260 align:middle line:90%
+But we proved this.
+
+01:14:11.260 --> 01:14:13.860 align:middle line:84%
+But I'm just reminding
+you about it,
+
+01:14:13.860 --> 01:14:22.710 align:middle line:84%
+that the thing is that the
+power series is convergent.
+
+01:14:22.710 --> 01:14:24.230 align:middle line:90%
+So here you have 0.
+
+01:14:24.230 --> 01:14:27.090 align:middle line:90%
+It's convergent inside.
+
+01:14:27.090 --> 01:14:33.030 align:middle line:84%
+If this here is R, it's
+convergent inside here,
+
+01:14:33.030 --> 01:14:35.670 align:middle line:90%
+and it's divergent outside.
+
+01:14:35.670 --> 01:14:40.782 align:middle line:84%
+But it's not completely clear
+what happened on the boundary.
+
+01:14:40.782 --> 01:14:47.010 align:middle line:84%
+So you have to check
+the boundary separately.
+
+01:14:47.010 --> 01:14:48.930 align:middle line:90%
+And that depends on the power.
+
+01:14:48.930 --> 01:14:52.110 align:middle line:84%
+There's no general
+formula for that.
+
+01:14:52.110 --> 01:14:58.510 align:middle line:84%
+So now the theorem
+here is that--
+
+01:14:58.510 --> 01:15:00.330 align:middle line:90%
+so the theorem is like this.
+
+01:15:00.330 --> 01:15:04.430 align:middle line:84%
+And this is just generalizing
+this example that we just did.
+
+01:15:04.430 --> 01:15:07.990 align:middle line:84%
+And the theorem
+is the following,
+
+01:15:07.990 --> 01:15:10.000 align:middle line:84%
+that if you take
+a power series--
+
+01:15:10.000 --> 01:15:13.430 align:middle line:90%
+
+
+01:15:13.430 --> 01:15:24.810 align:middle line:84%
+so if you have a
+power series and R
+
+01:15:24.810 --> 01:15:40.070 align:middle line:84%
+is the radius of
+convergence and L here,
+
+01:15:40.070 --> 01:15:45.210 align:middle line:84%
+it has to be strictly less
+than the radius of convergence,
+
+01:15:45.210 --> 01:15:55.530 align:middle line:84%
+then these functions here,
+k equal to 0 to n a n--
+
+01:15:55.530 --> 01:16:01.250 align:middle line:84%
+ak sorry, xk, that
+these functions here
+
+01:16:01.250 --> 01:16:27.400 align:middle line:84%
+converge to the limit here
+uniformly on this interval here,
+
+01:16:27.400 --> 01:16:29.260 align:middle line:90%
+from minus L to L.
+
+01:16:29.260 --> 01:16:32.460 align:middle line:84%
+Remember that L had
+to be strictly less
+
+01:16:32.460 --> 01:16:36.836 align:middle line:90%
+than the radius of convergence.
+
+01:16:36.836 --> 01:16:39.660 align:middle line:90%
+And so this is extremely useful.
+
+01:16:39.660 --> 01:16:45.940 align:middle line:84%
+If you have-- and it will be
+clear next time why it's useful
+
+01:16:45.940 --> 01:16:48.940 align:middle line:84%
+because if you have
+uniform convergence,
+
+01:16:48.940 --> 01:16:51.580 align:middle line:90%
+then it becomes very easy--
+
+01:16:51.580 --> 01:16:53.660 align:middle line:84%
+if you have uniform
+convergence, then you
+
+01:16:53.660 --> 01:16:56.620 align:middle line:84%
+can argue about if
+you want to take
+
+01:16:56.620 --> 01:17:00.220 align:middle line:84%
+the derivative of integrating
+this thing over here,
+
+01:17:00.220 --> 01:17:03.540 align:middle line:84%
+if you have uniform
+convergence, then
+
+01:17:03.540 --> 01:17:08.100 align:middle line:84%
+it will say that then
+a lot of operations
+
+01:17:08.100 --> 01:17:10.480 align:middle line:84%
+will be more precise
+about that next time.
+
+01:17:10.480 --> 01:17:14.880 align:middle line:84%
+But a lot of operations, like
+integration and differentiation,
+
+01:17:14.880 --> 01:17:19.580 align:middle line:84%
+you can do that over here
+and then go to the limit.
+
+01:17:19.580 --> 01:17:24.520 align:middle line:84%
+So instead of if you were to
+integrate this thing here.
+
+01:17:24.520 --> 01:17:29.120 align:middle line:84%
+So just say that-- but this
+seems maybe very, very hard.
+
+01:17:29.120 --> 01:17:31.720 align:middle line:84%
+But the thing is, if
+you can integrate here,
+
+01:17:31.720 --> 01:17:34.360 align:middle line:84%
+then you can just
+use the usual sum,
+
+01:17:34.360 --> 01:17:36.720 align:middle line:90%
+the usual formula for the sum.
+
+01:17:36.720 --> 01:17:38.760 align:middle line:84%
+It's just the sum
+of the integral.
+
+01:17:38.760 --> 01:17:42.680 align:middle line:84%
+And likewise for
+differentiation.
+
+01:17:42.680 --> 01:17:45.510 align:middle line:90%
+And so, OK, maybe I will just--
+
+01:17:45.510 --> 01:17:48.420 align:middle line:90%
+
+
+01:17:48.420 --> 01:17:48.920 align:middle line:90%
+yeah.
+
+01:17:48.920 --> 01:17:50.760 align:middle line:90%
+Maybe I'll just stop here.
+
+01:17:50.760 --> 01:17:55.480 align:middle line:84%
+I wrote out the
+proof in the notes.
+
+01:17:55.480 --> 01:17:59.080 align:middle line:84%
+And I already posted the
+notes, the lecture notes.
+
+01:17:59.080 --> 01:18:00.720 align:middle line:90%
+Are there any questions?
+
+01:18:00.720 --> 01:18:05.560 align:middle line:90%
+
+
+01:18:05.560 --> 01:18:06.320 align:middle line:90%
+OK.
+
+01:18:06.320 --> 01:18:07.870 align:middle line:90%
+Great.
+
+01:18:07.870 --> 01:18:11.000 align:middle line:90%

@@ -1,0 +1,3998 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.479 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.479 --> 00:00:02.465 align:middle line:90%
+
+
+00:00:02.465 --> 00:00:03.451 align:middle line:90%
+[RUSTLING]
+
+00:00:03.451 --> 00:00:04.437 align:middle line:90%
+
+
+00:00:04.437 --> 00:00:05.423 align:middle line:90%
+[CLICKING]
+
+00:00:05.423 --> 00:00:11.178 align:middle line:90%
+
+
+00:00:11.178 --> 00:00:11.970 align:middle line:90%
+TOBIAS COLDING: OK.
+
+00:00:11.970 --> 00:00:16.140 align:middle line:84%
+So last time, we talked
+about at towards the end,
+
+00:00:16.140 --> 00:00:17.496 align:middle line:90%
+we talked about sequences.
+
+00:00:17.496 --> 00:00:21.290 align:middle line:90%
+
+
+00:00:21.290 --> 00:00:25.610 align:middle line:84%
+And so in particular, we
+talked about square root of 2
+
+00:00:25.610 --> 00:00:27.740 align:middle line:90%
+by 2 square root of 2.
+
+00:00:27.740 --> 00:00:30.890 align:middle line:84%
+We could think about
+this if we wanted
+
+00:00:30.890 --> 00:00:34.710 align:middle line:84%
+to think about the square
+root of 2 on the real line.
+
+00:00:34.710 --> 00:00:39.170 align:middle line:84%
+Then we have here
+1 and we have two.
+
+00:00:39.170 --> 00:00:44.780 align:middle line:84%
+And we could define a sequence
+of numbers where the first one
+
+00:00:44.780 --> 00:00:55.260 align:middle line:84%
+is 1, the second one is
+1.4, the third is a 1.4.1,
+
+00:00:55.260 --> 00:01:00.650 align:middle line:84%
+and the next one is then the
+next digit in square root of 2,
+
+00:01:00.650 --> 00:01:06.880 align:middle line:90%
+so 1.4.1.4, et cetera.
+
+00:01:06.880 --> 00:01:14.890 align:middle line:84%
+And so this is like a sequence
+of numbers that are increasing.
+
+00:01:14.890 --> 00:01:18.160 align:middle line:84%
+And it is square root
+of 2 where you're
+
+00:01:18.160 --> 00:01:20.270 align:middle line:90%
+taking more and more digits.
+
+00:01:20.270 --> 00:01:26.710 align:middle line:84%
+So square root of 2
+is, in some sense,
+
+00:01:26.710 --> 00:01:32.910 align:middle line:90%
+the limit of the sequence.
+
+00:01:32.910 --> 00:01:38.800 align:middle line:90%
+
+
+00:01:38.800 --> 00:01:43.123 align:middle line:84%
+And so precisely,
+a sequence is--
+
+00:01:43.123 --> 00:01:44.540 align:middle line:84%
+so we talked about
+that last time.
+
+00:01:44.540 --> 00:01:47.060 align:middle line:84%
+But let me just remind
+you what that is.
+
+00:01:47.060 --> 00:02:01.830 align:middle line:84%
+So a sequence is a function
+from the natural numbers--
+
+00:02:01.830 --> 00:02:07.250 align:middle line:84%
+so f goes from the natural
+numbers into the real.
+
+00:02:07.250 --> 00:02:12.260 align:middle line:84%
+And the value at some
+natural number n--
+
+00:02:12.260 --> 00:02:15.830 align:middle line:84%
+the value of this function
+at a natural number n.
+
+00:02:15.830 --> 00:02:19.670 align:middle line:84%
+This we denote-- usually,
+it's a standard notation
+
+00:02:19.670 --> 00:02:24.170 align:middle line:84%
+that one denoted like this
+where the n is a subscript.
+
+00:02:24.170 --> 00:02:24.670 align:middle line:90%
+OK.
+
+00:02:24.670 --> 00:02:28.160 align:middle line:90%
+
+
+00:02:28.160 --> 00:02:33.540 align:middle line:84%
+And so let's take a look at a
+couple of different sequences.
+
+00:02:33.540 --> 00:02:37.160 align:middle line:84%
+So we talked-- so this
+here really is a sequence.
+
+00:02:37.160 --> 00:02:46.310 align:middle line:84%
+Another example is where you
+have a n equal to minus 1
+
+00:02:46.310 --> 00:02:48.740 align:middle line:90%
+to the power n.
+
+00:02:48.740 --> 00:02:52.740 align:middle line:84%
+So n again is this
+natural number.
+
+00:02:52.740 --> 00:02:57.580 align:middle line:84%
+So this means that this
+sequence a1 is equal to minus 1,
+
+00:02:57.580 --> 00:03:02.740 align:middle line:84%
+a2 is equal to minus 1 times
+minus 1, so that's one.
+
+00:03:02.740 --> 00:03:10.460 align:middle line:84%
+a3 is minus 1 times
+minus 1 times minus 1.
+
+00:03:10.460 --> 00:03:13.220 align:middle line:90%
+So this is minus 1.
+
+00:03:13.220 --> 00:03:20.620 align:middle line:84%
+And a4 is minus 1 multiplied
+itself four 4 So that's 1.
+
+00:03:20.620 --> 00:03:21.200 align:middle line:90%
+Right.
+
+00:03:21.200 --> 00:03:34.240 align:middle line:84%
+So this sequence here, it's
+alternating between the values
+
+00:03:34.240 --> 00:03:37.630 align:middle line:90%
+minus 1 and 1.
+
+00:03:37.630 --> 00:03:40.490 align:middle line:90%
+So it's starting off at minus 1.
+
+00:03:40.490 --> 00:03:41.960 align:middle line:90%
+And then it goes to 1.
+
+00:03:41.960 --> 00:03:46.570 align:middle line:84%
+Then it goes to minus 1,
+1, minus 1, et cetera.
+
+00:03:46.570 --> 00:03:47.941 align:middle line:90%
+OK.
+
+00:03:47.941 --> 00:03:53.060 align:middle line:84%
+And so this sequence here,
+right, it doesn't really--
+
+00:03:53.060 --> 00:03:56.420 align:middle line:84%
+it's not-- it doesn't
+really convert.
+
+00:03:56.420 --> 00:03:58.770 align:middle line:84%
+It's not-- it doesn't
+really have a limit.
+
+00:03:58.770 --> 00:04:02.040 align:middle line:84%
+So this here-- we'll make
+this precise in just a minute.
+
+00:04:02.040 --> 00:04:04.285 align:middle line:84%
+So this sequence does
+not have a limit.
+
+00:04:04.285 --> 00:04:13.670 align:middle line:90%
+
+
+00:04:13.670 --> 00:04:19.850 align:middle line:84%
+Another an example of a
+sequence is a decaying sequence
+
+00:04:19.850 --> 00:04:20.519 align:middle line:90%
+like this.
+
+00:04:20.519 --> 00:04:25.760 align:middle line:90%
+So a n is equal to 1 over n.
+
+00:04:25.760 --> 00:04:34.460 align:middle line:84%
+So a1 is equal to 1, a2 is equal
+to 1/2, a3 is equal to 1/2,
+
+00:04:34.460 --> 00:04:38.070 align:middle line:90%
+and then a4 is equal to 1/4.
+
+00:04:38.070 --> 00:04:41.000 align:middle line:84%
+So these numbers here
+are all positive.
+
+00:04:41.000 --> 00:04:41.520 align:middle line:90%
+Right?
+
+00:04:41.520 --> 00:04:45.480 align:middle line:84%
+The values of a is all-- all
+of them are all positive.
+
+00:04:45.480 --> 00:04:49.820 align:middle line:84%
+And they become
+smaller and smaller.
+
+00:04:49.820 --> 00:04:53.350 align:middle line:84%
+So you could write
+that suggestively.
+
+00:04:53.350 --> 00:04:57.190 align:middle line:84%
+This here is going
+down like that.
+
+00:04:57.190 --> 00:05:03.940 align:middle line:84%
+And so it seems obvious
+that this limit here--
+
+00:05:03.940 --> 00:05:06.050 align:middle line:90%
+that this sequence has a limit.
+
+00:05:06.050 --> 00:05:07.155 align:middle line:90%
+This here has a limit.
+
+00:05:07.155 --> 00:05:10.960 align:middle line:90%
+
+
+00:05:10.960 --> 00:05:13.590 align:middle line:90%
+And the limit is 0.
+
+00:05:13.590 --> 00:05:20.530 align:middle line:90%
+
+
+00:05:20.530 --> 00:05:25.280 align:middle line:84%
+So now let me make
+the formal definition.
+
+00:05:25.280 --> 00:05:30.880 align:middle line:84%
+So what does it mean that
+a sequence is convergent?
+
+00:05:30.880 --> 00:05:33.120 align:middle line:90%
+So a sequence.
+
+00:05:33.120 --> 00:05:37.930 align:middle line:90%
+
+
+00:05:37.930 --> 00:05:48.530 align:middle line:90%
+a n is convergent to a.
+
+00:05:48.530 --> 00:05:50.515 align:middle line:90%
+So a is another real number.
+
+00:05:50.515 --> 00:05:53.330 align:middle line:90%
+
+
+00:05:53.330 --> 00:05:59.630 align:middle line:84%
+A sequence a n is convergent to
+a if the following is the case--
+
+00:05:59.630 --> 00:06:01.045 align:middle line:90%
+if the following holds.
+
+00:06:01.045 --> 00:06:10.220 align:middle line:90%
+
+
+00:06:10.220 --> 00:06:24.170 align:middle line:84%
+For all epsilon-- for all
+epsilon greater than 0,
+
+00:06:24.170 --> 00:06:31.550 align:middle line:84%
+there exists a
+natural number such
+
+00:06:31.550 --> 00:06:42.170 align:middle line:84%
+that if little n is bigger
+than this natural number,
+
+00:06:42.170 --> 00:06:48.500 align:middle line:84%
+then the difference between
+a n and the supposed limit
+
+00:06:48.500 --> 00:06:52.810 align:middle line:90%
+is bounded by epsilon.
+
+00:06:52.810 --> 00:06:58.210 align:middle line:84%
+So if you think about it--
+so if you think about it,
+
+00:06:58.210 --> 00:07:01.920 align:middle line:84%
+here you have on the real
+line here you have a.
+
+00:07:01.920 --> 00:07:06.940 align:middle line:84%
+And so if you give
+me an epsilon,
+
+00:07:06.940 --> 00:07:09.010 align:middle line:90%
+so then I'm looking at a here.
+
+00:07:09.010 --> 00:07:11.990 align:middle line:84%
+I'm looking at an
+interval around a.
+
+00:07:11.990 --> 00:07:16.420 align:middle line:84%
+So this is an interval
+here from a minus
+
+00:07:16.420 --> 00:07:20.320 align:middle line:90%
+epsilon to a plus epsilon.
+
+00:07:20.320 --> 00:07:23.230 align:middle line:84%
+And the claim is
+that the sequence a n
+
+00:07:23.230 --> 00:07:28.180 align:middle line:84%
+is converging to
+a if there exists
+
+00:07:28.180 --> 00:07:33.680 align:middle line:84%
+some n so that if little n is
+larger than this capital N,
+
+00:07:33.680 --> 00:07:38.350 align:middle line:84%
+then all of these a n
+lands somewhere here.
+
+00:07:38.350 --> 00:07:46.630 align:middle line:84%
+All of them a n is in this
+little interval for little n
+
+00:07:46.630 --> 00:07:49.140 align:middle line:84%
+bigger than this
+capital N. Right?
+
+00:07:49.140 --> 00:07:52.340 align:middle line:84%
+That's what it means
+to be convergent.
+
+00:07:52.340 --> 00:07:54.600 align:middle line:90%
+But it's like for all epsilon.
+
+00:07:54.600 --> 00:07:59.790 align:middle line:84%
+So you allow to-- someone else
+is allowed to pick the epsilon.
+
+00:07:59.790 --> 00:08:03.620 align:middle line:84%
+And then you have to prove that
+there exists a capital N so
+
+00:08:03.620 --> 00:08:07.370 align:middle line:84%
+that from there on and
+out, all of the a n
+
+00:08:07.370 --> 00:08:11.480 align:middle line:90%
+lie in this little interval.
+
+00:08:11.480 --> 00:08:16.380 align:middle line:84%
+So this is what it means for
+a sequence to be convergent.
+
+00:08:16.380 --> 00:08:23.370 align:middle line:84%
+So we say that a n is convergent
+to a if this is the case.
+
+00:08:23.370 --> 00:08:26.030 align:middle line:90%
+And in that case--
+
+00:08:26.030 --> 00:08:34.789 align:middle line:84%
+in that case, one also
+writes that the limit
+
+00:08:34.789 --> 00:08:39.459 align:middle line:84%
+as n goes to infinity
+of a n is equal to a.
+
+00:08:39.459 --> 00:08:46.070 align:middle line:90%
+
+
+00:08:46.070 --> 00:09:00.876 align:middle line:84%
+So if you have a sequence a
+sequence that is not convergent,
+
+00:09:00.876 --> 00:09:02.990 align:middle line:90%
+it is said to be divergent.
+
+00:09:02.990 --> 00:09:12.735 align:middle line:90%
+
+
+00:09:12.735 --> 00:09:19.960 align:middle line:84%
+And so now let me
+look at an example.
+
+00:09:19.960 --> 00:09:30.890 align:middle line:84%
+So suppose you're looking at
+the number 0.99999, et cetera.
+
+00:09:30.890 --> 00:09:35.260 align:middle line:84%
+This number here,
+this is really--
+
+00:09:35.260 --> 00:09:40.120 align:middle line:84%
+this number here, we will think
+about this number here as 1.
+
+00:09:40.120 --> 00:09:44.550 align:middle line:84%
+This is
+indistinguishable from 1.
+
+00:09:44.550 --> 00:09:46.980 align:middle line:84%
+And in fact, what
+you really think
+
+00:09:46.980 --> 00:09:53.790 align:middle line:84%
+about is that you think about
+that you have a sequence where
+
+00:09:53.790 --> 00:10:08.400 align:middle line:84%
+a1 is 0.9, a2 is
+0.99, a3 is 0.999,
+
+00:10:08.400 --> 00:10:15.040 align:middle line:84%
+a4 is equal to
+0.9999, et cetera.
+
+00:10:15.040 --> 00:10:25.955 align:middle line:84%
+So a n is where you have zero
+point and then 9 n times.
+
+00:10:25.955 --> 00:10:31.260 align:middle line:90%
+
+
+00:10:31.260 --> 00:10:36.840 align:middle line:84%
+If you're looking at
+that sequence here,
+
+00:10:36.840 --> 00:10:43.330 align:middle line:84%
+then you have that this
+sequence a n is convergent to 1.
+
+00:10:43.330 --> 00:10:50.240 align:middle line:84%
+And a n-- this is one also that
+is convergent to 1 like this.
+
+00:10:50.240 --> 00:10:57.810 align:middle line:90%
+So a n is convergent to 1.
+
+00:10:57.810 --> 00:10:58.310 align:middle line:90%
+Right?
+
+00:10:58.310 --> 00:11:01.160 align:middle line:84%
+So there's various ways of
+writing that it's convergent.
+
+00:11:01.160 --> 00:11:03.770 align:middle line:90%
+You can write it like this.
+
+00:11:03.770 --> 00:11:05.630 align:middle line:90%
+This means that it's convergent.
+
+00:11:05.630 --> 00:11:07.190 align:middle line:90%
+And the limit is a.
+
+00:11:07.190 --> 00:11:08.720 align:middle line:90%
+You can write it like this.
+
+00:11:08.720 --> 00:11:13.010 align:middle line:84%
+This means that this sequence is
+convergent and the limit is 1.
+
+00:11:13.010 --> 00:11:15.165 align:middle line:84%
+Or you can write
+it out in words.
+
+00:11:15.165 --> 00:11:20.800 align:middle line:90%
+
+
+00:11:20.800 --> 00:11:24.220 align:middle line:84%
+So this sequence-- I claim
+that this sequence here
+
+00:11:24.220 --> 00:11:25.700 align:middle line:90%
+defined like this.
+
+00:11:25.700 --> 00:11:28.990 align:middle line:84%
+And this is really how
+you think about this.
+
+00:11:28.990 --> 00:11:30.470 align:middle line:84%
+When you think
+about this number,
+
+00:11:30.470 --> 00:11:37.640 align:middle line:84%
+you think about it that this is
+0.99 with more and more numbers,
+
+00:11:37.640 --> 00:11:40.480 align:middle line:84%
+nines, added and
+the limits, which
+
+00:11:40.480 --> 00:11:44.520 align:middle line:84%
+is really what this number
+here in itself is is 1.
+
+00:11:44.520 --> 00:11:48.540 align:middle line:84%
+Now let me explain why
+the sequence defined
+
+00:11:48.540 --> 00:11:53.255 align:middle line:84%
+this way, why this is
+convergent as a limit 1.
+
+00:11:53.255 --> 00:12:02.730 align:middle line:90%
+
+
+00:12:02.730 --> 00:12:07.840 align:middle line:84%
+So now, of course, now
+you give me an epsilon.
+
+00:12:07.840 --> 00:12:13.530 align:middle line:84%
+So given epsilon given
+epsilon greater than 0,
+
+00:12:13.530 --> 00:12:18.000 align:middle line:84%
+then I need to find a
+capital N So that from there
+
+00:12:18.000 --> 00:12:21.970 align:middle line:84%
+on and out the An
+a n within epsilon.
+
+00:12:21.970 --> 00:12:23.255 align:middle line:90%
+So we need to find--
+
+00:12:23.255 --> 00:12:26.700 align:middle line:90%
+
+
+00:12:26.700 --> 00:12:31.620 align:middle line:84%
+for this epsilon, we
+need to find capital N
+
+00:12:31.620 --> 00:12:35.020 align:middle line:84%
+so that if little n is
+bigger than this capital N,
+
+00:12:35.020 --> 00:12:40.270 align:middle line:84%
+then a n minus 1 is
+less than epsilon.
+
+00:12:40.270 --> 00:12:42.100 align:middle line:90%
+That's what we need to do.
+
+00:12:42.100 --> 00:12:43.960 align:middle line:90%
+Right?
+
+00:12:43.960 --> 00:12:51.100 align:middle line:84%
+But for your epsilon,
+so to do that,
+
+00:12:51.100 --> 00:12:54.400 align:middle line:84%
+we need to choose
+this capital N.
+
+00:12:54.400 --> 00:12:57.640 align:middle line:90%
+So I'm just choosing--
+
+00:12:57.640 --> 00:13:00.310 align:middle line:84%
+I just choose
+capital N. So to do
+
+00:13:00.310 --> 00:13:16.660 align:middle line:84%
+that, choose capital N such that
+1 over n is less than epsilon.
+
+00:13:16.660 --> 00:13:17.530 align:middle line:90%
+Right?
+
+00:13:17.530 --> 00:13:21.260 align:middle line:84%
+We can do this by the
+Archimedean property.
+
+00:13:21.260 --> 00:13:37.870 align:middle line:84%
+So this is-- so we can
+find such an m and capital
+
+00:13:37.870 --> 00:13:43.160 align:middle line:84%
+N by the Archimedean property
+that we discussed last time.
+
+00:13:43.160 --> 00:13:48.990 align:middle line:90%
+
+
+00:13:48.990 --> 00:13:56.880 align:middle line:84%
+But now you see if
+you're looking at--
+
+00:13:56.880 --> 00:14:07.770 align:middle line:84%
+if take-- if you now
+look at little n that
+
+00:14:07.770 --> 00:14:16.500 align:middle line:84%
+is bigger than capital N, then
+you have that 1 minus a n.
+
+00:14:16.500 --> 00:14:19.320 align:middle line:84%
+Well, 1 minus a n,
+actually, for all n,
+
+00:14:19.320 --> 00:14:29.940 align:middle line:84%
+this here is less than 1/10
+to the power n because if n is
+
+00:14:29.940 --> 00:14:36.820 align:middle line:84%
+equal to 1, this here,
+this is within 1/10 of one.
+
+00:14:36.820 --> 00:14:40.940 align:middle line:84%
+And likewise, this here is
+in 1/100 of 1, et cetera.
+
+00:14:40.940 --> 00:14:43.820 align:middle line:90%
+So we have this inequality.
+
+00:14:43.820 --> 00:14:46.010 align:middle line:84%
+It's actually
+equality in this case.
+
+00:14:46.010 --> 00:14:50.260 align:middle line:90%
+This here is an equality.
+
+00:14:50.260 --> 00:14:54.170 align:middle line:84%
+But now you see that
+this thing here,
+
+00:14:54.170 --> 00:15:00.310 align:middle line:84%
+this is obviously 1/10 to the
+power n is less than or equal
+
+00:15:00.310 --> 00:15:01.930 align:middle line:90%
+to--
+
+00:15:01.930 --> 00:15:06.160 align:middle line:90%
+is less than 1 over n.
+
+00:15:06.160 --> 00:15:09.790 align:middle line:84%
+And so if little n is
+bigger than capital N,
+
+00:15:09.790 --> 00:15:13.490 align:middle line:84%
+this is therefore less
+than 1 over capital N.
+
+00:15:13.490 --> 00:15:15.940 align:middle line:90%
+But this is less than epsilon.
+
+00:15:15.940 --> 00:15:18.520 align:middle line:84%
+And that's what
+we need to prove.
+
+00:15:18.520 --> 00:15:19.660 align:middle line:90%
+Right?
+
+00:15:19.660 --> 00:15:23.200 align:middle line:84%
+So for the given, for
+your given epsilon,
+
+00:15:23.200 --> 00:15:27.160 align:middle line:84%
+I specify a capital
+N. And then we
+
+00:15:27.160 --> 00:15:30.850 align:middle line:84%
+need to prove that if little n
+is bigger than our capital N,
+
+00:15:30.850 --> 00:15:34.135 align:middle line:84%
+then we come within
+epsilon of the limit.
+
+00:15:34.135 --> 00:15:34.635 align:middle line:90%
+OK?
+
+00:15:34.635 --> 00:15:41.550 align:middle line:90%
+
+
+00:15:41.550 --> 00:15:45.390 align:middle line:84%
+Now let me prove
+a little theorem
+
+00:15:45.390 --> 00:15:49.166 align:middle line:90%
+about convergence sequences.
+
+00:15:49.166 --> 00:15:56.340 align:middle line:90%
+
+
+00:15:56.340 --> 00:16:01.110 align:middle line:84%
+And this is like, if you
+will, this little Lemma
+
+00:16:01.110 --> 00:16:06.120 align:middle line:84%
+is like the first test
+for whether a sequence is
+
+00:16:06.120 --> 00:16:07.560 align:middle line:90%
+convergent.
+
+00:16:07.560 --> 00:16:08.253 align:middle line:90%
+So theorem.
+
+00:16:08.253 --> 00:16:13.620 align:middle line:90%
+
+
+00:16:13.620 --> 00:16:37.990 align:middle line:84%
+If a n is a convergent
+sequence, then a n is bounded.
+
+00:16:37.990 --> 00:16:38.710 align:middle line:90%
+Sorry.
+
+00:16:38.710 --> 00:16:40.370 align:middle line:84%
+Let me explain what
+I mean by that.
+
+00:16:40.370 --> 00:16:46.700 align:middle line:84%
+I mean that then the set of a
+n-- so let me just explain that.
+
+00:16:46.700 --> 00:17:00.970 align:middle line:84%
+So then the set a1, a2, a3,
+et cetera, this set here
+
+00:17:00.970 --> 00:17:01.785 align:middle line:90%
+is bounded.
+
+00:17:01.785 --> 00:17:07.240 align:middle line:90%
+
+
+00:17:07.240 --> 00:17:13.670 align:middle line:84%
+It's not enough to be
+bounded to be convergent
+
+00:17:13.670 --> 00:17:16.060 align:middle line:90%
+but it is a necessary criterion.
+
+00:17:16.060 --> 00:17:21.280 align:middle line:90%
+
+
+00:17:21.280 --> 00:17:23.980 align:middle line:84%
+Let me, just as a
+side remark, say
+
+00:17:23.980 --> 00:17:27.970 align:middle line:84%
+that if you're looking
+at the sequence a n
+
+00:17:27.970 --> 00:17:30.260 align:middle line:84%
+that we looked at
+just a minute ago,
+
+00:17:30.260 --> 00:17:34.770 align:middle line:84%
+this here that is alternating
+between minus 1 and 1,
+
+00:17:34.770 --> 00:17:37.740 align:middle line:84%
+this is a bounded sequence
+because the value-- there's
+
+00:17:37.740 --> 00:17:38.740 align:middle line:90%
+only two values.
+
+00:17:38.740 --> 00:17:42.250 align:middle line:84%
+So it's obviously bounded
+but it's not convergent.
+
+00:17:42.250 --> 00:17:47.700 align:middle line:84%
+But it is a necessary for a
+sequence to be convergent.
+
+00:17:47.700 --> 00:17:55.890 align:middle line:84%
+It's necessary that the sequence
+of numbers here is bounded.
+
+00:17:55.890 --> 00:18:00.138 align:middle line:90%
+
+
+00:18:00.138 --> 00:18:02.015 align:middle line:90%
+So now let's try to prove that.
+
+00:18:02.015 --> 00:18:06.870 align:middle line:90%
+
+
+00:18:06.870 --> 00:18:17.730 align:middle line:84%
+So we have-- so since
+a n is convergent,
+
+00:18:17.730 --> 00:18:23.730 align:middle line:84%
+then there is some a so that
+a n converges to this a.
+
+00:18:23.730 --> 00:18:26.370 align:middle line:90%
+Right.
+
+00:18:26.370 --> 00:18:31.950 align:middle line:84%
+And so now I can just focus
+on one single epsilon.
+
+00:18:31.950 --> 00:18:53.780 align:middle line:84%
+So in particular, if we choose
+epsilon to be equal to 1,
+
+00:18:53.780 --> 00:18:59.720 align:middle line:84%
+then there exist capital N
+so that if little n is bigger
+
+00:18:59.720 --> 00:19:08.460 align:middle line:84%
+than this capital N, then a
+little n minus a is less than 1.
+
+00:19:08.460 --> 00:19:12.200 align:middle line:84%
+This is there is
+convergence just applied
+
+00:19:12.200 --> 00:19:14.070 align:middle line:90%
+to this single epsilon.
+
+00:19:14.070 --> 00:19:15.795 align:middle line:90%
+Right?
+
+00:19:15.795 --> 00:19:16.295 align:middle line:90%
+OK.
+
+00:19:16.295 --> 00:19:21.120 align:middle line:90%
+
+
+00:19:21.120 --> 00:19:23.130 align:middle line:84%
+So this is the
+first observation.
+
+00:19:23.130 --> 00:19:27.590 align:middle line:84%
+The second observation is
+that if we now look at all the
+
+00:19:27.590 --> 00:19:31.060 align:middle line:84%
+a n that are not
+considered here--
+
+00:19:31.060 --> 00:19:38.010 align:middle line:84%
+so if you're looking
+at the set, this
+
+00:19:38.010 --> 00:19:46.130 align:middle line:84%
+is the first a
+capital N minus 1 a n.
+
+00:19:46.130 --> 00:19:46.630 align:middle line:90%
+Right.
+
+00:19:46.630 --> 00:19:49.530 align:middle line:84%
+Those are the ones that
+doesn't fall in under,
+
+00:19:49.530 --> 00:19:53.470 align:middle line:84%
+that this little n is
+bigger than the capital N.
+
+00:19:53.470 --> 00:19:55.685 align:middle line:90%
+So this set here is finite.
+
+00:19:55.685 --> 00:19:58.920 align:middle line:90%
+
+
+00:19:58.920 --> 00:20:02.640 align:middle line:84%
+So obviously, so
+for any finite set,
+
+00:20:02.640 --> 00:20:19.110 align:middle line:84%
+you have that so they exist c,
+a real number such that a n is
+
+00:20:19.110 --> 00:20:23.020 align:middle line:84%
+less than or equal to c
+for any of these guys,
+
+00:20:23.020 --> 00:20:33.100 align:middle line:84%
+for any a in this, any
+a n in this finite set.
+
+00:20:33.100 --> 00:20:43.170 align:middle line:90%
+
+
+00:20:43.170 --> 00:20:45.770 align:middle line:84%
+In other words,
+this means that a n
+
+00:20:45.770 --> 00:20:53.485 align:middle line:84%
+is less than or equal to c if n
+here is between 1 and n minus 1.
+
+00:20:53.485 --> 00:20:57.924 align:middle line:90%
+
+
+00:20:57.924 --> 00:21:02.330 align:middle line:90%
+So now I look at--
+
+00:21:02.330 --> 00:21:05.240 align:middle line:90%
+so now I look at--
+
+00:21:05.240 --> 00:21:12.860 align:middle line:84%
+now I want to look at the
+numbers a n and this number
+
+00:21:12.860 --> 00:21:14.690 align:middle line:90%
+here.
+
+00:21:14.690 --> 00:21:18.500 align:middle line:84%
+And I want to look
+at-- so I'm thinking
+
+00:21:18.500 --> 00:21:27.300 align:middle line:84%
+about the set a n absolute
+value and where in here
+
+00:21:27.300 --> 00:21:33.990 align:middle line:90%
+is one of two, 1, 2, cetera.
+
+00:21:33.990 --> 00:21:37.650 align:middle line:84%
+Well, I claim that
+this thing here, I
+
+00:21:37.650 --> 00:21:40.300 align:middle line:84%
+can now prove that this
+set here is bounded.
+
+00:21:40.300 --> 00:21:46.230 align:middle line:84%
+And this is just because that
+the first n minus 1, those
+
+00:21:46.230 --> 00:21:48.030 align:middle line:90%
+are bounded by c.
+
+00:21:48.030 --> 00:21:50.410 align:middle line:90%
+So I claim that this set here--
+
+00:21:50.410 --> 00:21:51.410 align:middle line:90%
+so claim.
+
+00:21:51.410 --> 00:21:54.750 align:middle line:90%
+
+
+00:21:54.750 --> 00:22:11.490 align:middle line:84%
+So that's the sup of this set
+where n from 1 right over all
+
+00:22:11.490 --> 00:22:13.080 align:middle line:90%
+n's.
+
+00:22:13.080 --> 00:22:22.980 align:middle line:84%
+The sup of this set is less
+than or equal to the max
+
+00:22:22.980 --> 00:22:29.100 align:middle line:84%
+of c and a plus normal,
+absolute value of a plus 1.
+
+00:22:29.100 --> 00:22:31.790 align:middle line:90%
+So I claim that.
+
+00:22:31.790 --> 00:22:37.580 align:middle line:84%
+Now this is clearly, if you're
+taking the first n minus 1,
+
+00:22:37.580 --> 00:22:42.750 align:middle line:84%
+then we already know that
+they are bounded by c.
+
+00:22:42.750 --> 00:22:45.410 align:middle line:84%
+So you just need to
+worry about the one
+
+00:22:45.410 --> 00:22:48.380 align:middle line:90%
+starting at capital N. Right?
+
+00:22:48.380 --> 00:22:53.160 align:middle line:84%
+So we only need to
+worry about when.
+
+00:22:53.160 --> 00:22:58.050 align:middle line:84%
+So this is obviously the case
+for the first capital N minus 1.
+
+00:22:58.050 --> 00:23:00.620 align:middle line:90%
+So we only need to worry about--
+
+00:23:00.620 --> 00:23:15.170 align:middle line:84%
+only need to show
+this for little n
+
+00:23:15.170 --> 00:23:17.870 align:middle line:90%
+larger than capital N. Larger.
+
+00:23:17.870 --> 00:23:18.785 align:middle line:90%
+Yeah.
+
+00:23:18.785 --> 00:23:20.870 align:middle line:84%
+AUDIENCE: Can you explain
+in the max over there
+
+00:23:20.870 --> 00:23:23.665 align:middle line:84%
+why there's the absolute value
+of a plus-- like, the plus 1?
+
+00:23:23.665 --> 00:23:24.540 align:middle line:90%
+TOBIAS COLDING: Yeah.
+
+00:23:24.540 --> 00:23:25.590 align:middle line:90%
+I will explain this.
+
+00:23:25.590 --> 00:23:27.450 align:middle line:90%
+And I'll get to this.
+
+00:23:27.450 --> 00:23:28.690 align:middle line:90%
+This is part of the proof.
+
+00:23:28.690 --> 00:23:29.190 align:middle line:90%
+Yeah.
+
+00:23:29.190 --> 00:23:31.900 align:middle line:84%
+So it hopefully will
+be clear in a minute.
+
+00:23:31.900 --> 00:23:34.500 align:middle line:84%
+If it's not, you
+should complain.
+
+00:23:34.500 --> 00:23:40.330 align:middle line:84%
+So I only need to prove that
+when I'm just looking at the set
+
+00:23:40.330 --> 00:23:40.830 align:middle line:90%
+here.
+
+00:23:40.830 --> 00:23:43.800 align:middle line:84%
+And I'm starting
+at capital N, then
+
+00:23:43.800 --> 00:23:47.460 align:middle line:90%
+the sup is bounded like that.
+
+00:23:47.460 --> 00:23:49.590 align:middle line:90%
+And so then I--
+
+00:23:49.590 --> 00:23:53.910 align:middle line:90%
+so I'm looking at a n.
+
+00:23:53.910 --> 00:23:56.770 align:middle line:90%
+But a n I can write as a n.
+
+00:23:56.770 --> 00:24:00.120 align:middle line:84%
+I can write in a
+stupid way I can write
+
+00:24:00.120 --> 00:24:06.170 align:middle line:90%
+a n as a n minus a plus a.
+
+00:24:06.170 --> 00:24:06.670 align:middle line:90%
+Right.
+
+00:24:06.670 --> 00:24:07.880 align:middle line:90%
+So I can write it like that.
+
+00:24:07.880 --> 00:24:10.548 align:middle line:90%
+
+
+00:24:10.548 --> 00:24:12.770 align:middle line:90%
+And then I can just--
+
+00:24:12.770 --> 00:24:13.270 align:middle line:90%
+right.
+
+00:24:13.270 --> 00:24:15.460 align:middle line:90%
+So I have the sum of two things.
+
+00:24:15.460 --> 00:24:20.630 align:middle line:84%
+The absolute value is less
+than the absolute value--
+
+00:24:20.630 --> 00:24:23.990 align:middle line:90%
+the sum of the absolute values.
+
+00:24:23.990 --> 00:24:25.520 align:middle line:90%
+So I have this.
+
+00:24:25.520 --> 00:24:26.840 align:middle line:90%
+Right.
+
+00:24:26.840 --> 00:24:30.500 align:middle line:84%
+But now you see that
+since little n is bigger
+
+00:24:30.500 --> 00:24:33.200 align:middle line:84%
+than this capital
+N, this capital N
+
+00:24:33.200 --> 00:24:36.530 align:middle line:84%
+was chosen so that this
+here was bounded by 1.
+
+00:24:36.530 --> 00:24:39.690 align:middle line:84%
+So this thing here
+is less than 1.
+
+00:24:39.690 --> 00:24:43.760 align:middle line:84%
+And this here is less than
+the absolute value of a.
+
+00:24:43.760 --> 00:24:45.350 align:middle line:90%
+Right.
+
+00:24:45.350 --> 00:24:50.190 align:middle line:84%
+And so we have for the whole
+tail starting at capital N,
+
+00:24:50.190 --> 00:24:53.810 align:middle line:84%
+we have that this thing
+here is bounded by 1
+
+00:24:53.810 --> 00:24:56.130 align:middle line:90%
+plus the absolute value of a.
+
+00:24:56.130 --> 00:25:03.240 align:middle line:84%
+And for the remaining capital N
+minus 1, those are bounded by C.
+
+00:25:03.240 --> 00:25:09.110 align:middle line:84%
+And so together, all of this
+is bounded by the maximum
+
+00:25:09.110 --> 00:25:12.170 align:middle line:90%
+of these two things.
+
+00:25:12.170 --> 00:25:14.040 align:middle line:90%
+OK.
+
+00:25:14.040 --> 00:25:16.100 align:middle line:84%
+Now the next thing
+I want to talk about
+
+00:25:16.100 --> 00:25:22.470 align:middle line:84%
+is some sort of algebraic
+property of limits
+
+00:25:22.470 --> 00:25:24.140 align:middle line:90%
+that is often very useful.
+
+00:25:24.140 --> 00:25:26.940 align:middle line:90%
+
+
+00:25:26.940 --> 00:25:29.555 align:middle line:84%
+And I will prove--
+there's four of these.
+
+00:25:29.555 --> 00:25:32.070 align:middle line:90%
+
+
+00:25:32.070 --> 00:25:34.810 align:middle line:90%
+And I will prove two of them.
+
+00:25:34.810 --> 00:25:41.165 align:middle line:84%
+And the other one I will
+outline the proof of.
+
+00:25:41.165 --> 00:25:43.595 align:middle line:90%
+
+
+00:25:43.595 --> 00:25:44.970 align:middle line:84%
+AUDIENCE: [INAUDIBLE],
+professor.
+
+00:25:44.970 --> 00:25:45.803 align:middle line:90%
+TOBIAS COLDING: Yep.
+
+00:25:45.803 --> 00:25:50.580 align:middle line:84%
+AUDIENCE: So in that the
+claim was that the sup is--
+
+00:25:50.580 --> 00:25:51.670 align:middle line:90%
+the sup is less than.
+
+00:25:51.670 --> 00:25:53.010 align:middle line:90%
+So we don't need to--
+
+00:25:53.010 --> 00:25:53.370 align:middle line:90%
+TOBIAS COLDING: Yeah.
+
+00:25:53.370 --> 00:25:53.580 align:middle line:90%
+No.
+
+00:25:53.580 --> 00:25:55.340 align:middle line:84%
+You don't need to
+actually find the sup.
+
+00:25:55.340 --> 00:25:55.840 align:middle line:90%
+Right?
+
+00:25:55.840 --> 00:25:56.950 align:middle line:90%
+Yeah.
+
+00:25:56.950 --> 00:26:01.050 align:middle line:84%
+And the reason I want to
+write sup and not maximum
+
+00:26:01.050 --> 00:26:04.080 align:middle line:84%
+is that, of course, if
+it's infinite numbers,
+
+00:26:04.080 --> 00:26:06.850 align:middle line:84%
+it's not clear
+there is a maximum.
+
+00:26:06.850 --> 00:26:11.340 align:middle line:84%
+So we need to use
+the terminology sup.
+
+00:26:11.340 --> 00:26:15.780 align:middle line:84%
+So that max of C and S
+a plus 1 is not the sup.
+
+00:26:15.780 --> 00:26:17.320 align:middle line:90%
+No no that's right.
+
+00:26:17.320 --> 00:26:19.260 align:middle line:90%
+It's a bound for the sup.
+
+00:26:19.260 --> 00:26:22.923 align:middle line:90%
+But the sup presumably is less.
+
+00:26:22.923 --> 00:26:24.840 align:middle line:84%
+AUDIENCE: And one that
+really is just epsilon.
+
+00:26:24.840 --> 00:26:27.390 align:middle line:84%
+TOBIAS COLDING: And the
+one really, to some extent,
+
+00:26:27.390 --> 00:26:28.800 align:middle line:90%
+could be almost anything.
+
+00:26:28.800 --> 00:26:29.300 align:middle line:90%
+Yeah.
+
+00:26:29.300 --> 00:26:31.380 align:middle line:90%
+It came from the epsilon.
+
+00:26:31.380 --> 00:26:34.820 align:middle line:84%
+But you see if you made
+that epsilon smaller
+
+00:26:34.820 --> 00:26:40.500 align:middle line:84%
+then probably the c would jump
+up because that is-- right.
+
+00:26:40.500 --> 00:26:44.310 align:middle line:84%
+Because the c was the maximum
+of the first n minus 1.
+
+00:26:44.310 --> 00:26:46.220 align:middle line:84%
+So if you are further
+out, then there
+
+00:26:46.220 --> 00:26:49.340 align:middle line:84%
+are more numbers that you're
+taking the maximum over.
+
+00:26:49.340 --> 00:26:50.630 align:middle line:90%
+So anyway.
+
+00:26:50.630 --> 00:26:53.150 align:middle line:90%
+Yeah.
+
+00:26:53.150 --> 00:26:54.380 align:middle line:90%
+OK.
+
+00:26:54.380 --> 00:26:58.106 align:middle line:84%
+So we want to prove some
+algebraic properties.
+
+00:26:58.106 --> 00:27:08.390 align:middle line:90%
+
+
+00:27:08.390 --> 00:27:09.115 align:middle line:90%
+Of limits.
+
+00:27:09.115 --> 00:27:14.430 align:middle line:90%
+
+
+00:27:14.430 --> 00:27:17.440 align:middle line:90%
+So the idea is that we take--
+
+00:27:17.440 --> 00:27:20.470 align:middle line:90%
+so we have four of these.
+
+00:27:20.470 --> 00:27:24.260 align:middle line:84%
+And the first one is
+that you take a sequence.
+
+00:27:24.260 --> 00:27:29.170 align:middle line:84%
+So maybe I'll just say
+throughout a n and bn
+
+00:27:29.170 --> 00:27:30.306 align:middle line:90%
+are sequences.
+
+00:27:30.306 --> 00:27:35.230 align:middle line:90%
+
+
+00:27:35.230 --> 00:27:45.012 align:middle line:84%
+And a n is convergent to a
+and bn is convergent to b.
+
+00:27:45.012 --> 00:27:48.130 align:middle line:90%
+
+
+00:27:48.130 --> 00:27:50.950 align:middle line:84%
+The first one,
+the first property
+
+00:27:50.950 --> 00:27:53.330 align:middle line:84%
+is that if you take a
+real number-- sorry.
+
+00:27:53.330 --> 00:27:57.430 align:middle line:84%
+If you take a real number--
+c here is a real number--
+
+00:27:57.430 --> 00:28:00.760 align:middle line:84%
+and you form a
+new sequence where
+
+00:28:00.760 --> 00:28:05.770 align:middle line:84%
+CN is just this real
+number times a n
+
+00:28:05.770 --> 00:28:10.060 align:middle line:84%
+so each cn is somehow
+almost like a n except
+
+00:28:10.060 --> 00:28:13.700 align:middle line:84%
+that they're multiplied
+by this fixed constant c.
+
+00:28:13.700 --> 00:28:21.200 align:middle line:84%
+So this here-- so the first one
+is that cn is also convergent.
+
+00:28:21.200 --> 00:28:26.360 align:middle line:90%
+And the limit is just c times a.
+
+00:28:26.360 --> 00:28:28.490 align:middle line:90%
+OK.
+
+00:28:28.490 --> 00:28:35.210 align:middle line:84%
+The second one is
+that if you take--
+
+00:28:35.210 --> 00:28:38.450 align:middle line:84%
+if you define a
+sequence-- so this
+
+00:28:38.450 --> 00:28:40.470 align:middle line:84%
+is a different
+sequence than this one.
+
+00:28:40.470 --> 00:28:46.670 align:middle line:84%
+But if you define a sequence
+cn by its a n, the n-th element
+
+00:28:46.670 --> 00:28:51.050 align:middle line:84%
+is a n plus bn,
+then this sequence
+
+00:28:51.050 --> 00:28:54.710 align:middle line:84%
+is also convergent.
+cn is convergent
+
+00:28:54.710 --> 00:28:57.380 align:middle line:90%
+and the limit is a plus b.
+
+00:28:57.380 --> 00:28:58.960 align:middle line:90%
+So that was the second property.
+
+00:28:58.960 --> 00:29:12.320 align:middle line:90%
+
+
+00:29:12.320 --> 00:29:14.041 align:middle line:90%
+The third property is--
+
+00:29:14.041 --> 00:29:19.790 align:middle line:90%
+
+
+00:29:19.790 --> 00:29:22.220 align:middle line:84%
+the third property is that
+if you take a product.
+
+00:29:22.220 --> 00:29:22.840 align:middle line:90%
+Sorry.
+
+00:29:22.840 --> 00:29:25.030 align:middle line:90%
+So if you take a n--
+
+00:29:25.030 --> 00:29:31.100 align:middle line:84%
+if you define cn
+as a n times bn--
+
+00:29:31.100 --> 00:29:33.100 align:middle line:90%
+so this is a new sequence.
+
+00:29:33.100 --> 00:29:40.870 align:middle line:84%
+Then cn is convergent and
+the limit is a times b.
+
+00:29:40.870 --> 00:29:53.290 align:middle line:84%
+And the last property
+is that if the a n are--
+
+00:29:53.290 --> 00:29:56.980 align:middle line:84%
+all of these are
+different from 0.
+
+00:29:56.980 --> 00:29:59.205 align:middle line:90%
+So this here is for all n.
+
+00:29:59.205 --> 00:30:02.500 align:middle line:90%
+
+
+00:30:02.500 --> 00:30:09.460 align:middle line:84%
+And also you have that the
+limit here is not equal to 0.
+
+00:30:09.460 --> 00:30:17.300 align:middle line:84%
+Then if you define a
+sequence to be 1 over a n,
+
+00:30:17.300 --> 00:30:22.310 align:middle line:84%
+then cn here converge and
+the limit is 1 over n.
+
+00:30:22.310 --> 00:30:25.520 align:middle line:90%
+
+
+00:30:25.520 --> 00:30:29.820 align:middle line:84%
+And so I will prove
+rigorously the first two.
+
+00:30:29.820 --> 00:30:33.300 align:middle line:84%
+And I will basically tell you
+how to prove the other two.
+
+00:30:33.300 --> 00:30:38.510 align:middle line:84%
+But the first two
+I will write out
+
+00:30:38.510 --> 00:30:43.070 align:middle line:84%
+formally, as we talked about
+last time, how you write
+
+00:30:43.070 --> 00:30:49.070 align:middle line:84%
+a formal proof, whereas what
+I'm going to discuss for three
+
+00:30:49.070 --> 00:30:52.410 align:middle line:84%
+and four is very, very
+close to a formal proof
+
+00:30:52.410 --> 00:30:53.870 align:middle line:84%
+but it's more like
+what you would
+
+00:30:53.870 --> 00:30:55.525 align:middle line:90%
+have on a piece of scrap paper.
+
+00:30:55.525 --> 00:31:10.660 align:middle line:90%
+
+
+00:31:10.660 --> 00:31:12.480 align:middle line:84%
+So now let's prove
+the first one.
+
+00:31:12.480 --> 00:31:15.130 align:middle line:90%
+
+
+00:31:15.130 --> 00:31:16.620 align:middle line:90%
+So proof of one.
+
+00:31:16.620 --> 00:31:30.940 align:middle line:90%
+
+
+00:31:30.940 --> 00:31:35.145 align:middle line:84%
+So given epsilon
+greater than 0--
+
+00:31:35.145 --> 00:31:39.800 align:middle line:90%
+
+
+00:31:39.800 --> 00:31:41.330 align:middle line:90%
+so yeah.
+
+00:31:41.330 --> 00:31:45.850 align:middle line:84%
+So first of all, of
+course, if this capital C--
+
+00:31:45.850 --> 00:31:50.600 align:middle line:84%
+if this capital C is 0,
+then everything is 0.
+
+00:31:50.600 --> 00:31:53.300 align:middle line:90%
+So it's trivially the case.
+
+00:31:53.300 --> 00:31:55.570 align:middle line:90%
+So we may as well assume.
+
+00:31:55.570 --> 00:31:58.790 align:middle line:84%
+So may as well assume
+that capital C--
+
+00:31:58.790 --> 00:32:03.700 align:middle line:90%
+
+
+00:32:03.700 --> 00:32:05.265 align:middle line:90%
+that capital C is not 0.
+
+00:32:05.265 --> 00:32:09.170 align:middle line:90%
+
+
+00:32:09.170 --> 00:32:12.390 align:middle line:84%
+So now, given epsilon
+greater than 0,
+
+00:32:12.390 --> 00:32:16.680 align:middle line:84%
+since this sequence a
+n is converging to a,
+
+00:32:16.680 --> 00:32:26.790 align:middle line:84%
+this means that there
+exists n such that--
+
+00:32:26.790 --> 00:32:29.430 align:middle line:84%
+and now I'm not going
+to use that epsilon.
+
+00:32:29.430 --> 00:32:31.640 align:middle line:90%
+You gave me that epsilon.
+
+00:32:31.640 --> 00:32:35.600 align:middle line:84%
+I'm not going to use that
+epsilon in the definition
+
+00:32:35.600 --> 00:32:38.190 align:middle line:90%
+that a n is converging to a.
+
+00:32:38.190 --> 00:32:40.310 align:middle line:84%
+I'm not going to use
+that one, but I'm
+
+00:32:40.310 --> 00:32:42.840 align:middle line:84%
+going to use one that
+is closely related.
+
+00:32:42.840 --> 00:32:47.120 align:middle line:84%
+I'm going to use epsilon
+divided by the norm of z
+
+00:32:47.120 --> 00:32:50.000 align:middle line:90%
+because that's another positive.
+
+00:32:50.000 --> 00:32:53.250 align:middle line:90%
+So you gave me an epsilon.
+
+00:32:53.250 --> 00:32:56.990 align:middle line:84%
+I'm going to look
+at this number here.
+
+00:32:56.990 --> 00:32:59.630 align:middle line:90%
+That's a positive number.
+
+00:32:59.630 --> 00:33:03.230 align:middle line:84%
+And I can use that
+in the definition
+
+00:33:03.230 --> 00:33:05.610 align:middle line:90%
+that a n converges to a.
+
+00:33:05.610 --> 00:33:09.680 align:middle line:84%
+So I'm going to say that
+because an converts to a,
+
+00:33:09.680 --> 00:33:13.720 align:middle line:84%
+there exists a capital N such
+that if little n is bigger
+
+00:33:13.720 --> 00:33:23.470 align:middle line:84%
+than this capital N, then a n
+minus a is less than epsilon
+
+00:33:23.470 --> 00:33:26.950 align:middle line:90%
+over capital S--
+
+00:33:26.950 --> 00:33:31.940 align:middle line:84%
+or C, sorry, capital
+C, a normal capital C.
+
+00:33:31.940 --> 00:33:35.540 align:middle line:84%
+But now I just
+multiply on both sides.
+
+00:33:35.540 --> 00:33:46.540 align:middle line:84%
+So multiply by the
+absolute value of capital C
+
+00:33:46.540 --> 00:33:47.610 align:middle line:90%
+on both sides.
+
+00:33:47.610 --> 00:33:52.240 align:middle line:90%
+
+
+00:33:52.240 --> 00:33:58.050 align:middle line:84%
+And so if we do that,
+then this here pops in.
+
+00:33:58.050 --> 00:33:58.550 align:middle line:90%
+Right?
+
+00:33:58.550 --> 00:34:04.880 align:middle line:84%
+It actually goes in as c
+times a n minus c times a
+
+00:34:04.880 --> 00:34:07.880 align:middle line:90%
+is less than epsilon.
+
+00:34:07.880 --> 00:34:11.090 align:middle line:84%
+And this is as
+long as this n is--
+
+00:34:11.090 --> 00:34:13.070 align:middle line:84%
+little n is bigger
+than that capital
+
+00:34:13.070 --> 00:34:15.770 align:middle line:84%
+N. This is exactly what
+we wanted to prove.
+
+00:34:15.770 --> 00:34:18.350 align:middle line:90%
+
+
+00:34:18.350 --> 00:34:19.940 align:middle line:90%
+OK.
+
+00:34:19.940 --> 00:34:23.253 align:middle line:90%
+Now the second one is--
+
+00:34:23.253 --> 00:34:33.080 align:middle line:90%
+
+
+00:34:33.080 --> 00:34:39.050 align:middle line:84%
+so the reason why I'm
+doing the first two--
+
+00:34:39.050 --> 00:34:42.030 align:middle line:84%
+you see that those are
+pretty straightforward.
+
+00:34:42.030 --> 00:34:47.929 align:middle line:84%
+I mean, it's not like any of
+these is complicated to prove.
+
+00:34:47.929 --> 00:34:52.074 align:middle line:84%
+The next two is a
+little bit more--
+
+00:34:52.074 --> 00:34:54.199 align:middle line:84%
+I mean, I wouldn't say
+complicated but a little bit
+
+00:34:54.199 --> 00:34:55.860 align:middle line:90%
+more involved, these two.
+
+00:34:55.860 --> 00:34:58.490 align:middle line:84%
+But I want to give you
+the idea because it's
+
+00:34:58.490 --> 00:35:04.390 align:middle line:84%
+kind of a very simple but
+useful idea in these two.
+
+00:35:04.390 --> 00:35:06.920 align:middle line:84%
+So I don't want
+to skip the proof.
+
+00:35:06.920 --> 00:35:11.050 align:middle line:90%
+
+
+00:35:11.050 --> 00:35:17.040 align:middle line:84%
+So we want to approve
+of the second property.
+
+00:35:17.040 --> 00:35:27.920 align:middle line:90%
+
+
+00:35:27.920 --> 00:35:30.760 align:middle line:84%
+So we have that
+a n is converging
+
+00:35:30.760 --> 00:35:34.660 align:middle line:90%
+to a and bn is converging to b.
+
+00:35:34.660 --> 00:35:37.240 align:middle line:84%
+And so again, you
+give me an epsilon
+
+00:35:37.240 --> 00:35:39.040 align:middle line:90%
+that I have to work with.
+
+00:35:39.040 --> 00:35:46.840 align:middle line:84%
+So given epsilon-- given
+epsilon greater than zero,
+
+00:35:46.840 --> 00:35:52.060 align:middle line:84%
+then I'm going to not again use
+this epsilon in the definition
+
+00:35:52.060 --> 00:35:53.960 align:middle line:90%
+that a n converge to a.
+
+00:35:53.960 --> 00:35:56.470 align:middle line:84%
+And I'm not going to
+use it in the definition
+
+00:35:56.470 --> 00:36:01.920 align:middle line:84%
+that bn is converging to b, but
+I'm going to use epsilon over 2
+
+00:36:01.920 --> 00:36:03.400 align:middle line:90%
+in each of them.
+
+00:36:03.400 --> 00:36:17.310 align:middle line:84%
+So since a n converts to a,
+there exists a capital N--
+
+00:36:17.310 --> 00:36:21.560 align:middle line:84%
+and let me call it
+capital N subscript a--
+
+00:36:21.560 --> 00:36:29.310 align:middle line:84%
+such that if little n is
+bigger than this capital N
+
+00:36:29.310 --> 00:36:38.835 align:middle line:84%
+subscript a, then a n minus a
+is less than epsilon over 2.
+
+00:36:38.835 --> 00:36:39.335 align:middle line:90%
+Right?
+
+00:36:39.335 --> 00:37:00.340 align:middle line:90%
+
+
+00:37:00.340 --> 00:37:16.000 align:middle line:84%
+Likewise, since being
+converted to b, then
+
+00:37:16.000 --> 00:37:21.170 align:middle line:84%
+there exists a capital
+N, but denoted by this,
+
+00:37:21.170 --> 00:37:24.370 align:middle line:84%
+it may be different than the
+one coming from the sequence
+
+00:37:24.370 --> 00:37:35.140 align:middle line:84%
+a n such that if little n is
+bigger than this capital N
+
+00:37:35.140 --> 00:37:45.280 align:middle line:84%
+subscript b, then bn minus b
+is smaller than epsilon over 2.
+
+00:37:45.280 --> 00:37:50.600 align:middle line:90%
+And so now I have to choose.
+
+00:37:50.600 --> 00:37:52.060 align:middle line:90%
+So you gave me the epsilon.
+
+00:37:52.060 --> 00:37:55.630 align:middle line:84%
+And I have to choose a capital
+N. I haven't chosen that yet
+
+00:37:55.630 --> 00:37:58.750 align:middle line:90%
+but I will do that now.
+
+00:37:58.750 --> 00:38:08.670 align:middle line:84%
+So set capital N equal to
+the maximum of these two N's.
+
+00:38:08.670 --> 00:38:12.510 align:middle line:84%
+So you're setting it equal
+to the maximum of these two.
+
+00:38:12.510 --> 00:38:15.000 align:middle line:90%
+Now if little n--
+
+00:38:15.000 --> 00:38:21.210 align:middle line:84%
+so then for little n
+bigger than this capital N,
+
+00:38:21.210 --> 00:38:25.360 align:middle line:84%
+if you're looking at a--
+so now we want to look at--
+
+00:38:25.360 --> 00:38:30.880 align:middle line:84%
+so our sequence cn was
+the sum of these two.
+
+00:38:30.880 --> 00:38:33.160 align:middle line:90%
+so this here was cn.
+
+00:38:33.160 --> 00:38:36.310 align:middle line:90%
+So we want to prove that--
+
+00:38:36.310 --> 00:38:40.150 align:middle line:84%
+so we want to look at
+cn minus a times b.
+
+00:38:40.150 --> 00:38:43.890 align:middle line:84%
+And we want to prove that if
+little n is bigger than this,
+
+00:38:43.890 --> 00:38:47.470 align:middle line:84%
+then this here is strictly
+less than epsilon.
+
+00:38:47.470 --> 00:38:54.510 align:middle line:84%
+But this thing here is cn was,
+by definition, a n plus bn.
+
+00:38:54.510 --> 00:38:55.110 align:middle line:90%
+Sorry.
+
+00:38:55.110 --> 00:38:56.470 align:middle line:90%
+And this was not the product.
+
+00:38:56.470 --> 00:38:57.115 align:middle line:90%
+It was the sum.
+
+00:38:57.115 --> 00:39:00.613 align:middle line:90%
+
+
+00:39:00.613 --> 00:39:05.740 align:middle line:90%
+Minus a plus b.
+
+00:39:05.740 --> 00:39:09.190 align:middle line:84%
+But this thing
+here you can write
+
+00:39:09.190 --> 00:39:16.620 align:middle line:90%
+as a n minus a plus bn minus b.
+
+00:39:16.620 --> 00:39:19.540 align:middle line:90%
+
+
+00:39:19.540 --> 00:39:22.465 align:middle line:84%
+And now you can just take
+the absolute value of this.
+
+00:39:22.465 --> 00:39:24.465 align:middle line:84%
+It's bounded by the
+absolute value of the first.
+
+00:39:24.465 --> 00:39:37.420 align:middle line:90%
+
+
+00:39:37.420 --> 00:39:40.280 align:middle line:84%
+So plus the absolute
+value of this thing.
+
+00:39:40.280 --> 00:39:45.400 align:middle line:90%
+
+
+00:39:45.400 --> 00:39:54.310 align:middle line:84%
+And now you see
+that if little a--
+
+00:39:54.310 --> 00:39:59.150 align:middle line:90%
+let me keep-- so if little a--
+
+00:39:59.150 --> 00:39:59.650 align:middle line:90%
+sorry.
+
+00:39:59.650 --> 00:40:05.070 align:middle line:84%
+If little n-- since little n
+is bigger than capital N, which
+
+00:40:05.070 --> 00:40:09.310 align:middle line:84%
+is bigger than capital
+N of a, in particular,
+
+00:40:09.310 --> 00:40:13.690 align:middle line:84%
+then this thing here is
+less than epsilon over 2.
+
+00:40:13.690 --> 00:40:23.940 align:middle line:84%
+So you have that cn minus a
+plus b is less than epsilon
+
+00:40:23.940 --> 00:40:26.280 align:middle line:90%
+over 2 that comes from this.
+
+00:40:26.280 --> 00:40:34.440 align:middle line:84%
+But you also have that capital
+N is bigger or equal to n sub b.
+
+00:40:34.440 --> 00:40:37.590 align:middle line:84%
+So you also have that this
+thing here is less than epsilon
+
+00:40:37.590 --> 00:40:38.430 align:middle line:90%
+over 2.
+
+00:40:38.430 --> 00:40:40.710 align:middle line:90%
+Right?
+
+00:40:40.710 --> 00:40:44.550 align:middle line:84%
+So you have that this
+thing here with little a
+
+00:40:44.550 --> 00:40:48.550 align:middle line:84%
+is big N-- is bigger than this
+capital N. This thing here,
+
+00:40:48.550 --> 00:40:51.580 align:middle line:84%
+this difference is
+strictly less than epsilon.
+
+00:40:51.580 --> 00:40:53.740 align:middle line:84%
+That's what we needed
+to prove in order
+
+00:40:53.740 --> 00:40:56.380 align:middle line:84%
+to prove that the sequence
+that was the sum of the two
+
+00:40:56.380 --> 00:40:59.660 align:middle line:84%
+sequences converging to
+the sum of the limits.
+
+00:40:59.660 --> 00:41:00.580 align:middle line:90%
+Yeah.
+
+00:41:00.580 --> 00:41:05.050 align:middle line:84%
+AUDIENCE: We initially defined
+the n minus [? e ?] or n minus a
+
+00:41:05.050 --> 00:41:06.880 align:middle line:90%
+be less than epsilon over 2.
+
+00:41:06.880 --> 00:41:08.800 align:middle line:84%
+What was the
+justification for why
+
+00:41:08.800 --> 00:41:13.510 align:middle line:84%
+we would say if we know that
+the n converge to be within?
+
+00:41:13.510 --> 00:41:14.530 align:middle line:90%
+TOBIAS COLDING: Right.
+
+00:41:14.530 --> 00:41:15.170 align:middle line:90%
+That's right.
+
+00:41:15.170 --> 00:41:21.230 align:middle line:84%
+So because a n or bn,
+because they converge.
+
+00:41:21.230 --> 00:41:25.090 align:middle line:90%
+So let's say a n converges to a.
+
+00:41:25.090 --> 00:41:25.820 align:middle line:90%
+Right.
+
+00:41:25.820 --> 00:41:29.360 align:middle line:84%
+Then for all epsilon,
+you gave me the epsilon.
+
+00:41:29.360 --> 00:41:31.960 align:middle line:84%
+And I'm using that
+it's converging
+
+00:41:31.960 --> 00:41:35.420 align:middle line:84%
+not just for that
+choice of epsilon
+
+00:41:35.420 --> 00:41:38.030 align:middle line:84%
+but also even for
+epsilon over 2.
+
+00:41:38.030 --> 00:41:41.980 align:middle line:84%
+That epsilon, you
+gave me the epsilon.
+
+00:41:41.980 --> 00:41:44.090 align:middle line:84%
+Then I'm using that
+it's converging.
+
+00:41:44.090 --> 00:41:46.210 align:middle line:84%
+So I will have to
+choose probably
+
+00:41:46.210 --> 00:41:49.780 align:middle line:84%
+an n that is much larger
+if I'm using epsilon over 2
+
+00:41:49.780 --> 00:41:52.400 align:middle line:84%
+than if I use
+directly the epsilon.
+
+00:41:52.400 --> 00:41:54.120 align:middle line:84%
+AUDIENCE: So I'd assume
+that it increases
+
+00:41:54.120 --> 00:41:56.460 align:middle line:90%
+like epsilon gets smaller.
+
+00:41:56.460 --> 00:41:58.450 align:middle line:84%
+TOBIAS COLDING: As
+epsilon gets smaller,
+
+00:41:58.450 --> 00:42:02.078 align:middle line:84%
+presumably you need to
+choose capital N larger.
+
+00:42:02.078 --> 00:42:02.620 align:middle line:90%
+AUDIENCE: OK.
+
+00:42:02.620 --> 00:42:04.470 align:middle line:84%
+So you couldn't run
+into a case where
+
+00:42:04.470 --> 00:42:08.220 align:middle line:84%
+we're assuming a convergence
+is like smooth as opposed
+
+00:42:08.220 --> 00:42:10.273 align:middle line:90%
+to oscillating about a point?
+
+00:42:10.273 --> 00:42:11.190 align:middle line:90%
+TOBIAS COLDING: Right.
+
+00:42:11.190 --> 00:42:11.732 align:middle line:90%
+That's right.
+
+00:42:11.732 --> 00:42:19.170 align:middle line:84%
+I mean, so-- but
+I'm using that for--
+
+00:42:19.170 --> 00:42:21.510 align:middle line:84%
+I'm basically using
+that for all epsilon,
+
+00:42:21.510 --> 00:42:24.010 align:middle line:84%
+that it wasn't just
+for a fixed epsilon.
+
+00:42:24.010 --> 00:42:28.170 align:middle line:84%
+And so that's why, when you
+came to this epsilon, then
+
+00:42:28.170 --> 00:42:30.850 align:middle line:84%
+I'm actually using it
+for epsilon over 2.
+
+00:42:30.850 --> 00:42:31.350 align:middle line:90%
+Yeah.
+
+00:42:31.350 --> 00:42:33.900 align:middle line:90%
+
+
+00:42:33.900 --> 00:42:34.570 align:middle line:90%
+OK.
+
+00:42:34.570 --> 00:42:37.740 align:middle line:84%
+So that was the
+first two properties.
+
+00:42:37.740 --> 00:42:42.060 align:middle line:84%
+It's not like the other
+one is super difficult.
+
+00:42:42.060 --> 00:42:44.590 align:middle line:84%
+But those two are the
+most straightforward.
+
+00:42:44.590 --> 00:42:47.430 align:middle line:90%
+Let's look at the other two.
+
+00:42:47.430 --> 00:42:52.730 align:middle line:84%
+And so in particular, because
+it's like, for the next one,
+
+00:42:52.730 --> 00:42:56.620 align:middle line:84%
+there's a little
+trick that is useful
+
+00:42:56.620 --> 00:42:59.113 align:middle line:90%
+in various different settings.
+
+00:42:59.113 --> 00:43:04.270 align:middle line:90%
+
+
+00:43:04.270 --> 00:43:11.110 align:middle line:84%
+And so prove-- but the next
+two I will just outline.
+
+00:43:11.110 --> 00:43:13.690 align:middle line:90%
+OK.
+
+00:43:13.690 --> 00:43:21.060 align:middle line:90%
+So proof of 3 so outline.
+
+00:43:21.060 --> 00:43:26.170 align:middle line:90%
+
+
+00:43:26.170 --> 00:43:31.450 align:middle line:84%
+So we need to look
+at a n times bn.
+
+00:43:31.450 --> 00:43:32.050 align:middle line:90%
+Right?
+
+00:43:32.050 --> 00:43:35.030 align:middle line:90%
+So cn is a n times bn.
+
+00:43:35.030 --> 00:43:40.870 align:middle line:84%
+And we want to compare
+cn with a times b.
+
+00:43:40.870 --> 00:43:44.620 align:middle line:84%
+We want to show that this
+thing here, if little n is
+
+00:43:44.620 --> 00:43:45.740 align:middle line:90%
+sufficiently large--
+
+00:43:45.740 --> 00:43:49.870 align:middle line:84%
+so given an epsilon, if little
+n is sufficiently large,
+
+00:43:49.870 --> 00:43:54.000 align:middle line:84%
+then this difference
+is bounded by epsilon.
+
+00:43:54.000 --> 00:44:01.650 align:middle line:84%
+But this thing here
+is anbn minus a b.
+
+00:44:01.650 --> 00:44:03.690 align:middle line:90%
+OK.
+
+00:44:03.690 --> 00:44:07.530 align:middle line:84%
+And so the little trick is
+now that, in itself, it's
+
+00:44:07.530 --> 00:44:11.440 align:middle line:84%
+kind of difficult to
+compare these two things.
+
+00:44:11.440 --> 00:44:17.040 align:middle line:84%
+But the little trick is that
+if you're looking at anbn,
+
+00:44:17.040 --> 00:44:20.280 align:middle line:90%
+if you're sort of--
+
+00:44:20.280 --> 00:44:22.450 align:middle line:84%
+instead of comparing
+them directly,
+
+00:44:22.450 --> 00:44:25.260 align:middle line:84%
+then comparing this
+with something that
+
+00:44:25.260 --> 00:44:30.270 align:middle line:84%
+is halfway between this and
+that, then it gets a lot easier.
+
+00:44:30.270 --> 00:44:34.470 align:middle line:84%
+So what you do is
+you're looking at anbn,
+
+00:44:34.470 --> 00:44:39.930 align:middle line:84%
+and you subtract
+a and b, and then
+
+00:44:39.930 --> 00:44:41.450 align:middle line:90%
+you add it immediately again.
+
+00:44:41.450 --> 00:44:45.000 align:middle line:90%
+
+
+00:44:45.000 --> 00:44:47.900 align:middle line:90%
+So this is certainly the same.
+
+00:44:47.900 --> 00:44:53.840 align:middle line:84%
+And now I can write
+this thing here as a n.
+
+00:44:53.840 --> 00:44:57.030 align:middle line:84%
+I can just concentrate
+on these two first.
+
+00:44:57.030 --> 00:44:59.900 align:middle line:90%
+And then I can factor out a n.
+
+00:44:59.900 --> 00:45:01.630 align:middle line:90%
+So I can write that as this.
+
+00:45:01.630 --> 00:45:04.940 align:middle line:90%
+
+
+00:45:04.940 --> 00:45:08.460 align:middle line:84%
+And this thing here
+I can factor out a b.
+
+00:45:08.460 --> 00:45:12.410 align:middle line:90%
+
+
+00:45:12.410 --> 00:45:16.340 align:middle line:90%
+So I can write it like that.
+
+00:45:16.340 --> 00:45:19.340 align:middle line:90%
+And now you see this.
+
+00:45:19.340 --> 00:45:21.030 align:middle line:90%
+It looks much more promising.
+
+00:45:21.030 --> 00:45:23.250 align:middle line:84%
+This one looks like
+the problematic one.
+
+00:45:23.250 --> 00:45:25.790 align:middle line:84%
+This one looks like
+no problem at all
+
+00:45:25.790 --> 00:45:29.310 align:middle line:84%
+because this is just
+some fixed constant times
+
+00:45:29.310 --> 00:45:30.800 align:middle line:90%
+this difference here.
+
+00:45:30.800 --> 00:45:32.900 align:middle line:84%
+This one looks a little
+bit more problematic
+
+00:45:32.900 --> 00:45:34.320 align:middle line:84%
+because it's not
+a fixed constant.
+
+00:45:34.320 --> 00:45:36.780 align:middle line:84%
+But we can deal with
+this in just a second.
+
+00:45:36.780 --> 00:45:39.230 align:middle line:84%
+But the first thing I
+can do is I just take
+
+00:45:39.230 --> 00:45:48.590 align:middle line:84%
+the absolute value of this plus
+the absolute value of that.
+
+00:45:48.590 --> 00:45:52.830 align:middle line:90%
+
+
+00:45:52.830 --> 00:45:55.000 align:middle line:90%
+And now I just take--
+
+00:45:55.000 --> 00:46:00.190 align:middle line:84%
+so then this here is actually
+the same for a product.
+
+00:46:00.190 --> 00:46:04.717 align:middle line:84%
+You can just take the product
+of the absolute value.
+
+00:46:04.717 --> 00:46:05.300 align:middle line:90%
+It's the same.
+
+00:46:05.300 --> 00:46:17.540 align:middle line:90%
+
+
+00:46:17.540 --> 00:46:24.060 align:middle line:84%
+Now the next thing
+is that we're going
+
+00:46:24.060 --> 00:46:32.730 align:middle line:84%
+to use the theorem
+that we proved earlier
+
+00:46:32.730 --> 00:46:41.850 align:middle line:90%
+that since this sequence here--
+
+00:46:41.850 --> 00:46:47.090 align:middle line:84%
+since these numbers here,
+all of these numbers for all,
+
+00:46:47.090 --> 00:46:48.310 align:middle line:90%
+when you take the set--
+
+00:46:48.310 --> 00:46:51.830 align:middle line:90%
+
+
+00:46:51.830 --> 00:46:58.233 align:middle line:84%
+when you're looking at this set,
+since this set here is bounded--
+
+00:46:58.233 --> 00:47:01.190 align:middle line:90%
+
+
+00:47:01.190 --> 00:47:04.890 align:middle line:84%
+and it's bounded because
+the sequence was convergent.
+
+00:47:04.890 --> 00:47:09.350 align:middle line:84%
+And so we already proved
+that then the values, the set
+
+00:47:09.350 --> 00:47:11.590 align:middle line:90%
+of values is a bounded set.
+
+00:47:11.590 --> 00:47:12.090 align:middle line:90%
+Right.
+
+00:47:12.090 --> 00:47:13.620 align:middle line:90%
+So it's bounded.
+
+00:47:13.620 --> 00:47:15.500 align:middle line:90%
+And so we can assume--
+
+00:47:15.500 --> 00:47:33.080 align:middle line:84%
+so that exists C. So that's a n
+is the absolute value is bounded
+
+00:47:33.080 --> 00:47:34.095 align:middle line:90%
+by the c.
+
+00:47:34.095 --> 00:47:38.870 align:middle line:90%
+
+
+00:47:38.870 --> 00:47:40.025 align:middle line:90%
+So now I have--
+
+00:47:40.025 --> 00:47:42.790 align:middle line:90%
+
+
+00:47:42.790 --> 00:47:51.120 align:middle line:84%
+and so now I have that
+cn minus a times b.
+
+00:47:51.120 --> 00:47:53.670 align:middle line:90%
+This is what I had up there.
+
+00:47:53.670 --> 00:47:55.300 align:middle line:90%
+And I'm just using that.
+
+00:47:55.300 --> 00:47:58.110 align:middle line:84%
+This is now bounded by just
+because these things here
+
+00:47:58.110 --> 00:48:10.650 align:middle line:84%
+are bounded by c, I get cbn
+minus b plus b over a n minus a.
+
+00:48:10.650 --> 00:48:12.750 align:middle line:90%
+Right.
+
+00:48:12.750 --> 00:48:15.910 align:middle line:84%
+And now you see now it's
+going to follow like--
+
+00:48:15.910 --> 00:48:18.660 align:middle line:84%
+so this here was just
+some observations.
+
+00:48:18.660 --> 00:48:19.210 align:middle line:90%
+Right?
+
+00:48:19.210 --> 00:48:21.280 align:middle line:84%
+And now when you
+come to the proof,
+
+00:48:21.280 --> 00:48:34.980 align:middle line:84%
+so to prove three, then
+given epsilon greater than 0,
+
+00:48:34.980 --> 00:48:38.130 align:middle line:84%
+now we want to make sure
+that this thing here
+
+00:48:38.130 --> 00:48:41.960 align:middle line:84%
+is less than epsilon over
+2 and that this thing here
+
+00:48:41.960 --> 00:48:44.090 align:middle line:90%
+is less than epsilon over 2.
+
+00:48:44.090 --> 00:48:49.790 align:middle line:84%
+And so I don't want to get
+in trouble if this set was 0
+
+00:48:49.790 --> 00:48:51.510 align:middle line:90%
+or if this set was 0.
+
+00:48:51.510 --> 00:49:00.590 align:middle line:84%
+So I'm just-- so given epsilon
+since a n converges to a, then I
+
+00:49:00.590 --> 00:49:04.820 align:middle line:90%
+can find--
+
+00:49:04.820 --> 00:49:06.840 align:middle line:84%
+now I'm basically writing
+out the whole proof,
+
+00:49:06.840 --> 00:49:10.610 align:middle line:90%
+but I can find capital An--
+
+00:49:10.610 --> 00:49:15.290 align:middle line:84%
+sorry-- capital Na so that if
+little n is bigger than capital
+
+00:49:15.290 --> 00:49:24.270 align:middle line:84%
+Na, then you have that a
+n minus a is less than--
+
+00:49:24.270 --> 00:49:26.520 align:middle line:90%
+I don't quite use that epsilon.
+
+00:49:26.520 --> 00:49:29.160 align:middle line:84%
+And I don't quite
+use epsilon over 2,
+
+00:49:29.160 --> 00:49:32.460 align:middle line:90%
+but I take absolute value.
+
+00:49:32.460 --> 00:49:37.820 align:middle line:84%
+I multiply it like this because
+I don't want to have something
+
+00:49:37.820 --> 00:49:40.770 align:middle line:84%
+where if b was was
+zero, then it really
+
+00:49:40.770 --> 00:49:42.490 align:middle line:84%
+didn't make any
+sense what I wrote.
+
+00:49:42.490 --> 00:49:44.050 align:middle line:90%
+So now there's no problem.
+
+00:49:44.050 --> 00:49:46.200 align:middle line:84%
+It definitely makes
+sense even if b is 0.
+
+00:49:46.200 --> 00:50:06.450 align:middle line:90%
+
+
+00:50:06.450 --> 00:50:14.525 align:middle line:84%
+Likewise since bn converges
+to b, then there exists--
+
+00:50:14.525 --> 00:50:17.460 align:middle line:90%
+
+
+00:50:17.460 --> 00:50:20.560 align:middle line:84%
+so again, you gave
+me an epsilon.
+
+00:50:20.560 --> 00:50:31.080 align:middle line:84%
+So there exists an nb such that
+if little n is bigger than nb,
+
+00:50:31.080 --> 00:50:35.730 align:middle line:84%
+then actually you
+have that bn minus
+
+00:50:35.730 --> 00:50:40.260 align:middle line:84%
+b is less than
+epsilon again over 2.
+
+00:50:40.260 --> 00:50:42.380 align:middle line:84%
+And this is not quite
+what I use because I
+
+00:50:42.380 --> 00:50:44.450 align:middle line:84%
+don't want to be
+in trouble that c--
+
+00:50:44.450 --> 00:50:47.240 align:middle line:84%
+c is already non-negative
+because it's bigger
+
+00:50:47.240 --> 00:50:48.600 align:middle line:90%
+than this absolute value.
+
+00:50:48.600 --> 00:50:52.370 align:middle line:84%
+But I'm just adding one
+for the same reason.
+
+00:50:52.370 --> 00:50:59.930 align:middle line:84%
+And so now you see that if
+little n-- so therefore,
+
+00:50:59.930 --> 00:51:04.130 align:middle line:84%
+if little n is bigger than
+the maximum of these two,
+
+00:51:04.130 --> 00:51:08.150 align:middle line:84%
+then both of these
+inequalities hold.
+
+00:51:08.150 --> 00:51:09.030 align:middle line:90%
+Right.
+
+00:51:09.030 --> 00:51:10.500 align:middle line:90%
+Both of them hold.
+
+00:51:10.500 --> 00:51:16.370 align:middle line:84%
+And so this means that you
+now have that cn minus a times
+
+00:51:16.370 --> 00:51:19.400 align:middle line:90%
+b, this thing here.
+
+00:51:19.400 --> 00:51:20.880 align:middle line:90%
+So we had it here.
+
+00:51:20.880 --> 00:51:24.380 align:middle line:90%
+This is less than c.
+
+00:51:24.380 --> 00:51:28.160 align:middle line:84%
+And then this
+difference here was now
+
+00:51:28.160 --> 00:51:35.460 align:middle line:84%
+assumed to be epsilon
+over 2, 1 plus c.
+
+00:51:35.460 --> 00:51:40.980 align:middle line:84%
+And likewise, this
+thing here is bounded
+
+00:51:40.980 --> 00:51:46.290 align:middle line:90%
+by this number here times--
+
+00:51:46.290 --> 00:51:53.190 align:middle line:84%
+and then this thing
+here, so epsilon
+
+00:51:53.190 --> 00:51:58.680 align:middle line:84%
+over 2 absolute
+value of b plus 1.
+
+00:51:58.680 --> 00:52:00.905 align:middle line:90%
+OK.
+
+00:52:00.905 --> 00:52:03.180 align:middle line:84%
+But now you see that
+this thing here,
+
+00:52:03.180 --> 00:52:08.250 align:middle line:84%
+that c divided by 1 plus
+c, that's bounded by 1.
+
+00:52:08.250 --> 00:52:08.920 align:middle line:90%
+Right.
+
+00:52:08.920 --> 00:52:12.635 align:middle line:84%
+So this thing here is
+bounded by epsilon over 2.
+
+00:52:12.635 --> 00:52:15.180 align:middle line:90%
+
+
+00:52:15.180 --> 00:52:18.360 align:middle line:84%
+And this thing here, same
+reason is that this thing here
+
+00:52:18.360 --> 00:52:21.570 align:middle line:90%
+is bounded by epsilon over 2.
+
+00:52:21.570 --> 00:52:25.650 align:middle line:84%
+And so the whole thing
+was bounded by epsilon
+
+00:52:25.650 --> 00:52:31.300 align:middle line:84%
+when little n was bigger than
+the maximum of these two.
+
+00:52:31.300 --> 00:52:36.360 align:middle line:84%
+So in the end, I wrote
+out the whole proof.
+
+00:52:36.360 --> 00:52:38.420 align:middle line:84%
+I already posted
+the lecture notes.
+
+00:52:38.420 --> 00:52:41.040 align:middle line:84%
+In the lecture notes, I didn't
+write out the whole proof
+
+00:52:41.040 --> 00:52:42.240 align:middle line:90%
+but I gave the idea.
+
+00:52:42.240 --> 00:52:46.100 align:middle line:84%
+So I stopped once we
+were here and somewhere
+
+00:52:46.100 --> 00:52:49.080 align:middle line:84%
+here after this one
+somewhere anyway.
+
+00:52:49.080 --> 00:52:49.795 align:middle line:90%
+But you see.
+
+00:52:49.795 --> 00:52:54.530 align:middle line:90%
+
+
+00:52:54.530 --> 00:52:57.080 align:middle line:90%
+OK.
+
+00:52:57.080 --> 00:52:57.690 align:middle line:90%
+Right.
+
+00:52:57.690 --> 00:53:02.630 align:middle line:84%
+So the next thing I want to
+talk about is that if you--
+
+00:53:02.630 --> 00:53:05.100 align:middle line:84%
+No, no, I still
+need property four.
+
+00:53:05.100 --> 00:53:06.120 align:middle line:90%
+And that's also useful.
+
+00:53:06.120 --> 00:53:06.620 align:middle line:90%
+Sorry.
+
+00:53:06.620 --> 00:53:11.045 align:middle line:84%
+So let's go through that and
+then we'll come to subsequences.
+
+00:53:11.045 --> 00:53:24.710 align:middle line:90%
+
+
+00:53:24.710 --> 00:53:30.050 align:middle line:84%
+So I want to prove that if you
+take a sequence of real numbers
+
+00:53:30.050 --> 00:53:31.740 align:middle line:90%
+none of them is zero.
+
+00:53:31.740 --> 00:53:37.090 align:middle line:84%
+They converge and the limit is
+not 0, then 1 over the sequence
+
+00:53:37.090 --> 00:53:38.973 align:middle line:90%
+is another convergence sequence.
+
+00:53:38.973 --> 00:53:54.850 align:middle line:90%
+
+
+00:53:54.850 --> 00:53:58.130 align:middle line:84%
+But again, just
+the main takeaway.
+
+00:53:58.130 --> 00:54:01.040 align:middle line:84%
+The main takeaway, I
+think, from property,
+
+00:54:01.040 --> 00:54:06.310 align:middle line:84%
+this third property was that
+this little idea about inserting
+
+00:54:06.310 --> 00:54:08.950 align:middle line:84%
+something that was halfway
+between the two things you
+
+00:54:08.950 --> 00:54:10.450 align:middle line:84%
+were comparing
+because they weren't
+
+00:54:10.450 --> 00:54:12.440 align:middle line:90%
+very easy to compare directly.
+
+00:54:12.440 --> 00:54:14.200 align:middle line:84%
+And that's like a
+little trick that
+
+00:54:14.200 --> 00:54:15.980 align:middle line:90%
+is useful in various places.
+
+00:54:15.980 --> 00:54:18.410 align:middle line:84%
+It comes up almost
+the same thing.
+
+00:54:18.410 --> 00:54:21.430 align:middle line:84%
+One place it comes up
+is what's called Leibniz
+
+00:54:21.430 --> 00:54:23.590 align:middle line:84%
+rule that if you
+take two functions,
+
+00:54:23.590 --> 00:54:26.510 align:middle line:84%
+and you take the product
+of these two functions,
+
+00:54:26.510 --> 00:54:31.040 align:middle line:84%
+and you try to prove that one is
+the derivative of the product,
+
+00:54:31.040 --> 00:54:32.850 align:middle line:90%
+it's exactly the same trick.
+
+00:54:32.850 --> 00:54:38.420 align:middle line:84%
+And it comes up various
+other-- more fancy ways.
+
+00:54:38.420 --> 00:54:44.990 align:middle line:84%
+So now let's look at--
+let's prove property four.
+
+00:54:44.990 --> 00:54:47.270 align:middle line:90%
+So property four.
+
+00:54:47.270 --> 00:54:49.975 align:middle line:90%
+Proof of property four.
+
+00:54:49.975 --> 00:54:56.900 align:middle line:90%
+
+
+00:54:56.900 --> 00:54:59.000 align:middle line:90%
+So we have this.
+
+00:54:59.000 --> 00:55:01.610 align:middle line:90%
+So cn is 1 over n.
+
+00:55:01.610 --> 00:55:05.250 align:middle line:84%
+And we know that a n
+are not equal to 0.
+
+00:55:05.250 --> 00:55:07.140 align:middle line:84%
+And we know that a
+is not equal to 0.
+
+00:55:07.140 --> 00:55:08.400 align:middle line:90%
+This here makes sense.
+
+00:55:08.400 --> 00:55:11.370 align:middle line:90%
+And also 1 over a makes sense.
+
+00:55:11.370 --> 00:55:15.210 align:middle line:84%
+So we want to compare
+this here with 1 over a.
+
+00:55:15.210 --> 00:55:18.020 align:middle line:90%
+
+
+00:55:18.020 --> 00:55:26.360 align:middle line:84%
+And so this thing here is
+1 over a n minus 1 over n
+
+00:55:26.360 --> 00:55:30.110 align:middle line:84%
+And now I can put it on
+a common denominator.
+
+00:55:30.110 --> 00:55:40.750 align:middle line:84%
+So this is a minus a n divided
+by a n times a so like that.
+
+00:55:40.750 --> 00:55:42.080 align:middle line:90%
+You can write it like this.
+
+00:55:42.080 --> 00:55:45.640 align:middle line:84%
+Now already the denominator
+looks very promising
+
+00:55:45.640 --> 00:55:48.655 align:middle line:84%
+because we know
+that this goes to 0.
+
+00:55:48.655 --> 00:55:49.155 align:middle line:90%
+Right.
+
+00:55:49.155 --> 00:55:53.500 align:middle line:90%
+
+
+00:55:53.500 --> 00:55:55.970 align:middle line:90%
+But now I need to bound this.
+
+00:55:55.970 --> 00:55:59.070 align:middle line:90%
+So I need to bound--
+
+00:55:59.070 --> 00:55:59.570 align:middle line:90%
+Right.
+
+00:55:59.570 --> 00:56:00.500 align:middle line:90%
+So I need to bound.
+
+00:56:00.500 --> 00:56:02.470 align:middle line:90%
+We need to bound.
+
+00:56:02.470 --> 00:56:07.030 align:middle line:84%
+So we want to bound this
+here by epsilon when
+
+00:56:07.030 --> 00:56:09.680 align:middle line:90%
+little n is sufficiently large.
+
+00:56:09.680 --> 00:56:13.070 align:middle line:84%
+The top, the [? nominator ?]
+here looks great.
+
+00:56:13.070 --> 00:56:17.680 align:middle line:84%
+The denominator maybe we're
+a little bit worried about.
+
+00:56:17.680 --> 00:56:19.460 align:middle line:90%
+But the thing is that--
+
+00:56:19.460 --> 00:56:33.620 align:middle line:84%
+so we need to bound a n times
+a, this here from below.
+
+00:56:33.620 --> 00:56:36.830 align:middle line:84%
+But we want to bound it
+from below because then
+
+00:56:36.830 --> 00:56:40.400 align:middle line:84%
+when you're looking at 1 over
+it, then that's an upper bound.
+
+00:56:40.400 --> 00:56:44.720 align:middle line:84%
+And really, because
+a here is just
+
+00:56:44.720 --> 00:56:50.160 align:middle line:84%
+a fixed number that is not 0,
+then it's equivalent to proving.
+
+00:56:50.160 --> 00:57:05.080 align:middle line:84%
+So this is equivalent to bound
+the norm of a n from below.
+
+00:57:05.080 --> 00:57:08.930 align:middle line:90%
+
+
+00:57:08.930 --> 00:57:13.650 align:middle line:84%
+Remember, we don't need to
+bound it from below for all a n.
+
+00:57:13.650 --> 00:57:20.550 align:middle line:84%
+But we need to bounded from
+below for n sufficiently large.
+
+00:57:20.550 --> 00:57:25.440 align:middle line:84%
+And so now, you make
+the trivial observation.
+
+00:57:25.440 --> 00:57:35.140 align:middle line:84%
+So that a n, you can write
+a n as a n minus a plus a.
+
+00:57:35.140 --> 00:57:39.970 align:middle line:84%
+And so therefore,
+therefore, the norm of a n
+
+00:57:39.970 --> 00:57:46.710 align:middle line:84%
+is bounded by the norm of a
+n minus a plus the norm of a.
+
+00:57:46.710 --> 00:57:52.210 align:middle line:90%
+
+
+00:57:52.210 --> 00:57:55.855 align:middle line:90%
+Sorry, this was not the--
+
+00:57:55.855 --> 00:57:58.100 align:middle line:84%
+this was not how I
+wanted to write it.
+
+00:57:58.100 --> 00:58:00.940 align:middle line:84%
+I'm going to write it
+slightly differently.
+
+00:58:00.940 --> 00:58:03.790 align:middle line:90%
+I'm going to write a.
+
+00:58:03.790 --> 00:58:05.630 align:middle line:84%
+I'm going to do the
+symmetric thing.
+
+00:58:05.630 --> 00:58:09.620 align:middle line:84%
+But I'm doing it-- so I'm
+writing a in as a minus--
+
+00:58:09.620 --> 00:58:14.620 align:middle line:84%
+so in writing a as a
+minus a n plus a n.
+
+00:58:14.620 --> 00:58:17.920 align:middle line:90%
+
+
+00:58:17.920 --> 00:58:22.480 align:middle line:84%
+And then, if I do
+that, then I can just
+
+00:58:22.480 --> 00:58:25.640 align:middle line:84%
+take the absolute
+value of a is bounded
+
+00:58:25.640 --> 00:58:28.700 align:middle line:84%
+by the absolute value
+of this difference
+
+00:58:28.700 --> 00:58:33.890 align:middle line:90%
+plus the absolute value of a n.
+
+00:58:33.890 --> 00:58:37.800 align:middle line:84%
+And now I can move this
+here over on the other side.
+
+00:58:37.800 --> 00:58:45.380 align:middle line:84%
+So this here implies
+that norm of a minus
+
+00:58:45.380 --> 00:58:53.060 align:middle line:84%
+the norm of a minus a n is
+less or equal to this here.
+
+00:58:53.060 --> 00:58:56.240 align:middle line:90%
+
+
+00:58:56.240 --> 00:59:00.450 align:middle line:84%
+And now, you see that
+this thing here is--
+
+00:59:00.450 --> 00:59:07.110 align:middle line:84%
+so now we're going to use that
+this here was not equal to 0.
+
+00:59:07.110 --> 00:59:10.430 align:middle line:84%
+So this here is
+bounded away from 0.
+
+00:59:10.430 --> 00:59:18.600 align:middle line:84%
+And so now we can take,
+say, a here over 2.
+
+00:59:18.600 --> 00:59:21.560 align:middle line:90%
+So we can use this here.
+
+00:59:21.560 --> 00:59:25.310 align:middle line:90%
+We can use norm of a over 2.
+
+00:59:25.310 --> 00:59:28.750 align:middle line:84%
+This is a positive number
+because a was not 0.
+
+00:59:28.750 --> 00:59:34.070 align:middle line:84%
+And we can use this in the
+definition of that a n--
+
+00:59:34.070 --> 00:59:50.600 align:middle line:84%
+so use this in the definition of
+that a n converges to a, right?
+
+00:59:50.600 --> 00:59:52.960 align:middle line:84%
+So this means that
+if you are-- this
+
+00:59:52.960 --> 01:00:00.580 align:middle line:84%
+means that there
+exists a capital
+
+01:00:00.580 --> 01:00:02.480 align:middle line:90%
+N. Let's call it capital N1.
+
+01:00:02.480 --> 01:00:05.540 align:middle line:84%
+It's not the final N
+that we want to use.
+
+01:00:05.540 --> 01:00:09.850 align:middle line:84%
+But there exists a capital N1
+so that if little n is bigger
+
+01:00:09.850 --> 01:00:16.720 align:middle line:84%
+than this capital N1, then,
+actually, we have that a n--
+
+01:00:16.720 --> 01:00:23.065 align:middle line:84%
+a minus a n is less
+than this thing here.
+
+01:00:23.065 --> 01:00:29.345 align:middle line:90%
+
+
+01:00:29.345 --> 01:00:31.280 align:middle line:90%
+But now, you see that--
+
+01:00:31.280 --> 01:00:34.220 align:middle line:84%
+this means that when you're
+looking at-- when you go up
+
+01:00:34.220 --> 01:00:36.890 align:middle line:90%
+here, and you're looking at--
+
+01:00:36.890 --> 01:00:39.870 align:middle line:84%
+when you go up to
+that line before--
+
+01:00:39.870 --> 01:00:41.620 align:middle line:90%
+so this is the line from before.
+
+01:00:41.620 --> 01:00:45.890 align:middle line:90%
+
+
+01:00:45.890 --> 01:00:46.610 align:middle line:90%
+Sorry.
+
+01:00:46.610 --> 01:00:50.480 align:middle line:84%
+This is minus this
+here-- this and this.
+
+01:00:50.480 --> 01:00:55.020 align:middle line:84%
+When you're looking at this line
+here, well, this thing here--
+
+01:00:55.020 --> 01:00:59.210 align:middle line:84%
+this here is at
+most half of this.
+
+01:00:59.210 --> 01:01:08.771 align:middle line:84%
+So this thing here is bigger
+than this thing here over 2.
+
+01:01:08.771 --> 01:01:14.871 align:middle line:84%
+And so now you see that we have
+bounded these guys from below.
+
+01:01:14.871 --> 01:01:17.670 align:middle line:90%
+And so now we go back up to--
+
+01:01:17.670 --> 01:01:21.610 align:middle line:84%
+so now we go back up to--
+we're looking at C minus--
+
+01:01:21.610 --> 01:01:22.370 align:middle line:90%
+oh, sorry.
+
+01:01:22.370 --> 01:01:26.715 align:middle line:84%
+We're looking at
+Cn minus 1 over a.
+
+01:01:26.715 --> 01:01:29.418 align:middle line:90%
+
+
+01:01:29.418 --> 01:01:34.960 align:middle line:90%
+This is this up here.
+
+01:01:34.960 --> 01:01:39.280 align:middle line:84%
+I'm just transferring that
+equation down to this board
+
+01:01:39.280 --> 01:01:40.600 align:middle line:90%
+here.
+
+01:01:40.600 --> 01:01:48.020 align:middle line:84%
+So this here is a n, a,
+minus a n, divided by--
+
+01:01:48.020 --> 01:01:50.620 align:middle line:84%
+and I can just take the
+absolute value separately
+
+01:01:50.620 --> 01:01:55.905 align:middle line:84%
+of the denominator-- and the
+denominator, a n times a.
+
+01:01:55.905 --> 01:01:58.600 align:middle line:90%
+
+
+01:01:58.600 --> 01:01:59.560 align:middle line:90%
+OK.
+
+01:01:59.560 --> 01:02:08.110 align:middle line:84%
+So now you see that this thing
+here, as long as-- so when
+
+01:02:08.110 --> 01:02:13.540 align:middle line:84%
+n here, little n, is bigger
+than N1, well, then we have
+
+01:02:13.540 --> 01:02:16.870 align:middle line:84%
+that this thing here
+is at the very least
+
+01:02:16.870 --> 01:02:21.480 align:middle line:90%
+the absolute value of a over 2.
+
+01:02:21.480 --> 01:02:23.670 align:middle line:84%
+So this means that
+this thing here, we
+
+01:02:23.670 --> 01:02:28.030 align:middle line:84%
+can now bound from
+above, like this.
+
+01:02:28.030 --> 01:02:32.040 align:middle line:84%
+This is as long as you
+have this inequality here.
+
+01:02:32.040 --> 01:02:36.730 align:middle line:84%
+And this thing here--
+this is just a norm of a.
+
+01:02:36.730 --> 01:02:39.850 align:middle line:84%
+This here will give you
+another norm of a over 2.
+
+01:02:39.850 --> 01:02:41.770 align:middle line:90%
+So the 2 jumps up.
+
+01:02:41.770 --> 01:02:43.265 align:middle line:90%
+So it's like this thing here.
+
+01:02:43.265 --> 01:02:49.804 align:middle line:90%
+
+
+01:02:49.804 --> 01:02:53.370 align:middle line:90%
+And now you see that--
+
+01:02:53.370 --> 01:02:57.702 align:middle line:84%
+now you see that this a
+is just like a constant.
+
+01:02:57.702 --> 01:03:02.530 align:middle line:84%
+So this means that I may have
+to go even further out than N1.
+
+01:03:02.530 --> 01:03:04.830 align:middle line:84%
+But if I go even
+further out, then I
+
+01:03:04.830 --> 01:03:09.435 align:middle line:84%
+can make this thing here smaller
+than a given epsilon, OK?
+
+01:03:09.435 --> 01:03:12.762 align:middle line:90%
+
+
+01:03:12.762 --> 01:03:13.780 align:middle line:90%
+All right.
+
+01:03:13.780 --> 01:03:15.580 align:middle line:84%
+So this was like the
+outline, if you will.
+
+01:03:15.580 --> 01:03:21.180 align:middle line:84%
+But that's not-- at this point,
+that's not very much to fill in.
+
+01:03:21.180 --> 01:03:21.680 align:middle line:90%
+OK.
+
+01:03:21.680 --> 01:03:24.944 align:middle line:84%
+So now I want to talk
+about subsequences.
+
+01:03:24.944 --> 01:03:38.410 align:middle line:90%
+
+
+01:03:38.410 --> 01:03:40.750 align:middle line:90%
+And then I want to--
+
+01:03:40.750 --> 01:03:44.420 align:middle line:84%
+then I want to prove a little
+theorem about subsequences.
+
+01:03:44.420 --> 01:04:00.370 align:middle line:90%
+
+
+01:04:00.370 --> 01:04:03.940 align:middle line:90%
+So I have a sequence.
+
+01:04:03.940 --> 01:04:10.580 align:middle line:84%
+And so I have a sequence
+and then a subsequence.
+
+01:04:10.580 --> 01:04:12.560 align:middle line:84%
+So I'll give you
+first some examples.
+
+01:04:12.560 --> 01:04:15.030 align:middle line:90%
+And then I will explain.
+
+01:04:15.030 --> 01:04:17.520 align:middle line:84%
+Then I will give you
+the proper definition
+
+01:04:17.520 --> 01:04:21.880 align:middle line:90%
+of what a subsequence is.
+
+01:04:21.880 --> 01:04:28.870 align:middle line:84%
+So I'll start with this
+sequence from before.
+
+01:04:28.870 --> 01:04:33.690 align:middle line:84%
+So this was the sequence where
+a1 was minus 1, a2 was 1,
+
+01:04:33.690 --> 01:04:35.740 align:middle line:90%
+a3 was minus 1.
+
+01:04:35.740 --> 01:04:40.770 align:middle line:84%
+It was alternating
+between minus 1 and 1.
+
+01:04:40.770 --> 01:04:43.770 align:middle line:90%
+And so, in this case here--
+
+01:04:43.770 --> 01:04:49.950 align:middle line:84%
+in this case here, if
+you take the sequence--
+
+01:04:49.950 --> 01:04:57.180 align:middle line:90%
+let's call it-- let's call it b.
+
+01:04:57.180 --> 01:05:01.030 align:middle line:84%
+Let's call it-- let's
+use a different index.
+
+01:05:01.030 --> 01:05:01.985 align:middle line:90%
+Let's call it bk.
+
+01:05:01.985 --> 01:05:04.590 align:middle line:90%
+
+
+01:05:04.590 --> 01:05:07.030 align:middle line:84%
+So k here plays the
+same role as n before.
+
+01:05:07.030 --> 01:05:10.440 align:middle line:84%
+But I want to use a different
+symbol to not somehow confuse
+
+01:05:10.440 --> 01:05:13.060 align:middle line:90%
+with the n over here.
+
+01:05:13.060 --> 01:05:15.230 align:middle line:90%
+So if I take--
+
+01:05:15.230 --> 01:05:19.720 align:middle line:84%
+so I could take a sequence
+that was like 1 all the time,
+
+01:05:19.720 --> 01:05:20.990 align:middle line:90%
+this here, for all k.
+
+01:05:20.990 --> 01:05:23.920 align:middle line:90%
+
+
+01:05:23.920 --> 01:05:26.390 align:middle line:84%
+This here would
+be a subsequence.
+
+01:05:26.390 --> 01:05:28.210 align:middle line:84%
+This would correspond
+to that you
+
+01:05:28.210 --> 01:05:35.030 align:middle line:84%
+took all the even ones, that
+you just take all the even ones.
+
+01:05:35.030 --> 01:05:37.780 align:middle line:90%
+So this is like a subsequence.
+
+01:05:37.780 --> 01:05:40.550 align:middle line:84%
+You could also have
+another example.
+
+01:05:40.550 --> 01:05:43.150 align:middle line:90%
+So this is example 1.
+
+01:05:43.150 --> 01:05:47.580 align:middle line:84%
+Another example is where
+you took all the odd ones.
+
+01:05:47.580 --> 01:05:50.260 align:middle line:90%
+
+
+01:05:50.260 --> 01:05:55.450 align:middle line:84%
+So this here is
+also a subsequence.
+
+01:05:55.450 --> 01:06:00.190 align:middle line:84%
+And you could do something more
+elaborate, where you take--
+
+01:06:00.190 --> 01:06:05.050 align:middle line:84%
+say, first, you take
+the first two odd,
+
+01:06:05.050 --> 01:06:09.160 align:middle line:84%
+and then you take
+the next two even.
+
+01:06:09.160 --> 01:06:11.440 align:middle line:84%
+So you could have
+a sequence that was
+
+01:06:11.440 --> 01:06:14.980 align:middle line:90%
+like b1 is equal to minus 1.
+
+01:06:14.980 --> 01:06:19.440 align:middle line:90%
+b2 is equal to minus 1.
+
+01:06:19.440 --> 01:06:25.540 align:middle line:84%
+b3-- now it becomes
+the next two even ones.
+
+01:06:25.540 --> 01:06:29.650 align:middle line:84%
+And then you go back to the
+next two odd ones, et cetera.
+
+01:06:29.650 --> 01:06:32.656 align:middle line:84%
+That would be
+another subsequence.
+
+01:06:32.656 --> 01:06:36.840 align:middle line:90%
+
+
+01:06:36.840 --> 01:06:38.863 align:middle line:84%
+Let me look at a
+few more examples.
+
+01:06:38.863 --> 01:06:49.350 align:middle line:90%
+
+
+01:06:49.350 --> 01:06:53.760 align:middle line:84%
+So, for instance,
+if your sequence,
+
+01:06:53.760 --> 01:06:55.920 align:middle line:90%
+your original sequence--
+
+01:06:55.920 --> 01:06:58.980 align:middle line:90%
+so here's another example.
+
+01:06:58.980 --> 01:07:07.470 align:middle line:84%
+If your original sequence was
+just that a n was equal to n,
+
+01:07:07.470 --> 01:07:10.820 align:middle line:90%
+then you could take a sequence.
+
+01:07:10.820 --> 01:07:17.110 align:middle line:84%
+So then the sequence where
+you just take the odd numbers,
+
+01:07:17.110 --> 01:07:19.220 align:middle line:90%
+this here is a subsequence.
+
+01:07:19.220 --> 01:07:23.200 align:middle line:90%
+
+
+01:07:23.200 --> 01:07:28.840 align:middle line:84%
+And likewise, if you take
+just the even numbers,
+
+01:07:28.840 --> 01:07:33.500 align:middle line:84%
+this is also a
+sequence, a subsequence.
+
+01:07:33.500 --> 01:07:38.160 align:middle line:90%
+
+
+01:07:38.160 --> 01:07:40.270 align:middle line:90%
+But if you're looking at--
+
+01:07:40.270 --> 01:07:45.470 align:middle line:84%
+if you look at, say, something
+like this, where you're taking--
+
+01:07:45.470 --> 01:07:50.834 align:middle line:84%
+so if you define a sequence
+where it was 1, 1--
+
+01:07:50.834 --> 01:07:53.770 align:middle line:90%
+
+
+01:07:53.770 --> 01:07:56.523 align:middle line:90%
+1, 1, 2, even like this--
+
+01:07:56.523 --> 01:08:00.850 align:middle line:90%
+
+
+01:08:00.850 --> 01:08:02.990 align:middle line:90%
+this here is not a subsequence.
+
+01:08:02.990 --> 01:08:12.030 align:middle line:84%
+This is not a subsequence,
+because you have--
+
+01:08:12.030 --> 01:08:15.930 align:middle line:84%
+what you have done here is that
+you have taken the same number
+
+01:08:15.930 --> 01:08:17.140 align:middle line:90%
+several times.
+
+01:08:17.140 --> 01:08:18.880 align:middle line:84%
+And it doesn't
+appear several times.
+
+01:08:18.880 --> 01:08:22.080 align:middle line:84%
+The value doesn't appear several
+times in the original one.
+
+01:08:22.080 --> 01:08:24.450 align:middle line:90%
+So that's not allowed.
+
+01:08:24.450 --> 01:08:28.930 align:middle line:84%
+It's also not allowed to
+do something like this.
+
+01:08:28.930 --> 01:08:32.470 align:middle line:84%
+This here is also not
+a-- so not a subsequence,
+
+01:08:32.470 --> 01:08:35.490 align:middle line:84%
+another thing that's
+not a subsequence--
+
+01:08:35.490 --> 01:08:37.750 align:middle line:84%
+when you take
+things out of order.
+
+01:08:37.750 --> 01:08:42.640 align:middle line:84%
+So if this here was
+the original sequence,
+
+01:08:42.640 --> 01:08:48.540 align:middle line:84%
+if you're now looking at
+a sequence that was 3, 2,
+
+01:08:48.540 --> 01:08:52.710 align:middle line:84%
+and then 4, 5, this
+here is-- et cetera--
+
+01:08:52.710 --> 01:08:55.710 align:middle line:84%
+this here is not a
+subsequence either,
+
+01:08:55.710 --> 01:08:59.819 align:middle line:84%
+because things are
+taken out of order.
+
+01:08:59.819 --> 01:09:03.346 align:middle line:84%
+So now, what is the formal
+definition of a subsequence?
+
+01:09:03.346 --> 01:09:05.880 align:middle line:90%
+
+
+01:09:05.880 --> 01:09:07.906 align:middle line:90%
+So here is a formal definition.
+
+01:09:07.906 --> 01:09:30.100 align:middle line:90%
+
+
+01:09:30.100 --> 01:09:33.669 align:middle line:90%
+So you have a sequence, a n.
+
+01:09:33.669 --> 01:09:49.210 align:middle line:84%
+A subsequence of a n is where
+you have a map, g, from N
+
+01:09:49.210 --> 01:09:53.890 align:middle line:84%
+into N. This is
+an increasing map.
+
+01:09:53.890 --> 01:09:55.520 align:middle line:90%
+This is strictly increasing.
+
+01:09:55.520 --> 01:10:02.920 align:middle line:90%
+
+
+01:10:02.920 --> 01:10:06.780 align:middle line:84%
+And then, if you're thinking
+about this thing here,
+
+01:10:06.780 --> 01:10:10.950 align:middle line:84%
+you think about this
+as a function, f,
+
+01:10:10.950 --> 01:10:15.450 align:middle line:84%
+then you now could think about
+the composition of these two
+
+01:10:15.450 --> 01:10:19.380 align:middle line:90%
+functions, so this thing here.
+
+01:10:19.380 --> 01:10:22.950 align:middle line:84%
+And maybe I will use
+a different notation
+
+01:10:22.950 --> 01:10:27.070 align:middle line:84%
+like this, a different
+index like this.
+
+01:10:27.070 --> 01:10:34.170 align:middle line:84%
+This thing here, bk, this
+here is a subsequence.
+
+01:10:34.170 --> 01:10:38.470 align:middle line:84%
+So you see that this
+here, when you pick--
+
+01:10:38.470 --> 01:10:42.870 align:middle line:84%
+if you have a
+sequence like this,
+
+01:10:42.870 --> 01:10:46.750 align:middle line:84%
+the first one could be
+anything in the original one.
+
+01:10:46.750 --> 01:10:50.400 align:middle line:84%
+But once you have fixed the
+first one, you can't look back,
+
+01:10:50.400 --> 01:10:52.170 align:middle line:90%
+or you can't go to this.
+
+01:10:52.170 --> 01:10:55.740 align:middle line:84%
+You have to-- the next element
+have to be somewhat further
+
+01:10:55.740 --> 01:10:57.427 align:middle line:90%
+out in the sequence.
+
+01:10:57.427 --> 01:11:01.682 align:middle line:90%
+And that continues.
+
+01:11:01.682 --> 01:11:05.660 align:middle line:84%
+And this here is often
+just to indicate that it's
+
+01:11:05.660 --> 01:11:07.980 align:middle line:90%
+a subsequence of this sequence.
+
+01:11:07.980 --> 01:11:15.440 align:middle line:84%
+Then the standard notation is
+a n and then another subscript.
+
+01:11:15.440 --> 01:11:17.930 align:middle line:84%
+So anyway, so of
+course, hopefully,
+
+01:11:17.930 --> 01:11:20.480 align:middle line:84%
+there's not too many
+subsequences of sequences,
+
+01:11:20.480 --> 01:11:25.730 align:middle line:84%
+because each time, it's supposed
+to be another subscript.
+
+01:11:25.730 --> 01:11:28.250 align:middle line:84%
+Now, there's a little
+theorem that we can just
+
+01:11:28.250 --> 01:11:30.140 align:middle line:90%
+prove here at the end.
+
+01:11:30.140 --> 01:11:34.130 align:middle line:84%
+And that is that
+if you-- and it's--
+
+01:11:34.130 --> 01:11:38.940 align:middle line:84%
+yeah, it's sometimes--
+it's a very simple fact.
+
+01:11:38.940 --> 01:11:43.280 align:middle line:84%
+But it is sometimes
+a useful fact.
+
+01:11:43.280 --> 01:11:48.300 align:middle line:84%
+And that is that if
+you take a sequence--
+
+01:11:48.300 --> 01:11:58.280 align:middle line:84%
+so a sequence--
+so theorem, that--
+
+01:11:58.280 --> 01:12:11.340 align:middle line:84%
+so a sequence, a n, is
+convergent to a if and only
+
+01:12:11.340 --> 01:12:37.380 align:middle line:84%
+if all subsequences
+of a n converge to a.
+
+01:12:37.380 --> 01:12:38.140 align:middle line:90%
+OK.
+
+01:12:38.140 --> 01:12:43.500 align:middle line:84%
+Now, to prove this, there's
+two things we need to prove,
+
+01:12:43.500 --> 01:12:46.720 align:middle line:84%
+because it's an "if
+and only if" statement.
+
+01:12:46.720 --> 01:12:49.930 align:middle line:84%
+So we need to prove that
+if it is convergent,
+
+01:12:49.930 --> 01:12:52.870 align:middle line:84%
+then all subsequences
+are also convergent.
+
+01:12:52.870 --> 01:12:55.890 align:middle line:84%
+And then we need to prove
+that if all subsequences are
+
+01:12:55.890 --> 01:12:59.080 align:middle line:84%
+convergent, then the original
+sequence is convergent.
+
+01:12:59.080 --> 01:13:01.800 align:middle line:84%
+But one of the two
+implications is trivial.
+
+01:13:01.800 --> 01:13:13.960 align:middle line:84%
+So one of the two
+implications is trivial.
+
+01:13:13.960 --> 01:13:16.880 align:middle line:90%
+
+
+01:13:16.880 --> 01:13:25.940 align:middle line:84%
+And that is that,
+namely, since--
+
+01:13:25.940 --> 01:13:30.920 align:middle line:84%
+so the map-- remember that the
+map to define a subsequence
+
+01:13:30.920 --> 01:13:34.620 align:middle line:90%
+has to be strictly increasing.
+
+01:13:34.620 --> 01:13:42.470 align:middle line:84%
+So remember that a sequence
+was a function like this.
+
+01:13:42.470 --> 01:13:44.280 align:middle line:90%
+That was a sequence.
+
+01:13:44.280 --> 01:13:47.600 align:middle line:84%
+And a subsequence-- there,
+you have another map
+
+01:13:47.600 --> 01:13:50.600 align:middle line:90%
+that is strictly increasing.
+
+01:13:50.600 --> 01:13:53.100 align:middle line:84%
+And then you're looking
+at the composition.
+
+01:13:53.100 --> 01:13:57.440 align:middle line:84%
+But if you take this other
+map to be the identity,
+
+01:13:57.440 --> 01:14:03.250 align:middle line:84%
+that the other map is like g
+of k is equal to k, of course,
+
+01:14:03.250 --> 01:14:05.130 align:middle line:90%
+this is strictly increasing.
+
+01:14:05.130 --> 01:14:09.810 align:middle line:84%
+And if you did-- if this here
+map was the identity, then
+
+01:14:09.810 --> 01:14:14.004 align:middle line:84%
+the subsequence would just
+be the original sequence.
+
+01:14:14.004 --> 01:14:16.980 align:middle line:84%
+So one of the two
+implications here
+
+01:14:16.980 --> 01:14:27.400 align:middle line:84%
+is trivial, since a n itself
+is admittedly trivial.
+
+01:14:27.400 --> 01:14:28.900 align:middle line:90%
+But it is a subsequence.
+
+01:14:28.900 --> 01:14:35.860 align:middle line:90%
+
+
+01:14:35.860 --> 01:14:41.280 align:middle line:84%
+So if all subsequences
+converge to a, well, then
+
+01:14:41.280 --> 01:14:45.610 align:middle line:84%
+the original sequence,
+since it is a subsequence,
+
+01:14:45.610 --> 01:14:47.250 align:middle line:90%
+certainly, it will converge.
+
+01:14:47.250 --> 01:14:49.050 align:middle line:90%
+So that was trivial.
+
+01:14:49.050 --> 01:14:54.780 align:middle line:84%
+OK, so we just need to prove
+that if a n converged to a, then
+
+01:14:54.780 --> 01:14:57.230 align:middle line:90%
+any subsequence.
+
+01:14:57.230 --> 01:15:02.900 align:middle line:84%
+But this is not much more
+difficult, because you see,
+
+01:15:02.900 --> 01:15:07.310 align:middle line:84%
+if you're-- so
+given an epsilon--
+
+01:15:07.310 --> 01:15:08.945 align:middle line:90%
+so now, given epsilon--
+
+01:15:08.945 --> 01:15:12.260 align:middle line:90%
+
+
+01:15:12.260 --> 01:15:21.335 align:middle line:84%
+so now we have-- so we now
+have that a n converges to a.
+
+01:15:21.335 --> 01:15:24.960 align:middle line:84%
+And we're looking at
+a subsequence, ank.
+
+01:15:24.960 --> 01:15:35.180 align:middle line:84%
+And we want to show that
+ank also converges to a.
+
+01:15:35.180 --> 01:15:41.540 align:middle line:84%
+So given epsilon, given
+epsilon greater than 0,
+
+01:15:41.540 --> 01:15:51.590 align:middle line:84%
+there exists a capital N so
+that if little n is bigger
+
+01:15:51.590 --> 01:15:57.960 align:middle line:84%
+than capital N, then a n
+minus a is less than epsilon.
+
+01:15:57.960 --> 01:16:06.030 align:middle line:84%
+But now you see that if k
+is bigger than capital N,
+
+01:16:06.030 --> 01:16:10.740 align:middle line:90%
+then what corresponds to--
+
+01:16:10.740 --> 01:16:17.730 align:middle line:84%
+this here is-- this here, how to
+think about it-- this here, nk,
+
+01:16:17.730 --> 01:16:20.520 align:middle line:84%
+you should really think
+about that this thing here
+
+01:16:20.520 --> 01:16:24.742 align:middle line:84%
+is the value of this
+strictly increasing function.
+
+01:16:24.742 --> 01:16:26.700 align:middle line:90%
+But this thing here is--
+
+01:16:26.700 --> 01:16:30.240 align:middle line:84%
+because it's strictly
+increasing, it's bigger than k.
+
+01:16:30.240 --> 01:16:35.080 align:middle line:84%
+So you see that if this thing
+here is bigger than this,
+
+01:16:35.080 --> 01:16:38.910 align:middle line:84%
+then means that this index
+here is further out than,
+
+01:16:38.910 --> 01:16:43.860 align:middle line:84%
+in particular, the
+capital N. And so this
+
+01:16:43.860 --> 01:16:47.880 align:middle line:84%
+means that if you have
+this here, then ank,
+
+01:16:47.880 --> 01:16:51.310 align:middle line:90%
+this is some element like this.
+
+01:16:51.310 --> 01:16:54.810 align:middle line:84%
+But it's further
+out than capital N.
+
+01:16:54.810 --> 01:16:57.770 align:middle line:84%
+So this thing here
+surely will also
+
+01:16:57.770 --> 01:17:02.180 align:middle line:84%
+be less than epsilon because
+it's falling under here.
+
+01:17:02.180 --> 01:17:09.450 align:middle line:84%
+So that implication
+wasn't too much harder.
+
+01:17:09.450 --> 01:17:12.904 align:middle line:84%
+And that's sometimes
+useful, that--
+
+01:17:12.904 --> 01:17:19.370 align:middle line:84%
+so if-- yeah, it's sometimes
+useful that you're looking
+
+01:17:19.370 --> 01:17:28.238 align:middle line:84%
+at a sequence, and you see that
+if it is converging, then--
+
+01:17:28.238 --> 01:17:29.780 align:middle line:84%
+you're looking at
+a sequence, and you
+
+01:17:29.780 --> 01:17:32.670 align:middle line:84%
+see that there's a subsequence
+that is not converging,
+
+01:17:32.670 --> 01:17:36.140 align:middle line:84%
+or you have that there are
+two different subsequences
+
+01:17:36.140 --> 01:17:39.440 align:middle line:84%
+of a given sequence that
+converge to different limits.
+
+01:17:39.440 --> 01:17:42.780 align:middle line:84%
+Then the original sequence
+wasn't converging either.
+
+01:17:42.780 --> 01:17:43.850 align:middle line:90%
+Yeah?
+
+01:17:43.850 --> 01:17:46.310 align:middle line:84%
+AUDIENCE: Can you not
+have a finite subsequence
+
+01:17:46.310 --> 01:17:49.910 align:middle line:84%
+of-- a convergent subsequence
+that doesn't get to n,
+
+01:17:49.910 --> 01:17:54.700 align:middle line:84%
+so it hasn't arrived at
+the point of convergence?
+
+01:17:54.700 --> 01:17:56.460 align:middle line:84%
+TOBIAS COLDING: So
+convergence is always
+
+01:17:56.460 --> 01:18:00.310 align:middle line:84%
+something about the tail,
+about the end, right?
+
+01:18:00.310 --> 01:18:05.282 align:middle line:84%
+It never cares about what
+happened in the beginning.
+
+01:18:05.282 --> 01:18:08.070 align:middle line:84%
+So there might be
+finitely many n's
+
+01:18:08.070 --> 01:18:11.890 align:middle line:84%
+initially where
+things are crazy,
+
+01:18:11.890 --> 01:18:13.948 align:middle line:90%
+but then from there on out.
+
+01:18:13.948 --> 01:18:14.490 align:middle line:90%
+AUDIENCE: OK.
+
+01:18:14.490 --> 01:18:16.800 align:middle line:84%
+The subsequences that we
+care about in this case
+
+01:18:16.800 --> 01:18:18.900 align:middle line:84%
+are those subsequences
+that also--
+
+01:18:18.900 --> 01:18:20.025 align:middle line:90%
+TOBIAS COLDING: Yeah, yeah.
+
+01:18:20.025 --> 01:18:22.200 align:middle line:84%
+So all sequences,
+including subsequences,
+
+01:18:22.200 --> 01:18:24.730 align:middle line:90%
+are infinite things, right?
+
+01:18:24.730 --> 01:18:25.350 align:middle line:90%
+Yeah.
+
+01:18:25.350 --> 01:18:28.590 align:middle line:84%
+So like-- that's right,
+because the thing is
+
+01:18:28.590 --> 01:18:32.820 align:middle line:90%
+that you had to have this map.
+
+01:18:32.820 --> 01:18:34.000 align:middle line:90%
+Maybe I erased it.
+
+01:18:34.000 --> 01:18:40.270 align:middle line:84%
+But g here had to be a map from
+all the natural numbers N to N.
+
+01:18:40.270 --> 01:18:44.950 align:middle line:84%
+So it means that for each
+element here, you get something.
+
+01:18:44.950 --> 01:18:46.930 align:middle line:84%
+So there's really
+infinitely many of them.
+
+01:18:46.930 --> 01:18:48.480 align:middle line:90%
+Yeah.
+
+01:18:48.480 --> 01:18:52.000 align:middle line:90%

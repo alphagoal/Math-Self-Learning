@@ -1,0 +1,4042 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.968 align:middle line:90%
+[SQUEAKING]
+
+00:00:01.968 --> 00:00:04.428 align:middle line:90%
+[RUSTLING]
+
+00:00:04.428 --> 00:00:06.888 align:middle line:90%
+[CLICKING]
+
+00:00:06.888 --> 00:00:10.608 align:middle line:90%
+
+
+00:00:10.608 --> 00:00:11.400 align:middle line:90%
+TOBIAS COLDING: OK.
+
+00:00:11.400 --> 00:00:17.200 align:middle line:84%
+So today, we want to talk a
+little bit more about sequences
+
+00:00:17.200 --> 00:00:25.080 align:middle line:84%
+and how sequences connect to
+a function being continuous.
+
+00:00:25.080 --> 00:00:27.080 align:middle line:84%
+And then the second
+thing we will talk about
+
+00:00:27.080 --> 00:00:29.800 align:middle line:90%
+is metric spaces.
+
+00:00:29.800 --> 00:00:38.640 align:middle line:84%
+So let me just remind you first
+that if you take a subset here,
+
+00:00:38.640 --> 00:00:45.400 align:middle line:84%
+say, of R and you have
+a function A into R,
+
+00:00:45.400 --> 00:01:09.810 align:middle line:84%
+then f is said to be
+continuous if for all x0 in A,
+
+00:01:09.810 --> 00:01:23.130 align:middle line:84%
+the function is
+continuous at x0.
+
+00:01:23.130 --> 00:01:49.690 align:middle line:84%
+And the function
+is continuous at x0
+
+00:01:49.690 --> 00:01:56.250 align:middle line:84%
+if for all epsilon
+greater than 0,
+
+00:01:56.250 --> 00:02:11.930 align:middle line:84%
+there exists delta greater than
+0 such that if the two points--
+
+00:02:11.930 --> 00:02:19.830 align:middle line:84%
+so x0 and this other point, x,
+they deviate at most by delta.
+
+00:02:19.830 --> 00:02:23.840 align:middle line:84%
+Then their images deviate
+at most by epsilon.
+
+00:02:23.840 --> 00:02:27.950 align:middle line:90%
+
+
+00:02:27.950 --> 00:02:34.390 align:middle line:84%
+And in general, this delta here
+depends not only on x0 but also
+
+00:02:34.390 --> 00:02:36.450 align:middle line:90%
+on epsilon.
+
+00:02:36.450 --> 00:02:40.270 align:middle line:84%
+So delta would in
+general be expected
+
+00:02:40.270 --> 00:02:42.600 align:middle line:84%
+to depend on both
+of these things.
+
+00:02:42.600 --> 00:02:45.210 align:middle line:90%
+
+
+00:02:45.210 --> 00:02:47.750 align:middle line:84%
+So we talked about
+this a number of times.
+
+00:02:47.750 --> 00:02:51.950 align:middle line:84%
+And we will also generalize
+this later in the lecture.
+
+00:02:51.950 --> 00:02:54.950 align:middle line:84%
+So this is what it means to
+be continuous, that it needs
+
+00:02:54.950 --> 00:02:57.100 align:middle line:90%
+to be continuous at all points.
+
+00:02:57.100 --> 00:03:03.360 align:middle line:84%
+And this is what it means
+to be continuous at a point.
+
+00:03:03.360 --> 00:03:06.400 align:middle line:84%
+Now, two things we
+talked about before
+
+00:03:06.400 --> 00:03:20.130 align:middle line:84%
+is the extreme value theorem and
+the intermediate value theorem.
+
+00:03:20.130 --> 00:03:29.200 align:middle line:90%
+
+
+00:03:29.200 --> 00:03:32.600 align:middle line:84%
+And I want to think
+about these two theorems
+
+00:03:32.600 --> 00:03:34.140 align:middle line:90%
+in terms of sequences.
+
+00:03:34.140 --> 00:03:37.520 align:middle line:90%
+
+
+00:03:37.520 --> 00:03:42.240 align:middle line:84%
+And that's often a really
+useful way of thinking about it.
+
+00:03:42.240 --> 00:03:46.140 align:middle line:84%
+So the extreme value theorem
+is that we have a function--
+
+00:03:46.140 --> 00:03:52.160 align:middle line:84%
+so the extreme value theorem,
+abbreviated like this,
+
+00:03:52.160 --> 00:03:56.700 align:middle line:84%
+that's the theorem that says
+that if you take a function
+
+00:03:56.700 --> 00:04:00.060 align:middle line:90%
+on some interval from a to b--
+
+00:04:00.060 --> 00:04:04.980 align:middle line:84%
+a and b are both
+included into R.
+
+00:04:04.980 --> 00:04:07.040 align:middle line:90%
+And this function is continuous.
+
+00:04:07.040 --> 00:04:12.460 align:middle line:90%
+
+
+00:04:12.460 --> 00:04:14.790 align:middle line:84%
+Then the claim is that
+then there exist--
+
+00:04:14.790 --> 00:04:18.380 align:middle line:90%
+
+
+00:04:18.380 --> 00:04:28.300 align:middle line:84%
+so one way of formulating it
+is that then there exists xM--
+
+00:04:28.300 --> 00:04:32.400 align:middle line:84%
+capital M. This is
+something in that interval.
+
+00:04:32.400 --> 00:04:37.860 align:middle line:84%
+So there exists some points
+that we call x capital M--
+
+00:04:37.860 --> 00:04:43.380 align:middle line:84%
+and x little m also
+in the interval.
+
+00:04:43.380 --> 00:04:45.500 align:middle line:84%
+And the first one
+has the property
+
+00:04:45.500 --> 00:04:56.150 align:middle line:84%
+that for all x in
+the interval, you
+
+00:04:56.150 --> 00:05:04.310 align:middle line:84%
+have that f of x is less than
+or equal to the value at xM.
+
+00:05:04.310 --> 00:05:05.830 align:middle line:90%
+So you have this.
+
+00:05:05.830 --> 00:05:10.030 align:middle line:84%
+And you also have that
+f of x, that this here
+
+00:05:10.030 --> 00:05:16.270 align:middle line:84%
+is bigger or equal to the
+value at this other point.
+
+00:05:16.270 --> 00:05:21.310 align:middle line:84%
+So this means in particular
+that the maximum and the minimum
+
+00:05:21.310 --> 00:05:23.310 align:middle line:90%
+is achieved.
+
+00:05:23.310 --> 00:05:25.550 align:middle line:84%
+It also means that the
+function is actually
+
+00:05:25.550 --> 00:05:27.750 align:middle line:90%
+bounded on that interval.
+
+00:05:27.750 --> 00:05:29.660 align:middle line:84%
+So that's an extreme
+value theorem.
+
+00:05:29.660 --> 00:05:32.630 align:middle line:90%
+
+
+00:05:32.630 --> 00:05:34.270 align:middle line:84%
+And we talked about
+that before, but I
+
+00:05:34.270 --> 00:05:36.690 align:middle line:84%
+want to think about it
+in terms of sequences.
+
+00:05:36.690 --> 00:05:38.670 align:middle line:84%
+And the other thing
+I want to think
+
+00:05:38.670 --> 00:05:45.990 align:middle line:84%
+about in terms of sequences is
+the intermediate value theorem.
+
+00:05:45.990 --> 00:05:53.370 align:middle line:84%
+So the intermediate value
+theorem say that all values--
+
+00:05:53.370 --> 00:05:56.490 align:middle line:84%
+let me just
+formulate it loosely.
+
+00:05:56.490 --> 00:06:03.610 align:middle line:90%
+All values between-- sorry.
+
+00:06:03.610 --> 00:06:05.360 align:middle line:90%
+f here is as above.
+
+00:06:05.360 --> 00:06:08.850 align:middle line:90%
+
+
+00:06:08.850 --> 00:06:14.090 align:middle line:84%
+So you have, again, a
+function from the integral,
+
+00:06:14.090 --> 00:06:19.430 align:middle line:84%
+like this, into R. And
+this is continuous.
+
+00:06:19.430 --> 00:06:23.410 align:middle line:90%
+
+
+00:06:23.410 --> 00:06:26.850 align:middle line:84%
+So you have this
+continuous function.
+
+00:06:26.850 --> 00:06:30.530 align:middle line:84%
+And then the intermediate value
+theorem-- so loosely formulated
+
+00:06:30.530 --> 00:06:46.860 align:middle line:84%
+is, say that all values between
+f of a and f of b are achieved.
+
+00:06:46.860 --> 00:06:51.460 align:middle line:90%
+
+
+00:06:51.460 --> 00:06:54.920 align:middle line:84%
+So this means that if
+you take a function--
+
+00:06:54.920 --> 00:06:56.980 align:middle line:90%
+so you have a function.
+
+00:06:56.980 --> 00:07:01.460 align:middle line:84%
+This here is the
+value at the endpoint.
+
+00:07:01.460 --> 00:07:04.420 align:middle line:84%
+Here, you have the
+value in the beginning.
+
+00:07:04.420 --> 00:07:09.080 align:middle line:84%
+Then it say that everything
+in between these two--
+
+00:07:09.080 --> 00:07:14.420 align:middle line:84%
+these here-- is the
+image of something.
+
+00:07:14.420 --> 00:07:18.820 align:middle line:84%
+That's what the intermediate
+value theorem say.
+
+00:07:18.820 --> 00:07:19.320 align:middle line:90%
+OK.
+
+00:07:19.320 --> 00:07:24.900 align:middle line:84%
+And I want to prove these
+two using sequences.
+
+00:07:24.900 --> 00:07:31.540 align:middle line:84%
+And so in order to do that,
+we need the following lemma,
+
+00:07:31.540 --> 00:07:34.220 align:middle line:90%
+which is often--
+
+00:07:34.220 --> 00:07:38.040 align:middle line:84%
+so, again, this here is like the
+definition of being continuous.
+
+00:07:38.040 --> 00:07:43.820 align:middle line:84%
+But often, when you're proving
+that something is continuous,
+
+00:07:43.820 --> 00:07:47.220 align:middle line:84%
+you would instead
+use this lemma here.
+
+00:07:47.220 --> 00:07:50.700 align:middle line:84%
+So it's really an if
+and only if statement,
+
+00:07:50.700 --> 00:07:54.460 align:middle line:84%
+but I will just prove
+the if statement.
+
+00:07:54.460 --> 00:07:56.380 align:middle line:90%
+So if f is continuous--
+
+00:07:56.380 --> 00:08:03.840 align:middle line:90%
+
+
+00:08:03.840 --> 00:08:07.480 align:middle line:84%
+so it's only the if statement
+I need in this case here.
+
+00:08:07.480 --> 00:08:11.800 align:middle line:84%
+But in other cases, it's
+useful to have the if and only
+
+00:08:11.800 --> 00:08:12.840 align:middle line:90%
+if statement.
+
+00:08:12.840 --> 00:08:14.720 align:middle line:90%
+So if f is continuous--
+
+00:08:14.720 --> 00:08:25.660 align:middle line:90%
+
+
+00:08:25.660 --> 00:08:29.120 align:middle line:84%
+let me just say where
+the function is defined.
+
+00:08:29.120 --> 00:08:37.799 align:middle line:84%
+So in this case, it's just
+defined on some subset of r.
+
+00:08:37.799 --> 00:08:44.680 align:middle line:84%
+If this here is
+continuous and xn
+
+00:08:44.680 --> 00:08:51.690 align:middle line:84%
+is a sequence in a and
+xn converge to x and x
+
+00:08:51.690 --> 00:09:01.730 align:middle line:84%
+is also in a, then the claim
+is that then the sequence here
+
+00:09:01.730 --> 00:09:07.810 align:middle line:90%
+converge to this.
+
+00:09:07.810 --> 00:09:13.530 align:middle line:84%
+And remember that if
+this here is the case,
+
+00:09:13.530 --> 00:09:19.050 align:middle line:84%
+then we write this here
+as x is the limit of xn
+
+00:09:19.050 --> 00:09:21.610 align:middle line:90%
+as n goes to infinity.
+
+00:09:21.610 --> 00:09:24.210 align:middle line:84%
+This statement
+here can be written
+
+00:09:24.210 --> 00:09:33.970 align:middle line:84%
+as that f of x is the limit as
+n goes to infinity of this thing
+
+00:09:33.970 --> 00:09:35.930 align:middle line:90%
+here.
+
+00:09:35.930 --> 00:09:38.730 align:middle line:84%
+And so if you combine
+these two things,
+
+00:09:38.730 --> 00:09:42.130 align:middle line:84%
+if you fill in x
+is equal to that,
+
+00:09:42.130 --> 00:09:44.610 align:middle line:84%
+then this here can
+also be written
+
+00:09:44.610 --> 00:09:52.870 align:middle line:84%
+as that f of the limit of
+xn as n goes to infinity--
+
+00:09:52.870 --> 00:09:55.910 align:middle line:84%
+this is this by
+filling in this--
+
+00:09:55.910 --> 00:09:58.570 align:middle line:90%
+and then equal to the limit.
+
+00:09:58.570 --> 00:10:04.230 align:middle line:84%
+So in a way, if you
+want to think about it
+
+00:10:04.230 --> 00:10:06.710 align:middle line:84%
+like it's something about--
+that if it's continuous,
+
+00:10:06.710 --> 00:10:11.010 align:middle line:84%
+you can exchange the
+order of taking limits.
+
+00:10:11.010 --> 00:10:13.530 align:middle line:90%
+OK.
+
+00:10:13.530 --> 00:10:14.030 align:middle line:90%
+Yeah.
+
+00:10:14.030 --> 00:10:16.170 align:middle line:84%
+But that's a more
+formal way, in a way.
+
+00:10:16.170 --> 00:10:19.930 align:middle line:84%
+But I was just thinking
+about it like this.
+
+00:10:19.930 --> 00:10:20.430 align:middle line:90%
+OK.
+
+00:10:20.430 --> 00:10:23.770 align:middle line:90%
+So we want to prove this lemma.
+
+00:10:23.770 --> 00:10:26.110 align:middle line:84%
+And so then we want
+to use this lemma
+
+00:10:26.110 --> 00:10:27.540 align:middle line:90%
+to prove these two theorems.
+
+00:10:27.540 --> 00:10:31.670 align:middle line:90%
+
+
+00:10:31.670 --> 00:10:32.170 align:middle line:90%
+OK.
+
+00:10:32.170 --> 00:10:35.400 align:middle line:90%
+So now let's prove this lemma.
+
+00:10:35.400 --> 00:10:45.640 align:middle line:90%
+
+
+00:10:45.640 --> 00:10:56.440 align:middle line:84%
+So we want to show that f
+of xn converge to f of x.
+
+00:10:56.440 --> 00:10:58.780 align:middle line:84%
+So I'm first going
+to use that f.
+
+00:10:58.780 --> 00:11:15.600 align:middle line:84%
+So use first that the f is
+continuous at this point, x.
+
+00:11:15.600 --> 00:11:19.560 align:middle line:90%
+So this is some point in a.
+
+00:11:19.560 --> 00:11:29.920 align:middle line:84%
+So this means that, therefore,
+given epsilon greater than 0,
+
+00:11:29.920 --> 00:11:40.600 align:middle line:84%
+there exist delta
+greater than 0 such that.
+
+00:11:40.600 --> 00:11:48.780 align:middle line:84%
+If x minus-- so any
+other element, y,
+
+00:11:48.780 --> 00:11:52.780 align:middle line:84%
+if this thing here
+is less than delta,
+
+00:11:52.780 --> 00:12:02.220 align:middle line:84%
+then their images
+deviate at most epsilon.
+
+00:12:02.220 --> 00:12:04.580 align:middle line:84%
+This is just using
+the definition
+
+00:12:04.580 --> 00:12:09.060 align:middle line:84%
+that x here is now thought
+about as being some fixed
+
+00:12:09.060 --> 00:12:10.600 align:middle line:90%
+point, a fixed point.
+
+00:12:10.600 --> 00:12:13.840 align:middle line:84%
+And then y is like
+any other point.
+
+00:12:13.840 --> 00:12:14.340 align:middle line:90%
+OK.
+
+00:12:14.340 --> 00:12:17.300 align:middle line:90%
+So we have that.
+
+00:12:17.300 --> 00:12:29.460 align:middle line:84%
+But then, second, we use that
+the sequence xn converges to x.
+
+00:12:29.460 --> 00:12:33.300 align:middle line:84%
+So this means that now
+thinking about this delta
+
+00:12:33.300 --> 00:12:36.820 align:middle line:84%
+here that this epsilon
+is spitting out--
+
+00:12:36.820 --> 00:12:49.850 align:middle line:84%
+so this means that for delta,
+there exist capital N such that
+
+00:12:49.850 --> 00:12:56.230 align:middle line:84%
+if little n is bigger
+than the capital N,
+
+00:12:56.230 --> 00:13:03.718 align:middle line:84%
+then actually, xn minus
+x is smaller than delta.
+
+00:13:03.718 --> 00:13:07.030 align:middle line:90%
+
+
+00:13:07.030 --> 00:13:09.430 align:middle line:84%
+But you see that-- so
+now combining this--
+
+00:13:09.430 --> 00:13:17.270 align:middle line:90%
+
+
+00:13:17.270 --> 00:13:19.510 align:middle line:90%
+so maybe I'll go over here.
+
+00:13:19.510 --> 00:13:34.910 align:middle line:84%
+So combining this, then
+we get that if n here
+
+00:13:34.910 --> 00:13:41.010 align:middle line:84%
+is bigger than capital
+N, then xn minus x
+
+00:13:41.010 --> 00:13:43.690 align:middle line:90%
+is smaller than delta.
+
+00:13:43.690 --> 00:13:48.030 align:middle line:84%
+But this means that now if
+they are smaller than delta,
+
+00:13:48.030 --> 00:13:51.410 align:middle line:84%
+then the first part,
+say, that their images--
+
+00:13:51.410 --> 00:13:59.530 align:middle line:84%
+so this means that f of xn minus
+f of x is smaller than epsilon.
+
+00:13:59.530 --> 00:14:01.130 align:middle line:84%
+And that's exactly
+what we wanted
+
+00:14:01.130 --> 00:14:06.450 align:middle line:84%
+to prove to show that if you
+are sufficiently far out, then
+
+00:14:06.450 --> 00:14:09.490 align:middle line:84%
+these two things are
+very close together.
+
+00:14:09.490 --> 00:14:13.330 align:middle line:90%
+So that was quite easy.
+
+00:14:13.330 --> 00:14:15.450 align:middle line:84%
+Now I want to use
+these-- but this
+
+00:14:15.450 --> 00:14:21.630 align:middle line:84%
+is like you use this sort
+of thing for continuity.
+
+00:14:21.630 --> 00:14:24.370 align:middle line:90%
+This is a standard thing to use.
+
+00:14:24.370 --> 00:14:26.190 align:middle line:90%
+It's used implicitly.
+
+00:14:26.190 --> 00:14:29.730 align:middle line:84%
+And again, this
+one has a converse.
+
+00:14:29.730 --> 00:14:31.540 align:middle line:84%
+And the converse is
+also very useful.
+
+00:14:31.540 --> 00:14:34.170 align:middle line:90%
+
+
+00:14:34.170 --> 00:14:39.100 align:middle line:84%
+So now let's come back
+to the extreme value
+
+00:14:39.100 --> 00:14:41.370 align:middle line:84%
+theorem and the
+intermediate value theorem.
+
+00:14:41.370 --> 00:14:47.780 align:middle line:90%
+
+
+00:14:47.780 --> 00:14:50.140 align:middle line:90%
+So now let's try to prove--
+
+00:14:50.140 --> 00:15:09.540 align:middle line:84%
+so using the lemma, we'll
+show the extreme value
+
+00:15:09.540 --> 00:15:16.080 align:middle line:84%
+theorem and the
+intermediate value theorem.
+
+00:15:16.080 --> 00:15:20.980 align:middle line:84%
+And so now first, to prove
+the extreme value theorem--
+
+00:15:20.980 --> 00:15:26.070 align:middle line:84%
+so proof of the
+extreme value theorem.
+
+00:15:26.070 --> 00:15:29.540 align:middle line:90%
+
+
+00:15:29.540 --> 00:15:33.300 align:middle line:84%
+I'm first going to
+prove that the image--
+
+00:15:33.300 --> 00:15:47.850 align:middle line:84%
+so first show that the image of
+this interval here is bounded.
+
+00:15:47.850 --> 00:15:51.520 align:middle line:90%
+
+
+00:15:51.520 --> 00:15:54.400 align:middle line:84%
+So this is what I
+first want to show.
+
+00:15:54.400 --> 00:15:56.360 align:middle line:90%
+And so I suppose not--
+
+00:15:56.360 --> 00:15:57.310 align:middle line:90%
+so suppose not.
+
+00:15:57.310 --> 00:16:02.520 align:middle line:90%
+
+
+00:16:02.520 --> 00:16:15.160 align:middle line:84%
+This means that for each
+n which is an integer,
+
+00:16:15.160 --> 00:16:17.360 align:middle line:84%
+let's say that it's
+not bounded from above.
+
+00:16:17.360 --> 00:16:20.700 align:middle line:84%
+To show that it's not bounded
+from below is similar.
+
+00:16:20.700 --> 00:16:25.360 align:middle line:84%
+So I'm just going to prove
+that it's bounded from above.
+
+00:16:25.360 --> 00:16:31.960 align:middle line:84%
+But to prove that it
+is bounded from below
+
+00:16:31.960 --> 00:16:35.810 align:middle line:84%
+is similar with
+obvious modifications.
+
+00:16:35.810 --> 00:16:38.970 align:middle line:84%
+So suppose it's not
+bounded from above.
+
+00:16:38.970 --> 00:16:43.210 align:middle line:84%
+Then for each
+integer, there must
+
+00:16:43.210 --> 00:16:57.890 align:middle line:84%
+exist x in this interval
+such that f of x
+
+00:16:57.890 --> 00:16:59.630 align:middle line:90%
+is bigger or equal to n.
+
+00:16:59.630 --> 00:17:02.250 align:middle line:84%
+Because otherwise, n would
+have been an upper bound.
+
+00:17:02.250 --> 00:17:11.170 align:middle line:84%
+And so I just pick
+such a n-- so pick.
+
+00:17:11.170 --> 00:17:18.310 align:middle line:84%
+such n, x-- and
+let's call it xn.
+
+00:17:18.310 --> 00:17:21.530 align:middle line:90%
+So for each n, you now have xn.
+
+00:17:21.530 --> 00:17:27.569 align:middle line:84%
+And it has a property that f
+of xn is bigger or equal to n.
+
+00:17:27.569 --> 00:17:32.230 align:middle line:90%
+
+
+00:17:32.230 --> 00:17:36.690 align:middle line:84%
+Now you have that this
+gives you a sequence.
+
+00:17:36.690 --> 00:17:40.390 align:middle line:84%
+So you have that xn
+here is a sequence.
+
+00:17:40.390 --> 00:17:47.030 align:middle line:84%
+It's a sequence in-- sorry,
+it's in this interval here.
+
+00:17:47.030 --> 00:17:50.790 align:middle line:84%
+But this means that it's
+a bounded sequence--
+
+00:17:50.790 --> 00:18:17.670 align:middle line:84%
+so a bounded sequence so that by
+the Bolzano-Weierstrass theorem,
+
+00:18:17.670 --> 00:18:30.390 align:middle line:84%
+it has a convergent
+subsequence xnk.
+
+00:18:30.390 --> 00:18:33.120 align:middle line:90%
+
+
+00:18:33.120 --> 00:18:35.460 align:middle line:90%
+So you have that xnk--
+
+00:18:35.460 --> 00:18:41.040 align:middle line:84%
+so this is this subsequence,
+and it converges to some x.
+
+00:18:41.040 --> 00:18:44.340 align:middle line:90%
+
+
+00:18:44.340 --> 00:18:48.640 align:middle line:84%
+But now this means that
+by the lemma over there,
+
+00:18:48.640 --> 00:18:52.680 align:middle line:84%
+you have that this
+sequence then,
+
+00:18:52.680 --> 00:18:56.760 align:middle line:84%
+because the function was
+continuous, converge to this.
+
+00:18:56.760 --> 00:18:59.880 align:middle line:84%
+But on the other
+hand, this here,
+
+00:18:59.880 --> 00:19:09.800 align:middle line:90%
+xnk, is a subsequence of xn.
+
+00:19:09.800 --> 00:19:12.300 align:middle line:84%
+But this means that
+this number here--
+
+00:19:12.300 --> 00:19:16.820 align:middle line:84%
+remember that a subsequence
+just means that this here--
+
+00:19:16.820 --> 00:19:18.760 align:middle line:84%
+it means in particular
+that this here
+
+00:19:18.760 --> 00:19:21.240 align:middle line:90%
+would be further out than n.
+
+00:19:21.240 --> 00:19:26.280 align:middle line:84%
+So you have that f
+of xnk is supposed
+
+00:19:26.280 --> 00:19:28.640 align:middle line:90%
+to be bigger or equal to nk.
+
+00:19:28.640 --> 00:19:32.260 align:middle line:84%
+But this is supposed
+to be bigger than n.
+
+00:19:32.260 --> 00:19:37.780 align:middle line:84%
+So these guys here,
+these here goes to--
+
+00:19:37.780 --> 00:19:42.180 align:middle line:84%
+you know these
+here are unbounded.
+
+00:19:42.180 --> 00:19:44.860 align:middle line:84%
+But on the other hand, we're
+saying that this sequence
+
+00:19:44.860 --> 00:19:46.660 align:middle line:90%
+converges to this sequence.
+
+00:19:46.660 --> 00:19:49.700 align:middle line:84%
+So any convergent
+sequence is bounded.
+
+00:19:49.700 --> 00:19:51.140 align:middle line:90%
+So that's a contradiction.
+
+00:19:51.140 --> 00:19:56.386 align:middle line:90%
+
+
+00:19:56.386 --> 00:19:56.886 align:middle line:90%
+OK.
+
+00:19:56.886 --> 00:20:01.780 align:middle line:84%
+So this is like proving
+first using the lemma,
+
+00:20:01.780 --> 00:20:08.340 align:middle line:84%
+we have now that the image
+here is bounded from above.
+
+00:20:08.340 --> 00:20:12.820 align:middle line:84%
+The almost exact same proof
+with obvious modification
+
+00:20:12.820 --> 00:20:15.340 align:middle line:84%
+give that it's
+bounded from below.
+
+00:20:15.340 --> 00:20:18.140 align:middle line:84%
+So now you have that
+the image of this
+
+00:20:18.140 --> 00:20:20.690 align:middle line:84%
+is actually bounded from
+both above and below.
+
+00:20:20.690 --> 00:20:28.990 align:middle line:90%
+
+
+00:20:28.990 --> 00:20:33.530 align:middle line:84%
+So now this means that if you're
+looking at the image here--
+
+00:20:33.530 --> 00:20:39.310 align:middle line:90%
+
+
+00:20:39.310 --> 00:20:41.170 align:middle line:90%
+this here is a bounded subset.
+
+00:20:41.170 --> 00:20:43.200 align:middle line:90%
+So this is a bounded subset.
+
+00:20:43.200 --> 00:20:48.670 align:middle line:90%
+
+
+00:20:48.670 --> 00:20:52.560 align:middle line:84%
+And so you can look
+at the sup of the set.
+
+00:20:52.560 --> 00:21:00.230 align:middle line:90%
+
+
+00:21:00.230 --> 00:21:04.470 align:middle line:84%
+You can look at the
+sup of this set.
+
+00:21:04.470 --> 00:21:06.630 align:middle line:90%
+And I'm going to take the sup--
+
+00:21:06.630 --> 00:21:11.630 align:middle line:84%
+I'm going to call
+this capital M.
+
+00:21:11.630 --> 00:21:20.040 align:middle line:84%
+And now for each little
+n-- the n is an integer.
+
+00:21:20.040 --> 00:21:22.910 align:middle line:90%
+
+
+00:21:22.910 --> 00:21:29.520 align:middle line:90%
+Then I can look at M minus 1/n.
+
+00:21:29.520 --> 00:21:33.040 align:middle line:84%
+So this is obviously strictly
+smaller than capital M.
+
+00:21:33.040 --> 00:21:35.780 align:middle line:90%
+So it's not an upper bound.
+
+00:21:35.780 --> 00:21:39.800 align:middle line:84%
+So this means that for
+little n, this here is not
+
+00:21:39.800 --> 00:21:42.240 align:middle line:90%
+an upper bound for this set.
+
+00:21:42.240 --> 00:21:45.040 align:middle line:84%
+So this means that
+there must exist
+
+00:21:45.040 --> 00:21:57.612 align:middle line:84%
+an x so that you have this for
+some x in this interval here.
+
+00:21:57.612 --> 00:22:01.000 align:middle line:84%
+Because this here is
+not an upper bound,
+
+00:22:01.000 --> 00:22:05.080 align:middle line:84%
+which means that there must
+be something larger than that.
+
+00:22:05.080 --> 00:22:07.800 align:middle line:90%
+
+
+00:22:07.800 --> 00:22:12.280 align:middle line:84%
+So for each little n,
+you just pick such x.
+
+00:22:12.280 --> 00:22:15.280 align:middle line:90%
+And we call this xn.
+
+00:22:15.280 --> 00:22:18.880 align:middle line:90%
+So xn is in the interval.
+
+00:22:18.880 --> 00:22:26.020 align:middle line:84%
+And we have that m minus 1 over
+little n is strictly less than f
+
+00:22:26.020 --> 00:22:27.660 align:middle line:90%
+of xn.
+
+00:22:27.660 --> 00:22:31.900 align:middle line:84%
+Remember that this thing here
+is, of course obviously less
+
+00:22:31.900 --> 00:22:34.040 align:middle line:90%
+than the sup over all images.
+
+00:22:34.040 --> 00:22:35.200 align:middle line:90%
+So you even have that.
+
+00:22:35.200 --> 00:22:38.020 align:middle line:90%
+
+
+00:22:38.020 --> 00:22:40.220 align:middle line:90%
+OK.
+
+00:22:40.220 --> 00:22:43.330 align:middle line:84%
+But now you see that now
+you have a sequence here.
+
+00:22:43.330 --> 00:22:46.860 align:middle line:90%
+
+
+00:22:46.860 --> 00:22:50.540 align:middle line:90%
+So now you have a sequence.
+
+00:22:50.540 --> 00:22:55.260 align:middle line:90%
+And so you have a sequence, xn.
+
+00:22:55.260 --> 00:23:14.340 align:middle line:84%
+And so by the
+Bolzano-Weierstrass theorem,
+
+00:23:14.340 --> 00:23:19.040 align:middle line:84%
+this sequence here has a
+convergent subsequence.
+
+00:23:19.040 --> 00:23:25.070 align:middle line:90%
+
+
+00:23:25.070 --> 00:23:27.630 align:middle line:84%
+This is because
+this is sequence,
+
+00:23:27.630 --> 00:23:30.730 align:middle line:84%
+the xn lie in this
+bounded interval.
+
+00:23:30.730 --> 00:23:32.810 align:middle line:90%
+So it's a bounded sequence.
+
+00:23:32.810 --> 00:23:35.350 align:middle line:84%
+So it has a convergent
+subsequence.
+
+00:23:35.350 --> 00:23:41.110 align:middle line:84%
+And this convergent subsequence,
+I call xn k, like that.
+
+00:23:41.110 --> 00:23:46.270 align:middle line:84%
+So this is converging
+to something.
+
+00:23:46.270 --> 00:23:51.070 align:middle line:84%
+And that something,
+I'm going to call xM.
+
+00:23:51.070 --> 00:23:55.160 align:middle line:84%
+And I then will prove that this
+has the property that I wanted.
+
+00:23:55.160 --> 00:23:57.758 align:middle line:90%
+
+
+00:23:57.758 --> 00:23:59.470 align:middle line:90%
+So I have that.
+
+00:23:59.470 --> 00:24:03.510 align:middle line:84%
+And so because f was
+continuous, then I
+
+00:24:03.510 --> 00:24:10.170 align:middle line:84%
+have that the images converge
+to the image of this.
+
+00:24:10.170 --> 00:24:21.010 align:middle line:90%
+This is by continuity of f--
+
+00:24:21.010 --> 00:24:24.370 align:middle line:84%
+and by the continuity of
+f and the little lemma
+
+00:24:24.370 --> 00:24:27.450 align:middle line:90%
+we proved before.
+
+00:24:27.450 --> 00:24:29.370 align:middle line:90%
+So you have that.
+
+00:24:29.370 --> 00:24:35.490 align:middle line:84%
+But now you see that
+this here tells us--
+
+00:24:35.490 --> 00:24:37.250 align:middle line:90%
+we have this inequality here.
+
+00:24:37.250 --> 00:24:43.210 align:middle line:84%
+But this is just saying
+that as n goes to infinity,
+
+00:24:43.210 --> 00:24:49.810 align:middle line:84%
+this sequence here converge
+to M. So we also have
+
+00:24:49.810 --> 00:24:54.930 align:middle line:84%
+that this sequence
+here converges to m.
+
+00:24:54.930 --> 00:24:57.370 align:middle line:84%
+This is just because
+it's squeezed.
+
+00:24:57.370 --> 00:24:59.670 align:middle line:84%
+It squeezed here
+in this interval.
+
+00:24:59.670 --> 00:25:03.560 align:middle line:84%
+And this here, this lower bound
+is going to the upper bound.
+
+00:25:03.560 --> 00:25:06.595 align:middle line:90%
+
+
+00:25:06.595 --> 00:25:10.530 align:middle line:84%
+So if you have that
+this here is converging,
+
+00:25:10.530 --> 00:25:14.410 align:middle line:84%
+then any subsequence would also
+converge to the same thing.
+
+00:25:14.410 --> 00:25:19.450 align:middle line:84%
+So this implies
+that for this here,
+
+00:25:19.450 --> 00:25:22.060 align:middle line:90%
+that is a subsequence of these.
+
+00:25:22.060 --> 00:25:25.900 align:middle line:84%
+But this is then converging
+to the same thing.
+
+00:25:25.900 --> 00:25:30.420 align:middle line:84%
+So now you see that we have
+that this is converging to that,
+
+00:25:30.420 --> 00:25:32.130 align:middle line:84%
+but it's also
+converging to this.
+
+00:25:32.130 --> 00:25:34.660 align:middle line:90%
+
+
+00:25:34.660 --> 00:25:45.660 align:middle line:84%
+We have, by uniqueness
+of limits, then
+
+00:25:45.660 --> 00:25:54.036 align:middle line:84%
+we have that f of
+xM is equal to this.
+
+00:25:54.036 --> 00:25:57.340 align:middle line:84%
+And capital M,
+again, was the sup.
+
+00:25:57.340 --> 00:25:59.760 align:middle line:84%
+So this means that the
+sup is actually achieved.
+
+00:25:59.760 --> 00:26:02.800 align:middle line:84%
+You found a point where
+the sup was achieved.
+
+00:26:02.800 --> 00:26:03.300 align:middle line:90%
+OK.
+
+00:26:03.300 --> 00:26:06.420 align:middle line:84%
+So that proves the
+extreme value theorem.
+
+00:26:06.420 --> 00:26:09.360 align:middle line:84%
+By one of the two parts of
+the extreme value theorem,
+
+00:26:09.360 --> 00:26:11.340 align:middle line:84%
+we proved that the
+sup was achieved.
+
+00:26:11.340 --> 00:26:13.420 align:middle line:84%
+And the proof that
+the inverse achieved
+
+00:26:13.420 --> 00:26:18.840 align:middle line:84%
+is almost identical, with
+some obvious changes.
+
+00:26:18.840 --> 00:26:22.920 align:middle line:84%
+Now for the intermediate
+value theorem--
+
+00:26:22.920 --> 00:26:25.280 align:middle line:90%
+so let's try to prove that.
+
+00:26:25.280 --> 00:26:27.630 align:middle line:84%
+So how do we prove the
+intermediate value theorem?
+
+00:26:27.630 --> 00:26:36.800 align:middle line:90%
+
+
+00:26:36.800 --> 00:26:41.450 align:middle line:84%
+And so proof of
+intermediate value theorem--
+
+00:26:41.450 --> 00:26:47.160 align:middle line:90%
+
+
+00:26:47.160 --> 00:26:52.480 align:middle line:84%
+and I'm going to prove,
+but it's not really--
+
+00:26:52.480 --> 00:26:56.380 align:middle line:84%
+the general case follows
+easily from this.
+
+00:26:56.380 --> 00:26:58.260 align:middle line:84%
+So I'm going to
+make an assumption.
+
+00:26:58.260 --> 00:27:06.560 align:middle line:90%
+
+
+00:27:06.560 --> 00:27:11.440 align:middle line:84%
+I'm going to assume that
+the value at a is strictly
+
+00:27:11.440 --> 00:27:16.260 align:middle line:84%
+less than 0 and the value of
+b is strictly bigger than 0.
+
+00:27:16.260 --> 00:27:21.530 align:middle line:84%
+And then I want to
+show that 0 is achieved
+
+00:27:21.530 --> 00:27:24.830 align:middle line:90%
+as the image of something.
+
+00:27:24.830 --> 00:27:27.630 align:middle line:84%
+You can say that sounds
+like a special case.
+
+00:27:27.630 --> 00:27:29.410 align:middle line:90%
+It is a special case.
+
+00:27:29.410 --> 00:27:32.370 align:middle line:84%
+But once you can
+prove this, it's
+
+00:27:32.370 --> 00:27:35.830 align:middle line:90%
+easy to get the general case.
+
+00:27:35.830 --> 00:27:39.330 align:middle line:84%
+You can either get
+it directly from this
+
+00:27:39.330 --> 00:27:41.970 align:middle line:90%
+by modifying the function.
+
+00:27:41.970 --> 00:27:46.030 align:middle line:84%
+Or once you see how
+the proof of this goes,
+
+00:27:46.030 --> 00:27:49.010 align:middle line:84%
+then it's easy to
+prove it, to set up
+
+00:27:49.010 --> 00:27:51.790 align:middle line:84%
+what are the different
+possible cases
+
+00:27:51.790 --> 00:27:58.970 align:middle line:84%
+and then prove using the same
+sort of argument as we do here.
+
+00:27:58.970 --> 00:28:01.330 align:middle line:90%
+OK.
+
+00:28:01.330 --> 00:28:07.522 align:middle line:84%
+So this is what I'm going
+to show want to show,
+
+00:28:07.522 --> 00:28:21.950 align:middle line:84%
+that there exist x between
+a and b such that f of x
+
+00:28:21.950 --> 00:28:24.670 align:middle line:90%
+is equal to 0.
+
+00:28:24.670 --> 00:28:26.070 align:middle line:90%
+So this is what we want to show.
+
+00:28:26.070 --> 00:28:30.550 align:middle line:90%
+
+
+00:28:30.550 --> 00:28:33.030 align:middle line:84%
+And again, of course,
+the function f
+
+00:28:33.030 --> 00:28:35.410 align:middle line:90%
+is obviously continuous.
+
+00:28:35.410 --> 00:28:49.850 align:middle line:90%
+
+
+00:28:49.850 --> 00:28:50.350 align:middle line:90%
+OK.
+
+00:28:50.350 --> 00:28:56.550 align:middle line:90%
+So now let me define into a set.
+
+00:28:56.550 --> 00:28:58.510 align:middle line:90%
+It's actually an interval.
+
+00:28:58.510 --> 00:29:09.590 align:middle line:84%
+So I define E here to be
+the sets of x between--
+
+00:29:09.590 --> 00:29:12.750 align:middle line:90%
+
+
+00:29:12.750 --> 00:29:13.940 align:middle line:90%
+let's call this here.
+
+00:29:13.940 --> 00:29:18.020 align:middle line:84%
+So I want to show that
+there exists some x.
+
+00:29:18.020 --> 00:29:22.200 align:middle line:84%
+Let's call it x0, just to
+have something to refer to.
+
+00:29:22.200 --> 00:29:27.440 align:middle line:84%
+I call it x0 because the
+value's going to be 0.
+
+00:29:27.440 --> 00:29:37.880 align:middle line:84%
+So I define a set, E. And
+this is the x in the interval.
+
+00:29:37.880 --> 00:29:44.640 align:middle line:84%
+But I'm now
+requiring that f of y
+
+00:29:44.640 --> 00:29:56.980 align:middle line:84%
+is less than or equal to 0 for
+all y which is between a and x.
+
+00:29:56.980 --> 00:30:01.325 align:middle line:90%
+
+
+00:30:01.325 --> 00:30:04.880 align:middle line:90%
+Now, E here is nonempty.
+
+00:30:04.880 --> 00:30:06.440 align:middle line:90%
+E is nonempty.
+
+00:30:06.440 --> 00:30:09.360 align:middle line:90%
+E here is not the empty set.
+
+00:30:09.360 --> 00:30:11.040 align:middle line:90%
+Why?
+
+00:30:11.040 --> 00:30:14.500 align:middle line:90%
+Because actually, a here--
+
+00:30:14.500 --> 00:30:23.180 align:middle line:84%
+this is since a here is in
+E. Because if you take a,
+
+00:30:23.180 --> 00:30:26.180 align:middle line:84%
+then the value is actually
+strictly less than 0.
+
+00:30:26.180 --> 00:30:29.280 align:middle line:90%
+
+
+00:30:29.280 --> 00:30:33.740 align:middle line:84%
+And everything that
+lies in here but lies
+
+00:30:33.740 --> 00:30:38.200 align:middle line:84%
+to the left of a-- well,
+that's only a right.
+
+00:30:38.200 --> 00:30:40.220 align:middle line:84%
+So this is a kind of
+trivial statement.
+
+00:30:40.220 --> 00:30:44.260 align:middle line:90%
+So this is not 0.
+
+00:30:44.260 --> 00:30:46.770 align:middle line:84%
+So now you can take
+the sup of this.
+
+00:30:46.770 --> 00:30:49.500 align:middle line:90%
+
+
+00:30:49.500 --> 00:30:52.940 align:middle line:84%
+So maybe I should
+make one more remark--
+
+00:30:52.940 --> 00:30:59.220 align:middle line:84%
+that, of course, not only
+is it not the empty set,
+
+00:30:59.220 --> 00:31:01.960 align:middle line:90%
+but E here is bounded.
+
+00:31:01.960 --> 00:31:08.940 align:middle line:84%
+So the sup of E is less
+than or equal to b.
+
+00:31:08.940 --> 00:31:13.210 align:middle line:84%
+Because all of the elements
+in E are in this set.
+
+00:31:13.210 --> 00:31:17.510 align:middle line:84%
+So they're trivially
+bounded by b.
+
+00:31:17.510 --> 00:31:19.870 align:middle line:90%
+So I now can look at the sup.
+
+00:31:19.870 --> 00:31:24.070 align:middle line:84%
+So the sup here
+is a nice number.
+
+00:31:24.070 --> 00:31:26.000 align:middle line:90%
+And I can look at the sup.
+
+00:31:26.000 --> 00:31:31.250 align:middle line:90%
+
+
+00:31:31.250 --> 00:31:32.610 align:middle line:90%
+So the claim here is--
+
+00:31:32.610 --> 00:31:41.990 align:middle line:90%
+
+
+00:31:41.990 --> 00:31:45.950 align:middle line:84%
+or maybe let me
+just first say set
+
+00:31:45.950 --> 00:31:51.310 align:middle line:84%
+x not equal to that
+sup of E. And then
+
+00:31:51.310 --> 00:31:58.550 align:middle line:84%
+the claim is that f
+of x0 is actually 0.
+
+00:31:58.550 --> 00:32:08.970 align:middle line:90%
+
+
+00:32:08.970 --> 00:32:18.870 align:middle line:84%
+And so now you see
+that if you take--
+
+00:32:18.870 --> 00:32:22.550 align:middle line:90%
+
+
+00:32:22.550 --> 00:32:23.050 align:middle line:90%
+right.
+
+00:32:23.050 --> 00:32:26.240 align:middle line:90%
+So now look at the sup.
+
+00:32:26.240 --> 00:32:29.770 align:middle line:90%
+
+
+00:32:29.770 --> 00:32:49.570 align:middle line:84%
+So for each n, say, integer, if
+you're looking at x0 minus 1/n,
+
+00:32:49.570 --> 00:32:52.850 align:middle line:90%
+this is not the sup of e.
+
+00:32:52.850 --> 00:32:55.270 align:middle line:84%
+So this means that
+there exists an element.
+
+00:32:55.270 --> 00:32:59.830 align:middle line:90%
+
+
+00:32:59.830 --> 00:33:05.930 align:middle line:84%
+For each n, there exists an
+element, which are called xn.
+
+00:33:05.930 --> 00:33:09.500 align:middle line:90%
+And this xn is larger than this.
+
+00:33:09.500 --> 00:33:27.860 align:middle line:84%
+And the xn is in E.
+But you see that for it
+
+00:33:27.860 --> 00:33:33.220 align:middle line:84%
+to be an E, then, in
+fact, this element,
+
+00:33:33.220 --> 00:33:36.500 align:middle line:84%
+the value has to be
+less than or equal to 0.
+
+00:33:36.500 --> 00:33:44.980 align:middle line:84%
+So f of xn has to be less
+than or equal to 0 since it's
+
+00:33:44.980 --> 00:33:49.300 align:middle line:84%
+in E. So since it's in
+E, then we have that.
+
+00:33:49.300 --> 00:33:55.300 align:middle line:90%
+
+
+00:33:55.300 --> 00:34:02.480 align:middle line:84%
+But now, of course, the xn's,
+the xn's, they converge.
+
+00:34:02.480 --> 00:34:05.240 align:middle line:84%
+It's bigger than this,
+but they are less
+
+00:34:05.240 --> 00:34:09.440 align:middle line:90%
+than the sup of all such guys.
+
+00:34:09.440 --> 00:34:12.100 align:middle line:90%
+So this means that the xn--
+
+00:34:12.100 --> 00:34:18.120 align:middle line:90%
+so the xn converges to x0.
+
+00:34:18.120 --> 00:34:24.210 align:middle line:84%
+And so this means that f
+of xn converges to f of x0.
+
+00:34:24.210 --> 00:34:28.932 align:middle line:90%
+
+
+00:34:28.932 --> 00:34:33.199 align:middle line:84%
+Now this means
+that this here is--
+
+00:34:33.199 --> 00:34:35.739 align:middle line:84%
+and these here are all
+non-negative numbers.
+
+00:34:35.739 --> 00:34:38.746 align:middle line:84%
+This means that this number
+here must be non-negative.
+
+00:34:38.746 --> 00:34:42.920 align:middle line:90%
+
+
+00:34:42.920 --> 00:34:47.320 align:middle line:84%
+If x is 0, then that's
+where we want it.
+
+00:34:47.320 --> 00:35:00.360 align:middle line:84%
+So we're done if f
+of x0 is actually 0.
+
+00:35:00.360 --> 00:35:09.000 align:middle line:84%
+So assume that f of x0 is
+then strictly less than 0.
+
+00:35:09.000 --> 00:35:13.050 align:middle line:90%
+
+
+00:35:13.050 --> 00:35:19.730 align:middle line:84%
+But if the value here
+is strictly less than 0,
+
+00:35:19.730 --> 00:35:23.190 align:middle line:84%
+if this is the case,
+then there exists--
+
+00:35:23.190 --> 00:35:25.590 align:middle line:90%
+then if you take--
+
+00:35:25.590 --> 00:35:32.690 align:middle line:90%
+so here, you have 0.
+
+00:35:32.690 --> 00:35:35.250 align:middle line:90%
+Here, you have f of x0.
+
+00:35:35.250 --> 00:35:38.090 align:middle line:90%
+
+
+00:35:38.090 --> 00:35:40.870 align:middle line:84%
+You can then take a
+little interval around it.
+
+00:35:40.870 --> 00:35:45.590 align:middle line:90%
+
+
+00:35:45.590 --> 00:36:04.110 align:middle line:84%
+So take epsilon bigger than
+0 such that this thing here--
+
+00:36:04.110 --> 00:36:10.530 align:middle line:84%
+such that f of x0 plus epsilon,
+this is still negative.
+
+00:36:10.530 --> 00:36:18.950 align:middle line:90%
+
+
+00:36:18.950 --> 00:36:24.550 align:middle line:84%
+So I'm going to look at--
+so here, I have f of x0.
+
+00:36:24.550 --> 00:36:28.030 align:middle line:90%
+This is actually negative.
+
+00:36:28.030 --> 00:36:30.670 align:middle line:84%
+And I'm taking an
+interval around it.
+
+00:36:30.670 --> 00:36:32.490 align:middle line:90%
+So this is like an interval.
+
+00:36:32.490 --> 00:36:36.270 align:middle line:84%
+Here, we have f of
+x0 plus epsilon.
+
+00:36:36.270 --> 00:36:40.830 align:middle line:84%
+And here, we have f
+of x0 minus epsilon.
+
+00:36:40.830 --> 00:36:44.950 align:middle line:84%
+So I'm looking at this little
+interval here around f of x0.
+
+00:36:44.950 --> 00:36:47.510 align:middle line:90%
+
+
+00:36:47.510 --> 00:36:52.590 align:middle line:90%
+And here, I have x0.
+
+00:36:52.590 --> 00:36:56.410 align:middle line:84%
+But now because the
+function is continuous,
+
+00:36:56.410 --> 00:36:58.890 align:middle line:84%
+I know that there
+exists an interval.
+
+00:36:58.890 --> 00:37:01.120 align:middle line:90%
+So there exists some delta.
+
+00:37:01.120 --> 00:37:08.920 align:middle line:84%
+There exists delta
+bigger than 0 so
+
+00:37:08.920 --> 00:37:11.380 align:middle line:84%
+that if I'm in this
+little interval--
+
+00:37:11.380 --> 00:37:17.800 align:middle line:84%
+this is the interval from x0
+minus delta, x0 plus delta.
+
+00:37:17.800 --> 00:37:20.360 align:middle line:84%
+If I'm looking at
+this little interval,
+
+00:37:20.360 --> 00:37:26.720 align:middle line:84%
+then anything here is
+taken into this thing here.
+
+00:37:26.720 --> 00:37:32.840 align:middle line:84%
+So in other words, I
+have that if x minus x0
+
+00:37:32.840 --> 00:37:41.240 align:middle line:84%
+is less than delta, then
+f of dx minus f of x0
+
+00:37:41.240 --> 00:37:44.640 align:middle line:90%
+is less than epsilon.
+
+00:37:44.640 --> 00:37:47.960 align:middle line:84%
+But everything that is
+in this interval here
+
+00:37:47.960 --> 00:37:49.660 align:middle line:90%
+is still strictly negative.
+
+00:37:49.660 --> 00:37:51.340 align:middle line:90%
+So this means that in fact--
+
+00:37:51.340 --> 00:37:56.220 align:middle line:90%
+
+
+00:37:56.220 --> 00:38:00.100 align:middle line:84%
+in particular, this
+implies such that f of x
+
+00:38:00.100 --> 00:38:01.400 align:middle line:90%
+is actually negative.
+
+00:38:01.400 --> 00:38:07.240 align:middle line:90%
+
+
+00:38:07.240 --> 00:38:11.490 align:middle line:84%
+So now I want to get a
+contradiction because I know--
+
+00:38:11.490 --> 00:38:14.060 align:middle line:90%
+
+
+00:38:14.060 --> 00:38:15.880 align:middle line:90%
+so now I have this picture here.
+
+00:38:15.880 --> 00:38:23.540 align:middle line:90%
+
+
+00:38:23.540 --> 00:38:26.220 align:middle line:90%
+I have my x0 here.
+
+00:38:26.220 --> 00:38:37.160 align:middle line:84%
+The x0 was supposed to
+be the sup of the set A.
+
+00:38:37.160 --> 00:38:42.900 align:middle line:84%
+So I know that, actually, on a
+little interval around this x0,
+
+00:38:42.900 --> 00:38:45.660 align:middle line:90%
+everything is--
+
+00:38:45.660 --> 00:38:49.900 align:middle line:84%
+if I take anything in a little
+interval around this x0,
+
+00:38:49.900 --> 00:38:54.180 align:middle line:84%
+then the values of f
+are actually negative.
+
+00:38:54.180 --> 00:38:56.860 align:middle line:90%
+
+
+00:38:56.860 --> 00:39:04.070 align:middle line:84%
+But you see that this x0
+was limits or points where
+
+00:39:04.070 --> 00:39:08.550 align:middle line:84%
+everything to the
+left was not positive.
+
+00:39:08.550 --> 00:39:13.310 align:middle line:84%
+So it means that everything
+to the left was not positive.
+
+00:39:13.310 --> 00:39:20.150 align:middle line:84%
+But then even a little bit
+further was still not positive.
+
+00:39:20.150 --> 00:39:22.390 align:middle line:90%
+But then it wasn't like the sup.
+
+00:39:22.390 --> 00:39:26.350 align:middle line:84%
+Because anything
+here would be larger,
+
+00:39:26.350 --> 00:39:28.310 align:middle line:84%
+and it still would
+have the property
+
+00:39:28.310 --> 00:39:34.130 align:middle line:84%
+that everything to the left
+under f was non-negative.
+
+00:39:34.130 --> 00:39:39.386 align:middle line:90%
+
+
+00:39:39.386 --> 00:39:43.030 align:middle line:84%
+So that's the proof of
+the extreme value theorem
+
+00:39:43.030 --> 00:39:44.870 align:middle line:84%
+and the intermediate
+value theorem
+
+00:39:44.870 --> 00:39:50.790 align:middle line:84%
+using sequences and using
+that little lemma from before.
+
+00:39:50.790 --> 00:39:51.930 align:middle line:90%
+OK.
+
+00:39:51.930 --> 00:39:54.150 align:middle line:84%
+So now the next thing
+I want to talk about
+
+00:39:54.150 --> 00:39:57.550 align:middle line:84%
+is another really
+important concept.
+
+00:39:57.550 --> 00:40:00.970 align:middle line:84%
+And that, to some extent,
+is a generalization
+
+00:40:00.970 --> 00:40:04.560 align:middle line:84%
+of things we know
+from the real numbers.
+
+00:40:04.560 --> 00:40:08.130 align:middle line:90%
+
+
+00:40:08.130 --> 00:40:10.760 align:middle line:84%
+And so this is this
+concept of a metric space.
+
+00:40:10.760 --> 00:40:17.010 align:middle line:90%
+
+
+00:40:17.010 --> 00:40:19.430 align:middle line:84%
+And so let me just
+give you a definition,
+
+00:40:19.430 --> 00:40:23.050 align:middle line:84%
+and then I'll give you
+a bunch of examples.
+
+00:40:23.050 --> 00:40:29.450 align:middle line:84%
+So a metric space is a
+set, X. So this is the set.
+
+00:40:29.450 --> 00:40:36.250 align:middle line:84%
+And then it's a map for
+each pair of points.
+
+00:40:36.250 --> 00:40:39.250 align:middle line:84%
+So let me explain
+what I mean by this.
+
+00:40:39.250 --> 00:40:51.330 align:middle line:84%
+So whenever you have x in X and
+another element in this space,
+
+00:40:51.330 --> 00:40:54.980 align:middle line:84%
+then when you have
+any such pair,
+
+00:40:54.980 --> 00:41:00.960 align:middle line:84%
+then d x comma y, this
+gives you a real number.
+
+00:41:00.960 --> 00:41:04.420 align:middle line:90%
+
+
+00:41:04.420 --> 00:41:07.700 align:middle line:84%
+And so this here is
+what you usually call
+
+00:41:07.700 --> 00:41:19.020 align:middle line:90%
+the distance between x and y.
+
+00:41:19.020 --> 00:41:21.580 align:middle line:84%
+That's the distance
+between x and y.
+
+00:41:21.580 --> 00:41:24.340 align:middle line:84%
+Now, what properties
+should this have?
+
+00:41:24.340 --> 00:41:32.380 align:middle line:84%
+It's not just any map from this
+space across itself into R.
+
+00:41:32.380 --> 00:41:34.740 align:middle line:90%
+It has three properties.
+
+00:41:34.740 --> 00:41:43.700 align:middle line:84%
+The first is that the distance
+between pair of points--
+
+00:41:43.700 --> 00:41:46.380 align:middle line:84%
+and then there are
+generalization of this.
+
+00:41:46.380 --> 00:41:47.920 align:middle line:84%
+But anyway, so
+I'll talk about it.
+
+00:41:47.920 --> 00:41:48.920 align:middle line:90%
+That's generalization.
+
+00:41:48.920 --> 00:41:52.460 align:middle line:84%
+Like, if you're working
+with general relativity,
+
+00:41:52.460 --> 00:41:55.730 align:middle line:84%
+then you would actually not
+quite work with this definition.
+
+00:41:55.730 --> 00:41:58.990 align:middle line:84%
+You would work with some
+generalization of this.
+
+00:41:58.990 --> 00:42:02.770 align:middle line:84%
+But so what properties
+should this distance have?
+
+00:42:02.770 --> 00:42:05.430 align:middle line:90%
+It should have three properties.
+
+00:42:05.430 --> 00:42:10.430 align:middle line:84%
+The first is that
+for any x and y,
+
+00:42:10.430 --> 00:42:12.910 align:middle line:84%
+the distance between
+any two points
+
+00:42:12.910 --> 00:42:16.310 align:middle line:84%
+should always give you
+a non-negative number.
+
+00:42:16.310 --> 00:42:18.870 align:middle line:84%
+So this here should
+be non-negative.
+
+00:42:18.870 --> 00:42:25.230 align:middle line:84%
+And if the distance
+between two points is 0,
+
+00:42:25.230 --> 00:42:31.750 align:middle line:84%
+then those two points
+should be the same.
+
+00:42:31.750 --> 00:42:36.030 align:middle line:84%
+So in fact, the distance
+here is equal to 0
+
+00:42:36.030 --> 00:42:39.150 align:middle line:90%
+if and only if x is equal to y.
+
+00:42:39.150 --> 00:42:41.950 align:middle line:90%
+
+
+00:42:41.950 --> 00:42:45.550 align:middle line:90%
+So that's the first property.
+
+00:42:45.550 --> 00:42:49.230 align:middle line:90%
+And the second property is--
+
+00:42:49.230 --> 00:42:52.010 align:middle line:84%
+just their distances are
+non-negative, if you will.
+
+00:42:52.010 --> 00:42:55.210 align:middle line:84%
+The second property is
+that if you're looking at,
+
+00:42:55.210 --> 00:42:57.770 align:middle line:84%
+what is the distance
+from x to y?
+
+00:42:57.770 --> 00:43:00.370 align:middle line:84%
+The distance from x to
+y should be the same
+
+00:43:00.370 --> 00:43:02.350 align:middle line:90%
+as the distance from y to x.
+
+00:43:02.350 --> 00:43:06.210 align:middle line:90%
+
+
+00:43:06.210 --> 00:43:07.190 align:middle line:90%
+So this is this.
+
+00:43:07.190 --> 00:43:10.690 align:middle line:84%
+And this is sometimes referred
+to that it's symmetric.
+
+00:43:10.690 --> 00:43:12.730 align:middle line:84%
+It doesn't matter
+whether you first--
+
+00:43:12.730 --> 00:43:18.690 align:middle line:84%
+you begin at x and go to y or
+you begin at y and go to x.
+
+00:43:18.690 --> 00:43:21.010 align:middle line:84%
+And then the third
+thing, which is
+
+00:43:21.010 --> 00:43:24.030 align:middle line:84%
+kind of like the
+nontrivial part of it
+
+00:43:24.030 --> 00:43:26.330 align:middle line:84%
+and the thing that
+makes it really useful,
+
+00:43:26.330 --> 00:43:29.330 align:middle line:84%
+which is called the
+triangle inequality--
+
+00:43:29.330 --> 00:43:34.650 align:middle line:84%
+that if you have three points,
+x, y, and z, in this space
+
+00:43:34.650 --> 00:43:42.530 align:middle line:84%
+and you're looking at the
+distance from x to z--
+
+00:43:42.530 --> 00:43:46.010 align:middle line:84%
+so if you imagine that
+you have three points--
+
+00:43:46.010 --> 00:43:47.930 align:middle line:90%
+x, y.
+
+00:43:47.930 --> 00:43:50.500 align:middle line:84%
+And then you have
+another point, z.
+
+00:43:50.500 --> 00:43:51.860 align:middle line:90%
+Sorry, no.
+
+00:43:51.860 --> 00:43:53.100 align:middle line:90%
+That's not how I [INAUDIBLE].
+
+00:43:53.100 --> 00:43:57.700 align:middle line:84%
+So you have three
+points, x, y, and z.
+
+00:43:57.700 --> 00:44:00.620 align:middle line:84%
+But you think about that
+you're looking at the distance
+
+00:44:00.620 --> 00:44:03.180 align:middle line:90%
+from x to z.
+
+00:44:03.180 --> 00:44:06.680 align:middle line:84%
+Well, instead of going
+directly from x to z,
+
+00:44:06.680 --> 00:44:10.180 align:middle line:84%
+if you went over y,
+then this distance
+
+00:44:10.180 --> 00:44:13.380 align:middle line:84%
+here should be longer
+than if you went directly.
+
+00:44:13.380 --> 00:44:15.240 align:middle line:84%
+So this thing here
+should be less than
+
+00:44:15.240 --> 00:44:21.420 align:middle line:84%
+or equal to the distance from x
+to y, plus the distance from y
+
+00:44:21.420 --> 00:44:22.740 align:middle line:90%
+to z.
+
+00:44:22.740 --> 00:44:27.540 align:middle line:84%
+And this here is the
+nontrivial part of it.
+
+00:44:27.540 --> 00:44:29.880 align:middle line:84%
+And this is called the
+triangle inequality.
+
+00:44:29.880 --> 00:44:40.060 align:middle line:90%
+
+
+00:44:40.060 --> 00:44:42.513 align:middle line:84%
+Now, what are some
+examples of this?
+
+00:44:42.513 --> 00:44:43.930 align:middle line:84%
+Let's look at a
+bunch of examples.
+
+00:44:43.930 --> 00:44:55.880 align:middle line:90%
+
+
+00:44:55.880 --> 00:45:03.640 align:middle line:84%
+The first example is
+just where x is R.
+
+00:45:03.640 --> 00:45:07.960 align:middle line:84%
+And so you have two
+points in x in R.
+
+00:45:07.960 --> 00:45:15.360 align:middle line:84%
+And now the distance between
+them is simply x minus 1.
+
+00:45:15.360 --> 00:45:17.880 align:middle line:90%
+This is obviously non-negative.
+
+00:45:17.880 --> 00:45:21.480 align:middle line:84%
+If it's 0, that means
+that x is equal to y.
+
+00:45:21.480 --> 00:45:24.160 align:middle line:90%
+It's obviously also symmetric.
+
+00:45:24.160 --> 00:45:26.600 align:middle line:84%
+And the triangle inequality
+is this inequality
+
+00:45:26.600 --> 00:45:28.040 align:middle line:90%
+that we're using all the time.
+
+00:45:28.040 --> 00:45:32.280 align:middle line:90%
+
+
+00:45:32.280 --> 00:45:39.520 align:middle line:84%
+Another example is if you're
+looking at where x here
+
+00:45:39.520 --> 00:45:41.800 align:middle line:90%
+is R squared, say.
+
+00:45:41.800 --> 00:45:46.410 align:middle line:84%
+And then you're
+thinking about x and y.
+
+00:45:46.410 --> 00:45:47.885 align:middle line:84%
+You may think
+about a mesh vector
+
+00:45:47.885 --> 00:45:49.510 align:middle line:84%
+or whatever you want
+to think about it.
+
+00:45:49.510 --> 00:45:55.410 align:middle line:84%
+So this means that x here
+has coordinates x1 and x2.
+
+00:45:55.410 --> 00:45:59.580 align:middle line:90%
+And y has coordinates y1 and y2.
+
+00:45:59.580 --> 00:46:03.130 align:middle line:90%
+
+
+00:46:03.130 --> 00:46:09.360 align:middle line:84%
+And now the distance
+between these two points
+
+00:46:09.360 --> 00:46:17.930 align:middle line:84%
+is just the square root
+of x1 minus y1 squared
+
+00:46:17.930 --> 00:46:25.330 align:middle line:90%
+plus x2 minus y2 squared.
+
+00:46:25.330 --> 00:46:26.990 align:middle line:90%
+That's the distance.
+
+00:46:26.990 --> 00:46:31.040 align:middle line:84%
+And this here is often referred
+to as the Euclidean distance.
+
+00:46:31.040 --> 00:46:33.850 align:middle line:90%
+
+
+00:46:33.850 --> 00:46:37.770 align:middle line:90%
+So this distance that you know.
+
+00:46:37.770 --> 00:46:41.370 align:middle line:84%
+The distance is given
+by Pythagoras' theorem.
+
+00:46:41.370 --> 00:46:46.430 align:middle line:84%
+And so it's clear the
+first two property,
+
+00:46:46.430 --> 00:46:48.110 align:middle line:90%
+those are always clear.
+
+00:46:48.110 --> 00:46:50.390 align:middle line:84%
+And the triangle
+inequality, that's
+
+00:46:50.390 --> 00:46:53.710 align:middle line:84%
+the one that sometimes
+is tricky to prove.
+
+00:46:53.710 --> 00:46:54.210 align:middle line:90%
+OK.
+
+00:46:54.210 --> 00:46:57.310 align:middle line:84%
+So that's another
+example of a distance.
+
+00:46:57.310 --> 00:47:00.590 align:middle line:84%
+I want to give you
+a few more examples.
+
+00:47:00.590 --> 00:47:06.430 align:middle line:84%
+And so another example is
+like where you do this in R3.
+
+00:47:06.430 --> 00:47:10.730 align:middle line:84%
+And so you have, instead of
+points having two coordinates,
+
+00:47:10.730 --> 00:47:12.630 align:middle line:90%
+they now have three coordinates.
+
+00:47:12.630 --> 00:47:14.590 align:middle line:84%
+And you do the sort
+of same of thing.
+
+00:47:14.590 --> 00:47:18.590 align:middle line:84%
+But now there would be a third
+term under the square root sign,
+
+00:47:18.590 --> 00:47:21.630 align:middle line:84%
+would be the square
+of the difference
+
+00:47:21.630 --> 00:47:23.410 align:middle line:90%
+between the third coordinates.
+
+00:47:23.410 --> 00:47:26.216 align:middle line:90%
+
+
+00:47:26.216 --> 00:47:27.870 align:middle line:90%
+OK.
+
+00:47:27.870 --> 00:47:32.900 align:middle line:84%
+Then let me give you
+a few more examples.
+
+00:47:32.900 --> 00:47:36.390 align:middle line:90%
+
+
+00:47:36.390 --> 00:47:41.150 align:middle line:84%
+There's one that is, to some
+extent, simpler than this one
+
+00:47:41.150 --> 00:47:43.240 align:middle line:90%
+here.
+
+00:47:43.240 --> 00:47:45.820 align:middle line:90%
+And it's sometimes useful.
+
+00:47:45.820 --> 00:47:55.080 align:middle line:84%
+But it's not as useful as
+the Euclidean distances.
+
+00:47:55.080 --> 00:47:58.820 align:middle line:84%
+And again, these sort of
+things are generalized.
+
+00:47:58.820 --> 00:48:01.640 align:middle line:84%
+They're an example of
+something much more general.
+
+00:48:01.640 --> 00:48:04.520 align:middle line:84%
+Like, this here is what's
+called a Hilbert space,
+
+00:48:04.520 --> 00:48:06.160 align:middle line:90%
+example of a Hilbert space.
+
+00:48:06.160 --> 00:48:09.560 align:middle line:84%
+The next is something which
+is an example of something
+
+00:48:09.560 --> 00:48:10.900 align:middle line:90%
+called a Banach space.
+
+00:48:10.900 --> 00:48:12.640 align:middle line:84%
+But so the next
+example I will look at
+
+00:48:12.640 --> 00:48:16.050 align:middle line:84%
+is what is sometimes
+called the box distance.
+
+00:48:16.050 --> 00:48:20.640 align:middle line:90%
+
+
+00:48:20.640 --> 00:48:27.420 align:middle line:84%
+And so if space in
+this case is R2--
+
+00:48:27.420 --> 00:48:30.320 align:middle line:84%
+you could do it in
+R3 also if you want.
+
+00:48:30.320 --> 00:48:36.700 align:middle line:84%
+And you take two points
+here, x and y in R2.
+
+00:48:36.700 --> 00:48:43.700 align:middle line:84%
+And so this here, underline
+x, has coordinates x1 and x2.
+
+00:48:43.700 --> 00:48:49.180 align:middle line:84%
+And now the distance
+between these two points
+
+00:48:49.180 --> 00:48:54.880 align:middle line:84%
+would be-- you didn't do this
+fancy thing with square root,
+
+00:48:54.880 --> 00:48:59.340 align:middle line:84%
+but you did the more trivial
+thing, where you're just adding.
+
+00:48:59.340 --> 00:49:03.340 align:middle line:84%
+So you're taking two
+points here in R2.
+
+00:49:03.340 --> 00:49:06.060 align:middle line:90%
+This is maybe x1 comma x2.
+
+00:49:06.060 --> 00:49:11.740 align:middle line:90%
+This is y1 So y2.
+
+00:49:11.740 --> 00:49:15.260 align:middle line:84%
+The Euclidean distance is
+simply this distance here.
+
+00:49:15.260 --> 00:49:20.160 align:middle line:84%
+The box distance is where
+you take this distance here
+
+00:49:20.160 --> 00:49:22.860 align:middle line:84%
+and you're adding
+this distance here.
+
+00:49:22.860 --> 00:49:29.340 align:middle line:84%
+So this is this here
+plus x2 minus y2.
+
+00:49:29.340 --> 00:49:31.500 align:middle line:90%
+That's a box distance.
+
+00:49:31.500 --> 00:49:33.640 align:middle line:84%
+And obviously, this
+is a non-negative.
+
+00:49:33.640 --> 00:49:36.380 align:middle line:84%
+It gives you-- for any
+pair, it's non-negative.
+
+00:49:36.380 --> 00:49:38.200 align:middle line:90%
+It's obviously symmetric.
+
+00:49:38.200 --> 00:49:41.750 align:middle line:84%
+It doesn't matter the
+ordering of these two.
+
+00:49:41.750 --> 00:49:44.230 align:middle line:84%
+Its just switching the order
+between absolute value sign
+
+00:49:44.230 --> 00:49:46.390 align:middle line:90%
+anyway, so it doesn't matter.
+
+00:49:46.390 --> 00:49:49.950 align:middle line:84%
+And it's also clear
+that it's 0 if and only
+
+00:49:49.950 --> 00:49:54.590 align:middle line:84%
+if these two points-- it
+means that the coordinates are
+
+00:49:54.590 --> 00:49:57.163 align:middle line:90%
+the same.
+
+00:49:57.163 --> 00:50:00.670 align:middle line:84%
+And then, in this case,
+the triangle inequality
+
+00:50:00.670 --> 00:50:03.170 align:middle line:90%
+is not very hard to establish.
+
+00:50:03.170 --> 00:50:05.630 align:middle line:84%
+Proving the triangle even
+just for the Euclidean
+
+00:50:05.630 --> 00:50:07.050 align:middle line:90%
+is a nontrivial thing.
+
+00:50:07.050 --> 00:50:10.550 align:middle line:90%
+
+
+00:50:10.550 --> 00:50:12.710 align:middle line:90%
+So that's another example.
+
+00:50:12.710 --> 00:50:14.990 align:middle line:84%
+And I want to give you
+a few more examples.
+
+00:50:14.990 --> 00:50:19.790 align:middle line:84%
+Here's a sort of
+interesting example.
+
+00:50:19.790 --> 00:50:24.950 align:middle line:90%
+
+
+00:50:24.950 --> 00:50:28.750 align:middle line:90%
+Suppose you take a interval--
+
+00:50:28.750 --> 00:50:32.030 align:middle line:84%
+let's just make the
+interval from 0 to 1.
+
+00:50:32.030 --> 00:50:36.110 align:middle line:84%
+So suppose you're looking
+at the interval from 0 to 1.
+
+00:50:36.110 --> 00:50:42.170 align:middle line:84%
+And now looking at-- so this
+here, this is now your space, x.
+
+00:50:42.170 --> 00:50:52.970 align:middle line:84%
+And so by that, I mean
+that x here consists of--
+
+00:50:52.970 --> 00:50:57.110 align:middle line:90%
+so an element in x--
+
+00:50:57.110 --> 00:50:58.290 align:middle line:90%
+let me write.
+
+00:50:58.290 --> 00:50:58.920 align:middle line:90%
+An element.
+
+00:50:58.920 --> 00:51:01.770 align:middle line:90%
+
+
+00:51:01.770 --> 00:51:17.130 align:middle line:84%
+In x is a continuous function
+on the interval from 0 to 1.
+
+00:51:17.130 --> 00:51:20.690 align:middle line:84%
+So this means that if
+you take two elements--
+
+00:51:20.690 --> 00:51:25.170 align:middle line:84%
+so if you take one continuous
+function on the interval
+
+00:51:25.170 --> 00:51:29.170 align:middle line:84%
+from 0 to 1 and another
+continuous function,
+
+00:51:29.170 --> 00:51:31.290 align:middle line:84%
+what should be the
+distance between two
+
+00:51:31.290 --> 00:51:32.910 align:middle line:90%
+continuous functions?
+
+00:51:32.910 --> 00:51:35.650 align:middle line:90%
+
+
+00:51:35.650 --> 00:51:40.300 align:middle line:84%
+Well, the distance here-- so
+this here is defined to be
+
+00:51:40.300 --> 00:51:43.540 align:middle line:90%
+the maximum of--
+
+00:51:43.540 --> 00:51:50.260 align:middle line:84%
+so if you're looking f
+minus g, If f is continuous,
+
+00:51:50.260 --> 00:51:52.580 align:middle line:84%
+g is continuous,
+this is continuous.
+
+00:51:52.580 --> 00:51:56.460 align:middle line:90%
+
+
+00:51:56.460 --> 00:51:58.820 align:middle line:84%
+And now this is a
+continuous function
+
+00:51:58.820 --> 00:52:01.540 align:middle line:90%
+defined on this interval.
+
+00:52:01.540 --> 00:52:08.060 align:middle line:84%
+So the extreme value theorem
+say that the maximum in-- so
+
+00:52:08.060 --> 00:52:09.860 align:middle line:90%
+this here is continuous.
+
+00:52:09.860 --> 00:52:13.420 align:middle line:84%
+And in fact, even this
+here is continuous.
+
+00:52:13.420 --> 00:52:18.660 align:middle line:84%
+So the maximum of
+this here is achieved.
+
+00:52:18.660 --> 00:52:24.480 align:middle line:84%
+So this is the maximum,
+where x is in 0 to 1.
+
+00:52:24.480 --> 00:52:26.840 align:middle line:90%
+So this is achieved.
+
+00:52:26.840 --> 00:52:30.180 align:middle line:84%
+And this is clearly,
+again, symmetric.
+
+00:52:30.180 --> 00:52:32.060 align:middle line:84%
+Because of the
+absolute value sign,
+
+00:52:32.060 --> 00:52:37.000 align:middle line:84%
+it's clearly symmetric,
+in terms of f and g.
+
+00:52:37.000 --> 00:52:39.920 align:middle line:84%
+It's also clear that
+it's non-negative.
+
+00:52:39.920 --> 00:52:43.040 align:middle line:84%
+And it's also clear
+that it's 0 if
+
+00:52:43.040 --> 00:52:46.680 align:middle line:84%
+and only if the two
+functions are the same.
+
+00:52:46.680 --> 00:52:48.720 align:middle line:84%
+And in this case,
+it's quite easy
+
+00:52:48.720 --> 00:52:56.760 align:middle line:90%
+to prove that this is a metric.
+
+00:52:56.760 --> 00:53:01.500 align:middle line:84%
+OK, so maybe I'll
+just leave that.
+
+00:53:01.500 --> 00:53:02.000 align:middle line:90%
+OK.
+
+00:53:02.000 --> 00:53:06.860 align:middle line:84%
+Now I want to give you a
+couple of more examples.
+
+00:53:06.860 --> 00:53:09.545 align:middle line:84%
+And then I'll start with
+example and talk about--
+
+00:53:09.545 --> 00:53:11.420 align:middle line:84%
+I want to give you a
+couple of more examples.
+
+00:53:11.420 --> 00:53:16.020 align:middle line:84%
+And the two next
+examples, one is--
+
+00:53:16.020 --> 00:53:20.587 align:middle line:90%
+
+
+00:53:20.587 --> 00:53:22.920 align:middle line:84%
+and the reason why I want to
+give you two other examples
+
+00:53:22.920 --> 00:53:24.440 align:middle line:90%
+is that--
+
+00:53:24.440 --> 00:53:28.120 align:middle line:90%
+
+
+00:53:28.120 --> 00:53:31.600 align:middle line:84%
+so you know a lot of things
+about distances already.
+
+00:53:31.600 --> 00:53:34.130 align:middle line:84%
+And this gives you
+excellent intuition
+
+00:53:34.130 --> 00:53:36.850 align:middle line:90%
+to proving many things.
+
+00:53:36.850 --> 00:53:40.210 align:middle line:84%
+But you should just keep
+in mind that a metric space
+
+00:53:40.210 --> 00:53:42.650 align:middle line:90%
+could be very wild.
+
+00:53:42.650 --> 00:53:46.690 align:middle line:84%
+So I'll give you an example
+of some strange and directly
+
+00:53:46.690 --> 00:53:48.930 align:middle line:90%
+wild metric spaces.
+
+00:53:48.930 --> 00:53:51.490 align:middle line:84%
+So the first one
+is kind of strange.
+
+00:53:51.490 --> 00:53:57.130 align:middle line:84%
+And then I'll give you another
+example, which is wild.
+
+00:53:57.130 --> 00:54:00.100 align:middle line:84%
+So the strange one, so
+the strange example--
+
+00:54:00.100 --> 00:54:03.170 align:middle line:90%
+
+
+00:54:03.170 --> 00:54:08.230 align:middle line:84%
+and so this is like if you're
+looking at the integers.
+
+00:54:08.230 --> 00:54:09.920 align:middle line:84%
+So the space is
+now the integers.
+
+00:54:09.920 --> 00:54:13.330 align:middle line:90%
+
+
+00:54:13.330 --> 00:54:16.450 align:middle line:84%
+And so you want to look
+at, what is the distance
+
+00:54:16.450 --> 00:54:20.423 align:middle line:90%
+between two integers?
+
+00:54:20.423 --> 00:54:22.770 align:middle line:84%
+Now, of course,
+your intuition would
+
+00:54:22.770 --> 00:54:26.890 align:middle line:84%
+say that if one
+integer is really large
+
+00:54:26.890 --> 00:54:28.510 align:middle line:84%
+and the other one
+is not very large,
+
+00:54:28.510 --> 00:54:31.770 align:middle line:84%
+you would think that
+the distance was large.
+
+00:54:31.770 --> 00:54:34.070 align:middle line:90%
+But it doesn't have to be large.
+
+00:54:34.070 --> 00:54:40.510 align:middle line:84%
+So I define this distance
+to be 1/n minus 1/m.
+
+00:54:40.510 --> 00:54:43.150 align:middle line:90%
+
+
+00:54:43.150 --> 00:54:47.630 align:middle line:84%
+This here gives you so the
+absolute value of the difference
+
+00:54:47.630 --> 00:54:50.870 align:middle line:90%
+of 1 over each of them.
+
+00:54:50.870 --> 00:54:53.830 align:middle line:90%
+This here gives you a distance.
+
+00:54:53.830 --> 00:55:00.590 align:middle line:84%
+And in particular, you see
+that if both n and m are
+
+00:55:00.590 --> 00:55:04.790 align:middle line:84%
+really large, then
+in this metric,
+
+00:55:04.790 --> 00:55:06.390 align:middle line:90%
+they're very close together.
+
+00:55:06.390 --> 00:55:10.310 align:middle line:84%
+It looks like the
+distance is very small.
+
+00:55:10.310 --> 00:55:16.110 align:middle line:84%
+Now, instead of actually proving
+that this thing here is--
+
+00:55:16.110 --> 00:55:18.150 align:middle line:90%
+so you could try to prove--
+
+00:55:18.150 --> 00:55:22.110 align:middle line:84%
+so as usual, to
+prove that this is
+
+00:55:22.110 --> 00:55:24.930 align:middle line:84%
+a metric, the first
+and second property,
+
+00:55:24.930 --> 00:55:28.030 align:middle line:84%
+the property that is
+non-negative, that's obvious.
+
+00:55:28.030 --> 00:55:31.360 align:middle line:84%
+It's also obvious that
+it's 0 if and only
+
+00:55:31.360 --> 00:55:34.120 align:middle line:90%
+if n and m are the same.
+
+00:55:34.120 --> 00:55:37.120 align:middle line:84%
+It's also obvious
+that it's symmetric.
+
+00:55:37.120 --> 00:55:39.700 align:middle line:84%
+The triangle inequality might
+be not quite as obvious.
+
+00:55:39.700 --> 00:55:41.600 align:middle line:90%
+It's not very hard in this case.
+
+00:55:41.600 --> 00:55:46.080 align:middle line:84%
+But it actually is a triviality
+because you could think
+
+00:55:46.080 --> 00:55:50.240 align:middle line:90%
+about this one here as a map.
+
+00:55:50.240 --> 00:55:58.400 align:middle line:84%
+Suppose you take a map from the
+integers into the real numbers.
+
+00:55:58.400 --> 00:56:00.840 align:middle line:84%
+And the map is just
+that you take--
+
+00:56:00.840 --> 00:56:06.320 align:middle line:84%
+the image of an integer
+is just 1 over it.
+
+00:56:06.320 --> 00:56:11.600 align:middle line:84%
+If you think about the
+usual distance over here--
+
+00:56:11.600 --> 00:56:13.380 align:middle line:90%
+and so the usual distance.
+
+00:56:13.380 --> 00:56:17.560 align:middle line:84%
+By that, I mean that the
+distance between x and y
+
+00:56:17.560 --> 00:56:19.840 align:middle line:90%
+is just this.
+
+00:56:19.840 --> 00:56:24.840 align:middle line:84%
+If you think about this, but
+now thinking about that things
+
+00:56:24.840 --> 00:56:27.360 align:middle line:90%
+here--
+
+00:56:27.360 --> 00:56:30.820 align:middle line:84%
+and so you think about
+the usual distance.
+
+00:56:30.820 --> 00:56:36.900 align:middle line:84%
+But you're now restricted to
+not just all real numbers,
+
+00:56:36.900 --> 00:56:40.540 align:middle line:84%
+but just things that
+are 1 over integers.
+
+00:56:40.540 --> 00:56:45.740 align:middle line:84%
+On that space, it
+gives you a metric.
+
+00:56:45.740 --> 00:56:48.100 align:middle line:84%
+But then you can
+just think about
+
+00:56:48.100 --> 00:56:51.540 align:middle line:84%
+that this gives you another
+way of labeling things.
+
+00:56:51.540 --> 00:56:55.360 align:middle line:84%
+And so it's kind of a triviality
+that it is a metric space.
+
+00:56:55.360 --> 00:56:59.060 align:middle line:84%
+But distances looks a
+little counterintuitive.
+
+00:56:59.060 --> 00:57:04.100 align:middle line:84%
+Because if you have two very
+large numbers, then actually,
+
+00:57:04.100 --> 00:57:06.520 align:middle line:84%
+the distance between
+them is small,
+
+00:57:06.520 --> 00:57:10.860 align:middle line:84%
+even though those two large
+numbers could be very far apart.
+
+00:57:10.860 --> 00:57:14.820 align:middle line:84%
+So the last example I
+want to give you, that's
+
+00:57:14.820 --> 00:57:16.590 align:middle line:90%
+a example of a wild metric.
+
+00:57:16.590 --> 00:57:23.860 align:middle line:90%
+
+
+00:57:23.860 --> 00:57:26.880 align:middle line:90%
+This is one wild.
+
+00:57:26.880 --> 00:57:31.450 align:middle line:84%
+And so, essentially, all
+of these occur naturally.
+
+00:57:31.450 --> 00:57:36.550 align:middle line:90%
+
+
+00:57:36.550 --> 00:57:39.190 align:middle line:84%
+And so this example is what's
+called the French railway
+
+00:57:39.190 --> 00:57:45.630 align:middle line:84%
+metric, which is maybe not
+a super flattering name
+
+00:57:45.630 --> 00:57:46.850 align:middle line:90%
+but probably accurate.
+
+00:57:46.850 --> 00:57:50.650 align:middle line:84%
+So the thing is that if
+you travel in France--
+
+00:57:50.650 --> 00:57:54.550 align:middle line:84%
+so if you imagine that
+this is France here.
+
+00:57:54.550 --> 00:57:57.030 align:middle line:90%
+Here, you have Paris.
+
+00:57:57.030 --> 00:58:01.970 align:middle line:84%
+And if you want to go
+to the French Riviera,
+
+00:58:01.970 --> 00:58:04.030 align:middle line:90%
+which is maybe down here--
+
+00:58:04.030 --> 00:58:07.030 align:middle line:84%
+so two cities on
+the French Riviera
+
+00:58:07.030 --> 00:58:13.590 align:middle line:84%
+that are incredibly close
+together is Cannes and Nice.
+
+00:58:13.590 --> 00:58:14.610 align:middle line:90%
+This is Cannes.
+
+00:58:14.610 --> 00:58:16.150 align:middle line:90%
+And here, you have Nice.
+
+00:58:16.150 --> 00:58:18.950 align:middle line:84%
+They're very, very
+close together.
+
+00:58:18.950 --> 00:58:22.630 align:middle line:84%
+But if you were going to
+go with a French railroad,
+
+00:58:22.630 --> 00:58:26.150 align:middle line:84%
+then you would have
+to go to Paris first.
+
+00:58:26.150 --> 00:58:29.330 align:middle line:84%
+So this here would take you
+maybe 20 minutes by train
+
+00:58:29.330 --> 00:58:30.930 align:middle line:90%
+if there was a train.
+
+00:58:30.930 --> 00:58:32.950 align:middle line:84%
+But you have to
+go to Paris first.
+
+00:58:32.950 --> 00:58:35.510 align:middle line:90%
+And that's really far.
+
+00:58:35.510 --> 00:58:38.330 align:middle line:84%
+The good thing is that the
+French have this TGV, which
+
+00:58:38.330 --> 00:58:41.730 align:middle line:84%
+is this incredible fast
+train, but it still
+
+00:58:41.730 --> 00:58:44.730 align:middle line:90%
+would take many hours.
+
+00:58:44.730 --> 00:58:48.450 align:middle line:84%
+And so that's the idea of
+the French railway network,
+
+00:58:48.450 --> 00:58:53.810 align:middle line:90%
+that the space here is R2.
+
+00:58:53.810 --> 00:58:57.890 align:middle line:84%
+And if you take two
+points, x and y,
+
+00:58:57.890 --> 00:59:08.210 align:middle line:84%
+in R2, then what is the
+distance between this pair?
+
+00:59:08.210 --> 00:59:10.700 align:middle line:84%
+So the distance
+between the pair is--
+
+00:59:10.700 --> 00:59:19.290 align:middle line:90%
+
+
+00:59:19.290 --> 00:59:25.196 align:middle line:84%
+the distance
+between x and y is--
+
+00:59:25.196 --> 00:59:33.860 align:middle line:90%
+
+
+00:59:33.860 --> 00:59:41.380 align:middle line:84%
+if x and y lie on the same-- so
+imagine that this here is Paris.
+
+00:59:41.380 --> 00:59:45.300 align:middle line:84%
+And so just think about
+Paris as being the origin.
+
+00:59:45.300 --> 00:59:49.100 align:middle line:84%
+So if x and y lie
+on the same line--
+
+00:59:49.100 --> 00:59:52.660 align:middle line:84%
+so lying on the same line
+just means that x here
+
+00:59:52.660 --> 00:59:54.980 align:middle line:90%
+is equal to some constant.
+
+00:59:54.980 --> 01:00:01.340 align:middle line:84%
+If this here is y, then x
+is like a constant times y.
+
+01:00:01.340 --> 01:00:06.300 align:middle line:84%
+Or if one of them was 0,
+then you could have that y
+
+01:00:06.300 --> 01:00:09.580 align:middle line:90%
+is equal to a constant times x.
+
+01:00:09.580 --> 01:00:16.680 align:middle line:84%
+So this just means that these
+x and y lie on the same line.
+
+01:00:16.680 --> 01:00:18.840 align:middle line:84%
+So if they lie on
+the same line--
+
+01:00:18.840 --> 01:00:25.920 align:middle line:84%
+so if x here is equal
+to c times y or y
+
+01:00:25.920 --> 01:00:37.880 align:middle line:84%
+is equal to c times x for some
+real number, if that's the case,
+
+01:00:37.880 --> 01:00:42.580 align:middle line:84%
+then it's just that the
+distance between them,
+
+01:00:42.580 --> 01:00:50.160 align:middle line:84%
+it's just like this usual
+distance here between them.
+
+01:00:50.160 --> 01:00:52.660 align:middle line:84%
+But if they don't lie
+on the same line--
+
+01:00:52.660 --> 01:00:58.000 align:middle line:84%
+they may lie on two lines that
+are very, very close together--
+
+01:00:58.000 --> 01:01:06.920 align:middle line:84%
+then the distance here would be
+the sum of these two otherwise.
+
+01:01:06.920 --> 01:01:10.320 align:middle line:90%
+
+
+01:01:10.320 --> 01:01:10.820 align:middle line:90%
+OK.
+
+01:01:10.820 --> 01:01:14.120 align:middle line:84%
+So that's the French
+railway metric
+
+01:01:14.120 --> 01:01:18.440 align:middle line:84%
+if I didn't have some sort of
+strange properties, somewhat
+
+01:01:18.440 --> 01:01:22.050 align:middle line:90%
+counterintuitive properties.
+
+01:01:22.050 --> 01:01:25.250 align:middle line:84%
+The next thing I
+want to talk about
+
+01:01:25.250 --> 01:01:30.070 align:middle line:84%
+is convergence in
+a metric space.
+
+01:01:30.070 --> 01:01:33.730 align:middle line:84%
+So a lot of things we
+have done generalizes
+
+01:01:33.730 --> 01:01:37.770 align:middle line:90%
+to general metric spaces.
+
+01:01:37.770 --> 01:01:41.960 align:middle line:84%
+So first, let's talk about, what
+is a sequence in a metric space?
+
+01:01:41.960 --> 01:01:46.810 align:middle line:90%
+
+
+01:01:46.810 --> 01:01:50.570 align:middle line:84%
+So now you have a
+metric space here.
+
+01:01:50.570 --> 01:01:51.960 align:middle line:90%
+So this is a metric space.
+
+01:01:51.960 --> 01:01:56.810 align:middle line:90%
+
+
+01:01:56.810 --> 01:02:00.850 align:middle line:90%
+And a sequence xn is a sequence.
+
+01:02:00.850 --> 01:02:03.890 align:middle line:84%
+So maybe I should
+say it like before,
+
+01:02:03.890 --> 01:02:11.690 align:middle line:84%
+that if you take a map
+from the integers into x,
+
+01:02:11.690 --> 01:02:13.020 align:middle line:90%
+this is a sequence.
+
+01:02:13.020 --> 01:02:18.210 align:middle line:90%
+
+
+01:02:18.210 --> 01:02:23.420 align:middle line:84%
+And as before, the
+image of an integer, you
+
+01:02:23.420 --> 01:02:26.020 align:middle line:84%
+would usually
+denote it like this.
+
+01:02:26.020 --> 01:02:31.340 align:middle line:84%
+So this is the same definition
+that we use for the real.
+
+01:02:31.340 --> 01:02:32.360 align:middle line:90%
+So this is a sequence.
+
+01:02:32.360 --> 01:02:39.460 align:middle line:90%
+
+
+01:02:39.460 --> 01:02:42.220 align:middle line:84%
+A subsequence of
+a given sequence--
+
+01:02:42.220 --> 01:02:48.700 align:middle line:84%
+well, then you have another
+map, g, from the integers
+
+01:02:48.700 --> 01:02:50.940 align:middle line:84%
+into the integers
+and is supposed
+
+01:02:50.940 --> 01:02:52.480 align:middle line:90%
+to be strictly increasing.
+
+01:02:52.480 --> 01:02:59.740 align:middle line:90%
+
+
+01:02:59.740 --> 01:03:07.540 align:middle line:84%
+And then you're
+looking f of g of n.
+
+01:03:07.540 --> 01:03:08.800 align:middle line:90%
+And you think about this.
+
+01:03:08.800 --> 01:03:13.140 align:middle line:84%
+You will typically write it
+like this, f of g of k, say.
+
+01:03:13.140 --> 01:03:16.620 align:middle line:84%
+And you would typically
+write this as nk right.
+
+01:03:16.620 --> 01:03:18.172 align:middle line:90%
+This here is a subsequences.
+
+01:03:18.172 --> 01:03:21.840 align:middle line:90%
+
+
+01:03:21.840 --> 01:03:25.360 align:middle line:84%
+It's just exactly like
+the way we define it
+
+01:03:25.360 --> 01:03:26.980 align:middle line:90%
+for the real numbers.
+
+01:03:26.980 --> 01:03:29.600 align:middle line:90%
+
+
+01:03:29.600 --> 01:03:39.300 align:middle line:84%
+Now, that a sequence is
+converging in a metric space,
+
+01:03:39.300 --> 01:03:41.400 align:middle line:90%
+that makes also sense.
+
+01:03:41.400 --> 01:03:48.960 align:middle line:84%
+So suppose that you now
+have a general metric space,
+
+01:03:48.960 --> 01:03:57.380 align:middle line:90%
+and xn is a sequence in X.
+
+01:03:57.380 --> 01:04:07.240 align:middle line:84%
+Then we say that
+xn converges to x.
+
+01:04:07.240 --> 01:04:17.410 align:middle line:84%
+So x here is
+another element in X
+
+01:04:17.410 --> 01:04:25.170 align:middle line:84%
+if for all epsilon
+greater than 0,
+
+01:04:25.170 --> 01:04:36.730 align:middle line:84%
+there exist a capital N so
+that if little n is bigger
+
+01:04:36.730 --> 01:04:46.970 align:middle line:84%
+or equal to capital N, then
+the distance between xn and x
+
+01:04:46.970 --> 01:04:48.450 align:middle line:90%
+is smaller than epsilon.
+
+01:04:48.450 --> 01:04:50.110 align:middle line:84%
+This is what it
+means to converge.
+
+01:04:50.110 --> 01:04:56.330 align:middle line:90%
+
+
+01:04:56.330 --> 01:05:02.890 align:middle line:84%
+Now, similarly, the concept
+of being a Cauchy sequence,
+
+01:05:02.890 --> 01:05:06.370 align:middle line:84%
+this also extends
+to metric spaces.
+
+01:05:06.370 --> 01:05:24.138 align:middle line:84%
+So a Cauchy sequence in a
+metric space is the following.
+
+01:05:24.138 --> 01:05:35.910 align:middle line:90%
+
+
+01:05:35.910 --> 01:05:38.820 align:middle line:84%
+So a Cauchy sequence--
+let's call it xn.
+
+01:05:38.820 --> 01:05:41.670 align:middle line:90%
+
+
+01:05:41.670 --> 01:05:49.350 align:middle line:84%
+It's the following, that for
+all epsilon greater than 0,
+
+01:05:49.350 --> 01:06:05.550 align:middle line:84%
+there exist capital N such
+that if little m and little n
+
+01:06:05.550 --> 01:06:15.240 align:middle line:84%
+are bigger than this capital N,
+then the distance between them
+
+01:06:15.240 --> 01:06:16.800 align:middle line:90%
+is smaller than epsilon.
+
+01:06:16.800 --> 01:06:18.930 align:middle line:84%
+This is what it means
+to be a Cauchy sequence.
+
+01:06:18.930 --> 01:06:21.480 align:middle line:90%
+
+
+01:06:21.480 --> 01:06:26.080 align:middle line:84%
+Now we have a theorem that
+is like the same theorem.
+
+01:06:26.080 --> 01:06:27.660 align:middle line:84%
+The proof is like
+the same proof,
+
+01:06:27.660 --> 01:06:29.020 align:middle line:90%
+but we'll just go over it.
+
+01:06:29.020 --> 01:06:31.600 align:middle line:90%
+
+
+01:06:31.600 --> 01:06:33.900 align:middle line:90%
+So we have a theorem.
+
+01:06:33.900 --> 01:06:37.412 align:middle line:90%
+Let's say that if you have a--
+
+01:06:37.412 --> 01:06:39.060 align:middle line:90%
+so theorem is the following.
+
+01:06:39.060 --> 01:06:44.280 align:middle line:90%
+
+
+01:06:44.280 --> 01:06:48.370 align:middle line:84%
+So, again, X comma
+d is a metric space.
+
+01:06:48.370 --> 01:06:57.880 align:middle line:90%
+
+
+01:06:57.880 --> 01:07:15.620 align:middle line:84%
+And if xn is a
+convergent sequence in X,
+
+01:07:15.620 --> 01:07:25.530 align:middle line:90%
+then xn also a Cauchy sequence.
+
+01:07:25.530 --> 01:07:32.970 align:middle line:90%
+
+
+01:07:32.970 --> 01:07:35.580 align:middle line:90%
+Now, how do we prove this?
+
+01:07:35.580 --> 01:07:39.500 align:middle line:84%
+So prove it really is kind
+of the same as we did before.
+
+01:07:39.500 --> 01:07:43.760 align:middle line:84%
+So prove-- so we have
+that xn converges.
+
+01:07:43.760 --> 01:07:47.620 align:middle line:90%
+Let's say that the limit is x.
+
+01:07:47.620 --> 01:07:53.780 align:middle line:84%
+So this means that given
+epsilon greater than 0,
+
+01:07:53.780 --> 01:08:05.660 align:middle line:84%
+there exist capital N
+such that if little n is
+
+01:08:05.660 --> 01:08:11.030 align:middle line:84%
+bigger or equal to capital
+N, then the distance here--
+
+01:08:11.030 --> 01:08:16.069 align:middle line:84%
+and I'm using now, in the
+definition of convergence,
+
+01:08:16.069 --> 01:08:19.310 align:middle line:90%
+not epsilon but epsilon over 2.
+
+01:08:19.310 --> 01:08:21.630 align:middle line:90%
+So I have that.
+
+01:08:21.630 --> 01:08:31.870 align:middle line:84%
+But this means that therefore,
+if little m and little
+
+01:08:31.870 --> 01:08:35.189 align:middle line:84%
+n, if they are both
+bigger than capital N
+
+01:08:35.189 --> 01:08:39.590 align:middle line:84%
+and you're now looking
+at the distance from xm
+
+01:08:39.590 --> 01:08:46.189 align:middle line:84%
+to xn, well, by the triangle
+inequality, this thing here,
+
+01:08:46.189 --> 01:08:47.229 align:middle line:90%
+it's worse.
+
+01:08:47.229 --> 01:08:50.960 align:middle line:84%
+Or it's certainly not better if
+you go over this other point.
+
+01:08:50.960 --> 01:08:56.590 align:middle line:90%
+
+
+01:08:56.590 --> 01:08:59.510 align:middle line:84%
+But you see, this one here
+and this one, each of them
+
+01:08:59.510 --> 01:09:01.330 align:middle line:90%
+is smaller than epsilon over 2.
+
+01:09:01.330 --> 01:09:08.490 align:middle line:90%
+
+
+01:09:08.490 --> 01:09:11.649 align:middle line:84%
+So the difference here
+is bounded by epsilon,
+
+01:09:11.649 --> 01:09:13.569 align:middle line:90%
+as it should be.
+
+01:09:13.569 --> 01:09:17.050 align:middle line:84%
+So this proves that if you take
+a convergent sequence, then
+
+01:09:17.050 --> 01:09:18.590 align:middle line:90%
+it is a Cauchy sequence.
+
+01:09:18.590 --> 01:09:22.569 align:middle line:84%
+Remember that Cauchy convergence
+theorem was saying that
+
+01:09:22.569 --> 01:09:28.569 align:middle line:84%
+in R, if you have
+a Cauchy sequence,
+
+01:09:28.569 --> 01:09:30.450 align:middle line:90%
+then it was also convergent.
+
+01:09:30.450 --> 01:09:32.170 align:middle line:90%
+But that actually fails.
+
+01:09:32.170 --> 01:09:33.970 align:middle line:90%
+This is not true.
+
+01:09:33.970 --> 01:09:37.290 align:middle line:84%
+And it's some important
+property of a metric space
+
+01:09:37.290 --> 01:09:42.290 align:middle line:84%
+if it has the Cauchy
+convergence property.
+
+01:09:42.290 --> 01:09:46.210 align:middle line:84%
+So let me give you a
+very simple example.
+
+01:09:46.210 --> 01:09:51.370 align:middle line:84%
+So suppose that
+your metric space--
+
+01:09:51.370 --> 01:09:58.650 align:middle line:84%
+so the space here, let's just
+take the interval from 0 to 1.
+
+01:09:58.650 --> 01:10:03.290 align:middle line:84%
+And what is the distance
+between two elements?
+
+01:10:03.290 --> 01:10:09.380 align:middle line:84%
+So x and y are in this
+integral from 0 to 1.
+
+01:10:09.380 --> 01:10:11.060 align:middle line:90%
+What is the distance?
+
+01:10:11.060 --> 01:10:12.570 align:middle line:90%
+I just take the usual distance.
+
+01:10:12.570 --> 01:10:15.220 align:middle line:90%
+
+
+01:10:15.220 --> 01:10:23.540 align:middle line:84%
+But now if I'm looking at this
+sequence here, xn, which is 1/n,
+
+01:10:23.540 --> 01:10:25.710 align:middle line:84%
+this thing here is
+a Cauchy sequence.
+
+01:10:25.710 --> 01:10:32.940 align:middle line:90%
+
+
+01:10:32.940 --> 01:10:34.310 align:middle line:90%
+It is a Cauchy sequence.
+
+01:10:34.310 --> 01:10:37.460 align:middle line:90%
+
+
+01:10:37.460 --> 01:10:43.020 align:middle line:84%
+Because when n and n are
+really large, then both of them
+
+01:10:43.020 --> 01:10:46.540 align:middle line:90%
+is close to this endpoint.
+
+01:10:46.540 --> 01:10:49.940 align:middle line:84%
+But they don't
+converge because--
+
+01:10:49.940 --> 01:10:53.780 align:middle line:84%
+in the larger space,
+R, they converge to 0.
+
+01:10:53.780 --> 01:10:55.900 align:middle line:90%
+But 0 is not part of this space.
+
+01:10:55.900 --> 01:10:58.110 align:middle line:84%
+So they don't converge to
+anything in this space.
+
+01:10:58.110 --> 01:11:00.900 align:middle line:90%
+
+
+01:11:00.900 --> 01:11:02.660 align:middle line:90%
+So this is an example--
+
+01:11:02.660 --> 01:11:21.640 align:middle line:84%
+so it's a Cauchy sequence, but
+xn does not converge in x 0.
+
+01:11:21.640 --> 01:11:25.720 align:middle line:84%
+This is because 0 is not
+part of this interval.
+
+01:11:25.720 --> 01:11:27.638 align:middle line:84%
+And 0 would have to
+be the limit-- yeah?
+
+01:11:27.638 --> 01:11:29.680 align:middle line:84%
+STUDENT: Is that the only
+type of counterexample?
+
+01:11:29.680 --> 01:11:30.760 align:middle line:90%
+TOBIAS COLDING: No, no.
+
+01:11:30.760 --> 01:11:34.200 align:middle line:84%
+But this does provide
+an important example
+
+01:11:34.200 --> 01:11:35.560 align:middle line:90%
+of counterexamples.
+
+01:11:35.560 --> 01:11:37.620 align:middle line:84%
+Because then it becomes
+like a question.
+
+01:11:37.620 --> 01:11:41.120 align:middle line:84%
+Can you make the
+space Cauchy complete?
+
+01:11:41.120 --> 01:11:43.100 align:middle line:90%
+And sometimes you can.
+
+01:11:43.100 --> 01:11:44.280 align:middle line:90%
+Sometimes you can't.
+
+01:11:44.280 --> 01:11:46.810 align:middle line:90%
+But that's a good question.
+
+01:11:46.810 --> 01:11:53.780 align:middle line:84%
+But it seems utterly trivial
+example, but it's not.
+
+01:11:53.780 --> 01:11:56.880 align:middle line:84%
+It does show you
+this important part,
+
+01:11:56.880 --> 01:12:03.970 align:middle line:84%
+that it's often useful to have
+the Cauchy convergence property.
+
+01:12:03.970 --> 01:12:08.180 align:middle line:84%
+And so can you enlarge the
+space to get that property?
+
+01:12:08.180 --> 01:12:12.370 align:middle line:90%
+
+
+01:12:12.370 --> 01:12:14.810 align:middle line:90%
+OK.
+
+01:12:14.810 --> 01:12:20.930 align:middle line:84%
+Let's talk about what
+it means for a function
+
+01:12:20.930 --> 01:12:22.700 align:middle line:90%
+to be continuous also.
+
+01:12:22.700 --> 01:12:26.570 align:middle line:90%
+
+
+01:12:26.570 --> 01:12:30.920 align:middle line:90%
+So now I want to think about--
+
+01:12:30.920 --> 01:12:34.170 align:middle line:90%
+
+
+01:12:34.170 --> 01:12:40.370 align:middle line:84%
+so I want to think
+about continuity
+
+01:12:40.370 --> 01:12:41.700 align:middle line:90%
+for general metric spaces.
+
+01:12:41.700 --> 01:12:45.370 align:middle line:90%
+
+
+01:12:45.370 --> 01:12:48.490 align:middle line:84%
+And one can do this
+even more generally.
+
+01:12:48.490 --> 01:12:54.450 align:middle line:84%
+But let me settle on
+something in between something
+
+01:12:54.450 --> 01:12:58.210 align:middle line:84%
+more general and
+what we already have.
+
+01:12:58.210 --> 01:13:03.430 align:middle line:90%
+So I have a metric space here.
+
+01:13:03.430 --> 01:13:09.150 align:middle line:84%
+And I'm thinking about that
+I have a map from this space
+
+01:13:09.150 --> 01:13:16.950 align:middle line:84%
+into R. And then I want
+to answer, what does it
+
+01:13:16.950 --> 01:13:20.110 align:middle line:84%
+mean for this function
+here to be continuous?
+
+01:13:20.110 --> 01:13:33.870 align:middle line:84%
+So f is continuous at some
+point x0 in this space
+
+01:13:33.870 --> 01:13:41.190 align:middle line:84%
+if for all epsilon
+greater than 0,
+
+01:13:41.190 --> 01:13:48.870 align:middle line:84%
+there exist delta
+greater than 0 so
+
+01:13:48.870 --> 01:13:54.110 align:middle line:84%
+that if the distance
+between x and this x0
+
+01:13:54.110 --> 01:14:06.640 align:middle line:84%
+is smaller than delta,
+then the images is
+
+01:14:06.640 --> 01:14:08.900 align:middle line:90%
+epsilon close together.
+
+01:14:08.900 --> 01:14:15.040 align:middle line:84%
+So you see this is a kind of
+obvious generalization of how
+
+01:14:15.040 --> 01:14:21.280 align:middle line:84%
+we define continuity at a
+point for when x was part Of r.
+
+01:14:21.280 --> 01:14:23.720 align:middle line:84%
+And so, of course, the
+function is-- so this
+
+01:14:23.720 --> 01:14:25.640 align:middle line:90%
+is a continuous in a point.
+
+01:14:25.640 --> 01:14:38.280 align:middle line:84%
+And so f is said
+to be continuous
+
+01:14:38.280 --> 01:14:46.350 align:middle line:84%
+if it is continuous
+at all points.
+
+01:14:46.350 --> 01:14:52.910 align:middle line:90%
+
+
+01:14:52.910 --> 01:14:55.980 align:middle line:84%
+So this is what it means for
+a function to be continuous.
+
+01:14:55.980 --> 01:15:00.660 align:middle line:90%
+
+
+01:15:00.660 --> 01:15:01.880 align:middle line:90%
+OK.
+
+01:15:01.880 --> 01:15:07.440 align:middle line:84%
+Now let me just give you an
+example of something like this.
+
+01:15:07.440 --> 01:15:10.460 align:middle line:90%
+
+
+01:15:10.460 --> 01:15:15.960 align:middle line:84%
+So remember, before, we looked
+at the continuous functions.
+
+01:15:15.960 --> 01:15:20.100 align:middle line:84%
+So we looked at where the space
+was the continuous function
+
+01:15:20.100 --> 01:15:22.740 align:middle line:90%
+on the interval from 0 to 1.
+
+01:15:22.740 --> 01:15:28.180 align:middle line:84%
+And we said that the distance
+between two continuous functions
+
+01:15:28.180 --> 01:15:31.740 align:middle line:84%
+defined on the interval,
+this thing here,
+
+01:15:31.740 --> 01:15:48.140 align:middle line:84%
+is the max of the
+differences here, like that.
+
+01:15:48.140 --> 01:15:52.780 align:middle line:84%
+And that's quite easy to see,
+but it's a good exercise to do.
+
+01:15:52.780 --> 01:15:55.030 align:middle line:84%
+It's quite easy to see
+that this is a metric.
+
+01:15:55.030 --> 01:16:00.410 align:middle line:90%
+
+
+01:16:00.410 --> 01:16:02.710 align:middle line:90%
+So this is a metric space.
+
+01:16:02.710 --> 01:16:04.850 align:middle line:90%
+So now I can think about--
+
+01:16:04.850 --> 01:16:08.870 align:middle line:84%
+so now here's an
+example of a function.
+
+01:16:08.870 --> 01:16:13.550 align:middle line:84%
+This is a function that
+is like evaluating.
+
+01:16:13.550 --> 01:16:16.270 align:middle line:90%
+
+
+01:16:16.270 --> 01:16:19.030 align:middle line:84%
+So you see this getting a little
+bit abstract because now I'm
+
+01:16:19.030 --> 01:16:22.150 align:middle line:90%
+thinking about a function on--
+
+01:16:22.150 --> 01:16:26.630 align:middle line:84%
+so I now looking
+at the function--
+
+01:16:26.630 --> 01:16:31.430 align:middle line:84%
+so from x into R.
+But in this case
+
+01:16:31.430 --> 01:16:35.510 align:middle line:84%
+x here is the space
+of continuous function
+
+01:16:35.510 --> 01:16:37.530 align:middle line:90%
+on the interval.
+
+01:16:37.530 --> 01:16:38.030 align:middle line:90%
+OK.
+
+01:16:38.030 --> 01:16:41.130 align:middle line:90%
+
+
+01:16:41.130 --> 01:16:45.150 align:middle line:84%
+So my function is now
+supposed to be defined
+
+01:16:45.150 --> 01:16:48.070 align:middle line:90%
+on a continuous function.
+
+01:16:48.070 --> 01:16:52.030 align:middle line:84%
+And I just take it to
+be equal to the value
+
+01:16:52.030 --> 01:16:57.970 align:middle line:84%
+of this continuous function
+at the initial point
+
+01:16:57.970 --> 01:16:59.514 align:middle line:90%
+in the interval.
+
+01:16:59.514 --> 01:17:00.014 align:middle line:90%
+OK.
+
+01:17:00.014 --> 01:17:03.402 align:middle line:90%
+
+
+01:17:03.402 --> 01:17:07.130 align:middle line:84%
+And I claim that
+this function here--
+
+01:17:07.130 --> 01:17:14.430 align:middle line:84%
+so the claim is that this
+capital F is continuous.
+
+01:17:14.430 --> 01:17:19.810 align:middle line:90%
+
+
+01:17:19.810 --> 01:17:26.010 align:middle line:84%
+So again, it's
+continuous in the sense
+
+01:17:26.010 --> 01:17:28.730 align:middle line:84%
+that you have this
+general metric space.
+
+01:17:28.730 --> 01:17:42.210 align:middle line:84%
+And this here-- just so that
+it lines up with the example.
+
+01:17:42.210 --> 01:17:45.970 align:middle line:84%
+So we have this
+general metric space.
+
+01:17:45.970 --> 01:17:48.650 align:middle line:84%
+And we have now a map from
+this general metric space
+
+01:17:48.650 --> 01:17:53.170 align:middle line:84%
+into R. This is definitely a map
+from this general metric space
+
+01:17:53.170 --> 01:18:02.304 align:middle line:84%
+into R. And I claim that this is
+continuous in this sense here.
+
+01:18:02.304 --> 01:18:05.800 align:middle line:84%
+And that's also
+quite easy to prove.
+
+01:18:05.800 --> 01:18:09.160 align:middle line:90%
+
+
+01:18:09.160 --> 01:18:12.940 align:middle line:84%
+So let me just make one
+observation, that if I'm
+
+01:18:12.940 --> 01:18:14.960 align:middle line:90%
+looking at this thing here--
+
+01:18:14.960 --> 01:18:20.460 align:middle line:84%
+so this is the image under this
+map in one continuous function.
+
+01:18:20.460 --> 01:18:26.540 align:middle line:84%
+And then I subtract the image
+in another continuous function.
+
+01:18:26.540 --> 01:18:30.260 align:middle line:84%
+And now I'm looking at
+this difference here.
+
+01:18:30.260 --> 01:18:35.100 align:middle line:84%
+But this thing here
+is nothing but f of 0.
+
+01:18:35.100 --> 01:18:37.310 align:middle line:90%
+And this is nothing but g of 0.
+
+01:18:37.310 --> 01:18:40.380 align:middle line:90%
+
+
+01:18:40.380 --> 01:18:43.420 align:middle line:84%
+But you see that this
+is obviously less
+
+01:18:43.420 --> 01:18:50.540 align:middle line:84%
+than or equal to the maximum
+of all x in this interval of f
+
+01:18:50.540 --> 01:18:56.600 align:middle line:90%
+of x minus g of x, like that.
+
+01:18:56.600 --> 01:19:03.400 align:middle line:84%
+But that is the distance
+between these two elements
+
+01:19:03.400 --> 01:19:05.680 align:middle line:90%
+of this general metric space.
+
+01:19:05.680 --> 01:19:11.920 align:middle line:84%
+And so you see that this
+here is an example that if--
+
+01:19:11.920 --> 01:19:14.760 align:middle line:84%
+so given epsilon,
+I'm going to pick
+
+01:19:14.760 --> 01:19:17.280 align:middle line:90%
+delta equal to that epsilon.
+
+01:19:17.280 --> 01:19:19.680 align:middle line:84%
+Because if these
+guys here are now
+
+01:19:19.680 --> 01:19:22.280 align:middle line:84%
+epsilon close by
+this inequality,
+
+01:19:22.280 --> 01:19:25.973 align:middle line:84%
+their images is
+also epsilon close.
+
+01:19:25.973 --> 01:19:30.040 align:middle line:84%
+So this map is
+clearly continuous.
+
+01:19:30.040 --> 01:19:30.732 align:middle line:90%
+OK.
+
+01:19:30.732 --> 01:19:33.160 align:middle line:90%
+So I'll stop here.
+
+01:19:33.160 --> 01:19:37.600 align:middle line:84%
+So there's a little lemma in the
+notes that we didn't go through.
+
+01:19:37.600 --> 01:19:40.800 align:middle line:84%
+And that lemma is just the
+lemma that I had over here,
+
+01:19:40.800 --> 01:19:43.720 align:middle line:84%
+that if I had a
+continuous function
+
+01:19:43.720 --> 01:19:47.680 align:middle line:84%
+and I have a sequence
+that converges to a limit,
+
+01:19:47.680 --> 01:19:50.680 align:middle line:84%
+then I could exchange
+the order of limits.
+
+01:19:50.680 --> 01:19:53.760 align:middle line:84%
+And the same proof works
+in a general metric space.
+
+01:19:53.760 --> 01:19:56.810 align:middle line:90%
+
+
+01:19:56.810 --> 01:19:58.050 align:middle line:90%
+OK, great.
+
+01:19:58.050 --> 01:19:58.730 align:middle line:90%
+Yeah?
+
+01:19:58.730 --> 01:20:00.570 align:middle line:84%
+STUDENT: What kind
+of properties do you
+
+01:20:00.570 --> 01:20:05.023 align:middle line:84%
+need to generalize
+[INAUDIBLE] space?
+
+01:20:05.023 --> 01:20:07.245 align:middle line:84%
+Is it some kind of
+closure under addition?
+
+01:20:07.245 --> 01:20:08.370 align:middle line:90%
+TOBIAS COLDING: Yeah, yeah.
+
+01:20:08.370 --> 01:20:08.870 align:middle line:90%
+Right.
+
+01:20:08.870 --> 01:20:10.590 align:middle line:90%
+That's right.
+
+01:20:10.590 --> 01:20:14.910 align:middle line:84%
+So addition is
+something about a field.
+
+01:20:14.910 --> 01:20:21.870 align:middle line:84%
+And so for these spaces, most
+of the things I looked at here,
+
+01:20:21.870 --> 01:20:23.370 align:middle line:90%
+some of it does.
+
+01:20:23.370 --> 01:20:26.310 align:middle line:84%
+Like, the continuous
+function has some structure.
+
+01:20:26.310 --> 01:20:29.530 align:middle line:84%
+The space of continuous
+function has some structure.
+
+01:20:29.530 --> 01:20:31.450 align:middle line:84%
+It's not exactly a
+field, but it has
+
+01:20:31.450 --> 01:20:33.830 align:middle line:84%
+some of those properties,
+some of these algebra.
+
+01:20:33.830 --> 01:20:37.890 align:middle line:84%
+It's like an important
+example of something
+
+01:20:37.890 --> 01:20:40.790 align:middle line:90%
+called a sea star of algebra.
+
+01:20:40.790 --> 01:20:45.090 align:middle line:84%
+So it have this
+algebraic structure.
+
+01:20:45.090 --> 01:20:47.450 align:middle line:84%
+But it's not the
+algebraic structure
+
+01:20:47.450 --> 01:20:50.550 align:middle line:84%
+you need in order
+to be completeness.
+
+01:20:50.550 --> 01:20:51.610 align:middle line:90%
+It's not that.
+
+01:20:51.610 --> 01:20:53.810 align:middle line:90%
+Yeah.
+
+01:20:53.810 --> 01:20:59.490 align:middle line:84%
+And yeah, I think it takes
+us a little bit far afield.
+
+01:20:59.490 --> 01:21:01.670 align:middle line:90%
+But it's the same--
+
+01:21:01.670 --> 01:21:04.430 align:middle line:84%
+you see this sort of
+property also in--
+
+01:21:04.430 --> 01:21:07.750 align:middle line:90%
+
+
+01:21:07.750 --> 01:21:10.370 align:middle line:84%
+like, metric spaces,
+extremely useful.
+
+01:21:10.370 --> 01:21:12.670 align:middle line:90%
+You see it all over the place.
+
+01:21:12.670 --> 01:21:15.030 align:middle line:84%
+One of many places
+where you see it
+
+01:21:15.030 --> 01:21:17.390 align:middle line:90%
+is also in general relativity.
+
+01:21:17.390 --> 01:21:20.470 align:middle line:84%
+And in general relativity,
+the space you're looking at
+
+01:21:20.470 --> 01:21:23.270 align:middle line:90%
+are typically not complete.
+
+01:21:23.270 --> 01:21:27.950 align:middle line:84%
+So there's something
+about that, that you
+
+01:21:27.950 --> 01:21:30.490 align:middle line:90%
+reach something in finite time.
+
+01:21:30.490 --> 01:21:31.290 align:middle line:90%
+You reach it.
+
+01:21:31.290 --> 01:21:32.050 align:middle line:90%
+You're going.
+
+01:21:32.050 --> 01:21:33.790 align:middle line:84%
+And this is like the
+same thing, that you
+
+01:21:33.790 --> 01:21:36.590 align:middle line:90%
+reach the end of things.
+
+01:21:36.590 --> 01:21:40.910 align:middle line:84%
+Anyway, but it's not
+the algebraic property
+
+01:21:40.910 --> 01:21:43.740 align:middle line:90%
+that is used for this.
+
+01:21:43.740 --> 01:21:49.000 align:middle line:90%

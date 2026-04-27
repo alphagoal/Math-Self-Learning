@@ -1,0 +1,23 @@
+{
+  "course_title":"Probability and Random Variables",
+  "course_description":"This course introduces students to probability and random variables. Topics include distribution functions, binomial, geometric, hypergeometric, and Poisson distributions. The other topics covered are uniform, exponential, normal, gamma and beta distributions; conditional probability; Bayes theorem; joint distributions; Chebyshev inequality; law of large numbers; and central limit theorem.\n",
+  "course_description_html":"This course introduces students to probability and random variables. Topics include distribution functions, binomial, geometric, hypergeometric, and Poisson distributions. The other topics covered are uniform, exponential, normal, gamma and beta distributions; conditional probability; Bayes theorem; joint distributions; Chebyshev inequality; law of large numbers; and central limit theorem.",
+  "site_uid":"c62ec078-9e98-4a77-b1d2-2be3ce272d63",
+  "legacy_uid":"04ec3013-8090-867e-af3c-7ba1c16f90ac","instructors": [{
+    "first_name":"Scott",
+    "last_name":"Sheffield",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Scott Sheffield"}],"department_numbers":["18"],
+  "learning_resource_types":["Problem Sets","Lecture Notes","Open Textbooks","Instructor Insights","Exams","Exam Solutions"],
+  "topics":[["Mathematics","Probability and Statistics"],["Mathematics","Discrete Mathematics"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"18.440",
+  "extra_course_numbers":"",
+  "term":"Spring",
+  "year":"2014",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/73256e6260afadff2dc8f71302e4bff4_18-440s14.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"18.440 CHP image","draft":false,"file":"/courses/18-440-probability-and-random-variables-spring-2014/73256e6260afadff2dc8f71302e4bff4_18-440s14.jpg","file_size":12339,"file_type":"image/jpeg","image_metadata":{"caption":"Pascal's triangle is a triangular array of the binomial coefficients. (Public domain via {{% resource_link \"8f287fec-e8cf-4f51-bd0b-25be062ad2ee\" \"wikimedia\" %}} commons.)","credit":"","image-alt":"Partial Pascal's triangle showing numbers on diagonals."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"18-440s14.jpg","uid":"73256e62-60af-adff-2dc8-f71302e4bff4"}}
+

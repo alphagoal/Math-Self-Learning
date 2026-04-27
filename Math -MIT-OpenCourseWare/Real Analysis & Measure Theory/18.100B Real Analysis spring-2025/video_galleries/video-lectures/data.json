@@ -1,0 +1,82 @@
+
+{ 
+  "title":"Video Lectures",
+  "description":"", 
+  "videos": [{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec01-2025feb04_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec02-2025feb06_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec03-2025feb11_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec04-2025feb13_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec05-2025feb20_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec06-2025feb23_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec07-2025feb27_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec08-2025mar04_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec09-2025mar06_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec10-2025mar11_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec11-2025mar13_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-midterm-review-2025mar18_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec12-2025apr01_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec13-2025apr03_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec14-2025apr08_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec15-2025apr10_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec16-2025apr15_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec17-2025apr17_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec18-2025apr22_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec19-2025apr24_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec20-2025apr29_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec21-2025may01_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec22-2025may06_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-lec23-2025may08_360p_16_9.mp4"
+        },{
+          "description": null,
+          "file": "/courses/18-100b-real-analysis-spring-2025/ocw_18100b-final-exam-review-2025may13_360p_16_9.mp4"
+        }]}
+
+

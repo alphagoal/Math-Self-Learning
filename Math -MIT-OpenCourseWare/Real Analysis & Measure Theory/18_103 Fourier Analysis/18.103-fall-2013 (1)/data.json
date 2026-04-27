@@ -1,0 +1,23 @@
+{
+  "course_title":"Fourier Analysis",
+  "course_description":"This course continues the content covered in [_18.100 Analysis I_](/courses/18-100b-analysis-i-fall-2010/). Roughly half of the subject is devoted to the theory of the Lebesgue integral with applications to probability, and the other half to Fourier series and Fourier integrals.\n",
+  "course_description_html":"This course continues the content covered in <a href=\"https://ocw.mit.edu/courses/18-100b-analysis-i-fall-2010/\" target=\"_blank\" rel=\"noopener\"><em>18.100 Analysis I</em></a>. Roughly half of the subject is devoted to the theory of the Lebesgue integral with applications to probability, and the other half to Fourier series and Fourier integrals.",
+  "site_uid":"a97d011d-dec5-4884-9a1c-64c1a9d88e84",
+  "legacy_uid":"60572ed8-62bd-cead-a254-f0cc76d11b81","instructors": [{
+    "first_name":"David",
+    "last_name":"Jerison",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. David Jerison"}],"department_numbers":["18"],
+  "learning_resource_types":["Problem Sets","Lecture Notes","Exams"],
+  "topics":[["Mathematics"],["Mathematics","Mathematical Analysis"],["Mathematics","Probability and Statistics"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"18.103",
+  "extra_course_numbers":"",
+  "term":"Fall",
+  "year":"2013",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/33eb81b52351dcb5e9e74aaab3219cd0_18-103-f13.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"The first three successive partial Fourier series (shown in red) for a square wave (shown in blue). Image by user Jim.belk on Wikipedia and is in the public domain.","draft":false,"file":"/courses/18-103-fourier-analysis-fall-2013/33eb81b52351dcb5e9e74aaab3219cd0_18-103-f13.jpg","file_size":66172,"file_type":"image/jpeg","image_metadata":{"caption":"The first three successive partial Fourier series (shown in red) for a square wave (shown in blue). The second half of the course is devoted to Fourier series and Fourier integrals. (Image by user {{% resource_link \"9b7f73a9-bd4d-4a29-8a4d-8ad871b6362f\" \"Jim.belk\" %}} on Wikipedia and is in the public domain.)","credit":"Image by user Jim.belk on Wikipedia and is in the public domain.","image-alt":"Three graphs, showing successive partial Fourier series of a square wave, overlayed onto the original square wave. Each successive Fourier series more closely resembles the original square wave."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"18-103-f13.jpg","uid":"33eb81b5-2351-dcb5-e9e7-4aaab3219cd0"}}
+

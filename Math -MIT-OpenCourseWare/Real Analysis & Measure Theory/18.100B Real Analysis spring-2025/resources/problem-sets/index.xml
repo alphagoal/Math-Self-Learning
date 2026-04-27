@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>18.100B S25 Problem Set 01</title>
+      <link>/resources/mit18_100b_s25_pset01_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_pset01_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Problem Set 02</title>
+      <link>/resources/mit18_100b_s25_pset02_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_pset02_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Problem Set 03</title>
+      <link>/resources/mit18_100b_s25_pset03_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_pset03_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Problem Set 04</title>
+      <link>/resources/mit18_100b_s25_pset04_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_pset04_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Problem Set 05</title>
+      <link>/resources/mit18_100b_s25_pset05_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_pset05_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Problem Set 06</title>
+      <link>/resources/mit18_100b_s25_pset06_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_pset06_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Problem Set 07</title>
+      <link>/resources/mit18_100b_s25_pset07_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_pset07_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Problem Set 08</title>
+      <link>/resources/mit18_100b_s25_pset08_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_pset08_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Problem Set 09</title>
+      <link>/resources/mit18_100b_s25_pset09_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_pset09_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Problem Set 10</title>
+      <link>/resources/mit18_100b_s25_pset10_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_pset10_pdf/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

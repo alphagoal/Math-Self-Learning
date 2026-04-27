@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>18.100B S25 Full Lecture Notes: Real Analysis</title>
+      <link>/resources/mit18_100b_s25_lec_full_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec_full_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 01: Introduction to Real Numbers</title>
+      <link>/resources/mit18_100b_s25_lec01_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec01_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 02: Introduction to Real Numbers (cont.)</title>
+      <link>/resources/mit18_100b_s25_lec02_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec02_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 03: How to Write a Proof; Archimedean Property</title>
+      <link>/resources/mit18_100b_s25_lec03_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec03_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 04: Sequences; Convergence</title>
+      <link>/resources/mit18_100b_s25_lec04_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec04_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 05: Monotone Convergence Theorem</title>
+      <link>/resources/mit18_100b_s25_lec05_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec05_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 06: Cauchy Convergence Theorem</title>
+      <link>/resources/mit18_100b_s25_lec06_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec06_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 07: Bolzano–Weierstrass Theorem; Cauchy Sequences; Series</title>
+      <link>/resources/mit18_100b_s25_lec07_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec07_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 08: Convergence Tests for Series; Power Series</title>
+      <link>/resources/mit18_100b_s25_lec08_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec08_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 09: Limsup and Liminf; Power Series; Continuous Functions; Exponential Function</title>
+      <link>/resources/mit18_100b_s25_lec09_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec09_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 10: Continuous Functions; Exponential Function (cont.)</title>
+      <link>/resources/mit18_100b_s25_lec10_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec10_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 11: Extreme and Intermediate Value Theorem; Metric Spaces</title>
+      <link>/resources/mit18_100b_s25_lec11_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec11_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 12: Convergence in Metric Spaces; Operations on Sets</title>
+      <link>/resources/mit18_100b_s25_lec12_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec12_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 13: Open and Closed Sets; Coverings; Compactness</title>
+      <link>/resources/mit18_100b_s25_lec13_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec13_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 14: Sequential Compactness; Bolzano–Weierstrass Theorem in a Metric Space</title>
+      <link>/resources/mit18_100b_s25_lec14_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec14_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 15: Derivatives; Laws for Differentiation</title>
+      <link>/resources/mit18_100b_s25_lec15_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec15_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 16: Rolle’s Theorem; Mean Theorem; L’Hôpital’s Rule; Taylor Expansion</title>
+      <link>/resources/mit18_100b_s25_lec16_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec16_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 17: Taylor Polynomials; Remainder Term; Riemann Integrals</title>
+      <link>/resources/mit18_100b_s25_lec17_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec17_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 18: Integrable Functions</title>
+      <link>/resources/mit18_100b_s25_lec18_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec18_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 19: Fundamental Theorem of Calculus</title>
+      <link>/resources/mit18_100b_s25_lec19_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec19_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 20: Pointwise Convergence; Uniform Convergence</title>
+      <link>/resources/mit18_100b_s25_lec20_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec20_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 21: Integrals and Derivatives under Uniform Convergence</title>
+      <link>/resources/mit18_100b_s25_lec21_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec21_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 22: Differentiating and Integrating Power Series; Ordinary Differential Equations</title>
+      <link>/resources/mit18_100b_s25_lec22_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec22_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Lecture 23: Existence &amp; Uniqueness for ODEs: Picard–Lindelöf Theorem</title>
+      <link>/resources/mit18_100b_s25_lec23_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_lec23_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Review for Midterm</title>
+      <link>/resources/mit18_100b_s25_review_midterm_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_review_midterm_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>18.100B S25 Review for the Final</title>
+      <link>/resources/mit18_100b_s25_review_final_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_100b_s25_review_final_pdf/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

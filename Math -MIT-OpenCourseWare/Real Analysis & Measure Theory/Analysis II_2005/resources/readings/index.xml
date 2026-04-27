@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;Readings listed in the table below are from the following textbooks and notes:&lt;/p&gt;&#xA;&lt;p&gt;(M) Munkres, J. &lt;em&gt;Analysis on Manifolds&lt;/em&gt;. Cambridge, MA: Perseus Publishing, 1991. ISBN: 0201510359, ISBN: 0201315963 (paperback).&lt;/p&gt;&#xA;&lt;p&gt;(S) Spivak, M. &lt;em&gt;Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus&lt;/em&gt;. Cambridge, MA: Perseus Publishing, 1965. ISBN: 0805390219.&lt;/p&gt;&#xA;&lt;p&gt;(MLA) Notes on Multi-linear Algebra (&lt;a href=&#34;../../resources/classnotesfall04/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;(SN) Supplementary Notes (&lt;a href=&#34;../../resources/suppnotes/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;READINGS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Compactness, Connectedness&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;M, sections 1 and 2&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

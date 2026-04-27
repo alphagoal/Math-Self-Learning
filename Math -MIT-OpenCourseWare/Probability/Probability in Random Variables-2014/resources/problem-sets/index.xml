@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doob’s Optional Stopping Theorem</title>
+      <link>/resources/mit18_440s14_mrtingalenote/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_mrtingalenote/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to Doob’s Optional Stopping theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Problem Set 1</title>
+      <link>/resources/mit18_440s14_problemset1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_problemset1/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Problem Set 10</title>
+      <link>/resources/mit18_440s14_problemset10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_problemset10/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 10.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Problem Set 2</title>
+      <link>/resources/mit18_440s14_problemset2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_problemset2/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Problem Set 3</title>
+      <link>/resources/mit18_440s14_problemset3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_problemset3/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Problem Set 4</title>
+      <link>/resources/mit18_440s14_problemset4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_problemset4/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Problem Set 5</title>
+      <link>/resources/mit18_440s14_problemset5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_problemset5/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Problem Set 6</title>
+      <link>/resources/mit18_440s14_problemset6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_problemset6/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Problem Set 7</title>
+      <link>/resources/mit18_440s14_problemset7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_problemset7/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 7.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Problem Set 8</title>
+      <link>/resources/mit18_440s14_problemset8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_problemset8/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 8.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability and Random Variables, Problem Set 9</title>
+      <link>/resources/mit18_440s14_problemset9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_440s14_problemset9/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to problem set 9.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

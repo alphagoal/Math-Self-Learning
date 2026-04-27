@@ -1,0 +1,8 @@
+{
+  "title":"18-101f05.jpg",
+  "description": "There exists a sequence of rectangles, Ri, i = 0; : : : ; N + 1 such that R0 = Q0, RN+1 = Q and Int Ri \\ Int Ri+1 is non-empty. (Figure by Prof. Victor Guillemin.)",
+  "file": "/courses/18-101-analysis-ii-fall-2005/d6cb407b899efae9c3d1f5d19af09815_18-101f05.jpg",
+  "learning_resource_types": [],
+  "resource_type": "Image",
+  "file_type": "image/jpeg",
+  "image_metadata": {"caption":"There exists a sequence of rectangles, Rᵢ, i = 0, …, n + 1 such that R₀ = Q₀, Rₙ₊₁ = Q and Int Rᵢ -intersect- Int Rᵢ₊₁ is non-empty. (Figure by Prof. Victor Guillemin.)","credit":"","image-alt":"Image of a sequence of rectangles."}}

@@ -1,0 +1,4135 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.898 align:middle line:90%
+[SQUEAKING]
+
+00:00:02.898 --> 00:00:04.347 align:middle line:90%
+[RUSTLING]
+
+00:00:04.347 --> 00:00:05.796 align:middle line:90%
+[CLICKING]
+
+00:00:05.796 --> 00:00:11.420 align:middle line:90%
+
+
+00:00:11.420 --> 00:00:16.850 align:middle line:84%
+PROFESSOR: So we're
+going to prove
+
+00:00:16.850 --> 00:00:19.620 align:middle line:90%
+the Picard-Lindelof theorem.
+
+00:00:19.620 --> 00:00:22.530 align:middle line:90%
+And we'll see.
+
+00:00:22.530 --> 00:00:25.920 align:middle line:90%
+It may take us--
+
+00:00:25.920 --> 00:00:30.360 align:middle line:84%
+we may need to continue
+on it also on Tuesday.
+
+00:00:30.360 --> 00:00:32.119 align:middle line:84%
+And then when
+we're done with it,
+
+00:00:32.119 --> 00:00:35.010 align:middle line:84%
+we will just do
+review on Tuesday.
+
+00:00:35.010 --> 00:00:36.710 align:middle line:90%
+But let's see how far we get.
+
+00:00:36.710 --> 00:00:49.970 align:middle line:84%
+So the Picard-Lindelof theorem
+is the following theorem.
+
+00:00:49.970 --> 00:00:56.060 align:middle line:84%
+And it says that
+it's an ODE, so it's
+
+00:00:56.060 --> 00:00:58.405 align:middle line:84%
+what's called an ordinary
+differential equation.
+
+00:00:58.405 --> 00:01:09.300 align:middle line:90%
+
+
+00:01:09.300 --> 00:01:11.670 align:middle line:84%
+And so again, a
+differential equation
+
+00:01:11.670 --> 00:01:16.660 align:middle line:84%
+is something about an unknown
+function and its derivative.
+
+00:01:16.660 --> 00:01:20.130 align:middle line:84%
+So a differential equation
+just means it's an equation.
+
+00:01:20.130 --> 00:01:37.380 align:middle line:84%
+So this here means that it's an
+equation in an unknown function
+
+00:01:37.380 --> 00:01:38.980 align:middle line:90%
+and its derivative.
+
+00:01:38.980 --> 00:01:47.190 align:middle line:90%
+
+
+00:01:47.190 --> 00:01:49.990 align:middle line:84%
+Ordinary, just as we
+talked about last time,
+
+00:01:49.990 --> 00:01:54.550 align:middle line:84%
+ordinary refers to that
+is just of one variable.
+
+00:01:54.550 --> 00:01:59.680 align:middle line:84%
+And so the ODE that the
+Picard-Lindelof theorem is about
+
+00:01:59.680 --> 00:02:00.530 align:middle line:90%
+is--
+
+00:02:00.530 --> 00:02:05.200 align:middle line:84%
+so the unknown function
+is y, and the ODE
+
+00:02:05.200 --> 00:02:09.880 align:middle line:84%
+is this that we
+want the derivative
+
+00:02:09.880 --> 00:02:13.570 align:middle line:84%
+of this unknown function
+to be equal to a function
+
+00:02:13.570 --> 00:02:18.130 align:middle line:84%
+of the unknown function,
+plus another function that
+
+00:02:18.130 --> 00:02:19.550 align:middle line:90%
+just depends on x.
+
+00:02:19.550 --> 00:02:22.420 align:middle line:84%
+So y here is the
+unknown function,
+
+00:02:22.420 --> 00:02:26.131 align:middle line:90%
+and y is a function of x.
+
+00:02:26.131 --> 00:02:30.790 align:middle line:90%
+x is a real number.
+
+00:02:30.790 --> 00:02:33.130 align:middle line:90%
+And it's just a-- yeah.
+
+00:02:33.130 --> 00:02:35.720 align:middle line:84%
+So this is the
+differential equation,
+
+00:02:35.720 --> 00:02:39.160 align:middle line:84%
+and then we have some
+initial condition.
+
+00:02:39.160 --> 00:02:45.110 align:middle line:84%
+So at zero, we want it
+to take a value "a."
+
+00:02:45.110 --> 00:02:47.740 align:middle line:84%
+So this is the
+differential equation.
+
+00:02:47.740 --> 00:02:56.720 align:middle line:84%
+And what we assume here is--
+so f and g are function on R.
+
+00:02:56.720 --> 00:03:03.810 align:middle line:84%
+And you should think about those
+as being known, and they are--
+
+00:03:03.810 --> 00:03:07.110 align:middle line:90%
+and f here is differentiable.
+
+00:03:07.110 --> 00:03:11.960 align:middle line:90%
+
+
+00:03:11.960 --> 00:03:21.050 align:middle line:84%
+And the derivative
+is continuous,
+
+00:03:21.050 --> 00:03:24.290 align:middle line:90%
+and g is just continuous.
+
+00:03:24.290 --> 00:03:26.040 align:middle line:84%
+Doesn't need to
+be differentiable.
+
+00:03:26.040 --> 00:03:32.450 align:middle line:90%
+
+
+00:03:32.450 --> 00:03:35.870 align:middle line:84%
+And the Picard-Lindelof
+theorem is--
+
+00:03:35.870 --> 00:03:49.040 align:middle line:84%
+so again, the Picard-Lindelof
+theorem is the following,
+
+00:03:49.040 --> 00:04:00.200 align:middle line:90%
+that given f of g as above and--
+
+00:04:00.200 --> 00:04:00.700 align:middle line:90%
+sorry.
+
+00:04:00.700 --> 00:04:03.670 align:middle line:90%
+And a, a was this constant.
+
+00:04:03.670 --> 00:04:05.930 align:middle line:84%
+It's just a real
+number, as above.
+
+00:04:05.930 --> 00:04:09.690 align:middle line:90%
+
+
+00:04:09.690 --> 00:04:22.980 align:middle line:84%
+There exists a delta greater
+than zero, such that--
+
+00:04:22.980 --> 00:04:24.513 align:middle line:90%
+and a solution.
+
+00:04:24.513 --> 00:04:30.960 align:middle line:90%
+
+
+00:04:30.960 --> 00:04:41.940 align:middle line:84%
+y defined on the integral
+from minus delta to delta
+
+00:04:41.940 --> 00:04:49.770 align:middle line:90%
+and a solution y to the ODE.
+
+00:04:49.770 --> 00:04:54.650 align:middle line:84%
+And so again, meaning
+that the solution--
+
+00:04:54.650 --> 00:04:59.320 align:middle line:84%
+that means that at
+zero, it takes value a,
+
+00:04:59.320 --> 00:05:01.620 align:middle line:84%
+and then is satisfying
+that equation.
+
+00:05:01.620 --> 00:05:04.250 align:middle line:90%
+
+
+00:05:04.250 --> 00:05:09.760 align:middle line:84%
+And moreover, and I'll get
+back to that, but we won't.
+
+00:05:09.760 --> 00:05:12.710 align:middle line:84%
+It's quite possible I
+won't get to that today.
+
+00:05:12.710 --> 00:05:20.790 align:middle line:90%
+Moreover, solutions are unique.
+
+00:05:20.790 --> 00:05:30.430 align:middle line:90%
+
+
+00:05:30.430 --> 00:05:35.200 align:middle line:84%
+And so this is like
+a standard problem,
+
+00:05:35.200 --> 00:05:38.450 align:middle line:84%
+in when you're looking at
+differential equations,
+
+00:05:38.450 --> 00:05:42.400 align:middle line:84%
+you have a differential equation
+that may describe something
+
+00:05:42.400 --> 00:05:43.250 align:middle line:90%
+in nature.
+
+00:05:43.250 --> 00:05:47.980 align:middle line:84%
+And you wonder, does this
+equation have a solution?
+
+00:05:47.980 --> 00:05:54.460 align:middle line:84%
+And if it has a solution,
+are solutions unique?
+
+00:05:54.460 --> 00:05:58.740 align:middle line:84%
+So this is what this
+answer in this case.
+
+00:05:58.740 --> 00:06:01.990 align:middle line:84%
+And the interesting thing, or
+part of the interesting thing,
+
+00:06:01.990 --> 00:06:04.620 align:middle line:84%
+so this is a
+fundamental question
+
+00:06:04.620 --> 00:06:07.060 align:middle line:84%
+used all over science
+and engineering.
+
+00:06:07.060 --> 00:06:08.760 align:middle line:84%
+And one of the
+interesting things
+
+00:06:08.760 --> 00:06:14.650 align:middle line:84%
+is that it uses the proof
+of this uses metric spaces.
+
+00:06:14.650 --> 00:06:18.480 align:middle line:90%
+And so the proof has been used--
+
+00:06:18.480 --> 00:06:20.370 align:middle line:84%
+various versions
+of The proof have
+
+00:06:20.370 --> 00:06:24.600 align:middle line:84%
+been used to prove
+existence and uniqueness
+
+00:06:24.600 --> 00:06:27.540 align:middle line:84%
+of various
+differential equations.
+
+00:06:27.540 --> 00:06:42.750 align:middle line:84%
+So the proof uses the theory
+of metric spaces, which
+
+00:06:42.750 --> 00:06:45.150 align:middle line:84%
+is sort of surprising because
+it seems to have nothing
+
+00:06:45.150 --> 00:06:46.295 align:middle line:90%
+to do with metric spaces.
+
+00:06:46.295 --> 00:06:49.260 align:middle line:90%
+
+
+00:06:49.260 --> 00:06:54.160 align:middle line:84%
+And so it uses, in particular,
+the metric space that it's using
+
+00:06:54.160 --> 00:06:59.640 align:middle line:84%
+is the continuous functions
+on some interval here.
+
+00:06:59.640 --> 00:07:02.650 align:middle line:90%
+
+
+00:07:02.650 --> 00:07:05.410 align:middle line:84%
+And on the space of
+continuous function,
+
+00:07:05.410 --> 00:07:10.930 align:middle line:84%
+we have the metric that we
+talked about, the metric.
+
+00:07:10.930 --> 00:07:13.570 align:middle line:90%
+So if f and g--
+
+00:07:13.570 --> 00:07:17.050 align:middle line:90%
+so f is bad because it's the n.
+
+00:07:17.050 --> 00:07:18.070 align:middle line:90%
+g also.
+
+00:07:18.070 --> 00:07:21.010 align:middle line:90%
+Let's call it h1 and h2.
+
+00:07:21.010 --> 00:07:24.010 align:middle line:84%
+Suppose that these are
+continuous functions.
+
+00:07:24.010 --> 00:07:29.110 align:middle line:84%
+h1 and h2 are
+continuous functions
+
+00:07:29.110 --> 00:07:34.270 align:middle line:90%
+on an interval like this.
+
+00:07:34.270 --> 00:07:36.670 align:middle line:84%
+Then the distance
+is this that we
+
+00:07:36.670 --> 00:07:39.020 align:middle line:90%
+have considered various times.
+
+00:07:39.020 --> 00:07:46.840 align:middle line:84%
+This is just the maximum
+over x in this interval here
+
+00:07:46.840 --> 00:07:49.940 align:middle line:90%
+of f of x, of h1--
+
+00:07:49.940 --> 00:07:50.570 align:middle line:90%
+sorry.
+
+00:07:50.570 --> 00:07:58.430 align:middle line:84%
+h1 of x minus h2 of x, and then
+the absolute value of that.
+
+00:07:58.430 --> 00:08:02.660 align:middle line:84%
+So this is the distance on the
+space of continuous functions
+
+00:08:02.660 --> 00:08:04.235 align:middle line:90%
+that we have looked at a lot.
+
+00:08:04.235 --> 00:08:06.800 align:middle line:90%
+
+
+00:08:06.800 --> 00:08:12.450 align:middle line:84%
+And it's actually not quite this
+space, as I mentioned last time.
+
+00:08:12.450 --> 00:08:14.995 align:middle line:84%
+It's a ball in this
+space that it's using.
+
+00:08:14.995 --> 00:08:19.910 align:middle line:90%
+
+
+00:08:19.910 --> 00:08:24.390 align:middle line:84%
+So what do we need
+about this metric space?
+
+00:08:24.390 --> 00:08:28.610 align:middle line:84%
+So one thing we've proven
+a couple of lectures ago
+
+00:08:28.610 --> 00:08:39.566 align:middle line:84%
+is that the space here
+of continuous functions
+
+00:08:39.566 --> 00:08:43.660 align:middle line:84%
+with this metric here
+is Cauchy complete.
+
+00:08:43.660 --> 00:08:51.870 align:middle line:90%
+
+
+00:08:51.870 --> 00:08:53.285 align:middle line:90%
+So we're going to use that.
+
+00:08:53.285 --> 00:08:56.146 align:middle line:90%
+
+
+00:08:56.146 --> 00:08:57.990 align:middle line:84%
+Another thing we're
+going to use is
+
+00:08:57.990 --> 00:09:00.460 align:middle line:90%
+this notion of contracting map.
+
+00:09:00.460 --> 00:09:13.340 align:middle line:84%
+So another tool will be
+that of a contracting map.
+
+00:09:13.340 --> 00:09:20.190 align:middle line:90%
+
+
+00:09:20.190 --> 00:09:26.590 align:middle line:84%
+And remember, this is a
+number of lectures ago.
+
+00:09:26.590 --> 00:09:28.710 align:middle line:84%
+We talked about a
+contracting map,
+
+00:09:28.710 --> 00:09:31.300 align:middle line:84%
+but we need a more general
+notion of contracting map,
+
+00:09:31.300 --> 00:09:35.160 align:middle line:84%
+because when we talked about
+it, we talked about a map from R
+
+00:09:35.160 --> 00:09:40.800 align:middle line:84%
+into R. And then we used this
+notion of contracting map
+
+00:09:40.800 --> 00:09:47.300 align:middle line:84%
+to finding zeros
+using Newton's method.
+
+00:09:47.300 --> 00:09:51.170 align:middle line:84%
+But here we're going to use
+it for something different,
+
+00:09:51.170 --> 00:09:53.480 align:middle line:84%
+and so we need a
+more general notion.
+
+00:09:53.480 --> 00:10:02.860 align:middle line:84%
+So suppose so a contracting
+map uses the general version as
+
+00:10:02.860 --> 00:10:06.190 align:middle line:84%
+opposed to the
+version that we talked
+
+00:10:06.190 --> 00:10:13.170 align:middle line:84%
+about already that was for the
+line for R. So contracting map.
+
+00:10:13.170 --> 00:10:13.670 align:middle line:90%
+Sorry.
+
+00:10:13.670 --> 00:10:16.900 align:middle line:90%
+
+
+00:10:16.900 --> 00:10:21.355 align:middle line:84%
+And so you have a
+metric space x, d.
+
+00:10:21.355 --> 00:10:24.160 align:middle line:84%
+It could be like
+this, but it also just
+
+00:10:24.160 --> 00:10:27.040 align:middle line:90%
+could be any metric space.
+
+00:10:27.040 --> 00:10:33.880 align:middle line:84%
+And then you have a map from
+this metric space into the self.
+
+00:10:33.880 --> 00:10:36.220 align:middle line:90%
+And T here is said to be--
+
+00:10:36.220 --> 00:10:38.906 align:middle line:90%
+T is said to be contracting.
+
+00:10:38.906 --> 00:10:47.420 align:middle line:90%
+
+
+00:10:47.420 --> 00:10:57.560 align:middle line:84%
+If there exists a
+constant c less than 1,
+
+00:10:57.560 --> 00:11:04.850 align:middle line:84%
+such that if you're looking at
+the distance between the images,
+
+00:11:04.850 --> 00:11:07.560 align:middle line:90%
+then they are squeezed together.
+
+00:11:07.560 --> 00:11:11.180 align:middle line:84%
+So this distance here between
+the images under the map
+
+00:11:11.180 --> 00:11:15.860 align:middle line:84%
+is less than or equal
+to this constant
+
+00:11:15.860 --> 00:11:19.100 align:middle line:84%
+that is less than 1
+times the distance
+
+00:11:19.100 --> 00:11:21.650 align:middle line:90%
+before you apply the map.
+
+00:11:21.650 --> 00:11:26.960 align:middle line:84%
+So this means that under the
+map, things get closer together.
+
+00:11:26.960 --> 00:11:30.110 align:middle line:90%
+So that's a contracting map.
+
+00:11:30.110 --> 00:11:33.510 align:middle line:84%
+And so now, we
+prove the theorem.
+
+00:11:33.510 --> 00:11:38.130 align:middle line:84%
+When we did the Newton's
+method, we proved a theorem,
+
+00:11:38.130 --> 00:11:41.400 align:middle line:84%
+but we needed
+about fixed points.
+
+00:11:41.400 --> 00:11:44.560 align:middle line:84%
+And we need a generalized
+version of that.
+
+00:11:44.560 --> 00:11:51.360 align:middle line:84%
+So if you take a map just
+in general from a space
+
+00:11:51.360 --> 00:12:00.611 align:middle line:84%
+to a space, then a fixed
+point, a fixed point
+
+00:12:00.611 --> 00:12:09.600 align:middle line:90%
+is a point x in the space.
+
+00:12:09.600 --> 00:12:12.840 align:middle line:90%
+So that T of x.
+
+00:12:12.840 --> 00:12:15.460 align:middle line:90%
+So the T leaves x invariant.
+
+00:12:15.460 --> 00:12:16.960 align:middle line:90%
+So T of x is equal to x.
+
+00:12:16.960 --> 00:12:17.880 align:middle line:90%
+That's a fixed point.
+
+00:12:17.880 --> 00:12:21.930 align:middle line:90%
+
+
+00:12:21.930 --> 00:12:24.610 align:middle line:84%
+And so now, if you
+have a contracting map,
+
+00:12:24.610 --> 00:12:36.750 align:middle line:84%
+so if T here is
+contracting, then T
+
+00:12:36.750 --> 00:12:38.915 align:middle line:84%
+can have at most
+one fixed point.
+
+00:12:38.915 --> 00:12:53.650 align:middle line:90%
+
+
+00:12:53.650 --> 00:12:54.730 align:middle line:90%
+Why?
+
+00:12:54.730 --> 00:13:01.150 align:middle line:84%
+Because suppose that x-- so
+if x and y are both fixed
+
+00:13:01.150 --> 00:13:15.620 align:middle line:84%
+points, well, then you have
+that T of x is equal to T of y.
+
+00:13:15.620 --> 00:13:16.120 align:middle line:90%
+Sorry.
+
+00:13:16.120 --> 00:13:23.395 align:middle line:84%
+T of x is equal to x,
+and T of y is equal to y.
+
+00:13:23.395 --> 00:13:28.140 align:middle line:84%
+And so now you have that
+the distance between T of x.
+
+00:13:28.140 --> 00:13:32.080 align:middle line:90%
+
+
+00:13:32.080 --> 00:13:35.110 align:middle line:90%
+Let me make a little more space.
+
+00:13:35.110 --> 00:13:37.270 align:middle line:90%
+Then you have the--
+
+00:13:37.270 --> 00:13:39.230 align:middle line:84%
+actually, we'll just
+continue down here.
+
+00:13:39.230 --> 00:13:47.120 align:middle line:84%
+So that the distance between
+T of x, comma, T of y--
+
+00:13:47.120 --> 00:13:50.030 align:middle line:84%
+the map is
+contracting, so this is
+
+00:13:50.030 --> 00:13:55.230 align:middle line:84%
+less than or equal to this
+constant times this year.
+
+00:13:55.230 --> 00:13:57.540 align:middle line:84%
+On the other hand,
+they're both fixed points.
+
+00:13:57.540 --> 00:13:59.010 align:middle line:90%
+So T of x is x.
+
+00:13:59.010 --> 00:14:01.230 align:middle line:90%
+This has x, and this has y.
+
+00:14:01.230 --> 00:14:05.700 align:middle line:84%
+So if we write this out,
+so this is x comma y.
+
+00:14:05.700 --> 00:14:07.730 align:middle line:84%
+And so you see that
+this thing here
+
+00:14:07.730 --> 00:14:11.240 align:middle line:84%
+is some constant less than
+1, strictly less than 1,
+
+00:14:11.240 --> 00:14:12.750 align:middle line:90%
+times itself.
+
+00:14:12.750 --> 00:14:16.220 align:middle line:84%
+So this means, of course,
+that this number here,
+
+00:14:16.220 --> 00:14:19.100 align:middle line:84%
+this non-negative
+number must be zero.
+
+00:14:19.100 --> 00:14:25.970 align:middle line:84%
+And so this, of course, implies
+by the actions of a metric space
+
+00:14:25.970 --> 00:14:28.760 align:middle line:90%
+that x is equal to y.
+
+00:14:28.760 --> 00:14:35.120 align:middle line:84%
+So a contracting map has
+at most one fixed point.
+
+00:14:35.120 --> 00:14:42.390 align:middle line:84%
+Now, the other thing is that
+if you take a metric space--
+
+00:14:42.390 --> 00:14:51.370 align:middle line:84%
+if you take a metric space, so
+this here is Cauchy complete.
+
+00:14:51.370 --> 00:14:57.190 align:middle line:84%
+So now I'm going to take a
+Cauchy complete metric space.
+
+00:14:57.190 --> 00:15:00.210 align:middle line:84%
+So it could be continuous
+function on some closed
+
+00:15:00.210 --> 00:15:02.920 align:middle line:84%
+interval, and that's
+how we will apply it,
+
+00:15:02.920 --> 00:15:06.090 align:middle line:90%
+but it works more generally.
+
+00:15:06.090 --> 00:15:09.360 align:middle line:90%
+So we have this fine theorem.
+
+00:15:09.360 --> 00:15:29.670 align:middle line:84%
+So if this here a Cauchy
+complete metric space,
+
+00:15:29.670 --> 00:15:49.960 align:middle line:84%
+and T from x into x
+is a contracting map,
+
+00:15:49.960 --> 00:15:56.800 align:middle line:90%
+then T has a unique fixed point.
+
+00:15:56.800 --> 00:16:01.720 align:middle line:84%
+We know it only has at most
+one, so this statement really
+
+00:16:01.720 --> 00:16:05.390 align:middle line:90%
+is that it has one right.
+
+00:16:05.390 --> 00:16:07.520 align:middle line:90%
+So it has a unique fixed point.
+
+00:16:07.520 --> 00:16:13.064 align:middle line:90%
+
+
+00:16:13.064 --> 00:16:16.695 align:middle line:90%
+So let's try to prove this.
+
+00:16:16.695 --> 00:16:19.600 align:middle line:90%
+
+
+00:16:19.600 --> 00:16:22.420 align:middle line:90%
+And you might remember.
+
+00:16:22.420 --> 00:16:24.590 align:middle line:90%
+And if you don't, that's fine.
+
+00:16:24.590 --> 00:16:28.700 align:middle line:84%
+But you might remember how we
+used it in the Newton method
+
+00:16:28.700 --> 00:16:30.880 align:middle line:84%
+because the Newton
+method was like--
+
+00:16:30.880 --> 00:16:37.130 align:middle line:84%
+it was a version of this on
+R. So you had a map from R
+
+00:16:37.130 --> 00:16:39.900 align:middle line:84%
+to R, and to find
+the fixed point.
+
+00:16:39.900 --> 00:16:41.870 align:middle line:84%
+And so you wondered
+what you were there,
+
+00:16:41.870 --> 00:16:43.610 align:middle line:84%
+and your Newton
+method was something
+
+00:16:43.610 --> 00:16:47.160 align:middle line:84%
+about finding a point
+where a function vanishes.
+
+00:16:47.160 --> 00:16:50.960 align:middle line:84%
+And that was set up as
+a fixed point theorem.
+
+00:16:50.960 --> 00:16:54.530 align:middle line:84%
+And so what you did is
+you made a good choice,
+
+00:16:54.530 --> 00:16:57.650 align:middle line:84%
+I mean, a choice that
+looked reasonable.
+
+00:16:57.650 --> 00:17:01.050 align:middle line:84%
+This is not exactly where
+the function vanishes,
+
+00:17:01.050 --> 00:17:03.870 align:middle line:84%
+but something that looks
+close to where it vanishes.
+
+00:17:03.870 --> 00:17:06.210 align:middle line:90%
+And then you iterate.
+
+00:17:06.210 --> 00:17:10.170 align:middle line:84%
+You took the image under the
+map and you iterated this.
+
+00:17:10.170 --> 00:17:13.399 align:middle line:84%
+And so it's the same
+we're going to do here.
+
+00:17:13.399 --> 00:17:18.349 align:middle line:84%
+And this time, we don't even
+need to make a good choice.
+
+00:17:18.349 --> 00:17:20.720 align:middle line:90%
+So we just take a--
+
+00:17:20.720 --> 00:17:27.720 align:middle line:84%
+we just take-- let x here be
+any point in the metric space.
+
+00:17:27.720 --> 00:17:31.280 align:middle line:84%
+So you just fixing some
+point in the metric space.
+
+00:17:31.280 --> 00:17:33.360 align:middle line:90%
+And now you're looking at--
+
+00:17:33.360 --> 00:17:36.970 align:middle line:84%
+so you're looking at
+the sequence x, T of x,
+
+00:17:36.970 --> 00:17:41.120 align:middle line:90%
+and then you apply T to T of x.
+
+00:17:41.120 --> 00:17:43.250 align:middle line:90%
+So I write this as this.
+
+00:17:43.250 --> 00:17:45.790 align:middle line:84%
+And then you apply
+T to T squared
+
+00:17:45.790 --> 00:17:48.790 align:middle line:90%
+of x, so that's like this.
+
+00:17:48.790 --> 00:17:53.890 align:middle line:84%
+And so you keep applying
+T more and more times,
+
+00:17:53.890 --> 00:17:57.710 align:middle line:84%
+and so this gives you
+a sequence, and so on.
+
+00:17:57.710 --> 00:18:00.160 align:middle line:90%
+So this gives you a sequence.
+
+00:18:00.160 --> 00:18:03.500 align:middle line:84%
+And now the claim is
+that this sequence here--
+
+00:18:03.500 --> 00:18:15.440 align:middle line:84%
+so I claim that this
+sequence here converge to--
+
+00:18:15.440 --> 00:18:19.000 align:middle line:84%
+so it converge,
+and the limit here,
+
+00:18:19.000 --> 00:18:30.100 align:middle line:84%
+this here, is a fixed point
+for T. So that's the claim.
+
+00:18:30.100 --> 00:18:34.280 align:middle line:90%
+
+
+00:18:34.280 --> 00:18:41.196 align:middle line:84%
+Now, so we wanted to prove
+first that is converging.
+
+00:18:41.196 --> 00:18:50.380 align:middle line:90%
+
+
+00:18:50.380 --> 00:18:52.770 align:middle line:90%
+So we're going to prove first--
+
+00:18:52.770 --> 00:19:07.765 align:middle line:84%
+so we'll first show that
+Tn is a Cauchy sequence.
+
+00:19:07.765 --> 00:19:15.230 align:middle line:90%
+
+
+00:19:15.230 --> 00:19:17.960 align:middle line:90%
+So now let's look at--
+
+00:19:17.960 --> 00:19:20.900 align:middle line:84%
+so we're supposed to look-- if
+you're looking at a Cauchy--
+
+00:19:20.900 --> 00:19:24.060 align:middle line:84%
+if you try to prove that
+something is a Cauchy sequence,
+
+00:19:24.060 --> 00:19:28.880 align:middle line:84%
+then you're looking at the
+distance between elements
+
+00:19:28.880 --> 00:19:33.330 align:middle line:84%
+in the sequence where
+both of these elements
+
+00:19:33.330 --> 00:19:36.120 align:middle line:90%
+is sufficiently far.
+
+00:19:36.120 --> 00:19:39.060 align:middle line:84%
+That's what you're
+supposed to look at.
+
+00:19:39.060 --> 00:19:42.130 align:middle line:90%
+And so let me write the m here.
+
+00:19:42.130 --> 00:19:44.700 align:middle line:84%
+So I can think about
+one of them as being
+
+00:19:44.700 --> 00:19:46.390 align:middle line:90%
+further out than the other one.
+
+00:19:46.390 --> 00:19:48.330 align:middle line:84%
+So I'm going to
+think about m here
+
+00:19:48.330 --> 00:19:55.020 align:middle line:84%
+as being n plus some
+number k, some integer k.
+
+00:19:55.020 --> 00:19:57.870 align:middle line:84%
+And so I'm interested
+in estimating
+
+00:19:57.870 --> 00:20:07.745 align:middle line:84%
+the distance between Tn
+of x and Tn plus k of x.
+
+00:20:07.745 --> 00:20:12.420 align:middle line:90%
+
+
+00:20:12.420 --> 00:20:18.330 align:middle line:84%
+Now, in order to do
+this, let me start
+
+00:20:18.330 --> 00:20:23.340 align:middle line:90%
+with something simpler first.
+
+00:20:23.340 --> 00:20:28.520 align:middle line:84%
+Let me look at the
+distance between T of x.
+
+00:20:28.520 --> 00:20:31.180 align:middle line:90%
+
+
+00:20:31.180 --> 00:20:42.370 align:middle line:84%
+Let me look at the distance
+between Tl of x and Tl
+
+00:20:42.370 --> 00:20:46.420 align:middle line:90%
+plus 1 of x.
+
+00:20:46.420 --> 00:20:50.570 align:middle line:84%
+So two consecutive
+elements in the sequence.
+
+00:20:50.570 --> 00:20:56.170 align:middle line:84%
+Now, I can think that this
+thing here, well, this
+
+00:20:56.170 --> 00:21:07.780 align:middle line:84%
+is equal to the distance
+between T of Tl minus 1 of x.
+
+00:21:07.780 --> 00:21:16.115 align:middle line:84%
+And then T of Tl
+of x, like that.
+
+00:21:16.115 --> 00:21:17.670 align:middle line:90%
+I can write it like that.
+
+00:21:17.670 --> 00:21:21.340 align:middle line:90%
+
+
+00:21:21.340 --> 00:21:24.130 align:middle line:84%
+But now, of course, so
+you see here there's
+
+00:21:24.130 --> 00:21:28.310 align:middle line:84%
+some elements in
+x in the space x.
+
+00:21:28.310 --> 00:21:31.130 align:middle line:90%
+Here's has another element.
+
+00:21:31.130 --> 00:21:33.500 align:middle line:90%
+They both have T applied to it.
+
+00:21:33.500 --> 00:21:44.620 align:middle line:84%
+T is contracting, so you gets
+c, Tl minus 1, x, Tl of x.
+
+00:21:44.620 --> 00:21:47.690 align:middle line:90%
+
+
+00:21:47.690 --> 00:21:52.430 align:middle line:84%
+So you see that if you take
+two consecutive elements
+
+00:21:52.430 --> 00:21:55.010 align:middle line:84%
+and you're taking
+the distance, then
+
+00:21:55.010 --> 00:22:02.880 align:middle line:84%
+it's bounded by this constant
+c times where you have 1 less--
+
+00:22:02.880 --> 00:22:06.840 align:middle line:84%
+where you have applied
+T 1 less time on both.
+
+00:22:06.840 --> 00:22:09.770 align:middle line:84%
+These are, again,
+consecutive elements,
+
+00:22:09.770 --> 00:22:12.185 align:middle line:90%
+but the highest one is 1 less.
+
+00:22:12.185 --> 00:22:14.810 align:middle line:90%
+
+
+00:22:14.810 --> 00:22:29.010 align:middle line:84%
+So now, if you iterate this, so
+iterating this, so let's see.
+
+00:22:29.010 --> 00:22:32.500 align:middle line:84%
+Maybe let me wait
+with iterating.
+
+00:22:32.500 --> 00:22:35.590 align:middle line:84%
+Let me just look
+at what we need.
+
+00:22:35.590 --> 00:22:39.090 align:middle line:90%
+So we have this thing here.
+
+00:22:39.090 --> 00:22:43.770 align:middle line:90%
+And this here I can write as--
+
+00:22:43.770 --> 00:22:50.610 align:middle line:84%
+so here you see, here I can
+write this as T, the distance T,
+
+00:22:50.610 --> 00:23:03.030 align:middle line:84%
+And then Tn minus 1x, and
+then T, Tn minus 1 plus kx,
+
+00:23:03.030 --> 00:23:05.916 align:middle line:90%
+like this.
+
+00:23:05.916 --> 00:23:12.520 align:middle line:84%
+And so here I can use the
+same trick that you guys see,
+
+00:23:12.520 --> 00:23:23.160 align:middle line:84%
+and then d, Tn minus 1x
+comma Tn minus 1 plus k of x.
+
+00:23:23.160 --> 00:23:27.400 align:middle line:90%
+
+
+00:23:27.400 --> 00:23:28.730 align:middle line:90%
+And this one here.
+
+00:23:28.730 --> 00:23:31.450 align:middle line:90%
+I can keep going like this.
+
+00:23:31.450 --> 00:23:36.830 align:middle line:84%
+I can keep going
+until there is the--
+
+00:23:36.830 --> 00:23:40.540 align:middle line:90%
+I've used up all my ends.
+
+00:23:40.540 --> 00:23:42.410 align:middle line:90%
+And so I can keep going.
+
+00:23:42.410 --> 00:23:45.710 align:middle line:84%
+And so this is less or
+equal to c to the n.
+
+00:23:45.710 --> 00:23:54.510 align:middle line:84%
+And then the last one I get is,
+I get x, and then I get Tk of x.
+
+00:23:54.510 --> 00:24:01.200 align:middle line:90%
+
+
+00:24:01.200 --> 00:24:06.070 align:middle line:84%
+I want to show that this
+thing here becomes small
+
+00:24:06.070 --> 00:24:11.080 align:middle line:84%
+as long as n-- remember, k is
+a positive integer as long as n
+
+00:24:11.080 --> 00:24:12.130 align:middle line:90%
+is sufficiently large.
+
+00:24:12.130 --> 00:24:14.900 align:middle line:90%
+
+
+00:24:14.900 --> 00:24:18.490 align:middle line:84%
+So this is a hopeful sign,
+because when n gets large,
+
+00:24:18.490 --> 00:24:20.560 align:middle line:84%
+this here gets
+really, really small.
+
+00:24:20.560 --> 00:24:23.800 align:middle line:84%
+But I still need to
+estimate this here.
+
+00:24:23.800 --> 00:24:25.580 align:middle line:90%
+Now, so how do I estimate it?
+
+00:24:25.580 --> 00:24:28.280 align:middle line:90%
+By using what I did over here.
+
+00:24:28.280 --> 00:24:35.780 align:middle line:90%
+So you're looking at--
+
+00:24:35.780 --> 00:24:45.800 align:middle line:84%
+so you have the distance
+between x and Tk of x.
+
+00:24:45.800 --> 00:24:49.410 align:middle line:84%
+This thing here, I can use
+this triangle inequality.
+
+00:24:49.410 --> 00:24:55.640 align:middle line:84%
+So I can say that this
+is less than dx T of x
+
+00:24:55.640 --> 00:25:07.940 align:middle line:84%
+plus dT of x, T
+squared of x plus dT
+
+00:25:07.940 --> 00:25:13.080 align:middle line:90%
+squared of x, cubed of x.
+
+00:25:13.080 --> 00:25:25.320 align:middle line:84%
+And then all the way up to
+d, Tk minus 1 of x, Tk of x.
+
+00:25:25.320 --> 00:25:27.480 align:middle line:84%
+So this is just the
+triangle inequality.
+
+00:25:27.480 --> 00:25:30.360 align:middle line:90%
+
+
+00:25:30.360 --> 00:25:33.150 align:middle line:84%
+Now, this may seem
+rather bad estimate,
+
+00:25:33.150 --> 00:25:35.890 align:middle line:90%
+but let's see how bad it is.
+
+00:25:35.890 --> 00:25:41.280 align:middle line:84%
+So now, this first thing
+here, I'm just leaving it.
+
+00:25:41.280 --> 00:25:42.970 align:middle line:90%
+I can't do anything about that.
+
+00:25:42.970 --> 00:25:46.650 align:middle line:90%
+So I need to just take that.
+
+00:25:46.650 --> 00:25:52.060 align:middle line:84%
+This one here, so I'm using this
+with between two consecutive.
+
+00:25:52.060 --> 00:25:59.064 align:middle line:84%
+So in this case, it's just
+bounded by c times dx, Tx.
+
+00:25:59.064 --> 00:26:02.130 align:middle line:90%
+
+
+00:26:02.130 --> 00:26:05.550 align:middle line:84%
+And the next one
+here, this one here
+
+00:26:05.550 --> 00:26:12.090 align:middle line:90%
+is bounded by c squared, dx, Tx.
+
+00:26:12.090 --> 00:26:18.960 align:middle line:84%
+And the next, and so
+on, up to this one here
+
+00:26:18.960 --> 00:26:28.560 align:middle line:84%
+is bounded by a c,
+k minus 1, dx, Tx.
+
+00:26:28.560 --> 00:26:31.940 align:middle line:90%
+
+
+00:26:31.940 --> 00:26:36.290 align:middle line:84%
+And so you see that now,
+this here factor out.
+
+00:26:36.290 --> 00:26:38.865 align:middle line:84%
+So this here is
+this factored out.
+
+00:26:38.865 --> 00:26:41.380 align:middle line:90%
+
+
+00:26:41.380 --> 00:26:44.320 align:middle line:84%
+And then, in this
+bracket, you get
+
+00:26:44.320 --> 00:26:51.830 align:middle line:84%
+1 plus c plus c squared, plus
+all the way up to ck minus 1.
+
+00:26:51.830 --> 00:26:54.980 align:middle line:90%
+But this is a geometric series.
+
+00:26:54.980 --> 00:26:57.160 align:middle line:90%
+This is a geometric series.
+
+00:26:57.160 --> 00:27:01.670 align:middle line:84%
+And this is certainly
+less than when I take--
+
+00:27:01.670 --> 00:27:04.040 align:middle line:84%
+remember c is
+strictly less than 1.
+
+00:27:04.040 --> 00:27:05.600 align:middle line:90%
+So it's a geometric series.
+
+00:27:05.600 --> 00:27:07.760 align:middle line:84%
+It's a convergent
+geometric series.
+
+00:27:07.760 --> 00:27:12.610 align:middle line:84%
+So this here is less
+than dx, T of x.
+
+00:27:12.610 --> 00:27:16.120 align:middle line:84%
+And then this sum,
+well, it's less
+
+00:27:16.120 --> 00:27:19.100 align:middle line:84%
+than when you're summing
+it all the way to infinity.
+
+00:27:19.100 --> 00:27:21.620 align:middle line:90%
+So this is less than 1.
+
+00:27:21.620 --> 00:27:24.150 align:middle line:84%
+This is the sum of
+the geometric series.
+
+00:27:24.150 --> 00:27:27.840 align:middle line:90%
+C is strictly less than 1.
+
+00:27:27.840 --> 00:27:30.085 align:middle line:84%
+C is positive, and it's
+strictly less than 1.
+
+00:27:30.085 --> 00:27:33.596 align:middle line:90%
+
+
+00:27:33.596 --> 00:27:37.880 align:middle line:90%
+So/ you see now that we have--
+
+00:27:37.880 --> 00:27:40.440 align:middle line:90%
+so we have that.
+
+00:27:40.440 --> 00:27:42.350 align:middle line:84%
+So what we were
+interested in is,
+
+00:27:42.350 --> 00:27:44.810 align:middle line:84%
+we were interested in
+saying that, as long
+
+00:27:44.810 --> 00:27:47.340 align:middle line:84%
+as I choose little n
+sufficiently large,
+
+00:27:47.340 --> 00:27:51.590 align:middle line:84%
+then this thing here
+must be very small.
+
+00:27:51.590 --> 00:27:54.540 align:middle line:84%
+And we know already that
+it's bounded like this.
+
+00:27:54.540 --> 00:27:57.990 align:middle line:84%
+And now I fill in this,
+and you see this here.
+
+00:27:57.990 --> 00:28:01.110 align:middle line:84%
+So this means that
+this is less than cn.
+
+00:28:01.110 --> 00:28:08.120 align:middle line:84%
+And then what you get here
+is 1 minus c, and then
+
+00:28:08.120 --> 00:28:13.680 align:middle line:90%
+times dx T of x.
+
+00:28:13.680 --> 00:28:18.540 align:middle line:84%
+x is fixed, and so you
+see that when n, little n,
+
+00:28:18.540 --> 00:28:21.690 align:middle line:84%
+is sufficiently large,
+then this whole thing here
+
+00:28:21.690 --> 00:28:24.060 align:middle line:90%
+is as small as you want.
+
+00:28:24.060 --> 00:28:27.000 align:middle line:84%
+So this means that what
+we have proven here
+
+00:28:27.000 --> 00:28:32.465 align:middle line:84%
+is that this sequence
+here is a Cauchy sequence.
+
+00:28:32.465 --> 00:28:39.570 align:middle line:90%
+
+
+00:28:39.570 --> 00:28:40.565 align:middle line:90%
+So we have proven that.
+
+00:28:40.565 --> 00:28:43.695 align:middle line:90%
+
+
+00:28:43.695 --> 00:28:46.440 align:middle line:84%
+Now, of course, this is
+where the assumption comes in
+
+00:28:46.440 --> 00:28:51.490 align:middle line:84%
+that this metric space
+is Cauchy complete.
+
+00:28:51.490 --> 00:29:10.560 align:middle line:84%
+So since x, this metric
+space is Cauchy complete,
+
+00:29:10.560 --> 00:29:25.010 align:middle line:84%
+and this sequence here
+is a Cauchy sequence,
+
+00:29:25.010 --> 00:29:27.206 align:middle line:90%
+it is convergent.
+
+00:29:27.206 --> 00:29:31.884 align:middle line:90%
+
+
+00:29:31.884 --> 00:29:32.658 align:middle line:90%
+Yeah.
+
+00:29:32.658 --> 00:29:33.450 align:middle line:90%
+STUDENT: I'm sorry.
+
+00:29:33.450 --> 00:29:34.950 align:middle line:84%
+Just back to the
+end of that repeat.
+
+00:29:34.950 --> 00:29:35.840 align:middle line:90%
+PROFESSOR: Yeah.
+
+00:29:35.840 --> 00:29:39.290 align:middle line:84%
+STUDENT: Are you able to explain
+again how we got that feature,
+
+00:29:39.290 --> 00:29:40.730 align:middle line:90%
+or how we were trying to--
+
+00:29:40.730 --> 00:29:46.190 align:middle line:84%
+did we find a bound for the dx,
+Tx, or we're just saying that--
+
+00:29:46.190 --> 00:29:48.750 align:middle line:84%
+PROFESSOR: So I'm
+saying that x is fixed.
+
+00:29:48.750 --> 00:29:55.001 align:middle line:84%
+You pick any point you want,
+and I claim that if I--
+
+00:29:55.001 --> 00:29:58.260 align:middle line:84%
+it may be a very bad
+candidate for the fixed point,
+
+00:29:58.260 --> 00:29:59.370 align:middle line:90%
+but it doesn't matter.
+
+00:29:59.370 --> 00:30:00.500 align:middle line:90%
+It's OK.
+
+00:30:00.500 --> 00:30:03.270 align:middle line:84%
+It may just take you longer
+to get to the fixed point.
+
+00:30:03.270 --> 00:30:08.450 align:middle line:84%
+But you fix x, and then you're
+looking at the sequence.
+
+00:30:08.450 --> 00:30:11.180 align:middle line:84%
+And then I claim
+that this sequence
+
+00:30:11.180 --> 00:30:14.185 align:middle line:90%
+will be a Cauchy sequence.
+
+00:30:14.185 --> 00:30:20.020 align:middle line:84%
+And so x is fixed, and so we
+have this inequality here.
+
+00:30:20.020 --> 00:30:26.010 align:middle line:84%
+And what we need is that when
+little n is sufficiently far
+
+00:30:26.010 --> 00:30:31.120 align:middle line:84%
+large, then for all k,
+k is a positive integer,
+
+00:30:31.120 --> 00:30:33.960 align:middle line:90%
+This is further out than in.
+
+00:30:33.960 --> 00:30:35.500 align:middle line:90%
+Then for all k--
+
+00:30:35.500 --> 00:30:37.690 align:middle line:84%
+and this should be
+independent of k--
+
+00:30:37.690 --> 00:30:39.070 align:middle line:90%
+this thing here small.
+
+00:30:39.070 --> 00:30:40.080 align:middle line:90%
+But this is just--
+
+00:30:40.080 --> 00:30:42.163 align:middle line:84%
+STUDENT: Doesn't that get
+rid of-- the whole thing
+
+00:30:42.163 --> 00:30:45.420 align:middle line:84%
+from the previous step was
+now it's not a Tk of x.
+
+00:30:45.420 --> 00:30:52.230 align:middle line:84%
+PROFESSOR: Yeah, so since
+x is fixed, x is fixed.
+
+00:30:52.230 --> 00:30:53.950 align:middle line:90%
+Tx is fixed.
+
+00:30:53.950 --> 00:30:55.275 align:middle line:90%
+So this is just a constant.
+
+00:30:55.275 --> 00:31:00.150 align:middle line:90%
+
+
+00:31:00.150 --> 00:31:01.900 align:middle line:90%
+So right.
+
+00:31:01.900 --> 00:31:03.780 align:middle line:90%
+So what we have proven is that--
+
+00:31:03.780 --> 00:31:08.560 align:middle line:84%
+so we have so we have this
+Cauchy complete metric space.
+
+00:31:08.560 --> 00:31:10.740 align:middle line:90%
+And we have this sequence.
+
+00:31:10.740 --> 00:31:12.210 align:middle line:90%
+X was fixed again.
+
+00:31:12.210 --> 00:31:13.960 align:middle line:90%
+That is a Cauchy sequence.
+
+00:31:13.960 --> 00:31:17.330 align:middle line:84%
+And so since this metric
+space is Cauchy complete,
+
+00:31:17.330 --> 00:31:23.020 align:middle line:84%
+this is convergent, and
+I can denote the limit.
+
+00:31:23.020 --> 00:31:26.590 align:middle line:84%
+So I just called the
+limit x infinity.
+
+00:31:26.590 --> 00:31:27.555 align:middle line:90%
+So we have this.
+
+00:31:27.555 --> 00:31:30.100 align:middle line:90%
+
+
+00:31:30.100 --> 00:31:32.141 align:middle line:90%
+Now, I want to show that--
+
+00:31:32.141 --> 00:31:34.690 align:middle line:90%
+
+
+00:31:34.690 --> 00:31:55.684 align:middle line:84%
+so the next claim is that x
+infinity is a fixed point for T.
+
+00:31:55.684 --> 00:31:58.750 align:middle line:84%
+So if I'm looking at
+this sequence here,
+
+00:31:58.750 --> 00:32:00.770 align:middle line:90%
+suppose I take the sequence.
+
+00:32:00.770 --> 00:32:03.443 align:middle line:84%
+And suppose I take
+T of this sequence.
+
+00:32:03.443 --> 00:32:08.290 align:middle line:90%
+
+
+00:32:08.290 --> 00:32:11.890 align:middle line:84%
+So if I take T of this
+sequence, this here
+
+00:32:11.890 --> 00:32:17.000 align:middle line:84%
+is nothing but the next
+element in the sequence.
+
+00:32:17.000 --> 00:32:23.660 align:middle line:84%
+So this one here will still
+converge to x infinity,
+
+00:32:23.660 --> 00:32:27.290 align:middle line:90%
+because it's just shifted by 1.
+
+00:32:27.290 --> 00:32:30.845 align:middle line:84%
+But then on the other hand,
+so now, if you're looking at--
+
+00:32:30.845 --> 00:32:33.620 align:middle line:90%
+
+
+00:32:33.620 --> 00:32:35.990 align:middle line:90%
+so you have that.
+
+00:32:35.990 --> 00:32:41.023 align:middle line:84%
+If you're looking at T,
+so we want to prove that--
+
+00:32:41.023 --> 00:32:44.060 align:middle line:90%
+
+
+00:32:44.060 --> 00:32:51.050 align:middle line:84%
+so now, if we're looking
+at T of x infinity,
+
+00:32:51.050 --> 00:33:05.400 align:middle line:84%
+this distance between T of x
+infinity and Tn plus 1 of x,
+
+00:33:05.400 --> 00:33:08.945 align:middle line:84%
+suppose I'm looking
+at this distance here.
+
+00:33:08.945 --> 00:33:13.800 align:middle line:84%
+Well, this here I can think
+about as the distance between T
+
+00:33:13.800 --> 00:33:20.400 align:middle line:90%
+of x infinity and T of Tn of x.
+
+00:33:20.400 --> 00:33:24.010 align:middle line:84%
+But here there are now
+both of these elements.
+
+00:33:24.010 --> 00:33:26.460 align:middle line:84%
+You can think about this
+as just some elements.
+
+00:33:26.460 --> 00:33:27.870 align:middle line:90%
+Apply T to it.
+
+00:33:27.870 --> 00:33:29.920 align:middle line:90%
+Here there's Ts applied to that.
+
+00:33:29.920 --> 00:33:35.490 align:middle line:84%
+So this is less than
+the distance x infinity
+
+00:33:35.490 --> 00:33:41.400 align:middle line:84%
+to Tn as a constant c
+less than 1 in front.
+
+00:33:41.400 --> 00:33:49.440 align:middle line:84%
+So like this by the
+contracting map property.
+
+00:33:49.440 --> 00:33:53.910 align:middle line:84%
+But now you see that
+as n goes to infinity,
+
+00:33:53.910 --> 00:33:57.280 align:middle line:90%
+this thing here goes to zero.
+
+00:33:57.280 --> 00:34:03.300 align:middle line:84%
+So this means that this thing
+here converges to this point.
+
+00:34:03.300 --> 00:34:05.613 align:middle line:90%
+So you have that--
+
+00:34:05.613 --> 00:34:09.000 align:middle line:90%
+
+
+00:34:09.000 --> 00:34:10.210 align:middle line:90%
+so you have that--
+
+00:34:10.210 --> 00:34:20.920 align:middle line:90%
+
+
+00:34:20.920 --> 00:34:25.100 align:middle line:84%
+you have that if
+you're looking at--
+
+00:34:25.100 --> 00:34:28.100 align:middle line:90%
+if you're looking at--
+
+00:34:28.100 --> 00:34:33.850 align:middle line:90%
+again, as n go to--
+
+00:34:33.850 --> 00:34:46.120 align:middle line:84%
+as n goes to infinity, since Tn
+of x converges to x infinity,
+
+00:34:46.120 --> 00:34:48.310 align:middle line:84%
+then we have that
+the distance-- this
+
+00:34:48.310 --> 00:34:55.780 align:middle line:84%
+is the equivalent to that the
+distance here goes to zero.
+
+00:34:55.780 --> 00:35:02.320 align:middle line:84%
+And then by this inequality,
+it means that the distance here
+
+00:35:02.320 --> 00:35:12.960 align:middle line:84%
+Tx infinity and Tn plus
+1 of x goes to zero.
+
+00:35:12.960 --> 00:35:16.320 align:middle line:84%
+And so this means that this
+is just some fixed point.
+
+00:35:16.320 --> 00:35:18.240 align:middle line:84%
+It means that this
+sequence here--
+
+00:35:18.240 --> 00:35:22.820 align:middle line:84%
+so this implies that
+this sequence here
+
+00:35:22.820 --> 00:35:27.980 align:middle line:90%
+converts to T of x infinity.
+
+00:35:27.980 --> 00:35:30.590 align:middle line:84%
+But on the other
+hand, we already
+
+00:35:30.590 --> 00:35:36.450 align:middle line:84%
+observed that this sequence
+also converges to x infinity.
+
+00:35:36.450 --> 00:35:40.830 align:middle line:90%
+
+
+00:35:40.830 --> 00:35:43.950 align:middle line:84%
+So it converges to this
+and it converges to that,
+
+00:35:43.950 --> 00:35:47.220 align:middle line:84%
+but it can only have one limit,
+so those two things are equal.
+
+00:35:47.220 --> 00:35:52.970 align:middle line:84%
+So you conclude that x infinity
+is equal to T of x infinity.
+
+00:35:52.970 --> 00:35:57.100 align:middle line:84%
+And so x infinity
+is a fixed point.
+
+00:35:57.100 --> 00:36:01.460 align:middle line:90%
+
+
+00:36:01.460 --> 00:36:04.040 align:middle line:84%
+So this proves
+this theorem right.
+
+00:36:04.040 --> 00:36:09.410 align:middle line:84%
+And again, we already knew
+that the limit was unique.
+
+00:36:09.410 --> 00:36:13.270 align:middle line:90%
+
+
+00:36:13.270 --> 00:36:20.460 align:middle line:84%
+So now, how is this related to
+the Picard-Lindelof theorem?
+
+00:36:20.460 --> 00:36:23.290 align:middle line:84%
+And so it's related
+in the following way.
+
+00:36:23.290 --> 00:36:25.290 align:middle line:84%
+And again, this
+is something that
+
+00:36:25.290 --> 00:36:28.226 align:middle line:84%
+has been used to solve a lot
+of differential equations.
+
+00:36:28.226 --> 00:36:36.060 align:middle line:90%
+
+
+00:36:36.060 --> 00:36:41.580 align:middle line:84%
+And so we need to
+define a space in a map.
+
+00:36:41.580 --> 00:36:45.910 align:middle line:84%
+The spaces initially, but
+we have to restrict it.
+
+00:36:45.910 --> 00:36:54.780 align:middle line:84%
+But initially, let's think
+about some continuous functions
+
+00:36:54.780 --> 00:36:57.480 align:middle line:90%
+on some interval.
+
+00:36:57.480 --> 00:36:59.920 align:middle line:84%
+Let's start with just
+continuous function.
+
+00:36:59.920 --> 00:37:02.130 align:middle line:84%
+But it's not quite
+going to be the space.
+
+00:37:02.130 --> 00:37:04.480 align:middle line:84%
+I will have to
+look at a smaller--
+
+00:37:04.480 --> 00:37:05.360 align:middle line:90%
+Yeah.
+
+00:37:05.360 --> 00:37:06.110 align:middle line:90%
+STUDENT: Question.
+
+00:37:06.110 --> 00:37:09.040 align:middle line:84%
+Why is it that you
+didn't need to know
+
+00:37:09.040 --> 00:37:13.453 align:middle line:84%
+the need before to a
+good starting point?
+
+00:37:13.453 --> 00:37:14.870 align:middle line:84%
+PROFESSOR: That's
+a good question.
+
+00:37:14.870 --> 00:37:16.220 align:middle line:90%
+So that's right.
+
+00:37:16.220 --> 00:37:19.400 align:middle line:84%
+So this comes with
+this Newton method.
+
+00:37:19.400 --> 00:37:22.450 align:middle line:90%
+So we used the--
+
+00:37:22.450 --> 00:37:24.940 align:middle line:84%
+so we used this
+contracting mapping
+
+00:37:24.940 --> 00:37:30.632 align:middle line:84%
+for R in the Newton
+method to find a zero.
+
+00:37:30.632 --> 00:37:34.060 align:middle line:84%
+And to some extent,
+there was a great idea.
+
+00:37:34.060 --> 00:37:37.480 align:middle line:84%
+Newton was a pretty famous
+guy for a good reason.
+
+00:37:37.480 --> 00:37:40.640 align:middle line:84%
+But in a way, this is
+more ingenious, I think,
+
+00:37:40.640 --> 00:37:42.440 align:middle line:90%
+because it's like metric space.
+
+00:37:42.440 --> 00:37:45.602 align:middle line:84%
+What the hell does this have to
+do with differential equation?
+
+00:37:45.602 --> 00:37:49.550 align:middle line:84%
+And the reason why in the other
+one, we had to restrict it
+
+00:37:49.550 --> 00:37:54.110 align:middle line:84%
+was that the map we defined
+wasn't contracting everywhere.
+
+00:37:54.110 --> 00:37:58.030 align:middle line:84%
+It needed things to be
+pretty close initially
+
+00:37:58.030 --> 00:38:02.720 align:middle line:84%
+for there to exist a c
+strictly less than 1.
+
+00:38:02.720 --> 00:38:04.620 align:middle line:90%
+So that's where it came in.
+
+00:38:04.620 --> 00:38:08.130 align:middle line:90%
+It wasn't really because if--
+
+00:38:08.130 --> 00:38:08.630 align:middle line:90%
+yeah.
+
+00:38:08.630 --> 00:38:13.550 align:middle line:90%
+
+
+00:38:13.550 --> 00:38:16.610 align:middle line:84%
+So now, again, so we
+need to relate this.
+
+00:38:16.610 --> 00:38:19.110 align:middle line:84%
+That seems to have nothing to
+do with differential equation.
+
+00:38:19.110 --> 00:38:21.720 align:middle line:84%
+We need to relate it to
+the differential equation.
+
+00:38:21.720 --> 00:38:25.280 align:middle line:84%
+So again, what is the
+space, the metric space
+
+00:38:25.280 --> 00:38:26.880 align:middle line:90%
+that we're going to look at?
+
+00:38:26.880 --> 00:38:29.040 align:middle line:84%
+And again, it's
+not exactly this,
+
+00:38:29.040 --> 00:38:30.750 align:middle line:90%
+but it's just a subset of it.
+
+00:38:30.750 --> 00:38:37.130 align:middle line:84%
+So it's this space, and
+with the usual metric
+
+00:38:37.130 --> 00:38:38.400 align:middle line:90%
+that we have talked about.
+
+00:38:38.400 --> 00:38:45.710 align:middle line:84%
+That is going to be
+the metric space.
+
+00:38:45.710 --> 00:38:49.670 align:middle line:90%
+Now, what is the map T?
+
+00:38:49.670 --> 00:38:55.280 align:middle line:84%
+And so the map T
+is-- so T here is
+
+00:38:55.280 --> 00:39:03.071 align:middle line:84%
+going to be a map from
+continuous functions
+
+00:39:03.071 --> 00:39:05.426 align:middle line:84%
+into the space of
+continuous functions.
+
+00:39:05.426 --> 00:39:08.700 align:middle line:90%
+
+
+00:39:08.700 --> 00:39:15.930 align:middle line:84%
+And is going to be
+defined as follows.
+
+00:39:15.930 --> 00:39:18.340 align:middle line:84%
+And I'll come to
+this in a second.
+
+00:39:18.340 --> 00:39:21.730 align:middle line:90%
+So T of x, T of y.
+
+00:39:21.730 --> 00:39:25.140 align:middle line:84%
+So think about y as being
+a continuous function
+
+00:39:25.140 --> 00:39:27.180 align:middle line:90%
+on this interval.
+
+00:39:27.180 --> 00:39:35.490 align:middle line:84%
+And T of y is now equal to a
+plus, and then the integral,
+
+00:39:35.490 --> 00:39:40.420 align:middle line:90%
+and then integral.
+
+00:39:40.420 --> 00:39:46.000 align:middle line:84%
+So this is a-- so T of y,
+y is of an element here.
+
+00:39:46.000 --> 00:39:48.940 align:middle line:84%
+This one here is also supposed
+to be an element here,
+
+00:39:48.940 --> 00:39:50.730 align:middle line:90%
+so this is a function.
+
+00:39:50.730 --> 00:39:54.780 align:middle line:84%
+So we want to find out
+what the value is at x.
+
+00:39:54.780 --> 00:39:59.820 align:middle line:84%
+And this a, this constant
+a plus the integral from
+
+00:39:59.820 --> 00:40:12.970 align:middle line:84%
+zero to x, and then of
+f of y, plus g of x.
+
+00:40:12.970 --> 00:40:18.250 align:middle line:84%
+And this here is a function
+of x, also, so like this.
+
+00:40:18.250 --> 00:40:23.020 align:middle line:84%
+And I shouldn't write x
+because I use now x up here.
+
+00:40:23.020 --> 00:40:26.650 align:middle line:90%
+So I write it like that. d of x.
+
+00:40:26.650 --> 00:40:30.370 align:middle line:84%
+That's how the map is
+going to be defined.
+
+00:40:30.370 --> 00:40:33.020 align:middle line:90%
+So again, if you take--
+
+00:40:33.020 --> 00:40:38.800 align:middle line:84%
+so y here, so y is going--
+so y is a continuous function
+
+00:40:38.800 --> 00:40:41.320 align:middle line:90%
+on this interval.
+
+00:40:41.320 --> 00:40:43.780 align:middle line:84%
+And I will have to
+restrict it, and this
+
+00:40:43.780 --> 00:40:47.780 align:middle line:84%
+is exactly when you're asking
+what in Newton's method,
+
+00:40:47.780 --> 00:40:51.380 align:middle line:84%
+why did we have to
+pick this good choice.
+
+00:40:51.380 --> 00:40:56.410 align:middle line:84%
+It's exactly like this that
+this map is not contracting
+
+00:40:56.410 --> 00:40:57.770 align:middle line:90%
+on this whole space.
+
+00:40:57.770 --> 00:41:02.020 align:middle line:84%
+So we have to-- in a way, we
+have to do the same stuff.
+
+00:41:02.020 --> 00:41:04.360 align:middle line:84%
+We have to make a
+good choice first.
+
+00:41:04.360 --> 00:41:06.610 align:middle line:84%
+And so that's why we have
+to restrict the space.
+
+00:41:06.610 --> 00:41:09.990 align:middle line:90%
+And it actually is--
+
+00:41:09.990 --> 00:41:13.210 align:middle line:84%
+part of the beauty is that
+it's pretty much optimal,
+
+00:41:13.210 --> 00:41:16.920 align:middle line:84%
+this stuff, this sort
+of general principle.
+
+00:41:16.920 --> 00:41:18.600 align:middle line:90%
+We can come back to that.
+
+00:41:18.600 --> 00:41:22.920 align:middle line:84%
+So this is the map T.
+And so the first thing
+
+00:41:22.920 --> 00:41:27.600 align:middle line:90%
+that you observe is that T--
+
+00:41:27.600 --> 00:41:32.680 align:middle line:84%
+so this gives you
+this function here.
+
+00:41:32.680 --> 00:41:39.400 align:middle line:84%
+Remember that so if y is
+continuous, g is continuous.
+
+00:41:39.400 --> 00:41:42.190 align:middle line:84%
+Well, if y is continuous
+f is continuous.
+
+00:41:42.190 --> 00:41:43.990 align:middle line:90%
+Everything here is continuous.
+
+00:41:43.990 --> 00:41:47.290 align:middle line:84%
+And so this means that by the
+fundamental theorem of calculus,
+
+00:41:47.290 --> 00:41:52.890 align:middle line:84%
+this function here is
+actually even differentiable.
+
+00:41:52.890 --> 00:41:55.930 align:middle line:84%
+And the derivative of
+this is just a constant.
+
+00:41:55.930 --> 00:41:59.260 align:middle line:84%
+So this function here
+is differentiable,
+
+00:41:59.260 --> 00:42:00.710 align:middle line:90%
+let alone continuous.
+
+00:42:00.710 --> 00:42:06.940 align:middle line:84%
+So it's definitely in the space
+and the derivative of this map.
+
+00:42:06.940 --> 00:42:09.440 align:middle line:84%
+By the fundamental
+theorem of calculus--
+
+00:42:09.440 --> 00:42:21.850 align:middle line:90%
+
+
+00:42:21.850 --> 00:42:23.780 align:middle line:84%
+so by the fundamental
+theorem of calculus,
+
+00:42:23.780 --> 00:42:26.660 align:middle line:84%
+the derivative is just
+what is inside here.
+
+00:42:26.660 --> 00:42:36.280 align:middle line:84%
+So this is just f
+of y plus g of x.
+
+00:42:36.280 --> 00:42:39.445 align:middle line:84%
+And if you want to write x in,
+then it should be like this.
+
+00:42:39.445 --> 00:42:47.660 align:middle line:90%
+
+
+00:42:47.660 --> 00:42:50.330 align:middle line:84%
+And then one more
+thing you observe,
+
+00:42:50.330 --> 00:42:55.810 align:middle line:84%
+which is also immediate, that if
+you take a continuous function
+
+00:42:55.810 --> 00:42:58.800 align:middle line:84%
+like this, and now
+you evaluate this,
+
+00:42:58.800 --> 00:43:01.490 align:middle line:90%
+now you evaluate this at zero.
+
+00:43:01.490 --> 00:43:05.060 align:middle line:84%
+But if x is zero
+within this integral,
+
+00:43:05.060 --> 00:43:07.020 align:middle line:90%
+it's over just a point.
+
+00:43:07.020 --> 00:43:08.400 align:middle line:90%
+So this here is zero.
+
+00:43:08.400 --> 00:43:10.760 align:middle line:84%
+So this means that
+the value here is a.
+
+00:43:10.760 --> 00:43:15.615 align:middle line:90%
+
+
+00:43:15.615 --> 00:43:20.553 align:middle line:84%
+And so now, the next thing
+you observe is that--
+
+00:43:20.553 --> 00:43:31.850 align:middle line:90%
+
+
+00:43:31.850 --> 00:43:40.870 align:middle line:84%
+so the next thing we observe is
+that if you have a fixed point.
+
+00:43:40.870 --> 00:43:43.873 align:middle line:90%
+
+
+00:43:43.873 --> 00:43:45.290 align:middle line:84%
+I think this is
+another nice thing
+
+00:43:45.290 --> 00:43:50.840 align:middle line:84%
+is that the way it's set
+up is that you just need
+
+00:43:50.840 --> 00:43:54.270 align:middle line:90%
+to use continuous functions.
+
+00:43:54.270 --> 00:43:57.250 align:middle line:84%
+But of course, if you
+want a solution to this,
+
+00:43:57.250 --> 00:44:00.400 align:middle line:84%
+it means that the function
+must have a derivative.
+
+00:44:00.400 --> 00:44:00.900 align:middle line:90%
+Yeah.
+
+00:44:00.900 --> 00:44:04.020 align:middle line:84%
+STUDENT: So how do you
+know that [INAUDIBLE]?
+
+00:44:04.020 --> 00:44:06.250 align:middle line:84%
+PROFESSOR: Yeah we
+don't know that yet.
+
+00:44:06.250 --> 00:44:07.950 align:middle line:90%
+That's a major point, actually.
+
+00:44:07.950 --> 00:44:10.270 align:middle line:84%
+And again, just like
+in Newton's methods,
+
+00:44:10.270 --> 00:44:12.850 align:middle line:84%
+we have to restrict where
+we're looking at it.
+
+00:44:12.850 --> 00:44:14.200 align:middle line:90%
+Yeah.
+
+00:44:14.200 --> 00:44:16.410 align:middle line:84%
+But the first thing
+I want to observe
+
+00:44:16.410 --> 00:44:31.200 align:middle line:84%
+is that if y is a fixed point,
+well, then T of y is equal to y.
+
+00:44:31.200 --> 00:44:33.510 align:middle line:90%
+And so what does this mean?
+
+00:44:33.510 --> 00:44:36.100 align:middle line:90%
+Well, the derivative.
+
+00:44:36.100 --> 00:44:46.350 align:middle line:84%
+So it means that if this is the
+case, then we have that T of y
+
+00:44:46.350 --> 00:44:47.710 align:middle line:90%
+is of this form.
+
+00:44:47.710 --> 00:44:51.220 align:middle line:84%
+So it has a derivative, and
+that derivative is this.
+
+00:44:51.220 --> 00:44:54.590 align:middle line:84%
+So this means that y would have
+it, because y is equal to this.
+
+00:44:54.590 --> 00:44:59.625 align:middle line:84%
+So y is differentiable, and the
+derivative is equal to this.
+
+00:44:59.625 --> 00:45:02.890 align:middle line:90%
+
+
+00:45:02.890 --> 00:45:04.930 align:middle line:90%
+And we always have--
+
+00:45:04.930 --> 00:45:06.850 align:middle line:84%
+whether it's a
+fixed point or not,
+
+00:45:06.850 --> 00:45:14.095 align:middle line:84%
+we always have that
+Ty of zero is a.
+
+00:45:14.095 --> 00:45:18.590 align:middle line:84%
+And since it is a fixed
+point, this is also this.
+
+00:45:18.590 --> 00:45:22.210 align:middle line:84%
+So you see that if it
+is a fixed point, then
+
+00:45:22.210 --> 00:45:24.435 align:middle line:84%
+it is a solution to the
+differential equation.
+
+00:45:24.435 --> 00:45:27.490 align:middle line:90%
+
+
+00:45:27.490 --> 00:45:31.880 align:middle line:90%
+Now, then the point comes in.
+
+00:45:31.880 --> 00:45:36.430 align:middle line:84%
+The key point comes
+in with proving
+
+00:45:36.430 --> 00:45:38.340 align:middle line:90%
+that the map is contracting.
+
+00:45:38.340 --> 00:46:04.635 align:middle line:90%
+
+
+00:46:04.635 --> 00:46:10.070 align:middle line:84%
+And so now, so we
+need to prove--
+
+00:46:10.070 --> 00:46:19.090 align:middle line:84%
+need to show that T
+is a contracting map.
+
+00:46:19.090 --> 00:46:29.480 align:middle line:90%
+
+
+00:46:29.480 --> 00:46:34.700 align:middle line:90%
+So set.
+
+00:46:34.700 --> 00:46:37.160 align:middle line:84%
+I have to define a
+number of things,
+
+00:46:37.160 --> 00:46:39.980 align:middle line:90%
+because again, I have to--
+
+00:46:39.980 --> 00:46:42.830 align:middle line:84%
+T is not going to be
+contracting on the space
+
+00:46:42.830 --> 00:46:44.160 align:middle line:90%
+of continuous functions.
+
+00:46:44.160 --> 00:46:47.880 align:middle line:84%
+So I have to look at some
+subset of continuous function.
+
+00:46:47.880 --> 00:46:50.580 align:middle line:84%
+And the right subset
+is just a ball.
+
+00:46:50.580 --> 00:46:52.270 align:middle line:90%
+It's its a close ball.
+
+00:46:52.270 --> 00:46:56.100 align:middle line:90%
+So it's going to be--
+
+00:46:56.100 --> 00:47:00.570 align:middle line:84%
+so we're going to-- maybe I'll
+just say first that we're going
+
+00:47:00.570 --> 00:47:07.360 align:middle line:84%
+to restrict T. So T here
+will be restricted now to--
+
+00:47:07.360 --> 00:47:14.910 align:middle line:84%
+we will think about it as a
+map on some ball into itself.
+
+00:47:14.910 --> 00:47:18.120 align:middle line:84%
+But it's not at all
+clear that this map
+
+00:47:18.120 --> 00:47:21.282 align:middle line:90%
+takes a ball into itself.
+
+00:47:21.282 --> 00:47:23.350 align:middle line:90%
+And what do I mean by ball?
+
+00:47:23.350 --> 00:47:25.300 align:middle line:90%
+So I have this bar up here.
+
+00:47:25.300 --> 00:47:32.220 align:middle line:84%
+So I just means
+that this thing here
+
+00:47:32.220 --> 00:47:36.336 align:middle line:84%
+is going to be the function
+y that is continuous.
+
+00:47:36.336 --> 00:47:40.230 align:middle line:90%
+
+
+00:47:40.230 --> 00:47:43.630 align:middle line:84%
+And then it's not quite
+going to be this either.
+
+00:47:43.630 --> 00:47:45.480 align:middle line:90%
+I have to restrict.
+
+00:47:45.480 --> 00:47:47.940 align:middle line:84%
+But I'll get to
+this in a second.
+
+00:47:47.940 --> 00:47:50.200 align:middle line:84%
+So at the moment, you
+can think about it
+
+00:47:50.200 --> 00:47:53.300 align:middle line:84%
+as being continuous
+function on the interval,
+
+00:47:53.300 --> 00:48:00.830 align:middle line:84%
+so that the norm of y at
+each point x is less than
+
+00:48:00.830 --> 00:48:04.930 align:middle line:84%
+or equal to R. And
+this bar here refers
+
+00:48:04.930 --> 00:48:09.890 align:middle line:90%
+to that equal is also allowed.
+
+00:48:09.890 --> 00:48:14.290 align:middle line:84%
+Now, this here is
+really like the ball.
+
+00:48:14.290 --> 00:48:16.070 align:middle line:90%
+These are functions.
+
+00:48:16.070 --> 00:48:18.670 align:middle line:84%
+If you're thinking
+about the function
+
+00:48:18.670 --> 00:48:23.570 align:middle line:84%
+in the space of continuous
+function that is constant zero,
+
+00:48:23.570 --> 00:48:27.310 align:middle line:84%
+then these are the functions
+whose distance-- this
+
+00:48:27.310 --> 00:48:32.350 align:middle line:84%
+is the same as the space
+of continuous functions
+
+00:48:32.350 --> 00:48:37.780 align:middle line:84%
+whose distance to the constant
+function zero is, at most,
+
+00:48:37.780 --> 00:48:43.600 align:middle line:90%
+R. This is the zero function.
+
+00:48:43.600 --> 00:48:45.350 align:middle line:84%
+It's less than or
+equal to R. Sorry.
+
+00:48:45.350 --> 00:48:47.142 align:middle line:84%
+This is getting a little
+smaller over here.
+
+00:48:47.142 --> 00:48:53.930 align:middle line:90%
+
+
+00:48:53.930 --> 00:48:56.510 align:middle line:90%
+And again, it's going to be--
+
+00:48:56.510 --> 00:48:59.810 align:middle line:84%
+I will have to restrict
+the interval here
+
+00:48:59.810 --> 00:49:02.670 align:middle line:84%
+to make sure that the
+map is contracting.
+
+00:49:02.670 --> 00:49:05.825 align:middle line:90%
+
+
+00:49:05.825 --> 00:49:09.440 align:middle line:84%
+But first, I want to
+define this radius here.
+
+00:49:09.440 --> 00:49:12.680 align:middle line:90%
+And so the radius is--
+
+00:49:12.680 --> 00:49:14.990 align:middle line:90%
+I'm setting R here equal--
+
+00:49:14.990 --> 00:49:16.550 align:middle line:90%
+a was just a constant.
+
+00:49:16.550 --> 00:49:20.005 align:middle line:84%
+I take the absolute value
+of a and I add 2 to it.
+
+00:49:20.005 --> 00:49:22.580 align:middle line:90%
+
+
+00:49:22.580 --> 00:49:27.650 align:middle line:84%
+Then I define two other areas,
+and there's no way around it.
+
+00:49:27.650 --> 00:49:29.510 align:middle line:90%
+You have to define.
+
+00:49:29.510 --> 00:49:32.995 align:middle line:84%
+We will require to define
+several constants first.
+
+00:49:32.995 --> 00:49:35.690 align:middle line:90%
+
+
+00:49:35.690 --> 00:49:40.490 align:middle line:84%
+L1, capital L1, is going
+to be another constant.
+
+00:49:40.490 --> 00:49:43.250 align:middle line:90%
+It's going to be the maximum.
+
+00:49:43.250 --> 00:49:52.560 align:middle line:84%
+And then you take off over z,
+where z here is less than R,
+
+00:49:52.560 --> 00:49:57.815 align:middle line:84%
+and then you take
+the value like this.
+
+00:49:57.815 --> 00:50:00.404 align:middle line:90%
+
+
+00:50:00.404 --> 00:50:03.040 align:middle line:90%
+Remember, f is continuous.
+
+00:50:03.040 --> 00:50:08.470 align:middle line:84%
+So looking at where the
+norm of x is less than
+
+00:50:08.470 --> 00:50:13.560 align:middle line:84%
+or equal to some constant,
+then this, the maximum
+
+00:50:13.560 --> 00:50:15.120 align:middle line:90%
+is achieved on this.
+
+00:50:15.120 --> 00:50:18.630 align:middle line:84%
+So this is just
+some real number,
+
+00:50:18.630 --> 00:50:22.980 align:middle line:84%
+positive real,
+non-negative real number.
+
+00:50:22.980 --> 00:50:32.760 align:middle line:84%
+And then I define L2 to be
+the maximum of where I--
+
+00:50:32.760 --> 00:50:38.130 align:middle line:84%
+of maximum on this unit ball
+here, and where norm of x
+
+00:50:38.130 --> 00:50:43.340 align:middle line:84%
+is less than 1 of
+g of x, like that.
+
+00:50:43.340 --> 00:50:48.095 align:middle line:90%
+
+
+00:50:48.095 --> 00:50:53.320 align:middle line:90%
+And now, what I want to do is--
+
+00:50:53.320 --> 00:50:55.990 align:middle line:90%
+so the first step is--
+
+00:50:55.990 --> 00:50:58.250 align:middle line:84%
+so the first step
+is the following.
+
+00:50:58.250 --> 00:51:09.580 align:middle line:90%
+
+
+00:51:09.580 --> 00:51:19.660 align:middle line:84%
+So first step in the proof
+is to prove the following,
+
+00:51:19.660 --> 00:51:32.560 align:middle line:90%
+that there exists delta zero.
+
+00:51:32.560 --> 00:51:36.760 align:middle line:84%
+This is not the delta that
+I will use eventually.
+
+00:51:36.760 --> 00:51:38.980 align:middle line:84%
+I would have to
+restrict it further.
+
+00:51:38.980 --> 00:51:44.670 align:middle line:84%
+There exists delta zero, so that
+if you're looking at this space,
+
+00:51:44.670 --> 00:51:50.360 align:middle line:84%
+if y here is in the space
+of continuous functions
+
+00:51:50.360 --> 00:52:00.770 align:middle line:84%
+on this interval
+here, then T of y--
+
+00:52:00.770 --> 00:52:01.610 align:middle line:90%
+sorry.
+
+00:52:01.610 --> 00:52:08.365 align:middle line:84%
+If y is in this here, and
+y is in the unit ball--
+
+00:52:08.365 --> 00:52:11.030 align:middle line:90%
+
+
+00:52:11.030 --> 00:52:18.240 align:middle line:84%
+not in the unit ball, then y
+here is less or equal to R.
+
+00:52:18.240 --> 00:52:20.850 align:middle line:84%
+So it's a continuous
+function on this interval,
+
+00:52:20.850 --> 00:52:23.220 align:middle line:84%
+and the norm is
+less or equal to R.
+
+00:52:23.220 --> 00:52:26.690 align:middle line:84%
+So this means that so this is,
+of course, the same as saying
+
+00:52:26.690 --> 00:52:31.550 align:middle line:84%
+that y is in this
+ball here when I'm now
+
+00:52:31.550 --> 00:52:34.290 align:middle line:90%
+thinking about this as a space.
+
+00:52:34.290 --> 00:52:37.310 align:middle line:84%
+But you can forget
+about that if you want.
+
+00:52:37.310 --> 00:52:38.040 align:middle line:90%
+It's the same.
+
+00:52:38.040 --> 00:52:42.410 align:middle line:90%
+
+
+00:52:42.410 --> 00:52:46.220 align:middle line:84%
+And I want to show that T
+of y is in the same space.
+
+00:52:46.220 --> 00:52:51.130 align:middle line:90%
+So T of y.
+
+00:52:51.130 --> 00:52:53.300 align:middle line:90%
+So I want to show--
+
+00:52:53.300 --> 00:53:07.960 align:middle line:84%
+so I want to show that
+T of y at each x here,
+
+00:53:07.960 --> 00:53:10.780 align:middle line:90%
+the norm is less or equal to 1.
+
+00:53:10.780 --> 00:53:16.450 align:middle line:84%
+Then if I have that, I already
+know that this function T of y
+
+00:53:16.450 --> 00:53:17.420 align:middle line:90%
+is continuous.
+
+00:53:17.420 --> 00:53:20.470 align:middle line:84%
+It's actually even
+differentiable.
+
+00:53:20.470 --> 00:53:23.530 align:middle line:84%
+But it's, in
+particular, continuous.
+
+00:53:23.530 --> 00:53:27.370 align:middle line:84%
+And if I have this, then
+I know that this space
+
+00:53:27.370 --> 00:53:28.470 align:middle line:90%
+is taken into itself.
+
+00:53:28.470 --> 00:53:33.580 align:middle line:90%
+
+
+00:53:33.580 --> 00:53:37.150 align:middle line:90%
+So now, how do I do that?
+
+00:53:37.150 --> 00:53:42.500 align:middle line:84%
+So that's where I need to
+restrict the interval that I'm
+
+00:53:42.500 --> 00:53:43.500 align:middle line:90%
+looking on.
+
+00:53:43.500 --> 00:53:47.130 align:middle line:84%
+And again, we'll
+come back to it,
+
+00:53:47.130 --> 00:53:51.180 align:middle line:84%
+but there's a good reason
+that we have to restrict.
+
+00:53:51.180 --> 00:53:53.290 align:middle line:84%
+Otherwise, it couldn't
+possibly be true.
+
+00:53:53.290 --> 00:53:56.355 align:middle line:90%
+
+
+00:53:56.355 --> 00:53:56.855 align:middle line:90%
+Yeah.
+
+00:53:56.855 --> 00:53:58.700 align:middle line:84%
+STUDENT: To be
+contracting, do we need
+
+00:53:58.700 --> 00:54:00.710 align:middle line:90%
+it to be strictly less than 1?
+
+00:54:00.710 --> 00:54:03.020 align:middle line:84%
+PROFESSOR: So
+remember, contracting
+
+00:54:03.020 --> 00:54:09.200 align:middle line:84%
+means that there exists a
+constant c strictly less than 1.
+
+00:54:09.200 --> 00:54:12.300 align:middle line:84%
+This here has nothing to
+do with the constant c.
+
+00:54:12.300 --> 00:54:17.460 align:middle line:84%
+This here is just the space that
+we're looking at the map on.
+
+00:54:17.460 --> 00:54:21.120 align:middle line:90%
+And the reason why I make here--
+
+00:54:21.120 --> 00:54:24.180 align:middle line:84%
+so again, so this has
+nothing to do with that c.
+
+00:54:24.180 --> 00:54:27.380 align:middle line:84%
+But the reason why I want
+this less than or equal to
+
+00:54:27.380 --> 00:54:33.850 align:middle line:84%
+is that I want to have that
+the space is Cauchy complete.
+
+00:54:33.850 --> 00:54:34.350 align:middle line:90%
+Sorry.
+
+00:54:34.350 --> 00:54:36.930 align:middle line:84%
+So let me just try
+to make that clear.
+
+00:54:36.930 --> 00:54:43.270 align:middle line:84%
+So to get a fixed point
+for a contracting map,
+
+00:54:43.270 --> 00:54:46.470 align:middle line:84%
+you need a space that
+is Cauchy complete
+
+00:54:46.470 --> 00:54:49.150 align:middle line:84%
+when we prove this
+for the metric space.
+
+00:54:49.150 --> 00:54:51.330 align:middle line:90%
+We have a good candidate.
+
+00:54:51.330 --> 00:54:54.930 align:middle line:84%
+We have the candidate
+of continuous functions
+
+00:54:54.930 --> 00:54:57.340 align:middle line:84%
+on some closed
+interval like this.
+
+00:54:57.340 --> 00:55:01.440 align:middle line:84%
+This is Cauchy complete
+with the usual metric.
+
+00:55:01.440 --> 00:55:03.600 align:middle line:84%
+But I'm not going to
+look at that space
+
+00:55:03.600 --> 00:55:07.000 align:middle line:84%
+because my map is not actually
+contracting on the space.
+
+00:55:07.000 --> 00:55:09.520 align:middle line:90%
+It's contracting on a subset.
+
+00:55:09.520 --> 00:55:11.890 align:middle line:90%
+And so I need that subset.
+
+00:55:11.890 --> 00:55:16.090 align:middle line:84%
+So in the end, I'm sort
+of not working on this,
+
+00:55:16.090 --> 00:55:18.622 align:middle line:90%
+but I'm working on a subset.
+
+00:55:18.622 --> 00:55:22.390 align:middle line:84%
+And I need that subset
+to be Cauchy complete.
+
+00:55:22.390 --> 00:55:25.440 align:middle line:84%
+So basically, what I
+have is that this here
+
+00:55:25.440 --> 00:55:28.570 align:middle line:84%
+is the giant metric
+space I start with.
+
+00:55:28.570 --> 00:55:32.160 align:middle line:84%
+Then I'm looking
+at a ball in this.
+
+00:55:32.160 --> 00:55:36.270 align:middle line:84%
+And if I take the
+closed ball and it
+
+00:55:36.270 --> 00:55:37.960 align:middle line:84%
+happened to be at
+the origin, but it
+
+00:55:37.960 --> 00:55:40.120 align:middle line:90%
+could be just at any point.
+
+00:55:40.120 --> 00:55:43.300 align:middle line:84%
+If you take a metric space
+and you're checking something
+
+00:55:43.300 --> 00:55:47.060 align:middle line:84%
+like this, if the metric
+space is Cauchy complete,
+
+00:55:47.060 --> 00:55:49.870 align:middle line:84%
+then this subset is
+also Cauchy complete.
+
+00:55:49.870 --> 00:55:55.820 align:middle line:84%
+But this require I have
+less than or equal to--
+
+00:55:55.820 --> 00:55:58.360 align:middle line:84%
+because I also could kind
+of converge to something
+
+00:55:58.360 --> 00:56:01.904 align:middle line:90%
+where you got equality.
+
+00:56:01.904 --> 00:56:06.855 align:middle line:84%
+So that was why I
+do it like that.
+
+00:56:06.855 --> 00:56:09.800 align:middle line:90%
+So let's see.
+
+00:56:09.800 --> 00:56:12.760 align:middle line:90%
+So we are trying.
+
+00:56:12.760 --> 00:56:18.430 align:middle line:84%
+We have already defined
+this radius, capital R.
+
+00:56:18.430 --> 00:56:23.650 align:middle line:84%
+And then we have these
+two constants, L1 and L2.
+
+00:56:23.650 --> 00:56:28.390 align:middle line:84%
+And what I need to prove is--
+the first step here is to prove
+
+00:56:28.390 --> 00:56:29.620 align:middle line:90%
+that if--
+
+00:56:29.620 --> 00:56:31.670 align:middle line:90%
+I'm going to look again.
+
+00:56:31.670 --> 00:56:35.870 align:middle line:84%
+So the first step is
+that I need to restrict.
+
+00:56:35.870 --> 00:56:38.280 align:middle line:90%
+So I need to restrict.
+
+00:56:38.280 --> 00:56:44.870 align:middle line:84%
+So I'm going to look at a
+subset of these spaces of--
+
+00:56:44.870 --> 00:56:47.970 align:middle line:84%
+this is a subset of the
+continuous functions.
+
+00:56:47.970 --> 00:56:51.410 align:middle line:84%
+And I need to prove
+that if y is in here,
+
+00:56:51.410 --> 00:56:54.070 align:middle line:84%
+then the image is
+in the same space.
+
+00:56:54.070 --> 00:56:58.590 align:middle line:90%
+
+
+00:56:58.590 --> 00:57:03.740 align:middle line:84%
+And so this is the statement
+that if y is continuous,
+
+00:57:03.740 --> 00:57:09.750 align:middle line:84%
+the norm of this function
+is less than or equal to R.
+
+00:57:09.750 --> 00:57:14.840 align:middle line:84%
+So at each point, each x,
+the absolute value of y of x
+
+00:57:14.840 --> 00:57:18.170 align:middle line:84%
+is less or equal to R.
+Then you have the same
+
+00:57:18.170 --> 00:57:20.010 align:middle line:90%
+for the image under T.
+
+00:57:20.010 --> 00:57:23.960 align:middle line:84%
+We already know, again, that
+the image under the T of y
+
+00:57:23.960 --> 00:57:25.400 align:middle line:90%
+is continuous.
+
+00:57:25.400 --> 00:57:29.762 align:middle line:90%
+
+
+00:57:29.762 --> 00:57:36.840 align:middle line:84%
+And so what I can do is I
+can restrict my interval.
+
+00:57:36.840 --> 00:57:42.880 align:middle line:84%
+So I will restrict the
+interval as follows.
+
+00:57:42.880 --> 00:57:54.990 align:middle line:84%
+So I'm going to pick delta
+zero to be the minimum of 1
+
+00:57:54.990 --> 00:57:57.930 align:middle line:90%
+over L plus 1.
+
+00:57:57.930 --> 00:57:59.650 align:middle line:90%
+L is non-negative.
+
+00:57:59.650 --> 00:58:01.330 align:middle line:90%
+In principle, it could be zero.
+
+00:58:01.330 --> 00:58:04.890 align:middle line:84%
+I don't want to worry about
+that, so I just add 1.
+
+00:58:04.890 --> 00:58:09.540 align:middle line:84%
+And L2 could also be zero,
+although it is pretty unlikely
+
+00:58:09.540 --> 00:58:10.630 align:middle line:90%
+that any of them are zero.
+
+00:58:10.630 --> 00:58:12.900 align:middle line:84%
+But just to be safe,
+I'm just adding
+
+00:58:12.900 --> 00:58:16.050 align:middle line:90%
+so I don't divide by zero.
+
+00:58:16.050 --> 00:58:17.350 align:middle line:90%
+So that's why.
+
+00:58:17.350 --> 00:58:21.580 align:middle line:84%
+And the first
+thing is that I'm--
+
+00:58:21.580 --> 00:58:25.300 align:middle line:84%
+and then I'm going to look
+at the interval from this.
+
+00:58:25.300 --> 00:58:27.550 align:middle line:84%
+And this is not
+going to be my final.
+
+00:58:27.550 --> 00:58:30.570 align:middle line:84%
+I will have to do some
+further restriction.
+
+00:58:30.570 --> 00:58:34.240 align:middle line:84%
+But I'm going to look at
+this interval initially.
+
+00:58:34.240 --> 00:58:37.540 align:middle line:84%
+And the 1 here, it
+just comes in that I
+
+00:58:37.540 --> 00:58:42.340 align:middle line:84%
+want this here to be a
+subset of this unit interval.
+
+00:58:42.340 --> 00:58:50.104 align:middle line:90%
+
+
+00:58:50.104 --> 00:58:52.640 align:middle line:90%
+So now, let's try.
+
+00:58:52.640 --> 00:58:54.435 align:middle line:84%
+So now we are in
+good shape here.
+
+00:58:54.435 --> 00:59:04.240 align:middle line:90%
+
+
+00:59:04.240 --> 00:59:06.400 align:middle line:90%
+So now, let's look at Ty.
+
+00:59:06.400 --> 00:59:09.790 align:middle line:90%
+
+
+00:59:09.790 --> 00:59:13.270 align:middle line:84%
+And we need to estimate
+this at each x.
+
+00:59:13.270 --> 00:59:19.750 align:middle line:84%
+And we want to say that the
+norm is less than capital--
+
+00:59:19.750 --> 00:59:21.680 align:middle line:90%
+less or equal to capital R.
+
+00:59:21.680 --> 00:59:24.160 align:middle line:84%
+Well, let's just
+look at what this is.
+
+00:59:24.160 --> 00:59:28.090 align:middle line:84%
+This thing here is
+equal to this function.
+
+00:59:28.090 --> 00:59:32.810 align:middle line:84%
+T of y is defined to be a
+plus the integral from zero
+
+00:59:32.810 --> 00:59:49.640 align:middle line:84%
+to x of f of y of
+s, plus g of s, ds.
+
+00:59:49.640 --> 00:59:53.450 align:middle line:84%
+And then I have to have an
+absolute value like that.
+
+00:59:53.450 --> 00:59:56.570 align:middle line:84%
+And now I can just use the
+triangle inequality, of course,
+
+00:59:56.570 --> 00:59:57.830 align:middle line:90%
+trivially.
+
+00:59:57.830 --> 01:00:01.700 align:middle line:84%
+I get absolute value of
+this, and then plus, and then
+
+01:00:01.700 --> 01:00:05.215 align:middle line:90%
+the integral here, like that.
+
+01:00:05.215 --> 01:00:09.330 align:middle line:90%
+
+
+01:00:09.330 --> 01:00:09.830 align:middle line:90%
+Oops.
+
+01:00:09.830 --> 01:00:15.650 align:middle line:90%
+
+
+01:00:15.650 --> 01:00:20.750 align:middle line:84%
+And then I can just take
+this absolute value in under.
+
+01:00:20.750 --> 01:00:27.990 align:middle line:84%
+So I get less than or equal to
+a plus, and then the integral,
+
+01:00:27.990 --> 01:00:33.780 align:middle line:84%
+and then the absolute
+value of f of y of s.
+
+01:00:33.780 --> 01:00:37.740 align:middle line:84%
+And here I can also
+take the absolute value
+
+01:00:37.740 --> 01:00:40.930 align:middle line:84%
+using the triangle inequality
+on each individually.
+
+01:00:40.930 --> 01:00:45.240 align:middle line:90%
+
+
+01:00:45.240 --> 01:00:48.480 align:middle line:90%
+So I can write it like this.
+
+01:00:48.480 --> 01:00:52.750 align:middle line:90%
+Now, this is where I use--
+
+01:00:52.750 --> 01:00:59.550 align:middle line:84%
+so s here will have to
+lie between zero and x.
+
+01:00:59.550 --> 01:01:01.783 align:middle line:90%
+And so x is between--
+
+01:01:01.783 --> 01:01:05.940 align:middle line:90%
+
+
+01:01:05.940 --> 01:01:07.990 align:middle line:90%
+let me just draw it here.
+
+01:01:07.990 --> 01:01:11.610 align:middle line:90%
+So here I have zero.
+
+01:01:11.610 --> 01:01:13.890 align:middle line:90%
+Here I have delta zero.
+
+01:01:13.890 --> 01:01:18.270 align:middle line:84%
+And then I have-- this is zero,
+and here I have x somewhere.
+
+01:01:18.270 --> 01:01:21.910 align:middle line:90%
+
+
+01:01:21.910 --> 01:01:25.500 align:middle line:90%
+So this means that--
+
+01:01:25.500 --> 01:01:33.280 align:middle line:84%
+this means that so here you have
+x, but x itself, x has to lie--
+
+01:01:33.280 --> 01:01:40.180 align:middle line:84%
+x has to lie between delta
+zero minus delta zero,
+
+01:01:40.180 --> 01:01:41.510 align:middle line:90%
+and delta zero.
+
+01:01:41.510 --> 01:01:45.290 align:middle line:84%
+And s has to lie
+between zero and x.
+
+01:01:45.290 --> 01:01:49.730 align:middle line:84%
+So this means that s
+here lies between--
+
+01:01:49.730 --> 01:01:53.505 align:middle line:84%
+x will lie in this
+interval, also.
+
+01:01:53.505 --> 01:01:58.889 align:middle line:90%
+
+
+01:01:58.889 --> 01:02:01.466 align:middle line:90%
+But now you see that--
+
+01:02:01.466 --> 01:02:06.400 align:middle line:90%
+
+
+01:02:06.400 --> 01:02:13.040 align:middle line:84%
+so now if we're looking
+at-- so we have T of y in x.
+
+01:02:13.040 --> 01:02:18.700 align:middle line:84%
+Again, remember that
+x here is less than
+
+01:02:18.700 --> 01:02:20.860 align:middle line:90%
+or equal to delta zero.
+
+01:02:20.860 --> 01:02:24.040 align:middle line:84%
+So we have that
+this thing here is
+
+01:02:24.040 --> 01:02:28.700 align:middle line:84%
+less than or equal to a plus,
+and then the integral from zero
+
+01:02:28.700 --> 01:02:44.510 align:middle line:84%
+to x of f of y of
+s, plus g of s ds.
+
+01:02:44.510 --> 01:02:48.500 align:middle line:84%
+And the first thing I
+observe is that s here
+
+01:02:48.500 --> 01:02:53.270 align:middle line:84%
+is also, just because
+x was in that interval,
+
+01:02:53.270 --> 01:02:56.690 align:middle line:90%
+you also have that s--
+
+01:02:56.690 --> 01:03:01.850 align:middle line:84%
+because x is in that interval,
+s is also in this interval.
+
+01:03:01.850 --> 01:03:06.860 align:middle line:84%
+The second thing I
+observe is that I'm
+
+01:03:06.860 --> 01:03:12.320 align:middle line:84%
+assuming that the function
+that I start with at each point
+
+01:03:12.320 --> 01:03:20.450 align:middle line:84%
+have no less than R. Now, if
+I'm using these two things,
+
+01:03:20.450 --> 01:03:22.800 align:middle line:90%
+then I have that--
+
+01:03:22.800 --> 01:03:30.520 align:middle line:84%
+so this means that g
+of s, this one here,
+
+01:03:30.520 --> 01:03:35.820 align:middle line:84%
+this is how we defined L2
+because this interval here
+
+01:03:35.820 --> 01:03:40.270 align:middle line:84%
+is contained in the interval
+between minus 1 and 1.
+
+01:03:40.270 --> 01:03:42.970 align:middle line:84%
+This here is contained in the
+interval between negative,
+
+01:03:42.970 --> 01:03:45.720 align:middle line:90%
+minus 1 and 1.
+
+01:03:45.720 --> 01:03:51.690 align:middle line:84%
+So we have that g of s
+is less than this L2,
+
+01:03:51.690 --> 01:03:52.865 align:middle line:90%
+less than or equal to L2.
+
+01:03:52.865 --> 01:03:56.502 align:middle line:90%
+
+
+01:03:56.502 --> 01:04:03.240 align:middle line:84%
+The second thing we observe is
+that because we have this here,
+
+01:04:03.240 --> 01:04:06.140 align:middle line:90%
+for each s, we have this.
+
+01:04:06.140 --> 01:04:09.420 align:middle line:90%
+
+
+01:04:09.420 --> 01:04:16.360 align:middle line:84%
+Then it means, you
+see, by the first--
+
+01:04:16.360 --> 01:04:25.460 align:middle line:84%
+by the definition of
+L1 that f of y of s,
+
+01:04:25.460 --> 01:04:28.150 align:middle line:84%
+this thing here,
+is less than L1.
+
+01:04:28.150 --> 01:04:30.920 align:middle line:90%
+
+
+01:04:30.920 --> 01:04:35.572 align:middle line:90%
+L1 and L2 are now fixed numbers.
+
+01:04:35.572 --> 01:04:39.350 align:middle line:84%
+And so you see that this
+second thing here, I
+
+01:04:39.350 --> 01:04:42.660 align:middle line:90%
+can bound this thing here by--
+
+01:04:42.660 --> 01:04:45.657 align:middle line:84%
+so this is less
+than or equal to a.
+
+01:04:45.657 --> 01:04:47.490 align:middle line:84%
+And that should have
+been an absolute value.
+
+01:04:47.490 --> 01:04:52.610 align:middle line:84%
+Somehow I lost it when I
+copied it from this line.
+
+01:04:52.610 --> 01:04:55.190 align:middle line:90%
+a, absolute value of a.
+
+01:04:55.190 --> 01:04:59.390 align:middle line:84%
+And then on the first one
+here, the length of this
+
+01:04:59.390 --> 01:05:05.100 align:middle line:84%
+interval, but that is, of
+course, bounded by delta zero.
+
+01:05:05.100 --> 01:05:11.450 align:middle line:84%
+So this is plus delta zero, and
+then the maximum possible value
+
+01:05:11.450 --> 01:05:14.360 align:middle line:90%
+of this, that would be L1.
+
+01:05:14.360 --> 01:05:17.900 align:middle line:84%
+And then likewise, the length of
+this interval you're integrating
+
+01:05:17.900 --> 01:05:20.160 align:middle line:90%
+over is at most delta zero.
+
+01:05:20.160 --> 01:05:23.700 align:middle line:84%
+And this one here cannot
+be larger than L2.
+
+01:05:23.700 --> 01:05:24.855 align:middle line:90%
+So you have this.
+
+01:05:24.855 --> 01:05:27.660 align:middle line:90%
+
+
+01:05:27.660 --> 01:05:31.900 align:middle line:84%
+And now, remember
+what delta zero was.
+
+01:05:31.900 --> 01:05:33.510 align:middle line:90%
+And I will just--
+
+01:05:33.510 --> 01:05:37.570 align:middle line:84%
+I have just on the
+bottom, below here.
+
+01:05:37.570 --> 01:05:39.630 align:middle line:90%
+But let me just write it here.
+
+01:05:39.630 --> 01:05:44.220 align:middle line:84%
+This here was what delta
+zero was chosen to be,
+
+01:05:44.220 --> 01:05:54.110 align:middle line:84%
+the minimum, 1 over L1
+plus 1, 1 over L2 plus 1.
+
+01:05:54.110 --> 01:06:03.520 align:middle line:90%
+
+
+01:06:03.520 --> 01:06:11.910 align:middle line:84%
+So now, we have that this thing
+here is less than this here.
+
+01:06:11.910 --> 01:06:16.260 align:middle line:90%
+We just keep this thing here.
+
+01:06:16.260 --> 01:06:24.010 align:middle line:84%
+Well, delta is, in particular,
+less than this thing here.
+
+01:06:24.010 --> 01:06:31.420 align:middle line:84%
+So you see that if you plug in
+this, so it's like plus 1, L1
+
+01:06:31.420 --> 01:06:34.300 align:middle line:90%
+plus 1 times L1.
+
+01:06:34.300 --> 01:06:37.910 align:middle line:84%
+Likewise, over here,
+you're using this.
+
+01:06:37.910 --> 01:06:42.500 align:middle line:84%
+So you're getting 1
+over L2 plus 1 L2.
+
+01:06:42.500 --> 01:06:45.710 align:middle line:84%
+And now you see that this
+thing here is less than 1.
+
+01:06:45.710 --> 01:06:47.480 align:middle line:90%
+This is less than 1.
+
+01:06:47.480 --> 01:06:49.780 align:middle line:90%
+So this is less than a.
+
+01:06:49.780 --> 01:06:52.450 align:middle line:84%
+It's actually strictly less,
+but it doesn't really matter.
+
+01:06:52.450 --> 01:06:59.230 align:middle line:90%
+a plus 2 like this.
+
+01:06:59.230 --> 01:07:05.320 align:middle line:90%
+
+
+01:07:05.320 --> 01:07:07.840 align:middle line:90%
+So this means that--
+
+01:07:07.840 --> 01:07:12.670 align:middle line:84%
+so then, but this
+here, this was exactly
+
+01:07:12.670 --> 01:07:17.750 align:middle line:84%
+the definition of capital
+R. And so you have that.
+
+01:07:17.750 --> 01:07:20.060 align:middle line:84%
+And when I copied
+it over, I also
+
+01:07:20.060 --> 01:07:23.780 align:middle line:84%
+forgot to put absolute
+value sign here.
+
+01:07:23.780 --> 01:07:27.270 align:middle line:84%
+So you have that
+if-- so have that
+
+01:07:27.270 --> 01:07:31.310 align:middle line:84%
+if-- so the conclusion
+here is that if y here
+
+01:07:31.310 --> 01:07:41.060 align:middle line:84%
+is a continuous function
+on this interval here,
+
+01:07:41.060 --> 01:07:47.420 align:middle line:84%
+and the norm of y at each point
+is less or equal to r, well,
+
+01:07:47.420 --> 01:07:58.010 align:middle line:84%
+then you have that T of y at
+each point is less than R.
+
+01:07:58.010 --> 01:08:02.780 align:middle line:84%
+It's actually strictly less,
+but we don't care about that.
+
+01:08:02.780 --> 01:08:09.920 align:middle line:90%
+So what you have now is--
+
+01:08:09.920 --> 01:08:14.960 align:middle line:84%
+so what we now have proven
+is that we have this map T.
+
+01:08:14.960 --> 01:08:17.250 align:middle line:84%
+And now I'm going to
+think about this map--
+
+01:08:17.250 --> 01:08:26.220 align:middle line:84%
+sorry-- on the space of y that
+is continuous on this interval
+
+01:08:26.220 --> 01:08:26.720 align:middle line:90%
+here.
+
+01:08:26.720 --> 01:08:32.220 align:middle line:90%
+
+
+01:08:32.220 --> 01:08:35.340 align:middle line:84%
+And what you have
+is-- and also, sorry.
+
+01:08:35.340 --> 01:08:40.149 align:middle line:84%
+And I'm thinking about with
+the norm at each point.
+
+01:08:40.149 --> 01:08:41.819 align:middle line:90%
+This here is less than R.
+
+01:08:41.819 --> 01:08:45.340 align:middle line:84%
+And again, this is really a
+ball in this metric space,
+
+01:08:45.340 --> 01:08:48.569 align:middle line:84%
+but let me just write
+it out like this.
+
+01:08:48.569 --> 01:08:50.970 align:middle line:84%
+And what you have
+is that-- sorry.
+
+01:08:50.970 --> 01:08:56.340 align:middle line:84%
+This is the space, and
+you have that T of y.
+
+01:08:56.340 --> 01:09:01.090 align:middle line:84%
+If y is in this space, then
+T of y is in the same space.
+
+01:09:01.090 --> 01:09:06.919 align:middle line:84%
+So T of y is also
+continuous on that interval.
+
+01:09:06.919 --> 01:09:09.490 align:middle line:90%
+
+
+01:09:09.490 --> 01:09:16.200 align:middle line:84%
+And T of y at each point
+x is less or equal to R.
+
+01:09:16.200 --> 01:09:19.275 align:middle line:84%
+So the map mapped this
+space into itself.
+
+01:09:19.275 --> 01:09:22.495 align:middle line:90%
+
+
+01:09:22.495 --> 01:09:28.120 align:middle line:84%
+Now, the next thing
+we want to prove
+
+01:09:28.120 --> 01:09:30.496 align:middle line:90%
+is that the map is contracting.
+
+01:09:30.496 --> 01:09:46.900 align:middle line:90%
+
+
+01:09:46.900 --> 01:09:49.029 align:middle line:90%
+You see that you need--
+
+01:09:49.029 --> 01:09:52.640 align:middle line:84%
+you know if this
+space is not stable.
+
+01:09:52.640 --> 01:09:57.550 align:middle line:84%
+So imagine that you
+take-- so we're starting
+
+01:09:57.550 --> 01:09:59.210 align:middle line:90%
+with some giant metric space.
+
+01:09:59.210 --> 01:10:02.550 align:middle line:84%
+This is the continuous
+function, say, on this interval.
+
+01:10:02.550 --> 01:10:09.040 align:middle line:90%
+
+
+01:10:09.040 --> 01:10:12.470 align:middle line:84%
+And then we're looking
+at some subspace of that.
+
+01:10:12.470 --> 01:10:14.785 align:middle line:84%
+So these are continuous
+on a smaller interval.
+
+01:10:14.785 --> 01:10:19.740 align:middle line:90%
+
+
+01:10:19.740 --> 01:10:23.600 align:middle line:90%
+And then we have to find a map.
+
+01:10:23.600 --> 01:10:29.090 align:middle line:84%
+But if somehow the
+map was taking us
+
+01:10:29.090 --> 01:10:31.950 align:middle line:84%
+out of the space where
+it's contracting,
+
+01:10:31.950 --> 01:10:35.970 align:middle line:84%
+then we couldn't keep
+applying the contracting map.
+
+01:10:35.970 --> 01:10:38.420 align:middle line:90%
+It wouldn't anymore be--
+
+01:10:38.420 --> 01:10:41.370 align:middle line:84%
+And the thing is that
+you want to just iterate.
+
+01:10:41.370 --> 01:10:42.290 align:middle line:90%
+You want to keep.
+
+01:10:42.290 --> 01:10:44.360 align:middle line:84%
+You want to pick some
+point, and then you
+
+01:10:44.360 --> 01:10:47.610 align:middle line:84%
+want to keep applying
+the contracting map.
+
+01:10:47.610 --> 01:10:51.360 align:middle line:84%
+So you want it to stay in the
+space where it is contracting.
+
+01:10:51.360 --> 01:10:53.750 align:middle line:84%
+And so this is
+what we did in one.
+
+01:10:53.750 --> 01:10:56.660 align:middle line:84%
+But we haven't yet proved
+that the map is contracting.
+
+01:10:56.660 --> 01:11:00.440 align:middle line:84%
+And so now, to prove that
+the map is contracting,
+
+01:11:00.440 --> 01:11:05.175 align:middle line:84%
+we're going to further
+restrict the interval.
+
+01:11:05.175 --> 01:11:08.600 align:middle line:84%
+And so this is-- so
+I'm going to set.
+
+01:11:08.600 --> 01:11:11.400 align:middle line:84%
+I'm going to define
+now one more constant.
+
+01:11:11.400 --> 01:11:13.130 align:middle line:90%
+Sorry about that.
+
+01:11:13.130 --> 01:11:15.750 align:middle line:90%
+So this is M here.
+
+01:11:15.750 --> 01:11:21.660 align:middle line:84%
+And M is going to be
+just the max of f prime--
+
+01:11:21.660 --> 01:11:24.450 align:middle line:90%
+
+
+01:11:24.450 --> 01:11:29.460 align:middle line:84%
+of f prime of z,
+absolute value of this,
+
+01:11:29.460 --> 01:11:35.563 align:middle line:84%
+where z here is less or
+equal to R. So this is my--
+
+01:11:35.563 --> 01:11:41.730 align:middle line:90%
+
+
+01:11:41.730 --> 01:11:44.315 align:middle line:84%
+well, almost the second
+last constant function.
+
+01:11:44.315 --> 01:11:48.090 align:middle line:90%
+
+
+01:11:48.090 --> 01:11:50.640 align:middle line:84%
+And now I'm going
+to define this.
+
+01:11:50.640 --> 01:11:54.540 align:middle line:84%
+So the last constant is
+going to be the interval
+
+01:11:54.540 --> 01:11:55.870 align:middle line:90%
+that I'm going to work with.
+
+01:11:55.870 --> 01:11:58.170 align:middle line:84%
+So remember, what
+I'm trying to do
+
+01:11:58.170 --> 01:12:03.970 align:middle line:84%
+is, I have this
+differential equation.
+
+01:12:03.970 --> 01:12:11.230 align:middle line:84%
+And I want to say that, near
+zero, there is a solution.
+
+01:12:11.230 --> 01:12:14.830 align:middle line:84%
+But near zero just means that
+there exists some tiny interval
+
+01:12:14.830 --> 01:12:17.090 align:middle line:84%
+around zero where
+I have a solution.
+
+01:12:17.090 --> 01:12:20.350 align:middle line:84%
+And again, if I have time,
+I also will do it next time.
+
+01:12:20.350 --> 01:12:24.610 align:middle line:84%
+I will give an example where you
+can see that, in general, you
+
+01:12:24.610 --> 01:12:27.430 align:middle line:84%
+would need to look at a
+very tiny interval for this
+
+01:12:27.430 --> 01:12:28.250 align:middle line:90%
+to have a solution.
+
+01:12:28.250 --> 01:12:30.720 align:middle line:84%
+Otherwise, it doesn't have a
+solution on a very large set.
+
+01:12:30.720 --> 01:12:34.370 align:middle line:90%
+
+
+01:12:34.370 --> 01:12:36.500 align:middle line:90%
+So I define it like this.
+
+01:12:36.500 --> 01:12:38.960 align:middle line:90%
+And then I define delta here.
+
+01:12:38.960 --> 01:12:44.680 align:middle line:84%
+So delta is now going to be
+the minimum of delta zero,
+
+01:12:44.680 --> 01:12:50.340 align:middle line:84%
+the one from before, and
+then 1 over 2M plus 1.
+
+01:12:50.340 --> 01:12:53.320 align:middle line:90%
+
+
+01:12:53.320 --> 01:12:58.360 align:middle line:84%
+And now I want to
+look at the space.
+
+01:12:58.360 --> 01:13:02.320 align:middle line:84%
+So I want to look
+at T. And then T
+
+01:13:02.320 --> 01:13:07.400 align:middle line:84%
+is going to be a map from
+the continuous functions.
+
+01:13:07.400 --> 01:13:10.720 align:middle line:84%
+So y here is a
+continuous function
+
+01:13:10.720 --> 01:13:14.250 align:middle line:90%
+on, now, this little interval.
+
+01:13:14.250 --> 01:13:19.010 align:middle line:84%
+So this interval here, because
+you have the minimum of this,
+
+01:13:19.010 --> 01:13:22.040 align:middle line:84%
+this interval is contained
+in the corresponding interval
+
+01:13:22.040 --> 01:13:23.730 align:middle line:90%
+with delta zero.
+
+01:13:23.730 --> 01:13:28.880 align:middle line:84%
+So it's y in this space, such
+that the norm here at each point
+
+01:13:28.880 --> 01:13:31.490 align:middle line:84%
+is less than or
+equal to R. That's
+
+01:13:31.490 --> 01:13:33.330 align:middle line:90%
+the space I'm going to look at.
+
+01:13:33.330 --> 01:13:39.540 align:middle line:84%
+And we already know that T
+maps this space into itself,
+
+01:13:39.540 --> 01:13:41.570 align:middle line:84%
+because there's really
+no new statement.
+
+01:13:41.570 --> 01:13:43.860 align:middle line:90%
+If the function is--
+
+01:13:43.860 --> 01:13:48.390 align:middle line:84%
+so as long as you have this
+here, and you apply T on it,
+
+01:13:48.390 --> 01:13:50.490 align:middle line:84%
+T, when you apply
+T on a function,
+
+01:13:50.490 --> 01:13:52.200 align:middle line:84%
+it's defined on
+the same interval.
+
+01:13:52.200 --> 01:13:55.280 align:middle line:84%
+So it will automatically define
+on this smaller interval.
+
+01:13:55.280 --> 01:13:58.890 align:middle line:84%
+And we already
+have this property.
+
+01:13:58.890 --> 01:14:03.170 align:middle line:84%
+So T maps this space
+here into itself.
+
+01:14:03.170 --> 01:14:06.260 align:middle line:90%
+
+
+01:14:06.260 --> 01:14:08.780 align:middle line:90%
+And now I want to prove.
+
+01:14:08.780 --> 01:14:10.570 align:middle line:90%
+I want to estimate.
+
+01:14:10.570 --> 01:14:14.850 align:middle line:84%
+So I take two elements
+in this space.
+
+01:14:14.850 --> 01:14:17.230 align:middle line:90%
+So I have y1 and y2.
+
+01:14:17.230 --> 01:14:18.850 align:middle line:90%
+So you're looking at--
+
+01:14:18.850 --> 01:14:25.800 align:middle line:90%
+so y1 and y2 are in this space.
+
+01:14:25.800 --> 01:14:35.240 align:middle line:84%
+And you want to look at what is
+the distance between y1 and y2.
+
+01:14:35.240 --> 01:14:39.450 align:middle line:90%
+
+
+01:14:39.450 --> 01:14:42.960 align:middle line:84%
+So we want this
+here, and we want--
+
+01:14:42.960 --> 01:14:47.400 align:middle line:84%
+what I want to prove is
+that it's contracting.
+
+01:14:47.400 --> 01:14:48.755 align:middle line:90%
+So we want to show.
+
+01:14:48.755 --> 01:14:54.030 align:middle line:90%
+
+
+01:14:54.030 --> 01:14:55.470 align:middle line:90%
+And I want to prove.
+
+01:14:55.470 --> 01:14:58.020 align:middle line:90%
+I'm going to prove it.
+
+01:14:58.020 --> 01:15:00.700 align:middle line:90%
+My constant c will be explicit.
+
+01:15:00.700 --> 01:15:06.510 align:middle line:84%
+It will be just one half, so
+that certainly is less than 1.
+
+01:15:06.510 --> 01:15:07.970 align:middle line:90%
+And this is what I want.
+
+01:15:07.970 --> 01:15:12.601 align:middle line:90%
+
+
+01:15:12.601 --> 01:15:20.595 align:middle line:90%
+So now, let's look at them.
+
+01:15:20.595 --> 01:15:26.320 align:middle line:90%
+
+
+01:15:26.320 --> 01:15:31.380 align:middle line:90%
+So T of y1 minus T of y2.
+
+01:15:31.380 --> 01:15:34.090 align:middle line:90%
+
+
+01:15:34.090 --> 01:15:38.110 align:middle line:84%
+This thing here,
+T of y1 is defined
+
+01:15:38.110 --> 01:15:40.850 align:middle line:90%
+to be a plus the integral.
+
+01:15:40.850 --> 01:15:41.440 align:middle line:90%
+Sorry.
+
+01:15:41.440 --> 01:15:42.470 align:middle line:90%
+And let me write.
+
+01:15:42.470 --> 01:15:44.290 align:middle line:84%
+So I'm going to--
+let me just make
+
+01:15:44.290 --> 01:15:45.770 align:middle line:90%
+it a little more space here.
+
+01:15:45.770 --> 01:15:49.150 align:middle line:84%
+I worry that I'm running
+out of time, but let's see.
+
+01:15:49.150 --> 01:15:53.320 align:middle line:84%
+So this thing here,
+minus T of y2.
+
+01:15:53.320 --> 01:15:56.690 align:middle line:84%
+And I'm just looking at
+the difference in some x.
+
+01:15:56.690 --> 01:15:59.890 align:middle line:90%
+And again, x here is now in--
+
+01:15:59.890 --> 01:16:03.880 align:middle line:90%
+x here will be in the integral.
+
+01:16:03.880 --> 01:16:11.580 align:middle line:84%
+You were looking at x in the
+integral, in this integral.
+
+01:16:11.580 --> 01:16:15.580 align:middle line:84%
+And so I'm just writing down
+first here what this is.
+
+01:16:15.580 --> 01:16:29.030 align:middle line:84%
+This is the integral from a to
+x of f of y1, s plus g of s.
+
+01:16:29.030 --> 01:16:33.660 align:middle line:90%
+
+
+01:16:33.660 --> 01:16:36.420 align:middle line:90%
+And then you have minus.
+
+01:16:36.420 --> 01:16:39.750 align:middle line:90%
+This is what you get for y2.
+
+01:16:39.750 --> 01:16:43.040 align:middle line:90%
+a, so minus this thing here.
+
+01:16:43.040 --> 01:16:56.760 align:middle line:90%
+
+
+01:16:56.760 --> 01:17:00.690 align:middle line:90%
+So this is this difference.
+
+01:17:00.690 --> 01:17:02.730 align:middle line:84%
+And what you see
+is the first thing
+
+01:17:02.730 --> 01:17:06.370 align:middle line:84%
+you observe is that
+this a here cancels.
+
+01:17:06.370 --> 01:17:11.090 align:middle line:84%
+But not only does this cancel,
+but this term here also cancel.
+
+01:17:11.090 --> 01:17:13.480 align:middle line:84%
+And actually, there
+was a good reason
+
+01:17:13.480 --> 01:17:15.460 align:middle line:90%
+that there are lower order.
+
+01:17:15.460 --> 01:17:20.380 align:middle line:84%
+And the point here is
+that by-- the main point
+
+01:17:20.380 --> 01:17:23.660 align:middle line:84%
+is in the unknown
+function anyway.
+
+01:17:23.660 --> 01:17:29.290 align:middle line:84%
+And it's what's called
+a non-linear equation.
+
+01:17:29.290 --> 01:17:33.598 align:middle line:90%
+So that's a difficulty.
+
+01:17:33.598 --> 01:17:37.150 align:middle line:84%
+But what you then get
+when you write down,
+
+01:17:37.150 --> 01:17:40.150 align:middle line:84%
+when you have-- after
+the cancellation, what
+
+01:17:40.150 --> 01:17:55.520 align:middle line:84%
+you get is f of y1 of s
+minus f of y2 of s, ds.
+
+01:17:55.520 --> 01:17:57.700 align:middle line:90%
+So you have that.
+
+01:17:57.700 --> 01:18:05.970 align:middle line:84%
+Now, I will look at this thing
+here and that thing here.
+
+01:18:05.970 --> 01:18:07.220 align:middle line:90%
+And I'm going to--
+
+01:18:07.220 --> 01:18:10.530 align:middle line:90%
+and you have to now abstract.
+
+01:18:10.530 --> 01:18:13.790 align:middle line:84%
+So now I'm going to look
+at this difference here.
+
+01:18:13.790 --> 01:18:18.170 align:middle line:84%
+And then now, the thing is that
+you have to abstract from it,
+
+01:18:18.170 --> 01:18:23.540 align:middle line:84%
+and you have to think
+about s as being--
+
+01:18:23.540 --> 01:18:28.040 align:middle line:84%
+if you think about
+s as being fixed,
+
+01:18:28.040 --> 01:18:31.790 align:middle line:90%
+then this is just two numbers.
+
+01:18:31.790 --> 01:18:37.970 align:middle line:84%
+You could think about this
+as z1 and this here as z2.
+
+01:18:37.970 --> 01:18:40.950 align:middle line:90%
+This is z1, and this is z2.
+
+01:18:40.950 --> 01:18:46.105 align:middle line:84%
+So it's like f of
+z1 minus f of z2.
+
+01:18:46.105 --> 01:18:48.671 align:middle line:90%
+
+
+01:18:48.671 --> 01:18:52.910 align:middle line:84%
+Now, the mean value theorem
+tells us that this thing here
+
+01:18:52.910 --> 01:18:59.810 align:middle line:84%
+is equal to the derivative
+at some intermediate point,
+
+01:18:59.810 --> 01:19:12.570 align:middle line:84%
+let's say, z3, where z3
+is between z1 and z2,
+
+01:19:12.570 --> 01:19:17.640 align:middle line:90%
+and then times z1 minus z2.
+
+01:19:17.640 --> 01:19:23.400 align:middle line:90%
+
+
+01:19:23.400 --> 01:19:30.210 align:middle line:84%
+So this is just for
+any xs, you have this.
+
+01:19:30.210 --> 01:19:33.150 align:middle line:90%
+But this means that--
+
+01:19:33.150 --> 01:19:36.240 align:middle line:84%
+this means that-- are we
+are almost out of time?
+
+01:19:36.240 --> 01:19:42.960 align:middle line:84%
+So this means that when you're
+looking at the norm of this,
+
+01:19:42.960 --> 01:19:54.850 align:middle line:84%
+f of y1 of s minus f of y2
+of s, that the norm here is--
+
+01:19:54.850 --> 01:20:04.390 align:middle line:84%
+so the norm is equal to
+f prime at z3 times z1.
+
+01:20:04.390 --> 01:20:05.840 align:middle line:90%
+And z1 I can write in.
+
+01:20:05.840 --> 01:20:07.010 align:middle line:90%
+It's really this.
+
+01:20:07.010 --> 01:20:13.030 align:middle line:90%
+And this is z2.
+
+01:20:13.030 --> 01:20:16.210 align:middle line:84%
+This thing here,
+remember, z is some point
+
+01:20:16.210 --> 01:20:18.380 align:middle line:90%
+in between those two points.
+
+01:20:18.380 --> 01:20:22.430 align:middle line:84%
+But both of these points,
+both of these points here,
+
+01:20:22.430 --> 01:20:28.810 align:middle line:84%
+both this one here and that
+one here have norm less than R.
+
+01:20:28.810 --> 01:20:31.850 align:middle line:90%
+So this here is--
+
+01:20:31.850 --> 01:20:37.390 align:middle line:84%
+but now where the way
+that M was defined,
+
+01:20:37.390 --> 01:20:41.380 align:middle line:84%
+and it should have
+been on the same board.
+
+01:20:41.380 --> 01:20:49.570 align:middle line:84%
+So M here was defined to be
+the maximum of f prime of z,
+
+01:20:49.570 --> 01:20:53.860 align:middle line:90%
+where z was less or equal to 1.
+
+01:20:53.860 --> 01:20:57.520 align:middle line:84%
+And so you see that
+this thing here where
+
+01:20:57.520 --> 01:21:01.850 align:middle line:84%
+you take the derivative
+that is bounded by M.
+
+01:21:01.850 --> 01:21:12.635 align:middle line:84%
+So this thing here is less than
+M y1 s minus y2 of s, like that.
+
+01:21:12.635 --> 01:21:14.720 align:middle line:84%
+So I'm not sure
+where we should stop.
+
+01:21:14.720 --> 01:21:17.280 align:middle line:84%
+We over, and I probably
+need a few more minutes.
+
+01:21:17.280 --> 01:21:18.530 align:middle line:90%
+Maybe we should stop.
+
+01:21:18.530 --> 01:21:25.520 align:middle line:84%
+And it's not a great place to
+stop, but that's how it goes.
+
+01:21:25.520 --> 01:21:29.990 align:middle line:84%
+So I will keep
+you in suspension,
+
+01:21:29.990 --> 01:21:37.020 align:middle line:84%
+and so we'll pick up
+from here on Tuesday.
+
+01:21:37.020 --> 01:21:41.480 align:middle line:84%
+And so I want anyway to
+explain to you why, actually,
+
+01:21:41.480 --> 01:21:45.530 align:middle line:84%
+this method, which seems
+a little crazy in a way
+
+01:21:45.530 --> 01:21:48.650 align:middle line:84%
+because it's bringing in all
+these things, why it turned out
+
+01:21:48.650 --> 01:21:51.980 align:middle line:90%
+to be basically optimal.
+
+01:21:51.980 --> 01:21:56.830 align:middle line:84%
+And then we'll do a review the
+rest of the time on Tuesday.
+
+01:21:56.830 --> 01:21:59.000 align:middle line:90%
